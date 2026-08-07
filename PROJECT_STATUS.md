@@ -2,7 +2,9 @@
 
 ## Current release line
 
-**v2.0.1 — Knowledge Reconciliation Engine**
+**v2.3.0 — Coverage Intelligence**
+
+The Blockchain Library is operating as a synchronized platform across Base44, GitHub, Mintlify and the public Knowledge Explorer.
 
 ## Production knowledge inventory
 
@@ -22,32 +24,31 @@
 | Newsletters | 9 | Compiled |
 | Knowledge Graph Edges | — | 7,415 usable edges |
 
+## Platform layers
+
+- **Base44:** authored content, public website, Explorer, Coverage Intelligence and editorial workflow.
+- **GitHub:** canonical objects, compiler, releases, graph, search, schemas and governance.
+- **Mintlify:** documentation and developer reference.
+
 ## Reconciliation status
 
 - 298 exact duplicate export rows removed;
-- 15 additional canonical collision groups merged;
+- 15 canonical collision groups merged;
 - duplicate canonical UIDs reduced to zero;
 - 1,595 unresolved relationship references remain;
-- those unresolved references represent 299 unique missing concept candidates;
-- 21 self-referencing edges are excluded from the graph;
-- missing SEO, tags, and categorization are tracked as quality metrics.
+- 299 unique missing concept candidates remain;
+- 21 self-referencing edges excluded.
 
-## Current architecture
+## Current issue under correction
 
-Base44 is the editorial authoring layer. GitHub stores the versioned compiled knowledge artifacts. The Knowledge Compiler validates and reconciles the export between them.
+The first v2.3.0 coverage pass undercounts some research, tutorials, code examples, references, categories and priority gaps. This is a coverage-resolution issue, not a loss of canonical knowledge.
 
-## Current priorities
+## Current work
 
-1. Review the 299 missing concept candidates.
-2. Add or alias high-frequency foundational concepts such as Distributed Ledger, Private Key, EVM, Liquidity Pool, Public Key, Stablecoin, DEX, and Digital Signature.
-3. Reduce unresolved relationship references.
-4. Improve SEO metadata coverage.
-5. Improve tag and category coverage.
-6. Add schema validation and confidence-scored alias mapping.
-7. Prepare the compiled catalog for a versioned read-only Knowledge API.
+**v2.3.1 — Coverage Resolution & Diagnostics**
+
+In progress: bidirectional graph resolution, resource-type normalization, category-name resolution, reference extraction, diagnostics, health checks and scoring-schema versioning.
 
 ## Next milestone
 
-**v2.1.0 — Relationship Repair & Coverage Intelligence**
-
-The next milestone should add an approved alias table, relationship-repair workflow, missing-concept triage, coverage scoring, and prioritized editorial queues.
+**v2.4.0 — Read-only Knowledge API** after the corrected v2.3.1 baseline is validated.

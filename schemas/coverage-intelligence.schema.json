@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theblockchainlibrary.com/schemas/coverage-intelligence.schema.json",
+  "title": "The Blockchain Library Coverage Intelligence Export",
+  "type": "object",
+  "required": [
+    "version",
+    "buildId",
+    "generatedAt",
+    "summary",
+    "objects"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "coverageEngineVersion": {
+      "type": "string"
+    },
+    "scoringSchemaVersion": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "resolutionVersion": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "buildId": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "canonicalUid",
+          "coverageScore",
+          "priorityScore"
+        ],
+        "properties": {
+          "canonicalUid": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "category": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "coverageScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "priorityScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "relationshipScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "metadataScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "seoScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "referenceScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "researchScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "learningScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "developerScore": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "missingResources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "recommendations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -2,126 +2,62 @@
 
 All notable changes to The Blockchain Library are documented here.
 
+## [2.3.0] — Coverage Intelligence
+
+### Added
+- Base44 Coverage Intelligence tied to canonical GitHub build IDs;
+- context-aware coverage scoring and improvement priority;
+- PageRank-style centrality;
+- coverage matrix, category analysis, heatmap and priority queue;
+- data-quality review, release snapshots and editorial tasks;
+- JSON/CSV coverage exports;
+- public Explorer coverage signals and knowledge-gap opportunities.
+
+### Known issue
+The initial production scoring pass revealed under-resolution of supporting resources, references and categories. v2.3.1 addresses this.
+
+## [2.2.0] — Knowledge Explorer
+
+### Added
+- public `/explore` with Discover, Search and Graph modes;
+- canonical GitHub release detection and IndexedDB caching by build ID;
+- search filters, deep links, object drawer and graph expansion;
+- integrations from glossary, article, book and research pages.
+
+## [2.1.1] — Documentation Integrity
+
+### Fixed
+- v2 Mintlify navigation and related-resource routes;
+- deterministic shortened MDX filenames;
+- documentation integrity validation.
+
+## [2.1.0] — Knowledge Distribution Pipeline
+
+### Added
+- canonical Knowledge Release manifest;
+- Mintlify distribution from compiled canonical objects;
+- public structured knowledge artifacts;
+- Base44 safe-return synchronization contract.
+
 ## [2.0.1] — Reconciliation Engine
 
 ### Added
-
 - canonical duplicate reconciliation;
-- exact duplicate source-record removal;
-- canonical collision merging with source-ID preservation;
-- `source-map.json`;
-- `missing-concepts.json`;
-- `duplicate-merges.json`;
-- ranked editorial queue for unresolved relationship targets;
-- alias-aware search records;
-- canonical JSON checksum validation for Base44 exports.
+- source-map.json, missing-concepts.json and duplicate-merges.json;
+- alias-aware search and export checksum validation.
 
 ### Improved
-
-- reduced 3,858 raw exported objects to 3,545 canonical objects without losing source provenance;
+- reduced 3,858 raw objects to 3,545 canonical objects;
 - eliminated duplicate canonical UIDs;
-- increased usable graph edges to 7,415;
-- preserved all Base44 source IDs through canonical merges.
+- increased usable graph edges to 7,415.
 
 ## [2.0.0] — Knowledge Compiler
 
 ### Added
-
 - Base44 export validation;
-- canonical object compilation;
-- compiled catalog;
-- graph generation;
-- related-resource index;
-- structured search index;
-- reconciliation report;
-- versioned compiler manifest.
+- canonical compilation; graph, search, related-resource and reconciliation outputs.
 
 ## [1.5.0] — Repository Professionalization
 
 ### Added
-
-- `VISION.md`
-- `ARCHITECTURE.md`
-- `ROADMAP.md`
-- `DATA-MODEL.md`
-- `EDITORIAL-STANDARDS.md`
-- `CONTRIBUTING.md`
-- `GOVERNANCE.md`
-- `SECURITY.md`
-- `CODE_OF_CONDUCT.md`
-- `PROJECT_STATUS.md`
-- GitHub contribution templates
-
-### Improved
-
-- repository governance;
-- contributor workflow;
-- release documentation;
-- project architecture clarity;
-- editorial and security standards.
-
-## [1.4.0] — Learning & Developer Enrichment
-
-### Added
-
-- 10 tutorials;
-- 10 code examples;
-- 10 AI prompt patterns;
-- 10 short-answer quizzes;
-- native Mintlify catalogs for learning and developer resources.
-
-### Improved
-
-- canonical topic mappings for learning resources;
-- developer and AI resource coverage.
-
-## [1.3.1] — Mintlify Route Hotfix
-
-### Fixed
-
-- public navigation routes that produced 404 responses;
-- catalogs and explorer links moved to Mintlify-native MDX routes.
-
-## [1.3.0] — Resource Enrichment
-
-### Added
-
-- enriched book objects;
-- enriched research metadata;
-- coverage engine;
-- canonical book and research pages.
-
-## [1.2.0] — Dynamic Knowledge
-
-### Added
-
-- curated human navigation;
-- unified structured object catalog;
-- related-resource index;
-- structured search index;
-- dynamic knowledge catalog concepts.
-
-### Improved
-
-- separation between human navigation and machine-scale data.
-
-## [1.1.0] — Knowledge Expansion
-
-### Added
-
-- 100 canonical topic objects;
-- 250 structured glossary entries;
-- generated topic and glossary pages;
-- broader graph relationships.
-
-## [1.0.0] — Knowledge Platform
-
-### Added
-
-- canonical multi-object Knowledge Engine;
-- topic, glossary, book, research, tutorial, code-example, AI-prompt, quiz, and learning-path models;
-- validation;
-- graph generation;
-- API-ready structured outputs;
-- JSON-LD groundwork;
-- Mintlify Knowledge Engine documentation.
+- vision, architecture, roadmap, data model, editorial standards, governance, security, code of conduct, project status and contribution templates.
