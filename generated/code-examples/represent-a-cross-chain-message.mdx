@@ -1,0 +1,20 @@
+---
+title: "Represent a Cross-Chain Message"
+description: "Model a typed cross-chain message envelope for application-level validation."
+---
+
+# Represent a Cross-Chain Message
+
+Model a typed cross-chain message envelope for application-level validation.
+
+```typescript
+type CrossChainMessage = { sourceChainId: number; destinationChainId: number; sender: string; payload: string };
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/interoperability" icon="code">
+Open the canonical topic associated with this example.
+</Card>

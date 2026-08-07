@@ -1,0 +1,20 @@
+---
+title: "RPC Failover Pattern"
+description: "Try multiple RPC endpoints in sequence when the primary endpoint is unavailable."
+---
+
+# RPC Failover Pattern
+
+Try multiple RPC endpoints in sequence when the primary endpoint is unavailable.
+
+```javascript
+for (const url of rpcUrls) { try { return await callRpc(url, payload); } catch {} }
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/rpc-infrastructure" icon="code">
+Open the canonical topic associated with this example.
+</Card>

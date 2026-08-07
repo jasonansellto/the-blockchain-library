@@ -1,16 +1,133 @@
 {
-  "version": "1.0.0",
+  "version": "1.4.0",
   "examples": [
     {
-      "id": "documentation-example",
-      "uid": "code-example:documentation-example",
+      "id": "fetch-a-block-with-json-rpc",
+      "uid": "code-example:fetch-a-block-with-json-rpc",
       "type": "code-example",
-      "title": "Documentation Code Example",
-      "canonicalUrl": "/developers/code-examples",
+      "title": "Fetch a Block with JSON-RPC",
+      "summary": "Query a block by number through a JSON-RPC endpoint and inspect its basic fields.",
+      "canonicalUrl": "/generated/code-examples/fetch-a-block-with-json-rpc",
       "language": "javascript",
       "topicIds": [
-        "smart-contracts",
-        "infrastructure"
+        "blockchain"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "fetch-a-transaction-receipt",
+      "uid": "code-example:fetch-a-transaction-receipt",
+      "type": "code-example",
+      "title": "Fetch a Transaction Receipt",
+      "summary": "Retrieve a transaction receipt and inspect status, gas usage, logs, and block placement.",
+      "canonicalUrl": "/generated/code-examples/fetch-a-transaction-receipt",
+      "language": "javascript",
+      "topicIds": [
+        "transactions"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "validate-an-address-format",
+      "uid": "code-example:validate-an-address-format",
+      "type": "code-example",
+      "title": "Validate an Address Format",
+      "summary": "Perform basic client-side validation before presenting a blockchain address to a user.",
+      "canonicalUrl": "/generated/code-examples/validate-an-address-format",
+      "language": "javascript",
+      "topicIds": [
+        "wallets"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "read-a-contract-method",
+      "uid": "code-example:read-a-contract-method",
+      "type": "code-example",
+      "title": "Read a Contract Method",
+      "summary": "Call a read-only smart-contract method through an RPC provider.",
+      "canonicalUrl": "/generated/code-examples/read-a-contract-method",
+      "language": "javascript",
+      "topicIds": [
+        "smart-contracts"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "quote-a-token-amount-safely",
+      "uid": "code-example:quote-a-token-amount-safely",
+      "type": "code-example",
+      "title": "Quote a Token Amount Safely",
+      "summary": "Demonstrate integer-safe token amount handling and decimal conversion without floating-point assumptions.",
+      "canonicalUrl": "/generated/code-examples/quote-a-token-amount-safely",
+      "language": "javascript",
+      "topicIds": [
+        "defi"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "identify-network-and-chain-id",
+      "uid": "code-example:identify-network-and-chain-id",
+      "type": "code-example",
+      "title": "Identify Network and Chain ID",
+      "summary": "Detect the connected chain ID before sending a transaction or directing a user to a Layer-2 network.",
+      "canonicalUrl": "/generated/code-examples/identify-network-and-chain-id",
+      "language": "javascript",
+      "topicIds": [
+        "layer-2"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "rpc-failover-pattern",
+      "uid": "code-example:rpc-failover-pattern",
+      "type": "code-example",
+      "title": "RPC Failover Pattern",
+      "summary": "Try multiple RPC endpoints in sequence when the primary endpoint is unavailable.",
+      "canonicalUrl": "/generated/code-examples/rpc-failover-pattern",
+      "language": "javascript",
+      "topicIds": [
+        "rpc-infrastructure"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "represent-a-cross-chain-message",
+      "uid": "code-example:represent-a-cross-chain-message",
+      "type": "code-example",
+      "title": "Represent a Cross-Chain Message",
+      "summary": "Model a typed cross-chain message envelope for application-level validation.",
+      "canonicalUrl": "/generated/code-examples/represent-a-cross-chain-message",
+      "language": "typescript",
+      "topicIds": [
+        "interoperability"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "estimate-fixed-transaction-budget",
+      "uid": "code-example:estimate-fixed-transaction-budget",
+      "type": "code-example",
+      "title": "Estimate Fixed Transaction Budget",
+      "summary": "Calculate a simple transaction budget when a network uses a predictable fixed transaction cost.",
+      "canonicalUrl": "/generated/code-examples/estimate-fixed-transaction-budget",
+      "language": "javascript",
+      "topicIds": [
+        "deterministic-execution"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "agent-transaction-policy",
+      "uid": "code-example:agent-transaction-policy",
+      "type": "code-example",
+      "title": "Agent Transaction Policy",
+      "summary": "Represent an allowlisted transaction policy for an autonomous software agent.",
+      "canonicalUrl": "/generated/code-examples/agent-transaction-policy",
+      "language": "typescript",
+      "topicIds": [
+        "ai-agents"
       ],
       "status": "published"
     }

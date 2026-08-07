@@ -1,0 +1,20 @@
+---
+title: "Identify Network and Chain ID"
+description: "Detect the connected chain ID before sending a transaction or directing a user to a Layer-2 network."
+---
+
+# Identify Network and Chain ID
+
+Detect the connected chain ID before sending a transaction or directing a user to a Layer-2 network.
+
+```javascript
+const chainId = await window.ethereum.request({ method: "eth_chainId" });
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/layer-2" icon="code">
+Open the canonical topic associated with this example.
+</Card>

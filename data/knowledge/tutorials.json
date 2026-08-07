@@ -1,12 +1,13 @@
 {
-  "version": "1.0.0",
+  "version": "1.4.0",
   "tutorials": [
     {
-      "id": "ask-blockchain-question",
-      "uid": "tutorial:ask-blockchain-question",
+      "id": "read-a-blockchain-transaction",
+      "uid": "tutorial:read-a-blockchain-transaction",
       "type": "tutorial",
-      "title": "Ask a Blockchain Question",
-      "canonicalUrl": "/tutorials/ask-a-blockchain-question",
+      "title": "Read a Blockchain Transaction",
+      "summary": "Learn how to break a blockchain transaction into sender, recipient, value, fee, status, and execution effects.",
+      "canonicalUrl": "/generated/tutorials/read-a-blockchain-transaction",
       "topicIds": [
         "blockchain"
       ],
@@ -14,28 +15,120 @@
       "status": "published"
     },
     {
-      "id": "use-glossary",
-      "uid": "tutorial:use-glossary",
+      "id": "review-a-transaction-before-signing",
+      "uid": "tutorial:review-a-transaction-before-signing",
       "type": "tutorial",
-      "title": "Use the Glossary",
-      "canonicalUrl": "/tutorials/use-the-glossary",
+      "title": "Review a Transaction Before Signing",
+      "summary": "Use a repeatable checklist to inspect destination, amount, contract action, permissions, and expected effects before approval.",
+      "canonicalUrl": "/generated/tutorials/review-a-transaction-before-signing",
       "topicIds": [
-        "blockchain"
+        "transactions"
       ],
       "difficulty": "beginner",
       "status": "published"
     },
     {
-      "id": "contribute-content",
-      "uid": "tutorial:contribute-content",
+      "id": "secure-a-self-custody-wallet",
+      "uid": "tutorial:secure-a-self-custody-wallet",
       "type": "tutorial",
-      "title": "Contribute Content",
-      "canonicalUrl": "/tutorials/contribute-content",
+      "title": "Secure a Self-Custody Wallet",
+      "summary": "Build a practical wallet-security routine covering recovery material, device security, phishing resistance, and transaction review.",
+      "canonicalUrl": "/generated/tutorials/secure-a-self-custody-wallet",
       "topicIds": [
-        "blockchain",
-        "infrastructure"
+        "wallets"
+      ],
+      "difficulty": "beginner",
+      "status": "published"
+    },
+    {
+      "id": "inspect-a-smart-contract",
+      "uid": "tutorial:inspect-a-smart-contract",
+      "type": "tutorial",
+      "title": "Inspect a Smart Contract",
+      "summary": "Learn how to identify contract address, ownership, permissions, upgradeability, events, and common risk surfaces.",
+      "canonicalUrl": "/generated/tutorials/inspect-a-smart-contract",
+      "topicIds": [
+        "smart-contracts"
       ],
       "difficulty": "intermediate",
+      "status": "published"
+    },
+    {
+      "id": "evaluate-a-defi-protocol",
+      "uid": "tutorial:evaluate-a-defi-protocol",
+      "type": "tutorial",
+      "title": "Evaluate a DeFi Protocol",
+      "summary": "Review liquidity, smart-contract dependencies, collateral design, oracle assumptions, governance, and user-facing risk.",
+      "canonicalUrl": "/generated/tutorials/evaluate-a-defi-protocol",
+      "topicIds": [
+        "defi"
+      ],
+      "difficulty": "intermediate",
+      "status": "published"
+    },
+    {
+      "id": "compare-layer-2-designs",
+      "uid": "tutorial:compare-layer-2-designs",
+      "type": "tutorial",
+      "title": "Compare Layer-2 Designs",
+      "summary": "Compare rollups, settlement assumptions, data availability, sequencers, finality, and bridging trade-offs.",
+      "canonicalUrl": "/generated/tutorials/compare-layer-2-designs",
+      "topicIds": [
+        "layer-2"
+      ],
+      "difficulty": "intermediate",
+      "status": "published"
+    },
+    {
+      "id": "connect-an-application-to-rpc",
+      "uid": "tutorial:connect-an-application-to-rpc",
+      "type": "tutorial",
+      "title": "Connect an Application to RPC",
+      "summary": "Understand RPC endpoints, request flow, node providers, reliability, rate limits, and fallback strategies.",
+      "canonicalUrl": "/generated/tutorials/connect-an-application-to-rpc",
+      "topicIds": [
+        "rpc-infrastructure"
+      ],
+      "difficulty": "intermediate",
+      "status": "published"
+    },
+    {
+      "id": "trace-a-cross-chain-message",
+      "uid": "tutorial:trace-a-cross-chain-message",
+      "type": "tutorial",
+      "title": "Trace a Cross-Chain Message",
+      "summary": "Follow the conceptual path of a message or asset movement across independent blockchain systems.",
+      "canonicalUrl": "/generated/tutorials/trace-a-cross-chain-message",
+      "topicIds": [
+        "interoperability"
+      ],
+      "difficulty": "advanced",
+      "status": "published"
+    },
+    {
+      "id": "model-predictable-transaction-costs",
+      "uid": "tutorial:model-predictable-transaction-costs",
+      "type": "tutorial",
+      "title": "Model Predictable Transaction Costs",
+      "summary": "Compare deterministic or fixed-cost execution with auction-based fee models using an operational planning lens.",
+      "canonicalUrl": "/generated/tutorials/model-predictable-transaction-costs",
+      "topicIds": [
+        "deterministic-execution"
+      ],
+      "difficulty": "advanced",
+      "status": "published"
+    },
+    {
+      "id": "design-an-agent-payment-flow",
+      "uid": "tutorial:design-an-agent-payment-flow",
+      "type": "tutorial",
+      "title": "Design an Agent Payment Flow",
+      "summary": "Map how an AI agent can authenticate, hold permissions, initiate payments, and interact with blockchain infrastructure.",
+      "canonicalUrl": "/generated/tutorials/design-an-agent-payment-flow",
+      "topicIds": [
+        "ai-agents"
+      ],
+      "difficulty": "advanced",
       "status": "published"
     }
   ]

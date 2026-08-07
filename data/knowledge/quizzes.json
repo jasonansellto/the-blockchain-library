@@ -1,28 +1,281 @@
 {
-  "version": "1.0.0",
+  "version": "1.4.0",
   "quizzes": [
     {
-      "id": "blockchain-foundations-check",
-      "uid": "quiz:blockchain-foundations-check",
+      "id": "blockchain-fundamentals-check",
+      "uid": "quiz:blockchain-fundamentals-check",
       "type": "quiz",
-      "title": "Blockchain Foundations Knowledge Check",
+      "title": "Blockchain Fundamentals Check",
       "topicIds": [
         "blockchain"
       ],
+      "canonicalUrl": "/generated/quizzes/blockchain-fundamentals-check",
       "questions": [
         {
           "id": "q1",
-          "question": "What is the role of consensus in a blockchain network?",
+          "question": "What problem does consensus solve in a blockchain network?",
           "answerType": "short-answer"
         },
         {
           "id": "q2",
-          "question": "What is the difference between a wallet and the assets recorded on a blockchain?",
+          "question": "How are blocks and transactions related?",
           "answerType": "short-answer"
         },
         {
           "id": "q3",
-          "question": "Why can transaction finality matter to applications?",
+          "question": "Why can finality matter to applications?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "transaction-review-check",
+      "uid": "quiz:transaction-review-check",
+      "type": "quiz",
+      "title": "Transaction Review Check",
+      "topicIds": [
+        "transactions"
+      ],
+      "canonicalUrl": "/generated/quizzes/transaction-review-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What information should be verified before signing a transaction?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "What is the difference between transaction submission and confirmation?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "Why can token approvals create continuing permissions?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "wallet-security-check",
+      "uid": "quiz:wallet-security-check",
+      "type": "quiz",
+      "title": "Wallet Security Check",
+      "topicIds": [
+        "wallets"
+      ],
+      "canonicalUrl": "/generated/quizzes/wallet-security-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does a wallet actually control?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "Why should recovery material remain offline and private?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "What is one reason to review contract permissions before signing?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "smart-contract-review-check",
+      "uid": "quiz:smart-contract-review-check",
+      "type": "quiz",
+      "title": "Smart Contract Review Check",
+      "topicIds": [
+        "smart-contracts"
+      ],
+      "canonicalUrl": "/generated/quizzes/smart-contract-review-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is contract storage?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "Why does upgradeability change a contract's trust assumptions?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "What does access control determine?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "defi-risk-check",
+      "uid": "quiz:defi-risk-check",
+      "type": "quiz",
+      "title": "DeFi Risk Check",
+      "topicIds": [
+        "defi"
+      ],
+      "canonicalUrl": "/generated/quizzes/defi-risk-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "How can oracle failure affect a DeFi protocol?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "What is liquidation?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "Why does liquidity matter to trade execution?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "layer-2-architecture-check",
+      "uid": "quiz:layer-2-architecture-check",
+      "type": "quiz",
+      "title": "Layer-2 Architecture Check",
+      "topicIds": [
+        "layer-2"
+      ],
+      "canonicalUrl": "/generated/quizzes/layer-2-architecture-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What role does settlement play in a Layer-2 system?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "What is data availability?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "What does a sequencer typically do?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "rpc-infrastructure-check",
+      "uid": "quiz:rpc-infrastructure-check",
+      "type": "quiz",
+      "title": "RPC Infrastructure Check",
+      "topicIds": [
+        "rpc-infrastructure"
+      ],
+      "canonicalUrl": "/generated/quizzes/rpc-infrastructure-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does an RPC endpoint provide to an application?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "Why is endpoint redundancy useful?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "What operational problem can rate limits create?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "interoperability-check",
+      "uid": "quiz:interoperability-check",
+      "type": "quiz",
+      "title": "Interoperability Check",
+      "topicIds": [
+        "interoperability"
+      ],
+      "canonicalUrl": "/generated/quizzes/interoperability-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is cross-chain messaging?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "Why do finality assumptions matter across networks?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "What is one risk introduced by bridge infrastructure?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "deterministic-execution-check",
+      "uid": "quiz:deterministic-execution-check",
+      "type": "quiz",
+      "title": "Deterministic Execution Check",
+      "topicIds": [
+        "deterministic-execution"
+      ],
+      "canonicalUrl": "/generated/quizzes/deterministic-execution-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What makes execution deterministic?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "How can predictable transaction costs help operational planning?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "How does a fixed-cost model differ from a fee auction?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    },
+    {
+      "id": "ai-agent-infrastructure-check",
+      "uid": "quiz:ai-agent-infrastructure-check",
+      "type": "quiz",
+      "title": "AI Agent Infrastructure Check",
+      "topicIds": [
+        "ai-agents"
+      ],
+      "canonicalUrl": "/generated/quizzes/ai-agent-infrastructure-check",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is an agent wallet?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "Why should autonomous agents use scoped permissions?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "What role can blockchain play in machine-to-machine payments?",
           "answerType": "short-answer"
         }
       ],

@@ -1,0 +1,30 @@
+name: Learning Enrichment CI
+
+on:
+  push:
+    paths:
+      - "data/knowledge/tutorials.json"
+      - "data/knowledge/code-examples.json"
+      - "data/knowledge/ai-prompts.json"
+      - "data/knowledge/quizzes.json"
+      - "generated/tutorials/**"
+      - "generated/code-examples/**"
+      - "generated/ai-prompts/**"
+      - "generated/quizzes/**"
+      - "docs.json"
+  pull_request:
+    paths:
+      - "data/knowledge/tutorials.json"
+      - "data/knowledge/code-examples.json"
+      - "data/knowledge/ai-prompts.json"
+      - "data/knowledge/quizzes.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm run build:platform

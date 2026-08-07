@@ -1,0 +1,20 @@
+---
+title: "Fetch a Transaction Receipt"
+description: "Retrieve a transaction receipt and inspect status, gas usage, logs, and block placement."
+---
+
+# Fetch a Transaction Receipt
+
+Retrieve a transaction receipt and inspect status, gas usage, logs, and block placement.
+
+```javascript
+const payload = { jsonrpc: "2.0", id: 1, method: "eth_getTransactionReceipt", params: [txHash] };
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/transactions" icon="code">
+Open the canonical topic associated with this example.
+</Card>

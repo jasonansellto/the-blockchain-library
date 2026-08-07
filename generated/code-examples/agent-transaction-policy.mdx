@@ -1,0 +1,20 @@
+---
+title: "Agent Transaction Policy"
+description: "Represent an allowlisted transaction policy for an autonomous software agent."
+---
+
+# Agent Transaction Policy
+
+Represent an allowlisted transaction policy for an autonomous software agent.
+
+```typescript
+type AgentPolicy = { allowedContracts: string[]; maxValuePerTx: bigint; allowedMethods: string[] };
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/ai-agents" icon="code">
+Open the canonical topic associated with this example.
+</Card>

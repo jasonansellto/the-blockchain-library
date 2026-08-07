@@ -1,7 +1,7 @@
 {
   "name": "the-blockchain-library",
   "private": true,
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Open-source blockchain knowledge platform and structured Knowledge Engine.",
   "scripts": {
     "validate:knowledge": "node scripts/validate-knowledge.mjs",

@@ -1,0 +1,6272 @@
+{
+  "blockchain": {
+    "topic": {
+      "id": "blockchain",
+      "uid": "topic:blockchain",
+      "title": "Blockchain",
+      "canonicalUrl": "/generated/topics/blockchain",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      },
+      {
+        "id": "nodes",
+        "uid": "topic:nodes",
+        "title": "Nodes",
+        "canonicalUrl": "/generated/topics/nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "consensus",
+        "uid": "topic:consensus",
+        "title": "Consensus",
+        "canonicalUrl": "/generated/topics/consensus",
+        "relationship": "related-to"
+      },
+      {
+        "id": "cryptography",
+        "uid": "topic:cryptography",
+        "title": "Cryptography",
+        "canonicalUrl": "/generated/topics/cryptography",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "consensus",
+        "uid": "glossary:consensus",
+        "title": "Consensus",
+        "canonicalUrl": "/generated/glossary/consensus",
+        "relationship": "depends-on"
+      },
+      {
+        "id": "blockchain",
+        "uid": "glossary:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/glossary/blockchain",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-blockchain",
+        "uid": "book:understanding-blockchain",
+        "title": "Understanding Blockchain",
+        "canonicalUrl": "/generated/books/understanding-blockchain",
+        "relationship": "has-resource"
+      },
+      {
+        "id": "deterministic-execution",
+        "uid": "book:deterministic-execution",
+        "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+        "canonicalUrl": "/generated/books/deterministic-execution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [
+      {
+        "id": "deterministic-execution-fixed-cost-l1",
+        "uid": "research:deterministic-execution-fixed-cost-l1",
+        "title": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure",
+        "canonicalUrl": "/generated/research/deterministic-execution-fixed-cost-l1",
+        "relationship": "has-resource"
+      }
+    ],
+    "tutorials": [
+      {
+        "id": "read-a-blockchain-transaction",
+        "uid": "tutorial:read-a-blockchain-transaction",
+        "title": "Read a Blockchain Transaction",
+        "canonicalUrl": "/generated/tutorials/read-a-blockchain-transaction",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "fetch-a-block-with-json-rpc",
+        "uid": "code-example:fetch-a-block-with-json-rpc",
+        "title": "Fetch a Block with JSON-RPC",
+        "canonicalUrl": "/generated/code-examples/fetch-a-block-with-json-rpc",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "explain-blockchain-at-three-levels",
+        "uid": "ai-prompt:explain-blockchain-at-three-levels",
+        "title": "Explain Blockchain at Three Levels",
+        "canonicalUrl": "/generated/ai-prompts/explain-blockchain-at-three-levels",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "blockchain-fundamentals-check",
+        "uid": "quiz:blockchain-fundamentals-check",
+        "title": "Blockchain Fundamentals Check",
+        "canonicalUrl": "/generated/quizzes/blockchain-fundamentals-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": [
+      {
+        "id": "blockchain-foundations",
+        "uid": "learning-path:blockchain-foundations",
+        "title": "Blockchain Foundations",
+        "canonicalUrl": "/learn/learning-path",
+        "relationship": "appears-in"
+      },
+      {
+        "id": "developer-infrastructure",
+        "uid": "learning-path:developer-infrastructure",
+        "title": "Blockchain Developer & Infrastructure",
+        "canonicalUrl": "/learn/learning-path",
+        "relationship": "appears-in"
+      }
+    ]
+  },
+  "distributed-ledger": {
+    "topic": {
+      "id": "distributed-ledger",
+      "uid": "topic:distributed-ledger",
+      "title": "Distributed Ledger",
+      "canonicalUrl": "/generated/topics/distributed-ledger",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      },
+      {
+        "id": "nodes",
+        "uid": "topic:nodes",
+        "title": "Nodes",
+        "canonicalUrl": "/generated/topics/nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "distributed-ledger",
+        "uid": "glossary:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/glossary/distributed-ledger",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-blockchain",
+        "uid": "book:understanding-blockchain",
+        "title": "Understanding Blockchain",
+        "canonicalUrl": "/generated/books/understanding-blockchain",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "blocks": {
+    "topic": {
+      "id": "blocks",
+      "uid": "topic:blocks",
+      "title": "Blocks",
+      "canonicalUrl": "/generated/topics/blocks",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      },
+      {
+        "id": "nodes",
+        "uid": "topic:nodes",
+        "title": "Nodes",
+        "canonicalUrl": "/generated/topics/nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "blocks",
+        "uid": "glossary:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/glossary/blocks",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "transactions": {
+    "topic": {
+      "id": "transactions",
+      "uid": "topic:transactions",
+      "title": "Transactions",
+      "canonicalUrl": "/generated/topics/transactions",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "transactions",
+        "uid": "glossary:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/glossary/transactions",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-blockchain",
+        "uid": "book:understanding-blockchain",
+        "title": "Understanding Blockchain",
+        "canonicalUrl": "/generated/books/understanding-blockchain",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "review-a-transaction-before-signing",
+        "uid": "tutorial:review-a-transaction-before-signing",
+        "title": "Review a Transaction Before Signing",
+        "canonicalUrl": "/generated/tutorials/review-a-transaction-before-signing",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "fetch-a-transaction-receipt",
+        "uid": "code-example:fetch-a-transaction-receipt",
+        "title": "Fetch a Transaction Receipt",
+        "canonicalUrl": "/generated/code-examples/fetch-a-transaction-receipt",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "transaction-review-assistant",
+        "uid": "ai-prompt:transaction-review-assistant",
+        "title": "Transaction Review Assistant",
+        "canonicalUrl": "/generated/ai-prompts/transaction-review-assistant",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "transaction-review-check",
+        "uid": "quiz:transaction-review-check",
+        "title": "Transaction Review Check",
+        "canonicalUrl": "/generated/quizzes/transaction-review-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": []
+  },
+  "nodes": {
+    "topic": {
+      "id": "nodes",
+      "uid": "topic:nodes",
+      "title": "Nodes",
+      "canonicalUrl": "/generated/topics/nodes",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "nodes",
+        "uid": "glossary:nodes",
+        "title": "Nodes",
+        "canonicalUrl": "/generated/glossary/nodes",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "consensus": {
+    "topic": {
+      "id": "consensus",
+      "uid": "topic:consensus",
+      "title": "Consensus",
+      "canonicalUrl": "/generated/topics/consensus",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "consensus",
+        "uid": "glossary:consensus",
+        "title": "Consensus",
+        "canonicalUrl": "/generated/glossary/consensus",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-blockchain",
+        "uid": "book:understanding-blockchain",
+        "title": "Understanding Blockchain",
+        "canonicalUrl": "/generated/books/understanding-blockchain",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "finality": {
+    "topic": {
+      "id": "finality",
+      "uid": "topic:finality",
+      "title": "Finality",
+      "canonicalUrl": "/generated/topics/finality",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "finality",
+        "uid": "glossary:finality",
+        "title": "Finality",
+        "canonicalUrl": "/generated/glossary/finality",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "cryptography": {
+    "topic": {
+      "id": "cryptography",
+      "uid": "topic:cryptography",
+      "title": "Cryptography",
+      "canonicalUrl": "/generated/topics/cryptography",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "cryptography",
+        "uid": "glossary:cryptography",
+        "title": "Cryptography",
+        "canonicalUrl": "/generated/glossary/cryptography",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "digital-signatures": {
+    "topic": {
+      "id": "digital-signatures",
+      "uid": "topic:digital-signatures",
+      "title": "Digital Signatures",
+      "canonicalUrl": "/generated/topics/digital-signatures",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "digital-signatures",
+        "uid": "glossary:digital-signatures",
+        "title": "Digital Signatures",
+        "canonicalUrl": "/generated/glossary/digital-signatures",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "hash-functions": {
+    "topic": {
+      "id": "hash-functions",
+      "uid": "topic:hash-functions",
+      "title": "Hash Functions",
+      "canonicalUrl": "/generated/topics/hash-functions",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "hash-functions",
+        "uid": "glossary:hash-functions",
+        "title": "Hash Functions",
+        "canonicalUrl": "/generated/glossary/hash-functions",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "public-key-cryptography": {
+    "topic": {
+      "id": "public-key-cryptography",
+      "uid": "topic:public-key-cryptography",
+      "title": "Public-Key Cryptography",
+      "canonicalUrl": "/generated/topics/public-key-cryptography",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "public-key-cryptography",
+        "uid": "glossary:public-key-cryptography",
+        "title": "Public-Key Cryptography",
+        "canonicalUrl": "/generated/glossary/public-key-cryptography",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "merkle-trees": {
+    "topic": {
+      "id": "merkle-trees",
+      "uid": "topic:merkle-trees",
+      "title": "Merkle Trees",
+      "canonicalUrl": "/generated/topics/merkle-trees",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "merkle-trees",
+        "uid": "glossary:merkle-trees",
+        "title": "Merkle Trees",
+        "canonicalUrl": "/generated/glossary/merkle-trees",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "state": {
+    "topic": {
+      "id": "state",
+      "uid": "topic:state",
+      "title": "State",
+      "canonicalUrl": "/generated/topics/state",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "state",
+        "uid": "glossary:state",
+        "title": "State",
+        "canonicalUrl": "/generated/glossary/state",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "accounts": {
+    "topic": {
+      "id": "accounts",
+      "uid": "topic:accounts",
+      "title": "Accounts",
+      "canonicalUrl": "/generated/topics/accounts",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "accounts",
+        "uid": "glossary:accounts",
+        "title": "Accounts",
+        "canonicalUrl": "/generated/glossary/accounts",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "utxo-model": {
+    "topic": {
+      "id": "utxo-model",
+      "uid": "topic:utxo-model",
+      "title": "UTXO Model",
+      "canonicalUrl": "/generated/topics/utxo-model",
+      "category": "Foundations",
+      "level": "foundation"
+    },
+    "topics": [
+      {
+        "id": "blockchain",
+        "uid": "topic:blockchain",
+        "title": "Blockchain",
+        "canonicalUrl": "/generated/topics/blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "distributed-ledger",
+        "uid": "topic:distributed-ledger",
+        "title": "Distributed Ledger",
+        "canonicalUrl": "/generated/topics/distributed-ledger",
+        "relationship": "related-to"
+      },
+      {
+        "id": "blocks",
+        "uid": "topic:blocks",
+        "title": "Blocks",
+        "canonicalUrl": "/generated/topics/blocks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transactions",
+        "uid": "topic:transactions",
+        "title": "Transactions",
+        "canonicalUrl": "/generated/topics/transactions",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "utxo-model",
+        "uid": "glossary:utxo-model",
+        "title": "UTXO Model",
+        "canonicalUrl": "/generated/glossary/utxo-model",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "cryptocurrency": {
+    "topic": {
+      "id": "cryptocurrency",
+      "uid": "topic:cryptocurrency",
+      "title": "Cryptocurrency",
+      "canonicalUrl": "/generated/topics/cryptocurrency",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokenization",
+        "uid": "topic:tokenization",
+        "title": "Tokenization",
+        "canonicalUrl": "/generated/topics/tokenization",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "cryptocurrency",
+        "uid": "glossary:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/glossary/cryptocurrency",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "beginner-guide-cryptocurrency",
+        "uid": "book:beginner-guide-cryptocurrency",
+        "title": "A Beginner’s Guide to Cryptocurrency",
+        "canonicalUrl": "/generated/books/beginner-guide-cryptocurrency",
+        "relationship": "has-resource"
+      },
+      {
+        "id": "ai-money-revolution",
+        "uid": "book:ai-money-revolution",
+        "title": "The AI Money Revolution",
+        "canonicalUrl": "/generated/books/ai-money-revolution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": [
+      {
+        "id": "blockchain-foundations",
+        "uid": "learning-path:blockchain-foundations",
+        "title": "Blockchain Foundations",
+        "canonicalUrl": "/learn/learning-path",
+        "relationship": "appears-in"
+      }
+    ]
+  },
+  "native-assets": {
+    "topic": {
+      "id": "native-assets",
+      "uid": "topic:native-assets",
+      "title": "Native Assets",
+      "canonicalUrl": "/generated/topics/native-assets",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokenization",
+        "uid": "topic:tokenization",
+        "title": "Tokenization",
+        "canonicalUrl": "/generated/topics/tokenization",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "native-assets",
+        "uid": "glossary:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/glossary/native-assets",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "beginner-guide-cryptocurrency",
+        "uid": "book:beginner-guide-cryptocurrency",
+        "title": "A Beginner’s Guide to Cryptocurrency",
+        "canonicalUrl": "/generated/books/beginner-guide-cryptocurrency",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "tokens": {
+    "topic": {
+      "id": "tokens",
+      "uid": "topic:tokens",
+      "title": "Tokens",
+      "canonicalUrl": "/generated/topics/tokens",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokenization",
+        "uid": "topic:tokenization",
+        "title": "Tokenization",
+        "canonicalUrl": "/generated/topics/tokenization",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "tokens",
+        "uid": "glossary:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/glossary/tokens",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "beginner-guide-cryptocurrency",
+        "uid": "book:beginner-guide-cryptocurrency",
+        "title": "A Beginner’s Guide to Cryptocurrency",
+        "canonicalUrl": "/generated/books/beginner-guide-cryptocurrency",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "stablecoins": {
+    "topic": {
+      "id": "stablecoins",
+      "uid": "topic:stablecoins",
+      "title": "Stablecoins",
+      "canonicalUrl": "/generated/topics/stablecoins",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokenization",
+        "uid": "topic:tokenization",
+        "title": "Tokenization",
+        "canonicalUrl": "/generated/topics/tokenization",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "stablecoins",
+        "uid": "glossary:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/glossary/stablecoins",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "beginner-guide-cryptocurrency",
+        "uid": "book:beginner-guide-cryptocurrency",
+        "title": "A Beginner’s Guide to Cryptocurrency",
+        "canonicalUrl": "/generated/books/beginner-guide-cryptocurrency",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "tokenization": {
+    "topic": {
+      "id": "tokenization",
+      "uid": "topic:tokenization",
+      "title": "Tokenization",
+      "canonicalUrl": "/generated/topics/tokenization",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "tokenization",
+        "uid": "glossary:tokenization",
+        "title": "Tokenization",
+        "canonicalUrl": "/generated/glossary/tokenization",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "market-capitalization": {
+    "topic": {
+      "id": "market-capitalization",
+      "uid": "topic:market-capitalization",
+      "title": "Market Capitalization",
+      "canonicalUrl": "/generated/topics/market-capitalization",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "market-capitalization",
+        "uid": "glossary:market-capitalization",
+        "title": "Market Capitalization",
+        "canonicalUrl": "/generated/glossary/market-capitalization",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "liquidity": {
+    "topic": {
+      "id": "liquidity",
+      "uid": "topic:liquidity",
+      "title": "Liquidity",
+      "canonicalUrl": "/generated/topics/liquidity",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "liquidity",
+        "uid": "glossary:liquidity",
+        "title": "Liquidity",
+        "canonicalUrl": "/generated/glossary/liquidity",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "order-books": {
+    "topic": {
+      "id": "order-books",
+      "uid": "topic:order-books",
+      "title": "Order Books",
+      "canonicalUrl": "/generated/topics/order-books",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "order-books",
+        "uid": "glossary:order-books",
+        "title": "Order Books",
+        "canonicalUrl": "/generated/glossary/order-books",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "automated-market-makers": {
+    "topic": {
+      "id": "automated-market-makers",
+      "uid": "topic:automated-market-makers",
+      "title": "Automated Market Makers",
+      "canonicalUrl": "/generated/topics/automated-market-makers",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "automated-market-makers",
+        "uid": "glossary:automated-market-makers",
+        "title": "Automated Market Makers",
+        "canonicalUrl": "/generated/glossary/automated-market-makers",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "decentralized-exchanges": {
+    "topic": {
+      "id": "decentralized-exchanges",
+      "uid": "topic:decentralized-exchanges",
+      "title": "Decentralized Exchanges",
+      "canonicalUrl": "/generated/topics/decentralized-exchanges",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "decentralized-exchanges",
+        "uid": "glossary:decentralized-exchanges",
+        "title": "Decentralized Exchanges",
+        "canonicalUrl": "/generated/glossary/decentralized-exchanges",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "centralized-exchanges": {
+    "topic": {
+      "id": "centralized-exchanges",
+      "uid": "topic:centralized-exchanges",
+      "title": "Centralized Exchanges",
+      "canonicalUrl": "/generated/topics/centralized-exchanges",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "centralized-exchanges",
+        "uid": "glossary:centralized-exchanges",
+        "title": "Centralized Exchanges",
+        "canonicalUrl": "/generated/glossary/centralized-exchanges",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "custody": {
+    "topic": {
+      "id": "custody",
+      "uid": "topic:custody",
+      "title": "Custody",
+      "canonicalUrl": "/generated/topics/custody",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "custody",
+        "uid": "glossary:custody",
+        "title": "Custody",
+        "canonicalUrl": "/generated/glossary/custody",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "staking": {
+    "topic": {
+      "id": "staking",
+      "uid": "topic:staking",
+      "title": "Staking",
+      "canonicalUrl": "/generated/topics/staking",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "staking",
+        "uid": "glossary:staking",
+        "title": "Staking",
+        "canonicalUrl": "/generated/glossary/staking",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "delegation": {
+    "topic": {
+      "id": "delegation",
+      "uid": "topic:delegation",
+      "title": "Delegation",
+      "canonicalUrl": "/generated/topics/delegation",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "delegation",
+        "uid": "glossary:delegation",
+        "title": "Delegation",
+        "canonicalUrl": "/generated/glossary/delegation",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "token-supply": {
+    "topic": {
+      "id": "token-supply",
+      "uid": "topic:token-supply",
+      "title": "Token Supply",
+      "canonicalUrl": "/generated/topics/token-supply",
+      "category": "Assets & Markets",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "cryptocurrency",
+        "uid": "topic:cryptocurrency",
+        "title": "Cryptocurrency",
+        "canonicalUrl": "/generated/topics/cryptocurrency",
+        "relationship": "related-to"
+      },
+      {
+        "id": "native-assets",
+        "uid": "topic:native-assets",
+        "title": "Native Assets",
+        "canonicalUrl": "/generated/topics/native-assets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "tokens",
+        "uid": "topic:tokens",
+        "title": "Tokens",
+        "canonicalUrl": "/generated/topics/tokens",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "token-supply",
+        "uid": "glossary:token-supply",
+        "title": "Token Supply",
+        "canonicalUrl": "/generated/glossary/token-supply",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "wallets": {
+    "topic": {
+      "id": "wallets",
+      "uid": "topic:wallets",
+      "title": "Wallets",
+      "canonicalUrl": "/generated/topics/wallets",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      },
+      {
+        "id": "transaction-signing",
+        "uid": "topic:transaction-signing",
+        "title": "Transaction Signing",
+        "canonicalUrl": "/generated/topics/transaction-signing",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "wallets",
+        "uid": "glossary:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/glossary/wallets",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-seed-phrases",
+        "uid": "book:understanding-seed-phrases",
+        "title": "Understanding Seed Phrases",
+        "canonicalUrl": "/generated/books/understanding-seed-phrases",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "secure-a-self-custody-wallet",
+        "uid": "tutorial:secure-a-self-custody-wallet",
+        "title": "Secure a Self-Custody Wallet",
+        "canonicalUrl": "/generated/tutorials/secure-a-self-custody-wallet",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "validate-an-address-format",
+        "uid": "code-example:validate-an-address-format",
+        "title": "Validate an Address Format",
+        "canonicalUrl": "/generated/code-examples/validate-an-address-format",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "wallet-security-coach",
+        "uid": "ai-prompt:wallet-security-coach",
+        "title": "Wallet Security Coach",
+        "canonicalUrl": "/generated/ai-prompts/wallet-security-coach",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "wallet-security-check",
+        "uid": "quiz:wallet-security-check",
+        "title": "Wallet Security Check",
+        "canonicalUrl": "/generated/quizzes/wallet-security-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": []
+  },
+  "addresses": {
+    "topic": {
+      "id": "addresses",
+      "uid": "topic:addresses",
+      "title": "Addresses",
+      "canonicalUrl": "/generated/topics/addresses",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      },
+      {
+        "id": "hardware-wallets",
+        "uid": "topic:hardware-wallets",
+        "title": "Hardware Wallets",
+        "canonicalUrl": "/generated/topics/hardware-wallets",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "addresses",
+        "uid": "glossary:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/glossary/addresses",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "private-keys": {
+    "topic": {
+      "id": "private-keys",
+      "uid": "topic:private-keys",
+      "title": "Private Keys",
+      "canonicalUrl": "/generated/topics/private-keys",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      },
+      {
+        "id": "hardware-wallets",
+        "uid": "topic:hardware-wallets",
+        "title": "Hardware Wallets",
+        "canonicalUrl": "/generated/topics/hardware-wallets",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "private-keys",
+        "uid": "glossary:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/glossary/private-keys",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-seed-phrases",
+        "uid": "book:understanding-seed-phrases",
+        "title": "Understanding Seed Phrases",
+        "canonicalUrl": "/generated/books/understanding-seed-phrases",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "seed-phrases": {
+    "topic": {
+      "id": "seed-phrases",
+      "uid": "topic:seed-phrases",
+      "title": "Seed Phrases",
+      "canonicalUrl": "/generated/topics/seed-phrases",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "hardware-wallets",
+        "uid": "topic:hardware-wallets",
+        "title": "Hardware Wallets",
+        "canonicalUrl": "/generated/topics/hardware-wallets",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "seed-phrases",
+        "uid": "glossary:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/glossary/seed-phrases",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-seed-phrases",
+        "uid": "book:understanding-seed-phrases",
+        "title": "Understanding Seed Phrases",
+        "canonicalUrl": "/generated/books/understanding-seed-phrases",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "hardware-wallets": {
+    "topic": {
+      "id": "hardware-wallets",
+      "uid": "topic:hardware-wallets",
+      "title": "Hardware Wallets",
+      "canonicalUrl": "/generated/topics/hardware-wallets",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "hardware-wallets",
+        "uid": "glossary:hardware-wallets",
+        "title": "Hardware Wallets",
+        "canonicalUrl": "/generated/glossary/hardware-wallets",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-seed-phrases",
+        "uid": "book:understanding-seed-phrases",
+        "title": "Understanding Seed Phrases",
+        "canonicalUrl": "/generated/books/understanding-seed-phrases",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "multisignature-wallets": {
+    "topic": {
+      "id": "multisignature-wallets",
+      "uid": "topic:multisignature-wallets",
+      "title": "Multisignature Wallets",
+      "canonicalUrl": "/generated/topics/multisignature-wallets",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "multisignature-wallets",
+        "uid": "glossary:multisignature-wallets",
+        "title": "Multisignature Wallets",
+        "canonicalUrl": "/generated/glossary/multisignature-wallets",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "account-abstraction": {
+    "topic": {
+      "id": "account-abstraction",
+      "uid": "topic:account-abstraction",
+      "title": "Account Abstraction",
+      "canonicalUrl": "/generated/topics/account-abstraction",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "account-abstraction",
+        "uid": "glossary:account-abstraction",
+        "title": "Account Abstraction",
+        "canonicalUrl": "/generated/glossary/account-abstraction",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "transaction-signing": {
+    "topic": {
+      "id": "transaction-signing",
+      "uid": "topic:transaction-signing",
+      "title": "Transaction Signing",
+      "canonicalUrl": "/generated/topics/transaction-signing",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "transaction-signing",
+        "uid": "glossary:transaction-signing",
+        "title": "Transaction Signing",
+        "canonicalUrl": "/generated/glossary/transaction-signing",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "token-approvals": {
+    "topic": {
+      "id": "token-approvals",
+      "uid": "topic:token-approvals",
+      "title": "Token Approvals",
+      "canonicalUrl": "/generated/topics/token-approvals",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "token-approvals",
+        "uid": "glossary:token-approvals",
+        "title": "Token Approvals",
+        "canonicalUrl": "/generated/glossary/token-approvals",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "phishing": {
+    "topic": {
+      "id": "phishing",
+      "uid": "topic:phishing",
+      "title": "Phishing",
+      "canonicalUrl": "/generated/topics/phishing",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "phishing",
+        "uid": "glossary:phishing",
+        "title": "Phishing",
+        "canonicalUrl": "/generated/glossary/phishing",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "dark-side-web3",
+        "uid": "book:dark-side-web3",
+        "title": "The Dark Side of Web3",
+        "canonicalUrl": "/generated/books/dark-side-web3",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "wallet-drainers": {
+    "topic": {
+      "id": "wallet-drainers",
+      "uid": "topic:wallet-drainers",
+      "title": "Wallet Drainers",
+      "canonicalUrl": "/generated/topics/wallet-drainers",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "wallet-drainers",
+        "uid": "glossary:wallet-drainers",
+        "title": "Wallet Drainers",
+        "canonicalUrl": "/generated/glossary/wallet-drainers",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "dark-side-web3",
+        "uid": "book:dark-side-web3",
+        "title": "The Dark Side of Web3",
+        "canonicalUrl": "/generated/books/dark-side-web3",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "social-engineering": {
+    "topic": {
+      "id": "social-engineering",
+      "uid": "topic:social-engineering",
+      "title": "Social Engineering",
+      "canonicalUrl": "/generated/topics/social-engineering",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "social-engineering",
+        "uid": "glossary:social-engineering",
+        "title": "Social Engineering",
+        "canonicalUrl": "/generated/glossary/social-engineering",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "dark-side-web3",
+        "uid": "book:dark-side-web3",
+        "title": "The Dark Side of Web3",
+        "canonicalUrl": "/generated/books/dark-side-web3",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "smart-contract-risk": {
+    "topic": {
+      "id": "smart-contract-risk",
+      "uid": "topic:smart-contract-risk",
+      "title": "Smart Contract Risk",
+      "canonicalUrl": "/generated/topics/smart-contract-risk",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "smart-contract-risk",
+        "uid": "glossary:smart-contract-risk",
+        "title": "Smart Contract Risk",
+        "canonicalUrl": "/generated/glossary/smart-contract-risk",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "dark-side-web3",
+        "uid": "book:dark-side-web3",
+        "title": "The Dark Side of Web3",
+        "canonicalUrl": "/generated/books/dark-side-web3",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "oracle-risk": {
+    "topic": {
+      "id": "oracle-risk",
+      "uid": "topic:oracle-risk",
+      "title": "Oracle Risk",
+      "canonicalUrl": "/generated/topics/oracle-risk",
+      "category": "Wallets & Security",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "wallets",
+        "uid": "topic:wallets",
+        "title": "Wallets",
+        "canonicalUrl": "/generated/topics/wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "addresses",
+        "uid": "topic:addresses",
+        "title": "Addresses",
+        "canonicalUrl": "/generated/topics/addresses",
+        "relationship": "related-to"
+      },
+      {
+        "id": "private-keys",
+        "uid": "topic:private-keys",
+        "title": "Private Keys",
+        "canonicalUrl": "/generated/topics/private-keys",
+        "relationship": "related-to"
+      },
+      {
+        "id": "seed-phrases",
+        "uid": "topic:seed-phrases",
+        "title": "Seed Phrases",
+        "canonicalUrl": "/generated/topics/seed-phrases",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "oracle-risk",
+        "uid": "glossary:oracle-risk",
+        "title": "Oracle Risk",
+        "canonicalUrl": "/generated/glossary/oracle-risk",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "smart-contracts": {
+    "topic": {
+      "id": "smart-contracts",
+      "uid": "topic:smart-contracts",
+      "title": "Smart Contracts",
+      "canonicalUrl": "/generated/topics/smart-contracts",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      },
+      {
+        "id": "smart-contract-risk",
+        "uid": "topic:smart-contract-risk",
+        "title": "Smart Contract Risk",
+        "canonicalUrl": "/generated/topics/smart-contract-risk",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "smart-contracts",
+        "uid": "glossary:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/glossary/smart-contracts",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-web3",
+        "uid": "book:understanding-web3",
+        "title": "Understanding Web3",
+        "canonicalUrl": "/generated/books/understanding-web3",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "inspect-a-smart-contract",
+        "uid": "tutorial:inspect-a-smart-contract",
+        "title": "Inspect a Smart Contract",
+        "canonicalUrl": "/generated/tutorials/inspect-a-smart-contract",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "read-a-contract-method",
+        "uid": "code-example:read-a-contract-method",
+        "title": "Read a Contract Method",
+        "canonicalUrl": "/generated/code-examples/read-a-contract-method",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "smart-contract-architecture-view",
+        "uid": "ai-prompt:smart-contract-architecture-view",
+        "title": "Smart Contract Architecture View",
+        "canonicalUrl": "/generated/ai-prompts/smart-contract-architecture-view",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "smart-contract-review-check",
+        "uid": "quiz:smart-contract-review-check",
+        "title": "Smart Contract Review Check",
+        "canonicalUrl": "/generated/quizzes/smart-contract-review-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": [
+      {
+        "id": "blockchain-foundations",
+        "uid": "learning-path:blockchain-foundations",
+        "title": "Blockchain Foundations",
+        "canonicalUrl": "/learn/learning-path",
+        "relationship": "appears-in"
+      },
+      {
+        "id": "developer-infrastructure",
+        "uid": "learning-path:developer-infrastructure",
+        "title": "Blockchain Developer & Infrastructure",
+        "canonicalUrl": "/learn/learning-path",
+        "relationship": "appears-in"
+      }
+    ]
+  },
+  "evm": {
+    "topic": {
+      "id": "evm",
+      "uid": "topic:evm",
+      "title": "EVM",
+      "canonicalUrl": "/generated/topics/evm",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      },
+      {
+        "id": "web3",
+        "uid": "topic:web3",
+        "title": "Web3",
+        "canonicalUrl": "/generated/topics/web3",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "evm",
+        "uid": "glossary:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/glossary/evm",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "virtual-machines": {
+    "topic": {
+      "id": "virtual-machines",
+      "uid": "topic:virtual-machines",
+      "title": "Virtual Machines",
+      "canonicalUrl": "/generated/topics/virtual-machines",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      },
+      {
+        "id": "web3",
+        "uid": "topic:web3",
+        "title": "Web3",
+        "canonicalUrl": "/generated/topics/web3",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "virtual-machines",
+        "uid": "glossary:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/glossary/virtual-machines",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "dapps": {
+    "topic": {
+      "id": "dapps",
+      "uid": "topic:dapps",
+      "title": "DApps",
+      "canonicalUrl": "/generated/topics/dapps",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "web3",
+        "uid": "topic:web3",
+        "title": "Web3",
+        "canonicalUrl": "/generated/topics/web3",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "dapps",
+        "uid": "glossary:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/glossary/dapps",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-web3",
+        "uid": "book:understanding-web3",
+        "title": "Understanding Web3",
+        "canonicalUrl": "/generated/books/understanding-web3",
+        "relationship": "has-resource"
+      },
+      {
+        "id": "quiet-rebuild-internet",
+        "uid": "book:quiet-rebuild-internet",
+        "title": "The Quiet Rebuild of the Internet",
+        "canonicalUrl": "/generated/books/quiet-rebuild-internet",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "web3": {
+    "topic": {
+      "id": "web3",
+      "uid": "topic:web3",
+      "title": "Web3",
+      "canonicalUrl": "/generated/topics/web3",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "web3",
+        "uid": "glossary:web3",
+        "title": "Web3",
+        "canonicalUrl": "/generated/glossary/web3",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-web3",
+        "uid": "book:understanding-web3",
+        "title": "Understanding Web3",
+        "canonicalUrl": "/generated/books/understanding-web3",
+        "relationship": "has-resource"
+      },
+      {
+        "id": "quiet-rebuild-internet",
+        "uid": "book:quiet-rebuild-internet",
+        "title": "The Quiet Rebuild of the Internet",
+        "canonicalUrl": "/generated/books/quiet-rebuild-internet",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "daos": {
+    "topic": {
+      "id": "daos",
+      "uid": "topic:daos",
+      "title": "DAOs",
+      "canonicalUrl": "/generated/topics/daos",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "daos",
+        "uid": "glossary:daos",
+        "title": "DAOs",
+        "canonicalUrl": "/generated/glossary/daos",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "nfts": {
+    "topic": {
+      "id": "nfts",
+      "uid": "topic:nfts",
+      "title": "NFTs",
+      "canonicalUrl": "/generated/topics/nfts",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "nfts",
+        "uid": "glossary:nfts",
+        "title": "NFTs",
+        "canonicalUrl": "/generated/glossary/nfts",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "oracles": {
+    "topic": {
+      "id": "oracles",
+      "uid": "topic:oracles",
+      "title": "Oracles",
+      "canonicalUrl": "/generated/topics/oracles",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "oracles",
+        "uid": "glossary:oracles",
+        "title": "Oracles",
+        "canonicalUrl": "/generated/glossary/oracles",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "identity": {
+    "topic": {
+      "id": "identity",
+      "uid": "topic:identity",
+      "title": "Identity",
+      "canonicalUrl": "/generated/topics/identity",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "identity",
+        "uid": "glossary:identity",
+        "title": "Identity",
+        "canonicalUrl": "/generated/glossary/identity",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "decentralized-identity": {
+    "topic": {
+      "id": "decentralized-identity",
+      "uid": "topic:decentralized-identity",
+      "title": "Decentralized Identity",
+      "canonicalUrl": "/generated/topics/decentralized-identity",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "decentralized-identity",
+        "uid": "glossary:decentralized-identity",
+        "title": "Decentralized Identity",
+        "canonicalUrl": "/generated/glossary/decentralized-identity",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-web3",
+        "uid": "book:understanding-web3",
+        "title": "Understanding Web3",
+        "canonicalUrl": "/generated/books/understanding-web3",
+        "relationship": "has-resource"
+      },
+      {
+        "id": "quiet-rebuild-internet",
+        "uid": "book:quiet-rebuild-internet",
+        "title": "The Quiet Rebuild of the Internet",
+        "canonicalUrl": "/generated/books/quiet-rebuild-internet",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "ens-and-naming": {
+    "topic": {
+      "id": "ens-and-naming",
+      "uid": "topic:ens-and-naming",
+      "title": "ENS and Naming",
+      "canonicalUrl": "/generated/topics/ens-and-naming",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "ens-and-naming",
+        "uid": "glossary:ens-and-naming",
+        "title": "ENS and Naming",
+        "canonicalUrl": "/generated/glossary/ens-and-naming",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "governance": {
+    "topic": {
+      "id": "governance",
+      "uid": "topic:governance",
+      "title": "Governance",
+      "canonicalUrl": "/generated/topics/governance",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "governance",
+        "uid": "glossary:governance",
+        "title": "Governance",
+        "canonicalUrl": "/generated/glossary/governance",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "upgradeable-contracts": {
+    "topic": {
+      "id": "upgradeable-contracts",
+      "uid": "topic:upgradeable-contracts",
+      "title": "Upgradeable Contracts",
+      "canonicalUrl": "/generated/topics/upgradeable-contracts",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "upgradeable-contracts",
+        "uid": "glossary:upgradeable-contracts",
+        "title": "Upgradeable Contracts",
+        "canonicalUrl": "/generated/glossary/upgradeable-contracts",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "proxy-contracts": {
+    "topic": {
+      "id": "proxy-contracts",
+      "uid": "topic:proxy-contracts",
+      "title": "Proxy Contracts",
+      "canonicalUrl": "/generated/topics/proxy-contracts",
+      "category": "Smart Contracts & Web3",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "smart-contracts",
+        "uid": "topic:smart-contracts",
+        "title": "Smart Contracts",
+        "canonicalUrl": "/generated/topics/smart-contracts",
+        "relationship": "related-to"
+      },
+      {
+        "id": "evm",
+        "uid": "topic:evm",
+        "title": "EVM",
+        "canonicalUrl": "/generated/topics/evm",
+        "relationship": "related-to"
+      },
+      {
+        "id": "virtual-machines",
+        "uid": "topic:virtual-machines",
+        "title": "Virtual Machines",
+        "canonicalUrl": "/generated/topics/virtual-machines",
+        "relationship": "related-to"
+      },
+      {
+        "id": "dapps",
+        "uid": "topic:dapps",
+        "title": "DApps",
+        "canonicalUrl": "/generated/topics/dapps",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "proxy-contracts",
+        "uid": "glossary:proxy-contracts",
+        "title": "Proxy Contracts",
+        "canonicalUrl": "/generated/glossary/proxy-contracts",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "defi": {
+    "topic": {
+      "id": "defi",
+      "uid": "topic:defi",
+      "title": "DeFi",
+      "canonicalUrl": "/generated/topics/defi",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "liquidity-pools",
+        "uid": "topic:liquidity-pools",
+        "title": "Liquidity Pools",
+        "canonicalUrl": "/generated/topics/liquidity-pools",
+        "relationship": "related-to"
+      },
+      {
+        "id": "decentralized-exchanges",
+        "uid": "topic:decentralized-exchanges",
+        "title": "Decentralized Exchanges",
+        "canonicalUrl": "/generated/topics/decentralized-exchanges",
+        "relationship": "related-to"
+      },
+      {
+        "id": "stablecoins",
+        "uid": "topic:stablecoins",
+        "title": "Stablecoins",
+        "canonicalUrl": "/generated/topics/stablecoins",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "liquidity",
+        "uid": "glossary:liquidity",
+        "title": "Liquidity",
+        "canonicalUrl": "/generated/glossary/liquidity",
+        "relationship": "related-to"
+      },
+      {
+        "id": "defi",
+        "uid": "glossary:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/glossary/defi",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-defi",
+        "uid": "book:understanding-defi",
+        "title": "Understanding Decentralized Finance",
+        "canonicalUrl": "/generated/books/understanding-defi",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "evaluate-a-defi-protocol",
+        "uid": "tutorial:evaluate-a-defi-protocol",
+        "title": "Evaluate a DeFi Protocol",
+        "canonicalUrl": "/generated/tutorials/evaluate-a-defi-protocol",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "quote-a-token-amount-safely",
+        "uid": "code-example:quote-a-token-amount-safely",
+        "title": "Quote a Token Amount Safely",
+        "canonicalUrl": "/generated/code-examples/quote-a-token-amount-safely",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "defi-risk-map",
+        "uid": "ai-prompt:defi-risk-map",
+        "title": "DeFi Risk Map",
+        "canonicalUrl": "/generated/ai-prompts/defi-risk-map",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "defi-risk-check",
+        "uid": "quiz:defi-risk-check",
+        "title": "DeFi Risk Check",
+        "canonicalUrl": "/generated/quizzes/defi-risk-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": [
+      {
+        "id": "blockchain-foundations",
+        "uid": "learning-path:blockchain-foundations",
+        "title": "Blockchain Foundations",
+        "canonicalUrl": "/learn/learning-path",
+        "relationship": "appears-in"
+      }
+    ]
+  },
+  "lending": {
+    "topic": {
+      "id": "lending",
+      "uid": "topic:lending",
+      "title": "Lending",
+      "canonicalUrl": "/generated/topics/lending",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      },
+      {
+        "id": "liquidation",
+        "uid": "topic:liquidation",
+        "title": "Liquidation",
+        "canonicalUrl": "/generated/topics/liquidation",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "lending",
+        "uid": "glossary:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/glossary/lending",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-defi",
+        "uid": "book:understanding-defi",
+        "title": "Understanding Decentralized Finance",
+        "canonicalUrl": "/generated/books/understanding-defi",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "borrowing": {
+    "topic": {
+      "id": "borrowing",
+      "uid": "topic:borrowing",
+      "title": "Borrowing",
+      "canonicalUrl": "/generated/topics/borrowing",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      },
+      {
+        "id": "liquidation",
+        "uid": "topic:liquidation",
+        "title": "Liquidation",
+        "canonicalUrl": "/generated/topics/liquidation",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "borrowing",
+        "uid": "glossary:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/glossary/borrowing",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-defi",
+        "uid": "book:understanding-defi",
+        "title": "Understanding Decentralized Finance",
+        "canonicalUrl": "/generated/books/understanding-defi",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "collateral": {
+    "topic": {
+      "id": "collateral",
+      "uid": "topic:collateral",
+      "title": "Collateral",
+      "canonicalUrl": "/generated/topics/collateral",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "liquidation",
+        "uid": "topic:liquidation",
+        "title": "Liquidation",
+        "canonicalUrl": "/generated/topics/liquidation",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "collateral",
+        "uid": "glossary:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/glossary/collateral",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "liquidation": {
+    "topic": {
+      "id": "liquidation",
+      "uid": "topic:liquidation",
+      "title": "Liquidation",
+      "canonicalUrl": "/generated/topics/liquidation",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "liquidation",
+        "uid": "glossary:liquidation",
+        "title": "Liquidation",
+        "canonicalUrl": "/generated/glossary/liquidation",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "yield-farming": {
+    "topic": {
+      "id": "yield-farming",
+      "uid": "topic:yield-farming",
+      "title": "Yield Farming",
+      "canonicalUrl": "/generated/topics/yield-farming",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "yield-farming",
+        "uid": "glossary:yield-farming",
+        "title": "Yield Farming",
+        "canonicalUrl": "/generated/glossary/yield-farming",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "liquidity-pools": {
+    "topic": {
+      "id": "liquidity-pools",
+      "uid": "topic:liquidity-pools",
+      "title": "Liquidity Pools",
+      "canonicalUrl": "/generated/topics/liquidity-pools",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "liquidity-pools",
+        "uid": "glossary:liquidity-pools",
+        "title": "Liquidity Pools",
+        "canonicalUrl": "/generated/glossary/liquidity-pools",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "understanding-defi",
+        "uid": "book:understanding-defi",
+        "title": "Understanding Decentralized Finance",
+        "canonicalUrl": "/generated/books/understanding-defi",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "impermanent-loss": {
+    "topic": {
+      "id": "impermanent-loss",
+      "uid": "topic:impermanent-loss",
+      "title": "Impermanent Loss",
+      "canonicalUrl": "/generated/topics/impermanent-loss",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "impermanent-loss",
+        "uid": "glossary:impermanent-loss",
+        "title": "Impermanent Loss",
+        "canonicalUrl": "/generated/glossary/impermanent-loss",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "dex-aggregators": {
+    "topic": {
+      "id": "dex-aggregators",
+      "uid": "topic:dex-aggregators",
+      "title": "DEX Aggregators",
+      "canonicalUrl": "/generated/topics/dex-aggregators",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "dex-aggregators",
+        "uid": "glossary:dex-aggregators",
+        "title": "DEX Aggregators",
+        "canonicalUrl": "/generated/glossary/dex-aggregators",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "stablecoin-mechanisms": {
+    "topic": {
+      "id": "stablecoin-mechanisms",
+      "uid": "topic:stablecoin-mechanisms",
+      "title": "Stablecoin Mechanisms",
+      "canonicalUrl": "/generated/topics/stablecoin-mechanisms",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "stablecoin-mechanisms",
+        "uid": "glossary:stablecoin-mechanisms",
+        "title": "Stablecoin Mechanisms",
+        "canonicalUrl": "/generated/glossary/stablecoin-mechanisms",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "derivatives": {
+    "topic": {
+      "id": "derivatives",
+      "uid": "topic:derivatives",
+      "title": "Derivatives",
+      "canonicalUrl": "/generated/topics/derivatives",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "derivatives",
+        "uid": "glossary:derivatives",
+        "title": "Derivatives",
+        "canonicalUrl": "/generated/glossary/derivatives",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "perpetuals": {
+    "topic": {
+      "id": "perpetuals",
+      "uid": "topic:perpetuals",
+      "title": "Perpetuals",
+      "canonicalUrl": "/generated/topics/perpetuals",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "perpetuals",
+        "uid": "glossary:perpetuals",
+        "title": "Perpetuals",
+        "canonicalUrl": "/generated/glossary/perpetuals",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "synthetic-assets": {
+    "topic": {
+      "id": "synthetic-assets",
+      "uid": "topic:synthetic-assets",
+      "title": "Synthetic Assets",
+      "canonicalUrl": "/generated/topics/synthetic-assets",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "synthetic-assets",
+        "uid": "glossary:synthetic-assets",
+        "title": "Synthetic Assets",
+        "canonicalUrl": "/generated/glossary/synthetic-assets",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "flash-loans": {
+    "topic": {
+      "id": "flash-loans",
+      "uid": "topic:flash-loans",
+      "title": "Flash Loans",
+      "canonicalUrl": "/generated/topics/flash-loans",
+      "category": "DeFi",
+      "level": "intermediate"
+    },
+    "topics": [
+      {
+        "id": "defi",
+        "uid": "topic:defi",
+        "title": "DeFi",
+        "canonicalUrl": "/generated/topics/defi",
+        "relationship": "related-to"
+      },
+      {
+        "id": "lending",
+        "uid": "topic:lending",
+        "title": "Lending",
+        "canonicalUrl": "/generated/topics/lending",
+        "relationship": "related-to"
+      },
+      {
+        "id": "borrowing",
+        "uid": "topic:borrowing",
+        "title": "Borrowing",
+        "canonicalUrl": "/generated/topics/borrowing",
+        "relationship": "related-to"
+      },
+      {
+        "id": "collateral",
+        "uid": "topic:collateral",
+        "title": "Collateral",
+        "canonicalUrl": "/generated/topics/collateral",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "flash-loans",
+        "uid": "glossary:flash-loans",
+        "title": "Flash Loans",
+        "canonicalUrl": "/generated/glossary/flash-loans",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "validators": {
+    "topic": {
+      "id": "validators",
+      "uid": "topic:validators",
+      "title": "Validators",
+      "canonicalUrl": "/generated/topics/validators",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "light-clients",
+        "uid": "topic:light-clients",
+        "title": "Light Clients",
+        "canonicalUrl": "/generated/topics/light-clients",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "validators",
+        "uid": "glossary:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/glossary/validators",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "rpc-infrastructure": {
+    "topic": {
+      "id": "rpc-infrastructure",
+      "uid": "topic:rpc-infrastructure",
+      "title": "RPC Infrastructure",
+      "canonicalUrl": "/generated/topics/rpc-infrastructure",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "light-clients",
+        "uid": "topic:light-clients",
+        "title": "Light Clients",
+        "canonicalUrl": "/generated/topics/light-clients",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "rpc-infrastructure",
+        "uid": "glossary:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/glossary/rpc-infrastructure",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "connect-an-application-to-rpc",
+        "uid": "tutorial:connect-an-application-to-rpc",
+        "title": "Connect an Application to RPC",
+        "canonicalUrl": "/generated/tutorials/connect-an-application-to-rpc",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "rpc-failover-pattern",
+        "uid": "code-example:rpc-failover-pattern",
+        "title": "RPC Failover Pattern",
+        "canonicalUrl": "/generated/code-examples/rpc-failover-pattern",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "rpc-reliability-review",
+        "uid": "ai-prompt:rpc-reliability-review",
+        "title": "RPC Reliability Review",
+        "canonicalUrl": "/generated/ai-prompts/rpc-reliability-review",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "rpc-infrastructure-check",
+        "uid": "quiz:rpc-infrastructure-check",
+        "title": "RPC Infrastructure Check",
+        "canonicalUrl": "/generated/quizzes/rpc-infrastructure-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": []
+  },
+  "archive-nodes": {
+    "topic": {
+      "id": "archive-nodes",
+      "uid": "topic:archive-nodes",
+      "title": "Archive Nodes",
+      "canonicalUrl": "/generated/topics/archive-nodes",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "light-clients",
+        "uid": "topic:light-clients",
+        "title": "Light Clients",
+        "canonicalUrl": "/generated/topics/light-clients",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "archive-nodes",
+        "uid": "glossary:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/glossary/archive-nodes",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "full-nodes": {
+    "topic": {
+      "id": "full-nodes",
+      "uid": "topic:full-nodes",
+      "title": "Full Nodes",
+      "canonicalUrl": "/generated/topics/full-nodes",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "light-clients",
+        "uid": "topic:light-clients",
+        "title": "Light Clients",
+        "canonicalUrl": "/generated/topics/light-clients",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "full-nodes",
+        "uid": "glossary:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/glossary/full-nodes",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "light-clients": {
+    "topic": {
+      "id": "light-clients",
+      "uid": "topic:light-clients",
+      "title": "Light Clients",
+      "canonicalUrl": "/generated/topics/light-clients",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "light-clients",
+        "uid": "glossary:light-clients",
+        "title": "Light Clients",
+        "canonicalUrl": "/generated/glossary/light-clients",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "layer-1": {
+    "topic": {
+      "id": "layer-1",
+      "uid": "topic:layer-1",
+      "title": "Layer 1",
+      "canonicalUrl": "/generated/topics/layer-1",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "layer-1",
+        "uid": "glossary:layer-1",
+        "title": "Layer 1",
+        "canonicalUrl": "/generated/glossary/layer-1",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "layer-2": {
+    "topic": {
+      "id": "layer-2",
+      "uid": "topic:layer-2",
+      "title": "Layer 2",
+      "canonicalUrl": "/generated/topics/layer-2",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "rollups",
+        "uid": "topic:rollups",
+        "title": "Rollups",
+        "canonicalUrl": "/generated/topics/rollups",
+        "relationship": "related-to"
+      },
+      {
+        "id": "optimistic-rollups",
+        "uid": "topic:optimistic-rollups",
+        "title": "Optimistic Rollups",
+        "canonicalUrl": "/generated/topics/optimistic-rollups",
+        "relationship": "related-to"
+      },
+      {
+        "id": "zero-knowledge-rollups",
+        "uid": "topic:zero-knowledge-rollups",
+        "title": "Zero-Knowledge Rollups",
+        "canonicalUrl": "/generated/topics/zero-knowledge-rollups",
+        "relationship": "related-to"
+      },
+      {
+        "id": "data-availability",
+        "uid": "topic:data-availability",
+        "title": "Data Availability",
+        "canonicalUrl": "/generated/topics/data-availability",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "layer-2",
+        "uid": "glossary:layer-2",
+        "title": "Layer 2",
+        "canonicalUrl": "/generated/glossary/layer-2",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "compare-layer-2-designs",
+        "uid": "tutorial:compare-layer-2-designs",
+        "title": "Compare Layer-2 Designs",
+        "canonicalUrl": "/generated/tutorials/compare-layer-2-designs",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "identify-network-and-chain-id",
+        "uid": "code-example:identify-network-and-chain-id",
+        "title": "Identify Network and Chain ID",
+        "canonicalUrl": "/generated/code-examples/identify-network-and-chain-id",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "layer-2-comparison",
+        "uid": "ai-prompt:layer-2-comparison",
+        "title": "Layer-2 Comparison",
+        "canonicalUrl": "/generated/ai-prompts/layer-2-comparison",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "layer-2-architecture-check",
+        "uid": "quiz:layer-2-architecture-check",
+        "title": "Layer-2 Architecture Check",
+        "canonicalUrl": "/generated/quizzes/layer-2-architecture-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": []
+  },
+  "rollups": {
+    "topic": {
+      "id": "rollups",
+      "uid": "topic:rollups",
+      "title": "Rollups",
+      "canonicalUrl": "/generated/topics/rollups",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "rollups",
+        "uid": "glossary:rollups",
+        "title": "Rollups",
+        "canonicalUrl": "/generated/glossary/rollups",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "optimistic-rollups": {
+    "topic": {
+      "id": "optimistic-rollups",
+      "uid": "topic:optimistic-rollups",
+      "title": "Optimistic Rollups",
+      "canonicalUrl": "/generated/topics/optimistic-rollups",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "optimistic-rollups",
+        "uid": "glossary:optimistic-rollups",
+        "title": "Optimistic Rollups",
+        "canonicalUrl": "/generated/glossary/optimistic-rollups",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "zero-knowledge-rollups": {
+    "topic": {
+      "id": "zero-knowledge-rollups",
+      "uid": "topic:zero-knowledge-rollups",
+      "title": "Zero-Knowledge Rollups",
+      "canonicalUrl": "/generated/topics/zero-knowledge-rollups",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "zero-knowledge-rollups",
+        "uid": "glossary:zero-knowledge-rollups",
+        "title": "Zero-Knowledge Rollups",
+        "canonicalUrl": "/generated/glossary/zero-knowledge-rollups",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "data-availability": {
+    "topic": {
+      "id": "data-availability",
+      "uid": "topic:data-availability",
+      "title": "Data Availability",
+      "canonicalUrl": "/generated/topics/data-availability",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "data-availability",
+        "uid": "glossary:data-availability",
+        "title": "Data Availability",
+        "canonicalUrl": "/generated/glossary/data-availability",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "sequencers": {
+    "topic": {
+      "id": "sequencers",
+      "uid": "topic:sequencers",
+      "title": "Sequencers",
+      "canonicalUrl": "/generated/topics/sequencers",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "sequencers",
+        "uid": "glossary:sequencers",
+        "title": "Sequencers",
+        "canonicalUrl": "/generated/glossary/sequencers",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "sharding": {
+    "topic": {
+      "id": "sharding",
+      "uid": "topic:sharding",
+      "title": "Sharding",
+      "canonicalUrl": "/generated/topics/sharding",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "sharding",
+        "uid": "glossary:sharding",
+        "title": "Sharding",
+        "canonicalUrl": "/generated/glossary/sharding",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "interoperability": {
+    "topic": {
+      "id": "interoperability",
+      "uid": "topic:interoperability",
+      "title": "Interoperability",
+      "canonicalUrl": "/generated/topics/interoperability",
+      "category": "Infrastructure & Scaling",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "validators",
+        "uid": "topic:validators",
+        "title": "Validators",
+        "canonicalUrl": "/generated/topics/validators",
+        "relationship": "related-to"
+      },
+      {
+        "id": "rpc-infrastructure",
+        "uid": "topic:rpc-infrastructure",
+        "title": "RPC Infrastructure",
+        "canonicalUrl": "/generated/topics/rpc-infrastructure",
+        "relationship": "related-to"
+      },
+      {
+        "id": "archive-nodes",
+        "uid": "topic:archive-nodes",
+        "title": "Archive Nodes",
+        "canonicalUrl": "/generated/topics/archive-nodes",
+        "relationship": "related-to"
+      },
+      {
+        "id": "full-nodes",
+        "uid": "topic:full-nodes",
+        "title": "Full Nodes",
+        "canonicalUrl": "/generated/topics/full-nodes",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "interoperability",
+        "uid": "glossary:interoperability",
+        "title": "Interoperability",
+        "canonicalUrl": "/generated/glossary/interoperability",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "quiet-rebuild-internet",
+        "uid": "book:quiet-rebuild-internet",
+        "title": "The Quiet Rebuild of the Internet",
+        "canonicalUrl": "/generated/books/quiet-rebuild-internet",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "trace-a-cross-chain-message",
+        "uid": "tutorial:trace-a-cross-chain-message",
+        "title": "Trace a Cross-Chain Message",
+        "canonicalUrl": "/generated/tutorials/trace-a-cross-chain-message",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "represent-a-cross-chain-message",
+        "uid": "code-example:represent-a-cross-chain-message",
+        "title": "Represent a Cross-Chain Message",
+        "canonicalUrl": "/generated/code-examples/represent-a-cross-chain-message",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "cross-chain-assumption-review",
+        "uid": "ai-prompt:cross-chain-assumption-review",
+        "title": "Cross-Chain Assumption Review",
+        "canonicalUrl": "/generated/ai-prompts/cross-chain-assumption-review",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "interoperability-check",
+        "uid": "quiz:interoperability-check",
+        "title": "Interoperability Check",
+        "canonicalUrl": "/generated/quizzes/interoperability-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": []
+  },
+  "enterprise-blockchain": {
+    "topic": {
+      "id": "enterprise-blockchain",
+      "uid": "topic:enterprise-blockchain",
+      "title": "Enterprise Blockchain",
+      "canonicalUrl": "/generated/topics/enterprise-blockchain",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      },
+      {
+        "id": "predictable-fees",
+        "uid": "topic:predictable-fees",
+        "title": "Predictable Fees",
+        "canonicalUrl": "/generated/topics/predictable-fees",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "glossary:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/glossary/enterprise-blockchain",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "deterministic-execution",
+        "uid": "book:deterministic-execution",
+        "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+        "canonicalUrl": "/generated/books/deterministic-execution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [
+      {
+        "id": "deterministic-execution-fixed-cost-l1",
+        "uid": "research:deterministic-execution-fixed-cost-l1",
+        "title": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure",
+        "canonicalUrl": "/generated/research/deterministic-execution-fixed-cost-l1",
+        "relationship": "has-resource"
+      }
+    ],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": [
+      {
+        "id": "developer-infrastructure",
+        "uid": "learning-path:developer-infrastructure",
+        "title": "Blockchain Developer & Infrastructure",
+        "canonicalUrl": "/learn/learning-path",
+        "relationship": "appears-in"
+      }
+    ]
+  },
+  "permissioned-networks": {
+    "topic": {
+      "id": "permissioned-networks",
+      "uid": "topic:permissioned-networks",
+      "title": "Permissioned Networks",
+      "canonicalUrl": "/generated/topics/permissioned-networks",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      },
+      {
+        "id": "predictable-fees",
+        "uid": "topic:predictable-fees",
+        "title": "Predictable Fees",
+        "canonicalUrl": "/generated/topics/predictable-fees",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "permissioned-networks",
+        "uid": "glossary:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/glossary/permissioned-networks",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "compliance": {
+    "topic": {
+      "id": "compliance",
+      "uid": "topic:compliance",
+      "title": "Compliance",
+      "canonicalUrl": "/generated/topics/compliance",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      },
+      {
+        "id": "predictable-fees",
+        "uid": "topic:predictable-fees",
+        "title": "Predictable Fees",
+        "canonicalUrl": "/generated/topics/predictable-fees",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "compliance",
+        "uid": "glossary:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/glossary/compliance",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "privacy": {
+    "topic": {
+      "id": "privacy",
+      "uid": "topic:privacy",
+      "title": "Privacy",
+      "canonicalUrl": "/generated/topics/privacy",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "predictable-fees",
+        "uid": "topic:predictable-fees",
+        "title": "Predictable Fees",
+        "canonicalUrl": "/generated/topics/predictable-fees",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "privacy",
+        "uid": "glossary:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/glossary/privacy",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "predictable-fees": {
+    "topic": {
+      "id": "predictable-fees",
+      "uid": "topic:predictable-fees",
+      "title": "Predictable Fees",
+      "canonicalUrl": "/generated/topics/predictable-fees",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "predictable-fees",
+        "uid": "glossary:predictable-fees",
+        "title": "Predictable Fees",
+        "canonicalUrl": "/generated/glossary/predictable-fees",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "deterministic-execution",
+        "uid": "book:deterministic-execution",
+        "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+        "canonicalUrl": "/generated/books/deterministic-execution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [
+      {
+        "id": "deterministic-execution-fixed-cost-l1",
+        "uid": "research:deterministic-execution-fixed-cost-l1",
+        "title": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure",
+        "canonicalUrl": "/generated/research/deterministic-execution-fixed-cost-l1",
+        "relationship": "has-resource"
+      }
+    ],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "deterministic-execution": {
+    "topic": {
+      "id": "deterministic-execution",
+      "uid": "topic:deterministic-execution",
+      "title": "Deterministic Execution",
+      "canonicalUrl": "/generated/topics/deterministic-execution",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "fixed-cost-transactions",
+        "uid": "topic:fixed-cost-transactions",
+        "title": "Fixed-Cost Transactions",
+        "canonicalUrl": "/generated/topics/fixed-cost-transactions",
+        "relationship": "related-to"
+      },
+      {
+        "id": "predictable-fees",
+        "uid": "topic:predictable-fees",
+        "title": "Predictable Fees",
+        "canonicalUrl": "/generated/topics/predictable-fees",
+        "relationship": "related-to"
+      },
+      {
+        "id": "sla-and-reliability",
+        "uid": "topic:sla-and-reliability",
+        "title": "SLA and Reliability",
+        "canonicalUrl": "/generated/topics/sla-and-reliability",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "deterministic-execution",
+        "uid": "glossary:deterministic-execution",
+        "title": "Deterministic Execution",
+        "canonicalUrl": "/generated/glossary/deterministic-execution",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "deterministic-execution",
+        "uid": "book:deterministic-execution",
+        "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+        "canonicalUrl": "/generated/books/deterministic-execution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [
+      {
+        "id": "deterministic-execution-fixed-cost-l1",
+        "uid": "research:deterministic-execution-fixed-cost-l1",
+        "title": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure",
+        "canonicalUrl": "/generated/research/deterministic-execution-fixed-cost-l1",
+        "relationship": "has-resource"
+      }
+    ],
+    "tutorials": [
+      {
+        "id": "model-predictable-transaction-costs",
+        "uid": "tutorial:model-predictable-transaction-costs",
+        "title": "Model Predictable Transaction Costs",
+        "canonicalUrl": "/generated/tutorials/model-predictable-transaction-costs",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "estimate-fixed-transaction-budget",
+        "uid": "code-example:estimate-fixed-transaction-budget",
+        "title": "Estimate Fixed Transaction Budget",
+        "canonicalUrl": "/generated/code-examples/estimate-fixed-transaction-budget",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "execution-model-comparison",
+        "uid": "ai-prompt:execution-model-comparison",
+        "title": "Execution Model Comparison",
+        "canonicalUrl": "/generated/ai-prompts/execution-model-comparison",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "deterministic-execution-check",
+        "uid": "quiz:deterministic-execution-check",
+        "title": "Deterministic Execution Check",
+        "canonicalUrl": "/generated/quizzes/deterministic-execution-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": []
+  },
+  "fixed-cost-transactions": {
+    "topic": {
+      "id": "fixed-cost-transactions",
+      "uid": "topic:fixed-cost-transactions",
+      "title": "Fixed-Cost Transactions",
+      "canonicalUrl": "/generated/topics/fixed-cost-transactions",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "fixed-cost-transactions",
+        "uid": "glossary:fixed-cost-transactions",
+        "title": "Fixed-Cost Transactions",
+        "canonicalUrl": "/generated/glossary/fixed-cost-transactions",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "deterministic-execution",
+        "uid": "book:deterministic-execution",
+        "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+        "canonicalUrl": "/generated/books/deterministic-execution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [
+      {
+        "id": "deterministic-execution-fixed-cost-l1",
+        "uid": "research:deterministic-execution-fixed-cost-l1",
+        "title": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure",
+        "canonicalUrl": "/generated/research/deterministic-execution-fixed-cost-l1",
+        "relationship": "has-resource"
+      }
+    ],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "sla-and-reliability": {
+    "topic": {
+      "id": "sla-and-reliability",
+      "uid": "topic:sla-and-reliability",
+      "title": "SLA and Reliability",
+      "canonicalUrl": "/generated/topics/sla-and-reliability",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "sla-and-reliability",
+        "uid": "glossary:sla-and-reliability",
+        "title": "SLA and Reliability",
+        "canonicalUrl": "/generated/glossary/sla-and-reliability",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "observability": {
+    "topic": {
+      "id": "observability",
+      "uid": "topic:observability",
+      "title": "Observability",
+      "canonicalUrl": "/generated/topics/observability",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "observability",
+        "uid": "glossary:observability",
+        "title": "Observability",
+        "canonicalUrl": "/generated/glossary/observability",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "blockchain-analytics": {
+    "topic": {
+      "id": "blockchain-analytics",
+      "uid": "topic:blockchain-analytics",
+      "title": "Blockchain Analytics",
+      "canonicalUrl": "/generated/topics/blockchain-analytics",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "blockchain-analytics",
+        "uid": "glossary:blockchain-analytics",
+        "title": "Blockchain Analytics",
+        "canonicalUrl": "/generated/glossary/blockchain-analytics",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "ai-agents": {
+    "topic": {
+      "id": "ai-agents",
+      "uid": "topic:ai-agents",
+      "title": "AI Agents",
+      "canonicalUrl": "/generated/topics/ai-agents",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "machine-payments",
+        "uid": "topic:machine-payments",
+        "title": "Machine Payments",
+        "canonicalUrl": "/generated/topics/machine-payments",
+        "relationship": "related-to"
+      },
+      {
+        "id": "agent-wallets",
+        "uid": "topic:agent-wallets",
+        "title": "Agent Wallets",
+        "canonicalUrl": "/generated/topics/agent-wallets",
+        "relationship": "related-to"
+      },
+      {
+        "id": "autonomous-systems",
+        "uid": "topic:autonomous-systems",
+        "title": "Autonomous Systems",
+        "canonicalUrl": "/generated/topics/autonomous-systems",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "ai-agents",
+        "uid": "glossary:ai-agents",
+        "title": "AI Agents",
+        "canonicalUrl": "/generated/glossary/ai-agents",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "ai-money-revolution",
+        "uid": "book:ai-money-revolution",
+        "title": "The AI Money Revolution",
+        "canonicalUrl": "/generated/books/ai-money-revolution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [
+      {
+        "id": "design-an-agent-payment-flow",
+        "uid": "tutorial:design-an-agent-payment-flow",
+        "title": "Design an Agent Payment Flow",
+        "canonicalUrl": "/generated/tutorials/design-an-agent-payment-flow",
+        "relationship": "has-resource"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "agent-transaction-policy",
+        "uid": "code-example:agent-transaction-policy",
+        "title": "Agent Transaction Policy",
+        "canonicalUrl": "/generated/code-examples/agent-transaction-policy",
+        "relationship": "has-resource"
+      }
+    ],
+    "aiPrompts": [
+      {
+        "id": "agent-payment-architecture",
+        "uid": "ai-prompt:agent-payment-architecture",
+        "title": "Agent Payment Architecture",
+        "canonicalUrl": "/generated/ai-prompts/agent-payment-architecture",
+        "relationship": "has-resource"
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "ai-agent-infrastructure-check",
+        "uid": "quiz:ai-agent-infrastructure-check",
+        "title": "AI Agent Infrastructure Check",
+        "canonicalUrl": "/generated/quizzes/ai-agent-infrastructure-check",
+        "relationship": "has-resource"
+      }
+    ],
+    "learningPaths": []
+  },
+  "machine-payments": {
+    "topic": {
+      "id": "machine-payments",
+      "uid": "topic:machine-payments",
+      "title": "Machine Payments",
+      "canonicalUrl": "/generated/topics/machine-payments",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "machine-payments",
+        "uid": "glossary:machine-payments",
+        "title": "Machine Payments",
+        "canonicalUrl": "/generated/glossary/machine-payments",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "ai-money-revolution",
+        "uid": "book:ai-money-revolution",
+        "title": "The AI Money Revolution",
+        "canonicalUrl": "/generated/books/ai-money-revolution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "agent-wallets": {
+    "topic": {
+      "id": "agent-wallets",
+      "uid": "topic:agent-wallets",
+      "title": "Agent Wallets",
+      "canonicalUrl": "/generated/topics/agent-wallets",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "agent-wallets",
+        "uid": "glossary:agent-wallets",
+        "title": "Agent Wallets",
+        "canonicalUrl": "/generated/glossary/agent-wallets",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [
+      {
+        "id": "ai-money-revolution",
+        "uid": "book:ai-money-revolution",
+        "title": "The AI Money Revolution",
+        "canonicalUrl": "/generated/books/ai-money-revolution",
+        "relationship": "has-resource"
+      }
+    ],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  },
+  "autonomous-systems": {
+    "topic": {
+      "id": "autonomous-systems",
+      "uid": "topic:autonomous-systems",
+      "title": "Autonomous Systems",
+      "canonicalUrl": "/generated/topics/autonomous-systems",
+      "category": "Enterprise & AI",
+      "level": "advanced"
+    },
+    "topics": [
+      {
+        "id": "enterprise-blockchain",
+        "uid": "topic:enterprise-blockchain",
+        "title": "Enterprise Blockchain",
+        "canonicalUrl": "/generated/topics/enterprise-blockchain",
+        "relationship": "related-to"
+      },
+      {
+        "id": "permissioned-networks",
+        "uid": "topic:permissioned-networks",
+        "title": "Permissioned Networks",
+        "canonicalUrl": "/generated/topics/permissioned-networks",
+        "relationship": "related-to"
+      },
+      {
+        "id": "compliance",
+        "uid": "topic:compliance",
+        "title": "Compliance",
+        "canonicalUrl": "/generated/topics/compliance",
+        "relationship": "related-to"
+      },
+      {
+        "id": "privacy",
+        "uid": "topic:privacy",
+        "title": "Privacy",
+        "canonicalUrl": "/generated/topics/privacy",
+        "relationship": "related-to"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "autonomous-systems",
+        "uid": "glossary:autonomous-systems",
+        "title": "Autonomous Systems",
+        "canonicalUrl": "/generated/glossary/autonomous-systems",
+        "relationship": "defined-by"
+      }
+    ],
+    "books": [],
+    "research": [],
+    "tutorials": [],
+    "codeExamples": [],
+    "aiPrompts": [],
+    "quizzes": [],
+    "learningPaths": []
+  }
+}

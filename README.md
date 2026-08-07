@@ -6,37 +6,23 @@
 
 The Blockchain Library is an open-source blockchain knowledge platform for learners, developers, researchers, educators, and AI systems.
 
-## Resource Enrichment v1.3
+## Learning & Developer Enrichment v1.4
 
-Version 1.3 turns content planning into a measurable process.
+Version 1.4 uses the coverage model to deepen ten high-value canonical topics with four reusable resource types.
 
-### New capabilities
+### Added
 
-- Enriched book objects with canonical topic mappings
-- Enriched research metadata and identifiers
-- Generated canonical book and research pages
-- Automatic topic-to-resource coverage scoring
-- Interactive coverage report
-- Coverage JSON for future APIs and editorial automation
+- 10 tutorials
+- 10 code examples
+- 10 AI prompt patterns
+- 10 short-answer quizzes
+- Native Mintlify catalogs for all four resource types
 
-### Build the platform
-
-```powershell
-npm.cmd run build:platform
-```
-
-New generated surface:
-
-```text
-/knowledge/coverage.json
-/reports/coverage/
-```
-
-The coverage report identifies which topics are missing books, research, tutorials, code examples, AI prompts, quizzes, or learning paths.
+The first enriched topics are Blockchain, Transactions, Wallets, Smart Contracts, DeFi, Layer 2, RPC Infrastructure, Interoperability, Deterministic Execution, and AI Agents.
 
 ## Core principle
 
-Build the next content where the knowledge graph proves it is needed.
+Measure coverage → fill the weakest useful gaps → regenerate the graph → repeat.
 
 ## License
 

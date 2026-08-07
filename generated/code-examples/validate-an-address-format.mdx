@@ -1,0 +1,20 @@
+---
+title: "Validate an Address Format"
+description: "Perform basic client-side validation before presenting a blockchain address to a user."
+---
+
+# Validate an Address Format
+
+Perform basic client-side validation before presenting a blockchain address to a user.
+
+```javascript
+const isHexAddress = /^0x[a-fA-F0-9]{40}$/.test(address);
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/wallets" icon="code">
+Open the canonical topic associated with this example.
+</Card>

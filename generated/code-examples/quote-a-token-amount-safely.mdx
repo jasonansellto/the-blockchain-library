@@ -1,0 +1,20 @@
+---
+title: "Quote a Token Amount Safely"
+description: "Demonstrate integer-safe token amount handling and decimal conversion without floating-point assumptions."
+---
+
+# Quote a Token Amount Safely
+
+Demonstrate integer-safe token amount handling and decimal conversion without floating-point assumptions.
+
+```javascript
+const units = BigInt(userWholeTokens) * (10n ** BigInt(decimals));
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/defi" icon="code">
+Open the canonical topic associated with this example.
+</Card>

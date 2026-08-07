@@ -1,42 +1,134 @@
 {
-  "version": "1.0.0",
+  "version": "1.4.0",
   "prompts": [
     {
-      "id": "explain-topic",
-      "uid": "ai-prompt:explain-topic",
+      "id": "explain-blockchain-at-three-levels",
+      "uid": "ai-prompt:explain-blockchain-at-three-levels",
       "type": "ai-prompt",
-      "title": "Explain a Topic",
-      "prompt": "Explain {topic} at the requested learning level, then identify prerequisites and related concepts.",
+      "title": "Explain Blockchain at Three Levels",
+      "prompt": "Explain {topic} for a beginner, an intermediate learner, and a technical reader. Keep terminology consistent and identify related concepts.",
       "topicIds": [
         "blockchain"
       ],
       "purpose": "education",
+      "canonicalUrl": "/generated/ai-prompts/explain-blockchain-at-three-levels",
       "status": "published"
     },
     {
-      "id": "quiz-topic",
-      "uid": "ai-prompt:quiz-topic",
+      "id": "transaction-review-assistant",
+      "uid": "ai-prompt:transaction-review-assistant",
       "type": "ai-prompt",
-      "title": "Quiz Me on a Topic",
-      "prompt": "Create a short knowledge check for {topic} using only supported Blockchain Library material.",
+      "title": "Transaction Review Assistant",
+      "prompt": "Given a transaction description, identify the destination, value transfer, permissions, likely state changes, and questions a user should verify before signing.",
       "topicIds": [
-        "blockchain"
+        "transactions"
       ],
-      "purpose": "assessment",
+      "purpose": "safety-education",
+      "canonicalUrl": "/generated/ai-prompts/transaction-review-assistant",
       "status": "published"
     },
     {
-      "id": "developer-view",
-      "uid": "ai-prompt:developer-view",
+      "id": "wallet-security-coach",
+      "uid": "ai-prompt:wallet-security-coach",
       "type": "ai-prompt",
-      "title": "Developer View",
-      "prompt": "Explain {topic} from a developer perspective, emphasizing architecture, interfaces, assumptions, and security considerations.",
+      "title": "Wallet Security Coach",
+      "prompt": "Teach a practical wallet-security routine for {topic}, emphasizing recovery material, phishing resistance, transaction review, and least privilege.",
       "topicIds": [
-        "smart-contracts",
-        "infrastructure",
-        "ai-blockchain"
+        "wallets"
+      ],
+      "purpose": "education",
+      "canonicalUrl": "/generated/ai-prompts/wallet-security-coach",
+      "status": "published"
+    },
+    {
+      "id": "smart-contract-architecture-view",
+      "uid": "ai-prompt:smart-contract-architecture-view",
+      "type": "ai-prompt",
+      "title": "Smart Contract Architecture View",
+      "prompt": "Explain the contract's state, permissions, upgrade model, external dependencies, and major security assumptions without inventing missing facts.",
+      "topicIds": [
+        "smart-contracts"
       ],
       "purpose": "development",
+      "canonicalUrl": "/generated/ai-prompts/smart-contract-architecture-view",
+      "status": "published"
+    },
+    {
+      "id": "defi-risk-map",
+      "uid": "ai-prompt:defi-risk-map",
+      "type": "ai-prompt",
+      "title": "DeFi Risk Map",
+      "prompt": "Create a structured risk map for {topic} covering contract, liquidity, oracle, governance, stablecoin, bridge, and user-interface risk where relevant.",
+      "topicIds": [
+        "defi"
+      ],
+      "purpose": "education",
+      "canonicalUrl": "/generated/ai-prompts/defi-risk-map",
+      "status": "published"
+    },
+    {
+      "id": "layer-2-comparison",
+      "uid": "ai-prompt:layer-2-comparison",
+      "type": "ai-prompt",
+      "title": "Layer-2 Comparison",
+      "prompt": "Compare two Layer-2 designs by settlement, data availability, sequencer model, finality, bridging, and operational trade-offs.",
+      "topicIds": [
+        "layer-2"
+      ],
+      "purpose": "research",
+      "canonicalUrl": "/generated/ai-prompts/layer-2-comparison",
+      "status": "published"
+    },
+    {
+      "id": "rpc-reliability-review",
+      "uid": "ai-prompt:rpc-reliability-review",
+      "type": "ai-prompt",
+      "title": "RPC Reliability Review",
+      "prompt": "Review an RPC architecture for endpoint redundancy, rate limiting, observability, fallback behavior, and failure modes.",
+      "topicIds": [
+        "rpc-infrastructure"
+      ],
+      "purpose": "development",
+      "canonicalUrl": "/generated/ai-prompts/rpc-reliability-review",
+      "status": "published"
+    },
+    {
+      "id": "cross-chain-assumption-review",
+      "uid": "ai-prompt:cross-chain-assumption-review",
+      "type": "ai-prompt",
+      "title": "Cross-Chain Assumption Review",
+      "prompt": "Identify the trust, verification, relayer, bridge, and finality assumptions involved in a cross-chain design.",
+      "topicIds": [
+        "interoperability"
+      ],
+      "purpose": "research",
+      "canonicalUrl": "/generated/ai-prompts/cross-chain-assumption-review",
+      "status": "published"
+    },
+    {
+      "id": "execution-model-comparison",
+      "uid": "ai-prompt:execution-model-comparison",
+      "type": "ai-prompt",
+      "title": "Execution Model Comparison",
+      "prompt": "Compare deterministic fixed-cost execution with variable auction-based transaction pricing from a developer and enterprise operations perspective.",
+      "topicIds": [
+        "deterministic-execution"
+      ],
+      "purpose": "research",
+      "canonicalUrl": "/generated/ai-prompts/execution-model-comparison",
+      "status": "published"
+    },
+    {
+      "id": "agent-payment-architecture",
+      "uid": "ai-prompt:agent-payment-architecture",
+      "type": "ai-prompt",
+      "title": "Agent Payment Architecture",
+      "prompt": "Design a conceptual AI-agent payment flow using identity, permissions, wallet controls, transaction policy, and blockchain settlement.",
+      "topicIds": [
+        "ai-agents"
+      ],
+      "purpose": "development",
+      "canonicalUrl": "/generated/ai-prompts/agent-payment-architecture",
       "status": "published"
     }
   ]

@@ -1,0 +1,22 @@
+---
+title: "Fetch a Block with JSON-RPC"
+description: "Query a block by number through a JSON-RPC endpoint and inspect its basic fields."
+---
+
+# Fetch a Block with JSON-RPC
+
+Query a block by number through a JSON-RPC endpoint and inspect its basic fields.
+
+```javascript
+const payload = { jsonrpc: "2.0", id: 1, method: "eth_getBlockByNumber", params: ["latest", false] };
+const response = await fetch(RPC_URL, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload) });
+const { result } = await response.json();
+```
+
+<Warning>
+Examples are intentionally minimal. Production code should add input validation, error handling, network checks, security controls, and application-specific safeguards.
+</Warning>
+
+<Card title="Related topic" href="/generated/topics/blockchain" icon="code">
+Open the canonical topic associated with this example.
+</Card>

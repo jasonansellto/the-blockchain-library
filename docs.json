@@ -56,12 +56,12 @@
             "href": "/learn/learning-path"
           },
           {
-            "label": "Topics",
-            "href": "/generated/catalogs/topics"
+            "label": "Tutorials",
+            "href": "/generated/catalogs/tutorials"
           },
           {
-            "label": "Glossary",
-            "href": "/generated/catalogs/glossary"
+            "label": "Quizzes",
+            "href": "/generated/catalogs/quizzes"
           }
         ]
       },
@@ -86,16 +86,16 @@
         "header": "Build",
         "items": [
           {
-            "label": "Knowledge Engine",
-            "href": "/knowledge-engine/overview"
-          },
-          {
-            "label": "Coverage Model",
-            "href": "/knowledge-engine/coverage"
-          },
-          {
             "label": "Developer Resources",
             "href": "/developers/overview"
+          },
+          {
+            "label": "Code Examples",
+            "href": "/generated/catalogs/code-examples"
+          },
+          {
+            "label": "AI Prompts",
+            "href": "/generated/catalogs/ai-prompts"
           }
         ]
       }
@@ -136,7 +136,9 @@
               "learn/security/wallet-security",
               "learn/security/scams-and-phishing"
             ]
-          }
+          },
+          "generated/catalogs/tutorials",
+          "generated/catalogs/quizzes"
         ]
       },
       {
@@ -165,6 +167,7 @@
           "knowledge-engine/related-resources",
           "knowledge-engine/resource-enrichment",
           "knowledge-engine/coverage",
+          "knowledge-engine/learning-enrichment",
           "knowledge-engine/learning-paths",
           "knowledge-engine/books-research",
           "knowledge-engine/ai-learning",
@@ -184,13 +187,15 @@
           "developers/architecture",
           "developers/content-model",
           "developers/integrations",
-          "developers/code-examples"
+          "developers/code-examples",
+          "generated/catalogs/code-examples"
         ]
       },
       {
         "group": "AI Interfaces",
         "icon": "brain-circuit",
         "pages": [
+          "generated/catalogs/ai-prompts",
           {
             "group": "ChatGPT App",
             "pages": [

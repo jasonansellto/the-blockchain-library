@@ -1,8 +1,26 @@
 {
-  "version": "1.1.0",
-  "generatedAt": "2026-08-07T17:23:16.347Z",
+  "version": "1.2.0",
+  "generatedAt": "2026-08-07T18:15:41.377Z",
   "counts": {
     "topics": 100,
-    "glossary": 250
+    "glossary": 250,
+    "books": 9,
+    "research": 1,
+    "tutorials": 10,
+    "codeExamples": 10,
+    "aiPrompts": 10,
+    "quizzes": 10,
+    "learningPaths": 2
+  },
+  "totals": {
+    "objects": 402,
+    "graphNodes": 402,
+    "graphEdges": 591
+  },
+  "endpoints": {
+    "catalog": "/knowledge/catalog.json",
+    "graph": "/knowledge/graph.json",
+    "related": "/knowledge/related.json",
+    "search": "/knowledge/search-index.json"
   }
 }

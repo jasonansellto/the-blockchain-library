@@ -1,22 +1,35 @@
-# v1.3.1 Mintlify Route Hotfix
+# The Blockchain Library v1.4.0 — Learning & Developer Enrichment
 
-This patch fixes 404 links caused by linking Mintlify navigation to arbitrary files under `/public/`.
+IMPORTANT: `/images/github-banner.png` is not included and will not be overwritten.
 
-## Fixes
+## Adds
 
-- `/catalogs/` → native `/knowledge-engine/dynamic-catalogs`
-- `/explorer/` → native `/knowledge-engine/explorer`
-- `/reports/coverage/` → native `/knowledge-engine/coverage`
-- `/catalogs/books/` → native `/generated/catalogs/books`
-- `/catalogs/research/` → native `/generated/catalogs/research`
-- Topics and glossary catalogs use existing Mintlify MDX routes.
+- 10 tutorial objects
+- 10 code-example objects
+- 10 AI-prompt objects
+- 10 quiz objects
+- 40 native Mintlify resource pages
+- 4 resource catalog pages
+- Knowledge Engine learning-enrichment documentation
+- Updated native Mintlify navigation
 
-The static `public/` files may remain in the repository for future standalone deployment, but Mintlify navigation no longer depends on them.
+## Why
 
-## Push
+The existing repository had only 3 tutorial objects, 1 generic code example, 3 AI prompts, and 1 quiz. Several also referenced older topic IDs. This patch replaces those small starter sets with valid canonical topic mappings and useful resource coverage.
+
+## Build
+
+Extract into the repository root, then run:
 
 ```powershell
+npm.cmd run build:platform
+```
+
+Then:
+
+```powershell
+git pull origin main --rebase
 git add .
-git commit -m "Fix Mintlify 404 routes v1.3.1"
+git commit -m "Add learning and developer enrichment v1.4.0"
 git push origin main
 ```
