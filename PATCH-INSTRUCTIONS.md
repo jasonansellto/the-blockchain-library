@@ -1,29 +1,25 @@
-# Update Patch Instructions
+# The Blockchain Library v0.3.0 patch
 
-Copy the contents of this patch into the root of your existing `the-blockchain-library` repository and allow the folders to merge.
+This patch moves the Mintlify site toward a connected knowledge-platform architecture.
 
-The patch updates or adds:
+## Included
+- Fixes the unresolved merge markers in `README.md`.
+- Replaces the homepage with a more polished knowledge-platform landing page.
+- Adds 10 topic hub pages.
+- Adds a Knowledge Graph page.
+- Updates `docs.json` navigation and footer links.
+- Uses the existing official icon at `/images/blockchain-library-icon.png`.
+- Does not overwrite existing learning, developer, ChatGPT, MCP, API, glossary, research, or project pages.
 
-- `README.md`
-- `ROADMAP.md`
-- `docs/index.html`
-- `docs/assets/style.css`
-- `docs/assets/github-banner.svg`
-- `.github/ISSUE_TEMPLATE/config.yml`
-- `.github/ISSUE_TEMPLATE/feature_request.md`
-- `.github/ISSUE_TEMPLATE/question.md`
+## Install
+Extract this ZIP into the repository root and replace matching files.
 
-Then commit and push:
+Then run:
 
 ```bash
 git add .
-git commit -m "Upgrade project branding, README, documentation homepage, and community templates"
+git commit -m "Launch connected topic hubs and knowledge graph v0.3.0"
 git push origin main
 ```
 
-After pushing, consider completing these repository settings manually:
-
-1. Enable **GitHub Discussions** under **Settings → General → Features**.
-2. Add repository topics such as `blockchain`, `education`, `web3`, `cryptocurrency`, `ai`, `chatgpt`, `mcp`, `developer-tools`, and `open-source`.
-3. Upload a social preview image under **Settings → General → Social preview**.
-4. Confirm GitHub Pages is deploying from `main` and `/docs`.
+Mintlify should redeploy automatically.

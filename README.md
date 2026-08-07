@@ -1,24 +1,39 @@
-<<<<<<< HEAD
-<p align="center">
-  <img src="docs/assets/github-banner.png" alt="The Blockchain Library — Learn, Build, Explore" width="100%">
-</p>
-=======
 # The Blockchain Library
->>>>>>> 5f7f451 (Migrate The Blockchain Library to Mintlify documentation v0.2.0)
 
-[![The Blockchain Library](images/github-banner.svg)](https://theblockchainlibrary.com)
+[![The Blockchain Library — Learn, Build, Explore](images/github-banner.svg)](https://theblockchainlibrary.com)
 
 **Learn blockchain. Build the future.**
 
-Open-source blockchain education with AI-powered learning, developer resources, technical documentation, and Web3 knowledge.
+The Blockchain Library is an open-source knowledge platform for blockchain education, AI-assisted learning, developer resources, technical documentation, research, and structured reference content.
 
-## Documentation
+[Website](https://theblockchainlibrary.com) · [Documentation](https://theblockchainlibrary.com) · [GitHub](https://github.com/jasonansellto/the-blockchain-library)
 
-This repository is now structured as a native Mintlify documentation project.
+## What this repository contains
 
-### Local preview
+- Structured blockchain learning paths
+- Topic hubs connecting concepts, tutorials, glossary entries, and developer resources
+- Developer documentation and architecture notes
+- ChatGPT App and MCP Server documentation
+- API planning and reference material
+- Blockchain glossary content
+- Research and publishing documentation
+- Public roadmap, changelog, security, and contribution guidelines
 
-Install or update Mintlify's current CLI, then run the local development command from the repository root.
+## Documentation architecture
+
+```text
+GitHub
+  ↓
+MDX knowledge base
+  ↓
+Mintlify
+  ↓
+Searchable public documentation
+  ↓
+Learners • Developers • Researchers • AI systems
+```
+
+## Local preview
 
 ```bash
 npm i -g mint
@@ -28,16 +43,21 @@ mint dev
 ## Repository highlights
 
 - `docs.json` — Mintlify configuration and navigation
-- `*.mdx` — documentation pages
-- `images/` — official project branding
-- `CONTRIBUTING.md` — contribution workflow
-- `SECURITY.md` — security guidance
-- `ROADMAP.md` — public project direction
-- `CHANGELOG.md` — release history
+- `index.mdx` — documentation homepage
+- `topics/` — topic hubs
+- `knowledge-graph/` — connected knowledge architecture
+- `learn/` — educational learning paths
+- `developers/` — technical documentation
+- `chatgpt-app/` — ChatGPT integration documentation
+- `mcp-server/` — MCP documentation
+- `api/` — API reference foundation
+- `glossary/` — reference terminology
+- `research/` — research and publishing
+- `project/` — roadmap, changelog, FAQ, and contributions
 
-## Website
+## Contributing
 
-https://theblockchainlibrary.com
+Contributions that improve accuracy, clarity, accessibility, examples, documentation, or learning content are welcome. See `CONTRIBUTING.md`.
 
 ## License
 

@@ -44,12 +44,12 @@
         "header": "Learn",
         "items": [
           {
-            "label": "Learning path",
-            "href": "/learn/learning-path"
+            "label": "Topic hubs",
+            "href": "/topics/overview"
           },
           {
-            "label": "Blockchain basics",
-            "href": "/learn/foundations/blockchain-basics"
+            "label": "Learning path",
+            "href": "/learn/learning-path"
           },
           {
             "label": "Glossary",
@@ -75,19 +75,19 @@
         ]
       },
       {
-        "header": "Project",
+        "header": "Explore",
         "items": [
+          {
+            "label": "Knowledge graph",
+            "href": "/knowledge-graph/overview"
+          },
+          {
+            "label": "Research",
+            "href": "/research/overview"
+          },
           {
             "label": "Roadmap",
             "href": "/project/roadmap"
-          },
-          {
-            "label": "Changelog",
-            "href": "/project/changelog"
-          },
-          {
-            "label": "Contributing",
-            "href": "/project/contributing"
           }
         ]
       }
@@ -103,6 +103,22 @@
           "getting-started/quickstart",
           "getting-started/about",
           "getting-started/how-to-use-the-library"
+        ]
+      },
+      {
+        "group": "Topic Hubs",
+        "icon": "grid-2x2",
+        "pages": [
+          "topics/overview",
+          "topics/blockchain",
+          "topics/cryptocurrency",
+          "topics/wallets-security",
+          "topics/smart-contracts",
+          "topics/defi",
+          "topics/web3",
+          "topics/infrastructure",
+          "topics/enterprise-blockchain",
+          "topics/ai-blockchain"
         ]
       },
       {
@@ -129,6 +145,13 @@
               "learn/security/scams-and-phishing"
             ]
           }
+        ]
+      },
+      {
+        "group": "Knowledge Graph",
+        "icon": "share-2",
+        "pages": [
+          "knowledge-graph/overview"
         ]
       },
       {

@@ -1,0 +1,26 @@
+---
+title: "Wallets & Security"
+description: "A connected hub for wallets, private keys, seed phrases, signing, permissions, scams, phishing, and custody."
+---
+
+## Security begins before signing
+
+Wallet security is primarily about protecting the credentials and approvals that authorize blockchain actions.
+
+<CardGroup cols={2}>
+  <Card title="Wallet fundamentals" href="/learn/foundations/wallets" icon="wallet" />
+  <Card title="Wallet security" href="/learn/security/wallet-security" icon="shield-check" />
+  <Card title="Scams & phishing" href="/learn/security/scams-and-phishing" icon="triangle-alert" />
+  <Card title="Glossary" href="/glossary/overview" icon="book-a" />
+</CardGroup>
+
+```mermaid
+flowchart LR
+  A[Seed Phrase] --> B[Private Key]
+  B --> C[Wallet]
+  C --> D[Signature]
+  D --> E[Transaction]
+  E --> F[Blockchain]
+```
+
+<Warning>Never share private keys or seed phrases. Legitimate support teams do not need them.</Warning>

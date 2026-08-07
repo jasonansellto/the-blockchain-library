@@ -1,51 +1,81 @@
 ---
 title: "The Blockchain Library"
-description: "Open-source blockchain education with AI-powered learning, developer resources, and technical documentation."
+description: "Explore blockchain through structured learning paths, connected topic hubs, developer resources, AI-assisted tools, research, and open-source documentation."
 mode: "wide"
 ---
 
-# Learn blockchain. Build the future.
+<div style={{textAlign: "center", padding: "1.5rem 0 2rem"}}>
+  <img src="/images/blockchain-library-icon.png" alt="The Blockchain Library" width="96" />
+  <h1 style={{fontSize: "3rem", marginTop: "1rem", marginBottom: ".5rem"}}>Learn blockchain. Build the future.</h1>
+  <p style={{fontSize: "1.15rem", maxWidth: "760px", margin: "0 auto"}}>
+    An open-source knowledge platform connecting blockchain education, developer documentation,
+    AI-assisted learning, research, and structured reference material.
+  </p>
+</div>
 
-The Blockchain Library is an open-source knowledge platform for learning blockchain, cryptocurrency, Web3, digital assets, decentralized infrastructure, and the technologies that connect them.
-
-<CardGroup cols={2}>
+<CardGroup cols={3}>
   <Card title="Start learning" icon="graduation-cap" href="/learn/learning-path">
     Follow a structured path from blockchain fundamentals to advanced decentralized systems.
   </Card>
-  <Card title="Developer resources" icon="code" href="/developers/overview">
-    Explore architecture notes, integrations, examples, and technical documentation.
+  <Card title="Explore topic hubs" icon="grid-2x2" href="/topics/overview">
+    Enter through connected hubs for blockchain, wallets, DeFi, Web3, infrastructure, AI, and more.
   </Card>
-  <Card title="ChatGPT App" icon="message-square" href="/chatgpt-app/overview">
-    Learn how conversational access can help users explore blockchain concepts.
-  </Card>
-  <Card title="MCP Server" icon="plug" href="/mcp-server/overview">
-    Review the public integration model for AI systems and external tools.
+  <Card title="Developer portal" icon="code" href="/developers/overview">
+    Explore architecture, integrations, examples, APIs, MCP, and technical documentation.
   </Card>
 </CardGroup>
 
-## What this project is building
-
-The project brings together educational material, developer documentation, AI-assisted learning, structured reference content, and open-source contribution workflows in one public knowledge system.
-
-<Note>
-The repository is designed to be a source of truth for documentation and educational material that can be published, indexed, reviewed, and reused across the wider Blockchain Library ecosystem.
-</Note>
-
-## Core areas
-
-- **Learn:** beginner-to-advanced blockchain education.
-- **Build:** technical resources for developers and integrators.
-- **Explore:** glossary, research, publications, and reference material.
-- **Connect:** AI interfaces such as the ChatGPT App and MCP Server.
-- **Contribute:** community-driven improvements through GitHub.
-
-## Quick links
+## Explore by topic
 
 <CardGroup cols={3}>
-  <Card title="Quickstart" href="/getting-started/quickstart" />
-  <Card title="Blockchain basics" href="/learn/foundations/blockchain-basics" />
-  <Card title="Glossary" href="/glossary/overview" />
-  <Card title="Architecture" href="/developers/architecture" />
-  <Card title="Roadmap" href="/project/roadmap" />
-  <Card title="Contribute" href="/project/contributing" />
+  <Card title="Blockchain" icon="cubes" href="/topics/blockchain">Blocks, transactions, consensus, networks, nodes, finality, and distributed state.</Card>
+  <Card title="Cryptocurrency" icon="coins" href="/topics/cryptocurrency">Digital assets, token models, transactions, custody, economics, and market structure.</Card>
+  <Card title="Wallets & Security" icon="shield-check" href="/topics/wallets-security">Keys, seed phrases, signing, permissions, phishing, custody, and transaction safety.</Card>
+  <Card title="Smart Contracts" icon="file-code-2" href="/topics/smart-contracts">Programmable execution, contract architecture, permissions, applications, and risk.</Card>
+  <Card title="DeFi" icon="landmark" href="/topics/defi">Exchanges, liquidity, lending, stablecoins, collateral, risk, and programmable finance.</Card>
+  <Card title="Web3" icon="globe-2" href="/topics/web3">Ownership, decentralized applications, open protocols, identity, and digital coordination.</Card>
+  <Card title="Infrastructure" icon="server" href="/topics/infrastructure">Nodes, RPC, validators, execution, data availability, interoperability, and operations.</Card>
+  <Card title="Enterprise Blockchain" icon="building-2" href="/topics/enterprise-blockchain">Business integration, predictability, governance, privacy, and deployment models.</Card>
+  <Card title="AI + Blockchain" icon="brain-circuit" href="/topics/ai-blockchain">AI agents, programmable payments, machine identity, autonomous systems, and verifiable infrastructure.</Card>
 </CardGroup>
+
+## One knowledge system, multiple ways to explore
+
+```mermaid
+flowchart LR
+  A[Topic Hub] --> B[Concept]
+  A --> C[Glossary]
+  A --> D[Tutorial]
+  A --> E[Developer Guide]
+  A --> F[Research]
+  A --> G[AI Assistant]
+  B --> H[Related Topics]
+  C --> H
+  D --> H
+  E --> H
+  F --> H
+  G --> H
+```
+
+The Blockchain Library is designed around connected knowledge rather than isolated pages.
+
+<CardGroup cols={2}>
+  <Card title="Explore the knowledge graph" icon="share-2" href="/knowledge-graph/overview">
+    See how concepts, learning paths, glossary entries, technical references, and research connect.
+  </Card>
+  <Card title="Research & Publishing" icon="microscope" href="/research/overview">
+    Move beyond introductory material into long-form analysis, research, and publications.
+  </Card>
+</CardGroup>
+
+## Build with the library
+
+<CardGroup cols={3}>
+  <Card title="ChatGPT App" icon="message-square" href="/chatgpt-app/overview">Explore the conversational interface.</Card>
+  <Card title="MCP Server" icon="plug" href="/mcp-server/overview">Review the AI integration model.</Card>
+  <Card title="API Reference" icon="braces" href="/api/overview">Follow developer interfaces as they evolve.</Card>
+</CardGroup>
+
+<Note>
+The goal is not to create more disconnected blockchain content. It is to create a structured public knowledge system where each resource helps readers discover what to learn next.
+</Note>
