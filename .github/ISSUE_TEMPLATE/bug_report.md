@@ -1,19 +1,40 @@
 ---
 name: Bug report
-about: Report a problem with the website or documentation
+about: Report a defect in documentation, generated data, tooling, or deployment
 title: "[Bug] "
 labels: bug
-assignees: ''
 ---
 
-## Description
+## Problem
 
-## Steps to reproduce
+Describe the issue clearly.
 
-## Expected result
+## Expected behavior
 
-## Actual result
+What should happen?
 
-## Page or file
+## Actual behavior
 
-## Browser or environment
+What happens instead?
+
+## Affected area
+
+- [ ] Documentation
+- [ ] Knowledge object
+- [ ] Generator
+- [ ] Validator
+- [ ] Search / graph data
+- [ ] Deployment
+- [ ] Other
+
+## Reproduction
+
+Provide steps where possible.
+
+## Environment
+
+Include relevant browser, OS, branch, commit, or build information.
+
+## Additional context
+
+Screenshots, logs, or links are welcome. Remove secrets and private information.
