@@ -1,6 +1,6 @@
 # The Blockchain Library
 
-[![The Blockchain Library — Learn, Build, Explore](images/github-banner.svg)](https://theblockchainlibrary.com)
+[![The Blockchain Library — Learn, Build, Explore](images/github-banner.png)](https://theblockchainlibrary.com)
 
 **Learn blockchain. Build the future.**
 
