@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "nodes": [
     {
       "id": "topic:blockchain",
@@ -7,14 +7,219 @@
       "label": "Blockchain"
     },
     {
+      "id": "topic:distributed-ledger",
+      "type": "topic",
+      "label": "Distributed Ledger"
+    },
+    {
+      "id": "topic:blocks",
+      "type": "topic",
+      "label": "Blocks"
+    },
+    {
+      "id": "topic:transactions",
+      "type": "topic",
+      "label": "Transactions"
+    },
+    {
+      "id": "topic:nodes",
+      "type": "topic",
+      "label": "Nodes"
+    },
+    {
+      "id": "topic:consensus",
+      "type": "topic",
+      "label": "Consensus"
+    },
+    {
+      "id": "topic:finality",
+      "type": "topic",
+      "label": "Finality"
+    },
+    {
+      "id": "topic:cryptography",
+      "type": "topic",
+      "label": "Cryptography"
+    },
+    {
+      "id": "topic:digital-signatures",
+      "type": "topic",
+      "label": "Digital Signatures"
+    },
+    {
+      "id": "topic:hash-functions",
+      "type": "topic",
+      "label": "Hash Functions"
+    },
+    {
+      "id": "topic:public-key-cryptography",
+      "type": "topic",
+      "label": "Public-Key Cryptography"
+    },
+    {
+      "id": "topic:merkle-trees",
+      "type": "topic",
+      "label": "Merkle Trees"
+    },
+    {
+      "id": "topic:state",
+      "type": "topic",
+      "label": "State"
+    },
+    {
+      "id": "topic:accounts",
+      "type": "topic",
+      "label": "Accounts"
+    },
+    {
+      "id": "topic:utxo-model",
+      "type": "topic",
+      "label": "UTXO Model"
+    },
+    {
       "id": "topic:cryptocurrency",
       "type": "topic",
       "label": "Cryptocurrency"
     },
     {
-      "id": "topic:wallets-security",
+      "id": "topic:native-assets",
       "type": "topic",
-      "label": "Wallets & Security"
+      "label": "Native Assets"
+    },
+    {
+      "id": "topic:tokens",
+      "type": "topic",
+      "label": "Tokens"
+    },
+    {
+      "id": "topic:stablecoins",
+      "type": "topic",
+      "label": "Stablecoins"
+    },
+    {
+      "id": "topic:tokenization",
+      "type": "topic",
+      "label": "Tokenization"
+    },
+    {
+      "id": "topic:market-capitalization",
+      "type": "topic",
+      "label": "Market Capitalization"
+    },
+    {
+      "id": "topic:liquidity",
+      "type": "topic",
+      "label": "Liquidity"
+    },
+    {
+      "id": "topic:order-books",
+      "type": "topic",
+      "label": "Order Books"
+    },
+    {
+      "id": "topic:automated-market-makers",
+      "type": "topic",
+      "label": "Automated Market Makers"
+    },
+    {
+      "id": "topic:decentralized-exchanges",
+      "type": "topic",
+      "label": "Decentralized Exchanges"
+    },
+    {
+      "id": "topic:centralized-exchanges",
+      "type": "topic",
+      "label": "Centralized Exchanges"
+    },
+    {
+      "id": "topic:custody",
+      "type": "topic",
+      "label": "Custody"
+    },
+    {
+      "id": "topic:staking",
+      "type": "topic",
+      "label": "Staking"
+    },
+    {
+      "id": "topic:delegation",
+      "type": "topic",
+      "label": "Delegation"
+    },
+    {
+      "id": "topic:token-supply",
+      "type": "topic",
+      "label": "Token Supply"
+    },
+    {
+      "id": "topic:wallets",
+      "type": "topic",
+      "label": "Wallets"
+    },
+    {
+      "id": "topic:addresses",
+      "type": "topic",
+      "label": "Addresses"
+    },
+    {
+      "id": "topic:private-keys",
+      "type": "topic",
+      "label": "Private Keys"
+    },
+    {
+      "id": "topic:seed-phrases",
+      "type": "topic",
+      "label": "Seed Phrases"
+    },
+    {
+      "id": "topic:hardware-wallets",
+      "type": "topic",
+      "label": "Hardware Wallets"
+    },
+    {
+      "id": "topic:multisignature-wallets",
+      "type": "topic",
+      "label": "Multisignature Wallets"
+    },
+    {
+      "id": "topic:account-abstraction",
+      "type": "topic",
+      "label": "Account Abstraction"
+    },
+    {
+      "id": "topic:transaction-signing",
+      "type": "topic",
+      "label": "Transaction Signing"
+    },
+    {
+      "id": "topic:token-approvals",
+      "type": "topic",
+      "label": "Token Approvals"
+    },
+    {
+      "id": "topic:phishing",
+      "type": "topic",
+      "label": "Phishing"
+    },
+    {
+      "id": "topic:wallet-drainers",
+      "type": "topic",
+      "label": "Wallet Drainers"
+    },
+    {
+      "id": "topic:social-engineering",
+      "type": "topic",
+      "label": "Social Engineering"
+    },
+    {
+      "id": "topic:smart-contract-risk",
+      "type": "topic",
+      "label": "Smart Contract Risk"
+    },
+    {
+      "id": "topic:oracle-risk",
+      "type": "topic",
+      "label": "Oracle Risk"
     },
     {
       "id": "topic:smart-contracts",
@@ -22,9 +227,19 @@
       "label": "Smart Contracts"
     },
     {
-      "id": "topic:defi",
+      "id": "topic:evm",
       "type": "topic",
-      "label": "DeFi"
+      "label": "EVM"
+    },
+    {
+      "id": "topic:virtual-machines",
+      "type": "topic",
+      "label": "Virtual Machines"
+    },
+    {
+      "id": "topic:dapps",
+      "type": "topic",
+      "label": "DApps"
     },
     {
       "id": "topic:web3",
@@ -32,9 +247,189 @@
       "label": "Web3"
     },
     {
-      "id": "topic:infrastructure",
+      "id": "topic:daos",
       "type": "topic",
-      "label": "Blockchain Infrastructure"
+      "label": "DAOs"
+    },
+    {
+      "id": "topic:nfts",
+      "type": "topic",
+      "label": "NFTs"
+    },
+    {
+      "id": "topic:oracles",
+      "type": "topic",
+      "label": "Oracles"
+    },
+    {
+      "id": "topic:identity",
+      "type": "topic",
+      "label": "Identity"
+    },
+    {
+      "id": "topic:decentralized-identity",
+      "type": "topic",
+      "label": "Decentralized Identity"
+    },
+    {
+      "id": "topic:ens-and-naming",
+      "type": "topic",
+      "label": "ENS and Naming"
+    },
+    {
+      "id": "topic:governance",
+      "type": "topic",
+      "label": "Governance"
+    },
+    {
+      "id": "topic:upgradeable-contracts",
+      "type": "topic",
+      "label": "Upgradeable Contracts"
+    },
+    {
+      "id": "topic:proxy-contracts",
+      "type": "topic",
+      "label": "Proxy Contracts"
+    },
+    {
+      "id": "topic:defi",
+      "type": "topic",
+      "label": "DeFi"
+    },
+    {
+      "id": "topic:lending",
+      "type": "topic",
+      "label": "Lending"
+    },
+    {
+      "id": "topic:borrowing",
+      "type": "topic",
+      "label": "Borrowing"
+    },
+    {
+      "id": "topic:collateral",
+      "type": "topic",
+      "label": "Collateral"
+    },
+    {
+      "id": "topic:liquidation",
+      "type": "topic",
+      "label": "Liquidation"
+    },
+    {
+      "id": "topic:yield-farming",
+      "type": "topic",
+      "label": "Yield Farming"
+    },
+    {
+      "id": "topic:liquidity-pools",
+      "type": "topic",
+      "label": "Liquidity Pools"
+    },
+    {
+      "id": "topic:impermanent-loss",
+      "type": "topic",
+      "label": "Impermanent Loss"
+    },
+    {
+      "id": "topic:dex-aggregators",
+      "type": "topic",
+      "label": "DEX Aggregators"
+    },
+    {
+      "id": "topic:stablecoin-mechanisms",
+      "type": "topic",
+      "label": "Stablecoin Mechanisms"
+    },
+    {
+      "id": "topic:derivatives",
+      "type": "topic",
+      "label": "Derivatives"
+    },
+    {
+      "id": "topic:perpetuals",
+      "type": "topic",
+      "label": "Perpetuals"
+    },
+    {
+      "id": "topic:synthetic-assets",
+      "type": "topic",
+      "label": "Synthetic Assets"
+    },
+    {
+      "id": "topic:flash-loans",
+      "type": "topic",
+      "label": "Flash Loans"
+    },
+    {
+      "id": "topic:validators",
+      "type": "topic",
+      "label": "Validators"
+    },
+    {
+      "id": "topic:rpc-infrastructure",
+      "type": "topic",
+      "label": "RPC Infrastructure"
+    },
+    {
+      "id": "topic:archive-nodes",
+      "type": "topic",
+      "label": "Archive Nodes"
+    },
+    {
+      "id": "topic:full-nodes",
+      "type": "topic",
+      "label": "Full Nodes"
+    },
+    {
+      "id": "topic:light-clients",
+      "type": "topic",
+      "label": "Light Clients"
+    },
+    {
+      "id": "topic:layer-1",
+      "type": "topic",
+      "label": "Layer 1"
+    },
+    {
+      "id": "topic:layer-2",
+      "type": "topic",
+      "label": "Layer 2"
+    },
+    {
+      "id": "topic:rollups",
+      "type": "topic",
+      "label": "Rollups"
+    },
+    {
+      "id": "topic:optimistic-rollups",
+      "type": "topic",
+      "label": "Optimistic Rollups"
+    },
+    {
+      "id": "topic:zero-knowledge-rollups",
+      "type": "topic",
+      "label": "Zero-Knowledge Rollups"
+    },
+    {
+      "id": "topic:data-availability",
+      "type": "topic",
+      "label": "Data Availability"
+    },
+    {
+      "id": "topic:sequencers",
+      "type": "topic",
+      "label": "Sequencers"
+    },
+    {
+      "id": "topic:sharding",
+      "type": "topic",
+      "label": "Sharding"
+    },
+    {
+      "id": "topic:interoperability",
+      "type": "topic",
+      "label": "Interoperability"
     },
     {
       "id": "topic:enterprise-blockchain",
@@ -42,9 +437,69 @@
       "label": "Enterprise Blockchain"
     },
     {
-      "id": "topic:ai-blockchain",
+      "id": "topic:permissioned-networks",
       "type": "topic",
-      "label": "AI + Blockchain"
+      "label": "Permissioned Networks"
+    },
+    {
+      "id": "topic:compliance",
+      "type": "topic",
+      "label": "Compliance"
+    },
+    {
+      "id": "topic:privacy",
+      "type": "topic",
+      "label": "Privacy"
+    },
+    {
+      "id": "topic:predictable-fees",
+      "type": "topic",
+      "label": "Predictable Fees"
+    },
+    {
+      "id": "topic:deterministic-execution",
+      "type": "topic",
+      "label": "Deterministic Execution"
+    },
+    {
+      "id": "topic:fixed-cost-transactions",
+      "type": "topic",
+      "label": "Fixed-Cost Transactions"
+    },
+    {
+      "id": "topic:sla-and-reliability",
+      "type": "topic",
+      "label": "SLA and Reliability"
+    },
+    {
+      "id": "topic:observability",
+      "type": "topic",
+      "label": "Observability"
+    },
+    {
+      "id": "topic:blockchain-analytics",
+      "type": "topic",
+      "label": "Blockchain Analytics"
+    },
+    {
+      "id": "topic:ai-agents",
+      "type": "topic",
+      "label": "AI Agents"
+    },
+    {
+      "id": "topic:machine-payments",
+      "type": "topic",
+      "label": "Machine Payments"
+    },
+    {
+      "id": "topic:agent-wallets",
+      "type": "topic",
+      "label": "Agent Wallets"
+    },
+    {
+      "id": "topic:autonomous-systems",
+      "type": "topic",
+      "label": "Autonomous Systems"
     },
     {
       "id": "glossary:blockchain",
@@ -52,19 +507,24 @@
       "label": "Blockchain"
     },
     {
-      "id": "glossary:block",
+      "id": "glossary:distributed-ledger",
       "type": "glossary",
-      "label": "Block"
+      "label": "Distributed Ledger"
     },
     {
-      "id": "glossary:transaction",
+      "id": "glossary:blocks",
       "type": "glossary",
-      "label": "Transaction"
+      "label": "Blocks"
     },
     {
-      "id": "glossary:node",
+      "id": "glossary:transactions",
       "type": "glossary",
-      "label": "Node"
+      "label": "Transactions"
+    },
+    {
+      "id": "glossary:nodes",
+      "type": "glossary",
+      "label": "Nodes"
     },
     {
       "id": "glossary:consensus",
@@ -77,59 +537,29 @@
       "label": "Finality"
     },
     {
-      "id": "glossary:cryptocurrency",
+      "id": "glossary:cryptography",
       "type": "glossary",
-      "label": "Cryptocurrency"
+      "label": "Cryptography"
     },
     {
-      "id": "glossary:token",
+      "id": "glossary:digital-signatures",
       "type": "glossary",
-      "label": "Token"
+      "label": "Digital Signatures"
     },
     {
-      "id": "glossary:native-asset",
+      "id": "glossary:hash-functions",
       "type": "glossary",
-      "label": "Native Asset"
+      "label": "Hash Functions"
     },
     {
-      "id": "glossary:stablecoin",
+      "id": "glossary:public-key-cryptography",
       "type": "glossary",
-      "label": "Stablecoin"
+      "label": "Public-Key Cryptography"
     },
     {
-      "id": "glossary:wallet",
+      "id": "glossary:merkle-trees",
       "type": "glossary",
-      "label": "Wallet"
-    },
-    {
-      "id": "glossary:address",
-      "type": "glossary",
-      "label": "Address"
-    },
-    {
-      "id": "glossary:private-key",
-      "type": "glossary",
-      "label": "Private Key"
-    },
-    {
-      "id": "glossary:seed-phrase",
-      "type": "glossary",
-      "label": "Seed Phrase"
-    },
-    {
-      "id": "glossary:signature",
-      "type": "glossary",
-      "label": "Signature"
-    },
-    {
-      "id": "glossary:smart-contract",
-      "type": "glossary",
-      "label": "Smart Contract"
-    },
-    {
-      "id": "glossary:gas",
-      "type": "glossary",
-      "label": "Gas"
+      "label": "Merkle Trees"
     },
     {
       "id": "glossary:state",
@@ -137,14 +567,44 @@
       "label": "State"
     },
     {
-      "id": "glossary:defi",
+      "id": "glossary:accounts",
       "type": "glossary",
-      "label": "DeFi"
+      "label": "Accounts"
     },
     {
-      "id": "glossary:dex",
+      "id": "glossary:utxo-model",
       "type": "glossary",
-      "label": "Decentralized Exchange"
+      "label": "UTXO Model"
+    },
+    {
+      "id": "glossary:cryptocurrency",
+      "type": "glossary",
+      "label": "Cryptocurrency"
+    },
+    {
+      "id": "glossary:native-assets",
+      "type": "glossary",
+      "label": "Native Assets"
+    },
+    {
+      "id": "glossary:tokens",
+      "type": "glossary",
+      "label": "Tokens"
+    },
+    {
+      "id": "glossary:stablecoins",
+      "type": "glossary",
+      "label": "Stablecoins"
+    },
+    {
+      "id": "glossary:tokenization",
+      "type": "glossary",
+      "label": "Tokenization"
+    },
+    {
+      "id": "glossary:market-capitalization",
+      "type": "glossary",
+      "label": "Market Capitalization"
     },
     {
       "id": "glossary:liquidity",
@@ -152,9 +612,134 @@
       "label": "Liquidity"
     },
     {
-      "id": "glossary:collateral",
+      "id": "glossary:order-books",
       "type": "glossary",
-      "label": "Collateral"
+      "label": "Order Books"
+    },
+    {
+      "id": "glossary:automated-market-makers",
+      "type": "glossary",
+      "label": "Automated Market Makers"
+    },
+    {
+      "id": "glossary:decentralized-exchanges",
+      "type": "glossary",
+      "label": "Decentralized Exchanges"
+    },
+    {
+      "id": "glossary:centralized-exchanges",
+      "type": "glossary",
+      "label": "Centralized Exchanges"
+    },
+    {
+      "id": "glossary:custody",
+      "type": "glossary",
+      "label": "Custody"
+    },
+    {
+      "id": "glossary:staking",
+      "type": "glossary",
+      "label": "Staking"
+    },
+    {
+      "id": "glossary:delegation",
+      "type": "glossary",
+      "label": "Delegation"
+    },
+    {
+      "id": "glossary:token-supply",
+      "type": "glossary",
+      "label": "Token Supply"
+    },
+    {
+      "id": "glossary:wallets",
+      "type": "glossary",
+      "label": "Wallets"
+    },
+    {
+      "id": "glossary:addresses",
+      "type": "glossary",
+      "label": "Addresses"
+    },
+    {
+      "id": "glossary:private-keys",
+      "type": "glossary",
+      "label": "Private Keys"
+    },
+    {
+      "id": "glossary:seed-phrases",
+      "type": "glossary",
+      "label": "Seed Phrases"
+    },
+    {
+      "id": "glossary:hardware-wallets",
+      "type": "glossary",
+      "label": "Hardware Wallets"
+    },
+    {
+      "id": "glossary:multisignature-wallets",
+      "type": "glossary",
+      "label": "Multisignature Wallets"
+    },
+    {
+      "id": "glossary:account-abstraction",
+      "type": "glossary",
+      "label": "Account Abstraction"
+    },
+    {
+      "id": "glossary:transaction-signing",
+      "type": "glossary",
+      "label": "Transaction Signing"
+    },
+    {
+      "id": "glossary:token-approvals",
+      "type": "glossary",
+      "label": "Token Approvals"
+    },
+    {
+      "id": "glossary:phishing",
+      "type": "glossary",
+      "label": "Phishing"
+    },
+    {
+      "id": "glossary:wallet-drainers",
+      "type": "glossary",
+      "label": "Wallet Drainers"
+    },
+    {
+      "id": "glossary:social-engineering",
+      "type": "glossary",
+      "label": "Social Engineering"
+    },
+    {
+      "id": "glossary:smart-contract-risk",
+      "type": "glossary",
+      "label": "Smart Contract Risk"
+    },
+    {
+      "id": "glossary:oracle-risk",
+      "type": "glossary",
+      "label": "Oracle Risk"
+    },
+    {
+      "id": "glossary:smart-contracts",
+      "type": "glossary",
+      "label": "Smart Contracts"
+    },
+    {
+      "id": "glossary:evm",
+      "type": "glossary",
+      "label": "EVM"
+    },
+    {
+      "id": "glossary:virtual-machines",
+      "type": "glossary",
+      "label": "Virtual Machines"
+    },
+    {
+      "id": "glossary:dapps",
+      "type": "glossary",
+      "label": "DApps"
     },
     {
       "id": "glossary:web3",
@@ -162,24 +747,34 @@
       "label": "Web3"
     },
     {
-      "id": "glossary:dapp",
+      "id": "glossary:daos",
       "type": "glossary",
-      "label": "Decentralized Application"
+      "label": "DAOs"
     },
     {
-      "id": "glossary:rpc",
+      "id": "glossary:nfts",
       "type": "glossary",
-      "label": "RPC"
+      "label": "NFTs"
     },
     {
-      "id": "glossary:validator",
+      "id": "glossary:oracles",
       "type": "glossary",
-      "label": "Validator"
+      "label": "Oracles"
     },
     {
-      "id": "glossary:interoperability",
+      "id": "glossary:identity",
       "type": "glossary",
-      "label": "Interoperability"
+      "label": "Identity"
+    },
+    {
+      "id": "glossary:decentralized-identity",
+      "type": "glossary",
+      "label": "Decentralized Identity"
+    },
+    {
+      "id": "glossary:ens-and-naming",
+      "type": "glossary",
+      "label": "ENS and Naming"
     },
     {
       "id": "glossary:governance",
@@ -187,485 +782,2940 @@
       "label": "Governance"
     },
     {
-      "id": "glossary:ai-agent",
+      "id": "glossary:upgradeable-contracts",
       "type": "glossary",
-      "label": "AI Agent"
+      "label": "Upgradeable Contracts"
     },
     {
-      "id": "book:understanding-blockchain",
-      "type": "book",
-      "label": "Understanding Blockchain"
+      "id": "glossary:proxy-contracts",
+      "type": "glossary",
+      "label": "Proxy Contracts"
     },
     {
-      "id": "book:understanding-seed-phrases",
-      "type": "book",
-      "label": "Understanding Seed Phrases"
+      "id": "glossary:defi",
+      "type": "glossary",
+      "label": "DeFi"
     },
     {
-      "id": "book:beginner-guide-cryptocurrency",
-      "type": "book",
-      "label": "A Beginner’s Guide to Cryptocurrency"
+      "id": "glossary:lending",
+      "type": "glossary",
+      "label": "Lending"
     },
     {
-      "id": "book:understanding-defi",
-      "type": "book",
-      "label": "Understanding Decentralized Finance"
+      "id": "glossary:borrowing",
+      "type": "glossary",
+      "label": "Borrowing"
     },
     {
-      "id": "book:understanding-web3",
-      "type": "book",
-      "label": "Understanding Web3"
+      "id": "glossary:collateral",
+      "type": "glossary",
+      "label": "Collateral"
     },
     {
-      "id": "book:dark-side-web3",
-      "type": "book",
-      "label": "The Dark Side of Web3"
+      "id": "glossary:liquidation",
+      "type": "glossary",
+      "label": "Liquidation"
     },
     {
-      "id": "book:quiet-rebuild-internet",
-      "type": "book",
-      "label": "The Quiet Rebuild of the Internet"
+      "id": "glossary:yield-farming",
+      "type": "glossary",
+      "label": "Yield Farming"
     },
     {
-      "id": "book:deterministic-execution",
-      "type": "book",
-      "label": "Deterministic Execution: The Future of Blockchain Infrastructure"
+      "id": "glossary:liquidity-pools",
+      "type": "glossary",
+      "label": "Liquidity Pools"
     },
     {
-      "id": "book:ai-money-revolution",
-      "type": "book",
-      "label": "The AI Money Revolution"
+      "id": "glossary:impermanent-loss",
+      "type": "glossary",
+      "label": "Impermanent Loss"
     },
     {
-      "id": "research:deterministic-execution-fixed-cost-l1",
-      "type": "research",
-      "label": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure"
+      "id": "glossary:dex-aggregators",
+      "type": "glossary",
+      "label": "DEX Aggregators"
     },
     {
-      "id": "tutorial:ask-blockchain-question",
-      "type": "tutorial",
-      "label": "Ask a Blockchain Question"
+      "id": "glossary:stablecoin-mechanisms",
+      "type": "glossary",
+      "label": "Stablecoin Mechanisms"
     },
     {
-      "id": "tutorial:use-glossary",
-      "type": "tutorial",
-      "label": "Use the Glossary"
+      "id": "glossary:derivatives",
+      "type": "glossary",
+      "label": "Derivatives"
     },
     {
-      "id": "tutorial:contribute-content",
-      "type": "tutorial",
-      "label": "Contribute Content"
+      "id": "glossary:perpetuals",
+      "type": "glossary",
+      "label": "Perpetuals"
     },
     {
-      "id": "code-example:documentation-example",
-      "type": "code-example",
-      "label": "Documentation Code Example"
+      "id": "glossary:synthetic-assets",
+      "type": "glossary",
+      "label": "Synthetic Assets"
     },
     {
-      "id": "ai-prompt:explain-topic",
-      "type": "ai-prompt",
-      "label": "Explain a Topic"
+      "id": "glossary:flash-loans",
+      "type": "glossary",
+      "label": "Flash Loans"
     },
     {
-      "id": "ai-prompt:quiz-topic",
-      "type": "ai-prompt",
-      "label": "Quiz Me on a Topic"
+      "id": "glossary:validators",
+      "type": "glossary",
+      "label": "Validators"
     },
     {
-      "id": "ai-prompt:developer-view",
-      "type": "ai-prompt",
-      "label": "Developer View"
+      "id": "glossary:rpc-infrastructure",
+      "type": "glossary",
+      "label": "RPC Infrastructure"
     },
     {
-      "id": "quiz:blockchain-foundations-check",
-      "type": "quiz",
-      "label": "Blockchain Foundations Knowledge Check"
+      "id": "glossary:archive-nodes",
+      "type": "glossary",
+      "label": "Archive Nodes"
     },
     {
-      "id": "learning-path:blockchain-foundations",
-      "type": "learning-path",
-      "label": "Blockchain Foundations"
+      "id": "glossary:full-nodes",
+      "type": "glossary",
+      "label": "Full Nodes"
     },
     {
-      "id": "learning-path:developer-infrastructure",
-      "type": "learning-path",
-      "label": "Blockchain Developer & Infrastructure"
+      "id": "glossary:light-clients",
+      "type": "glossary",
+      "label": "Light Clients"
+    },
+    {
+      "id": "glossary:layer-1",
+      "type": "glossary",
+      "label": "Layer 1"
+    },
+    {
+      "id": "glossary:layer-2",
+      "type": "glossary",
+      "label": "Layer 2"
+    },
+    {
+      "id": "glossary:rollups",
+      "type": "glossary",
+      "label": "Rollups"
+    },
+    {
+      "id": "glossary:optimistic-rollups",
+      "type": "glossary",
+      "label": "Optimistic Rollups"
+    },
+    {
+      "id": "glossary:zero-knowledge-rollups",
+      "type": "glossary",
+      "label": "Zero-Knowledge Rollups"
+    },
+    {
+      "id": "glossary:data-availability",
+      "type": "glossary",
+      "label": "Data Availability"
+    },
+    {
+      "id": "glossary:sequencers",
+      "type": "glossary",
+      "label": "Sequencers"
+    },
+    {
+      "id": "glossary:sharding",
+      "type": "glossary",
+      "label": "Sharding"
+    },
+    {
+      "id": "glossary:interoperability",
+      "type": "glossary",
+      "label": "Interoperability"
+    },
+    {
+      "id": "glossary:enterprise-blockchain",
+      "type": "glossary",
+      "label": "Enterprise Blockchain"
+    },
+    {
+      "id": "glossary:permissioned-networks",
+      "type": "glossary",
+      "label": "Permissioned Networks"
+    },
+    {
+      "id": "glossary:compliance",
+      "type": "glossary",
+      "label": "Compliance"
+    },
+    {
+      "id": "glossary:privacy",
+      "type": "glossary",
+      "label": "Privacy"
+    },
+    {
+      "id": "glossary:predictable-fees",
+      "type": "glossary",
+      "label": "Predictable Fees"
+    },
+    {
+      "id": "glossary:deterministic-execution",
+      "type": "glossary",
+      "label": "Deterministic Execution"
+    },
+    {
+      "id": "glossary:fixed-cost-transactions",
+      "type": "glossary",
+      "label": "Fixed-Cost Transactions"
+    },
+    {
+      "id": "glossary:sla-and-reliability",
+      "type": "glossary",
+      "label": "SLA and Reliability"
+    },
+    {
+      "id": "glossary:observability",
+      "type": "glossary",
+      "label": "Observability"
+    },
+    {
+      "id": "glossary:blockchain-analytics",
+      "type": "glossary",
+      "label": "Blockchain Analytics"
+    },
+    {
+      "id": "glossary:ai-agents",
+      "type": "glossary",
+      "label": "AI Agents"
+    },
+    {
+      "id": "glossary:machine-payments",
+      "type": "glossary",
+      "label": "Machine Payments"
+    },
+    {
+      "id": "glossary:agent-wallets",
+      "type": "glossary",
+      "label": "Agent Wallets"
+    },
+    {
+      "id": "glossary:autonomous-systems",
+      "type": "glossary",
+      "label": "Autonomous Systems"
+    },
+    {
+      "id": "glossary:block-height",
+      "type": "glossary",
+      "label": "Block Height"
+    },
+    {
+      "id": "glossary:genesis-block",
+      "type": "glossary",
+      "label": "Genesis Block"
+    },
+    {
+      "id": "glossary:mainnet",
+      "type": "glossary",
+      "label": "Mainnet"
+    },
+    {
+      "id": "glossary:testnet",
+      "type": "glossary",
+      "label": "Testnet"
+    },
+    {
+      "id": "glossary:peer-to-peer-network",
+      "type": "glossary",
+      "label": "Peer-to-Peer Network"
+    },
+    {
+      "id": "glossary:proof-of-work",
+      "type": "glossary",
+      "label": "Proof of Work"
+    },
+    {
+      "id": "glossary:proof-of-stake",
+      "type": "glossary",
+      "label": "Proof of Stake"
+    },
+    {
+      "id": "glossary:slashing",
+      "type": "glossary",
+      "label": "Slashing"
+    },
+    {
+      "id": "glossary:epoch",
+      "type": "glossary",
+      "label": "Epoch"
+    },
+    {
+      "id": "glossary:checkpoint",
+      "type": "glossary",
+      "label": "Checkpoint"
+    },
+    {
+      "id": "glossary:light-client-proof",
+      "type": "glossary",
+      "label": "Light Client Proof"
+    },
+    {
+      "id": "glossary:json-rpc",
+      "type": "glossary",
+      "label": "JSON-RPC"
+    },
+    {
+      "id": "glossary:canonical-chain",
+      "type": "glossary",
+      "label": "Canonical Chain"
+    },
+    {
+      "id": "glossary:chain-reorganization",
+      "type": "glossary",
+      "label": "Chain Reorganization"
+    },
+    {
+      "id": "glossary:block-capacity",
+      "type": "glossary",
+      "label": "Block Capacity"
+    },
+    {
+      "id": "glossary:throughput",
+      "type": "glossary",
+      "label": "Throughput"
+    },
+    {
+      "id": "glossary:latency",
+      "type": "glossary",
+      "label": "Latency"
+    },
+    {
+      "id": "glossary:nonce",
+      "type": "glossary",
+      "label": "Nonce"
+    },
+    {
+      "id": "glossary:gas",
+      "type": "glossary",
+      "label": "Gas"
+    },
+    {
+      "id": "glossary:gas-limit",
+      "type": "glossary",
+      "label": "Gas Limit"
+    },
+    {
+      "id": "glossary:gas-price",
+      "type": "glossary",
+      "label": "Gas Price"
+    },
+    {
+      "id": "glossary:fungible-token",
+      "type": "glossary",
+      "label": "Fungible Token"
+    },
+    {
+      "id": "glossary:non-fungible-token",
+      "type": "glossary",
+      "label": "Non-Fungible Token"
+    },
+    {
+      "id": "glossary:circulating-supply",
+      "type": "glossary",
+      "label": "Circulating Supply"
+    },
+    {
+      "id": "glossary:total-supply",
+      "type": "glossary",
+      "label": "Total Supply"
+    },
+    {
+      "id": "glossary:maximum-supply",
+      "type": "glossary",
+      "label": "Maximum Supply"
+    },
+    {
+      "id": "glossary:minting",
+      "type": "glossary",
+      "label": "Minting"
+    },
+    {
+      "id": "glossary:token-economics",
+      "type": "glossary",
+      "label": "Token Economics"
+    },
+    {
+      "id": "glossary:token-emissions",
+      "type": "glossary",
+      "label": "Token Emissions"
+    },
+    {
+      "id": "glossary:inflation",
+      "type": "glossary",
+      "label": "Inflation"
+    },
+    {
+      "id": "glossary:deflationary-mechanism",
+      "type": "glossary",
+      "label": "Deflationary Mechanism"
+    },
+    {
+      "id": "glossary:protocol-treasury",
+      "type": "glossary",
+      "label": "Protocol Treasury"
+    },
+    {
+      "id": "glossary:market-maker",
+      "type": "glossary",
+      "label": "Market Maker"
+    },
+    {
+      "id": "glossary:arbitrage",
+      "type": "glossary",
+      "label": "Arbitrage"
+    },
+    {
+      "id": "glossary:oracle-price",
+      "type": "glossary",
+      "label": "Oracle Price"
+    },
+    {
+      "id": "glossary:peg",
+      "type": "glossary",
+      "label": "Peg"
+    },
+    {
+      "id": "glossary:depeg",
+      "type": "glossary",
+      "label": "Depeg"
+    },
+    {
+      "id": "glossary:proof-of-reserves",
+      "type": "glossary",
+      "label": "Proof of Reserves"
+    },
+    {
+      "id": "glossary:token-standard",
+      "type": "glossary",
+      "label": "Token Standard"
+    },
+    {
+      "id": "glossary:erc-20",
+      "type": "glossary",
+      "label": "ERC-20"
+    },
+    {
+      "id": "glossary:erc-721",
+      "type": "glossary",
+      "label": "ERC-721"
+    },
+    {
+      "id": "glossary:erc-1155",
+      "type": "glossary",
+      "label": "ERC-1155"
+    },
+    {
+      "id": "glossary:liquidity-provider",
+      "type": "glossary",
+      "label": "Liquidity Provider"
+    },
+    {
+      "id": "glossary:slippage",
+      "type": "glossary",
+      "label": "Slippage"
+    },
+    {
+      "id": "glossary:price-impact",
+      "type": "glossary",
+      "label": "Price Impact"
+    },
+    {
+      "id": "glossary:bid-ask-spread",
+      "type": "glossary",
+      "label": "Bid-Ask Spread"
+    },
+    {
+      "id": "glossary:trading-volume",
+      "type": "glossary",
+      "label": "Trading Volume"
+    },
+    {
+      "id": "glossary:market-depth",
+      "type": "glossary",
+      "label": "Market Depth"
+    },
+    {
+      "id": "glossary:mnemonic-phrase",
+      "type": "glossary",
+      "label": "Mnemonic Phrase"
+    },
+    {
+      "id": "glossary:hot-wallet",
+      "type": "glossary",
+      "label": "Hot Wallet"
+    },
+    {
+      "id": "glossary:air-gapped-wallet",
+      "type": "glossary",
+      "label": "Air-Gapped Wallet"
+    },
+    {
+      "id": "glossary:watch-only-wallet",
+      "type": "glossary",
+      "label": "Watch-Only Wallet"
+    },
+    {
+      "id": "glossary:smart-wallet",
+      "type": "glossary",
+      "label": "Smart Wallet"
+    },
+    {
+      "id": "glossary:message-signing",
+      "type": "glossary",
+      "label": "Message Signing"
+    },
+    {
+      "id": "glossary:token-allowance",
+      "type": "glossary",
+      "label": "Token Allowance"
+    },
+    {
+      "id": "glossary:approval-revocation",
+      "type": "glossary",
+      "label": "Approval Revocation"
+    },
+    {
+      "id": "glossary:impersonation-scam",
+      "type": "glossary",
+      "label": "Impersonation Scam"
+    },
+    {
+      "id": "glossary:rug-pull",
+      "type": "glossary",
+      "label": "Rug Pull"
+    },
+    {
+      "id": "glossary:ponzi-scheme",
+      "type": "glossary",
+      "label": "Ponzi Scheme"
+    },
+    {
+      "id": "glossary:fake-presale",
+      "type": "glossary",
+      "label": "Fake Presale"
+    },
+    {
+      "id": "glossary:malicious-contract",
+      "type": "glossary",
+      "label": "Malicious Contract"
+    },
+    {
+      "id": "glossary:wallet-backup",
+      "type": "glossary",
+      "label": "Wallet Backup"
+    },
+    {
+      "id": "glossary:wallet-passphrase",
+      "type": "glossary",
+      "label": "Wallet Passphrase"
+    },
+    {
+      "id": "glossary:biometric-authentication",
+      "type": "glossary",
+      "label": "Biometric Authentication"
+    },
+    {
+      "id": "glossary:two-factor-authentication",
+      "type": "glossary",
+      "label": "Two-Factor Authentication"
+    },
+    {
+      "id": "glossary:address-poisoning",
+      "type": "glossary",
+      "label": "Address Poisoning"
+    },
+    {
+      "id": "glossary:clipboard-malware",
+      "type": "glossary",
+      "label": "Clipboard Malware"
+    },
+    {
+      "id": "glossary:sim-swap",
+      "type": "glossary",
+      "label": "SIM Swap"
+    },
+    {
+      "id": "glossary:session-key",
+      "type": "glossary",
+      "label": "Session Key"
+    },
+    {
+      "id": "glossary:spending-limit",
+      "type": "glossary",
+      "label": "Spending Limit"
+    },
+    {
+      "id": "glossary:wallet-guardian",
+      "type": "glossary",
+      "label": "Wallet Guardian"
+    },
+    {
+      "id": "glossary:social-recovery",
+      "type": "glossary",
+      "label": "Social Recovery"
+    },
+    {
+      "id": "glossary:transaction-simulation",
+      "type": "glossary",
+      "label": "Transaction Simulation"
+    },
+    {
+      "id": "glossary:least-privilege",
+      "type": "glossary",
+      "label": "Least Privilege"
+    },
+    {
+      "id": "glossary:secret-management",
+      "type": "glossary",
+      "label": "Secret Management"
+    },
+    {
+      "id": "glossary:key-rotation",
+      "type": "glossary",
+      "label": "Key Rotation"
+    },
+    {
+      "id": "glossary:compromised-key",
+      "type": "glossary",
+      "label": "Compromised Key"
+    },
+    {
+      "id": "glossary:transaction-review",
+      "type": "glossary",
+      "label": "Transaction Review"
+    },
+    {
+      "id": "glossary:domain-verification",
+      "type": "glossary",
+      "label": "Domain Verification"
+    },
+    {
+      "id": "glossary:allowlist",
+      "type": "glossary",
+      "label": "Allowlist"
+    },
+    {
+      "id": "glossary:denylist",
+      "type": "glossary",
+      "label": "Denylist"
+    },
+    {
+      "id": "glossary:security-audit",
+      "type": "glossary",
+      "label": "Security Audit"
+    },
+    {
+      "id": "glossary:bytecode",
+      "type": "glossary",
+      "label": "Bytecode"
+    },
+    {
+      "id": "glossary:application-binary-interface",
+      "type": "glossary",
+      "label": "Application Binary Interface"
+    },
+    {
+      "id": "glossary:contract-address",
+      "type": "glossary",
+      "label": "Contract Address"
+    },
+    {
+      "id": "glossary:contract-storage",
+      "type": "glossary",
+      "label": "Contract Storage"
+    },
+    {
+      "id": "glossary:contract-event",
+      "type": "glossary",
+      "label": "Contract Event"
+    },
+    {
+      "id": "glossary:delegatecall",
+      "type": "glossary",
+      "label": "Delegatecall"
+    },
+    {
+      "id": "glossary:reentrancy",
+      "type": "glossary",
+      "label": "Reentrancy"
+    },
+    {
+      "id": "glossary:access-control",
+      "type": "glossary",
+      "label": "Access Control"
+    },
+    {
+      "id": "glossary:contract-owner",
+      "type": "glossary",
+      "label": "Contract Owner"
+    },
+    {
+      "id": "glossary:pausable-contract",
+      "type": "glossary",
+      "label": "Pausable Contract"
+    },
+    {
+      "id": "glossary:governance-token",
+      "type": "glossary",
+      "label": "Governance Token"
+    },
+    {
+      "id": "glossary:governance-proposal",
+      "type": "glossary",
+      "label": "Governance Proposal"
+    },
+    {
+      "id": "glossary:quorum",
+      "type": "glossary",
+      "label": "Quorum"
+    },
+    {
+      "id": "glossary:token-metadata",
+      "type": "glossary",
+      "label": "Token Metadata"
+    },
+    {
+      "id": "glossary:decentralized-identifier",
+      "type": "glossary",
+      "label": "Decentralized Identifier"
+    },
+    {
+      "id": "glossary:verifiable-credential",
+      "type": "glossary",
+      "label": "Verifiable Credential"
+    },
+    {
+      "id": "glossary:account-abstraction-wallet",
+      "type": "glossary",
+      "label": "Account-Abstraction Wallet"
+    },
+    {
+      "id": "glossary:cross-contract-call",
+      "type": "glossary",
+      "label": "Cross-Contract Call"
+    },
+    {
+      "id": "glossary:contract-upgrade",
+      "type": "glossary",
+      "label": "Contract Upgrade"
+    },
+    {
+      "id": "glossary:initializer",
+      "type": "glossary",
+      "label": "Initializer"
+    },
+    {
+      "id": "glossary:fallback-function",
+      "type": "glossary",
+      "label": "Fallback Function"
+    },
+    {
+      "id": "glossary:receive-function",
+      "type": "glossary",
+      "label": "Receive Function"
+    },
+    {
+      "id": "glossary:proxy-admin",
+      "type": "glossary",
+      "label": "Proxy Admin"
+    },
+    {
+      "id": "glossary:lending-protocol",
+      "type": "glossary",
+      "label": "Lending Protocol"
+    },
+    {
+      "id": "glossary:health-factor",
+      "type": "glossary",
+      "label": "Health Factor"
+    },
+    {
+      "id": "glossary:flash-loan",
+      "type": "glossary",
+      "label": "Flash Loan"
+    },
+    {
+      "id": "glossary:derivative",
+      "type": "glossary",
+      "label": "Derivative"
+    },
+    {
+      "id": "glossary:perpetual-contract",
+      "type": "glossary",
+      "label": "Perpetual Contract"
+    },
+    {
+      "id": "glossary:synthetic-asset",
+      "type": "glossary",
+      "label": "Synthetic Asset"
+    },
+    {
+      "id": "glossary:liquid-staking",
+      "type": "glossary",
+      "label": "Liquid Staking"
+    },
+    {
+      "id": "glossary:real-world-asset",
+      "type": "glossary",
+      "label": "Real-World Asset"
+    },
+    {
+      "id": "glossary:payment-channel",
+      "type": "glossary",
+      "label": "Payment Channel"
+    },
+    {
+      "id": "glossary:protocol-revenue",
+      "type": "glossary",
+      "label": "Protocol Revenue"
+    },
+    {
+      "id": "glossary:fee-switch",
+      "type": "glossary",
+      "label": "Fee Switch"
+    },
+    {
+      "id": "glossary:collateral-ratio",
+      "type": "glossary",
+      "label": "Collateral Ratio"
+    },
+    {
+      "id": "glossary:borrow-rate",
+      "type": "glossary",
+      "label": "Borrow Rate"
+    },
+    {
+      "id": "glossary:supply-rate",
+      "type": "glossary",
+      "label": "Supply Rate"
+    },
+    {
+      "id": "glossary:liquidity-mining",
+      "type": "glossary",
+      "label": "Liquidity Mining"
+    },
+    {
+      "id": "glossary:vault",
+      "type": "glossary",
+      "label": "Vault"
+    },
+    {
+      "id": "glossary:yield-aggregator",
+      "type": "glossary",
+      "label": "Yield Aggregator"
+    },
+    {
+      "id": "glossary:pool-share",
+      "type": "glossary",
+      "label": "Pool Share"
+    },
+    {
+      "id": "glossary:liquidity-token",
+      "type": "glossary",
+      "label": "Liquidity Token"
+    },
+    {
+      "id": "glossary:price-oracle",
+      "type": "glossary",
+      "label": "Price Oracle"
+    },
+    {
+      "id": "glossary:liquidation-threshold",
+      "type": "glossary",
+      "label": "Liquidation Threshold"
+    },
+    {
+      "id": "glossary:liquidation-bonus",
+      "type": "glossary",
+      "label": "Liquidation Bonus"
+    },
+    {
+      "id": "glossary:validator-set",
+      "type": "glossary",
+      "label": "Validator Set"
+    },
+    {
+      "id": "glossary:archive-node",
+      "type": "glossary",
+      "label": "Archive Node"
+    },
+    {
+      "id": "glossary:full-node",
+      "type": "glossary",
+      "label": "Full Node"
+    },
+    {
+      "id": "glossary:light-client",
+      "type": "glossary",
+      "label": "Light Client"
+    },
+    {
+      "id": "glossary:layer-1-term",
+      "type": "glossary",
+      "label": "Layer 1"
+    },
+    {
+      "id": "glossary:layer-2-term",
+      "type": "glossary",
+      "label": "Layer 2"
+    },
+    {
+      "id": "glossary:rollup",
+      "type": "glossary",
+      "label": "Rollup"
+    },
+    {
+      "id": "glossary:optimistic-rollup",
+      "type": "glossary",
+      "label": "Optimistic Rollup"
+    },
+    {
+      "id": "glossary:zero-knowledge-rollup",
+      "type": "glossary",
+      "label": "Zero-Knowledge Rollup"
+    },
+    {
+      "id": "glossary:data-availability-term",
+      "type": "glossary",
+      "label": "Data Availability"
+    },
+    {
+      "id": "glossary:sequencer",
+      "type": "glossary",
+      "label": "Sequencer"
+    },
+    {
+      "id": "glossary:sharding-term",
+      "type": "glossary",
+      "label": "Sharding"
+    },
+    {
+      "id": "glossary:ibc",
+      "type": "glossary",
+      "label": "IBC"
+    },
+    {
+      "id": "glossary:cross-chain-message",
+      "type": "glossary",
+      "label": "Cross-Chain Message"
+    },
+    {
+      "id": "glossary:cross-chain-bridge",
+      "type": "glossary",
+      "label": "Cross-Chain Bridge"
+    },
+    {
+      "id": "glossary:data-indexing",
+      "type": "glossary",
+      "label": "Data Indexing"
+    },
+    {
+      "id": "glossary:subgraph",
+      "type": "glossary",
+      "label": "Subgraph"
+    },
+    {
+      "id": "glossary:mev",
+      "type": "glossary",
+      "label": "MEV"
+    },
+    {
+      "id": "glossary:front-running",
+      "type": "glossary",
+      "label": "Front-Running"
+    },
+    {
+      "id": "glossary:sandwich-attack",
+      "type": "glossary",
+      "label": "Sandwich Attack"
+    },
+    {
+      "id": "glossary:transaction-ordering",
+      "type": "glossary",
+      "label": "Transaction Ordering"
+    },
+    {
+      "id": "glossary:fifo-ordering",
+      "type": "glossary",
+      "label": "FIFO Ordering"
+    },
+    {
+      "id": "glossary:rpc-gateway",
+      "type": "glossary",
+      "label": "RPC Gateway"
     }
   ],
   "edges": [
     {
       "from": "topic:blockchain",
-      "to": "glossary:consensus",
-      "type": "depends-on"
-    },
-    {
-      "from": "topic:blockchain",
-      "to": "glossary:transaction",
-      "type": "part-of"
-    },
-    {
-      "from": "topic:blockchain",
-      "to": "glossary:node",
-      "type": "implemented-by"
-    },
-    {
-      "from": "topic:cryptocurrency",
-      "to": "glossary:wallet",
-      "type": "used-by"
-    },
-    {
-      "from": "glossary:wallet",
-      "to": "glossary:private-key",
-      "type": "secured-by"
-    },
-    {
-      "from": "glossary:wallet",
-      "to": "glossary:signature",
-      "type": "used-by"
-    },
-    {
-      "from": "glossary:smart-contract",
-      "to": "glossary:transaction",
-      "type": "used-by"
-    },
-    {
-      "from": "topic:defi",
-      "to": "glossary:smart-contract",
-      "type": "depends-on"
-    },
-    {
-      "from": "topic:defi",
-      "to": "glossary:liquidity",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
-      "to": "glossary:wallet",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
-      "to": "glossary:smart-contract",
-      "type": "related-to"
-    },
-    {
-      "from": "glossary:rpc",
-      "to": "glossary:node",
-      "type": "used-by"
-    },
-    {
-      "from": "glossary:validator",
-      "to": "glossary:consensus",
-      "type": "part-of"
-    },
-    {
-      "from": "glossary:ai-agent",
-      "to": "glossary:wallet",
-      "type": "related-to"
-    },
-    {
-      "from": "glossary:ai-agent",
-      "to": "glossary:smart-contract",
-      "type": "related-to"
-    },
-    {
-      "from": "glossary:ai-agent",
-      "to": "glossary:transaction",
+      "to": "topic:transactions",
       "type": "related-to"
     },
     {
       "from": "topic:blockchain",
-      "to": "book:understanding-blockchain",
+      "to": "topic:nodes",
       "type": "related-to"
     },
     {
       "from": "topic:blockchain",
-      "to": "book:deterministic-execution",
+      "to": "topic:consensus",
       "type": "related-to"
     },
     {
       "from": "topic:blockchain",
-      "to": "research:deterministic-execution-fixed-cost-l1",
+      "to": "topic:cryptography",
       "type": "related-to"
     },
     {
-      "from": "topic:blockchain",
-      "to": "topic:cryptocurrency",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:blockchain",
-      "to": "topic:wallets-security",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:blockchain",
-      "to": "topic:smart-contracts",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:blockchain",
-      "to": "topic:infrastructure",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:cryptocurrency",
-      "to": "book:beginner-guide-cryptocurrency",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:cryptocurrency",
-      "to": "book:ai-money-revolution",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:cryptocurrency",
+      "from": "topic:distributed-ledger",
       "to": "topic:blockchain",
       "type": "related-to"
     },
     {
-      "from": "topic:cryptocurrency",
-      "to": "topic:wallets-security",
+      "from": "topic:distributed-ledger",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:distributed-ledger",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:distributed-ledger",
+      "to": "topic:nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blocks",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blocks",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blocks",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blocks",
+      "to": "topic:nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:transactions",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nodes",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nodes",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nodes",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nodes",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:consensus",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:consensus",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:consensus",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:consensus",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:finality",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:finality",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:finality",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:finality",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptography",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptography",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptography",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptography",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:digital-signatures",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:digital-signatures",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:digital-signatures",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:digital-signatures",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hash-functions",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hash-functions",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hash-functions",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hash-functions",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:public-key-cryptography",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:public-key-cryptography",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:public-key-cryptography",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:public-key-cryptography",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:merkle-trees",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:merkle-trees",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:merkle-trees",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:merkle-trees",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:state",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:state",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:state",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:state",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:accounts",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:accounts",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:accounts",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:accounts",
+      "to": "topic:transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:utxo-model",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:utxo-model",
+      "to": "topic:distributed-ledger",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:utxo-model",
+      "to": "topic:blocks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:utxo-model",
+      "to": "topic:transactions",
       "type": "related-to"
     },
     {
       "from": "topic:cryptocurrency",
-      "to": "topic:defi",
+      "to": "topic:native-assets",
       "type": "related-to"
     },
     {
       "from": "topic:cryptocurrency",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "topic:tokenization",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:native-assets",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:native-assets",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:native-assets",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:native-assets",
+      "to": "topic:tokenization",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokens",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokens",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokens",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokens",
+      "to": "topic:tokenization",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoins",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoins",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoins",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoins",
+      "to": "topic:tokenization",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokenization",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokenization",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokenization",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:tokenization",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:market-capitalization",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:market-capitalization",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:market-capitalization",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:market-capitalization",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:order-books",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:order-books",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:order-books",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:order-books",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:automated-market-makers",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:automated-market-makers",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:automated-market-makers",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:automated-market-makers",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-exchanges",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-exchanges",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-exchanges",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-exchanges",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:centralized-exchanges",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:centralized-exchanges",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:centralized-exchanges",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:centralized-exchanges",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:custody",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:custody",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:custody",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:custody",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:staking",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:staking",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:staking",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:staking",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:delegation",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:delegation",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:delegation",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:delegation",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-supply",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-supply",
+      "to": "topic:native-assets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-supply",
+      "to": "topic:tokens",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-supply",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets",
+      "to": "topic:transaction-signing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:addresses",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:addresses",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:addresses",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:addresses",
+      "to": "topic:hardware-wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:private-keys",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:private-keys",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:private-keys",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:private-keys",
+      "to": "topic:hardware-wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:seed-phrases",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:seed-phrases",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:seed-phrases",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:seed-phrases",
+      "to": "topic:hardware-wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hardware-wallets",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hardware-wallets",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hardware-wallets",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:hardware-wallets",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:multisignature-wallets",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:multisignature-wallets",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:multisignature-wallets",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:multisignature-wallets",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:account-abstraction",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:account-abstraction",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:account-abstraction",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:account-abstraction",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:transaction-signing",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:transaction-signing",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:transaction-signing",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:transaction-signing",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-approvals",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-approvals",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-approvals",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:token-approvals",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:phishing",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:phishing",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:phishing",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:phishing",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallet-drainers",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallet-drainers",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallet-drainers",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallet-drainers",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:social-engineering",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:social-engineering",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:social-engineering",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:social-engineering",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contract-risk",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contract-risk",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contract-risk",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contract-risk",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracle-risk",
+      "to": "topic:wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracle-risk",
+      "to": "topic:addresses",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracle-risk",
+      "to": "topic:private-keys",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracle-risk",
+      "to": "topic:seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:smart-contract-risk",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:evm",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:evm",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:evm",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:evm",
       "to": "topic:web3",
       "type": "related-to"
     },
     {
-      "from": "topic:wallets-security",
-      "to": "book:understanding-seed-phrases",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:wallets-security",
-      "to": "book:dark-side-web3",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:wallets-security",
-      "to": "topic:blockchain",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:wallets-security",
-      "to": "topic:cryptocurrency",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:wallets-security",
+      "from": "topic:virtual-machines",
       "to": "topic:smart-contracts",
       "type": "related-to"
     },
     {
-      "from": "topic:wallets-security",
-      "to": "topic:defi",
+      "from": "topic:virtual-machines",
+      "to": "topic:evm",
       "type": "related-to"
     },
     {
-      "from": "topic:smart-contracts",
-      "to": "book:deterministic-execution",
+      "from": "topic:virtual-machines",
+      "to": "topic:dapps",
       "type": "related-to"
     },
     {
-      "from": "topic:smart-contracts",
-      "to": "research:deterministic-execution-fixed-cost-l1",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:smart-contracts",
-      "to": "topic:blockchain",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:smart-contracts",
-      "to": "topic:wallets-security",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:smart-contracts",
-      "to": "topic:defi",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:smart-contracts",
+      "from": "topic:virtual-machines",
       "to": "topic:web3",
       "type": "related-to"
     },
     {
-      "from": "topic:smart-contracts",
-      "to": "topic:infrastructure",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:defi",
-      "to": "book:understanding-defi",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:defi",
-      "to": "topic:cryptocurrency",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:defi",
-      "to": "topic:wallets-security",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:defi",
+      "from": "topic:dapps",
       "to": "topic:smart-contracts",
       "type": "related-to"
     },
     {
-      "from": "topic:defi",
+      "from": "topic:dapps",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:dapps",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:dapps",
       "to": "topic:web3",
       "type": "related-to"
     },
     {
       "from": "topic:web3",
-      "to": "book:understanding-web3",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
-      "to": "book:quiet-rebuild-internet",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
-      "to": "book:dark-side-web3",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
-      "to": "topic:blockchain",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
-      "to": "topic:cryptocurrency",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
-      "to": "topic:wallets-security",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:web3",
       "to": "topic:smart-contracts",
       "type": "related-to"
     },
     {
       "from": "topic:web3",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:daos",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:daos",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:daos",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:daos",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nfts",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nfts",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nfts",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:nfts",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracles",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracles",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracles",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:oracles",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:identity",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:identity",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:identity",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:identity",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-identity",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-identity",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-identity",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:decentralized-identity",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ens-and-naming",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ens-and-naming",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ens-and-naming",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ens-and-naming",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:governance",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:governance",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:governance",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:governance",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:upgradeable-contracts",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:upgradeable-contracts",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:upgradeable-contracts",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:upgradeable-contracts",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:proxy-contracts",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:proxy-contracts",
+      "to": "topic:evm",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:proxy-contracts",
+      "to": "topic:virtual-machines",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:proxy-contracts",
+      "to": "topic:dapps",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:liquidity-pools",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:decentralized-exchanges",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:stablecoins",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:lending",
       "to": "topic:defi",
       "type": "related-to"
     },
     {
-      "from": "topic:infrastructure",
-      "to": "book:deterministic-execution",
+      "from": "topic:lending",
+      "to": "topic:borrowing",
       "type": "related-to"
     },
     {
-      "from": "topic:infrastructure",
-      "to": "book:quiet-rebuild-internet",
+      "from": "topic:lending",
+      "to": "topic:collateral",
       "type": "related-to"
     },
     {
-      "from": "topic:infrastructure",
-      "to": "research:deterministic-execution-fixed-cost-l1",
+      "from": "topic:lending",
+      "to": "topic:liquidation",
       "type": "related-to"
     },
     {
-      "from": "topic:infrastructure",
-      "to": "topic:blockchain",
+      "from": "topic:borrowing",
+      "to": "topic:defi",
       "type": "related-to"
     },
     {
-      "from": "topic:infrastructure",
-      "to": "topic:smart-contracts",
+      "from": "topic:borrowing",
+      "to": "topic:lending",
       "type": "related-to"
     },
     {
-      "from": "topic:infrastructure",
+      "from": "topic:borrowing",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:borrowing",
+      "to": "topic:liquidation",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:collateral",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:collateral",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:collateral",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:collateral",
+      "to": "topic:liquidation",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidation",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidation",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidation",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidation",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:yield-farming",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:yield-farming",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:yield-farming",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:yield-farming",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity-pools",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity-pools",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity-pools",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:liquidity-pools",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:impermanent-loss",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:impermanent-loss",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:impermanent-loss",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:impermanent-loss",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:dex-aggregators",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:dex-aggregators",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:dex-aggregators",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:dex-aggregators",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoin-mechanisms",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoin-mechanisms",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoin-mechanisms",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:stablecoin-mechanisms",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:derivatives",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:derivatives",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:derivatives",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:derivatives",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:perpetuals",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:perpetuals",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:perpetuals",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:perpetuals",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:synthetic-assets",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:synthetic-assets",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:synthetic-assets",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:synthetic-assets",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:flash-loans",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:flash-loans",
+      "to": "topic:lending",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:flash-loans",
+      "to": "topic:borrowing",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:flash-loans",
+      "to": "topic:collateral",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:validators",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:validators",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:validators",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:validators",
+      "to": "topic:light-clients",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rpc-infrastructure",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rpc-infrastructure",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rpc-infrastructure",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rpc-infrastructure",
+      "to": "topic:light-clients",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:archive-nodes",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:archive-nodes",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:archive-nodes",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:archive-nodes",
+      "to": "topic:light-clients",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:full-nodes",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:full-nodes",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:full-nodes",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:full-nodes",
+      "to": "topic:light-clients",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:light-clients",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:light-clients",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:light-clients",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:light-clients",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-1",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-1",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-1",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-1",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-2",
+      "to": "topic:rollups",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-2",
+      "to": "topic:optimistic-rollups",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-2",
+      "to": "topic:zero-knowledge-rollups",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:layer-2",
+      "to": "topic:data-availability",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rollups",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rollups",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rollups",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:rollups",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:optimistic-rollups",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:optimistic-rollups",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:optimistic-rollups",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:optimistic-rollups",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:zero-knowledge-rollups",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:zero-knowledge-rollups",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:zero-knowledge-rollups",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:zero-knowledge-rollups",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:data-availability",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:data-availability",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:data-availability",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:data-availability",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sequencers",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sequencers",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sequencers",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sequencers",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sharding",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sharding",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sharding",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sharding",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:interoperability",
+      "to": "topic:validators",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:interoperability",
+      "to": "topic:rpc-infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:interoperability",
+      "to": "topic:archive-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:interoperability",
+      "to": "topic:full-nodes",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:predictable-fees",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:permissioned-networks",
       "to": "topic:enterprise-blockchain",
       "type": "related-to"
     },
     {
-      "from": "topic:infrastructure",
-      "to": "topic:ai-blockchain",
+      "from": "topic:permissioned-networks",
+      "to": "topic:compliance",
       "type": "related-to"
     },
     {
-      "from": "topic:enterprise-blockchain",
-      "to": "book:deterministic-execution",
+      "from": "topic:permissioned-networks",
+      "to": "topic:privacy",
       "type": "related-to"
     },
     {
-      "from": "topic:enterprise-blockchain",
-      "to": "research:deterministic-execution-fixed-cost-l1",
+      "from": "topic:permissioned-networks",
+      "to": "topic:predictable-fees",
       "type": "related-to"
     },
     {
-      "from": "topic:enterprise-blockchain",
-      "to": "topic:blockchain",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:enterprise-blockchain",
-      "to": "topic:infrastructure",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:enterprise-blockchain",
-      "to": "topic:smart-contracts",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:enterprise-blockchain",
-      "to": "topic:ai-blockchain",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:ai-blockchain",
-      "to": "book:ai-money-revolution",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:ai-blockchain",
-      "to": "book:deterministic-execution",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:ai-blockchain",
-      "to": "research:deterministic-execution-fixed-cost-l1",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:ai-blockchain",
-      "to": "topic:blockchain",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:ai-blockchain",
-      "to": "topic:smart-contracts",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:ai-blockchain",
-      "to": "topic:infrastructure",
-      "type": "related-to"
-    },
-    {
-      "from": "topic:ai-blockchain",
+      "from": "topic:compliance",
       "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:compliance",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:compliance",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:compliance",
+      "to": "topic:predictable-fees",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:privacy",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:privacy",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:privacy",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:privacy",
+      "to": "topic:predictable-fees",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:predictable-fees",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:predictable-fees",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:predictable-fees",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:predictable-fees",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:deterministic-execution",
+      "to": "topic:fixed-cost-transactions",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:deterministic-execution",
+      "to": "topic:predictable-fees",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:deterministic-execution",
+      "to": "topic:sla-and-reliability",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:fixed-cost-transactions",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:fixed-cost-transactions",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:fixed-cost-transactions",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:fixed-cost-transactions",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sla-and-reliability",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sla-and-reliability",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sla-and-reliability",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:sla-and-reliability",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:observability",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:observability",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:observability",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:observability",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain-analytics",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain-analytics",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain-analytics",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain-analytics",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-agents",
+      "to": "topic:machine-payments",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-agents",
+      "to": "topic:agent-wallets",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-agents",
+      "to": "topic:autonomous-systems",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:machine-payments",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:machine-payments",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:machine-payments",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:machine-payments",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:agent-wallets",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:agent-wallets",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:agent-wallets",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:agent-wallets",
+      "to": "topic:privacy",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:autonomous-systems",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:autonomous-systems",
+      "to": "topic:permissioned-networks",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:autonomous-systems",
+      "to": "topic:compliance",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:autonomous-systems",
+      "to": "topic:privacy",
       "type": "related-to"
     }
   ]

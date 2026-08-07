@@ -1,0 +1,2256 @@
+{
+  "version": "1.1.0",
+  "updated": "2026-08-07",
+  "entries": [
+    {
+      "id": "blockchain",
+      "uid": "glossary:blockchain",
+      "type": "glossary",
+      "term": "Blockchain",
+      "definition": "Blockchain is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/blockchain",
+      "status": "published"
+    },
+    {
+      "id": "distributed-ledger",
+      "uid": "glossary:distributed-ledger",
+      "type": "glossary",
+      "term": "Distributed Ledger",
+      "definition": "Distributed Ledger is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/distributed-ledger",
+      "status": "published"
+    },
+    {
+      "id": "blocks",
+      "uid": "glossary:blocks",
+      "type": "glossary",
+      "term": "Blocks",
+      "definition": "Blocks is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/blocks",
+      "status": "published"
+    },
+    {
+      "id": "transactions",
+      "uid": "glossary:transactions",
+      "type": "glossary",
+      "term": "Transactions",
+      "definition": "Transactions is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/transactions",
+      "status": "published"
+    },
+    {
+      "id": "nodes",
+      "uid": "glossary:nodes",
+      "type": "glossary",
+      "term": "Nodes",
+      "definition": "Nodes is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/nodes",
+      "status": "published"
+    },
+    {
+      "id": "consensus",
+      "uid": "glossary:consensus",
+      "type": "glossary",
+      "term": "Consensus",
+      "definition": "Consensus is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/consensus",
+      "status": "published"
+    },
+    {
+      "id": "finality",
+      "uid": "glossary:finality",
+      "type": "glossary",
+      "term": "Finality",
+      "definition": "Finality is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/finality",
+      "status": "published"
+    },
+    {
+      "id": "cryptography",
+      "uid": "glossary:cryptography",
+      "type": "glossary",
+      "term": "Cryptography",
+      "definition": "Cryptography is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/cryptography",
+      "status": "published"
+    },
+    {
+      "id": "digital-signatures",
+      "uid": "glossary:digital-signatures",
+      "type": "glossary",
+      "term": "Digital Signatures",
+      "definition": "Digital Signatures is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/digital-signatures",
+      "status": "published"
+    },
+    {
+      "id": "hash-functions",
+      "uid": "glossary:hash-functions",
+      "type": "glossary",
+      "term": "Hash Functions",
+      "definition": "Hash Functions is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/hash-functions",
+      "status": "published"
+    },
+    {
+      "id": "public-key-cryptography",
+      "uid": "glossary:public-key-cryptography",
+      "type": "glossary",
+      "term": "Public-Key Cryptography",
+      "definition": "Public-Key Cryptography is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/public-key-cryptography",
+      "status": "published"
+    },
+    {
+      "id": "merkle-trees",
+      "uid": "glossary:merkle-trees",
+      "type": "glossary",
+      "term": "Merkle Trees",
+      "definition": "Merkle Trees is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/merkle-trees",
+      "status": "published"
+    },
+    {
+      "id": "state",
+      "uid": "glossary:state",
+      "type": "glossary",
+      "term": "State",
+      "definition": "State is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/state",
+      "status": "published"
+    },
+    {
+      "id": "accounts",
+      "uid": "glossary:accounts",
+      "type": "glossary",
+      "term": "Accounts",
+      "definition": "Accounts is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/accounts",
+      "status": "published"
+    },
+    {
+      "id": "utxo-model",
+      "uid": "glossary:utxo-model",
+      "type": "glossary",
+      "term": "UTXO Model",
+      "definition": "UTXO Model is a foundational blockchain concept that helps explain how distributed networks record, validate, secure, or coordinate state.",
+      "canonicalUrl": "/generated/glossary/utxo-model",
+      "status": "published"
+    },
+    {
+      "id": "cryptocurrency",
+      "uid": "glossary:cryptocurrency",
+      "type": "glossary",
+      "term": "Cryptocurrency",
+      "definition": "Cryptocurrency is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/cryptocurrency",
+      "status": "published"
+    },
+    {
+      "id": "native-assets",
+      "uid": "glossary:native-assets",
+      "type": "glossary",
+      "term": "Native Assets",
+      "definition": "Native Assets is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/native-assets",
+      "status": "published"
+    },
+    {
+      "id": "tokens",
+      "uid": "glossary:tokens",
+      "type": "glossary",
+      "term": "Tokens",
+      "definition": "Tokens is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/tokens",
+      "status": "published"
+    },
+    {
+      "id": "stablecoins",
+      "uid": "glossary:stablecoins",
+      "type": "glossary",
+      "term": "Stablecoins",
+      "definition": "Stablecoins is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/stablecoins",
+      "status": "published"
+    },
+    {
+      "id": "tokenization",
+      "uid": "glossary:tokenization",
+      "type": "glossary",
+      "term": "Tokenization",
+      "definition": "Tokenization is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/tokenization",
+      "status": "published"
+    },
+    {
+      "id": "market-capitalization",
+      "uid": "glossary:market-capitalization",
+      "type": "glossary",
+      "term": "Market Capitalization",
+      "definition": "Market Capitalization is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/market-capitalization",
+      "status": "published"
+    },
+    {
+      "id": "liquidity",
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "term": "Liquidity",
+      "definition": "Liquidity is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/liquidity",
+      "status": "published"
+    },
+    {
+      "id": "order-books",
+      "uid": "glossary:order-books",
+      "type": "glossary",
+      "term": "Order Books",
+      "definition": "Order Books is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/order-books",
+      "status": "published"
+    },
+    {
+      "id": "automated-market-makers",
+      "uid": "glossary:automated-market-makers",
+      "type": "glossary",
+      "term": "Automated Market Makers",
+      "definition": "Automated Market Makers is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/automated-market-makers",
+      "status": "published"
+    },
+    {
+      "id": "decentralized-exchanges",
+      "uid": "glossary:decentralized-exchanges",
+      "type": "glossary",
+      "term": "Decentralized Exchanges",
+      "definition": "Decentralized Exchanges is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/decentralized-exchanges",
+      "status": "published"
+    },
+    {
+      "id": "centralized-exchanges",
+      "uid": "glossary:centralized-exchanges",
+      "type": "glossary",
+      "term": "Centralized Exchanges",
+      "definition": "Centralized Exchanges is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/centralized-exchanges",
+      "status": "published"
+    },
+    {
+      "id": "custody",
+      "uid": "glossary:custody",
+      "type": "glossary",
+      "term": "Custody",
+      "definition": "Custody is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/custody",
+      "status": "published"
+    },
+    {
+      "id": "staking",
+      "uid": "glossary:staking",
+      "type": "glossary",
+      "term": "Staking",
+      "definition": "Staking is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/staking",
+      "status": "published"
+    },
+    {
+      "id": "delegation",
+      "uid": "glossary:delegation",
+      "type": "glossary",
+      "term": "Delegation",
+      "definition": "Delegation is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/delegation",
+      "status": "published"
+    },
+    {
+      "id": "token-supply",
+      "uid": "glossary:token-supply",
+      "type": "glossary",
+      "term": "Token Supply",
+      "definition": "Token Supply is part of the digital-asset and blockchain market layer, covering how value is represented, exchanged, supplied, or managed.",
+      "canonicalUrl": "/generated/glossary/token-supply",
+      "status": "published"
+    },
+    {
+      "id": "wallets",
+      "uid": "glossary:wallets",
+      "type": "glossary",
+      "term": "Wallets",
+      "definition": "Wallets is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/wallets",
+      "status": "published"
+    },
+    {
+      "id": "addresses",
+      "uid": "glossary:addresses",
+      "type": "glossary",
+      "term": "Addresses",
+      "definition": "Addresses is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/addresses",
+      "status": "published"
+    },
+    {
+      "id": "private-keys",
+      "uid": "glossary:private-keys",
+      "type": "glossary",
+      "term": "Private Keys",
+      "definition": "Private Keys is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/private-keys",
+      "status": "published"
+    },
+    {
+      "id": "seed-phrases",
+      "uid": "glossary:seed-phrases",
+      "type": "glossary",
+      "term": "Seed Phrases",
+      "definition": "Seed Phrases is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/seed-phrases",
+      "status": "published"
+    },
+    {
+      "id": "hardware-wallets",
+      "uid": "glossary:hardware-wallets",
+      "type": "glossary",
+      "term": "Hardware Wallets",
+      "definition": "Hardware Wallets is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/hardware-wallets",
+      "status": "published"
+    },
+    {
+      "id": "multisignature-wallets",
+      "uid": "glossary:multisignature-wallets",
+      "type": "glossary",
+      "term": "Multisignature Wallets",
+      "definition": "Multisignature Wallets is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/multisignature-wallets",
+      "status": "published"
+    },
+    {
+      "id": "account-abstraction",
+      "uid": "glossary:account-abstraction",
+      "type": "glossary",
+      "term": "Account Abstraction",
+      "definition": "Account Abstraction is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/account-abstraction",
+      "status": "published"
+    },
+    {
+      "id": "transaction-signing",
+      "uid": "glossary:transaction-signing",
+      "type": "glossary",
+      "term": "Transaction Signing",
+      "definition": "Transaction Signing is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/transaction-signing",
+      "status": "published"
+    },
+    {
+      "id": "token-approvals",
+      "uid": "glossary:token-approvals",
+      "type": "glossary",
+      "term": "Token Approvals",
+      "definition": "Token Approvals is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/token-approvals",
+      "status": "published"
+    },
+    {
+      "id": "phishing",
+      "uid": "glossary:phishing",
+      "type": "glossary",
+      "term": "Phishing",
+      "definition": "Phishing is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/phishing",
+      "status": "published"
+    },
+    {
+      "id": "wallet-drainers",
+      "uid": "glossary:wallet-drainers",
+      "type": "glossary",
+      "term": "Wallet Drainers",
+      "definition": "Wallet Drainers is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/wallet-drainers",
+      "status": "published"
+    },
+    {
+      "id": "social-engineering",
+      "uid": "glossary:social-engineering",
+      "type": "glossary",
+      "term": "Social Engineering",
+      "definition": "Social Engineering is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/social-engineering",
+      "status": "published"
+    },
+    {
+      "id": "smart-contract-risk",
+      "uid": "glossary:smart-contract-risk",
+      "type": "glossary",
+      "term": "Smart Contract Risk",
+      "definition": "Smart Contract Risk is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/smart-contract-risk",
+      "status": "published"
+    },
+    {
+      "id": "oracle-risk",
+      "uid": "glossary:oracle-risk",
+      "type": "glossary",
+      "term": "Oracle Risk",
+      "definition": "Oracle Risk is part of blockchain wallet security and operational safety, focusing on authorization, custody, permissions, or attack prevention.",
+      "canonicalUrl": "/generated/glossary/oracle-risk",
+      "status": "published"
+    },
+    {
+      "id": "smart-contracts",
+      "uid": "glossary:smart-contracts",
+      "type": "glossary",
+      "term": "Smart Contracts",
+      "definition": "Smart Contracts is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/smart-contracts",
+      "status": "published"
+    },
+    {
+      "id": "evm",
+      "uid": "glossary:evm",
+      "type": "glossary",
+      "term": "EVM",
+      "definition": "EVM is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/evm",
+      "status": "published"
+    },
+    {
+      "id": "virtual-machines",
+      "uid": "glossary:virtual-machines",
+      "type": "glossary",
+      "term": "Virtual Machines",
+      "definition": "Virtual Machines is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/virtual-machines",
+      "status": "published"
+    },
+    {
+      "id": "dapps",
+      "uid": "glossary:dapps",
+      "type": "glossary",
+      "term": "DApps",
+      "definition": "DApps is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/dapps",
+      "status": "published"
+    },
+    {
+      "id": "web3",
+      "uid": "glossary:web3",
+      "type": "glossary",
+      "term": "Web3",
+      "definition": "Web3 is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/web3",
+      "status": "published"
+    },
+    {
+      "id": "daos",
+      "uid": "glossary:daos",
+      "type": "glossary",
+      "term": "DAOs",
+      "definition": "DAOs is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/daos",
+      "status": "published"
+    },
+    {
+      "id": "nfts",
+      "uid": "glossary:nfts",
+      "type": "glossary",
+      "term": "NFTs",
+      "definition": "NFTs is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/nfts",
+      "status": "published"
+    },
+    {
+      "id": "oracles",
+      "uid": "glossary:oracles",
+      "type": "glossary",
+      "term": "Oracles",
+      "definition": "Oracles is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/oracles",
+      "status": "published"
+    },
+    {
+      "id": "identity",
+      "uid": "glossary:identity",
+      "type": "glossary",
+      "term": "Identity",
+      "definition": "Identity is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/identity",
+      "status": "published"
+    },
+    {
+      "id": "decentralized-identity",
+      "uid": "glossary:decentralized-identity",
+      "type": "glossary",
+      "term": "Decentralized Identity",
+      "definition": "Decentralized Identity is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/decentralized-identity",
+      "status": "published"
+    },
+    {
+      "id": "ens-and-naming",
+      "uid": "glossary:ens-and-naming",
+      "type": "glossary",
+      "term": "ENS and Naming",
+      "definition": "ENS and Naming is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/ens-and-naming",
+      "status": "published"
+    },
+    {
+      "id": "governance",
+      "uid": "glossary:governance",
+      "type": "glossary",
+      "term": "Governance",
+      "definition": "Governance is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/governance",
+      "status": "published"
+    },
+    {
+      "id": "upgradeable-contracts",
+      "uid": "glossary:upgradeable-contracts",
+      "type": "glossary",
+      "term": "Upgradeable Contracts",
+      "definition": "Upgradeable Contracts is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/upgradeable-contracts",
+      "status": "published"
+    },
+    {
+      "id": "proxy-contracts",
+      "uid": "glossary:proxy-contracts",
+      "type": "glossary",
+      "term": "Proxy Contracts",
+      "definition": "Proxy Contracts is part of the programmable application layer of blockchain and Web3, connecting execution, identity, governance, applications, or developer interfaces.",
+      "canonicalUrl": "/generated/glossary/proxy-contracts",
+      "status": "published"
+    },
+    {
+      "id": "defi",
+      "uid": "glossary:defi",
+      "type": "glossary",
+      "term": "DeFi",
+      "definition": "DeFi is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/defi",
+      "status": "published"
+    },
+    {
+      "id": "lending",
+      "uid": "glossary:lending",
+      "type": "glossary",
+      "term": "Lending",
+      "definition": "Lending is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/lending",
+      "status": "published"
+    },
+    {
+      "id": "borrowing",
+      "uid": "glossary:borrowing",
+      "type": "glossary",
+      "term": "Borrowing",
+      "definition": "Borrowing is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/borrowing",
+      "status": "published"
+    },
+    {
+      "id": "collateral",
+      "uid": "glossary:collateral",
+      "type": "glossary",
+      "term": "Collateral",
+      "definition": "Collateral is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/collateral",
+      "status": "published"
+    },
+    {
+      "id": "liquidation",
+      "uid": "glossary:liquidation",
+      "type": "glossary",
+      "term": "Liquidation",
+      "definition": "Liquidation is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/liquidation",
+      "status": "published"
+    },
+    {
+      "id": "yield-farming",
+      "uid": "glossary:yield-farming",
+      "type": "glossary",
+      "term": "Yield Farming",
+      "definition": "Yield Farming is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/yield-farming",
+      "status": "published"
+    },
+    {
+      "id": "liquidity-pools",
+      "uid": "glossary:liquidity-pools",
+      "type": "glossary",
+      "term": "Liquidity Pools",
+      "definition": "Liquidity Pools is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/liquidity-pools",
+      "status": "published"
+    },
+    {
+      "id": "impermanent-loss",
+      "uid": "glossary:impermanent-loss",
+      "type": "glossary",
+      "term": "Impermanent Loss",
+      "definition": "Impermanent Loss is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/impermanent-loss",
+      "status": "published"
+    },
+    {
+      "id": "dex-aggregators",
+      "uid": "glossary:dex-aggregators",
+      "type": "glossary",
+      "term": "DEX Aggregators",
+      "definition": "DEX Aggregators is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/dex-aggregators",
+      "status": "published"
+    },
+    {
+      "id": "stablecoin-mechanisms",
+      "uid": "glossary:stablecoin-mechanisms",
+      "type": "glossary",
+      "term": "Stablecoin Mechanisms",
+      "definition": "Stablecoin Mechanisms is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/stablecoin-mechanisms",
+      "status": "published"
+    },
+    {
+      "id": "derivatives",
+      "uid": "glossary:derivatives",
+      "type": "glossary",
+      "term": "Derivatives",
+      "definition": "Derivatives is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/derivatives",
+      "status": "published"
+    },
+    {
+      "id": "perpetuals",
+      "uid": "glossary:perpetuals",
+      "type": "glossary",
+      "term": "Perpetuals",
+      "definition": "Perpetuals is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/perpetuals",
+      "status": "published"
+    },
+    {
+      "id": "synthetic-assets",
+      "uid": "glossary:synthetic-assets",
+      "type": "glossary",
+      "term": "Synthetic Assets",
+      "definition": "Synthetic Assets is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/synthetic-assets",
+      "status": "published"
+    },
+    {
+      "id": "flash-loans",
+      "uid": "glossary:flash-loans",
+      "type": "glossary",
+      "term": "Flash Loans",
+      "definition": "Flash Loans is part of decentralized finance, where blockchain-based assets and smart contracts are used to implement financial or treasury functions.",
+      "canonicalUrl": "/generated/glossary/flash-loans",
+      "status": "published"
+    },
+    {
+      "id": "validators",
+      "uid": "glossary:validators",
+      "type": "glossary",
+      "term": "Validators",
+      "definition": "Validators is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/validators",
+      "status": "published"
+    },
+    {
+      "id": "rpc-infrastructure",
+      "uid": "glossary:rpc-infrastructure",
+      "type": "glossary",
+      "term": "RPC Infrastructure",
+      "definition": "RPC Infrastructure is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/rpc-infrastructure",
+      "status": "published"
+    },
+    {
+      "id": "archive-nodes",
+      "uid": "glossary:archive-nodes",
+      "type": "glossary",
+      "term": "Archive Nodes",
+      "definition": "Archive Nodes is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/archive-nodes",
+      "status": "published"
+    },
+    {
+      "id": "full-nodes",
+      "uid": "glossary:full-nodes",
+      "type": "glossary",
+      "term": "Full Nodes",
+      "definition": "Full Nodes is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/full-nodes",
+      "status": "published"
+    },
+    {
+      "id": "light-clients",
+      "uid": "glossary:light-clients",
+      "type": "glossary",
+      "term": "Light Clients",
+      "definition": "Light Clients is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/light-clients",
+      "status": "published"
+    },
+    {
+      "id": "layer-1",
+      "uid": "glossary:layer-1",
+      "type": "glossary",
+      "term": "Layer 1",
+      "definition": "Layer 1 is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/layer-1",
+      "status": "published"
+    },
+    {
+      "id": "layer-2",
+      "uid": "glossary:layer-2",
+      "type": "glossary",
+      "term": "Layer 2",
+      "definition": "Layer 2 is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/layer-2",
+      "status": "published"
+    },
+    {
+      "id": "rollups",
+      "uid": "glossary:rollups",
+      "type": "glossary",
+      "term": "Rollups",
+      "definition": "Rollups is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/rollups",
+      "status": "published"
+    },
+    {
+      "id": "optimistic-rollups",
+      "uid": "glossary:optimistic-rollups",
+      "type": "glossary",
+      "term": "Optimistic Rollups",
+      "definition": "Optimistic Rollups is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/optimistic-rollups",
+      "status": "published"
+    },
+    {
+      "id": "zero-knowledge-rollups",
+      "uid": "glossary:zero-knowledge-rollups",
+      "type": "glossary",
+      "term": "Zero-Knowledge Rollups",
+      "definition": "Zero-Knowledge Rollups is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/zero-knowledge-rollups",
+      "status": "published"
+    },
+    {
+      "id": "data-availability",
+      "uid": "glossary:data-availability",
+      "type": "glossary",
+      "term": "Data Availability",
+      "definition": "Data Availability is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/data-availability",
+      "status": "published"
+    },
+    {
+      "id": "sequencers",
+      "uid": "glossary:sequencers",
+      "type": "glossary",
+      "term": "Sequencers",
+      "definition": "Sequencers is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/sequencers",
+      "status": "published"
+    },
+    {
+      "id": "sharding",
+      "uid": "glossary:sharding",
+      "type": "glossary",
+      "term": "Sharding",
+      "definition": "Sharding is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/sharding",
+      "status": "published"
+    },
+    {
+      "id": "interoperability",
+      "uid": "glossary:interoperability",
+      "type": "glossary",
+      "term": "Interoperability",
+      "definition": "Interoperability is part of blockchain infrastructure, scalability, networking, interoperability, or transaction-processing architecture.",
+      "canonicalUrl": "/generated/glossary/interoperability",
+      "status": "published"
+    },
+    {
+      "id": "enterprise-blockchain",
+      "uid": "glossary:enterprise-blockchain",
+      "type": "glossary",
+      "term": "Enterprise Blockchain",
+      "definition": "Enterprise Blockchain connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/enterprise-blockchain",
+      "status": "published"
+    },
+    {
+      "id": "permissioned-networks",
+      "uid": "glossary:permissioned-networks",
+      "type": "glossary",
+      "term": "Permissioned Networks",
+      "definition": "Permissioned Networks connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/permissioned-networks",
+      "status": "published"
+    },
+    {
+      "id": "compliance",
+      "uid": "glossary:compliance",
+      "type": "glossary",
+      "term": "Compliance",
+      "definition": "Compliance connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/compliance",
+      "status": "published"
+    },
+    {
+      "id": "privacy",
+      "uid": "glossary:privacy",
+      "type": "glossary",
+      "term": "Privacy",
+      "definition": "Privacy connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/privacy",
+      "status": "published"
+    },
+    {
+      "id": "predictable-fees",
+      "uid": "glossary:predictable-fees",
+      "type": "glossary",
+      "term": "Predictable Fees",
+      "definition": "Predictable Fees connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/predictable-fees",
+      "status": "published"
+    },
+    {
+      "id": "deterministic-execution",
+      "uid": "glossary:deterministic-execution",
+      "type": "glossary",
+      "term": "Deterministic Execution",
+      "definition": "Deterministic Execution connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/deterministic-execution",
+      "status": "published"
+    },
+    {
+      "id": "fixed-cost-transactions",
+      "uid": "glossary:fixed-cost-transactions",
+      "type": "glossary",
+      "term": "Fixed-Cost Transactions",
+      "definition": "Fixed-Cost Transactions connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/fixed-cost-transactions",
+      "status": "published"
+    },
+    {
+      "id": "sla-and-reliability",
+      "uid": "glossary:sla-and-reliability",
+      "type": "glossary",
+      "term": "SLA and Reliability",
+      "definition": "SLA and Reliability connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/sla-and-reliability",
+      "status": "published"
+    },
+    {
+      "id": "observability",
+      "uid": "glossary:observability",
+      "type": "glossary",
+      "term": "Observability",
+      "definition": "Observability connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/observability",
+      "status": "published"
+    },
+    {
+      "id": "blockchain-analytics",
+      "uid": "glossary:blockchain-analytics",
+      "type": "glossary",
+      "term": "Blockchain Analytics",
+      "definition": "Blockchain Analytics connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/blockchain-analytics",
+      "status": "published"
+    },
+    {
+      "id": "ai-agents",
+      "uid": "glossary:ai-agents",
+      "type": "glossary",
+      "term": "AI Agents",
+      "definition": "AI Agents connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/ai-agents",
+      "status": "published"
+    },
+    {
+      "id": "machine-payments",
+      "uid": "glossary:machine-payments",
+      "type": "glossary",
+      "term": "Machine Payments",
+      "definition": "Machine Payments connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/machine-payments",
+      "status": "published"
+    },
+    {
+      "id": "agent-wallets",
+      "uid": "glossary:agent-wallets",
+      "type": "glossary",
+      "term": "Agent Wallets",
+      "definition": "Agent Wallets connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/agent-wallets",
+      "status": "published"
+    },
+    {
+      "id": "autonomous-systems",
+      "uid": "glossary:autonomous-systems",
+      "type": "glossary",
+      "term": "Autonomous Systems",
+      "definition": "Autonomous Systems connects blockchain with enterprise operations, AI agents, automation, reliability, developer infrastructure, or machine-to-machine systems.",
+      "canonicalUrl": "/generated/glossary/autonomous-systems",
+      "status": "published"
+    },
+    {
+      "id": "block-height",
+      "uid": "glossary:block-height",
+      "type": "glossary",
+      "term": "Block Height",
+      "definition": "Block Height is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/block-height",
+      "status": "published"
+    },
+    {
+      "id": "genesis-block",
+      "uid": "glossary:genesis-block",
+      "type": "glossary",
+      "term": "Genesis Block",
+      "definition": "Genesis Block is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/genesis-block",
+      "status": "published"
+    },
+    {
+      "id": "mainnet",
+      "uid": "glossary:mainnet",
+      "type": "glossary",
+      "term": "Mainnet",
+      "definition": "Mainnet is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/mainnet",
+      "status": "published"
+    },
+    {
+      "id": "testnet",
+      "uid": "glossary:testnet",
+      "type": "glossary",
+      "term": "Testnet",
+      "definition": "Testnet is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/testnet",
+      "status": "published"
+    },
+    {
+      "id": "peer-to-peer-network",
+      "uid": "glossary:peer-to-peer-network",
+      "type": "glossary",
+      "term": "Peer-to-Peer Network",
+      "definition": "Peer-to-Peer Network is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/peer-to-peer-network",
+      "status": "published"
+    },
+    {
+      "id": "proof-of-work",
+      "uid": "glossary:proof-of-work",
+      "type": "glossary",
+      "term": "Proof of Work",
+      "definition": "Proof of Work is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/proof-of-work",
+      "status": "published"
+    },
+    {
+      "id": "proof-of-stake",
+      "uid": "glossary:proof-of-stake",
+      "type": "glossary",
+      "term": "Proof of Stake",
+      "definition": "Proof of Stake is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/proof-of-stake",
+      "status": "published"
+    },
+    {
+      "id": "slashing",
+      "uid": "glossary:slashing",
+      "type": "glossary",
+      "term": "Slashing",
+      "definition": "Slashing is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/slashing",
+      "status": "published"
+    },
+    {
+      "id": "epoch",
+      "uid": "glossary:epoch",
+      "type": "glossary",
+      "term": "Epoch",
+      "definition": "Epoch is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/epoch",
+      "status": "published"
+    },
+    {
+      "id": "checkpoint",
+      "uid": "glossary:checkpoint",
+      "type": "glossary",
+      "term": "Checkpoint",
+      "definition": "Checkpoint is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/checkpoint",
+      "status": "published"
+    },
+    {
+      "id": "light-client-proof",
+      "uid": "glossary:light-client-proof",
+      "type": "glossary",
+      "term": "Light Client Proof",
+      "definition": "Light Client Proof is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/light-client-proof",
+      "status": "published"
+    },
+    {
+      "id": "json-rpc",
+      "uid": "glossary:json-rpc",
+      "type": "glossary",
+      "term": "JSON-RPC",
+      "definition": "JSON-RPC is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/json-rpc",
+      "status": "published"
+    },
+    {
+      "id": "canonical-chain",
+      "uid": "glossary:canonical-chain",
+      "type": "glossary",
+      "term": "Canonical Chain",
+      "definition": "Canonical Chain is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/canonical-chain",
+      "status": "published"
+    },
+    {
+      "id": "chain-reorganization",
+      "uid": "glossary:chain-reorganization",
+      "type": "glossary",
+      "term": "Chain Reorganization",
+      "definition": "Chain Reorganization is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/chain-reorganization",
+      "status": "published"
+    },
+    {
+      "id": "block-capacity",
+      "uid": "glossary:block-capacity",
+      "type": "glossary",
+      "term": "Block Capacity",
+      "definition": "Block Capacity is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/block-capacity",
+      "status": "published"
+    },
+    {
+      "id": "throughput",
+      "uid": "glossary:throughput",
+      "type": "glossary",
+      "term": "Throughput",
+      "definition": "Throughput is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/throughput",
+      "status": "published"
+    },
+    {
+      "id": "latency",
+      "uid": "glossary:latency",
+      "type": "glossary",
+      "term": "Latency",
+      "definition": "Latency is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/latency",
+      "status": "published"
+    },
+    {
+      "id": "nonce",
+      "uid": "glossary:nonce",
+      "type": "glossary",
+      "term": "Nonce",
+      "definition": "Nonce is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/nonce",
+      "status": "published"
+    },
+    {
+      "id": "gas",
+      "uid": "glossary:gas",
+      "type": "glossary",
+      "term": "Gas",
+      "definition": "Gas is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/gas",
+      "status": "published"
+    },
+    {
+      "id": "gas-limit",
+      "uid": "glossary:gas-limit",
+      "type": "glossary",
+      "term": "Gas Limit",
+      "definition": "Gas Limit is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/gas-limit",
+      "status": "published"
+    },
+    {
+      "id": "gas-price",
+      "uid": "glossary:gas-price",
+      "type": "glossary",
+      "term": "Gas Price",
+      "definition": "Gas Price is a protocol or network concept used to describe blockchain operation, validation, execution, or network state.",
+      "canonicalUrl": "/generated/glossary/gas-price",
+      "status": "published"
+    },
+    {
+      "id": "fungible-token",
+      "uid": "glossary:fungible-token",
+      "type": "glossary",
+      "term": "Fungible Token",
+      "definition": "Fungible Token is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/fungible-token",
+      "status": "published"
+    },
+    {
+      "id": "non-fungible-token",
+      "uid": "glossary:non-fungible-token",
+      "type": "glossary",
+      "term": "Non-Fungible Token",
+      "definition": "Non-Fungible Token is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/non-fungible-token",
+      "status": "published"
+    },
+    {
+      "id": "circulating-supply",
+      "uid": "glossary:circulating-supply",
+      "type": "glossary",
+      "term": "Circulating Supply",
+      "definition": "Circulating Supply is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/circulating-supply",
+      "status": "published"
+    },
+    {
+      "id": "total-supply",
+      "uid": "glossary:total-supply",
+      "type": "glossary",
+      "term": "Total Supply",
+      "definition": "Total Supply is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/total-supply",
+      "status": "published"
+    },
+    {
+      "id": "maximum-supply",
+      "uid": "glossary:maximum-supply",
+      "type": "glossary",
+      "term": "Maximum Supply",
+      "definition": "Maximum Supply is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/maximum-supply",
+      "status": "published"
+    },
+    {
+      "id": "minting",
+      "uid": "glossary:minting",
+      "type": "glossary",
+      "term": "Minting",
+      "definition": "Minting is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/minting",
+      "status": "published"
+    },
+    {
+      "id": "token-economics",
+      "uid": "glossary:token-economics",
+      "type": "glossary",
+      "term": "Token Economics",
+      "definition": "Token Economics is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/token-economics",
+      "status": "published"
+    },
+    {
+      "id": "token-emissions",
+      "uid": "glossary:token-emissions",
+      "type": "glossary",
+      "term": "Token Emissions",
+      "definition": "Token Emissions is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/token-emissions",
+      "status": "published"
+    },
+    {
+      "id": "inflation",
+      "uid": "glossary:inflation",
+      "type": "glossary",
+      "term": "Inflation",
+      "definition": "Inflation is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/inflation",
+      "status": "published"
+    },
+    {
+      "id": "deflationary-mechanism",
+      "uid": "glossary:deflationary-mechanism",
+      "type": "glossary",
+      "term": "Deflationary Mechanism",
+      "definition": "Deflationary Mechanism is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/deflationary-mechanism",
+      "status": "published"
+    },
+    {
+      "id": "protocol-treasury",
+      "uid": "glossary:protocol-treasury",
+      "type": "glossary",
+      "term": "Protocol Treasury",
+      "definition": "Protocol Treasury is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/protocol-treasury",
+      "status": "published"
+    },
+    {
+      "id": "market-maker",
+      "uid": "glossary:market-maker",
+      "type": "glossary",
+      "term": "Market Maker",
+      "definition": "Market Maker is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/market-maker",
+      "status": "published"
+    },
+    {
+      "id": "arbitrage",
+      "uid": "glossary:arbitrage",
+      "type": "glossary",
+      "term": "Arbitrage",
+      "definition": "Arbitrage is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/arbitrage",
+      "status": "published"
+    },
+    {
+      "id": "oracle-price",
+      "uid": "glossary:oracle-price",
+      "type": "glossary",
+      "term": "Oracle Price",
+      "definition": "Oracle Price is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/oracle-price",
+      "status": "published"
+    },
+    {
+      "id": "peg",
+      "uid": "glossary:peg",
+      "type": "glossary",
+      "term": "Peg",
+      "definition": "Peg is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/peg",
+      "status": "published"
+    },
+    {
+      "id": "depeg",
+      "uid": "glossary:depeg",
+      "type": "glossary",
+      "term": "Depeg",
+      "definition": "Depeg is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/depeg",
+      "status": "published"
+    },
+    {
+      "id": "proof-of-reserves",
+      "uid": "glossary:proof-of-reserves",
+      "type": "glossary",
+      "term": "Proof of Reserves",
+      "definition": "Proof of Reserves is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/proof-of-reserves",
+      "status": "published"
+    },
+    {
+      "id": "token-standard",
+      "uid": "glossary:token-standard",
+      "type": "glossary",
+      "term": "Token Standard",
+      "definition": "Token Standard is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/token-standard",
+      "status": "published"
+    },
+    {
+      "id": "erc-20",
+      "uid": "glossary:erc-20",
+      "type": "glossary",
+      "term": "ERC-20",
+      "definition": "ERC-20 is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/erc-20",
+      "status": "published"
+    },
+    {
+      "id": "erc-721",
+      "uid": "glossary:erc-721",
+      "type": "glossary",
+      "term": "ERC-721",
+      "definition": "ERC-721 is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/erc-721",
+      "status": "published"
+    },
+    {
+      "id": "erc-1155",
+      "uid": "glossary:erc-1155",
+      "type": "glossary",
+      "term": "ERC-1155",
+      "definition": "ERC-1155 is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/erc-1155",
+      "status": "published"
+    },
+    {
+      "id": "liquidity-provider",
+      "uid": "glossary:liquidity-provider",
+      "type": "glossary",
+      "term": "Liquidity Provider",
+      "definition": "Liquidity Provider is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/liquidity-provider",
+      "status": "published"
+    },
+    {
+      "id": "slippage",
+      "uid": "glossary:slippage",
+      "type": "glossary",
+      "term": "Slippage",
+      "definition": "Slippage is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/slippage",
+      "status": "published"
+    },
+    {
+      "id": "price-impact",
+      "uid": "glossary:price-impact",
+      "type": "glossary",
+      "term": "Price Impact",
+      "definition": "Price Impact is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/price-impact",
+      "status": "published"
+    },
+    {
+      "id": "bid-ask-spread",
+      "uid": "glossary:bid-ask-spread",
+      "type": "glossary",
+      "term": "Bid-Ask Spread",
+      "definition": "Bid-Ask Spread is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/bid-ask-spread",
+      "status": "published"
+    },
+    {
+      "id": "trading-volume",
+      "uid": "glossary:trading-volume",
+      "type": "glossary",
+      "term": "Trading Volume",
+      "definition": "Trading Volume is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/trading-volume",
+      "status": "published"
+    },
+    {
+      "id": "market-depth",
+      "uid": "glossary:market-depth",
+      "type": "glossary",
+      "term": "Market Depth",
+      "definition": "Market Depth is a digital-asset or market concept used to describe token design, supply, pricing, trading, or liquidity.",
+      "canonicalUrl": "/generated/glossary/market-depth",
+      "status": "published"
+    },
+    {
+      "id": "mnemonic-phrase",
+      "uid": "glossary:mnemonic-phrase",
+      "type": "glossary",
+      "term": "Mnemonic Phrase",
+      "definition": "Mnemonic Phrase is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/mnemonic-phrase",
+      "status": "published"
+    },
+    {
+      "id": "hot-wallet",
+      "uid": "glossary:hot-wallet",
+      "type": "glossary",
+      "term": "Hot Wallet",
+      "definition": "Hot Wallet is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/hot-wallet",
+      "status": "published"
+    },
+    {
+      "id": "air-gapped-wallet",
+      "uid": "glossary:air-gapped-wallet",
+      "type": "glossary",
+      "term": "Air-Gapped Wallet",
+      "definition": "Air-Gapped Wallet is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/air-gapped-wallet",
+      "status": "published"
+    },
+    {
+      "id": "watch-only-wallet",
+      "uid": "glossary:watch-only-wallet",
+      "type": "glossary",
+      "term": "Watch-Only Wallet",
+      "definition": "Watch-Only Wallet is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/watch-only-wallet",
+      "status": "published"
+    },
+    {
+      "id": "smart-wallet",
+      "uid": "glossary:smart-wallet",
+      "type": "glossary",
+      "term": "Smart Wallet",
+      "definition": "Smart Wallet is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/smart-wallet",
+      "status": "published"
+    },
+    {
+      "id": "message-signing",
+      "uid": "glossary:message-signing",
+      "type": "glossary",
+      "term": "Message Signing",
+      "definition": "Message Signing is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/message-signing",
+      "status": "published"
+    },
+    {
+      "id": "token-allowance",
+      "uid": "glossary:token-allowance",
+      "type": "glossary",
+      "term": "Token Allowance",
+      "definition": "Token Allowance is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/token-allowance",
+      "status": "published"
+    },
+    {
+      "id": "approval-revocation",
+      "uid": "glossary:approval-revocation",
+      "type": "glossary",
+      "term": "Approval Revocation",
+      "definition": "Approval Revocation is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/approval-revocation",
+      "status": "published"
+    },
+    {
+      "id": "impersonation-scam",
+      "uid": "glossary:impersonation-scam",
+      "type": "glossary",
+      "term": "Impersonation Scam",
+      "definition": "Impersonation Scam is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/impersonation-scam",
+      "status": "published"
+    },
+    {
+      "id": "rug-pull",
+      "uid": "glossary:rug-pull",
+      "type": "glossary",
+      "term": "Rug Pull",
+      "definition": "Rug Pull is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/rug-pull",
+      "status": "published"
+    },
+    {
+      "id": "ponzi-scheme",
+      "uid": "glossary:ponzi-scheme",
+      "type": "glossary",
+      "term": "Ponzi Scheme",
+      "definition": "Ponzi Scheme is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/ponzi-scheme",
+      "status": "published"
+    },
+    {
+      "id": "fake-presale",
+      "uid": "glossary:fake-presale",
+      "type": "glossary",
+      "term": "Fake Presale",
+      "definition": "Fake Presale is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/fake-presale",
+      "status": "published"
+    },
+    {
+      "id": "malicious-contract",
+      "uid": "glossary:malicious-contract",
+      "type": "glossary",
+      "term": "Malicious Contract",
+      "definition": "Malicious Contract is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/malicious-contract",
+      "status": "published"
+    },
+    {
+      "id": "wallet-backup",
+      "uid": "glossary:wallet-backup",
+      "type": "glossary",
+      "term": "Wallet Backup",
+      "definition": "Wallet Backup is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/wallet-backup",
+      "status": "published"
+    },
+    {
+      "id": "wallet-passphrase",
+      "uid": "glossary:wallet-passphrase",
+      "type": "glossary",
+      "term": "Wallet Passphrase",
+      "definition": "Wallet Passphrase is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/wallet-passphrase",
+      "status": "published"
+    },
+    {
+      "id": "biometric-authentication",
+      "uid": "glossary:biometric-authentication",
+      "type": "glossary",
+      "term": "Biometric Authentication",
+      "definition": "Biometric Authentication is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/biometric-authentication",
+      "status": "published"
+    },
+    {
+      "id": "two-factor-authentication",
+      "uid": "glossary:two-factor-authentication",
+      "type": "glossary",
+      "term": "Two-Factor Authentication",
+      "definition": "Two-Factor Authentication is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/two-factor-authentication",
+      "status": "published"
+    },
+    {
+      "id": "address-poisoning",
+      "uid": "glossary:address-poisoning",
+      "type": "glossary",
+      "term": "Address Poisoning",
+      "definition": "Address Poisoning is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/address-poisoning",
+      "status": "published"
+    },
+    {
+      "id": "clipboard-malware",
+      "uid": "glossary:clipboard-malware",
+      "type": "glossary",
+      "term": "Clipboard Malware",
+      "definition": "Clipboard Malware is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/clipboard-malware",
+      "status": "published"
+    },
+    {
+      "id": "sim-swap",
+      "uid": "glossary:sim-swap",
+      "type": "glossary",
+      "term": "SIM Swap",
+      "definition": "SIM Swap is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/sim-swap",
+      "status": "published"
+    },
+    {
+      "id": "session-key",
+      "uid": "glossary:session-key",
+      "type": "glossary",
+      "term": "Session Key",
+      "definition": "Session Key is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/session-key",
+      "status": "published"
+    },
+    {
+      "id": "spending-limit",
+      "uid": "glossary:spending-limit",
+      "type": "glossary",
+      "term": "Spending Limit",
+      "definition": "Spending Limit is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/spending-limit",
+      "status": "published"
+    },
+    {
+      "id": "wallet-guardian",
+      "uid": "glossary:wallet-guardian",
+      "type": "glossary",
+      "term": "Wallet Guardian",
+      "definition": "Wallet Guardian is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/wallet-guardian",
+      "status": "published"
+    },
+    {
+      "id": "social-recovery",
+      "uid": "glossary:social-recovery",
+      "type": "glossary",
+      "term": "Social Recovery",
+      "definition": "Social Recovery is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/social-recovery",
+      "status": "published"
+    },
+    {
+      "id": "transaction-simulation",
+      "uid": "glossary:transaction-simulation",
+      "type": "glossary",
+      "term": "Transaction Simulation",
+      "definition": "Transaction Simulation is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/transaction-simulation",
+      "status": "published"
+    },
+    {
+      "id": "least-privilege",
+      "uid": "glossary:least-privilege",
+      "type": "glossary",
+      "term": "Least Privilege",
+      "definition": "Least Privilege is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/least-privilege",
+      "status": "published"
+    },
+    {
+      "id": "secret-management",
+      "uid": "glossary:secret-management",
+      "type": "glossary",
+      "term": "Secret Management",
+      "definition": "Secret Management is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/secret-management",
+      "status": "published"
+    },
+    {
+      "id": "key-rotation",
+      "uid": "glossary:key-rotation",
+      "type": "glossary",
+      "term": "Key Rotation",
+      "definition": "Key Rotation is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/key-rotation",
+      "status": "published"
+    },
+    {
+      "id": "compromised-key",
+      "uid": "glossary:compromised-key",
+      "type": "glossary",
+      "term": "Compromised Key",
+      "definition": "Compromised Key is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/compromised-key",
+      "status": "published"
+    },
+    {
+      "id": "transaction-review",
+      "uid": "glossary:transaction-review",
+      "type": "glossary",
+      "term": "Transaction Review",
+      "definition": "Transaction Review is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/transaction-review",
+      "status": "published"
+    },
+    {
+      "id": "domain-verification",
+      "uid": "glossary:domain-verification",
+      "type": "glossary",
+      "term": "Domain Verification",
+      "definition": "Domain Verification is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/domain-verification",
+      "status": "published"
+    },
+    {
+      "id": "allowlist",
+      "uid": "glossary:allowlist",
+      "type": "glossary",
+      "term": "Allowlist",
+      "definition": "Allowlist is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/allowlist",
+      "status": "published"
+    },
+    {
+      "id": "denylist",
+      "uid": "glossary:denylist",
+      "type": "glossary",
+      "term": "Denylist",
+      "definition": "Denylist is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/denylist",
+      "status": "published"
+    },
+    {
+      "id": "security-audit",
+      "uid": "glossary:security-audit",
+      "type": "glossary",
+      "term": "Security Audit",
+      "definition": "Security Audit is a wallet-security concept or control related to authentication, custody, permissions, attack prevention, or recovery.",
+      "canonicalUrl": "/generated/glossary/security-audit",
+      "status": "published"
+    },
+    {
+      "id": "bytecode",
+      "uid": "glossary:bytecode",
+      "type": "glossary",
+      "term": "Bytecode",
+      "definition": "Bytecode is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/bytecode",
+      "status": "published"
+    },
+    {
+      "id": "application-binary-interface",
+      "uid": "glossary:application-binary-interface",
+      "type": "glossary",
+      "term": "Application Binary Interface",
+      "definition": "Application Binary Interface is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/application-binary-interface",
+      "status": "published"
+    },
+    {
+      "id": "contract-address",
+      "uid": "glossary:contract-address",
+      "type": "glossary",
+      "term": "Contract Address",
+      "definition": "Contract Address is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/contract-address",
+      "status": "published"
+    },
+    {
+      "id": "contract-storage",
+      "uid": "glossary:contract-storage",
+      "type": "glossary",
+      "term": "Contract Storage",
+      "definition": "Contract Storage is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/contract-storage",
+      "status": "published"
+    },
+    {
+      "id": "contract-event",
+      "uid": "glossary:contract-event",
+      "type": "glossary",
+      "term": "Contract Event",
+      "definition": "Contract Event is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/contract-event",
+      "status": "published"
+    },
+    {
+      "id": "delegatecall",
+      "uid": "glossary:delegatecall",
+      "type": "glossary",
+      "term": "Delegatecall",
+      "definition": "Delegatecall is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/delegatecall",
+      "status": "published"
+    },
+    {
+      "id": "reentrancy",
+      "uid": "glossary:reentrancy",
+      "type": "glossary",
+      "term": "Reentrancy",
+      "definition": "Reentrancy is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/reentrancy",
+      "status": "published"
+    },
+    {
+      "id": "access-control",
+      "uid": "glossary:access-control",
+      "type": "glossary",
+      "term": "Access Control",
+      "definition": "Access Control is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/access-control",
+      "status": "published"
+    },
+    {
+      "id": "contract-owner",
+      "uid": "glossary:contract-owner",
+      "type": "glossary",
+      "term": "Contract Owner",
+      "definition": "Contract Owner is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/contract-owner",
+      "status": "published"
+    },
+    {
+      "id": "pausable-contract",
+      "uid": "glossary:pausable-contract",
+      "type": "glossary",
+      "term": "Pausable Contract",
+      "definition": "Pausable Contract is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/pausable-contract",
+      "status": "published"
+    },
+    {
+      "id": "governance-token",
+      "uid": "glossary:governance-token",
+      "type": "glossary",
+      "term": "Governance Token",
+      "definition": "Governance Token is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/governance-token",
+      "status": "published"
+    },
+    {
+      "id": "governance-proposal",
+      "uid": "glossary:governance-proposal",
+      "type": "glossary",
+      "term": "Governance Proposal",
+      "definition": "Governance Proposal is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/governance-proposal",
+      "status": "published"
+    },
+    {
+      "id": "quorum",
+      "uid": "glossary:quorum",
+      "type": "glossary",
+      "term": "Quorum",
+      "definition": "Quorum is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/quorum",
+      "status": "published"
+    },
+    {
+      "id": "token-metadata",
+      "uid": "glossary:token-metadata",
+      "type": "glossary",
+      "term": "Token Metadata",
+      "definition": "Token Metadata is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/token-metadata",
+      "status": "published"
+    },
+    {
+      "id": "decentralized-identifier",
+      "uid": "glossary:decentralized-identifier",
+      "type": "glossary",
+      "term": "Decentralized Identifier",
+      "definition": "Decentralized Identifier is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/decentralized-identifier",
+      "status": "published"
+    },
+    {
+      "id": "verifiable-credential",
+      "uid": "glossary:verifiable-credential",
+      "type": "glossary",
+      "term": "Verifiable Credential",
+      "definition": "Verifiable Credential is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/verifiable-credential",
+      "status": "published"
+    },
+    {
+      "id": "account-abstraction-wallet",
+      "uid": "glossary:account-abstraction-wallet",
+      "type": "glossary",
+      "term": "Account-Abstraction Wallet",
+      "definition": "Account-Abstraction Wallet is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/account-abstraction-wallet",
+      "status": "published"
+    },
+    {
+      "id": "cross-contract-call",
+      "uid": "glossary:cross-contract-call",
+      "type": "glossary",
+      "term": "Cross-Contract Call",
+      "definition": "Cross-Contract Call is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/cross-contract-call",
+      "status": "published"
+    },
+    {
+      "id": "contract-upgrade",
+      "uid": "glossary:contract-upgrade",
+      "type": "glossary",
+      "term": "Contract Upgrade",
+      "definition": "Contract Upgrade is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/contract-upgrade",
+      "status": "published"
+    },
+    {
+      "id": "initializer",
+      "uid": "glossary:initializer",
+      "type": "glossary",
+      "term": "Initializer",
+      "definition": "Initializer is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/initializer",
+      "status": "published"
+    },
+    {
+      "id": "fallback-function",
+      "uid": "glossary:fallback-function",
+      "type": "glossary",
+      "term": "Fallback Function",
+      "definition": "Fallback Function is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/fallback-function",
+      "status": "published"
+    },
+    {
+      "id": "receive-function",
+      "uid": "glossary:receive-function",
+      "type": "glossary",
+      "term": "Receive Function",
+      "definition": "Receive Function is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/receive-function",
+      "status": "published"
+    },
+    {
+      "id": "proxy-admin",
+      "uid": "glossary:proxy-admin",
+      "type": "glossary",
+      "term": "Proxy Admin",
+      "definition": "Proxy Admin is a smart-contract or Web3 development concept related to execution, interfaces, storage, permissions, or upgrade design.",
+      "canonicalUrl": "/generated/glossary/proxy-admin",
+      "status": "published"
+    },
+    {
+      "id": "lending-protocol",
+      "uid": "glossary:lending-protocol",
+      "type": "glossary",
+      "term": "Lending Protocol",
+      "definition": "Lending Protocol is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/lending-protocol",
+      "status": "published"
+    },
+    {
+      "id": "health-factor",
+      "uid": "glossary:health-factor",
+      "type": "glossary",
+      "term": "Health Factor",
+      "definition": "Health Factor is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/health-factor",
+      "status": "published"
+    },
+    {
+      "id": "flash-loan",
+      "uid": "glossary:flash-loan",
+      "type": "glossary",
+      "term": "Flash Loan",
+      "definition": "Flash Loan is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/flash-loan",
+      "status": "published"
+    },
+    {
+      "id": "derivative",
+      "uid": "glossary:derivative",
+      "type": "glossary",
+      "term": "Derivative",
+      "definition": "Derivative is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/derivative",
+      "status": "published"
+    },
+    {
+      "id": "perpetual-contract",
+      "uid": "glossary:perpetual-contract",
+      "type": "glossary",
+      "term": "Perpetual Contract",
+      "definition": "Perpetual Contract is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/perpetual-contract",
+      "status": "published"
+    },
+    {
+      "id": "synthetic-asset",
+      "uid": "glossary:synthetic-asset",
+      "type": "glossary",
+      "term": "Synthetic Asset",
+      "definition": "Synthetic Asset is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/synthetic-asset",
+      "status": "published"
+    },
+    {
+      "id": "liquid-staking",
+      "uid": "glossary:liquid-staking",
+      "type": "glossary",
+      "term": "Liquid Staking",
+      "definition": "Liquid Staking is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/liquid-staking",
+      "status": "published"
+    },
+    {
+      "id": "real-world-asset",
+      "uid": "glossary:real-world-asset",
+      "type": "glossary",
+      "term": "Real-World Asset",
+      "definition": "Real-World Asset is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/real-world-asset",
+      "status": "published"
+    },
+    {
+      "id": "payment-channel",
+      "uid": "glossary:payment-channel",
+      "type": "glossary",
+      "term": "Payment Channel",
+      "definition": "Payment Channel is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/payment-channel",
+      "status": "published"
+    },
+    {
+      "id": "protocol-revenue",
+      "uid": "glossary:protocol-revenue",
+      "type": "glossary",
+      "term": "Protocol Revenue",
+      "definition": "Protocol Revenue is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/protocol-revenue",
+      "status": "published"
+    },
+    {
+      "id": "fee-switch",
+      "uid": "glossary:fee-switch",
+      "type": "glossary",
+      "term": "Fee Switch",
+      "definition": "Fee Switch is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/fee-switch",
+      "status": "published"
+    },
+    {
+      "id": "collateral-ratio",
+      "uid": "glossary:collateral-ratio",
+      "type": "glossary",
+      "term": "Collateral Ratio",
+      "definition": "Collateral Ratio is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/collateral-ratio",
+      "status": "published"
+    },
+    {
+      "id": "borrow-rate",
+      "uid": "glossary:borrow-rate",
+      "type": "glossary",
+      "term": "Borrow Rate",
+      "definition": "Borrow Rate is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/borrow-rate",
+      "status": "published"
+    },
+    {
+      "id": "supply-rate",
+      "uid": "glossary:supply-rate",
+      "type": "glossary",
+      "term": "Supply Rate",
+      "definition": "Supply Rate is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/supply-rate",
+      "status": "published"
+    },
+    {
+      "id": "liquidity-mining",
+      "uid": "glossary:liquidity-mining",
+      "type": "glossary",
+      "term": "Liquidity Mining",
+      "definition": "Liquidity Mining is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/liquidity-mining",
+      "status": "published"
+    },
+    {
+      "id": "vault",
+      "uid": "glossary:vault",
+      "type": "glossary",
+      "term": "Vault",
+      "definition": "Vault is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/vault",
+      "status": "published"
+    },
+    {
+      "id": "yield-aggregator",
+      "uid": "glossary:yield-aggregator",
+      "type": "glossary",
+      "term": "Yield Aggregator",
+      "definition": "Yield Aggregator is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/yield-aggregator",
+      "status": "published"
+    },
+    {
+      "id": "pool-share",
+      "uid": "glossary:pool-share",
+      "type": "glossary",
+      "term": "Pool Share",
+      "definition": "Pool Share is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/pool-share",
+      "status": "published"
+    },
+    {
+      "id": "liquidity-token",
+      "uid": "glossary:liquidity-token",
+      "type": "glossary",
+      "term": "Liquidity Token",
+      "definition": "Liquidity Token is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/liquidity-token",
+      "status": "published"
+    },
+    {
+      "id": "price-oracle",
+      "uid": "glossary:price-oracle",
+      "type": "glossary",
+      "term": "Price Oracle",
+      "definition": "Price Oracle is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/price-oracle",
+      "status": "published"
+    },
+    {
+      "id": "liquidation-threshold",
+      "uid": "glossary:liquidation-threshold",
+      "type": "glossary",
+      "term": "Liquidation Threshold",
+      "definition": "Liquidation Threshold is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/liquidation-threshold",
+      "status": "published"
+    },
+    {
+      "id": "liquidation-bonus",
+      "uid": "glossary:liquidation-bonus",
+      "type": "glossary",
+      "term": "Liquidation Bonus",
+      "definition": "Liquidation Bonus is a decentralized-finance concept related to lending, liquidity, collateral, derivatives, pricing, or protocol incentives.",
+      "canonicalUrl": "/generated/glossary/liquidation-bonus",
+      "status": "published"
+    },
+    {
+      "id": "validator-set",
+      "uid": "glossary:validator-set",
+      "type": "glossary",
+      "term": "Validator Set",
+      "definition": "Validator Set is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/validator-set",
+      "status": "published"
+    },
+    {
+      "id": "archive-node",
+      "uid": "glossary:archive-node",
+      "type": "glossary",
+      "term": "Archive Node",
+      "definition": "Archive Node is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/archive-node",
+      "status": "published"
+    },
+    {
+      "id": "full-node",
+      "uid": "glossary:full-node",
+      "type": "glossary",
+      "term": "Full Node",
+      "definition": "Full Node is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/full-node",
+      "status": "published"
+    },
+    {
+      "id": "light-client",
+      "uid": "glossary:light-client",
+      "type": "glossary",
+      "term": "Light Client",
+      "definition": "Light Client is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/light-client",
+      "status": "published"
+    },
+    {
+      "id": "layer-1-term",
+      "uid": "glossary:layer-1-term",
+      "type": "glossary",
+      "term": "Layer 1",
+      "definition": "Layer 1 is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/layer-1-term",
+      "status": "published"
+    },
+    {
+      "id": "layer-2-term",
+      "uid": "glossary:layer-2-term",
+      "type": "glossary",
+      "term": "Layer 2",
+      "definition": "Layer 2 is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/layer-2-term",
+      "status": "published"
+    },
+    {
+      "id": "rollup",
+      "uid": "glossary:rollup",
+      "type": "glossary",
+      "term": "Rollup",
+      "definition": "Rollup is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/rollup",
+      "status": "published"
+    },
+    {
+      "id": "optimistic-rollup",
+      "uid": "glossary:optimistic-rollup",
+      "type": "glossary",
+      "term": "Optimistic Rollup",
+      "definition": "Optimistic Rollup is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/optimistic-rollup",
+      "status": "published"
+    },
+    {
+      "id": "zero-knowledge-rollup",
+      "uid": "glossary:zero-knowledge-rollup",
+      "type": "glossary",
+      "term": "Zero-Knowledge Rollup",
+      "definition": "Zero-Knowledge Rollup is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/zero-knowledge-rollup",
+      "status": "published"
+    },
+    {
+      "id": "data-availability-term",
+      "uid": "glossary:data-availability-term",
+      "type": "glossary",
+      "term": "Data Availability",
+      "definition": "Data Availability is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/data-availability-term",
+      "status": "published"
+    },
+    {
+      "id": "sequencer",
+      "uid": "glossary:sequencer",
+      "type": "glossary",
+      "term": "Sequencer",
+      "definition": "Sequencer is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/sequencer",
+      "status": "published"
+    },
+    {
+      "id": "sharding-term",
+      "uid": "glossary:sharding-term",
+      "type": "glossary",
+      "term": "Sharding",
+      "definition": "Sharding is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/sharding-term",
+      "status": "published"
+    },
+    {
+      "id": "ibc",
+      "uid": "glossary:ibc",
+      "type": "glossary",
+      "term": "IBC",
+      "definition": "IBC is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/ibc",
+      "status": "published"
+    },
+    {
+      "id": "cross-chain-message",
+      "uid": "glossary:cross-chain-message",
+      "type": "glossary",
+      "term": "Cross-Chain Message",
+      "definition": "Cross-Chain Message is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/cross-chain-message",
+      "status": "published"
+    },
+    {
+      "id": "cross-chain-bridge",
+      "uid": "glossary:cross-chain-bridge",
+      "type": "glossary",
+      "term": "Cross-Chain Bridge",
+      "definition": "Cross-Chain Bridge is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/cross-chain-bridge",
+      "status": "published"
+    },
+    {
+      "id": "data-indexing",
+      "uid": "glossary:data-indexing",
+      "type": "glossary",
+      "term": "Data Indexing",
+      "definition": "Data Indexing is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/data-indexing",
+      "status": "published"
+    },
+    {
+      "id": "subgraph",
+      "uid": "glossary:subgraph",
+      "type": "glossary",
+      "term": "Subgraph",
+      "definition": "Subgraph is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/subgraph",
+      "status": "published"
+    },
+    {
+      "id": "mev",
+      "uid": "glossary:mev",
+      "type": "glossary",
+      "term": "MEV",
+      "definition": "MEV is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/mev",
+      "status": "published"
+    },
+    {
+      "id": "front-running",
+      "uid": "glossary:front-running",
+      "type": "glossary",
+      "term": "Front-Running",
+      "definition": "Front-Running is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/front-running",
+      "status": "published"
+    },
+    {
+      "id": "sandwich-attack",
+      "uid": "glossary:sandwich-attack",
+      "type": "glossary",
+      "term": "Sandwich Attack",
+      "definition": "Sandwich Attack is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/sandwich-attack",
+      "status": "published"
+    },
+    {
+      "id": "transaction-ordering",
+      "uid": "glossary:transaction-ordering",
+      "type": "glossary",
+      "term": "Transaction Ordering",
+      "definition": "Transaction Ordering is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/transaction-ordering",
+      "status": "published"
+    },
+    {
+      "id": "fifo-ordering",
+      "uid": "glossary:fifo-ordering",
+      "type": "glossary",
+      "term": "FIFO Ordering",
+      "definition": "FIFO Ordering is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/fifo-ordering",
+      "status": "published"
+    },
+    {
+      "id": "rpc-gateway",
+      "uid": "glossary:rpc-gateway",
+      "type": "glossary",
+      "term": "RPC Gateway",
+      "definition": "RPC Gateway is a blockchain-infrastructure concept related to nodes, scaling, interoperability, transaction processing, or data services.",
+      "canonicalUrl": "/generated/glossary/rpc-gateway",
+      "status": "published"
+    }
+  ]
+}

@@ -4,51 +4,24 @@
 
 **Learn blockchain. Build the future.**
 
-The Blockchain Library is an open-source knowledge platform for blockchain education, AI-assisted learning, developer resources, technical documentation, research, and structured reference content.
+The Blockchain Library is an open-source blockchain knowledge platform for learners, developers, researchers, educators, and AI systems.
 
-## Knowledge Platform v1.0
+## Knowledge Expansion v1.1
 
-Version 1.0 introduces a canonical multi-object content model designed to power documentation, search, learning paths, AI interfaces, quizzes, public data exports, and future applications from the same source of truth.
+- **100 canonical topic objects**
+- **250 structured glossary definitions**
+- 350 generated Mintlify knowledge pages
+- Topic and glossary catalogs
+- Interactive Knowledge Graph Explorer
+- Structured data designed for search, AI, APIs, books, research, quizzes, and learning paths
 
-### Object types
-
-Topics · Glossary · Books · Research · Tutorials · Code Examples · AI Prompts · Quizzes · Learning Paths
-
-### Build the knowledge layer
+### Build the expanded knowledge layer
 
 ```powershell
-npm.cmd run build:knowledge
+npm.cmd run build:expanded
 ```
 
-Generated outputs:
-
-```text
-public/knowledge/
-├── index.json
-├── catalog.json
-├── graph.json
-└── knowledge-graph.jsonld
-```
-
-## Architecture
-
-```text
-Canonical Knowledge Objects
-        │
-        ├── Mintlify Documentation
-        ├── Search
-        ├── Knowledge Graph
-        ├── Learning Paths
-        ├── Quizzes
-        ├── AI / MCP
-        └── Public JSON Exports
-                 │
-                 └── Future Knowledge API / Apps
-```
-
-## Contributing
-
-Contributions that improve accuracy, clarity, structured metadata, relationships, examples, or learning resources are welcome.
+The interactive explorer reads `/knowledge/catalog.json` and `/knowledge/graph.json` and is available from `/explorer/`.
 
 ## License
 

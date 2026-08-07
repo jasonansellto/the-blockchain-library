@@ -26,6 +26,10 @@
       {
         "label": "GitHub",
         "href": "https://github.com/jasonansellto/the-blockchain-library"
+      },
+      {
+        "label": "Graph Explorer",
+        "href": "/explorer/"
       }
     ],
     "primary": {
@@ -44,33 +48,16 @@
         "header": "Learn",
         "items": [
           {
-            "label": "Topic hubs",
-            "href": "/topics/overview"
+            "label": "100 Topics",
+            "href": "/generated/catalogs/topics"
+          },
+          {
+            "label": "250-Term Glossary",
+            "href": "/generated/catalogs/glossary"
           },
           {
             "label": "Learning path",
             "href": "/learn/learning-path"
-          },
-          {
-            "label": "Glossary",
-            "href": "/glossary/overview"
-          }
-        ]
-      },
-      {
-        "header": "Build",
-        "items": [
-          {
-            "label": "Knowledge Engine",
-            "href": "/knowledge-engine/overview"
-          },
-          {
-            "label": "Platform Architecture",
-            "href": "/knowledge-engine/platform"
-          },
-          {
-            "label": "Developer overview",
-            "href": "/developers/overview"
           }
         ]
       },
@@ -78,16 +65,16 @@
         "header": "Explore",
         "items": [
           {
-            "label": "Knowledge graph",
-            "href": "/knowledge-graph/overview"
+            "label": "Graph Explorer",
+            "href": "/explorer/"
+          },
+          {
+            "label": "Knowledge Engine",
+            "href": "/knowledge-engine/overview"
           },
           {
             "label": "Research",
             "href": "/research/overview"
-          },
-          {
-            "label": "Roadmap",
-            "href": "/project/roadmap"
           }
         ]
       }
@@ -106,52 +93,434 @@
         ]
       },
       {
-        "group": "Topic Hubs",
-        "icon": "grid-2x2",
+        "group": "Knowledge Catalogs",
+        "icon": "library",
         "pages": [
-          "topics/overview",
-          "topics/blockchain",
-          "topics/cryptocurrency",
-          "topics/wallets-security",
-          "topics/smart-contracts",
-          "topics/defi",
-          "topics/web3",
-          "topics/infrastructure",
-          "topics/enterprise-blockchain",
-          "topics/ai-blockchain"
+          "generated/catalogs/topics",
+          "generated/catalogs/glossary",
+          "knowledge-engine/explorer"
         ]
       },
       {
-        "group": "Learn Blockchain",
-        "icon": "graduation-cap",
+        "group": "100 Topic Objects",
+        "icon": "grid-2x2",
         "pages": [
-          "learn/learning-path",
           {
             "group": "Foundations",
             "pages": [
-              "learn/foundations/blockchain-basics",
-              "learn/foundations/cryptocurrency",
-              "learn/foundations/web3",
-              "learn/foundations/smart-contracts",
-              "learn/foundations/consensus",
-              "learn/foundations/wallets",
-              "learn/foundations/defi"
+              "generated/topics/blockchain",
+              "generated/topics/distributed-ledger",
+              "generated/topics/blocks",
+              "generated/topics/transactions",
+              "generated/topics/nodes",
+              "generated/topics/consensus",
+              "generated/topics/finality",
+              "generated/topics/cryptography",
+              "generated/topics/digital-signatures",
+              "generated/topics/hash-functions",
+              "generated/topics/public-key-cryptography",
+              "generated/topics/merkle-trees",
+              "generated/topics/state",
+              "generated/topics/accounts",
+              "generated/topics/utxo-model"
             ]
           },
           {
-            "group": "Security",
+            "group": "Assets & Markets",
             "pages": [
-              "learn/security/wallet-security",
-              "learn/security/scams-and-phishing"
+              "generated/topics/cryptocurrency",
+              "generated/topics/native-assets",
+              "generated/topics/tokens",
+              "generated/topics/stablecoins",
+              "generated/topics/tokenization",
+              "generated/topics/market-capitalization",
+              "generated/topics/liquidity",
+              "generated/topics/order-books",
+              "generated/topics/automated-market-makers",
+              "generated/topics/decentralized-exchanges",
+              "generated/topics/centralized-exchanges",
+              "generated/topics/custody",
+              "generated/topics/staking",
+              "generated/topics/delegation",
+              "generated/topics/token-supply"
+            ]
+          },
+          {
+            "group": "Wallets & Security",
+            "pages": [
+              "generated/topics/wallets",
+              "generated/topics/addresses",
+              "generated/topics/private-keys",
+              "generated/topics/seed-phrases",
+              "generated/topics/hardware-wallets",
+              "generated/topics/multisignature-wallets",
+              "generated/topics/account-abstraction",
+              "generated/topics/transaction-signing",
+              "generated/topics/token-approvals",
+              "generated/topics/phishing",
+              "generated/topics/wallet-drainers",
+              "generated/topics/social-engineering",
+              "generated/topics/smart-contract-risk",
+              "generated/topics/oracle-risk"
+            ]
+          },
+          {
+            "group": "Smart Contracts & Web3",
+            "pages": [
+              "generated/topics/smart-contracts",
+              "generated/topics/evm",
+              "generated/topics/virtual-machines",
+              "generated/topics/dapps",
+              "generated/topics/web3",
+              "generated/topics/daos",
+              "generated/topics/nfts",
+              "generated/topics/oracles",
+              "generated/topics/identity",
+              "generated/topics/decentralized-identity",
+              "generated/topics/ens-and-naming",
+              "generated/topics/governance",
+              "generated/topics/upgradeable-contracts",
+              "generated/topics/proxy-contracts"
+            ]
+          },
+          {
+            "group": "DeFi",
+            "pages": [
+              "generated/topics/defi",
+              "generated/topics/lending",
+              "generated/topics/borrowing",
+              "generated/topics/collateral",
+              "generated/topics/liquidation",
+              "generated/topics/yield-farming",
+              "generated/topics/liquidity-pools",
+              "generated/topics/impermanent-loss",
+              "generated/topics/dex-aggregators",
+              "generated/topics/stablecoin-mechanisms",
+              "generated/topics/derivatives",
+              "generated/topics/perpetuals",
+              "generated/topics/synthetic-assets",
+              "generated/topics/flash-loans"
+            ]
+          },
+          {
+            "group": "Infrastructure & Scaling",
+            "pages": [
+              "generated/topics/validators",
+              "generated/topics/rpc-infrastructure",
+              "generated/topics/archive-nodes",
+              "generated/topics/full-nodes",
+              "generated/topics/light-clients",
+              "generated/topics/layer-1",
+              "generated/topics/layer-2",
+              "generated/topics/rollups",
+              "generated/topics/optimistic-rollups",
+              "generated/topics/zero-knowledge-rollups",
+              "generated/topics/data-availability",
+              "generated/topics/sequencers",
+              "generated/topics/sharding",
+              "generated/topics/interoperability"
+            ]
+          },
+          {
+            "group": "Enterprise & AI",
+            "pages": [
+              "generated/topics/enterprise-blockchain",
+              "generated/topics/permissioned-networks",
+              "generated/topics/compliance",
+              "generated/topics/privacy",
+              "generated/topics/predictable-fees",
+              "generated/topics/deterministic-execution",
+              "generated/topics/fixed-cost-transactions",
+              "generated/topics/sla-and-reliability",
+              "generated/topics/observability",
+              "generated/topics/blockchain-analytics",
+              "generated/topics/ai-agents",
+              "generated/topics/machine-payments",
+              "generated/topics/agent-wallets",
+              "generated/topics/autonomous-systems"
             ]
           }
         ]
       },
       {
-        "group": "Knowledge Graph",
-        "icon": "share-2",
+        "group": "250 Glossary Objects",
+        "icon": "book-a",
         "pages": [
-          "knowledge-graph/overview"
+          {
+            "group": "Glossary 1-50",
+            "pages": [
+              "generated/glossary/blockchain",
+              "generated/glossary/distributed-ledger",
+              "generated/glossary/blocks",
+              "generated/glossary/transactions",
+              "generated/glossary/nodes",
+              "generated/glossary/consensus",
+              "generated/glossary/finality",
+              "generated/glossary/cryptography",
+              "generated/glossary/digital-signatures",
+              "generated/glossary/hash-functions",
+              "generated/glossary/public-key-cryptography",
+              "generated/glossary/merkle-trees",
+              "generated/glossary/state",
+              "generated/glossary/accounts",
+              "generated/glossary/utxo-model",
+              "generated/glossary/cryptocurrency",
+              "generated/glossary/native-assets",
+              "generated/glossary/tokens",
+              "generated/glossary/stablecoins",
+              "generated/glossary/tokenization",
+              "generated/glossary/market-capitalization",
+              "generated/glossary/liquidity",
+              "generated/glossary/order-books",
+              "generated/glossary/automated-market-makers",
+              "generated/glossary/decentralized-exchanges",
+              "generated/glossary/centralized-exchanges",
+              "generated/glossary/custody",
+              "generated/glossary/staking",
+              "generated/glossary/delegation",
+              "generated/glossary/token-supply",
+              "generated/glossary/wallets",
+              "generated/glossary/addresses",
+              "generated/glossary/private-keys",
+              "generated/glossary/seed-phrases",
+              "generated/glossary/hardware-wallets",
+              "generated/glossary/multisignature-wallets",
+              "generated/glossary/account-abstraction",
+              "generated/glossary/transaction-signing",
+              "generated/glossary/token-approvals",
+              "generated/glossary/phishing",
+              "generated/glossary/wallet-drainers",
+              "generated/glossary/social-engineering",
+              "generated/glossary/smart-contract-risk",
+              "generated/glossary/oracle-risk",
+              "generated/glossary/smart-contracts",
+              "generated/glossary/evm",
+              "generated/glossary/virtual-machines",
+              "generated/glossary/dapps",
+              "generated/glossary/web3",
+              "generated/glossary/daos"
+            ]
+          },
+          {
+            "group": "Glossary 51-100",
+            "pages": [
+              "generated/glossary/nfts",
+              "generated/glossary/oracles",
+              "generated/glossary/identity",
+              "generated/glossary/decentralized-identity",
+              "generated/glossary/ens-and-naming",
+              "generated/glossary/governance",
+              "generated/glossary/upgradeable-contracts",
+              "generated/glossary/proxy-contracts",
+              "generated/glossary/defi",
+              "generated/glossary/lending",
+              "generated/glossary/borrowing",
+              "generated/glossary/collateral",
+              "generated/glossary/liquidation",
+              "generated/glossary/yield-farming",
+              "generated/glossary/liquidity-pools",
+              "generated/glossary/impermanent-loss",
+              "generated/glossary/dex-aggregators",
+              "generated/glossary/stablecoin-mechanisms",
+              "generated/glossary/derivatives",
+              "generated/glossary/perpetuals",
+              "generated/glossary/synthetic-assets",
+              "generated/glossary/flash-loans",
+              "generated/glossary/validators",
+              "generated/glossary/rpc-infrastructure",
+              "generated/glossary/archive-nodes",
+              "generated/glossary/full-nodes",
+              "generated/glossary/light-clients",
+              "generated/glossary/layer-1",
+              "generated/glossary/layer-2",
+              "generated/glossary/rollups",
+              "generated/glossary/optimistic-rollups",
+              "generated/glossary/zero-knowledge-rollups",
+              "generated/glossary/data-availability",
+              "generated/glossary/sequencers",
+              "generated/glossary/sharding",
+              "generated/glossary/interoperability",
+              "generated/glossary/enterprise-blockchain",
+              "generated/glossary/permissioned-networks",
+              "generated/glossary/compliance",
+              "generated/glossary/privacy",
+              "generated/glossary/predictable-fees",
+              "generated/glossary/deterministic-execution",
+              "generated/glossary/fixed-cost-transactions",
+              "generated/glossary/sla-and-reliability",
+              "generated/glossary/observability",
+              "generated/glossary/blockchain-analytics",
+              "generated/glossary/ai-agents",
+              "generated/glossary/machine-payments",
+              "generated/glossary/agent-wallets",
+              "generated/glossary/autonomous-systems"
+            ]
+          },
+          {
+            "group": "Glossary 101-150",
+            "pages": [
+              "generated/glossary/block-height",
+              "generated/glossary/genesis-block",
+              "generated/glossary/mainnet",
+              "generated/glossary/testnet",
+              "generated/glossary/peer-to-peer-network",
+              "generated/glossary/proof-of-work",
+              "generated/glossary/proof-of-stake",
+              "generated/glossary/slashing",
+              "generated/glossary/epoch",
+              "generated/glossary/checkpoint",
+              "generated/glossary/light-client-proof",
+              "generated/glossary/json-rpc",
+              "generated/glossary/canonical-chain",
+              "generated/glossary/chain-reorganization",
+              "generated/glossary/block-capacity",
+              "generated/glossary/throughput",
+              "generated/glossary/latency",
+              "generated/glossary/nonce",
+              "generated/glossary/gas",
+              "generated/glossary/gas-limit",
+              "generated/glossary/gas-price",
+              "generated/glossary/fungible-token",
+              "generated/glossary/non-fungible-token",
+              "generated/glossary/circulating-supply",
+              "generated/glossary/total-supply",
+              "generated/glossary/maximum-supply",
+              "generated/glossary/minting",
+              "generated/glossary/token-economics",
+              "generated/glossary/token-emissions",
+              "generated/glossary/inflation",
+              "generated/glossary/deflationary-mechanism",
+              "generated/glossary/protocol-treasury",
+              "generated/glossary/market-maker",
+              "generated/glossary/arbitrage",
+              "generated/glossary/oracle-price",
+              "generated/glossary/peg",
+              "generated/glossary/depeg",
+              "generated/glossary/proof-of-reserves",
+              "generated/glossary/token-standard",
+              "generated/glossary/erc-20",
+              "generated/glossary/erc-721",
+              "generated/glossary/erc-1155",
+              "generated/glossary/liquidity-provider",
+              "generated/glossary/slippage",
+              "generated/glossary/price-impact",
+              "generated/glossary/bid-ask-spread",
+              "generated/glossary/trading-volume",
+              "generated/glossary/market-depth",
+              "generated/glossary/mnemonic-phrase",
+              "generated/glossary/hot-wallet"
+            ]
+          },
+          {
+            "group": "Glossary 151-200",
+            "pages": [
+              "generated/glossary/air-gapped-wallet",
+              "generated/glossary/watch-only-wallet",
+              "generated/glossary/smart-wallet",
+              "generated/glossary/message-signing",
+              "generated/glossary/token-allowance",
+              "generated/glossary/approval-revocation",
+              "generated/glossary/impersonation-scam",
+              "generated/glossary/rug-pull",
+              "generated/glossary/ponzi-scheme",
+              "generated/glossary/fake-presale",
+              "generated/glossary/malicious-contract",
+              "generated/glossary/wallet-backup",
+              "generated/glossary/wallet-passphrase",
+              "generated/glossary/biometric-authentication",
+              "generated/glossary/two-factor-authentication",
+              "generated/glossary/address-poisoning",
+              "generated/glossary/clipboard-malware",
+              "generated/glossary/sim-swap",
+              "generated/glossary/session-key",
+              "generated/glossary/spending-limit",
+              "generated/glossary/wallet-guardian",
+              "generated/glossary/social-recovery",
+              "generated/glossary/transaction-simulation",
+              "generated/glossary/least-privilege",
+              "generated/glossary/secret-management",
+              "generated/glossary/key-rotation",
+              "generated/glossary/compromised-key",
+              "generated/glossary/transaction-review",
+              "generated/glossary/domain-verification",
+              "generated/glossary/allowlist",
+              "generated/glossary/denylist",
+              "generated/glossary/security-audit",
+              "generated/glossary/bytecode",
+              "generated/glossary/application-binary-interface",
+              "generated/glossary/contract-address",
+              "generated/glossary/contract-storage",
+              "generated/glossary/contract-event",
+              "generated/glossary/delegatecall",
+              "generated/glossary/reentrancy",
+              "generated/glossary/access-control",
+              "generated/glossary/contract-owner",
+              "generated/glossary/pausable-contract",
+              "generated/glossary/governance-token",
+              "generated/glossary/governance-proposal",
+              "generated/glossary/quorum",
+              "generated/glossary/token-metadata",
+              "generated/glossary/decentralized-identifier",
+              "generated/glossary/verifiable-credential",
+              "generated/glossary/account-abstraction-wallet",
+              "generated/glossary/cross-contract-call"
+            ]
+          },
+          {
+            "group": "Glossary 201-250",
+            "pages": [
+              "generated/glossary/contract-upgrade",
+              "generated/glossary/initializer",
+              "generated/glossary/fallback-function",
+              "generated/glossary/receive-function",
+              "generated/glossary/proxy-admin",
+              "generated/glossary/lending-protocol",
+              "generated/glossary/health-factor",
+              "generated/glossary/flash-loan",
+              "generated/glossary/derivative",
+              "generated/glossary/perpetual-contract",
+              "generated/glossary/synthetic-asset",
+              "generated/glossary/liquid-staking",
+              "generated/glossary/real-world-asset",
+              "generated/glossary/payment-channel",
+              "generated/glossary/protocol-revenue",
+              "generated/glossary/fee-switch",
+              "generated/glossary/collateral-ratio",
+              "generated/glossary/borrow-rate",
+              "generated/glossary/supply-rate",
+              "generated/glossary/liquidity-mining",
+              "generated/glossary/vault",
+              "generated/glossary/yield-aggregator",
+              "generated/glossary/pool-share",
+              "generated/glossary/liquidity-token",
+              "generated/glossary/price-oracle",
+              "generated/glossary/liquidation-threshold",
+              "generated/glossary/liquidation-bonus",
+              "generated/glossary/validator-set",
+              "generated/glossary/archive-node",
+              "generated/glossary/full-node",
+              "generated/glossary/light-client",
+              "generated/glossary/layer-1-term",
+              "generated/glossary/layer-2-term",
+              "generated/glossary/rollup",
+              "generated/glossary/optimistic-rollup",
+              "generated/glossary/zero-knowledge-rollup",
+              "generated/glossary/data-availability-term",
+              "generated/glossary/sequencer",
+              "generated/glossary/sharding-term",
+              "generated/glossary/ibc",
+              "generated/glossary/cross-chain-message",
+              "generated/glossary/cross-chain-bridge",
+              "generated/glossary/data-indexing",
+              "generated/glossary/subgraph",
+              "generated/glossary/mev",
+              "generated/glossary/front-running",
+              "generated/glossary/sandwich-attack",
+              "generated/glossary/transaction-ordering",
+              "generated/glossary/fifo-ordering",
+              "generated/glossary/rpc-gateway"
+            ]
+          }
         ]
       },
       {
@@ -169,6 +538,7 @@
           "knowledge-engine/ai-learning",
           "knowledge-engine/generation",
           "knowledge-engine/public-data",
+          "knowledge-engine/explorer",
           "knowledge-engine/ai-seo",
           "knowledge-engine/road-to-api",
           "knowledge-engine/contributing"
@@ -213,23 +583,6 @@
           "api/authentication",
           "api/endpoints",
           "api/errors"
-        ]
-      },
-      {
-        "group": "Tutorials",
-        "icon": "book-open",
-        "pages": [
-          "tutorials/ask-a-blockchain-question",
-          "tutorials/use-the-glossary",
-          "tutorials/contribute-content"
-        ]
-      },
-      {
-        "group": "Glossary",
-        "icon": "book-a",
-        "pages": [
-          "glossary/overview",
-          "glossary/core-terms"
         ]
       },
       {

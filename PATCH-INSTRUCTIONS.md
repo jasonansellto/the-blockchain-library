@@ -1,39 +1,44 @@
-# v1.0.0 Knowledge Platform Patch
+# v1.1.0 Knowledge Expansion Patch
 
-This patch upgrades The Blockchain Library from a structured documentation project into a canonical multi-object knowledge platform.
+This is the first content-scale release.
 
-IMPORTANT: `/images/github-banner.png` is not included and will not be overwritten. The README references that exact manually updated image path.
+IMPORTANT: `/images/github-banner.png` is not included and will not be overwritten.
+
+## Adds
+
+- 100 canonical topic objects
+- 250 glossary definitions
+- 100 generated topic pages
+- 250 generated glossary pages
+- Topic and glossary catalog pages
+- Interactive Knowledge Graph Explorer
+- Expanded validation and generation
+- GitHub Actions CI
+- Updated Mintlify navigation
 
 ## Install
 
-Extract into the repository root and replace matching text/config files.
-
-Then run:
+Extract into the repository root, then run:
 
 ```powershell
-npm.cmd run build:knowledge
+npm.cmd run build:expanded
 ```
 
-Expected core counts:
+Expected:
 
-- Topics: 9
-- Glossary entries: 29
-- Books: 9
-- Research: 1
-- Tutorials: 3
-- Code examples: 1
-- AI prompts: 3
-- Quizzes: 1
-- Learning paths: 2
-- Explicit semantic relationships: 16
+```text
+Expanded knowledge validation passed.
+Topics: 100
+Glossary entries: 250
+```
 
 Then:
 
 ```powershell
 git pull origin main --rebase
 git add .
-git commit -m "Launch Blockchain Library Knowledge Platform v1.0.0"
+git commit -m "Expand Blockchain Library knowledge graph v1.1.0"
 git push origin main
 ```
 
-If OneDrive locks a directory during rebase, close apps using that directory before retrying.
+The next content release can expand the glossary from 250 to 500 and add generated book and research catalogs.
