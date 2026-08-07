@@ -1,44 +1,37 @@
-# v1.1.0 Knowledge Expansion Patch
+# The Blockchain Library v1.2.0 — Dynamic Knowledge Patch
 
-This is the first content-scale release.
+This release focuses on maintainability and user experience rather than simply adding more pages.
 
 IMPORTANT: `/images/github-banner.png` is not included and will not be overwritten.
 
-## Adds
+## What changes
 
-- 100 canonical topic objects
-- 250 glossary definitions
-- 100 generated topic pages
-- 250 generated glossary pages
-- Topic and glossary catalog pages
-- Interactive Knowledge Graph Explorer
-- Expanded validation and generation
-- GitHub Actions CI
-- Updated Mintlify navigation
+- Replaces the enormous 250-term sidebar with curated human navigation.
+- Generated topic/glossary pages stay in the repository and remain directly accessible.
+- Adds dynamic catalogs for topics, glossary, books, research, tutorials, and quizzes.
+- Upgrades the Knowledge Explorer with related-resource sections.
+- Fixes the data-generation architecture so books/research/tutorials/etc. are merged with v1.1 topics and glossary rather than being overwritten.
+- Adds `/knowledge/related.json`.
+- Adds `/knowledge/search-index.json`.
+- Adds unified Knowledge Platform validation and CI.
 
-## Install
+## Build
 
-Extract into the repository root, then run:
+After extracting into the repository root:
 
 ```powershell
-npm.cmd run build:expanded
+npm.cmd run build:platform
 ```
 
-Expected:
-
-```text
-Expanded knowledge validation passed.
-Topics: 100
-Glossary entries: 250
-```
-
-Then:
+Then push:
 
 ```powershell
 git pull origin main --rebase
 git add .
-git commit -m "Expand Blockchain Library knowledge graph v1.1.0"
+git commit -m "Launch dynamic knowledge catalogs and related-resource engine v1.2.0"
 git push origin main
 ```
 
-The next content release can expand the glossary from 250 to 500 and add generated book and research catalogs.
+## Important
+
+Do not delete the existing `generated/topics/` or `generated/glossary/` folders. They remain useful as indexable canonical pages even though they are no longer individually listed in Mintlify's sidebar.

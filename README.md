@@ -6,22 +6,40 @@
 
 The Blockchain Library is an open-source blockchain knowledge platform for learners, developers, researchers, educators, and AI systems.
 
-## Knowledge Expansion v1.1
+## Knowledge Platform v1.2
 
-- **100 canonical topic objects**
-- **250 structured glossary definitions**
-- 350 generated Mintlify knowledge pages
-- Topic and glossary catalogs
-- Interactive Knowledge Graph Explorer
-- Structured data designed for search, AI, APIs, books, research, quizzes, and learning paths
+Version 1.2 separates **human navigation** from **machine-scale knowledge**.
 
-### Build the expanded knowledge layer
+Generated topic and glossary pages remain available, but the main documentation navigation is now curated around learning, exploration, development, AI interfaces, research, and the Knowledge Engine.
 
-```powershell
-npm.cmd run build:expanded
+### New platform surfaces
+
+```text
+/catalogs/                  Dynamic object catalogs
+/explorer/                  Interactive Knowledge Explorer
+/knowledge/catalog.json     Unified object catalog
+/knowledge/graph.json       Semantic relationship graph
+/knowledge/related.json     Topic-to-resource index
+/knowledge/search-index.json Structured search index
 ```
 
-The interactive explorer reads `/knowledge/catalog.json` and `/knowledge/graph.json` and is available from `/explorer/`.
+### Build the unified data layer
+
+```powershell
+npm.cmd run build:platform
+```
+
+This merges expanded topics and glossary entries with books, research, tutorials, code examples, AI prompts, quizzes, and learning paths instead of allowing one generation step to overwrite another.
+
+## Core principle
+
+```text
+Curated navigation for humans
+            +
+Comprehensive structured data for machines
+            =
+Maintainable knowledge platform
+```
 
 ## License
 

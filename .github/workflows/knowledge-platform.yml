@@ -1,0 +1,25 @@
+name: Knowledge Platform CI
+
+on:
+  push:
+    paths:
+      - "data/knowledge/**"
+      - "scripts/generate-platform-data.mjs"
+      - "scripts/validate-platform-data.mjs"
+      - "package.json"
+  pull_request:
+    paths:
+      - "data/knowledge/**"
+      - "scripts/generate-platform-data.mjs"
+      - "scripts/validate-platform-data.mjs"
+      - "package.json"
+
+jobs:
+  platform:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm run build:platform

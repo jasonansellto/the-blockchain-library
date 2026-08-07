@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Blockchain Library — Knowledge Catalog</title>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#0d1b2d;--line:#263b55;--text:#f5f8fc;--muted:#9fb2c8;--accent:#168cff}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui;background:var(--bg);color:var(--text)}header{padding:28px 22px;border-bottom:1px solid var(--line);background:#091728}header h1{margin:0 0 6px}header p{margin:0;color:var(--muted)}
+.controls{display:flex;gap:10px;flex-wrap:wrap;padding:16px 22px;position:sticky;top:0;background:#07111ff2;border-bottom:1px solid var(--line)}
+input,select{padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:#081523;color:var(--text)}input{flex:1;min-width:230px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;padding:22px}.card{padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--panel);cursor:pointer}.card:hover{border-color:var(--accent)}.card h3{margin:0 0 8px}.muted{color:var(--muted)}.badge{display:inline-block;background:#102f55;color:#9fd0ff;border-radius:999px;padding:2px 7px;font-size:12px;margin-bottom:8px}.empty{padding:40px;text-align:center;color:var(--muted)}
+</style></head>
+<body>
+<header><h1 id="title">Knowledge Catalog</h1><p id="sub">Browse structured Blockchain Library knowledge objects.</p></header>
+<div class="controls"><input id="q" placeholder="Search..."><select id="type"><option value="">All object types</option></select><select id="category"><option value="">All categories</option></select></div>
+<div id="grid" class="grid"></div>
+<script>
+const params=new URLSearchParams(location.search); const forced=params.get("type")||"";
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let data=[];
+async function load(){data=await fetch("/knowledge/catalog.json").then(r=>r.json());const types=[...new Set(data.map(x=>x.type).filter(Boolean))].sort();const cats=[...new Set(data.map(x=>x.category).filter(Boolean))].sort();type.innerHTML='<option value="">All object types</option>'+types.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");category.innerHTML='<option value="">All categories</option>'+cats.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");if(forced){type.value=forced;type.disabled=true;title.textContent=forced[0].toUpperCase()+forced.slice(1)+" Catalog";sub.textContent="Dynamic catalog generated from the canonical Knowledge Engine."}render()}
+function render(){const query=q.value.toLowerCase(),tv=type.value,cv=category.value;const rows=data.filter(o=>(!tv||o.type===tv)&&(!cv||o.category===cv)&&(!query||JSON.stringify(o).toLowerCase().includes(query)));grid.innerHTML=rows.length?rows.map(o=>`<div class="card" data-url="${esc(o.canonicalUrl||"")}"><span class="badge">${esc(o.type||o.collection)}</span><h3>${esc(o.title||o.term||o.id)}</h3><div class="muted">${esc(o.summary||o.definition||o.subtitle||o.category||"Structured knowledge object")}</div></div>`).join(""):'<div class="empty">No matching objects.</div>';document.querySelectorAll("[data-url]").forEach(c=>{if(c.dataset.url)c.onclick=()=>location.href=c.dataset.url})}
+q.oninput=render;type.onchange=render;category.onchange=render;load();
+</script></body></html>

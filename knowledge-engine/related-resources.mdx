@@ -1,0 +1,31 @@
+---
+title: "Related Resource Engine"
+description: "How topic objects are automatically connected to definitions, books, research, tutorials, code examples, AI prompts, quizzes, and learning paths."
+---
+
+# Related knowledge is generated from object relationships
+
+The platform now generates `related.json`, a topic-keyed resource index.
+
+```text
+topic
+  ├── related topics
+  ├── glossary
+  ├── books
+  ├── research
+  ├── tutorials
+  ├── code examples
+  ├── AI prompts
+  ├── quizzes
+  └── learning paths
+```
+
+The explorer can use this file to show richer context without hard-coding resource cards into every topic page.
+
+## Data source
+
+```text
+/knowledge/related.json
+```
+
+This keeps topic pages, AI retrieval, search, and future API responses aligned around the same relationships.

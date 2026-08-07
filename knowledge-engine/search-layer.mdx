@@ -1,0 +1,28 @@
+---
+title: "Search Data Layer"
+description: "A normalized search index for topics, glossary entries, books, research, tutorials, quizzes, prompts, and developer-oriented objects."
+---
+
+# One index across object types
+
+Version 1.2 generates:
+
+```text
+/knowledge/search-index.json
+```
+
+Each record includes a normalized title, description, type, collection, category, tags, canonical URL, and searchable text.
+
+This can later power:
+
+- Client-side search
+- API search
+- AI retrieval
+- Type filters
+- Category filters
+- Related-content ranking
+- External application integrations
+
+<Note>
+Mintlify search remains valuable for documentation pages. The Knowledge Engine search layer serves the structured object model and future products.
+</Note>
