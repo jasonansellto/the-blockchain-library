@@ -1,0 +1,26 @@
+---
+title: "Documentation architecture"
+description: "How GitHub, Mintlify, The Blockchain Library website, and AI integrations fit together."
+---
+
+## High-level model
+
+```mermaid
+flowchart TD
+  A[GitHub repository] --> B[MDX documentation]
+  B --> C[Mintlify]
+  C --> D[Public docs]
+  B --> E[AI-readable knowledge]
+  D --> F[Learners]
+  D --> G[Developers]
+  E --> H[ChatGPT App]
+  E --> I[MCP integrations]
+```
+
+## Source of truth
+
+Git history provides reviewability, attribution, versioning, and rollback. Mintlify provides navigation, search, rendering, deployment, and AI-oriented documentation surfaces.
+
+## Separation of concerns
+
+The documentation repository should contain public knowledge and technical reference material. Private operational data, secrets, credentials, and unpublished security-sensitive information should not be committed.

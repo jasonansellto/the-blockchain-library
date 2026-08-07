@@ -1,22 +1,5 @@
-# Security Policy
+# Security
 
-## Reporting a vulnerability
+Do not publish sensitive security reports, credentials, private keys, seed phrases, or exploitable secrets in public issues.
 
-Do not open a public issue for vulnerabilities that could expose users, credentials, infrastructure, or connected services.
-
-Send a private report through the contact page at:
-
-https://theblockchainlibrary.com/contact
-
-Include:
-
-- A clear description of the issue
-- Steps to reproduce it
-- Potential impact
-- A suggested mitigation, when possible
-
-Never send private keys, seed phrases, passwords, access tokens, or live production credentials.
-
-## Supported versions
-
-This repository is an early public documentation release. Security updates apply to the latest version on the `main` branch.
+For documentation security fixes, open a normal pull request when disclosure is safe. For vulnerabilities that could put users or systems at risk, use the project's current private security contact or GitHub private vulnerability reporting when enabled.

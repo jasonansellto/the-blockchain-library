@@ -1,0 +1,17 @@
+---
+title: "Errors"
+description: "Error-handling conventions for future Blockchain Library APIs."
+---
+
+## Recommended response behavior
+
+API errors should use stable machine-readable codes, human-readable messages, and appropriate HTTP status codes.
+
+```json
+{
+  "error": {
+    "code": "INVALID_REQUEST",
+    "message": "The request could not be processed."
+  }
+}
+```

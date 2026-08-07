@@ -1,0 +1,18 @@
+---
+title: "MCP development"
+description: "Developer workflow and documentation expectations for the MCP Server."
+---
+
+## Development checklist
+
+1. Define the tool contract.
+2. Validate inputs.
+3. Implement the minimum capability.
+4. Add tests.
+5. Document privacy and security behavior.
+6. Add examples.
+7. Record the change in the changelog.
+
+## Security
+
+Never log secrets by default. Avoid accepting private keys or seed phrases. Treat external URLs, user-provided text, and tool outputs as untrusted input.

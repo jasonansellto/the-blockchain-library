@@ -1,19 +1,11 @@
 ## Summary
 
-Describe the change and why it is needed.
-
-## Type of change
-
-- [ ] Documentation
-- [ ] Educational content
-- [ ] Bug fix
-- [ ] Accessibility improvement
-- [ ] Developer example
-- [ ] Other
+Describe what this pull request changes and why.
 
 ## Checklist
 
-- [ ] I checked spelling and links.
-- [ ] I used clear, neutral language.
-- [ ] I did not include credentials or private information.
-- [ ] I tested the page on desktop and mobile.
+- [ ] I previewed the documentation locally.
+- [ ] I checked links and formatting.
+- [ ] I did not include secrets or personal data.
+- [ ] I updated `docs.json` if I added a navigable page.
+- [ ] I updated the changelog if this is a meaningful project change.

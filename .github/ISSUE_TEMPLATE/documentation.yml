@@ -1,0 +1,17 @@
+name: Documentation improvement
+description: Report a documentation issue or suggest an improvement
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be improved?
+      description: Describe the error, gap, or unclear section.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Explain what you think should change.

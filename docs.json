@@ -1,0 +1,213 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "The Blockchain Library",
+  "description": "Open-source blockchain education with AI-powered learning, developer resources, technical documentation, and Web3 knowledge.",
+  "colors": {
+    "primary": "#168CFF",
+    "light": "#2A9CFF",
+    "dark": "#0875D1"
+  },
+  "logo": {
+    "light": "/images/blockchain-library-icon.png",
+    "dark": "/images/blockchain-library-icon.png",
+    "href": "https://theblockchainlibrary.com"
+  },
+  "favicon": "/images/blockchain-library-icon.png",
+  "appearance": {
+    "default": "dark"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://theblockchainlibrary.com"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/jasonansellto/the-blockchain-library"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Start learning",
+      "href": "/getting-started/quickstart"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/jasonansellto/the-blockchain-library",
+      "website": "https://theblockchainlibrary.com"
+    },
+    "links": [
+      {
+        "header": "Learn",
+        "items": [
+          {
+            "label": "Learning path",
+            "href": "/learn/learning-path"
+          },
+          {
+            "label": "Blockchain basics",
+            "href": "/learn/foundations/blockchain-basics"
+          },
+          {
+            "label": "Glossary",
+            "href": "/glossary/overview"
+          }
+        ]
+      },
+      {
+        "header": "Develop",
+        "items": [
+          {
+            "label": "Developer overview",
+            "href": "/developers/overview"
+          },
+          {
+            "label": "ChatGPT App",
+            "href": "/chatgpt-app/overview"
+          },
+          {
+            "label": "MCP Server",
+            "href": "/mcp-server/overview"
+          }
+        ]
+      },
+      {
+        "header": "Project",
+        "items": [
+          {
+            "label": "Roadmap",
+            "href": "/project/roadmap"
+          },
+          {
+            "label": "Changelog",
+            "href": "/project/changelog"
+          },
+          {
+            "label": "Contributing",
+            "href": "/project/contributing"
+          }
+        ]
+      }
+    ]
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          "index",
+          "getting-started/quickstart",
+          "getting-started/about",
+          "getting-started/how-to-use-the-library"
+        ]
+      },
+      {
+        "group": "Learn Blockchain",
+        "icon": "graduation-cap",
+        "pages": [
+          "learn/learning-path",
+          {
+            "group": "Foundations",
+            "pages": [
+              "learn/foundations/blockchain-basics",
+              "learn/foundations/cryptocurrency",
+              "learn/foundations/web3",
+              "learn/foundations/smart-contracts",
+              "learn/foundations/consensus",
+              "learn/foundations/wallets",
+              "learn/foundations/defi"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "learn/security/wallet-security",
+              "learn/security/scams-and-phishing"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Developer Resources",
+        "icon": "code",
+        "pages": [
+          "developers/overview",
+          "developers/architecture",
+          "developers/content-model",
+          "developers/integrations",
+          "developers/code-examples"
+        ]
+      },
+      {
+        "group": "ChatGPT App",
+        "icon": "message-square",
+        "pages": [
+          "chatgpt-app/overview",
+          "chatgpt-app/how-it-works",
+          "chatgpt-app/prompts",
+          "chatgpt-app/privacy"
+        ]
+      },
+      {
+        "group": "MCP Server",
+        "icon": "plug",
+        "pages": [
+          "mcp-server/overview",
+          "mcp-server/architecture",
+          "mcp-server/tools",
+          "mcp-server/development"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "icon": "braces",
+        "pages": [
+          "api/overview",
+          "api/authentication",
+          "api/endpoints",
+          "api/errors"
+        ]
+      },
+      {
+        "group": "Tutorials",
+        "icon": "book-open",
+        "pages": [
+          "tutorials/ask-a-blockchain-question",
+          "tutorials/use-the-glossary",
+          "tutorials/contribute-content"
+        ]
+      },
+      {
+        "group": "Glossary",
+        "icon": "book-a",
+        "pages": [
+          "glossary/overview",
+          "glossary/core-terms"
+        ]
+      },
+      {
+        "group": "Research & Publishing",
+        "icon": "microscope",
+        "pages": [
+          "research/overview",
+          "research/publications",
+          "research/editorial-standards"
+        ]
+      },
+      {
+        "group": "Project",
+        "icon": "map",
+        "pages": [
+          "project/roadmap",
+          "project/changelog",
+          "project/faq",
+          "project/contributing"
+        ]
+      }
+    ]
+  }
+}
