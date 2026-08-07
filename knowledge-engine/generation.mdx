@@ -1,0 +1,24 @@
+---
+title: "Generation Pipeline"
+description: "How structured objects are validated and compiled into API-ready JSON and JSON-LD exports."
+---
+
+## Build pipeline
+
+```mermaid
+flowchart LR
+ A[data/knowledge] --> B[Validate]
+ B --> C[Generate]
+ C --> D[index.json]
+ C --> E[catalog.json]
+ C --> F[graph.json]
+ C --> G[knowledge-graph.jsonld]
+```
+
+On Windows PowerShell:
+
+```powershell
+npm.cmd run build:knowledge
+```
+
+<Note>The generated JSON files are static data artifacts, not a claim that a production dynamic API is already live.</Note>

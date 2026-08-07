@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "quizzes": [
+    {
+      "id": "blockchain-foundations-check",
+      "uid": "quiz:blockchain-foundations-check",
+      "type": "quiz",
+      "title": "Blockchain Foundations Knowledge Check",
+      "topicIds": [
+        "blockchain"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the role of consensus in a blockchain network?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q2",
+          "question": "What is the difference between a wallet and the assets recorded on a blockchain?",
+          "answerType": "short-answer"
+        },
+        {
+          "id": "q3",
+          "question": "Why can transaction finality matter to applications?",
+          "answerType": "short-answer"
+        }
+      ],
+      "status": "published"
+    }
+  ]
+}

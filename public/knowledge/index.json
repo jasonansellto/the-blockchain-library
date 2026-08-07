@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-08-07T17:13:34.899Z",
+  "counts": {
+    "topics": 9,
+    "glossary": 29,
+    "books": 9,
+    "research": 1,
+    "tutorials": 3,
+    "codeExamples": 1,
+    "aiPrompts": 3,
+    "quizzes": 1,
+    "learningPaths": 2
+  },
+  "endpoints": {
+    "catalog": "/knowledge/catalog.json",
+    "graph": "/knowledge/graph.json",
+    "jsonld": "/knowledge/knowledge-graph.jsonld"
+  }
+}

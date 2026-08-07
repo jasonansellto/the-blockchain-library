@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "examples": [
+    {
+      "id": "documentation-example",
+      "uid": "code-example:documentation-example",
+      "type": "code-example",
+      "title": "Documentation Code Example",
+      "canonicalUrl": "/developers/code-examples",
+      "language": "javascript",
+      "topicIds": [
+        "smart-contracts",
+        "infrastructure"
+      ],
+      "status": "published"
+    }
+  ]
+}

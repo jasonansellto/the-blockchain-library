@@ -1,6 +1,5 @@
 {
-  "version": "0.4.0",
-  "updated": "2026-08-07",
+  "version": "1.0.0",
   "relationshipTypes": [
     "related-to",
     "prerequisite-for",
@@ -13,83 +12,83 @@
   ],
   "edges": [
     {
-      "from": "blockchain",
-      "to": "consensus",
+      "from": "topic:blockchain",
+      "to": "glossary:consensus",
       "type": "depends-on"
     },
     {
-      "from": "blockchain",
-      "to": "transaction",
+      "from": "topic:blockchain",
+      "to": "glossary:transaction",
       "type": "part-of"
     },
     {
-      "from": "blockchain",
-      "to": "node",
+      "from": "topic:blockchain",
+      "to": "glossary:node",
       "type": "implemented-by"
     },
     {
-      "from": "cryptocurrency",
-      "to": "wallet",
+      "from": "topic:cryptocurrency",
+      "to": "glossary:wallet",
       "type": "used-by"
     },
     {
-      "from": "wallet",
-      "to": "private-key",
+      "from": "glossary:wallet",
+      "to": "glossary:private-key",
       "type": "secured-by"
     },
     {
-      "from": "wallet",
-      "to": "signature",
+      "from": "glossary:wallet",
+      "to": "glossary:signature",
       "type": "used-by"
     },
     {
-      "from": "smart-contract",
-      "to": "transaction",
+      "from": "glossary:smart-contract",
+      "to": "glossary:transaction",
       "type": "used-by"
     },
     {
-      "from": "defi",
-      "to": "smart-contract",
+      "from": "topic:defi",
+      "to": "glossary:smart-contract",
       "type": "depends-on"
     },
     {
-      "from": "defi",
-      "to": "liquidity",
+      "from": "topic:defi",
+      "to": "glossary:liquidity",
       "type": "related-to"
     },
     {
-      "from": "web3",
-      "to": "wallet",
+      "from": "topic:web3",
+      "to": "glossary:wallet",
       "type": "related-to"
     },
     {
-      "from": "web3",
-      "to": "smart-contract",
+      "from": "topic:web3",
+      "to": "glossary:smart-contract",
       "type": "related-to"
     },
     {
-      "from": "rpc",
-      "to": "node",
+      "from": "glossary:rpc",
+      "to": "glossary:node",
       "type": "used-by"
     },
     {
-      "from": "validator",
-      "to": "consensus",
+      "from": "glossary:validator",
+      "to": "glossary:consensus",
       "type": "part-of"
     },
     {
-      "from": "ai-agent",
-      "to": "wallet",
+      "from": "glossary:ai-agent",
+      "to": "glossary:wallet",
       "type": "related-to"
     },
     {
-      "from": "ai-agent",
-      "to": "smart-contract",
+      "from": "glossary:ai-agent",
+      "to": "glossary:smart-contract",
       "type": "related-to"
     },
     {
-      "from": "ai-agent",
-      "to": "transaction",
+      "from": "glossary:ai-agent",
+      "to": "glossary:transaction",
       "type": "related-to"
     }
   ]

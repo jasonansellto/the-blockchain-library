@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theblockchainlibrary.com/schemas/knowledge-object.schema.json",
+  "title": "The Blockchain Library Knowledge Object",
+  "type": "object",
+  "required": [
+    "id",
+    "uid",
+    "type",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "uid": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+:[a-z0-9-]+$"
+    },
+    "type": {
+      "enum": [
+        "topic",
+        "glossary",
+        "book",
+        "research",
+        "tutorial",
+        "code-example",
+        "ai-prompt",
+        "quiz",
+        "learning-path"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "published",
+        "deprecated"
+      ]
+    },
+    "topicIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canonicalUrl": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

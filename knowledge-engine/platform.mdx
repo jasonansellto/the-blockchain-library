@@ -1,0 +1,32 @@
+---
+title: "Knowledge Platform Architecture"
+description: "The v1.0 architecture connecting one canonical knowledge layer to documentation, search, AI, learning, public data, and future applications."
+---
+
+# From documentation to a knowledge platform
+
+Version 1.0 formalizes The Blockchain Library as a knowledge platform.
+
+```mermaid
+flowchart TD
+ A[Canonical Knowledge Objects] --> B[Mintlify Docs]
+ A --> C[Search]
+ A --> D[Knowledge Graph]
+ A --> E[AI / MCP]
+ A --> F[Learning Paths]
+ A --> G[Quizzes]
+ A --> H[Public JSON Exports]
+ H --> I[Future Knowledge API]
+ H --> J[Future Apps]
+```
+
+<CardGroup cols={3}>
+ <Card title="Topics" icon="grid-2x2">Canonical subjects and their relationships.</Card>
+ <Card title="Glossary" icon="book-a">Compact definitions and terminology.</Card>
+ <Card title="Books" icon="book-open">Long-form publications connected to topics.</Card>
+ <Card title="Research" icon="microscope">Academic and technical research objects.</Card>
+ <Card title="Tutorials" icon="route">Task-oriented learning resources.</Card>
+ <Card title="AI & Quizzes" icon="brain-circuit">Reusable prompt and assessment objects.</Card>
+</CardGroup>
+
+The human-readable page remains the canonical explanation. Structured objects provide stable IDs, relationships, and reusable metadata.

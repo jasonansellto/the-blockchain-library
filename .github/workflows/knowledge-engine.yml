@@ -1,0 +1,26 @@
+name: Knowledge Engine CI
+
+on:
+  push:
+    paths:
+      - "data/knowledge/**"
+      - "schemas/**"
+      - "scripts/**"
+      - "package.json"
+  pull_request:
+    paths:
+      - "data/knowledge/**"
+      - "schemas/**"
+      - "scripts/**"
+      - "package.json"
+
+jobs:
+  knowledge-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm run validate:knowledge
+      - run: npm run generate:knowledge

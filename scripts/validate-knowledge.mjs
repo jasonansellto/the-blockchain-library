@@ -1,66 +1,35 @@
 import fs from "node:fs";
 import path from "node:path";
-
-const root = process.cwd();
-const read = (p) => JSON.parse(fs.readFileSync(path.join(root, p), "utf8"));
-
-const topicsDoc = read("data/knowledge/topics.json");
-const glossaryDoc = read("data/knowledge/glossary.json");
-const relationshipsDoc = read("data/knowledge/relationships.json");
-const pathsDoc = read("data/knowledge/learning-paths.json");
-const resourcesDoc = read("data/knowledge/resources.json");
-
-const errors = [];
-const topicIds = new Set();
-const glossaryIds = new Set();
-
-function uniqueId(id, set, label) {
-  if (!id || typeof id !== "string") errors.push(`${label}: missing id`);
-  else if (set.has(id)) errors.push(`${label}: duplicate id "${id}"`);
-  else set.add(id);
+const d=path.join(process.cwd(),"data","knowledge");
+const read=n=>JSON.parse(fs.readFileSync(path.join(d,n),"utf8"));
+const c={
+ topics:read("topics.json").topics, glossary:read("glossary.json").entries, books:read("books.json").books,
+ research:read("research.json").research, tutorials:read("tutorials.json").tutorials,
+ codeExamples:read("code-examples.json").examples, aiPrompts:read("ai-prompts.json").prompts,
+ quizzes:read("quizzes.json").quizzes, learningPaths:read("learning-paths.json").paths
+};
+const edges=read("relationships.json").edges;
+const errors=[], uids=new Set(), topicIds=new Set(c.topics.map(x=>x.id));
+for (const [name,objs] of Object.entries(c)) for (const o of objs) {
+ if(!o.id||!o.uid||!o.type) errors.push(`${name}: missing id/uid/type`);
+ if(uids.has(o.uid)) errors.push(`duplicate uid ${o.uid}`); else uids.add(o.uid);
+ if(o.status&&!["draft","review","published","deprecated"].includes(o.status)) errors.push(`${o.uid}: invalid status`);
+ for(const t of o.topicIds??[]) if(!topicIds.has(t)) errors.push(`${o.uid}: unknown topicId ${t}`);
 }
-
-for (const topic of topicsDoc.topics ?? []) {
-  uniqueId(topic.id, topicIds, "topic");
-  for (const field of ["title","slug","summary","level","hub"]) {
-    if (!topic[field]) errors.push(`topic ${topic.id ?? "unknown"}: missing ${field}`);
-  }
+for(const t of c.topics) {
+ for(const r of t.relatedTopics??[]) if(!topicIds.has(r)) errors.push(`${t.uid}: unknown related topic ${r}`);
+ for(const b of t.bookResources??[]) if(!uids.has(`book:${b}`)) errors.push(`${t.uid}: unknown book ${b}`);
+ for(const r of t.researchResources??[]) if(!uids.has(`research:${r}`)) errors.push(`${t.uid}: unknown research ${r}`);
 }
-
-for (const entry of glossaryDoc.entries ?? []) {
-  uniqueId(entry.id, glossaryIds, "glossary");
-  if (!entry.term || !entry.definition) errors.push(`glossary ${entry.id ?? "unknown"}: term and definition required`);
+for(const p of c.learningPaths) for(const s of p.steps??[]) {
+ if(!topicIds.has(s.topicId)) errors.push(`${p.uid}: unknown topic ${s.topicId}`);
+ if(!s.page?.startsWith("/")) errors.push(`${p.uid}: invalid page ${s.page}`);
 }
-
-const knownNodes = new Set([...topicIds, ...glossaryIds]);
-for (const edge of relationshipsDoc.edges ?? []) {
-  if (!knownNodes.has(edge.from)) errors.push(`relationship: unknown from "${edge.from}"`);
-  if (!knownNodes.has(edge.to)) errors.push(`relationship: unknown to "${edge.to}"`);
-  if (!edge.type) errors.push(`relationship ${edge.from}->${edge.to}: missing type`);
+for(const e of edges) {
+ if(!uids.has(e.from)) errors.push(`edge unknown from ${e.from}`);
+ if(!uids.has(e.to)) errors.push(`edge unknown to ${e.to}`);
 }
-
-for (const lp of pathsDoc.paths ?? []) {
-  for (const step of lp.steps ?? []) {
-    if (!topicIds.has(step.topicId)) errors.push(`learning path ${lp.id}: unknown topic "${step.topicId}"`);
-    if (!step.page?.startsWith("/")) errors.push(`learning path ${lp.id}: invalid page "${step.page}"`);
-  }
-}
-
-for (const resource of resourcesDoc.resources ?? []) {
-  for (const topicId of resource.topicIds ?? []) {
-    if (!topicIds.has(topicId)) errors.push(`resource ${resource.id}: unknown topic "${topicId}"`);
-  }
-}
-
-if (errors.length) {
-  console.error(`Knowledge validation failed with ${errors.length} error(s):`);
-  for (const err of errors) console.error(`- ${err}`);
-  process.exit(1);
-}
-
-console.log(`Knowledge validation passed.`);
-console.log(`Topics: ${topicIds.size}`);
-console.log(`Glossary entries: ${glossaryIds.size}`);
-console.log(`Relationships: ${(relationshipsDoc.edges ?? []).length}`);
-console.log(`Learning paths: ${(pathsDoc.paths ?? []).length}`);
-console.log(`Resources: ${(resourcesDoc.resources ?? []).length}`);
+if(errors.length){console.error(`Knowledge Engine validation failed (${errors.length})`);errors.forEach(e=>console.error(`- ${e}`));process.exit(1);}
+console.log("Knowledge Engine validation passed.");
+for(const [name,objs] of Object.entries(c)) console.log(`${name}: ${objs.length}`);
+console.log(`relationships: ${edges.length}`);

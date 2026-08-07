@@ -1,9 +1,11 @@
 {
-  "name": "the-blockchain-library-knowledge",
+  "name": "the-blockchain-library",
   "private": true,
-  "version": "0.4.0",
-  "description": "Structured knowledge data and documentation for The Blockchain Library.",
+  "version": "1.0.0",
+  "description": "Open-source blockchain knowledge platform and structured Knowledge Engine.",
   "scripts": {
-    "validate:knowledge": "node scripts/validate-knowledge.mjs"
+    "validate:knowledge": "node scripts/validate-knowledge.mjs",
+    "generate:knowledge": "node scripts/generate-knowledge.mjs",
+    "build:knowledge": "npm run validate:knowledge && npm run generate:knowledge"
   }
 }

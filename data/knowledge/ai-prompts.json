@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "prompts": [
+    {
+      "id": "explain-topic",
+      "uid": "ai-prompt:explain-topic",
+      "type": "ai-prompt",
+      "title": "Explain a Topic",
+      "prompt": "Explain {topic} at the requested learning level, then identify prerequisites and related concepts.",
+      "topicIds": [
+        "blockchain"
+      ],
+      "purpose": "education",
+      "status": "published"
+    },
+    {
+      "id": "quiz-topic",
+      "uid": "ai-prompt:quiz-topic",
+      "type": "ai-prompt",
+      "title": "Quiz Me on a Topic",
+      "prompt": "Create a short knowledge check for {topic} using only supported Blockchain Library material.",
+      "topicIds": [
+        "blockchain"
+      ],
+      "purpose": "assessment",
+      "status": "published"
+    },
+    {
+      "id": "developer-view",
+      "uid": "ai-prompt:developer-view",
+      "type": "ai-prompt",
+      "title": "Developer View",
+      "prompt": "Explain {topic} from a developer perspective, emphasizing architecture, interfaces, assumptions, and security considerations.",
+      "topicIds": [
+        "smart-contracts",
+        "infrastructure",
+        "ai-blockchain"
+      ],
+      "purpose": "development",
+      "status": "published"
+    }
+  ]
+}

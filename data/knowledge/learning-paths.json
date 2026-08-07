@@ -1,11 +1,12 @@
 {
-  "version": "0.4.0",
+  "version": "1.0.0",
   "paths": [
     {
       "id": "blockchain-foundations",
+      "uid": "learning-path:blockchain-foundations",
+      "type": "learning-path",
       "title": "Blockchain Foundations",
       "audience": "Beginner",
-      "description": "A structured introduction to blockchain, cryptocurrency, wallets, smart contracts, DeFi, and security.",
       "steps": [
         {
           "order": 1,
@@ -37,13 +38,15 @@
           "topicId": "wallets-security",
           "page": "/learn/security/wallet-security"
         }
-      ]
+      ],
+      "status": "published"
     },
     {
       "id": "developer-infrastructure",
-      "title": "Blockchain Developer & Infrastructure Path",
+      "uid": "learning-path:developer-infrastructure",
+      "type": "learning-path",
+      "title": "Blockchain Developer & Infrastructure",
       "audience": "Intermediate to Advanced",
-      "description": "A path from blockchain concepts into architecture, integrations, smart contracts, infrastructure, and AI-facing interfaces.",
       "steps": [
         {
           "order": 1,
@@ -75,7 +78,8 @@
           "topicId": "ai-blockchain",
           "page": "/mcp-server/overview"
         }
-      ]
+      ],
+      "status": "published"
     }
   ]
 }

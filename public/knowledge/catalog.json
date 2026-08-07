@@ -1,0 +1,979 @@
+[
+  {
+    "collection": "topics",
+    "id": "blockchain",
+    "uid": "topic:blockchain",
+    "type": "topic",
+    "title": "Blockchain",
+    "slug": "blockchain",
+    "summary": "Shared, cryptographically verifiable systems for recording and agreeing on state changes across a network.",
+    "level": "foundation",
+    "canonicalUrl": "/topics/blockchain",
+    "primaryPage": "/learn/foundations/blockchain-basics",
+    "relatedTopics": [
+      "cryptocurrency",
+      "wallets-security",
+      "smart-contracts",
+      "infrastructure"
+    ],
+    "bookResources": [
+      "understanding-blockchain",
+      "deterministic-execution"
+    ],
+    "researchResources": [
+      "deterministic-execution-fixed-cost-l1"
+    ],
+    "tags": [
+      "blockchain"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "cryptocurrency",
+    "uid": "topic:cryptocurrency",
+    "type": "topic",
+    "title": "Cryptocurrency",
+    "slug": "cryptocurrency",
+    "summary": "Digital assets whose ownership and transfer are recorded through blockchain or related distributed systems.",
+    "level": "foundation",
+    "canonicalUrl": "/topics/cryptocurrency",
+    "primaryPage": "/learn/foundations/cryptocurrency",
+    "relatedTopics": [
+      "blockchain",
+      "wallets-security",
+      "defi",
+      "web3"
+    ],
+    "bookResources": [
+      "beginner-guide-cryptocurrency",
+      "ai-money-revolution"
+    ],
+    "researchResources": [],
+    "tags": [
+      "cryptocurrency"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "wallets-security",
+    "uid": "topic:wallets-security",
+    "type": "topic",
+    "title": "Wallets & Security",
+    "slug": "wallets-security",
+    "summary": "Key management, signing, custody, permissions, transaction review, phishing defense, and wallet safety.",
+    "level": "foundation",
+    "canonicalUrl": "/topics/wallets-security",
+    "primaryPage": "/learn/foundations/wallets",
+    "relatedTopics": [
+      "blockchain",
+      "cryptocurrency",
+      "smart-contracts",
+      "defi"
+    ],
+    "bookResources": [
+      "understanding-seed-phrases",
+      "dark-side-web3"
+    ],
+    "researchResources": [],
+    "tags": [
+      "wallets-security"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "smart-contracts",
+    "uid": "topic:smart-contracts",
+    "type": "topic",
+    "title": "Smart Contracts",
+    "slug": "smart-contracts",
+    "summary": "Programs deployed to blockchain-compatible execution environments that manage state, permissions, assets, and application logic.",
+    "level": "intermediate",
+    "canonicalUrl": "/topics/smart-contracts",
+    "primaryPage": "/learn/foundations/smart-contracts",
+    "relatedTopics": [
+      "blockchain",
+      "wallets-security",
+      "defi",
+      "web3",
+      "infrastructure"
+    ],
+    "bookResources": [
+      "deterministic-execution"
+    ],
+    "researchResources": [
+      "deterministic-execution-fixed-cost-l1"
+    ],
+    "tags": [
+      "smart-contracts"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "defi",
+    "uid": "topic:defi",
+    "type": "topic",
+    "title": "DeFi",
+    "slug": "defi",
+    "summary": "Blockchain-based financial protocols for exchange, lending, liquidity, collateral, stablecoins, and programmable financial services.",
+    "level": "intermediate",
+    "canonicalUrl": "/topics/defi",
+    "primaryPage": "/learn/foundations/defi",
+    "relatedTopics": [
+      "cryptocurrency",
+      "wallets-security",
+      "smart-contracts",
+      "web3"
+    ],
+    "bookResources": [
+      "understanding-defi"
+    ],
+    "researchResources": [],
+    "tags": [
+      "defi"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "web3",
+    "uid": "topic:web3",
+    "type": "topic",
+    "title": "Web3",
+    "slug": "web3",
+    "summary": "Applications and infrastructure built around cryptographic ownership, open protocols, blockchain systems, and programmable digital assets.",
+    "level": "intermediate",
+    "canonicalUrl": "/topics/web3",
+    "primaryPage": "/learn/foundations/web3",
+    "relatedTopics": [
+      "blockchain",
+      "cryptocurrency",
+      "wallets-security",
+      "smart-contracts",
+      "defi"
+    ],
+    "bookResources": [
+      "understanding-web3",
+      "quiet-rebuild-internet",
+      "dark-side-web3"
+    ],
+    "researchResources": [],
+    "tags": [
+      "web3"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "infrastructure",
+    "uid": "topic:infrastructure",
+    "type": "topic",
+    "title": "Blockchain Infrastructure",
+    "slug": "infrastructure",
+    "summary": "Nodes, RPC services, validators, execution environments, indexing, bridges, interoperability, and operational blockchain systems.",
+    "level": "advanced",
+    "canonicalUrl": "/topics/infrastructure",
+    "primaryPage": "/topics/infrastructure",
+    "relatedTopics": [
+      "blockchain",
+      "smart-contracts",
+      "enterprise-blockchain",
+      "ai-blockchain"
+    ],
+    "bookResources": [
+      "deterministic-execution",
+      "quiet-rebuild-internet"
+    ],
+    "researchResources": [
+      "deterministic-execution-fixed-cost-l1"
+    ],
+    "tags": [
+      "infrastructure"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "enterprise-blockchain",
+    "uid": "topic:enterprise-blockchain",
+    "type": "topic",
+    "title": "Enterprise Blockchain",
+    "slug": "enterprise-blockchain",
+    "summary": "Business deployment requirements including predictability, governance, integration, privacy, security, compliance, and operational reliability.",
+    "level": "advanced",
+    "canonicalUrl": "/topics/enterprise-blockchain",
+    "primaryPage": "/topics/enterprise-blockchain",
+    "relatedTopics": [
+      "blockchain",
+      "infrastructure",
+      "smart-contracts",
+      "ai-blockchain"
+    ],
+    "bookResources": [
+      "deterministic-execution"
+    ],
+    "researchResources": [
+      "deterministic-execution-fixed-cost-l1"
+    ],
+    "tags": [
+      "enterprise-blockchain"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "topics",
+    "id": "ai-blockchain",
+    "uid": "topic:ai-blockchain",
+    "type": "topic",
+    "title": "AI + Blockchain",
+    "slug": "ai-blockchain",
+    "summary": "The intersection of AI agents, machine identity, programmable payments, permissions, verifiable records, and autonomous infrastructure.",
+    "level": "advanced",
+    "canonicalUrl": "/topics/ai-blockchain",
+    "primaryPage": "/topics/ai-blockchain",
+    "relatedTopics": [
+      "blockchain",
+      "smart-contracts",
+      "infrastructure",
+      "enterprise-blockchain"
+    ],
+    "bookResources": [
+      "ai-money-revolution",
+      "deterministic-execution"
+    ],
+    "researchResources": [
+      "deterministic-execution-fixed-cost-l1"
+    ],
+    "tags": [
+      "ai-blockchain"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "blockchain",
+    "uid": "glossary:blockchain",
+    "type": "glossary",
+    "term": "Blockchain",
+    "definition": "A shared data system in which network participants maintain and validate an ordered history of state changes.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "block",
+    "uid": "glossary:block",
+    "type": "glossary",
+    "term": "Block",
+    "definition": "A structured collection of transactions or state transitions accepted into a blockchain's history.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "transaction",
+    "uid": "glossary:transaction",
+    "type": "glossary",
+    "term": "Transaction",
+    "definition": "A signed request or recorded action that changes or references blockchain state.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "node",
+    "uid": "glossary:node",
+    "type": "glossary",
+    "term": "Node",
+    "definition": "A computer or service that participates in a blockchain network by maintaining, validating, or relaying network data.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "consensus",
+    "uid": "glossary:consensus",
+    "type": "glossary",
+    "term": "Consensus",
+    "definition": "The process or protocol through which network participants agree on valid state.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "finality",
+    "uid": "glossary:finality",
+    "type": "glossary",
+    "term": "Finality",
+    "definition": "The point at which a blockchain transaction or state transition is considered sufficiently irreversible under the network's rules.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "cryptocurrency",
+    "uid": "glossary:cryptocurrency",
+    "type": "glossary",
+    "term": "Cryptocurrency",
+    "definition": "A digitally represented asset whose ownership and transfer are recorded through a blockchain or related distributed system.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "token",
+    "uid": "glossary:token",
+    "type": "glossary",
+    "term": "Token",
+    "definition": "A digital asset created through application or smart-contract logic on top of an existing blockchain network.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "native-asset",
+    "uid": "glossary:native-asset",
+    "type": "glossary",
+    "term": "Native Asset",
+    "definition": "An asset built into a blockchain protocol and commonly used for network fees, staking, or economic coordination.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "stablecoin",
+    "uid": "glossary:stablecoin",
+    "type": "glossary",
+    "term": "Stablecoin",
+    "definition": "A digital asset designed to track or maintain a relatively stable reference value through a specified mechanism.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "wallet",
+    "uid": "glossary:wallet",
+    "type": "glossary",
+    "term": "Wallet",
+    "definition": "Software or hardware that helps a user manage keys, addresses, and transaction signing.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "address",
+    "uid": "glossary:address",
+    "type": "glossary",
+    "term": "Address",
+    "definition": "A public identifier associated with a blockchain account or transaction destination.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "private-key",
+    "uid": "glossary:private-key",
+    "type": "glossary",
+    "term": "Private Key",
+    "definition": "Secret cryptographic material used to authorize signatures and blockchain actions.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "seed-phrase",
+    "uid": "glossary:seed-phrase",
+    "type": "glossary",
+    "term": "Seed Phrase",
+    "definition": "A human-readable recovery representation used by many wallet systems to derive or restore cryptographic keys.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "signature",
+    "uid": "glossary:signature",
+    "type": "glossary",
+    "term": "Signature",
+    "definition": "Cryptographic proof that an authorized key approved a message or transaction.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "smart-contract",
+    "uid": "glossary:smart-contract",
+    "type": "glossary",
+    "term": "Smart Contract",
+    "definition": "Program logic deployed to a blockchain-compatible execution environment.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "gas",
+    "uid": "glossary:gas",
+    "type": "glossary",
+    "term": "Gas",
+    "definition": "A unit or mechanism used by some blockchain execution environments to meter computational work or transaction resource usage.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "state",
+    "uid": "glossary:state",
+    "type": "glossary",
+    "term": "State",
+    "definition": "The current set of data values a blockchain network recognizes at a given point in its execution history.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "defi",
+    "uid": "glossary:defi",
+    "type": "glossary",
+    "term": "DeFi",
+    "definition": "Blockchain-based financial applications implemented through smart contracts and digital assets.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "dex",
+    "uid": "glossary:dex",
+    "type": "glossary",
+    "term": "Decentralized Exchange",
+    "definition": "A protocol or application that enables asset exchange through blockchain-based execution rather than a traditional centralized order custodian.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "liquidity",
+    "uid": "glossary:liquidity",
+    "type": "glossary",
+    "term": "Liquidity",
+    "definition": "The availability of assets or counterparties that allows transactions to occur with limited price impact.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "collateral",
+    "uid": "glossary:collateral",
+    "type": "glossary",
+    "term": "Collateral",
+    "definition": "Assets pledged or locked to secure an obligation such as a blockchain-based loan.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "web3",
+    "uid": "glossary:web3",
+    "type": "glossary",
+    "term": "Web3",
+    "definition": "A broad term for internet applications and infrastructure that use blockchain, cryptographic ownership, decentralized systems, and programmable assets.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "dapp",
+    "uid": "glossary:dapp",
+    "type": "glossary",
+    "term": "Decentralized Application",
+    "definition": "An application that uses blockchain or decentralized infrastructure for some part of its state, execution, ownership, or coordination.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "rpc",
+    "uid": "glossary:rpc",
+    "type": "glossary",
+    "term": "RPC",
+    "definition": "A remote procedure call interface used by applications and services to query or submit requests to blockchain nodes.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "validator",
+    "uid": "glossary:validator",
+    "type": "glossary",
+    "term": "Validator",
+    "definition": "A network participant responsible for validating, proposing, attesting to, or otherwise helping finalize blockchain state under a consensus protocol.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "interoperability",
+    "uid": "glossary:interoperability",
+    "type": "glossary",
+    "term": "Interoperability",
+    "definition": "The ability of different networks, protocols, or applications to exchange data, assets, or messages.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "governance",
+    "uid": "glossary:governance",
+    "type": "glossary",
+    "term": "Governance",
+    "definition": "The processes and rules used to make decisions about a blockchain network, protocol, application, or shared resource.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "glossary",
+    "id": "ai-agent",
+    "uid": "glossary:ai-agent",
+    "type": "glossary",
+    "term": "AI Agent",
+    "definition": "Software that uses artificial intelligence to interpret goals, make decisions, and perform actions through tools or connected systems.",
+    "aliases": [],
+    "topicIds": [],
+    "relatedTerms": [],
+    "canonicalUrl": "/glossary/core-terms",
+    "status": "published"
+  },
+  {
+    "collection": "books",
+    "id": "understanding-blockchain",
+    "uid": "book:understanding-blockchain",
+    "type": "book",
+    "title": "Understanding Blockchain",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "blockchain"
+    ],
+    "status": "published",
+    "subtitle": "A Beginner’s Guide to the Technology That’s Changing the World"
+  },
+  {
+    "collection": "books",
+    "id": "understanding-seed-phrases",
+    "uid": "book:understanding-seed-phrases",
+    "type": "book",
+    "title": "Understanding Seed Phrases",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "wallets-security"
+    ],
+    "status": "published",
+    "subtitle": "Mastering Seed Phrases and Protecting Your Digital Wealth"
+  },
+  {
+    "collection": "books",
+    "id": "beginner-guide-cryptocurrency",
+    "uid": "book:beginner-guide-cryptocurrency",
+    "type": "book",
+    "title": "A Beginner’s Guide to Cryptocurrency",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "cryptocurrency"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "books",
+    "id": "understanding-defi",
+    "uid": "book:understanding-defi",
+    "type": "book",
+    "title": "Understanding Decentralized Finance",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "defi"
+    ],
+    "status": "published",
+    "subtitle": "Unlocking The Potential of DeFi and Earning Passive Income"
+  },
+  {
+    "collection": "books",
+    "id": "understanding-web3",
+    "uid": "book:understanding-web3",
+    "type": "book",
+    "title": "Understanding Web3",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "web3"
+    ],
+    "status": "published",
+    "subtitle": "The Beginner’s Guide to the Decentralized Internet"
+  },
+  {
+    "collection": "books",
+    "id": "dark-side-web3",
+    "uid": "book:dark-side-web3",
+    "type": "book",
+    "title": "The Dark Side of Web3",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "wallets-security",
+      "web3"
+    ],
+    "status": "published",
+    "subtitle": "How to Spot and Avoid Crypto Scams"
+  },
+  {
+    "collection": "books",
+    "id": "quiet-rebuild-internet",
+    "uid": "book:quiet-rebuild-internet",
+    "type": "book",
+    "title": "The Quiet Rebuild of the Internet",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "web3",
+      "infrastructure"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "books",
+    "id": "deterministic-execution",
+    "uid": "book:deterministic-execution",
+    "type": "book",
+    "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "blockchain",
+      "smart-contracts",
+      "infrastructure",
+      "enterprise-blockchain",
+      "ai-blockchain"
+    ],
+    "status": "published",
+    "subtitle": "How Vector Smart Chain Reimagines Blockchain Infrastructure for the Real World"
+  },
+  {
+    "collection": "books",
+    "id": "ai-money-revolution",
+    "uid": "book:ai-money-revolution",
+    "type": "book",
+    "title": "The AI Money Revolution",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "cryptocurrency",
+      "ai-blockchain"
+    ],
+    "status": "published",
+    "subtitle": "How Artificial Intelligence, Bitcoin, and Digital Assets Are Rebuilding the Global Economy"
+  },
+  {
+    "collection": "research",
+    "id": "deterministic-execution-fixed-cost-l1",
+    "uid": "research:deterministic-execution-fixed-cost-l1",
+    "type": "research",
+    "title": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure",
+    "author": "Jason Ansell",
+    "topicIds": [
+      "blockchain",
+      "smart-contracts",
+      "infrastructure",
+      "enterprise-blockchain",
+      "ai-blockchain"
+    ],
+    "identifiers": {
+      "doi": "10.5281/zenodo.20209305",
+      "ssrn": "6772498"
+    },
+    "status": "published"
+  },
+  {
+    "collection": "tutorials",
+    "id": "ask-blockchain-question",
+    "uid": "tutorial:ask-blockchain-question",
+    "type": "tutorial",
+    "title": "Ask a Blockchain Question",
+    "canonicalUrl": "/tutorials/ask-a-blockchain-question",
+    "topicIds": [
+      "blockchain"
+    ],
+    "difficulty": "beginner",
+    "status": "published"
+  },
+  {
+    "collection": "tutorials",
+    "id": "use-glossary",
+    "uid": "tutorial:use-glossary",
+    "type": "tutorial",
+    "title": "Use the Glossary",
+    "canonicalUrl": "/tutorials/use-the-glossary",
+    "topicIds": [
+      "blockchain"
+    ],
+    "difficulty": "beginner",
+    "status": "published"
+  },
+  {
+    "collection": "tutorials",
+    "id": "contribute-content",
+    "uid": "tutorial:contribute-content",
+    "type": "tutorial",
+    "title": "Contribute Content",
+    "canonicalUrl": "/tutorials/contribute-content",
+    "topicIds": [
+      "blockchain",
+      "infrastructure"
+    ],
+    "difficulty": "intermediate",
+    "status": "published"
+  },
+  {
+    "collection": "codeExamples",
+    "id": "documentation-example",
+    "uid": "code-example:documentation-example",
+    "type": "code-example",
+    "title": "Documentation Code Example",
+    "canonicalUrl": "/developers/code-examples",
+    "language": "javascript",
+    "topicIds": [
+      "smart-contracts",
+      "infrastructure"
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "aiPrompts",
+    "id": "explain-topic",
+    "uid": "ai-prompt:explain-topic",
+    "type": "ai-prompt",
+    "title": "Explain a Topic",
+    "prompt": "Explain {topic} at the requested learning level, then identify prerequisites and related concepts.",
+    "topicIds": [
+      "blockchain"
+    ],
+    "purpose": "education",
+    "status": "published"
+  },
+  {
+    "collection": "aiPrompts",
+    "id": "quiz-topic",
+    "uid": "ai-prompt:quiz-topic",
+    "type": "ai-prompt",
+    "title": "Quiz Me on a Topic",
+    "prompt": "Create a short knowledge check for {topic} using only supported Blockchain Library material.",
+    "topicIds": [
+      "blockchain"
+    ],
+    "purpose": "assessment",
+    "status": "published"
+  },
+  {
+    "collection": "aiPrompts",
+    "id": "developer-view",
+    "uid": "ai-prompt:developer-view",
+    "type": "ai-prompt",
+    "title": "Developer View",
+    "prompt": "Explain {topic} from a developer perspective, emphasizing architecture, interfaces, assumptions, and security considerations.",
+    "topicIds": [
+      "smart-contracts",
+      "infrastructure",
+      "ai-blockchain"
+    ],
+    "purpose": "development",
+    "status": "published"
+  },
+  {
+    "collection": "quizzes",
+    "id": "blockchain-foundations-check",
+    "uid": "quiz:blockchain-foundations-check",
+    "type": "quiz",
+    "title": "Blockchain Foundations Knowledge Check",
+    "topicIds": [
+      "blockchain"
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the role of consensus in a blockchain network?",
+        "answerType": "short-answer"
+      },
+      {
+        "id": "q2",
+        "question": "What is the difference between a wallet and the assets recorded on a blockchain?",
+        "answerType": "short-answer"
+      },
+      {
+        "id": "q3",
+        "question": "Why can transaction finality matter to applications?",
+        "answerType": "short-answer"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "learningPaths",
+    "id": "blockchain-foundations",
+    "uid": "learning-path:blockchain-foundations",
+    "type": "learning-path",
+    "title": "Blockchain Foundations",
+    "audience": "Beginner",
+    "steps": [
+      {
+        "order": 1,
+        "topicId": "blockchain",
+        "page": "/learn/foundations/blockchain-basics"
+      },
+      {
+        "order": 2,
+        "topicId": "cryptocurrency",
+        "page": "/learn/foundations/cryptocurrency"
+      },
+      {
+        "order": 3,
+        "topicId": "wallets-security",
+        "page": "/learn/foundations/wallets"
+      },
+      {
+        "order": 4,
+        "topicId": "smart-contracts",
+        "page": "/learn/foundations/smart-contracts"
+      },
+      {
+        "order": 5,
+        "topicId": "defi",
+        "page": "/learn/foundations/defi"
+      },
+      {
+        "order": 6,
+        "topicId": "wallets-security",
+        "page": "/learn/security/wallet-security"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "collection": "learningPaths",
+    "id": "developer-infrastructure",
+    "uid": "learning-path:developer-infrastructure",
+    "type": "learning-path",
+    "title": "Blockchain Developer & Infrastructure",
+    "audience": "Intermediate to Advanced",
+    "steps": [
+      {
+        "order": 1,
+        "topicId": "blockchain",
+        "page": "/topics/blockchain"
+      },
+      {
+        "order": 2,
+        "topicId": "smart-contracts",
+        "page": "/topics/smart-contracts"
+      },
+      {
+        "order": 3,
+        "topicId": "infrastructure",
+        "page": "/topics/infrastructure"
+      },
+      {
+        "order": 4,
+        "topicId": "enterprise-blockchain",
+        "page": "/topics/enterprise-blockchain"
+      },
+      {
+        "order": 5,
+        "topicId": "ai-blockchain",
+        "page": "/topics/ai-blockchain"
+      },
+      {
+        "order": 6,
+        "topicId": "ai-blockchain",
+        "page": "/mcp-server/overview"
+      }
+    ],
+    "status": "published"
+  }
+]

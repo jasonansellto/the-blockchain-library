@@ -1,0 +1,165 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "tbl": "https://theblockchainlibrary.com/ns#"
+  },
+  "@graph": [
+    {
+      "@id": "https://theblockchainlibrary.com/topics/blockchain",
+      "@type": "DefinedTermSet",
+      "name": "Blockchain",
+      "description": "Shared, cryptographically verifiable systems for recording and agreeing on state changes across a network.",
+      "url": "https://theblockchainlibrary.com/topics/blockchain"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/cryptocurrency",
+      "@type": "DefinedTermSet",
+      "name": "Cryptocurrency",
+      "description": "Digital assets whose ownership and transfer are recorded through blockchain or related distributed systems.",
+      "url": "https://theblockchainlibrary.com/topics/cryptocurrency"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/wallets-security",
+      "@type": "DefinedTermSet",
+      "name": "Wallets & Security",
+      "description": "Key management, signing, custody, permissions, transaction review, phishing defense, and wallet safety.",
+      "url": "https://theblockchainlibrary.com/topics/wallets-security"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/smart-contracts",
+      "@type": "DefinedTermSet",
+      "name": "Smart Contracts",
+      "description": "Programs deployed to blockchain-compatible execution environments that manage state, permissions, assets, and application logic.",
+      "url": "https://theblockchainlibrary.com/topics/smart-contracts"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/defi",
+      "@type": "DefinedTermSet",
+      "name": "DeFi",
+      "description": "Blockchain-based financial protocols for exchange, lending, liquidity, collateral, stablecoins, and programmable financial services.",
+      "url": "https://theblockchainlibrary.com/topics/defi"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/web3",
+      "@type": "DefinedTermSet",
+      "name": "Web3",
+      "description": "Applications and infrastructure built around cryptographic ownership, open protocols, blockchain systems, and programmable digital assets.",
+      "url": "https://theblockchainlibrary.com/topics/web3"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/infrastructure",
+      "@type": "DefinedTermSet",
+      "name": "Blockchain Infrastructure",
+      "description": "Nodes, RPC services, validators, execution environments, indexing, bridges, interoperability, and operational blockchain systems.",
+      "url": "https://theblockchainlibrary.com/topics/infrastructure"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/enterprise-blockchain",
+      "@type": "DefinedTermSet",
+      "name": "Enterprise Blockchain",
+      "description": "Business deployment requirements including predictability, governance, integration, privacy, security, compliance, and operational reliability.",
+      "url": "https://theblockchainlibrary.com/topics/enterprise-blockchain"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/topics/ai-blockchain",
+      "@type": "DefinedTermSet",
+      "name": "AI + Blockchain",
+      "description": "The intersection of AI agents, machine identity, programmable payments, permissions, verifiable records, and autonomous infrastructure.",
+      "url": "https://theblockchainlibrary.com/topics/ai-blockchain"
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/understanding-blockchain",
+      "@type": "Book",
+      "name": "Understanding Blockchain",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/understanding-seed-phrases",
+      "@type": "Book",
+      "name": "Understanding Seed Phrases",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/beginner-guide-cryptocurrency",
+      "@type": "Book",
+      "name": "A Beginner’s Guide to Cryptocurrency",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/understanding-defi",
+      "@type": "Book",
+      "name": "Understanding Decentralized Finance",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/understanding-web3",
+      "@type": "Book",
+      "name": "Understanding Web3",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/dark-side-web3",
+      "@type": "Book",
+      "name": "The Dark Side of Web3",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/quiet-rebuild-internet",
+      "@type": "Book",
+      "name": "The Quiet Rebuild of the Internet",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/deterministic-execution",
+      "@type": "Book",
+      "name": "Deterministic Execution: The Future of Blockchain Infrastructure",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/book/ai-money-revolution",
+      "@type": "Book",
+      "name": "The AI Money Revolution",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      }
+    },
+    {
+      "@id": "https://theblockchainlibrary.com/knowledge/research/deterministic-execution-fixed-cost-l1",
+      "@type": "ScholarlyArticle",
+      "name": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure",
+      "author": {
+        "@type": "Person",
+        "name": "Jason Ansell"
+      },
+      "identifier": [
+        "10.5281/zenodo.20209305",
+        "6772498"
+      ]
+    }
+  ]
+}

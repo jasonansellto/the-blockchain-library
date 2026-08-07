@@ -65,12 +65,12 @@
             "href": "/knowledge-engine/overview"
           },
           {
-            "label": "Developer overview",
-            "href": "/developers/overview"
+            "label": "Platform Architecture",
+            "href": "/knowledge-engine/platform"
           },
           {
-            "label": "MCP Server",
-            "href": "/mcp-server/overview"
+            "label": "Developer overview",
+            "href": "/developers/overview"
           }
         ]
       },
@@ -159,11 +159,18 @@
         "icon": "database",
         "pages": [
           "knowledge-engine/overview",
+          "knowledge-engine/platform",
+          "knowledge-engine/content-model",
           "knowledge-engine/topics",
           "knowledge-engine/glossary-data",
           "knowledge-engine/relationships",
           "knowledge-engine/learning-paths",
+          "knowledge-engine/books-research",
+          "knowledge-engine/ai-learning",
+          "knowledge-engine/generation",
+          "knowledge-engine/public-data",
           "knowledge-engine/ai-seo",
+          "knowledge-engine/road-to-api",
           "knowledge-engine/contributing"
         ]
       },

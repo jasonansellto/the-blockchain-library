@@ -1,0 +1,25 @@
+---
+title: "Canonical Content Model"
+description: "The shared object contract used across The Blockchain Library Knowledge Engine."
+---
+
+## Stable objects
+
+Every first-class object has an `id`, globally unique `uid`, object `type`, and publication `status`.
+
+```json
+{
+  "id": "deterministic-execution",
+  "uid": "book:deterministic-execution",
+  "type": "book",
+  "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+  "topicIds": ["blockchain", "infrastructure"],
+  "status": "published"
+}
+```
+
+The namespaced `uid` prevents collisions between a topic named `blockchain` and a glossary term named `blockchain`.
+
+## Status lifecycle
+
+`draft` → `review` → `published` → `deprecated`

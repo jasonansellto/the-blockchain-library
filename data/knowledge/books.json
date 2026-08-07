@@ -1,0 +1,119 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-08-07",
+  "books": [
+    {
+      "id": "understanding-blockchain",
+      "uid": "book:understanding-blockchain",
+      "type": "book",
+      "title": "Understanding Blockchain",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "blockchain"
+      ],
+      "status": "published",
+      "subtitle": "A Beginner’s Guide to the Technology That’s Changing the World"
+    },
+    {
+      "id": "understanding-seed-phrases",
+      "uid": "book:understanding-seed-phrases",
+      "type": "book",
+      "title": "Understanding Seed Phrases",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "wallets-security"
+      ],
+      "status": "published",
+      "subtitle": "Mastering Seed Phrases and Protecting Your Digital Wealth"
+    },
+    {
+      "id": "beginner-guide-cryptocurrency",
+      "uid": "book:beginner-guide-cryptocurrency",
+      "type": "book",
+      "title": "A Beginner’s Guide to Cryptocurrency",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "cryptocurrency"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "understanding-defi",
+      "uid": "book:understanding-defi",
+      "type": "book",
+      "title": "Understanding Decentralized Finance",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "defi"
+      ],
+      "status": "published",
+      "subtitle": "Unlocking The Potential of DeFi and Earning Passive Income"
+    },
+    {
+      "id": "understanding-web3",
+      "uid": "book:understanding-web3",
+      "type": "book",
+      "title": "Understanding Web3",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "web3"
+      ],
+      "status": "published",
+      "subtitle": "The Beginner’s Guide to the Decentralized Internet"
+    },
+    {
+      "id": "dark-side-web3",
+      "uid": "book:dark-side-web3",
+      "type": "book",
+      "title": "The Dark Side of Web3",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "wallets-security",
+        "web3"
+      ],
+      "status": "published",
+      "subtitle": "How to Spot and Avoid Crypto Scams"
+    },
+    {
+      "id": "quiet-rebuild-internet",
+      "uid": "book:quiet-rebuild-internet",
+      "type": "book",
+      "title": "The Quiet Rebuild of the Internet",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "web3",
+        "infrastructure"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "deterministic-execution",
+      "uid": "book:deterministic-execution",
+      "type": "book",
+      "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "blockchain",
+        "smart-contracts",
+        "infrastructure",
+        "enterprise-blockchain",
+        "ai-blockchain"
+      ],
+      "status": "published",
+      "subtitle": "How Vector Smart Chain Reimagines Blockchain Infrastructure for the Real World"
+    },
+    {
+      "id": "ai-money-revolution",
+      "uid": "book:ai-money-revolution",
+      "type": "book",
+      "title": "The AI Money Revolution",
+      "author": "Jason Ansell",
+      "topicIds": [
+        "cryptocurrency",
+        "ai-blockchain"
+      ],
+      "status": "published",
+      "subtitle": "How Artificial Intelligence, Bitcoin, and Digital Assets Are Rebuilding the Global Economy"
+    }
+  ]
+}
