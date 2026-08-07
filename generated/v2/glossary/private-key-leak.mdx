@@ -1,0 +1,54 @@
+---
+title: "Private Key Leak"
+description: "A private key leak occurs when the cryptographic key required to authorize transactions and access funds on a blockchain is exposed, stolen, or inadvertently made public. Because blockchain security relies entirely on the confidentiality of these keys, a leak effectively grants a"
+---
+
+# Private Key Leak
+
+A private key leak occurs when the cryptographic key required to authorize transactions and access funds on a blockchain is exposed, stolen, or inadvertently made public. Because blockchain security relies entirely on the confidentiality of these keys, a leak effectively grants a malicious actor total control over the wallet's contents. Once compromised, assets can be transferred to an external address, rendering the original owner's control over the funds void.
+
+## Definition
+
+A private key leak occurs when the cryptographic key required to authorize transactions and access funds on a blockchain is exposed, stolen, or inadvertently made public. Because blockchain security relies entirely on the confidentiality of these keys, a leak effectively grants a malicious actor total control over the wallet's contents. Once compromised, assets can be transferred to an external address, rendering the original owner's control over the funds void.
+
+## Simple explanation
+
+Your private key is like the master key to your digital safe. If you accidentally leave it on a public table, upload it to a cloud drive, or give it to a stranger, anyone who finds it has full control over your money. Once it leaks, you have essentially lost your 'ownership' of the assets in that wallet.
+
+## Why it matters
+
+A private key leak is a total security failure. There is no 'password reset' or 'customer service' to help recover funds; if the key is leaked, the assets are considered permanently lost.
+
+## How it works
+
+Keys can be leaked through insecure storage (plain text files), phishing, malware that scrapes clipboard data, or by mistakenly pushing code containing hardcoded keys to a public repository like GitHub. Once exposed, bots scan public data for these formats and automatically transfer funds to the attacker's wallet.
+
+## Real-world example
+
+Developers frequently experience private key leaks by accidentally committing environment variables containing their private keys to public GitHub repositories.
+
+## Advantages
+
+- Validates the strength of cryptography
+- Encourages the use of cold storage
+- Highlights the importance of self-custody practices
+
+## Limitations
+
+- Zero recovery options for lost keys
+- Difficult to prevent if using basic software wallets
+- Requires constant vigilance and secure storage
+
+## Common misconceptions
+
+- Some believe that if a private key is leaked, they can just change their password, but there is no such thing as a password in non-custodial wallets.
+- Many think storing keys on their computer is 'safe enough' until they realize malware can scrape memory or files.
+## Related knowledge
+
+- [Cryptography](/categories/cryptography) — term
+- [Seed Phrase](/glossary/seed-phrase) — term
+- [Self-Custody](/glossary/self-custody) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:private-key-leak`

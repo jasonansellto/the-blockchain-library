@@ -1,0 +1,50 @@
+---
+title: "Sign Message with ethers.js"
+description: "Sign and recover messages for authentication using ethers.js."
+---
+
+# Sign Message with ethers.js
+
+Sign and recover messages for authentication using ethers.js.
+
+Sign and recover messages for authentication using ethers.js.
+
+## Explanation
+
+signMessage prefixes the message with Ethereum-specific bytes to prevent signing arbitrary transactions. verifyMessage recovers the signer address. signTypedData provides EIP-712 structured data signing for better UX and security.
+
+## Code
+
+```javascript
+import { ethers } from "ethers";
+
+const wallet = new ethers.Wallet(privateKey);
+
+// Sign a message
+const message = "Sign in to MyDApp";
+const signature = await wallet.signMessage(message);
+console.log("Signature:", signature);
+
+// Recover the signer address
+const recovered = ethers.verifyMessage(message, signature);
+console.log("Recovered:", recovered);
+console.log("Match:", recovered === wallet.address);
+
+// Sign typed data (EIP-712)
+const domain = {
+  name: "MyDApp",
+  version: "1",
+  chainId: 1,
+};
+const types = {
+  Mail: [
+    { name: "from", type: "string" },
+    { name: "contents", type: "string" },
+  ],
+};
+const value = { from: "Alice", contents: "Hello!" };
+const typedSig = await wallet.signTypedData(domain, types, value);
+```
+---
+
+**Canonical knowledge ID:** `code-example:sign-message-ethers`

@@ -1,0 +1,51 @@
+---
+title: "Optimistic Rollup"
+description: "A Layer-2 system that assumes state transitions are valid unless challenged with a fraud proof."
+---
+
+# Optimistic Rollup
+
+A Layer-2 system that assumes state transitions are valid unless challenged with a fraud proof.
+
+## Definition
+
+A Layer-2 system that assumes state transitions are valid unless challenged with a fraud proof.
+
+## Why it matters
+
+Scaling concepts explain how blockchain systems increase capacity while balancing security and decentralization.
+
+## How it works
+
+Transactions are collected by a sequencer and published to Ethereum as call data. For a set time, anyone can submit a 'fraud proof' if they notice an error in the batch. If challenged, the protocol executes the specific transaction on-chain to determine the correct state, and the incorrect entry is discarded.
+
+## Real-world example
+
+Optimism and Arbitrum are both major implementations of Optimistic Rollups on the Ethereum network.
+
+## Advantages
+
+- High throughput and low fees
+- Security rooted in Ethereum
+- Relatively simple to implement
+
+## Limitations
+
+- Significant wait times for fund withdrawals
+- Relies on honest participants to challenge fraud
+- Centralized sequencers create single points of failure
+
+## Common misconceptions
+
+- Many believe rollups are insecure because they are off-chain; they are actually as secure as the main chain if a validator is active.
+- Some think transactions are instant, but they are only finalized on mainnet after the challenge period.
+## Related knowledge
+
+- [Data Availability](/glossary/data-availability) — term
+- [Layer 2](/categories/layer-2) — term
+- [Rollup](/glossary/rollup) — term
+- [Throughput](/glossary/throughput) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:optimistic-rollup`

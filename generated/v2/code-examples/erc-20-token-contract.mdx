@@ -1,0 +1,39 @@
+---
+title: "ERC-20 Token Contract"
+description: "A minimal, standard-compliant ERC-20 fungible token implementation in Solidity."
+---
+
+# ERC-20 Token Contract
+
+A minimal, standard-compliant ERC-20 fungible token implementation in Solidity.
+
+A minimal, standard-compliant ERC-20 fungible token implementation in Solidity.
+
+## Explanation
+
+This contract inherits from OpenZeppelin's `ERC20` implementation, which handles all standard token logic (transfers, allowances, balances).
+
+**Key points:**
+- The constructor mints `initialSupply` tokens to the deployer.
+- `decimals()` defaults to 18 (standard for ERC-20).
+- Using OpenZeppelin means the contract is audited and standard-compliant.
+
+Deploy with a constructor argument for the initial supply, e.g. `1000000` for one million tokens.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract MyToken is ERC20 {
+    constructor(uint256 initialSupply) ERC20("MyToken", "MTK") {
+        _mint(msg.sender, initialSupply * 10 ** decimals());
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:erc-20-token-contract`

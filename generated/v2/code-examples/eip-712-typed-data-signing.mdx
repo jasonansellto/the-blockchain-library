@@ -1,0 +1,62 @@
+---
+title: "EIP-712 Typed Data Signing"
+description: "Sign and verify EIP-712 typed structured data for secure off-chain signatures."
+---
+
+# EIP-712 Typed Data Signing
+
+Sign and verify EIP-712 typed structured data for secure off-chain signatures.
+
+Sign and verify EIP-712 typed structured data for secure off-chain signatures.
+
+## Explanation
+
+EIP-712 defines a standard for signing typed structured data. Users see a human-readable message in their wallet instead of raw hex. The domain separator prevents cross-contract and cross-chain replay attacks. This is the basis for gasless permit approvals (ERC-2612).
+
+## Code
+
+```typescript
+import { createWalletClient, http } from "viem";
+import { privateKeyToAccount } from "viem/accounts";
+import { sepolia } from "viem/chains";
+
+const account = privateKeyToAccount("0x...");
+const client = createWalletClient({ account, chain: sepolia, transport: http() });
+
+const domain = {
+  name: "MyDApp",
+  version: "1",
+  chainId: 11155111,
+  verifyingContract: "0x...contract",
+};
+
+const types = {
+  Permit: [
+    { name: "owner", type: "address" },
+    { name: "spender", type: "address" },
+    { name: "value", type: "uint256" },
+    { name: "nonce", type: "uint256" },
+    { name: "deadline", type: "uint256" },
+  ],
+} as const;
+
+const message = {
+  owner: account.address,
+  spender: "0x...spender",
+  value: 1_000_000_000_000_000_000n,
+  nonce: 0n,
+  deadline: BigInt(Math.floor(Date.now() / 1000) + 3600),
+};
+
+const signature = await client.signTypedData({
+  account,
+  domain,
+  types,
+  primaryType: "Permit",
+  message,
+});
+console.log("Signature:", signature);
+```
+---
+
+**Canonical knowledge ID:** `code-example:eip-712-typed-data-signing`

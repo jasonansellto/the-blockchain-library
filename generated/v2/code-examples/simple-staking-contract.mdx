@@ -1,0 +1,68 @@
+---
+title: "Simple Staking Contract"
+description: "A basic staking contract where users stake tokens and earn rewards proportional to their stake."
+---
+
+# Simple Staking Contract
+
+A basic staking contract where users stake tokens and earn rewards proportional to their stake.
+
+A basic staking contract where users stake tokens and earn rewards proportional to their stake.
+
+## Explanation
+
+This staking contract implements the standard reward distribution pattern. rewardPerToken tracks accumulated rewards per staked token. The updateReward modifier syncs state before any stake/withdraw to ensure accurate accounting.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract Staking is ReentrancyGuard {
+    IERC20 public stakingToken;
+    uint256 public rewardRate = 100; // tokens per block
+    uint256 public lastUpdateBlock;
+    uint256 public rewardPerTokenStored;
+
+    mapping(address => uint256) public userRewardPerTokenPaid;
+    mapping(address => uint256) public rewards;
+    mapping(address => uint256) public balances;
+    uint256 public totalSupply;
+
+    constructor(address _token) {
+        stakingToken = IERC20(_token);
+    }
+
+    function stake(uint256 amount) external nonReentrant updateReward(msg.sender) {
+        totalSupply += amount;
+        balances[msg.sender] += amount;
+        stakingToken.transferFrom(msg.sender, address(this), amount);
+    }
+
+    modifier updateReward(address account) {
+        rewardPerTokenStored = rewardPerToken();
+        lastUpdateBlock = block.number;
+        if (account != address(0)) {
+            rewards[account] = earned(account);
+            userRewardPerTokenPaid[account] = rewardPerTokenStored;
+        }
+        _;
+    }
+
+    function rewardPerToken() public view returns (uint256) {
+        if (totalSupply == 0) return rewardPerTokenStored;
+        return rewardPerTokenStored + (rewardRate * (block.number - lastUpdateBlock) * 1e18) / totalSupply;
+    }
+
+    function earned(address account) public view returns (uint256) {
+        return (balances[account] * (rewardPerToken() - userRewardPerTokenPaid[account])) / 1e18 + rewards[account];
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:simple-staking-contract`

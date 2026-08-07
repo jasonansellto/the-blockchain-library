@@ -1,0 +1,50 @@
+---
+title: "Deterministic Execution"
+description: "Execution in which the same valid transaction and prior state always produce the same resulting state across compliant nodes."
+---
+
+# Deterministic Execution
+
+Execution in which the same valid transaction and prior state always produce the same resulting state across compliant nodes.
+
+## Definition
+
+Execution in which the same valid transaction and prior state always produce the same resulting state across compliant nodes.
+
+## Why it matters
+
+Execution concepts explain how transactions change blockchain state in a deterministic way.
+
+## How it works
+
+The network nodes execute smart contract code using a standardized runtime environment that strips away non-deterministic factors like system time or random number generators. Each node processes transactions sequentially based on the order in the block. If every node follows the same instruction set on the same data, the state updates match exactly across the entire network.
+
+## Real-world example
+
+The Ethereum Virtual Machine (EVM) is designed to be deterministic, ensuring all nodes reach the same balance after executing a specific contract call.
+
+## Advantages
+
+- Enables network-wide consensus agreement
+- Prevents state drift between nodes
+- Simplifies debugging and auditing
+
+## Limitations
+
+- Restricts use of random number generation
+- Limits access to external system data
+- Increases complexity of smart contract development
+
+## Common misconceptions
+
+- People often think deterministic execution means the transaction will always succeed, but it only means the result will be identical even if it fails.
+- Many believe it prevents bugs, but it actually just ensures that bugs occur consistently across all nodes.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:deterministic-execution`

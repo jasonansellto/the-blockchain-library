@@ -1,0 +1,50 @@
+---
+title: "Vyper ERC-20 Token"
+description: "A minimal ERC-20 token implementation in Vyper, showcasing Vyper's clean syntax and built-in overflow protection."
+---
+
+# Vyper ERC-20 Token
+
+A minimal ERC-20 token implementation in Vyper, showcasing Vyper's clean syntax and built-in overflow protection.
+
+A minimal ERC-20 token implementation in Vyper, showcasing Vyper's clean syntax and built-in overflow protection.
+
+## Explanation
+
+Vyper is a Python-inspired smart contract language that compiles to EVM bytecode. It intentionally lacks inheritance and has built-in overflow checks. The syntax is cleaner than Solidity but it's less feature-rich by design.
+
+## Code
+
+```vyper
+# @version ^0.3.10
+
+name: public(String[32])
+symbol: public(String[32])
+decimals: public(uint8)
+totalSupply: public(uint256)
+balanceOf: public(HashMap[address, uint256])
+allowance: public(HashMap[address, HashMap[address, uint256]])
+
+@external
+def __init__(_name: String[32], _symbol: String[32], _decimals: uint8, _supply: uint256):
+    self.name = _name
+    self.symbol = _symbol
+    self.decimals = _decimals
+    self.totalSupply = _supply
+    self.balanceOf[msg.sender] = _supply
+
+@external
+def transfer(_to: address, _amount: uint256) -> bool:
+    assert _to != empty(address)
+    self.balanceOf[msg.sender] -= _amount
+    self.balanceOf[_to] += _amount
+    return True
+
+@external
+def approve(_spender: address, _amount: uint256) -> bool:
+    self.allowance[msg.sender][_spender] = _amount
+    return True
+```
+---
+
+**Canonical knowledge ID:** `code-example:vyper-erc-20-token`

@@ -1,0 +1,59 @@
+---
+title: "zkRollup"
+description: "A zkRollup (Zero-Knowledge Rollup) is a Layer 2 scaling solution that performs transaction execution outside of the main Ethereum blockchain, while relying on the L1 for data availability and finality. By bundling hundreds or thousands of transactions into a single batch and gene"
+---
+
+# zkRollup
+
+A zkRollup (Zero-Knowledge Rollup) is a Layer 2 scaling solution that performs transaction execution outside of the main Ethereum blockchain, while relying on the L1 for data availability and finality. By bundling hundreds or thousands of transactions into a single batch and generating a cryptographic proof known as a zk-SNARK (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) or zk-STARK, the system verifies the validity of all bundled transactions simultaneously. This allows the main chain to verify the state update without processing every individual transaction, significantly increasing throughput and reducing gas costs while maintaining high-level security.
+
+## Definition
+
+A zkRollup (Zero-Knowledge Rollup) is a Layer 2 scaling solution that performs transaction execution outside of the main Ethereum blockchain, while relying on the L1 for data availability and finality. By bundling hundreds or thousands of transactions into a single batch and generating a cryptographic proof known as a zk-SNARK (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge) or zk-STARK, the system verifies the validity of all bundled transactions simultaneously. This allows the main chain to verify the state update without processing every individual transaction, significantly increasing throughput and reducing gas costs while maintaining high-level security.
+
+## Simple explanation
+
+Imagine you have a huge pile of math homework to show your teacher. Instead of the teacher checking every single page one by one, you give them a single, magical receipt that proves you solved all the problems correctly. In the world of blockchain, a zkRollup acts like this magical receipt: it bundles many transactions together and gives the main blockchain a compact proof that everything inside is valid, saving tons of time and money.
+
+## Why it matters
+
+zkRollups are essential for solving the 'blockchain trilemma' by enabling massive scalability without sacrificing the decentralized security of the mainnet. They make decentralized applications practical for everyday use by drastically lowering transaction fees and increasing speed.
+
+## How it works
+
+Users submit transactions to a smart contract on the Layer 1 chain, which then bundles them off-chain. An operator computes a new state and generates a validity proof that demonstrates the transitions are correct according to protocol rules. This compact proof is then submitted to the L1, where it is verified by a smart contract to finalize the state, ensuring that the off-chain execution remains trustless.
+
+## Real-world example
+
+Projects like zkSync Era, Starknet, and Polygon zkEVM are prominent examples of zkRollup implementations that provide scalable infrastructure for DeFi, NFT marketplaces, and decentralized exchanges.
+
+## Advantages
+
+- Significantly lower transaction fees for users
+- Inherits full security from the Ethereum mainnet
+- Fast finality compared to optimistic rollups
+- Reduces congestion on the base blockchain
+
+## Limitations
+
+- Complex cryptographic proofs require high computational power
+- Potential for smart contract bugs in the rollup code
+- Development of general-purpose EVM compatibility is still maturing
+
+## Common misconceptions
+
+- People often think that zkRollups hide transaction data from everyone, when in fact the data remains available on L1 for transparency.
+- It is a common error to assume zkRollups are identical to optimistic rollups, whereas they use entirely different mathematical verification methods.
+## Related knowledge
+
+- [Data Availability](/glossary/data-availability) — term
+- [Ethereum Virtual Machine](/glossary/ethereum-virtual-machine) — term
+- [Layer 2](/categories/layer-2) — term
+- [Optimistic Rollup](/glossary/optimistic-rollup) — term
+- [State Root](/glossary/state-root) — term
+- [Validity Proof](/glossary/validity-proof) — term
+- [Zero-Knowledge Proof](/glossary/zero-knowledge-proof) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:zkrollup`

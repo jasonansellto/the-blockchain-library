@@ -1,0 +1,55 @@
+---
+title: "ERC-4337 Account Abstraction"
+description: "Send a UserOp through an ERC-4337 bundler using viem and permissionless."
+---
+
+# ERC-4337 Account Abstraction
+
+Send a UserOp through an ERC-4337 bundler using viem and permissionless.
+
+Send a UserOp through an ERC-4337 bundler using viem and permissionless.
+
+## Explanation
+
+ERC-4337 enables account abstraction without protocol changes. Users submit UserOperations to a bundler, which batches them and submits to an EntryPoint contract. This enables gasless transactions, social recovery, and custom validation logic.
+
+## Code
+
+```typescript
+import { createBundlerClient, toSmartContractAccount } from "permissionless";
+import { pimlicoBundlerActions } from "permissionless/actions/pimlico";
+import { http, createClient } from "viem";
+import { mainnet } from "viem/chains";
+
+const bundlerClient = createBundlerClient({
+  chain: mainnet,
+  transport: http("https://api.pimlico.io/v1/mainnet/rpc?apikey=YOUR_KEY"),
+}).extend(pimlicoBundlerActions());
+
+// Build a UserOperation
+const userOp = {
+  sender: smartAccountAddress,
+  nonce: await bundlerClient.getAccountNonce({ address: smartAccountAddress }),
+  initCode: "0x",
+  callData: encodeFunctionData({
+    abi: smartAccountAbi,
+    functionName: "execute",
+    args: [targetAddress, value, callData],
+  }),
+  callGasLimit: 100_000n,
+  verificationGasLimit: 100_000n,
+  preVerificationGas: 50_000n,
+  maxFeePerGas: parseGwei("2"),
+  maxPriorityFeePerGas: parseGwei("1"),
+  signature: "0x",
+};
+
+const userOpHash = await bundlerClient.sendUserOperation({
+  userOperation: userOp,
+  entryPoint: entryPointAddress,
+});
+console.log("UserOp hash:", userOpHash);
+```
+---
+
+**Canonical knowledge ID:** `code-example:erc-4337-account-abstraction`

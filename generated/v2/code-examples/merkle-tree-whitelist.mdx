@@ -1,0 +1,49 @@
+---
+title: "Merkle Tree Whitelist"
+description: "Generate a Merkle tree for whitelist verification and verify proofs on-chain."
+---
+
+# Merkle Tree Whitelist
+
+Generate a Merkle tree for whitelist verification and verify proofs on-chain.
+
+Generate a Merkle tree for whitelist verification and verify proofs on-chain.
+
+## Explanation
+
+Merkle trees allow O(log n) proof verification. The root is stored on-chain; users submit a proof proving their address is in the whitelist. This is far cheaper than storing a mapping of all whitelisted addresses.
+
+## Code
+
+```typescript
+import { MerkleTree } from "merkletreejs";
+import { keccak256, encodePacked, toHex } from "viem";
+
+// Build the tree from whitelist addresses
+const whitelist = [
+  "0x1234...",
+  "0x5678...",
+  "0xabcd...",
+];
+
+const leaves = whitelist.map((addr) =>
+  keccak256(encodePacked(["address"], [addr]))
+);
+
+const tree = new MerkleTree(leaves, keccak256, { sortPairs: true });
+const root = tree.getHexRoot();
+
+// Generate a proof for a specific address
+const leaf = keccak256(encodePacked(["address"], ["0x1234..."]));
+const proof = tree.getHexProof(leaf);
+
+console.log("Root:", root);
+console.log("Proof:", proof);
+
+// Verify on-chain in your Solidity contract:
+// bytes32 leaf = keccak256(abi.encodePacked(msg.sender));
+// require(MerkleProof.verify(proof, root, leaf), "Not whitelisted");
+```
+---
+
+**Canonical knowledge ID:** `code-example:merkle-tree-whitelist`

@@ -1,0 +1,49 @@
+---
+title: "Reentrancy"
+description: "A smart-contract vulnerability where an external call re-enters a contract before the original execution safely completes state updates."
+---
+
+# Reentrancy
+
+A smart-contract vulnerability where an external call re-enters a contract before the original execution safely completes state updates.
+
+## Definition
+
+A smart-contract vulnerability where an external call re-enters a contract before the original execution safely completes state updates.
+
+## Why it matters
+
+Security concepts help users and developers recognize common blockchain attack surfaces and defenses.
+
+## How it works
+
+The victim contract performs an external call (like sending ETH). The malicious contract's fallback function is triggered, which calls back into the victim contract's withdrawal function. Since the state variable (balance) has not been updated yet, the logic allows another withdrawal, repeating this cycle.
+
+## Real-world example
+
+The 2016 DAO attack remains the most infamous example of a reentrancy exploit, which led to the Ethereum hard fork.
+
+## Advantages
+
+- Highlights critical security design flaws
+- Forces developers to adopt defensive coding
+
+## Limitations
+
+- Major financial security risk
+- Prevents simple, intuitive state management
+- Requires complex mitigation patterns like mutexes
+
+## Common misconceptions
+
+- Many think only malicious contracts cause this, but it is actually the vulnerable contract's poor design.
+- Developers often assume 'checks-effects-interactions' pattern is easy, but it requires extreme discipline.
+## Related knowledge
+
+- [Phishing](/glossary/phishing) — term
+- [Smart Contract Audit](/glossary/smart-contract-audit) — term
+- [Sybil Attack](/glossary/sybil-attack) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:reentrancy`

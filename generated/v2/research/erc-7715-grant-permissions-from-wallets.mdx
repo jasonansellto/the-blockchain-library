@@ -1,0 +1,51 @@
+---
+title: "ERC-7715: Grant Permissions from Wallets"
+description: "ERC-7715 introduces a structured permission framework that allows smart accounts to grant limited, scoped access to external dApps or services. Traditionally, b"
+---
+
+# ERC-7715: Grant Permissions from Wallets
+
+ERC-7715 introduces a structured permission framework that allows smart accounts to grant limited, scoped access to external dApps or services. Traditionally, b
+
+## Abstract
+
+ERC-7715 introduces a structured permission framework that allows smart accounts to grant limited, scoped access to external dApps or services. Traditionally, blockchain interactions require a signature for every single transaction, which creates significant UX friction. This standard proposes a way for a wallet to grant 'permissions' to a dApp—such as spending a certain amount of ERC-20 tokens or interacting with specific contract methods—without requiring constant user intervention for each action. This is achieved by creating an ephemeral session key or a constrained grant that is linked to the primary account. The methodology relies on defining clear constraints and scopes, ensuring that the granting process is secure and transparent to the end user. By facilitating these 'permissions,' the standard enables a 'web-like' experience in decentralized finance and gaming, where users can authorize a service to act on their behalf within defined safety parameters. This reduces reliance on full account access and improves the user experience by enabling batchable, automated, and streamlined transactions, while maintaining the non-custodial and secure nature of blockchain-based assets.
+
+**Authors:** Lukas Schor, Richard Meissner, Dror Tirosh
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2024-01-01
+
+## Key findings
+
+- Introduces a standard for granular permission granting from smart accounts.
+- Allows dApps to interact with accounts using constrained scope sessions.
+- Reduces UX friction by minimizing the frequency of required user signatures.
+- Enhances security by allowing for limited, rather than full, access delegation.
+
+## Citation
+
+Lukas Schor, Richard Meissner, Dror Tirosh (2024). ERC-7715: Grant Permissions from Wallets. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-7715
+## Related knowledge
+
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — article
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — related-article
+- [Account Abstraction](/glossary/account-abstraction) — glossary
+- [Account Abstraction](/glossary/account-abstraction) — related-glossary
+- [Beacon Chain](/glossary/beacon-chain) — glossary
+- [Beacon Chain](/glossary/beacon-chain) — related-glossary
+- [Browser Wallet](/glossary/browser-wallet) — glossary
+- [Browser Wallet](/glossary/browser-wallet) — related-glossary
+- [HD Wallet](/glossary/hd-wallet) — glossary
+- [HD Wallet](/glossary/hd-wallet) — related-glossary
+- [LP Token](/glossary/lp-token) — glossary
+- [LP Token](/glossary/lp-token) — related-glossary
+- [Modifier](/glossary/modifier) — glossary
+- [Modifier](/glossary/modifier) — related-glossary
+- [The Role of Smart Contracts in 2025: Beyond DeFi and NFTs](/topics/the-role-of-smart-contracts-in-2025-beyond-defi-and-nfts) — article
+- [The Role of Smart Contracts in 2025: Beyond DeFi and NFTs](/topics/the-role-of-smart-contracts-in-2025-beyond-defi-and-nfts) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:erc-7715-grant-permissions-from-wallets`

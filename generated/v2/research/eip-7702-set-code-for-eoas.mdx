@@ -1,0 +1,51 @@
+---
+title: "EIP-7702: Set Code for EOAs"
+description: "EIP-7702 introduces a novel mechanism to upgrade Externally Owned Accounts (EOAs) to smart contract wallets on a per-transaction basis. Historically, Ethereum u"
+---
+
+# EIP-7702: Set Code for EOAs
+
+EIP-7702 introduces a novel mechanism to upgrade Externally Owned Accounts (EOAs) to smart contract wallets on a per-transaction basis. Historically, Ethereum u
+
+## Abstract
+
+EIP-7702 introduces a novel mechanism to upgrade Externally Owned Accounts (EOAs) to smart contract wallets on a per-transaction basis. Historically, Ethereum users have been restricted to two distinct account types: EOAs, which are simple public-private key pairs, and smart contract accounts, which offer programmable logic. EIP-7702 bridges this gap by allowing an EOA to temporarily execute as a smart contract, providing the advanced features of account abstraction without requiring a permanent migration or loss of compatibility. This proposal leverages a new transaction type that includes a signature and a code field, enabling the temporary delegation of an EOA's code to a smart contract. By facilitating this transition, the proposal enhances user security, enables gasless transactions, and allows for multisig or batching capabilities on existing legacy accounts. It represents a significant step in the Ethereum ecosystem's move toward complete account abstraction by reducing the technical friction associated with shifting from traditional key-based management to programmable, smart contract-based account ownership.
+
+**Authors:** Vitalik Buterin, Sam Wilson, Ansgar Dietrichs, Matt Garnett
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2024-01-01
+
+## Key findings
+
+- Introduces a new transaction type that enables EOAs to function as smart contracts.
+- Allows for temporary smart contract code execution without permanent account migration.
+- Enhances user security through native support for multisig and complex authentication logic.
+- Facilitates a smoother transition path for users toward full account abstraction.
+
+## Citation
+
+Vitalik Buterin, Sam Wilson, Ansgar Dietrichs, Matt Garnett (2024). EIP-7702: Set Code for EOAs. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-7702
+## Related knowledge
+
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — article
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — related-article
+- [Account Abstraction](/glossary/account-abstraction) — glossary
+- [Account Abstraction](/glossary/account-abstraction) — related-glossary
+- [Beacon Chain](/glossary/beacon-chain) — glossary
+- [Beacon Chain](/glossary/beacon-chain) — related-glossary
+- [Browser Wallet](/glossary/browser-wallet) — glossary
+- [Browser Wallet](/glossary/browser-wallet) — related-glossary
+- [HD Wallet](/glossary/hd-wallet) — glossary
+- [HD Wallet](/glossary/hd-wallet) — related-glossary
+- [LP Token](/glossary/lp-token) — glossary
+- [LP Token](/glossary/lp-token) — related-glossary
+- [Modifier](/glossary/modifier) — glossary
+- [Modifier](/glossary/modifier) — related-glossary
+- [The Role of Smart Contracts in 2025: Beyond DeFi and NFTs](/topics/the-role-of-smart-contracts-in-2025-beyond-defi-and-nfts) — article
+- [The Role of Smart Contracts in 2025: Beyond DeFi and NFTs](/topics/the-role-of-smart-contracts-in-2025-beyond-defi-and-nfts) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:eip-7702-set-code-for-eoas`

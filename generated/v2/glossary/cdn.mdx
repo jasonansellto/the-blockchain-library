@@ -1,0 +1,51 @@
+---
+title: "CDN"
+description: "A Content Delivery Network (CDN) is a geographically distributed network of servers designed to accelerate the delivery of web content by minimizing the distance between the server and the end user. In the context of blockchain, CDNs are frequently used to cache static assets, su"
+---
+
+# CDN
+
+A Content Delivery Network (CDN) is a geographically distributed network of servers designed to accelerate the delivery of web content by minimizing the distance between the server and the end user. In the context of blockchain, CDNs are frequently used to cache static assets, such as frontend dApp interfaces, JavaScript files, and images, ensuring that decentralized applications load quickly and reliably globally. By offloading static content from the core network or backend infrastructure, CDNs improve user experience and reduce server load.
+
+## Definition
+
+A Content Delivery Network (CDN) is a geographically distributed network of servers designed to accelerate the delivery of web content by minimizing the distance between the server and the end user. In the context of blockchain, CDNs are frequently used to cache static assets, such as frontend dApp interfaces, JavaScript files, and images, ensuring that decentralized applications load quickly and reliably globally. By offloading static content from the core network or backend infrastructure, CDNs improve user experience and reduce server load.
+
+## Simple explanation
+
+Imagine you have a lemonade stand, but people want your lemonade all over the world. Instead of making them walk to you, you open small stalls in every city. A CDN is that network of stalls, storing copies of your files closer to the user so they don't have to wait for the information to travel across the globe.
+
+## Why it matters
+
+CDNs ensure that decentralized applications (dApps) remain accessible and performant, which is crucial for mainstream adoption. Without them, websites could be slow or inaccessible in regions far from the primary hosting servers.
+
+## How it works
+
+When a user accesses a website, the CDN identifies the user's location and serves the content from the nearest 'edge' server. If the file is not currently cached, the edge server fetches it from the origin server once and then stores it for future requests. This drastically reduces latency and bandwidth costs for the dApp provider.
+
+## Real-world example
+
+Cloudflare or IPFS gateways often serve as CDNs to speed up the loading of decentralized website frontends.
+
+## Advantages
+
+- Drastically reduces load times
+- Enhances website availability and uptime
+- Protects against DDoS attacks
+
+## Limitations
+
+- Introduces central points of control
+- Potential for stale content caching
+- Not suitable for dynamic on-chain data
+
+## Common misconceptions
+
+- CDNs are part of the blockchain protocol; they are external web infrastructure. Using a CDN makes an application fully decentralized; the frontend is still dependent on the CDN provider.
+## Related knowledge
+
+- [IPFS](/developers/resources/ipfs) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:cdn`

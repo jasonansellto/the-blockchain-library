@@ -1,0 +1,51 @@
+---
+title: "Transaction Fee Mechanism Design"
+description: "This technical report by Tim Roughgarden provides a comprehensive analysis of transaction fee mechanisms (TFMs) in blockchain systems, with a specific focus on"
+---
+
+# Transaction Fee Mechanism Design
+
+This technical report by Tim Roughgarden provides a comprehensive analysis of transaction fee mechanisms (TFMs) in blockchain systems, with a specific focus on
+
+## Abstract
+
+This technical report by Tim Roughgarden provides a comprehensive analysis of transaction fee mechanisms (TFMs) in blockchain systems, with a specific focus on the Ethereum 1559 model. The paper introduces a formal game-theoretic framework to evaluate the design of fee auctions, considering the objectives of user experience, miner incentive alignment, and network stability. Roughgarden contrasts traditional first-price auctions with burn-based mechanisms, highlighting how the latter reduces the volatility of fee markets and improves the predictability of transaction inclusion. The paper explores the risks of side-deals and censorship, providing a mathematical rigor that is often missing from general discussions about protocol upgrades. By evaluating the EIP-1559 proposal in depth, the author demonstrates how subtle changes to the TFM can significantly impact the user cost profile and the long-term economic sustainability of the base layer. This paper is widely considered the standard text for understanding how blockchain protocols manage congestion and incentivize validator behavior.
+
+**Authors:** Tim Roughgarden
+
+**Publication:** arXiv preprint
+
+**Publication date:** 2021-01-01
+
+## Key findings
+
+- First-price auctions create unnecessary volatility and suboptimal UX for blockchain users.
+- The EIP-1559 mechanism effectively decouples base fees from priority fees to improve predictability.
+- Miner extractable value (MEV) presents persistent challenges that require specific TFM design considerations.
+- Incentive compatibility is the primary metric for evaluating the success of a transaction fee mechanism.
+
+## Citation
+
+Tim Roughgarden (2021). Transaction Fee Mechanism Design. arXiv preprint. https://arxiv.org/abs/2106.01340
+## Related knowledge
+
+- [Beacon Chain](/glossary/beacon-chain) — glossary
+- [Beacon Chain](/glossary/beacon-chain) — related-glossary
+- [EIP-4844](/glossary/eip-4844) — glossary
+- [EIP-4844](/glossary/eip-4844) — related-glossary
+- [ERC-4337](/glossary/erc-4337) — glossary
+- [ERC-4337](/glossary/erc-4337) — related-glossary
+- [ERC-4626](/glossary/erc-4626) — glossary
+- [ERC-4626](/glossary/erc-4626) — related-glossary
+- [Ethereum Improvement Proposal](/glossary/ethereum-improvement-proposal) — glossary
+- [Ethereum Improvement Proposal](/glossary/ethereum-improvement-proposal) — related-glossary
+- [Ethereum vs. Solana vs. Vector Smart Chain (VSC): Which Blockchain is Best in 2025?](/topics/ethereum-vs-solana-vs-vector-smart-chain-vsc-which-blockchain-is-best-in-2025) — article
+- [Ethereum vs. Solana vs. Vector Smart Chain (VSC): Which Blockchain is Best in 2025?](/topics/ethereum-vs-solana-vs-vector-smart-chain-vsc-which-blockchain-is-best-in-2025) — related-article
+- [Is Ethereum a block chain?](/topics/is-ethereum-a-block-chain) — article
+- [Is Ethereum a block chain?](/topics/is-ethereum-a-block-chain) — related-article
+- [Restaking and LRTs: How Ethereum’s New Narrative Is Reshaping DeFi](/topics/restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi) — article
+- [Restaking and LRTs: How Ethereum’s New Narrative Is Reshaping DeFi](/topics/restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:transaction-fee-mechanism-design`

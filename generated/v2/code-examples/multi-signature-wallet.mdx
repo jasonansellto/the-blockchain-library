@@ -1,0 +1,70 @@
+---
+title: "Multi-Signature Wallet"
+description: "A multi-signature wallet requiring M-of-N approvals before executing transactions."
+---
+
+# Multi-Signature Wallet
+
+A multi-signature wallet requiring M-of-N approvals before executing transactions.
+
+A multi-signature wallet requiring M-of-N approvals before executing transactions.
+
+## Explanation
+
+A multisig requires multiple owners to confirm a transaction before it executes. submit creates a transaction, confirm adds approval, and execute runs it once the threshold is met. This is the gold standard for treasury security.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+contract MultiSigWallet {
+    address[] public owners;
+    mapping(address => bool) public isOwner;
+    uint256 public required;
+
+    struct Transaction { address to; uint256 value; bytes data; bool executed; uint256 confirmations; }
+    mapping(uint256 => Transaction) public transactions;
+    mapping(uint256 => mapping(address => bool)) public confirmed;
+    uint256 public txCount;
+
+    event Submit(uint256 indexed txId);
+    event Confirm(address indexed sender, uint256 indexed txId);
+    event Execute(uint256 indexed txId);
+
+    constructor(address[] memory _owners, uint256 _required) {
+        require(_owners.length > 0 && _required > 0 && _required <= _owners.length);
+        for (uint256 i = 0; i < _owners.length; i++) {
+            isOwner[_owners[i]] = true;
+        }
+        owners = _owners;
+        required = _required;
+    }
+
+    function submit(address to, uint256 value, bytes memory data) external {
+        require(isOwner[msg.sender], "Not owner");
+        transactions[txCount] = Transaction(to, value, data, false, 0);
+        emit Submit(txCount++);
+    }
+
+    function confirm(uint256 txId) external {
+        require(isOwner[msg.sender] && !confirmed[txId][msg.sender]);
+        confirmed[txId][msg.sender] = true;
+        transactions[txId].confirmations++;
+        emit Confirm(msg.sender, txId);
+    }
+
+    function execute(uint256 txId) external {
+        Transaction storage t = transactions[txId];
+        require(!t.executed && t.confirmations >= required, "Not enough confirmations");
+        t.executed = true;
+        (bool ok,) = t.to.call{value: t.value}(t.data);
+        require(ok, "Tx failed");
+        emit Execute(txId);
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:multi-signature-wallet`

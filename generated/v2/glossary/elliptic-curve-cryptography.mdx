@@ -1,0 +1,48 @@
+---
+title: "Elliptic Curve Cryptography"
+description: "A family of public-key cryptographic techniques based on the algebraic properties of elliptic curves over finite fields."
+---
+
+# Elliptic Curve Cryptography
+
+A family of public-key cryptographic techniques based on the algebraic properties of elliptic curves over finite fields.
+
+## Definition
+
+A family of public-key cryptographic techniques based on the algebraic properties of elliptic curves over finite fields.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+ECC relies on the difficulty of the Elliptic Curve Discrete Logarithm Problem. Given a point on a curve and a scalar, it is easy to find the product point, but given two points, it is extremely hard to determine the scalar that relates them. This one-way mathematical property provides the security for public-key systems.
+
+## Real-world example
+
+The secp256k1 curve is the specific elliptic curve used by Bitcoin for its public-key cryptography.
+
+## Advantages
+
+- Higher security with smaller key sizes
+- Lower energy and computational requirements
+- Reduced storage space for blockchain headers
+
+## Limitations
+
+- Mathematically more complex to implement
+- Potential vulnerability to future quantum attacks
+- Requires precise library implementations
+
+## Common misconceptions
+
+- Some believe ECC is a new form of encryption, but it has been studied extensively since the 1980s.
+- A frequent misunderstanding is that smaller keys mean less security, but ECC keys are actually harder to crack than larger RSA keys.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:elliptic-curve-cryptography`

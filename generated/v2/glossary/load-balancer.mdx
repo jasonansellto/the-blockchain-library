@@ -1,0 +1,47 @@
+---
+title: "Load Balancer"
+description: "A load balancer is a device or software service that distributes incoming network traffic across multiple nodes or servers to ensure high availability and reliability. In the context of blockchain infrastructure, load balancers are placed in front of a cluster of RPC nodes to pre"
+---
+
+# Load Balancer
+
+A load balancer is a device or software service that distributes incoming network traffic across multiple nodes or servers to ensure high availability and reliability. In the context of blockchain infrastructure, load balancers are placed in front of a cluster of RPC nodes to prevent any single node from becoming a bottleneck or failing under heavy request volume. By intelligently routing API calls, they optimize response times, improve scalability, and provide redundancy in case a node goes offline.
+
+## Definition
+
+A load balancer is a device or software service that distributes incoming network traffic across multiple nodes or servers to ensure high availability and reliability. In the context of blockchain infrastructure, load balancers are placed in front of a cluster of RPC nodes to prevent any single node from becoming a bottleneck or failing under heavy request volume. By intelligently routing API calls, they optimize response times, improve scalability, and provide redundancy in case a node goes offline.
+
+## Simple explanation
+
+Think of a load balancer like a traffic cop at a busy intersection. Instead of letting every car jam into one lane, the cop directs traffic into several lanes, making sure no single lane gets too crowded. This keeps everything moving smoothly so you don't get stuck in traffic.
+
+## Why it matters
+
+Load balancers are essential for maintaining the uptime and reliability of high-traffic dApps. Without them, a sudden spike in users could crash the node serving the application, causing it to go offline for everyone.
+
+## How it works
+
+The load balancer receives a client request and evaluates the health and load of available nodes. Using algorithms like Round Robin or Least Connections, it forwards the request to the most suitable node in the pool. It also monitors the health of nodes, automatically removing failed ones from rotation until they recover.
+
+## Real-world example
+
+Nginx or HAProxy configurations used by node operators to manage traffic across a farm of Ethereum archive nodes.
+
+## Advantages
+
+- Distributes high traffic loads
+- Ensures high availability/uptime
+- Allows seamless node maintenance
+
+## Limitations
+
+- Single point of failure if misconfigured
+- Adds latency to network requests
+- Complex to manage at scale
+
+## Common misconceptions
+
+- Load balancers increase the speed of the blockchain network; they only help the app handle more traffic. All nodes need a load balancer; small, private setups often don't require one.
+---
+
+**Canonical knowledge ID:** `glossary:load-balancer`

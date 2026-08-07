@@ -1,0 +1,70 @@
+---
+title: "Merkle Proof Verification (Python)"
+description: "Build a Merkle tree and verify proofs in Python for whitelist verification."
+---
+
+# Merkle Proof Verification (Python)
+
+Build a Merkle tree and verify proofs in Python for whitelist verification.
+
+Build a Merkle tree and verify proofs in Python for whitelist verification.
+
+## Explanation
+
+This pure-Python Merkle tree builds layers by hashing pairs of nodes. The proof for a leaf is its sibling at each layer. Verification re-hashes the leaf with its siblings to see if it reaches the root. This is the basis for Solidity whitelist verification.
+
+## Code
+
+```python
+import hashlib
+
+def keccak256(data: bytes) -> bytes:
+    from eth_hash.auto import keccak
+    return keccak(data)
+
+class MerkleTree:
+    def __init__(self, leaves: list[bytes]):
+        self.leaves = [keccak256(l) for l in leaves]
+        self.layers = [self.leaves]
+        self._build()
+
+    def _build(self):
+        layer = self.leaves[:]
+        while len(layer) > 1:
+            if len(layer) % 2 == 1:
+                layer.append(layer[-1])
+            next_layer = []
+            for i in range(0, len(layer), 2):
+                combined = keccak256(layer[i] + layer[i+1])
+                next_layer.append(combined)
+            self.layers.append(next_layer)
+            layer = next_layer
+
+    @property
+    def root(self) -> bytes:
+        return self.layers[-1][0]
+
+    def get_proof(self, index: int) -> list[bytes]:
+        proof = []
+        for layer in self.layers[:-1]:
+            sibling_index = index ^ 1
+            proof.append(layer[sibling_index])
+            index //= 2
+        return proof
+
+    @staticmethod
+    def verify(leaf: bytes, proof: list[bytes], root: bytes) -> bool:
+        computed = leaf
+        for sibling in proof:
+            computed = keccak256(computed + sibling)
+        return computed == root
+
+# Usage
+addresses = [b"0x1234...", b"0x5678...", b"0xabcd..."]
+tree = MerkleTree(addresses)
+proof = tree.get_proof(0)
+print("Valid:", MerkleTree.verify(tree.leaves[0], proof, tree.root))
+```
+---
+
+**Canonical knowledge ID:** `code-example:merkle-proof-verification-python`

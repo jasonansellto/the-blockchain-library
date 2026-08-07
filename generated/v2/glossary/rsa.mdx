@@ -1,0 +1,48 @@
+---
+title: "RSA"
+description: "A public-key cryptosystem based on the difficulty of factoring large integers."
+---
+
+# RSA
+
+A public-key cryptosystem based on the difficulty of factoring large integers.
+
+## Definition
+
+A public-key cryptosystem based on the difficulty of factoring large integers.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+The algorithm generates two very large prime numbers and multiplies them together to create a modulus. A public exponent is chosen, and a corresponding private exponent is mathematically derived. To encrypt, one uses the public exponent to compute a mathematical operation; to decrypt, the private exponent reverses this operation by exploiting the difficulty of prime factorization.
+
+## Real-world example
+
+RSA is widely used in legacy TLS/SSL certificates and secure email protocols like PGP to establish encrypted connections.
+
+## Advantages
+
+- Well-understood standard
+- Provides reliable security
+- Foundation of internet encryption
+
+## Limitations
+
+- Large key sizes required
+- Computationally slow
+- Vulnerable to quantum attacks
+
+## Common misconceptions
+
+- People often assume RSA is used for signing crypto transactions, but it is too slow and bloated for modern blockchain networks.
+- Many believe RSA is still the state-of-the-art encryption, but ECC (Elliptic Curve Cryptography) has largely superseded it.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:rsa`

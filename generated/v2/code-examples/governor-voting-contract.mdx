@@ -1,0 +1,41 @@
+---
+title: "Governor Voting Contract"
+description: "An OpenZeppelin-based Governor contract for on-chain DAO governance with proposal creation and voting."
+---
+
+# Governor Voting Contract
+
+An OpenZeppelin-based Governor contract for on-chain DAO governance with proposal creation and voting.
+
+An OpenZeppelin-based Governor contract for on-chain DAO governance with proposal creation and voting.
+
+## Explanation
+
+Governor implements the standard DAO governance model: token holders create proposals, vote during a window, and queued executions pass through a timelock. votingDelay and votingPeriod define the governance timeline.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/governance/Governor.sol";
+import "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol";
+import "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol";
+import "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol";
+
+contract MyDAO is Governor, GovernorCountingSimple, GovernorVotes, GovernorTimelockControl {
+    constructor(IVotes token, TimelockController timelock)
+        Governor("MyDAO")
+        GovernorVotes(token)
+        GovernorTimelockControl(timelock)
+    {}
+
+    function votingDelay() public pure override returns (uint256) { return 1 days; }
+    function votingPeriod() public pure override returns (uint256) { return 1 weeks; }
+    function proposalThreshold() public pure override returns (uint256) { return 1_000e18; }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:governor-voting-contract`

@@ -1,0 +1,50 @@
+---
+title: "Event Log"
+description: "Structured data emitted during smart-contract execution and stored in transaction receipts for efficient off-chain indexing."
+---
+
+# Event Log
+
+Structured data emitted during smart-contract execution and stored in transaction receipts for efficient off-chain indexing.
+
+## Definition
+
+Structured data emitted during smart-contract execution and stored in transaction receipts for efficient off-chain indexing.
+
+## Why it matters
+
+Smart-contract concepts are essential for understanding programmable blockchain applications.
+
+## How it works
+
+In Solidity, an event is declared and then 'emitted' during a function call. The EVM takes the parameters, hashes them if necessary, and writes them into the transaction log (bloom filters) within the block. External tools like The Graph index these logs, allowing for fast searches and querying.
+
+## Real-world example
+
+Decentralized exchanges like Uniswap emit a 'Swap' event every time a trade occurs, which trackers use to display real-time trading volumes and price data.
+
+## Advantages
+
+- Significantly cheaper than state storage
+- Enables easy history tracking
+- Supports asynchronous data retrieval
+
+## Limitations
+
+- Not accessible by smart contracts themselves
+- Can grow large in volume
+- Requires indexing for efficient search
+
+## Common misconceptions
+
+- Users often think smart contracts can read their own logs, but logs are actually invisible to on-chain logic.
+- Many assume logs are saved in the permanent state, but they reside in transaction receipts only.
+## Related knowledge
+
+- [ABI](/glossary/abi) — term
+- [Smart Contract](/glossary/smart-contract) — term
+- [Solidity](/developers/resources/solidity) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:event-log`

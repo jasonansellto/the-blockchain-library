@@ -1,0 +1,43 @@
+---
+title: "ERC-1155 Multi-Token Contract"
+description: "A batch-mintable ERC-1155 multi-token contract using OpenZeppelin, supporting semi-fungible tokens and batch transfers."
+---
+
+# ERC-1155 Multi-Token Contract
+
+A batch-mintable ERC-1155 multi-token contract using OpenZeppelin, supporting semi-fungible tokens and batch transfers.
+
+A batch-mintable ERC-1155 multi-token contract using OpenZeppelin, supporting semi-fungible tokens and batch transfers.
+
+## Explanation
+
+ERC-1155 allows a single contract to manage multiple token types (fungible, semi-fungible, and NFTs) in one deployment. The _mintBatch function lets you mint multiple token IDs in a single transaction, saving gas over separate mints.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract GameItems is ERC1155, Ownable {
+    uint256 public constant GOLD = 0;
+    uint256 public constant SWORD = 1;
+    uint256 public constant SHIELD = 2;
+
+    constructor() ERC1155("https://game.example/api/item/{id}.json") Ownable(msg.sender) {
+        _mint(msg.sender, GOLD, 10_000 ether, "");
+        _mint(msg.sender, SWORD, 100, "");
+        _mint(msg.sender, SHIELD, 50, "");
+    }
+
+    function mintBatch(address to, uint256[] memory ids, uint256[] memory amounts) external onlyOwner {
+        _mintBatch(to, ids, amounts, "");
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:erc-1155-multi-token-contract`

@@ -1,0 +1,51 @@
+---
+title: "Listen to Contract Events with ethers.js"
+description: "Subscribe to real-time smart contract events using ethers.js event listeners."
+---
+
+# Listen to Contract Events with ethers.js
+
+Subscribe to real-time smart contract events using ethers.js event listeners.
+
+Subscribe to real-time smart contract events using ethers.js event listeners.
+
+## Explanation
+
+Event listening lets you build real-time dashboards and notifications.
+
+**Key points:**
+- Use `WebSocketProvider` (not HTTP) for real-time streaming.
+- `contract.on(eventName, callback)` fires on every matching event.
+- Indexed parameters (`from`, `to`) are passed directly; non-indexed are in the last `event` object.
+
+Remember to call `contract.removeAllListeners()` on cleanup to avoid memory leaks.
+
+## Code
+
+```javascript
+import { ethers } from "ethers";
+
+const provider = new ethers.WebSocketProvider(
+  "wss://eth-mainnet.g.alchemy.com/v2/YOUR_KEY"
+);
+
+const abi = [
+  "event Transfer(address indexed from, address indexed to, uint256 value)"
+];
+
+const contract = new ethers.Contract(
+  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", // USDC
+  abi,
+  provider
+);
+
+contract.on("Transfer", (from, to, value, event) => {
+  console.log(`Transfer: ${ethers.formatUnits(value, 6)} USDC`);
+  console.log(`  From: ${from}`);
+  console.log(`  To:   ${to}`);
+  console.log(`  Tx:   ${event.log.transactionHash}\n`);
+});
+```
+---
+
+**Canonical knowledge ID:** `code-example:listen-contract-events-ethersjs`

@@ -1,0 +1,49 @@
+---
+title: "Chain ID"
+description: "A numeric identifier used to distinguish one blockchain network from another and help prevent replay across chains."
+---
+
+# Chain ID
+
+A numeric identifier used to distinguish one blockchain network from another and help prevent replay across chains.
+
+## Definition
+
+A numeric identifier used to distinguish one blockchain network from another and help prevent replay across chains.
+
+## Why it matters
+
+Developer tooling connects applications and software to blockchain nodes, data, and smart contracts.
+
+## How it works
+
+When a transaction is constructed, the protocol includes the Chain ID in the signing hash. Nodes that receive the transaction check the signature against their own configured Chain ID. If the numbers do not match, the transaction is rejected as invalid, protecting the user's assets from being processed on the wrong chain.
+
+## Real-world example
+
+Ethereum Mainnet has a Chain ID of 1, while Polygon uses 137 and Arbitrum One uses 42161.
+
+## Advantages
+
+- Prevents replay attacks
+- Ensures network-specific transaction validity
+- Simplifies cross-chain interoperability
+
+## Limitations
+
+- Configuration errors cause failed transactions
+- Limited to EVM ecosystems
+
+## Common misconceptions
+
+- Users often think Chain ID is a security feature for their wallet, rather than a network protocol rule.
+- Some assume all EVM chains share the same ID, which is incorrect.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:chain-id`

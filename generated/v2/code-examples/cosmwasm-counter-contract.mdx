@@ -1,0 +1,59 @@
+---
+title: "CosmWasm Counter Contract"
+description: "A simple incrementing counter smart contract for CosmWasm / Cosmos chains."
+---
+
+# CosmWasm Counter Contract
+
+A simple incrementing counter smart contract for CosmWasm / Cosmos chains.
+
+A simple incrementing counter smart contract for CosmWasm / Cosmos chains.
+
+## Explanation
+
+CosmWasm contracts are compiled to WebAssembly and run on Cosmos SDK chains. The entry_point macro marks the execute function. Messages are defined as enums with serde for JSON serialization.
+
+## Code
+
+```rust
+use cosmwasm_std::{entry_point, DepsMut, Env, MessageInfo, Response, StdError};
+use serde::{Deserialize, Serialize};
+
+#[derive(Serialize, Deserialize, Clone)]
+pub struct State {
+    pub count: i32,
+    pub owner: String,
+}
+
+#[derive(Serialize, Deserialize, Clone)]
+#[serde(rename_all = "snake_case")]
+pub enum ExecuteMsg {
+    Increment {},
+    Reset { count: i32 },
+}
+
+#[entry_point]
+pub fn execute(
+    deps: DepsMut,
+    _env: Env,
+    info: MessageInfo,
+    msg: ExecuteMsg,
+) -> Result<Response, StdError> {
+    match msg {
+        ExecuteMsg::Increment {} => {
+            // load state, increment, save
+            Ok(Response::new()
+                .add_attribute("action", "increment")
+                .add_attribute("sender", info.sender.to_string()))
+        }
+        ExecuteMsg::Reset { count } => {
+            Ok(Response::new()
+                .add_attribute("action", "reset")
+                .add_attribute("count", count.to_string()))
+        }
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:cosmwasm-counter-contract`

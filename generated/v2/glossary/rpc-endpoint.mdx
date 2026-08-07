@@ -1,0 +1,49 @@
+---
+title: "RPC Endpoint"
+description: "A network URL through which software sends remote procedure calls to a blockchain node or node service."
+---
+
+# RPC Endpoint
+
+A network URL through which software sends remote procedure calls to a blockchain node or node service.
+
+## Definition
+
+A network URL through which software sends remote procedure calls to a blockchain node or node service.
+
+## Why it matters
+
+Developer tooling connects applications and software to blockchain nodes, data, and smart contracts.
+
+## How it works
+
+An application sends a JSON-formatted HTTP POST request to the RPC URL. The request includes a method name (e.g., 'eth_getBalance') and required parameters. The node receives the request, processes the logic against its local copy of the blockchain, and sends back the result as a JSON object.
+
+## Real-world example
+
+The default RPC endpoint configured in MetaMask for the Ethereum Mainnet, or a custom Alchemy URL for a specific dApp.
+
+## Advantages
+
+- Standardized communication format
+- Easy for applications to consume
+- Compatible with most Web3 wallets
+
+## Limitations
+
+- Endpoints can become slow or congested
+- Privacy issues with IP exposure
+- Vulnerable to rate limiting/blocking
+
+## Common misconceptions
+
+- You can only have one RPC endpoint; users can configure multiple to improve reliability. Your RPC endpoint can see your private keys; it should only ever receive signed, public transactions.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:rpc-endpoint`

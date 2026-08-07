@@ -1,0 +1,48 @@
+---
+title: "Web3.py Event Listening"
+description: "Listen to and decode smart contract events using web3.py."
+---
+
+# Web3.py Event Listening
+
+Listen to and decode smart contract events using web3.py.
+
+Listen to and decode smart contract events using web3.py.
+
+## Explanation
+
+web3.py's create_filter sets up a log filter for a specific event. get_all_entries returns all matching logs in the block range. Indexed fields become args directly; non-indexed fields are ABI-decoded from the log data.
+
+## Code
+
+```python
+from web3 import Web3
+
+w3 = Web3(Web3.HTTPProvider("https://rpc.ankr.com/eth"))
+
+abi = [{
+    "anonymous": False,
+    "inputs": [
+        {"indexed": True, "name": "from", "type": "address"},
+        {"indexed": True, "name": "to", "type": "address"},
+        {"indexed": False, "name": "value", "type": "uint256"},
+    ],
+    "name": "Transfer",
+    "type": "event",
+}]
+
+contract = w3.eth.contract(address="0xTokenAddress", abi=abi)
+
+# Create an event filter for the last 10 blocks
+latest = w3.eth.block_number
+event_filter = contract.events.Transfer.create_filter(
+    from_block=latest - 10,
+    to_block="latest"
+)
+
+for event in event_filter.get_all_entries():
+    print(f"{event.args['from']} -> {event.args['to']}: {event.args['value']}")
+```
+---
+
+**Canonical knowledge ID:** `code-example:web3py-event-listening`

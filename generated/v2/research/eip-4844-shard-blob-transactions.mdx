@@ -1,0 +1,51 @@
+---
+title: "EIP-4844: Shard Blob Transactions"
+description: "EIP-4844, also known as Proto-Danksharding, is a significant Ethereum Improvement Proposal that aims to drastically reduce transaction fees for layer-2 scaling"
+---
+
+# EIP-4844: Shard Blob Transactions
+
+EIP-4844, also known as Proto-Danksharding, is a significant Ethereum Improvement Proposal that aims to drastically reduce transaction fees for layer-2 scaling
+
+## Abstract
+
+EIP-4844, also known as Proto-Danksharding, is a significant Ethereum Improvement Proposal that aims to drastically reduce transaction fees for layer-2 scaling solutions by introducing a new transaction type: 'blob transactions'. This proposal is a crucial step towards full sharding on Ethereum. Instead of bundling data directly into standard transaction calldata, blob transactions will carry their data in separate 'blobs' which are temporarily stored and are not subject to the same computational burden as regular calldata. This separation allows for a more efficient and cheaper way to post data to the main chain, a fundamental requirement for rollups. EIP-4844 implements a new fee market for these blobs and introduces cryptographic techniques, such as KZG commitments, to ensure data availability and verifiability without requiring nodes to store all blob data indefinitely. The primary goal is to make rollups significantly more cost-effective, thereby increasing Ethereum's overall transaction throughput and accessibility.
+
+**Authors:** Vitalik Buterin, Dankrad Feist, Diederik Loerakker, George Kadianakis, Matt Garnett, Mamy Ratsimbazafy, Proto Podtolski, Ansgar Dietrichs, Barnabé Monnot
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2022-01-01
+
+## Key findings
+
+- EIP-4844 introduces 'blob transactions' to Ethereum, separating data storage from computational execution for enhanced scalability.
+- This proposal significantly reduces the cost of posting data to the main chain, directly benefiting Layer-2 rollups.
+- It paves the way for full sharding by introducing a new fee market and data availability mechanisms like KZG commitments.
+- The core objective is to increase Ethereum's transaction throughput and reduce gas fees for end-users interacting with rollups.
+
+## Citation
+
+Vitalik Buterin, Dankrad Feist, Diederik Loerakker, George Kadianakis, Matt Garnett, Mamy Ratsimbazafy, Proto Podtolski, Ansgar Dietrichs, Barnabé Monnot (2022). EIP-4844: Shard Blob Transactions. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-4844
+## Related knowledge
+
+- [Bitcoin’s Smart Contract Renaissance: Runes, Ordinals, and Beyond](/topics/bitcoins-smart-contract-renaissance-runes-ordinals-and-beyond) — article
+- [Bitcoin’s Smart Contract Renaissance: Runes, Ordinals, and Beyond](/topics/bitcoins-smart-contract-renaissance-runes-ordinals-and-beyond) — related-article
+- [How to Survive a Crypto Bear Market: Expert Strategies for Long-Term Gains](/topics/how-to-survive-a-crypto-bear-market-expert-strategies-for-long-term-gains) — article
+- [How to Survive a Crypto Bear Market: Expert Strategies for Long-Term Gains](/topics/how-to-survive-a-crypto-bear-market-expert-strategies-for-long-term-gains) — related-article
+- [Is Blockchain Really Sustainable? Examining Green Solutions in 2025](/topics/is-blockchain-really-sustainable-examining-green-solutions-in-2025) — article
+- [Is Blockchain Really Sustainable? Examining Green Solutions in 2025](/topics/is-blockchain-really-sustainable-examining-green-solutions-in-2025) — related-article
+- [Keccak-256](/glossary/keccak-256) — glossary
+- [Keccak-256](/glossary/keccak-256) — related-glossary
+- [Mint](/glossary/mint) — glossary
+- [Mint](/glossary/mint) — related-glossary
+- [Restaking and LRTs: How Ethereum’s New Narrative Is Reshaping DeFi](/topics/restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi) — article
+- [Restaking and LRTs: How Ethereum’s New Narrative Is Reshaping DeFi](/topics/restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi) — related-article
+- [Storage](/categories/storage) — glossary
+- [Storage](/categories/storage) — related-glossary
+- [The Future of Layer One Blockchains: Scalability, Security, and Decentralization](/topics/the-future-of-layer-one-blockchains-scalability-security-and-decentralization) — article
+- [The Future of Layer One Blockchains: Scalability, Security, and Decentralization](/topics/the-future-of-layer-one-blockchains-scalability-security-and-decentralization) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:eip-4844-shard-blob-transactions`

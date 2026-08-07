@@ -1,0 +1,44 @@
+---
+title: "Deploy Contract with viem"
+description: "Deploy a smart contract using viem with bytecode and ABI."
+---
+
+# Deploy Contract with viem
+
+Deploy a smart contract using viem with bytecode and ABI.
+
+Deploy a smart contract using viem with bytecode and ABI.
+
+## Explanation
+
+viem's deployContract takes ABI, bytecode, and constructor args. It returns the transaction hash. Use the receipt to get the deployed contract address.
+
+## Code
+
+```typescript
+import { createWalletClient, http } from "viem";
+import { privateKeyToAccount } from "viem/accounts";
+import { sepolia } from "viem/chains";
+
+const client = createWalletClient({
+  chain: sepolia,
+  transport: http(),
+  account: privateKeyToAccount("0x..."),
+});
+
+const bytecode = "0x6080604052...";
+const abi = [
+  { inputs: [{ name: "supply", type: "uint256" }], name: "constructor", type: "constructor" },
+] as const;
+
+const hash = await client.deployContract({
+  abi,
+  bytecode,
+  args: [1_000_000n],
+});
+
+console.log("Deploy tx hash:", hash);
+```
+---
+
+**Canonical knowledge ID:** `code-example:deploy-contract-viem`

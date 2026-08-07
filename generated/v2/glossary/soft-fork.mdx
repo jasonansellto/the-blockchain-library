@@ -1,0 +1,54 @@
+---
+title: "Soft Fork"
+description: "A soft fork is a backward-compatible upgrade to a blockchain protocol. In a soft fork, updated nodes continue to recognize blocks created by non-updated nodes as valid. However, non-updated nodes will see blocks created by upgraded nodes as invalid if they violate new rules. This"
+---
+
+# Soft Fork
+
+A soft fork is a backward-compatible upgrade to a blockchain protocol. In a soft fork, updated nodes continue to recognize blocks created by non-updated nodes as valid. However, non-updated nodes will see blocks created by upgraded nodes as invalid if they violate new rules. This approach is generally safer and less disruptive than a hard fork, as it does not require all network participants to upgrade simultaneously to keep the chain functioning as a single, unified ledger.
+
+## Definition
+
+A soft fork is a backward-compatible upgrade to a blockchain protocol. In a soft fork, updated nodes continue to recognize blocks created by non-updated nodes as valid. However, non-updated nodes will see blocks created by upgraded nodes as invalid if they violate new rules. This approach is generally safer and less disruptive than a hard fork, as it does not require all network participants to upgrade simultaneously to keep the chain functioning as a single, unified ledger.
+
+## Simple explanation
+
+A soft fork is like changing the traffic rules to make the speed limit lower. If some drivers don't know about the new rule, they can still drive on the road safely, but they must follow the old, looser rules. Eventually, everyone catches up, and the new rule becomes the standard without closing the road.
+
+## Why it matters
+
+Soft forks allow networks to upgrade or add features without splitting the community or forcing every single user to update their software immediately, maintaining chain continuity.
+
+## How it works
+
+The new rules are implemented such that they are a subset of the old rules. If an updated miner creates a block, it still adheres to the old rules, so the old software considers it valid. However, old nodes won't be able to validate transactions that use new features until they upgrade.
+
+## Real-world example
+
+The SegWit (Segregated Witness) upgrade on Bitcoin was implemented as a soft fork.
+
+## Advantages
+
+- Backward compatible
+- No chain split
+- Higher network consensus
+
+## Limitations
+
+- Limited design flexibility
+- More complex to code
+- Potential for validation lag
+
+## Common misconceptions
+
+- It does not mean the entire network is forced to upgrade.
+- It is not the same as a chain split or hard fork.
+## Related knowledge
+
+- [Bitcoin Improvement Proposal](/glossary/bitcoin-improvement-proposal) — term
+- [Consensus](/categories/consensus) — term
+- [SegWit](/glossary/segwit) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:soft-fork`

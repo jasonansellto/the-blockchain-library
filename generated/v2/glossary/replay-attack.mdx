@@ -1,0 +1,50 @@
+---
+title: "Replay Attack"
+description: "An attack where a valid signed transaction or message is captured and submitted again in a context where it is incorrectly accepted."
+---
+
+# Replay Attack
+
+An attack where a valid signed transaction or message is captured and submitted again in a context where it is incorrectly accepted.
+
+## Definition
+
+An attack where a valid signed transaction or message is captured and submitted again in a context where it is incorrectly accepted.
+
+## Why it matters
+
+Security concepts help users and developers recognize common blockchain attack surfaces and defenses.
+
+## How it works
+
+When a network forks, the transaction history is mirrored. An attacker waits for a user to broadcast a transaction on the original chain. They then intercept this signed transaction and rebroadcast it onto the forked chain. If the protocol lacks replay protection, the network treats it as a legitimate request and processes it again.
+
+## Real-world example
+
+When Bitcoin Cash forked from Bitcoin, users who were not careful had their transactions replayed across both chains, leading to accidental loss of Bitcoin Cash.
+
+## Advantages
+
+- Highlights the importance of cross-chain security
+- Forces development of replay protection protocols
+- Validates importance of network consensus
+
+## Limitations
+
+- Mostly relevant during blockchain forks
+- Requires technical awareness to avoid
+- Can lead to significant financial loss
+
+## Common misconceptions
+
+- People think replay attacks are a general threat at all times, but they are highly specific to hard forks and protocol upgrades.
+- Users believe that a transaction is only valid on the chain it was sent to, forgetting that raw data can be broadcast to any compatible network.
+## Related knowledge
+
+- [Phishing](/glossary/phishing) — term
+- [Smart Contract Audit](/glossary/smart-contract-audit) — term
+- [Sybil Attack](/glossary/sybil-attack) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:replay-attack`

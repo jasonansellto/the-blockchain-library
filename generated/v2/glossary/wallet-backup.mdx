@@ -1,0 +1,53 @@
+---
+title: "Wallet Backup"
+description: "A wallet backup is the process of creating a secure, secondary copy of the sensitive information required to restore access to a digital asset wallet, typically in the form of a mnemonic seed phrase. This 12-to-24-word sequence represents the master key of the wallet's hierarchic"
+---
+
+# Wallet Backup
+
+A wallet backup is the process of creating a secure, secondary copy of the sensitive information required to restore access to a digital asset wallet, typically in the form of a mnemonic seed phrase. This 12-to-24-word sequence represents the master key of the wallet's hierarchical deterministic (HD) structure. If a user loses their physical device, a properly executed backup allows them to regenerate the wallet's public-private key pairs on a new device, preventing permanent loss of funds.
+
+## Definition
+
+A wallet backup is the process of creating a secure, secondary copy of the sensitive information required to restore access to a digital asset wallet, typically in the form of a mnemonic seed phrase. This 12-to-24-word sequence represents the master key of the wallet's hierarchical deterministic (HD) structure. If a user loses their physical device, a properly executed backup allows them to regenerate the wallet's public-private key pairs on a new device, preventing permanent loss of funds.
+
+## Simple explanation
+
+A wallet backup is like keeping a spare key to your house hidden in a safe location. If you lose your keys, you use the backup to get back inside and regain access to your property.
+
+## Why it matters
+
+In the world of self-custody, there is no 'Forgot Password' button. A wallet backup is the only way to recover funds if hardware fails or is lost.
+
+## How it works
+
+The backup captures the master private key through a standardized mnemonic seed phrase (BIP-39). This phrase acts as the root from which all child keys are derived in an HD wallet. When restored into compatible software, the wallet software runs the same derivation path to regenerate the original public addresses and associated private keys.
+
+## Real-world example
+
+Writing down your 24-word recovery phrase on paper and storing it in a fireproof safe.
+
+## Advantages
+
+- Ensures funds are never permanently lost
+- Enables seamless wallet migration
+- Critical component of disaster recovery
+
+## Limitations
+
+- Backup can be stolen if not secured
+- Physical backups can be destroyed
+- Improper storage leads to total fund loss
+
+## Common misconceptions
+
+- People think saving a screenshot of their seed phrase is safe, but digital files are vulnerable to hacking.
+- Many believe the backup is unnecessary if they have their password, but the seed phrase is actually the primary requirement.
+## Related knowledge
+
+- [BIP-39](/glossary/bip-39) — term
+- [Seed Phrase](/glossary/seed-phrase) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:wallet-backup`

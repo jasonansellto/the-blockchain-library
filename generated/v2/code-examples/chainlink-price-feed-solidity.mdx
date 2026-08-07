@@ -1,0 +1,54 @@
+---
+title: "Chainlink Price Feed (Solidity)"
+description: "Read token prices from Chainlink price feeds in a Solidity contract."
+---
+
+# Chainlink Price Feed (Solidity)
+
+Read token prices from Chainlink price feeds in a Solidity contract.
+
+Read token prices from Chainlink price feeds in a Solidity contract.
+
+## Explanation
+
+Chainlink price feeds provide on-chain price data updated by a decentralized oracle network. latestRoundData returns the most recent price. The decimals() call tells you the precision — ETH/USD uses 8 decimals, so 2000000000000 = $20,000.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
+
+contract PriceConsumer {
+    AggregatorV3Interface internal priceFeed;
+
+    // ETH/USD on mainnet
+    constructor() {
+        priceFeed = AggregatorV3Interface(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
+    }
+
+    function getLatestPrice() external view returns (int256) {
+        (
+            uint80 roundID,
+            int256 price,
+            uint256 startedAt,
+            uint256 updatedAt,
+            uint80 answeredInRound
+        ) = priceFeed.latestRoundData();
+        return price;
+    }
+
+    function getDecimals() external view returns (uint8) {
+        return priceFeed.decimals();
+    }
+}
+
+// To convert to human-readable price:
+// uint256 price = uint256(getLatestPrice());
+// uint256 adjusted = price / (10 ** priceFeed.decimals()); // e.g. 8 decimals
+```
+---
+
+**Canonical knowledge ID:** `code-example:chainlink-price-feed-solidity`

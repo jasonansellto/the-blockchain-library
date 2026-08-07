@@ -1,0 +1,48 @@
+---
+title: "Asymmetric Encryption"
+description: "Encryption that uses a mathematically related public and private key pair instead of one shared secret."
+---
+
+# Asymmetric Encryption
+
+Encryption that uses a mathematically related public and private key pair instead of one shared secret.
+
+## Definition
+
+Encryption that uses a mathematically related public and private key pair instead of one shared secret.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+A mathematical relationship is established between the public and private keys. Data encrypted with the public key can only be decrypted by the corresponding private key. Conversely, data 'signed' with a private key can be verified by anyone using the corresponding public key, proving the sender's identity.
+
+## Real-world example
+
+The Bitcoin protocol uses the Elliptic Curve Digital Signature Algorithm (ECDSA), a form of asymmetric encryption, to verify transactions.
+
+## Advantages
+
+- Secure communication without sharing secrets
+- Enables digital signatures and identity verification
+- Scalable for large networks
+
+## Limitations
+
+- Computationally slower than symmetric encryption
+- Risk of losing the private key permanently
+- Public keys can be linked to identity
+
+## Common misconceptions
+
+- Many mistakenly believe that public keys are used to decrypt messages sent to them.
+- A common error is assuming that losing a private key allows for recovery via public key re-derivation.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:asymmetric-encryption`

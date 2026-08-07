@@ -1,0 +1,57 @@
+---
+title: "Solana Token Transfer (TypeScript)"
+description: "Transfer SPL tokens between wallets using @solana/web3.js and @solana/spl-token."
+---
+
+# Solana Token Transfer (TypeScript)
+
+Transfer SPL tokens between wallets using @solana/web3.js and @solana/spl-token.
+
+Transfer SPL tokens between wallets using @solana/web3.js and @solana/spl-token.
+
+## Explanation
+
+SPL token transfers move tokens between Associated Token Accounts (ATAs). getOrCreateAssociatedTokenAccount ensures the destination ATA exists. The transfer instruction moves amount (in base units, accounting for decimals) from source to destination.
+
+## Code
+
+```typescript
+import {
+  Connection,
+  PublicKey,
+  Keypair,
+  sendAndConfirmTransaction,
+} from "@solana/web3.js";
+import {
+  getOrCreateAssociatedTokenAccount,
+  createTransferInstruction,
+} from "@solana/spl-token";
+
+async function transferToken(
+  connection: Connection,
+  payer: Keypair,
+  mint: PublicKey,
+  dest: PublicKey,
+  amount: number
+) {
+  const sourceAta = await getOrCreateAssociatedTokenAccount(
+    connection, payer, mint, payer.publicKey
+  );
+  const destAta = await getOrCreateAssociatedTokenAccount(
+    connection, payer, mint, dest
+  );
+
+  const ix = createTransferInstruction(
+    sourceAta.address,
+    destAta.address,
+    payer.publicKey,
+    amount
+  );
+
+  const tx = await sendAndConfirmTransaction(connection, tx, [payer]);
+  return tx;
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:solana-token-transfer-ts`

@@ -1,0 +1,50 @@
+---
+title: "Factory Contract"
+description: "A smart contract designed to deploy or create other contracts using standardized logic."
+---
+
+# Factory Contract
+
+A smart contract designed to deploy or create other contracts using standardized logic.
+
+## Definition
+
+A smart contract designed to deploy or create other contracts using standardized logic.
+
+## Why it matters
+
+Smart-contract concepts are essential for understanding programmable blockchain applications.
+
+## How it works
+
+The factory contract contains a 'create' or 'create2' function. When invoked, it reads the bytecode of a template contract and uses it to deploy a new address on the blockchain. The factory can keep a record (an array or mapping) of all addresses it has deployed for easy lookup.
+
+## Real-world example
+
+Uniswap v2 uses a Factory contract to deploy a unique Pair contract for every single token liquidity pool that is created on the platform.
+
+## Advantages
+
+- Standardizes deployment of related contracts
+- Easily manages and lists created instances
+- Reduces individual deployment complexity
+
+## Limitations
+
+- Increases gas cost for the factory call
+- Requires careful management of factory security
+- Logic changes require new template contracts
+
+## Common misconceptions
+
+- People think the factory contract acts as a hub for all child data, but child contracts are independent.
+- Some believe creating contracts via a factory is free, but it still costs substantial gas for the creation operation.
+## Related knowledge
+
+- [ABI](/glossary/abi) — term
+- [Smart Contract](/glossary/smart-contract) — term
+- [Solidity](/developers/resources/solidity) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:factory-contract`

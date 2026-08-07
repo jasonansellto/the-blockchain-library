@@ -1,0 +1,51 @@
+---
+title: "ERC-712: Typed structured data hashing and signing"
+description: "ERC-712 introduces a standardized method for hashing and signing complex, typed structured data within the Ethereum ecosystem. Before this standard, signing arb"
+---
+
+# ERC-712: Typed structured data hashing and signing
+
+ERC-712 introduces a standardized method for hashing and signing complex, typed structured data within the Ethereum ecosystem. Before this standard, signing arb
+
+## Abstract
+
+ERC-712 introduces a standardized method for hashing and signing complex, typed structured data within the Ethereum ecosystem. Before this standard, signing arbitrary data required users to hash and sign opaque byte arrays, which lacked human readability and context. ERC-712 solves this by requiring a domain separator and a schema definition, ensuring that signatures are context-aware and verifiable against specific smart contracts or chains. This mechanism significantly improves user security by allowing wallet interfaces to parse the structured data, enabling users to understand exactly what they are signing before granting approval. The standard provides a formal specification for how domain descriptors and typed data are encoded, hashed (often using Keccak-256), and then signed using ECDSA or other signature schemes. Its implementation has become foundational for off-chain signaling, gasless transactions, and complex permit-based approvals in decentralized finance (DeFi). By bridging the gap between raw data and human-understandable information, ERC-712 enhances the usability and trustworthiness of dapp interactions, effectively reducing the risk of blind signing in complex smart contract operations.
+
+**Authors:** Remco Bloemen, Vikas Dhillon, Dan Finlay
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2019-01-01
+
+## Key findings
+
+- Enables secure and human-readable signing of structured data in Ethereum applications.
+- Prevents signature replay attacks across different chains or dapps via domain separators.
+- Facilitates improved wallet UX by providing structure for transaction verification.
+- Standardizes the serialization and signing processes for typed data structures.
+
+## Citation
+
+Remco Bloemen, Vikas Dhillon, Dan Finlay (2019). ERC-712: Typed structured data hashing and signing. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-712
+## Related knowledge
+
+- [2025 Security Lessons: Hacks, Exploits & the Push for Better Audits](/topics/2025-security-lessons-hacks-exploits-the-push-for-better-audits) — article
+- [2025 Security Lessons: Hacks, Exploits & the Push for Better Audits](/topics/2025-security-lessons-hacks-exploits-the-push-for-better-audits) — related-article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — related-article
+- [Entropy](/glossary/entropy) — glossary
+- [Entropy](/glossary/entropy) — related-glossary
+- [From Hype to Reality: The Rise of Quantum-Resistant Cryptography](/topics/from-hype-to-reality-the-rise-of-quantum-resistant-cryptography) — article
+- [From Hype to Reality: The Rise of Quantum-Resistant Cryptography](/topics/from-hype-to-reality-the-rise-of-quantum-resistant-cryptography) — related-article
+- [Gas Price](/glossary/gas-price) — glossary
+- [Gas Price](/glossary/gas-price) — related-glossary
+- [Quantum Progress in 2026: Are We Approaching the Security Cliff?](/topics/quantum-progress-in-2026-are-we-approaching-the-security-cliff) — article
+- [Quantum Progress in 2026: Are We Approaching the Security Cliff?](/topics/quantum-progress-in-2026-are-we-approaching-the-security-cliff) — related-article
+- [RPC Endpoint](/glossary/rpc-endpoint) — glossary
+- [RPC Endpoint](/glossary/rpc-endpoint) — related-glossary
+- [RSA](/glossary/rsa) — glossary
+- [RSA](/glossary/rsa) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `research:erc-712-typed-structured-data-hashing-and-signing`

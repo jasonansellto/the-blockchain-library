@@ -1,0 +1,48 @@
+---
+title: "Entropy"
+description: "A measure of unpredictability used when generating cryptographic keys, seed phrases, and other random security values."
+---
+
+# Entropy
+
+A measure of unpredictability used when generating cryptographic keys, seed phrases, and other random security values.
+
+## Definition
+
+A measure of unpredictability used when generating cryptographic keys, seed phrases, and other random security values.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+Cryptographic systems draw entropy from unpredictable sources like hardware thermal noise, mouse movements, or specialized noise generation circuits. This randomness is fed into a pseudo-random number generator (PRNG) to create a high-entropy seed, which is then used to derive cryptographic keys.
+
+## Real-world example
+
+Hardware wallets use dedicated True Random Number Generators (TRNGs) to ensure their entropy levels are mathematically secure.
+
+## Advantages
+
+- Fundamental to cryptographic security
+- Ensures unpredictability of keys
+- Prevents pattern-based brute force
+
+## Limitations
+
+- Difficult to verify from the outside
+- Vulnerable to poor implementation in software
+- Low entropy sources lead to weak keys
+
+## Common misconceptions
+
+- Some think computers can generate true randomness, but they actually rely on external 'noise' sources.
+- People often believe that simple user input is sufficient to create high-entropy seeds, but it is rarely enough.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:entropy`

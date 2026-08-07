@@ -1,0 +1,42 @@
+---
+title: "Estimate Gas with viem"
+description: "Estimate gas for contract interactions and check balance before sending."
+---
+
+# Estimate Gas with viem
+
+Estimate gas for contract interactions and check balance before sending.
+
+Estimate gas for contract interactions and check balance before sending.
+
+## Explanation
+
+estimateGas simulates a transaction to determine how much gas it will use. Always check balance before sending to avoid reverts. viem separates read (publicClient) and write (walletClient) concerns.
+
+## Code
+
+```typescript
+import { createPublicClient, createWalletClient, http, parseEther, formatEther } from "viem";
+import { mainnet } from "viem/chains";
+import { privateKeyToAccount } from "viem/accounts";
+
+const account = privateKeyToAccount("0x...");
+
+const publicClient = createPublicClient({ chain: mainnet, transport: http() });
+const walletClient = createWalletClient({ account, chain: mainnet, transport: http() });
+
+// Check balance
+const balance = await publicClient.getBalance({ address: account.address });
+console.log("Balance:", formatEther(balance), "ETH");
+
+// Estimate gas for a transfer
+const gasEstimate = await publicClient.estimateGas({
+  account,
+  to: "0x...recipient",
+  value: parseEther("0.1"),
+});
+console.log("Estimated gas:", gasEstimate.toString());
+```
+---
+
+**Canonical knowledge ID:** `code-example:estimate-gas-viem`

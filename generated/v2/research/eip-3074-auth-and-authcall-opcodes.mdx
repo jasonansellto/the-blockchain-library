@@ -1,0 +1,51 @@
+---
+title: "EIP-3074: AUTH and AUTHCALL opcodes"
+description: "EIP-3074 introduces two new opcodes, AUTH and AUTHCALL, to the Ethereum Virtual Machine (EVM) to enable transaction delegation from EOAs to smart contracts. Thi"
+---
+
+# EIP-3074: AUTH and AUTHCALL opcodes
+
+EIP-3074 introduces two new opcodes, AUTH and AUTHCALL, to the Ethereum Virtual Machine (EVM) to enable transaction delegation from EOAs to smart contracts. Thi
+
+## Abstract
+
+EIP-3074 introduces two new opcodes, AUTH and AUTHCALL, to the Ethereum Virtual Machine (EVM) to enable transaction delegation from EOAs to smart contracts. This proposal allows a user to sign a message that authorizes a smart contract to execute transactions on their behalf. The core of this mechanism is the AUTH opcode, which verifies the user's signature, and the AUTHCALL opcode, which executes a call using the user's address as the message sender. This effectively enables EOAs to 'delegate' their authority to a smart contract, facilitating features like gas sponsorship, batching, and multi-signature security without requiring a full transition to smart contract accounts. This EIP provides a path for immediate improvements in user experience, particularly regarding gas-less transactions and batching, as it does not require a complex migration or storage-heavy changes. However, it also introduces new security considerations regarding the delegation of control from an EOA, highlighting the importance of cautious implementation and clear UX patterns in signing authorization messages.
+
+**Authors:** Sam Wilson, Ansgar Dietrichs, Matt Garnett, Micah Zoltu
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2020-01-01
+
+## Key findings
+
+- Introduces AUTH and AUTHCALL opcodes to allow EOA transaction delegation.
+- Enables gas sponsorship and batching for standard user accounts.
+- Provides a direct path to improve UX without requiring permanent account migration.
+- Allows smart contracts to perform actions on behalf of the user's EOA address.
+
+## Citation
+
+Sam Wilson, Ansgar Dietrichs, Matt Garnett, Micah Zoltu (2020). EIP-3074: AUTH and AUTHCALL opcodes. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-3074
+## Related knowledge
+
+- [2025 Security Lessons: Hacks, Exploits & the Push for Better Audits](/topics/2025-security-lessons-hacks-exploits-the-push-for-better-audits) — article
+- [2025 Security Lessons: Hacks, Exploits & the Push for Better Audits](/topics/2025-security-lessons-hacks-exploits-the-push-for-better-audits) — related-article
+- [Automated Market Maker](/glossary/automated-market-maker) — glossary
+- [Automated Market Maker](/glossary/automated-market-maker) — related-glossary
+- [Beacon Chain](/glossary/beacon-chain) — glossary
+- [Beacon Chain](/glossary/beacon-chain) — related-glossary
+- [Constructor](/glossary/constructor) — glossary
+- [Constructor](/glossary/constructor) — related-glossary
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — related-article
+- [Factory Contract](/glossary/factory-contract) — glossary
+- [Factory Contract](/glossary/factory-contract) — related-glossary
+- [LP Token](/glossary/lp-token) — glossary
+- [LP Token](/glossary/lp-token) — related-glossary
+- [Modifier](/glossary/modifier) — glossary
+- [Modifier](/glossary/modifier) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `research:eip-3074-auth-and-authcall-opcodes`

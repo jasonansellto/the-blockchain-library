@@ -1,0 +1,53 @@
+---
+title: "BFT"
+description: "BFT, or Byzantine Fault Tolerance, refers to the ability of a distributed computer network to function correctly and reach a consensus even when some nodes are malicious or fail to communicate properly. In a Byzantine environment, nodes may provide conflicting information, remain"
+---
+
+# BFT
+
+BFT, or Byzantine Fault Tolerance, refers to the ability of a distributed computer network to function correctly and reach a consensus even when some nodes are malicious or fail to communicate properly. In a Byzantine environment, nodes may provide conflicting information, remain silent, or act maliciously to prevent the system from reaching a valid state. BFT systems employ specific algorithms to ensure that as long as the proportion of faulty nodes remains below a certain threshold—usually one-third—the network maintains integrity.
+
+## Definition
+
+BFT, or Byzantine Fault Tolerance, refers to the ability of a distributed computer network to function correctly and reach a consensus even when some nodes are malicious or fail to communicate properly. In a Byzantine environment, nodes may provide conflicting information, remain silent, or act maliciously to prevent the system from reaching a valid state. BFT systems employ specific algorithms to ensure that as long as the proportion of faulty nodes remains below a certain threshold—usually one-third—the network maintains integrity.
+
+## Simple explanation
+
+Imagine a group of generals trying to coordinate an attack. Some are traitors trying to ruin the plan by giving false instructions. A BFT system is a set of rules that lets the loyal generals reach the right decision, even if the traitors are lying or staying silent, as long as the majority are loyal.
+
+## Why it matters
+
+BFT is the foundation for secure, reliable distributed systems that do not rely on a central authority. It is essential for blockchain protocols to function in a trustless environment where participants are unknown and potentially malicious.
+
+## How it works
+
+Nodes communicate through multiple rounds of messaging to propose, validate, and commit blocks. Each node broadcasts its state to the network, and the protocol requires a supermajority vote to confirm a transaction. This ensures that even if some nodes deviate, the honest nodes can override the bad data.
+
+## Real-world example
+
+Practical Byzantine Fault Tolerance (pBFT) was used in early distributed databases and serves as the inspiration for many modern blockchains like Hyperledger Fabric.
+
+## Advantages
+
+- High security guarantees
+- Deterministic finality
+- Consistent state across nodes
+
+## Limitations
+
+- Communication overhead grows with node count
+- Limited scalability in large networks
+- Complexity in handling network partitions
+
+## Common misconceptions
+
+- Many think BFT means the system is immune to all attacks, but it is only safe against a specific percentage of bad actors. People often confuse BFT with simple crash fault tolerance which only handles accidental failure.
+## Related knowledge
+
+- [Byzantine Generals Problem](/glossary/byzantine-generals-problem) — term
+- [Finality](/glossary/finality) — term
+- [Validator](/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:bft`

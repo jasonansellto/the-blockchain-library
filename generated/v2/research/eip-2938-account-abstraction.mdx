@@ -1,0 +1,51 @@
+---
+title: "EIP-2938: Account Abstraction"
+description: "EIP-2938 serves as a formal proposal to implement account abstraction at the protocol layer of the Ethereum network, replacing the existing, hard-coded authenti"
+---
+
+# EIP-2938: Account Abstraction
+
+EIP-2938 serves as a formal proposal to implement account abstraction at the protocol layer of the Ethereum network, replacing the existing, hard-coded authenti
+
+## Abstract
+
+EIP-2938 serves as a formal proposal to implement account abstraction at the protocol layer of the Ethereum network, replacing the existing, hard-coded authentication model. The EIP introduces two new transaction types and a new 'top-level' execution context that allows smart contracts to perform the validation work traditionally reserved for EOAs. This proposal focuses on enabling contract accounts to initiate transactions, effectively allowing them to pay their own gas fees and handle their own nonces. The technical architecture relies on new opcodes that allow the EVM to distinguish between 'validation' and 'execution' phases of a transaction. By doing so, the network can safely execute complex smart contract logic before a transaction is actually included in a block, preventing spam and ensuring that the network can account for the gas costs accurately. This shift is fundamental for the adoption of account abstraction, as it provides a robust, protocol-native solution that avoids the complexities of existing 'meta-transaction' schemes, which often require external relayers and introduce centralization risks.
+
+**Authors:** Ansgar Dietrichs, Vitalik Buterin, Matt Garnett, Will Villanueva
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2020-01-01
+
+## Key findings
+
+- Proposes protocol-level account abstraction via new transaction types.
+- Enables smart contracts to handle transaction validation and gas payment.
+- Introduces a new execution model separating validation from execution.
+- Reduces reliance on centralized relayer infrastructure for meta-transactions.
+
+## Citation
+
+Ansgar Dietrichs, Vitalik Buterin, Matt Garnett, Will Villanueva (2020). EIP-2938: Account Abstraction. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-2938
+## Related knowledge
+
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — article
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — related-article
+- [Account Abstraction](/glossary/account-abstraction) — glossary
+- [Account Abstraction](/glossary/account-abstraction) — related-glossary
+- [Beacon Chain](/glossary/beacon-chain) — glossary
+- [Beacon Chain](/glossary/beacon-chain) — related-glossary
+- [Browser Wallet](/glossary/browser-wallet) — glossary
+- [Browser Wallet](/glossary/browser-wallet) — related-glossary
+- [HD Wallet](/glossary/hd-wallet) — glossary
+- [HD Wallet](/glossary/hd-wallet) — related-glossary
+- [LP Token](/glossary/lp-token) — glossary
+- [LP Token](/glossary/lp-token) — related-glossary
+- [Modifier](/glossary/modifier) — glossary
+- [Modifier](/glossary/modifier) — related-glossary
+- [The Role of Smart Contracts in 2025: Beyond DeFi and NFTs](/topics/the-role-of-smart-contracts-in-2025-beyond-defi-and-nfts) — article
+- [The Role of Smart Contracts in 2025: Beyond DeFi and NFTs](/topics/the-role-of-smart-contracts-in-2025-beyond-defi-and-nfts) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:eip-2938-account-abstraction`

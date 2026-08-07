@@ -1,0 +1,45 @@
+---
+title: "ERC-4626 Tokenized Vault"
+description: "A standard ERC-4626 tokenized vault that accepts deposits, issues shares, and accrues yield from an underlying strategy."
+---
+
+# ERC-4626 Tokenized Vault
+
+A standard ERC-4626 tokenized vault that accepts deposits, issues shares, and accrues yield from an underlying strategy.
+
+A standard ERC-4626 tokenized vault that accepts deposits, issues shares, and accrues yield from an underlying strategy.
+
+## Explanation
+
+ERC-4626 standardizes yield-bearing vaults. Users deposit an underlying asset and receive share tokens representing their pro-rata claim. The standard interface makes vaults composable across DeFi protocols.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC4626.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+
+contract YieldVault is ERC4626 {
+    constructor(IERC20 asset)
+        ERC4626(asset)
+        ERC20(
+            string.concat("Vault ", IERC20Metadata(address(asset)).name()),
+            string.concat("v", IERC20Metadata(address(asset)).symbol())
+        )
+    {}
+
+    // Custom strategy hook — override to route assets to a yield source
+    function _deposit(address caller, address receiver, uint256 assets, uint256 shares)
+        internal override
+    {
+        super._deposit(caller, receiver, assets, shares);
+        // _investToStrategy(assets);
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:erc-4626-tokenized-vault`

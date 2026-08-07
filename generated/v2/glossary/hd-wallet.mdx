@@ -1,0 +1,49 @@
+---
+title: "HD Wallet"
+description: "A hierarchical deterministic wallet that derives many addresses and key pairs from a single master seed."
+---
+
+# HD Wallet
+
+A hierarchical deterministic wallet that derives many addresses and key pairs from a single master seed.
+
+## Definition
+
+A hierarchical deterministic wallet that derives many addresses and key pairs from a single master seed.
+
+## Why it matters
+
+Wallet concepts are central to user custody, authentication, recovery, and blockchain interaction.
+
+## How it works
+
+HD wallets utilize the BIP32 standard to create a hierarchy of keys starting from a master node. By using a seed (BIP39), the wallet uses mathematical algorithms to generate a deterministic sequence of keys. This ensures that as long as the user has the master seed, the exact same keys will be regenerated in the same order every time the wallet software is restored.
+
+## Real-world example
+
+Almost all modern software wallets like Trust Wallet and hardware wallets like Ledger use HD technology.
+
+## Advantages
+
+- Simplifies backups to one seed phrase
+- Enhanced privacy through frequent address rotation
+- Easy to organize accounts in a tree structure
+
+## Limitations
+
+- Complexity in understanding the underlying math
+- Risk if the single seed phrase is compromised
+- Requires compatible software for full restoration
+
+## Common misconceptions
+
+- People think they need a new backup for every new address they use. Users also confuse the master seed with a regular password, failing to realize the seed is the ultimate master key.
+## Related knowledge
+
+- [Account Abstraction](/glossary/account-abstraction) — term
+- [Seed Phrase](/glossary/seed-phrase) — term
+- [Wallet](/glossary/wallet) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:hd-wallet`

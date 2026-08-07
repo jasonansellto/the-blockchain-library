@@ -1,0 +1,52 @@
+---
+title: "Storage"
+description: "In the context of the Ethereum Virtual Machine (EVM), storage refers to a persistent, key-value data store that is unique to each smart contract. Data written to storage is permanently saved on the blockchain, meaning it survives across multiple transactions and function calls. B"
+---
+
+# Storage
+
+In the context of the Ethereum Virtual Machine (EVM), storage refers to a persistent, key-value data store that is unique to each smart contract. Data written to storage is permanently saved on the blockchain, meaning it survives across multiple transactions and function calls. Because storage is the most expensive type of memory operation in terms of gas consumption, smart contract developers must be highly intentional about how they structure and access variables to minimize costs and optimize performance.
+
+## Definition
+
+In the context of the Ethereum Virtual Machine (EVM), storage refers to a persistent, key-value data store that is unique to each smart contract. Data written to storage is permanently saved on the blockchain, meaning it survives across multiple transactions and function calls. Because storage is the most expensive type of memory operation in terms of gas consumption, smart contract developers must be highly intentional about how they structure and access variables to minimize costs and optimize performance.
+
+## Simple explanation
+
+Think of storage as a high-security, permanent safe located inside your smart contract. Whatever you put inside this safe is kept forever and is accessible whenever you need it in the future. However, because space in this safe is extremely expensive, you have to be very careful about what you choose to store there.
+
+## Why it matters
+
+Proper storage management is directly tied to the cost of using a smart contract. Inefficient storage patterns lead to high gas fees for users, which can make a protocol unusable. Conversely, efficient storage structures are a mark of high-quality, professional-grade smart contract development.
+
+## How it works
+
+Storage is organized into slots of 32 bytes each. State variables are packed into these slots based on their order of declaration in the contract. Reading or writing to these slots involves interacting with the underlying Merkle Patricia Trie structure of the blockchain.
+
+## Real-world example
+
+Storing user token balances in a mapping in a standard ERC-20 contract utilizes persistent storage slots.
+
+## Advantages
+
+- Provides persistent, long-term state
+- Immutable record of historical data
+- Accessible across different transactions
+
+## Limitations
+
+- Extremely high gas cost
+- Limited capacity compared to off-chain storage
+- Requires careful optimization of data packing
+
+## Common misconceptions
+
+- Users often confuse storage with memory, but memory is temporary and cheap while storage is permanent and expensive.
+- Many developers think storage is infinite, but it is physically limited by the blockchain's state size.
+## Related knowledge
+
+- [Calldata](/glossary/calldata) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:storage`

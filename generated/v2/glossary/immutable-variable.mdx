@@ -1,0 +1,50 @@
+---
+title: "Immutable Variable"
+description: "A smart-contract variable assigned during deployment and then fixed for the contract's lifetime."
+---
+
+# Immutable Variable
+
+A smart-contract variable assigned during deployment and then fixed for the contract's lifetime.
+
+## Definition
+
+A smart-contract variable assigned during deployment and then fixed for the contract's lifetime.
+
+## Why it matters
+
+Smart-contract concepts are essential for understanding programmable blockchain applications.
+
+## How it works
+
+The developer declares a state variable with the 'immutable' keyword within the contract scope. Inside the constructor function, the developer assigns a value to this variable based on inputs or other logic. During compilation, the Solidity compiler replaces references to the variable with the assigned value directly in the runtime code.
+
+## Real-world example
+
+A decentralized exchange deploying a factory contract might set the address of a specific fee-collection contract as an immutable variable during deployment.
+
+## Advantages
+
+- Reduced gas costs for read operations
+- Guaranteed value persistence after deployment
+- Prevents accidental state modification
+
+## Limitations
+
+- Cannot be changed after deployment
+- Limited to specific data types
+- Restricted assignment inside constructor only
+
+## Common misconceptions
+
+- People often think immutable variables are the same as constants, but constants must be fixed at compile-time.
+- Many users assume immutable variables can be updated via administrative functions, but they are physically locked.
+## Related knowledge
+
+- [ABI](/glossary/abi) — term
+- [Smart Contract](/glossary/smart-contract) — term
+- [Solidity](/developers/resources/solidity) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:immutable-variable`

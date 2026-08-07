@@ -1,0 +1,52 @@
+---
+title: "Library Contract"
+description: "A library contract in Solidity is a specific type of smart contract that contains reusable code, functions, or data structures intended to be called by other contracts. Libraries are deployed once to the blockchain and are then referenced by other contracts to avoid code duplicat"
+---
+
+# Library Contract
+
+A library contract in Solidity is a specific type of smart contract that contains reusable code, functions, or data structures intended to be called by other contracts. Libraries are deployed once to the blockchain and are then referenced by other contracts to avoid code duplication and minimize deployment costs. Because library functions are called using the 'delegatecall' opcode, they operate within the context of the calling contract, meaning the library has full access to the caller's storage and balance without owning it.
+
+## Definition
+
+A library contract in Solidity is a specific type of smart contract that contains reusable code, functions, or data structures intended to be called by other contracts. Libraries are deployed once to the blockchain and are then referenced by other contracts to avoid code duplication and minimize deployment costs. Because library functions are called using the 'delegatecall' opcode, they operate within the context of the calling contract, meaning the library has full access to the caller's storage and balance without owning it.
+
+## Simple explanation
+
+A library is like a shared toolbox. Instead of every contract having to build its own hammer and saw, they all reach into this one shared box to use the tools inside. This keeps contracts smaller, cleaner, and saves space on the blockchain.
+
+## Why it matters
+
+Libraries significantly reduce the deployment cost of complex protocols by allowing code reuse, which is crucial given the limits on smart contract sizes. They promote modularity and security by allowing standardized, audited code to be shared across many different projects.
+
+## How it works
+
+The developer writes a contract using the 'library' keyword and implements functions that perform common tasks. Other contracts import and use these libraries, often through the 'using X for Y' syntax. The compiler creates a link between the contracts, ensuring the library logic is available at execution time.
+
+## Real-world example
+
+OpenZeppelin’s SafeMath library was famously used to prevent integer overflow and underflow vulnerabilities in early Ethereum smart contracts.
+
+## Advantages
+
+- Promotes modular code reuse
+- Reduces contract deployment costs
+- Simplifies complex logic management
+
+## Limitations
+
+- Cannot store persistent data in the library itself
+- Functions must be stateless by design
+- Increased complexity in contract linking
+
+## Common misconceptions
+
+- It is a common myth that libraries can hold their own state variables to track user balances.
+- People often think library functions cost the same gas as internal functions, ignoring the overhead of delegatecall.
+## Related knowledge
+
+- [Delegatecall](/glossary/delegatecall) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:library-contract`

@@ -1,0 +1,50 @@
+---
+title: "Relayer"
+description: "An off-chain actor or service that observes one blockchain and submits messages or proofs to another system."
+---
+
+# Relayer
+
+An off-chain actor or service that observes one blockchain and submits messages or proofs to another system.
+
+## Definition
+
+An off-chain actor or service that observes one blockchain and submits messages or proofs to another system.
+
+## Why it matters
+
+Interoperability allows assets, messages, and applications to operate across otherwise separate networks.
+
+## How it works
+
+Relayers continuously listen to events on a source blockchain via its API or RPC nodes. Once an event is detected, they package the transaction proof and broadcast it to the destination blockchain, where a smart contract verifies the proof against the source chain's known state.
+
+## Real-world example
+
+In the Cosmos ecosystem, anyone can run a relayer process to help pass packets between networks like Cosmos Hub and Osmosis.
+
+## Advantages
+
+- Facilitates permissionless message transport
+- Decentralized operation models
+- Essential for protocol connectivity
+
+## Limitations
+
+- Relayers may require economic incentives
+- Risk of censorship if not diverse
+- Maintenance intensive for operators
+
+## Common misconceptions
+
+- Relayers are the ones moving the funds. Relayers only move proof of funds; the smart contracts on both chains handle the actual asset management.
+- Relayers can forge transaction data. Relayers cannot change data because the target chain always verifies the cryptographic proof against the source chain's state.
+## Related knowledge
+
+- [Bridge](/glossary/bridge) — term
+- [Cross-Chain](/categories/cross-chain) — term
+- [Wrapped Asset](/glossary/wrapped-asset) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:relayer`

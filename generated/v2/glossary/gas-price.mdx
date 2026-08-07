@@ -1,0 +1,50 @@
+---
+title: "Gas Price"
+description: "The amount paid per unit of computational gas consumed by a blockchain transaction."
+---
+
+# Gas Price
+
+The amount paid per unit of computational gas consumed by a blockchain transaction.
+
+## Definition
+
+The amount paid per unit of computational gas consumed by a blockchain transaction.
+
+## Why it matters
+
+Transaction and fee concepts explain how users submit work to a blockchain and how network resources are priced.
+
+## How it works
+
+Under EIP-1559, gas price is split into a 'base fee' (which is burned) and a 'priority fee' (the tip for the validator). Users set these values to ensure their transaction is competitive. If the priority fee is too low, the transaction will stay in the mempool until space becomes available.
+
+## Real-world example
+
+During the launch of a highly popular NFT collection, thousands of users spike the gas price to hundreds of Gwei to ensure their transaction is included in the next block.
+
+## Advantages
+
+- Allows market-driven fee prioritization
+- Efficiently allocates limited block space
+- Ensures validator network incentives
+
+## Limitations
+
+- Highly volatile based on network demand
+- Can price out smaller users
+- Complexity for average retail users
+
+## Common misconceptions
+
+- Many believe the gas price is set by the developers of a smart contract, but it is actually set by the market.
+- Some assume paying a higher gas price guarantees the transaction won't fail due to contract logic errors, which is incorrect.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:gas-price`

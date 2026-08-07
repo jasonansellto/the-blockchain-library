@@ -1,0 +1,56 @@
+---
+title: "Avalanche Consensus"
+description: "Avalanche consensus is a revolutionary, leaderless, and probabilistic consensus mechanism based on metastable sub-sampled voting. Instead of relying on a single leader or traditional proof-of-work, nodes repeatedly query a small, random subset of their peers to determine the netw"
+---
+
+# Avalanche Consensus
+
+Avalanche consensus is a revolutionary, leaderless, and probabilistic consensus mechanism based on metastable sub-sampled voting. Instead of relying on a single leader or traditional proof-of-work, nodes repeatedly query a small, random subset of their peers to determine the network state. Through repeated rounds of sampling, the network quickly converges on a single outcome with high probability. This approach allows for massive throughput, extremely fast finality, and high decentralization, providing an alternative to classical BFT algorithms that often struggle with scalability.
+
+## Definition
+
+Avalanche consensus is a revolutionary, leaderless, and probabilistic consensus mechanism based on metastable sub-sampled voting. Instead of relying on a single leader or traditional proof-of-work, nodes repeatedly query a small, random subset of their peers to determine the network state. Through repeated rounds of sampling, the network quickly converges on a single outcome with high probability. This approach allows for massive throughput, extremely fast finality, and high decentralization, providing an alternative to classical BFT algorithms that often struggle with scalability.
+
+## Simple explanation
+
+Imagine you are in a crowded room and want to know which color everyone prefers, but you cannot talk to everyone at once. You ask a few random people what they like, and they ask a few others. Very quickly, the whole room agrees on a color because everyone keeps shifting their opinion toward what their friends say. Avalanche works by nodes constantly asking random peers for their 'color' until the network reaches a consensus.
+
+## Why it matters
+
+Avalanche consensus addresses the 'trilemma' of blockchain by providing high speed and throughput without sacrificing decentralization. It enables the creation of highly responsive decentralized finance (DeFi) applications that can rival traditional centralized systems.
+
+## How it works
+
+Nodes perform repeated rounds of sub-sampled voting, where each node queries a random subset of neighbors about a pending transaction. If the majority of the subset prefers an outcome, the node adopts that preference. Through many iterations, the system gains high confidence that a transaction is final, achieving consensus without heavy computation.
+
+## Real-world example
+
+The Avalanche (AVAX) primary network and its subnets utilize this protocol to handle thousands of transactions per second.
+
+## Advantages
+
+- Extremely low latency
+- High throughput capabilities
+- Leaderless architecture for resilience
+- Energy efficient design
+
+## Limitations
+
+- Probabilistic rather than deterministic finality
+- Complex implementation logic
+- Less battle-tested than PoW
+
+## Common misconceptions
+
+- Some believe it is just a variant of PoS, but it is actually an entirely different consensus family. People often think it requires a central coordinator, but it is entirely leaderless.
+## Related knowledge
+
+- [Byzantine Fault Tolerance](/glossary/byzantine-fault-tolerance) — term
+- [Finality](/glossary/finality) — term
+- [Proof of Stake](/books/proof-of-stake) — term
+- [Throughput](/glossary/throughput) — term
+- [Validator](/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:avalanche-consensus`

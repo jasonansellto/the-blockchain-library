@@ -1,0 +1,90 @@
+{
+  "releaseVersion": "2.1.0",
+  "compilerVersion": "2.0.1",
+  "schemaVersion": "2.0",
+  "buildId": "70e37656b46a4379",
+  "source": {
+    "exportDate": "2026-08-07T19:09:05.484Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0"
+  },
+  "generatedAt": "2026-08-07T19:40:30.995Z",
+  "totals": {
+    "rawObjects": 3858,
+    "canonicalObjects": 3545,
+    "edges": 7415,
+    "searchableObjects": 3545
+  },
+  "quality": {
+    "rawObjects": 3858,
+    "canonicalObjects": 3545,
+    "exactDuplicateRowsRemoved": 298,
+    "canonicalMergeGroups": 15,
+    "canonicalMergeExcessRows": 15,
+    "duplicateCanonicalUids": 0,
+    "totalEdges": 7415,
+    "unresolvedRelationships": 1595,
+    "uniqueMissingConcepts": 299,
+    "selfEdgesSkipped": 21,
+    "missingSeoDescription": 2925,
+    "missingTags": 778,
+    "uncategorized": 426
+  },
+  "distribution": {
+    "website": "https://theblockchainlibrary.com",
+    "documentation": "https://docs.theblockchainlibrary.com",
+    "repository": "https://github.com/jasonansellto/the-blockchain-library"
+  },
+  "publicFiles": {
+    "manifest.json": {
+      "path": "/knowledge/manifest.json",
+      "sha256": "01c418087ed618957361d7378ad5ad0a1e68006939d23491726e924c28b7f58c"
+    },
+    "catalog.json": {
+      "path": "/knowledge/catalog.json",
+      "sha256": "a6834522658239d52cbaceb0bbc878c8240d5a7b4c28ddf47b3626ecd2e11b3b"
+    },
+    "graph.json": {
+      "path": "/knowledge/graph.json",
+      "sha256": "46bd889ec1c6af55342a48bef6d32f387382ba6e16a9823315a02f4822b99328"
+    },
+    "related.json": {
+      "path": "/knowledge/related.json",
+      "sha256": "6ff000cb83041ef364a05bc6072299c9ac5033ec464575009d120eb8356c3784"
+    },
+    "search-index.json": {
+      "path": "/knowledge/search-index.json",
+      "sha256": "f16f123d2d8c4ae1be01999bbdff7e87756cc0374cbf085ee31015a117948adc"
+    },
+    "reconciliation.json": {
+      "path": "/knowledge/reconciliation.json",
+      "sha256": "1c50d131363f1a52d9ed251ac3aa2a4166a218bbec3ee03b1af66e25399bf552"
+    },
+    "missing-concepts.json": {
+      "path": "/knowledge/missing-concepts.json",
+      "sha256": "1aea840b8f0106dc8f1f81ea59062584f1b604aa382be0595ec82ab779aa5842"
+    },
+    "duplicate-merges.json": {
+      "path": "/knowledge/duplicate-merges.json",
+      "sha256": "05f7090a4f5609a116b50436ee1a337214ee91bbd3fa766016761aed9b5a76a3"
+    },
+    "source-map.json": {
+      "path": "/knowledge/source-map.json",
+      "sha256": "c9f297e8104c14bb35b4d95853469f273be5bba228ad41a399187a098d6cc3ae"
+    }
+  },
+  "syncContract": {
+    "authoredContentOwner": "Base44",
+    "canonicalKnowledgeOwner": "GitHub",
+    "documentationPresentation": "Mintlify",
+    "safeWebsiteReturnFields": [
+      "canonicalUid",
+      "canonicalStatus",
+      "compiledBuildId",
+      "normalizedSlug",
+      "compiledRelationships",
+      "knowledgeQuality",
+      "canonicalSearchMetadata"
+    ]
+  }
+}

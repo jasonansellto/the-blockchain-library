@@ -1,0 +1,49 @@
+---
+title: "Practical Byzantine Fault Tolerance"
+description: "The paper by Castro and Liskov introduces the Practical Byzantine Fault Tolerance (PBFT) algorithm, a landmark contribution to distributed systems. Addressing t"
+---
+
+# Practical Byzantine Fault Tolerance
+
+The paper by Castro and Liskov introduces the Practical Byzantine Fault Tolerance (PBFT) algorithm, a landmark contribution to distributed systems. Addressing t
+
+## Abstract
+
+The paper by Castro and Liskov introduces the Practical Byzantine Fault Tolerance (PBFT) algorithm, a landmark contribution to distributed systems. Addressing the limitations of earlier theoretical models, PBFT provides a high-performance solution for state machine replication in asynchronous environments, assuming no more than one-third of nodes are malicious. The protocol utilizes a primary-backup architecture and a three-phase commit process—pre-prepare, prepare, and commit—to ensure safety and liveness. Unlike previous BFT implementations that incurred massive performance penalties, PBFT demonstrated that Byzantine fault tolerance could be achieved with sub-millisecond latency for typical client-server operations. By optimizing communication overhead and handling view changes efficiently, the authors bridged the gap between theoretical distributed systems research and real-world system resilience. Its influence on modern blockchain architecture is immense, as it serves as the foundational reference point for permissioned distributed ledgers and early private blockchain networks seeking to maintain transaction integrity despite node compromise.
+
+**Authors:** Miguel Castro, Barbara Liskov
+
+**Publication:** Academic Paper
+
+**Publication date:** 1999-01-01
+
+## Key findings
+
+- PBFT achieves state machine replication despite Byzantine failures in asynchronous networks.
+- The protocol maintains liveness and safety as long as f nodes are faulty in a system of 3f+1 nodes.
+- Performance optimization is achieved by minimizing communication stages during normal operation.
+- The view change mechanism allows for robust recovery from primary node failure.
+
+## Citation
+
+Miguel Castro, Barbara Liskov (1999). Practical Byzantine Fault Tolerance. Academic Paper. http://pmg.csail.mit.edu/papers/osdi99.pdf
+## Related knowledge
+
+- [Consensus](/categories/consensus) — glossary
+- [Consensus](/categories/consensus) — related-glossary
+- [Consensus Mechanisms Explained: PoW, PoS, and What Comes Next](/topics/consensus-mechanisms-explained-pow-pos-and-what-comes-next) — article
+- [Consensus Mechanisms Explained: PoW, PoS, and What Comes Next](/topics/consensus-mechanisms-explained-pow-pos-and-what-comes-next) — related-article
+- [Edge Computing, AI, and Blockchain: The New Stack](/topics/edge-computing-ai-and-blockchain-the-new-stack) — article
+- [Edge Computing, AI, and Blockchain: The New Stack](/topics/edge-computing-ai-and-blockchain-the-new-stack) — related-article
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — article
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — related-article
+- [Oracle](/glossary/oracle) — glossary
+- [Oracle](/glossary/oracle) — related-glossary
+- [What Comes After Cloud? Decentralized Compute Explained](/topics/what-comes-after-cloud-decentralized-compute-explained) — article
+- [What Comes After Cloud? Decentralized Compute Explained](/topics/what-comes-after-cloud-decentralized-compute-explained) — related-article
+- [Why Predictability Beats Speed in Modern Blockchain Design](/topics/why-predictability-beats-speed-in-modern-blockchain-design) — article
+- [Why Predictability Beats Speed in Modern Blockchain Design](/topics/why-predictability-beats-speed-in-modern-blockchain-design) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:practical-byzantine-fault-tolerance`

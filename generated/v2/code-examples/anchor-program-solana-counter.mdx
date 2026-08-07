@@ -1,0 +1,66 @@
+---
+title: "Anchor Program — Solana Counter"
+description: "A Solana counter program using the Anchor framework with PDA-based state storage."
+---
+
+# Anchor Program — Solana Counter
+
+A Solana counter program using the Anchor framework with PDA-based state storage.
+
+A Solana counter program using the Anchor framework with PDA-based state storage.
+
+## Explanation
+
+Anchor is Solana's most popular framework. The #[program] module defines instruction handlers. Accounts are validated via #[derive(Accounts)]. PDA seeds ensure deterministic addresses. The space calculation (8 + 8) accounts for the discriminator and the u64 field.
+
+## Code
+
+```rust
+use anchor_lang::prelude::*;
+
+#[program]
+pub mod counter {
+    use super::*;
+
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        let counter = &mut ctx.accounts.counter;
+        counter.count = 0;
+        Ok(())
+    }
+
+    pub fn increment(ctx: Context<Increment>) -> Result<()> {
+        let counter = &mut ctx.accounts.counter;
+        counter.count += 1;
+        Ok(())
+    }
+}
+
+#[derive(Accounts)]
+pub struct Initialize<'info> {
+    #[account(mut)]
+    pub user: Signer<'info>,
+    #[account(
+        init,
+        space = 8 + 8,
+        payer = user,
+        seeds = [b"counter", user.key().as_ref()],
+        bump
+    )]
+    pub counter: Account<'info, Counter>,
+    pub system_program: Program<'info, System>,
+}
+
+#[derive(Accounts)]
+pub struct Increment<'info> {
+    #[account(mut)]
+    pub counter: Account<'info, Counter>,
+}
+
+#[account]
+pub struct Counter {
+    pub count: u64,
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:anchor-program-solana-counter`

@@ -1,0 +1,53 @@
+---
+title: "Mempool"
+description: "The mempool, or memory pool, is a temporary staging area where unconfirmed transactions reside before they are selected by a validator or miner to be included in a blockchain block. It acts as a gateway for transactions entering the network. Each node maintains its own local vers"
+---
+
+# Mempool
+
+The mempool, or memory pool, is a temporary staging area where unconfirmed transactions reside before they are selected by a validator or miner to be included in a blockchain block. It acts as a gateway for transactions entering the network. Each node maintains its own local version of the mempool, where transactions are validated against network rules before propagation. As block space is limited, competition for inclusion often leads to users paying higher transaction fees to prioritize their transactions within the mempool, a process known as fee-based prioritization.
+
+## Definition
+
+The mempool, or memory pool, is a temporary staging area where unconfirmed transactions reside before they are selected by a validator or miner to be included in a blockchain block. It acts as a gateway for transactions entering the network. Each node maintains its own local version of the mempool, where transactions are validated against network rules before propagation. As block space is limited, competition for inclusion often leads to users paying higher transaction fees to prioritize their transactions within the mempool, a process known as fee-based prioritization.
+
+## Simple explanation
+
+Think of the mempool as a digital waiting room for transactions. When you send money, your request doesn't go onto the blockchain immediately. Instead, it waits in this room with other pending requests until a miner picks it up to put it into the next block.
+
+## Why it matters
+
+The mempool is the primary bottleneck for transaction throughput and cost. Understanding how it works is critical for managing transaction fees and ensuring timely settlements during periods of high network congestion.
+
+## How it works
+
+When a user broadcasts a transaction, it reaches local nodes, which verify the signature and funds. If valid, the transaction is added to the node's mempool. Miners or validators then scan their local mempools to build candidate blocks based on profitability and protocol rules. Once included in a block, the transaction is removed from the mempool.
+
+## Real-world example
+
+The Bitcoin mempool experiences significant activity during bull markets, leading to high 'satoshis per byte' fees for users who want to avoid long wait times.
+
+## Advantages
+
+- Enables transaction prioritization via fees
+- Provides visibility into network demand
+- Prevents invalid transactions from entering the ledger
+
+## Limitations
+
+- Susceptible to spam attacks
+- Can lead to unpredictable transaction latency
+- Size can fluctuate wildly based on network usage
+
+## Common misconceptions
+
+- People often think the mempool is a single global database, but each node has its own unique view of pending transactions.
+- Many users mistakenly believe that all transactions in the mempool are guaranteed to be processed in the order they were submitted.
+## Related knowledge
+
+- [Transaction](/glossary/transaction) — term
+- [Validator](/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:mempool`

@@ -1,0 +1,54 @@
+---
+title: "Account Abstraction"
+description: "A blockchain account design that uses programmable logic for authentication, recovery, fee payment, and transaction execution."
+---
+
+# Account Abstraction
+
+A blockchain account design that uses programmable logic for authentication, recovery, fee payment, and transaction execution.
+
+## Definition
+
+A blockchain account design that uses programmable logic for authentication, recovery, fee payment, and transaction execution.
+
+## Simple explanation
+
+A programmable blockchain account for authentication, recovery, fee payment, and transaction execution.
+
+## Why it matters
+
+Wallet concepts are central to user custody, authentication, recovery, and blockchain interaction.
+
+## How it works
+
+AA uses smart contracts to handle transaction validation instead of fixed private key signatures. A user sends an 'UserOperation' object, which is processed by a bundler and an entry-point contract. This structure allows the account to execute custom code for verification, such as checking a biometric signature or a second-factor authentication code.
+
+## Real-world example
+
+Safe (formerly Gnosis Safe) and the EIP-4337 standard implementation on Ethereum mainnet.
+
+## Advantages
+
+- Supports social recovery of lost wallets
+- Enables gas payments in various tokens
+- Allows customizable security policies
+- Improves overall user experience
+
+## Limitations
+
+- Increased gas costs for complex smart contract execution
+- Requires ongoing developer ecosystem support
+- Potential for new smart contract vulnerabilities
+
+## Common misconceptions
+
+- It is commonly mistaken as a layer-2 scaling solution rather than a wallet architecture upgrade.
+- Many users believe it requires a hard fork of the entire blockchain, when it can often be implemented via protocol upgrades like EIP-4337.
+## Related knowledge
+
+- [Seed Phrase](/glossary/seed-phrase) — term
+- [Wallet](/glossary/wallet) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:account-abstraction`

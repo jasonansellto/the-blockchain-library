@@ -1,0 +1,51 @@
+---
+title: "Chain Reorganization"
+description: "A change in canonical blockchain history when one recent branch is replaced by another branch accepted by consensus."
+---
+
+# Chain Reorganization
+
+A change in canonical blockchain history when one recent branch is replaced by another branch accepted by consensus.
+
+## Definition
+
+A change in canonical blockchain history when one recent branch is replaced by another branch accepted by consensus.
+
+## Why it matters
+
+Consensus concepts explain how independent nodes agree on one shared history without a central coordinator.
+
+## How it works
+
+Nodes constantly listen for the branch with the most work. When a node detects a longer chain, it updates its local pointer to the tip of that chain. It then discards the blocks it previously validated that are not part of this new, longer path.
+
+## Real-world example
+
+Ethereum experienced a 'deep' reorg during the transition to Proof of Stake, where nodes briefly disagreed on the chain tip before consensus was restored.
+
+## Advantages
+
+- Allows the network to resolve disputes automatically
+- Maintains consensus even with temporary network delays
+- Ensures the network eventually aligns on one truth
+
+## Limitations
+
+- Can cause transaction rollbacks for users
+- Introduces uncertainty into transaction finality
+- Potentially exploitable for double-spend attacks
+
+## Common misconceptions
+
+- Many think a reorg is a sign of a hack, but it is a normal part of distributed consensus.
+- Some people believe reorgs are permanent, but they are resolved automatically by the protocol.
+## Related knowledge
+
+- [Block Producer](/glossary/block-producer) — term
+- [Finality](/glossary/finality) — term
+- [Proof of Stake](/books/proof-of-stake) — term
+- [Validator](/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:chain-reorganization`

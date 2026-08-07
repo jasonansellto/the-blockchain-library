@@ -1,0 +1,48 @@
+---
+title: "Keccak-256"
+description: "A 256-bit Keccak hash function used extensively in Ethereum for addresses and smart-contract operations."
+---
+
+# Keccak-256
+
+A 256-bit Keccak hash function used extensively in Ethereum for addresses and smart-contract operations.
+
+## Definition
+
+A 256-bit Keccak hash function used extensively in Ethereum for addresses and smart-contract operations.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+It uses a sponge construction method, where input data is absorbed into a large state and then squeezed out to produce the hash output. The state undergoes multiple rounds of bitwise operations to ensure diffusion and confusion. This process ensures that finding two different inputs that produce the same output is mathematically improbable.
+
+## Real-world example
+
+Ethereum address generation is entirely based on taking the last 20 bytes of the Keccak-256 hash of a user's public key.
+
+## Advantages
+
+- High resistance to collisions
+- Efficient implementation in hardware
+- Standardized and peer-reviewed
+
+## Limitations
+
+- Different from standard SHA-3
+- High memory requirements for some implementations
+- Irreversible output
+
+## Common misconceptions
+
+- Many developers incorrectly refer to it as SHA-3, but Ethereum uses a specific variant of the Keccak algorithm.
+- Some people think it is a form of encryption, but it is a one-way hashing function.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:keccak-256`

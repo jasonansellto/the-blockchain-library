@@ -1,0 +1,52 @@
+---
+title: "Federated Learning"
+description: "Federated Learning is a machine learning technique that trains algorithms across multiple decentralized edge devices or servers holding local data samples, without exchanging the actual data. In a blockchain context, the model weights are aggregated on-chain or via a consensus me"
+---
+
+# Federated Learning
+
+Federated Learning is a machine learning technique that trains algorithms across multiple decentralized edge devices or servers holding local data samples, without exchanging the actual data. In a blockchain context, the model weights are aggregated on-chain or via a consensus mechanism to prevent data leakage. This approach preserves privacy and complies with data protection regulations while allowing the global model to learn from diverse, distributed datasets that would otherwise remain siloed, inaccessible, or proprietary.
+
+## Definition
+
+Federated Learning is a machine learning technique that trains algorithms across multiple decentralized edge devices or servers holding local data samples, without exchanging the actual data. In a blockchain context, the model weights are aggregated on-chain or via a consensus mechanism to prevent data leakage. This approach preserves privacy and complies with data protection regulations while allowing the global model to learn from diverse, distributed datasets that would otherwise remain siloed, inaccessible, or proprietary.
+
+## Simple explanation
+
+Imagine teaching a group of students without them ever sharing their notes with each other. They each learn from their own books and only share what they discovered (the conclusions) with the teacher. Federated learning lets AI learn from millions of phones without ever seeing the private photos on those phones.
+
+## Why it matters
+
+It enables AI to learn from sensitive data (like medical or financial records) without violating privacy. This is essential for building ethical AI in highly regulated industries.
+
+## How it works
+
+A central server sends a generic model to multiple devices. Each device trains the model on its local data and returns only the mathematical updates (gradients). A smart contract or global aggregator updates the master model, which is then sent back out for the next round of learning.
+
+## Real-world example
+
+Personalized health tracking apps that train models locally on user data to protect medical confidentiality.
+
+## Advantages
+
+- Superior data privacy and security
+- Reduces need for central data storage
+- Compliant with GDPR and other regulations
+
+## Limitations
+
+- Communication overhead between many nodes
+- Risk of poisoning from malicious nodes
+- Difficulty in auditing the training data
+
+## Common misconceptions
+
+- Many assume data must be centralized to be useful, but federated learning proves otherwise.
+- People think it makes the model less accurate, but it can often yield similar results.
+## Related knowledge
+
+- [Zero-Knowledge Proofs](/categories/zero-knowledge-proofs) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:federated-learning`

@@ -1,0 +1,52 @@
+---
+title: "Honeypot"
+description: "A honeypot in the context of smart contracts is a deceptive protocol designed to look like an attractive investment or DeFi tool, but which contains a malicious backdoor meant to trap user funds. Once an unsuspecting user deposits assets into the contract, the developer uses the "
+---
+
+# Honeypot
+
+A honeypot in the context of smart contracts is a deceptive protocol designed to look like an attractive investment or DeFi tool, but which contains a malicious backdoor meant to trap user funds. Once an unsuspecting user deposits assets into the contract, the developer uses the backdoor to prevent the user from withdrawing, effectively stealing the deposited funds. These are common in the rug-pull ecosystem, often targeting users with high-yield farming opportunities that appear legitimate.
+
+## Definition
+
+A honeypot in the context of smart contracts is a deceptive protocol designed to look like an attractive investment or DeFi tool, but which contains a malicious backdoor meant to trap user funds. Once an unsuspecting user deposits assets into the contract, the developer uses the backdoor to prevent the user from withdrawing, effectively stealing the deposited funds. These are common in the rug-pull ecosystem, often targeting users with high-yield farming opportunities that appear legitimate.
+
+## Simple explanation
+
+A honeypot is like a trap set with a piece of cheese. It looks like a great opportunity to make money, but the moment you try to take your investment out, you find the exit is locked. Only the person who built the trap has the key, allowing them to keep all the money you put in.
+
+## Why it matters
+
+Honeypots are a major source of retail loss in the cryptocurrency space. They destroy trust in new, unverified projects and showcase the risks of 'degen' investing.
+
+## How it works
+
+The developer writes a smart contract where the withdrawal function has a hidden check—typically a whitelist of allowed addresses or a flag that can only be set to 'false.' When users interact with the contract, they are depositing into a pool that they can never pull from, while the developer later triggers a drain function.
+
+## Real-world example
+
+The Squid Game token (SQUID) was a famous honeypot where investors could buy the token but were unable to sell it, causing the price to skyrocket before the developers drained the pool.
+
+## Advantages
+
+- Reveals risks of unverified smart contracts
+- Encourages community due diligence
+- Serves as a cautionary case study for developers
+
+## Limitations
+
+- Difficult to detect for average retail users
+- Directly results in permanent loss of funds
+- Hard to recover stolen assets once drained
+
+## Common misconceptions
+
+- People think that checking the contract balance is enough to spot a scam, but honeypots often show high balances to lure victims.
+- Many believe that because a contract is on a major blockchain, it is inherently safe from being a honeypot.
+## Related knowledge
+
+- [Rug Pull](/glossary/rug-pull) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:honeypot`

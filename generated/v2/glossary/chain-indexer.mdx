@@ -1,0 +1,51 @@
+---
+title: "Chain Indexer"
+description: "A chain indexer is a specialized software service that continuously monitors a blockchain, parses raw transaction data, and organizes it into an optimized database for efficient querying. While blockchains are excellent for writing data chronologically, they are often inefficient"
+---
+
+# Chain Indexer
+
+A chain indexer is a specialized software service that continuously monitors a blockchain, parses raw transaction data, and organizes it into an optimized database for efficient querying. While blockchains are excellent for writing data chronologically, they are often inefficient for complex read operations. Chain indexers bridge this gap by transforming unstructured raw data into relational or document-based formats, enabling developers to build responsive applications that can filter, search, and aggregate historical data with sub-second performance.
+
+## Definition
+
+A chain indexer is a specialized software service that continuously monitors a blockchain, parses raw transaction data, and organizes it into an optimized database for efficient querying. While blockchains are excellent for writing data chronologically, they are often inefficient for complex read operations. Chain indexers bridge this gap by transforming unstructured raw data into relational or document-based formats, enabling developers to build responsive applications that can filter, search, and aggregate historical data with sub-second performance.
+
+## Simple explanation
+
+Imagine a massive pile of unorganized receipts from every store on Earth. If you wanted to find one specific purchase, it would take forever. A chain indexer is like a digital filing clerk that takes every receipt, sorts it by date, category, and store, and puts it in a neat folder. Now, you can find exactly what you need in seconds.
+
+## Why it matters
+
+Chain indexers are essential for building high-performance dApps that need to query massive amounts of history. They move the heavy lifting away from the network nodes, allowing apps to be fast without slowing down the blockchain.
+
+## How it works
+
+The indexer connects to a node and listens for new blocks. As each block is finalized, the indexer decodes the transaction logs and smart contract events into a structured schema. This data is written into an auxiliary database (like PostgreSQL or Elasticsearch) which the dApp frontend then queries instead of querying the node directly.
+
+## Real-world example
+
+The Graph protocol, which uses subgraphs to index blockchain events for dApps like Uniswap or Aave.
+
+## Advantages
+
+- Enables complex data queries
+- Massively improves application speed
+- Simplifies frontend integration
+
+## Limitations
+
+- Requires separate database maintenance
+- Potential for data synchronization lag
+- Centralization risk in indexing logic
+
+## Common misconceptions
+
+- Indexers are the same as nodes; indexers are secondary tools that rely on node data. Using an indexer guarantees accurate data; they can have bugs or downtime like any other software.
+## Related knowledge
+
+- [The Graph](/developers/resources/the-graph) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:chain-indexer`

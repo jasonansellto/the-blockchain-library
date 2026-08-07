@@ -1,0 +1,51 @@
+---
+title: "ERC-5267: Retrieval of EIP-712 Domain"
+description: "ERC-5267 defines a standard way for smart contracts to expose their EIP-712 domain information. While EIP-712 provided the framework for typed structured data,"
+---
+
+# ERC-5267: Retrieval of EIP-712 Domain
+
+ERC-5267 defines a standard way for smart contracts to expose their EIP-712 domain information. While EIP-712 provided the framework for typed structured data,
+
+## Abstract
+
+ERC-5267 defines a standard way for smart contracts to expose their EIP-712 domain information. While EIP-712 provided the framework for typed structured data, it did not specify how a contract should communicate its domain requirements (such as the contract address, chain ID, or verifying contract address) to front-end applications. ERC-5267 adds a `eip712Domain()` function that enables wallets and Dapps to dynamically query a contract for its expected domain separator components. This significantly improves the user experience by reducing the need for hardcoded configurations in client-side applications. When a contract is deployed on multiple chains or behind a proxy, it can accurately report its specific domain context, ensuring that signatures are generated correctly and rejected only when invalid. By making domain information discoverable on-chain, this standard enhances the robustness of EIP-712 implementations, minimizing signature-related errors and streamlining the integration of complex off-chain signing protocols within the broader Ethereum ecosystem.
+
+**Authors:** Francisco Giordano, Hadrien Croubois
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2022-01-01
+
+## Key findings
+
+- Enables programmatic discovery of EIP-712 domain information from smart contracts.
+- Reduces errors in cross-chain signature generation by providing dynamic context.
+- Simplifies Dapp development by eliminating hardcoded domain configurations.
+- Supports the broader adoption of typed data signing protocols.
+
+## Citation
+
+Francisco Giordano, Hadrien Croubois (2022). ERC-5267: Retrieval of EIP-712 Domain. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-5267
+## Related knowledge
+
+- [Automated Market Maker](/glossary/automated-market-maker) — glossary
+- [Automated Market Maker](/glossary/automated-market-maker) — related-glossary
+- [Beacon Chain](/glossary/beacon-chain) — glossary
+- [Beacon Chain](/glossary/beacon-chain) — related-glossary
+- [Constructor](/glossary/constructor) — glossary
+- [Constructor](/glossary/constructor) — related-glossary
+- [Factory Contract](/glossary/factory-contract) — glossary
+- [Factory Contract](/glossary/factory-contract) — related-glossary
+- [LP Token](/glossary/lp-token) — glossary
+- [LP Token](/glossary/lp-token) — related-glossary
+- [Modifier](/glossary/modifier) — glossary
+- [Modifier](/glossary/modifier) — related-glossary
+- [Smart Contracts 2.0: How Advanced Automation is Reshaping Business](/topics/smart-contracts-2-0-how-advanced-automation-is-reshaping-business) — article
+- [Smart Contracts 2.0: How Advanced Automation is Reshaping Business](/topics/smart-contracts-2-0-how-advanced-automation-is-reshaping-business) — related-article
+- [Solana’s Comeback: Can It Outpace Ethereum in 2025?](/topics/solanas-comeback-can-it-outpace-ethereum-in-2025) — article
+- [Solana’s Comeback: Can It Outpace Ethereum in 2025?](/topics/solanas-comeback-can-it-outpace-ethereum-in-2025) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:erc-5267-retrieval-of-eip-712-domain`

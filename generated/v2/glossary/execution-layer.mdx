@@ -1,0 +1,50 @@
+---
+title: "Execution Layer"
+description: "The blockchain component that processes transactions, executes smart contracts, and computes changes to network state."
+---
+
+# Execution Layer
+
+The blockchain component that processes transactions, executes smart contracts, and computes changes to network state.
+
+## Definition
+
+The blockchain component that processes transactions, executes smart contracts, and computes changes to network state.
+
+## Why it matters
+
+Architecture determines how blockchain components divide responsibility for execution, consensus, settlement, and data.
+
+## How it works
+
+The execution layer receives transaction data from users, verifies their digital signatures, and runs the EVM code to calculate new account balances. It does not decide which transactions belong in a block; it simply processes whatever the consensus layer delivers to it, ensuring accuracy and order.
+
+## Real-world example
+
+Geth (Go-Ethereum) is the most popular execution client that handles the processing of blocks and smart contract execution for node operators.
+
+## Advantages
+
+- Improved modularity and maintenance
+- Allows independent upgrades to components
+- Clearer separation of responsibilities
+
+## Limitations
+
+- Requires coordination between client types
+- Increased complexity for node operators
+- Relies on consensus layer stability
+
+## Common misconceptions
+
+- People often think the execution layer handles block production, but it merely processes the transactions within a block provided by the consensus layer.
+- Many believe the execution layer is the entire Ethereum network, failing to recognize the vital role of the consensus layer.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:execution-layer`

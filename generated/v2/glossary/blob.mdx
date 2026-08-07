@@ -1,0 +1,50 @@
+---
+title: "Blob"
+description: "A large temporary data object designed to carry rollup data more cheaply than permanent execution calldata."
+---
+
+# Blob
+
+A large temporary data object designed to carry rollup data more cheaply than permanent execution calldata.
+
+## Definition
+
+A large temporary data object designed to carry rollup data more cheaply than permanent execution calldata.
+
+## Why it matters
+
+Scaling concepts explain how blockchain systems increase capacity while balancing security and decentralization.
+
+## How it works
+
+Blobs are carried in a specialized sidecar alongside a standard Ethereum block. They are not stored in the Ethereum Virtual Machine's state permanently, but are gossiped through the network nodes. After a short retention period, nodes delete the blob data, while the cryptographic commitment remains available on-chain for verification purposes.
+
+## Real-world example
+
+Optimism and Arbitrum use blobs to submit transaction batches to Ethereum, lowering user fees.
+
+## Advantages
+
+- Reduces L2 transaction costs
+- Optimizes Ethereum storage efficiency
+- Scales blockchain data throughput
+
+## Limitations
+
+- Data availability is time-limited
+- Requires node storage synchronization
+
+## Common misconceptions
+
+- Users think blobs stay on the blockchain forever, but they are pruned for efficiency.
+- Many believe blobs are general-purpose storage for dApps, but they are specifically for rollups.
+## Related knowledge
+
+- [Data Availability](/glossary/data-availability) — term
+- [Layer 2](/categories/layer-2) — term
+- [Rollup](/glossary/rollup) — term
+- [Throughput](/glossary/throughput) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:blob`

@@ -1,0 +1,48 @@
+---
+title: "Hash Collision"
+description: "A condition where two distinct inputs produce the same output under a cryptographic hash function."
+---
+
+# Hash Collision
+
+A condition where two distinct inputs produce the same output under a cryptographic hash function.
+
+## Definition
+
+A condition where two distinct inputs produce the same output under a cryptographic hash function.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+Hash functions take an input of any size and produce a fixed-length string. Because the number of possible inputs is infinite and the output length is fixed, collisions are mathematically inevitable. Security relies on the probability of finding a collision being so low that it would take billions of years with modern hardware.
+
+## Real-world example
+
+The SHA-1 hash function was deprecated after researchers successfully demonstrated a practical collision attack in 2017.
+
+## Advantages
+
+- Highlights limitations of hash functions
+- Drive advancements in cryptographic standards
+- Enables stress-testing of network integrity
+
+## Limitations
+
+- Significant threat to system security
+- Undermines trust in data verification
+- Requires immediate protocol migration if discovered
+
+## Common misconceptions
+
+- Many believe that collisions can be entirely avoided in any hash function, which is mathematically impossible.
+- Some think collisions can only happen by accident, but researchers specifically look for them to attack systems.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:hash-collision`

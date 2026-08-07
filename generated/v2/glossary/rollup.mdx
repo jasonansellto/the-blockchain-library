@@ -1,0 +1,68 @@
+---
+title: "Rollup"
+description: "A Rollup is a Layer 2 scaling solution that increases Ethereum's transaction throughput by processing transactions off-chain and then posting the compressed data to the Ethereum mainnet. By handling the heavy lifting of computation externally and only using the mainnet for data a"
+---
+
+# Rollup
+
+A Rollup is a Layer 2 scaling solution that increases Ethereum's transaction throughput by processing transactions off-chain and then posting the compressed data to the Ethereum mainnet. By handling the heavy lifting of computation externally and only using the mainnet for data availability and settlement, rollups drastically reduce gas fees and increase transaction speed while inheriting the security properties of the Ethereum base layer.
+
+## Definition
+
+A Rollup is a Layer 2 scaling solution that increases Ethereum's transaction throughput by processing transactions off-chain and then posting the compressed data to the Ethereum mainnet. By handling the heavy lifting of computation externally and only using the mainnet for data availability and settlement, rollups drastically reduce gas fees and increase transaction speed while inheriting the security properties of the Ethereum base layer.
+
+## Simple explanation
+
+Imagine a busy restaurant kitchen. Instead of sending every single order to the head chef one by one, a waiter collects 50 orders on a single sheet of paper and hands it over at once. A rollup works the same way—it batches many transactions into one bundle, saving space and making it much cheaper for everyone.
+
+## Why it matters
+
+Rollups are the primary solution for Ethereum's scalability problem. They allow the network to handle thousands of transactions per second without sacrificing the decentralization that makes Ethereum secure.
+
+## How it works
+
+Transactions are executed in an off-chain environment. The rollup generates a 'proof' (either validity or fraud) that the execution was correct and sends this proof and a compressed data bundle to Ethereum. The mainnet verifies the proof, ensuring the off-chain transactions are valid without re-executing them.
+
+## Real-world example
+
+Arbitrum and Optimism are two leading Layer 2 rollups that allow users to move assets from Ethereum to execute transactions at a fraction of the cost.
+
+## Advantages
+
+- Significantly lower transaction fees
+- Faster transaction confirmation times
+- Inherits Ethereum's security model
+- Massive reduction in gas costs
+- Inherits security from Layer 1
+- Increases network transaction throughput
+
+## Limitations
+
+- Introduction of new security assumptions
+- Complex bridge interactions
+- Temporary centralization risks
+- Complexity in bridge security
+- Sequencer centralization risks
+- Initial data availability concerns
+
+## Common misconceptions
+
+- Some think rollups are separate blockchains, but they are technically 'scaling layers' tied to Ethereum.
+- Others believe rollups are less secure than the mainnet, even though they technically rely on the mainnet for final security.
+- Some think rollups are separate blockchains; they are actually smart contracts that settle on a main chain.
+- People often assume all rollups offer identical security; security depends on the proof method used.
+## Related knowledge
+
+- [Bridge](/glossary/bridge) — term
+- [Data Availability](/glossary/data-availability) — term
+- [Layer 1](/glossary/layer-1) — term
+- [Layer 2](/categories/layer-2) — term
+- [Optimistic Rollup](/glossary/optimistic-rollup) — term
+- [Sequencer](/glossary/sequencer) — term
+- [Smart Contracts](/categories/smart-contracts) — term
+- [Zero-Knowledge Proofs](/categories/zero-knowledge-proofs) — term
+- [ZK Rollup](/glossary/zk-rollup) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:rollup`

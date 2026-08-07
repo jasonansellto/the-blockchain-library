@@ -1,0 +1,55 @@
+---
+title: "NFT Royalty Enforcement (ERC-2981)"
+description: "Implement ERC-2981 royalty standard to inform marketplaces of creator royalties."
+---
+
+# NFT Royalty Enforcement (ERC-2981)
+
+Implement ERC-2981 royalty standard to inform marketplaces of creator royalties.
+
+Implement ERC-2981 royalty standard to inform marketplaces of creator royalties.
+
+## Explanation
+
+ERC-2981 is the standard for NFT royalties. Marketplaces query royaltyInfo to determine how much to pay the creator on secondary sales. Bps (basis points) — 250 = 2.5%. supportsInterface must declare ERC-2981 support.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/interfaces/IERC2981.sol";
+
+contract RoyaltyNFT is ERC721, IERC2981 {
+    address public royaltyReceiver;
+    uint96 public royaltyFeeBps = 250; // 2.5%
+
+    constructor() ERC721("RoyaltyNFT", "RNFT") {
+        royaltyReceiver = msg.sender;
+    }
+
+    function royaltyInfo(uint256 /* tokenId */, uint256 salePrice)
+        external
+        view
+        override
+        returns (address receiver, uint256 royaltyAmount)
+    {
+        receiver = royaltyReceiver;
+        royaltyAmount = (salePrice * royaltyFeeBps) / 10000;
+    }
+
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        override(ERC721, IERC165)
+        returns (bool)
+    {
+        return interfaceId == type(IERC2981).interfaceId || super.supportsInterface(interfaceId);
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:nft-royalty-erc-2981`

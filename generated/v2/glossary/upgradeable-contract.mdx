@@ -1,0 +1,54 @@
+---
+title: "Upgradeable Contract"
+description: "An upgradeable contract is a smart contract architectural pattern that allows the implementation logic of a contract to be changed without needing to redeploy the entire system or lose the contract's state (such as user balances or historical data). This is achieved by separating"
+---
+
+# Upgradeable Contract
+
+An upgradeable contract is a smart contract architectural pattern that allows the implementation logic of a contract to be changed without needing to redeploy the entire system or lose the contract's state (such as user balances or historical data). This is achieved by separating the contract into a proxy (the persistent storage) and a logic contract (the code). When an upgrade is required, the proxy is updated to point to a new logic contract address, effectively 'upgrading' the features of the application while keeping existing data intact.
+
+## Definition
+
+An upgradeable contract is a smart contract architectural pattern that allows the implementation logic of a contract to be changed without needing to redeploy the entire system or lose the contract's state (such as user balances or historical data). This is achieved by separating the contract into a proxy (the persistent storage) and a logic contract (the code). When an upgrade is required, the proxy is updated to point to a new logic contract address, effectively 'upgrading' the features of the application while keeping existing data intact.
+
+## Simple explanation
+
+An upgradeable contract is like a house with a detachable roof. The foundation and everything inside the house stay exactly where they are, but you can swap out the roof whenever you want to improve the architecture. The address of the house stays the same, so people can still find you, even if the building is improved.
+
+## Why it matters
+
+Upgradeable contracts offer a safety net for developers, allowing them to patch critical bugs or adjust protocols to changing market conditions. This is indispensable for large-scale decentralized applications that manage millions of dollars in user assets.
+
+## How it works
+
+The proxy holds the state variables and receives all calls. It uses the 'delegatecall' opcode to execute logic from the logic contract. To upgrade, an administrative function is called on the proxy to update the address pointer to a new logic contract deployment.
+
+## Real-world example
+
+The OpenZeppelin library provides standard, battle-tested patterns for implementing secure upgradeable contracts for Ethereum.
+
+## Advantages
+
+- Allows for patching critical bugs
+- Supports long-term protocol evolution
+- Preserves user balances and states
+
+## Limitations
+
+- Introduces central points of failure
+- Requires complex administrative governance
+- Risk of state corruption during upgrades
+
+## Common misconceptions
+
+- Many assume upgradeability is a default feature, but smart contracts are immutable by default.
+- People often think upgrading is transparent to the community, but it usually requires governance approval to stay decentralized.
+## Related knowledge
+
+- [Delegatecall](/glossary/delegatecall) — term
+- [Governance](/categories/governance) — term
+- [Proxy Contract](/glossary/proxy-contract) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:upgradeable-contract`

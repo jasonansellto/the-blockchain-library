@@ -1,0 +1,56 @@
+---
+title: "IBC"
+description: "The Inter-Blockchain Communication (IBC) protocol is the standard interoperability framework for the Cosmos ecosystem. It allows independent blockchains to securely exchange data and assets in a trustless and permissionless way. IBC operates on a modular architecture that separat"
+---
+
+# IBC
+
+The Inter-Blockchain Communication (IBC) protocol is the standard interoperability framework for the Cosmos ecosystem. It allows independent blockchains to securely exchange data and assets in a trustless and permissionless way. IBC operates on a modular architecture that separates the transport, authentication, and ordering layers, allowing chains to establish bi-directional communication channels. It relies on the Tendermint consensus mechanism to provide light-client verification, ensuring that transactions relayed between chains are cryptographically secure and immutable.
+
+## Definition
+
+The Inter-Blockchain Communication (IBC) protocol is the standard interoperability framework for the Cosmos ecosystem. It allows independent blockchains to securely exchange data and assets in a trustless and permissionless way. IBC operates on a modular architecture that separates the transport, authentication, and ordering layers, allowing chains to establish bi-directional communication channels. It relies on the Tendermint consensus mechanism to provide light-client verification, ensuring that transactions relayed between chains are cryptographically secure and immutable.
+
+## Simple explanation
+
+IBC is like an official postal service for blockchains. It sets standard 'rules of the road' that allow different blockchains to safely send packages, which could be tokens or information, to each other without needing a middleman.
+
+## Why it matters
+
+IBC is considered the gold standard for secure, decentralized interoperability because it does not rely on third-party bridges that often pose central points of failure. It enables the 'Internet of Blockchains' where networks retain their sovereignty while enjoying shared security.
+
+## How it works
+
+IBC works by having two chains act as light clients of each other. When Chain A sends a packet, it keeps the data in a queue; a relayer then fetches this data and submits it to Chain B, which verifies the cryptographic proof of the event before finalizing the transaction.
+
+## Real-world example
+
+The Osmosis decentralized exchange uses IBC to facilitate low-cost, near-instant asset transfers between chains within the Cosmos network.
+
+## Advantages
+
+- Trustless and secure communication
+- Modular and highly scalable
+- Decentralized relay mechanism
+
+## Limitations
+
+- Limited to chains supporting the protocol
+- Requires substantial integration effort
+- Relayers need incentives to operate
+
+## Common misconceptions
+
+- IBC is a single blockchain. IBC is a communication protocol, not a specific chain itself.
+- IBC is slow. Because it uses light-client proofs, it is actually one of the fastest and most efficient ways to move assets across chains.
+## Related knowledge
+
+- [Cosmos](/developers/resources/cosmos) — term
+- [Interoperability](/categories/interoperability) — term
+- [Light Client](/glossary/light-client) — term
+- [Relayer](/glossary/relayer) — term
+- [Tendermint](/glossary/tendermint) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:ibc`

@@ -1,0 +1,49 @@
+---
+title: "HotStuff: BFT Consensus with Linearity and Responsiveness"
+description: "HotStuff introduces a novel Byzantine fault-tolerant consensus protocol designed to address the scaling and communication bottlenecks found in prior protocols."
+---
+
+# HotStuff: BFT Consensus with Linearity and Responsiveness
+
+HotStuff introduces a novel Byzantine fault-tolerant consensus protocol designed to address the scaling and communication bottlenecks found in prior protocols.
+
+## Abstract
+
+HotStuff introduces a novel Byzantine fault-tolerant consensus protocol designed to address the scaling and communication bottlenecks found in prior protocols. By utilizing a star-like communication pattern, HotStuff achieves linear communication complexity per view, which significantly improves throughput compared to protocols that require quadratic message complexity. The paper demonstrates how HotStuff provides both safety and liveness while remaining responsive under periods of network synchrony. A core innovation is the introduction of a 'pacemaker' mechanism that orchestrates transitions between views, coupled with a simple, three-phase structure that is collapsed into a pipelined process. This pipelining allows for the processing of multiple blocks simultaneously, further optimizing latency and performance. Because of its robustness, linear scaling, and inherent support for dynamic validator set changes, HotStuff has been adopted by major enterprise and public blockchain projects, including Diem (formerly Libra). This paper is essential for understanding the shift toward high-performance consensus mechanisms that prioritize network efficiency and scalability in large-scale decentralized systems.
+
+**Authors:** Mao Yin, Dahlia Malkhi, Michael Reiter, Guy Golan Gueta, Ittai Abraham
+
+**Publication:** arXiv preprint
+
+**Publication date:** 2019-01-01
+
+## Key findings
+
+- HotStuff reduces communication complexity to linear O(n) per view change.
+- The protocol features a pipelined consensus structure that maximizes network throughput.
+- Responsive properties ensure the network recovers quickly after period of synchrony.
+- Dynamic validator set changes are supported without pausing the protocol.
+
+## Citation
+
+Mao Yin, Dahlia Malkhi, Michael Reiter, Guy Golan Gueta, Ittai Abraham (2019). HotStuff: BFT Consensus with Linearity and Responsiveness. arXiv preprint. https://arxiv.org/abs/1803.05069
+## Related knowledge
+
+- [Consensus](/categories/consensus) — glossary
+- [Consensus](/categories/consensus) — related-glossary
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — article
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — related-article
+- [Layer 3 in Blockchain: The Next Big Thing for Crypto Scalability?](/topics/layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability) — article
+- [Layer 3 in Blockchain: The Next Big Thing for Crypto Scalability?](/topics/layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability) — related-article
+- [Layer 3: The Next Frontier in Blockchain Scalability](/topics/layer-3-the-next-frontier-in-blockchain-scalability) — article
+- [Layer 3: The Next Frontier in Blockchain Scalability](/topics/layer-3-the-next-frontier-in-blockchain-scalability) — related-article
+- [Oracle](/glossary/oracle) — glossary
+- [Oracle](/glossary/oracle) — related-glossary
+- [The Impact of AI on Blockchain Development: Smarter Smart Contracts?](/topics/the-impact-of-ai-on-blockchain-development-smarter-smart-contracts) — article
+- [The Impact of AI on Blockchain Development: Smarter Smart Contracts?](/topics/the-impact-of-ai-on-blockchain-development-smarter-smart-contracts) — related-article
+- [Zero-Knowledge Proofs Explained: Privacy Meets Scalability](/topics/zero-knowledge-proofs-explained-privacy-meets-scalability) — article
+- [Zero-Knowledge Proofs Explained: Privacy Meets Scalability](/topics/zero-knowledge-proofs-explained-privacy-meets-scalability) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:hotstuff-bft-consensus-with-linearity-and-responsiveness`

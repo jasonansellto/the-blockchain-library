@@ -1,0 +1,54 @@
+---
+title: "Burn Address"
+description: "A burn address is a public address that lacks a corresponding private key, making any assets sent to it permanently inaccessible. Because there is no private key to generate a signature for an outgoing transaction, any tokens transferred to this address are effectively removed fr"
+---
+
+# Burn Address
+
+A burn address is a public address that lacks a corresponding private key, making any assets sent to it permanently inaccessible. Because there is no private key to generate a signature for an outgoing transaction, any tokens transferred to this address are effectively removed from the circulating supply. This mechanism is frequently used in 'token burns' to reduce supply, control inflation, or prove the destruction of assets, such as wrapping tokens or finalizing cross-chain bridge migrations.
+
+## Definition
+
+A burn address is a public address that lacks a corresponding private key, making any assets sent to it permanently inaccessible. Because there is no private key to generate a signature for an outgoing transaction, any tokens transferred to this address are effectively removed from the circulating supply. This mechanism is frequently used in 'token burns' to reduce supply, control inflation, or prove the destruction of assets, such as wrapping tokens or finalizing cross-chain bridge migrations.
+
+## Simple explanation
+
+Think of a burn address like a locked safe at the bottom of the ocean. You can drop gold coins in, but there is no key to ever get them back. Once something goes in, it is gone forever, which is used to take tokens out of circulation.
+
+## Why it matters
+
+Burn addresses are critical for managing token economics (tokenomics). They help projects reduce supply to increase scarcity or destroy assets during protocol migrations.
+
+## How it works
+
+The address is usually a null address (e.g., all zeros) or an address generated from random data where the private key is mathematically impossible to derive. By sending a token transfer transaction to this address, the smart contract updates the holder's balance to zero. The assets remain on the blockchain ledger but are functionally unspendable.
+
+## Real-world example
+
+Ethereum's EIP-1559 mechanism sends a portion of transaction fees to a burn address to reduce total ETH supply.
+
+## Advantages
+
+- Reduces token circulating supply
+- Creates verifiable scarcity
+- Enables secure asset destruction
+
+## Limitations
+
+- Irreversible action
+- No recovery possible for errors
+
+## Common misconceptions
+
+- Some users believe burn addresses have hidden backdoors that developers can access.
+- People often confuse burning with simple lost access, though burning is intentional.
+## Related knowledge
+
+- [EIP-1559](/glossary/eip-1559) — term
+- [Ledger](/developers/resources/ledger) — term
+- [Smart Contract](/glossary/smart-contract) — term
+- [Tokenomics](/categories/tokenomics) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:burn-address`

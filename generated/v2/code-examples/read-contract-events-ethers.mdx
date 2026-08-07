@@ -1,0 +1,45 @@
+---
+title: "Read Contract Events with ethers.js"
+description: "Listen to and query historical smart contract events using ethers.js."
+---
+
+# Read Contract Events with ethers.js
+
+Listen to and query historical smart contract events using ethers.js.
+
+Listen to and query historical smart contract events using ethers.js.
+
+## Explanation
+
+queryFilter retrieves historical events by name and block range. The .on method subscribes to new events as they're mined. Indexed parameters (from, to) are filterable; non-indexed (value) is decoded from the event data.
+
+## Code
+
+```javascript
+import { ethers } from "ethers";
+
+const abi = [
+  "event Transfer(address indexed from, address indexed to, uint256 value)",
+  "function name() view returns (string)",
+];
+
+const provider = new ethers.JsonRpcProvider("https://rpc.ankr.com/eth");
+const contract = new ethers.Contract(tokenAddress, abi, provider);
+
+// Query historical Transfer events in the last 10,000 blocks
+const currentBlock = await provider.getBlockNumber();
+const events = await contract.queryFilter(
+  "Transfer",
+  currentBlock - 10_000,
+  currentBlock
+);
+console.log(`Found ${events.length} Transfer events`);
+
+// Listen to new Transfer events in real-time
+contract.on("Transfer", (from, to, value, event) => {
+  console.log(`${from} -> ${to}: ${ethers.formatEther(value)}`);
+});
+```
+---
+
+**Canonical knowledge ID:** `code-example:read-contract-events-ethers`

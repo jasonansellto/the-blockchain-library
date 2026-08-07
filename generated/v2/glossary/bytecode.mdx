@@ -1,0 +1,50 @@
+---
+title: "Bytecode"
+description: "Low-level machine-readable instructions produced by compiling smart-contract source code for execution by a virtual machine."
+---
+
+# Bytecode
+
+Low-level machine-readable instructions produced by compiling smart-contract source code for execution by a virtual machine.
+
+## Definition
+
+Low-level machine-readable instructions produced by compiling smart-contract source code for execution by a virtual machine.
+
+## Why it matters
+
+Smart-contract concepts are essential for understanding programmable blockchain applications.
+
+## How it works
+
+A compiler takes source code and performs a series of optimizations to output a hex string. This string contains opcodes like PUSH, POP, ADD, and SSTORE. When a transaction calls a contract, the EVM loads this bytecode into its execution environment and runs these opcodes in order.
+
+## Real-world example
+
+When you deploy a contract to Mainnet via Etherscan or Hardhat, the resulting hex data block in the transaction receipt is the bytecode deployed to the blockchain.
+
+## Advantages
+
+- Highly efficient for machine execution
+- Immutable and tamper-proof
+- Ensures consistent behavior across different nodes
+
+## Limitations
+
+- Difficult to read or debug
+- Reverse engineering is complex
+- Limited access to high-level logic
+
+## Common misconceptions
+
+- People often think bytecode is the same as the Solidity source code, but it is actually the compiled output.
+- Some believe bytecode is always readable by humans, but it is meant for the machine, not for developers to edit directly.
+## Related knowledge
+
+- [ABI](/glossary/abi) — term
+- [Smart Contract](/glossary/smart-contract) — term
+- [Solidity](/developers/resources/solidity) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:bytecode`

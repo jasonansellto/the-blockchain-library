@@ -1,0 +1,49 @@
+---
+title: "ERC-4337"
+description: "An Ethereum standard for account abstraction using UserOperations, bundlers, EntryPoint, and optional paymasters."
+---
+
+# ERC-4337
+
+An Ethereum standard for account abstraction using UserOperations, bundlers, EntryPoint, and optional paymasters.
+
+## Definition
+
+An Ethereum standard for account abstraction using UserOperations, bundlers, EntryPoint, and optional paymasters.
+
+## Why it matters
+
+Ethereum-specific terms explain its execution environment, standards, accounts, and scaling roadmap.
+
+## How it works
+
+It introduces a higher-level 'UserOperation' mempool. Instead of a transaction initiated by an EOA, a user sends a 'UserOperation' which is bundled by 'Bundlers' and processed by a specialized smart contract called an 'EntryPoint'. This allows for arbitrary logic like signature validation or fee payment via third parties.
+
+## Real-world example
+
+Safe (formerly Gnosis Safe) and various newer smart wallets utilize account abstraction features.
+
+## Advantages
+
+- Improved user experience
+- Enhanced account security
+- Supports gasless transactions
+
+## Limitations
+
+- Requires protocol support
+- Increased complexity for devs
+
+## Common misconceptions
+
+- Users think they have to give up self-custody to use it, but it remains fully non-custodial.
+- People assume it is a layer 2 solution, but it is a standard for the Ethereum account model.
+## Related knowledge
+
+- [EIP](/glossary/eip) — term
+- [Ethereum](/categories/ethereum) — term
+- [Smart Contract](/glossary/smart-contract) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:erc-4337`

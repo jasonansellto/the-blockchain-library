@@ -1,0 +1,51 @@
+---
+title: "Bitcoin-NG: A Scalable Blockchain Protocol"
+description: "Bitcoin-NG addresses the inherent scalability limitations of Bitcoin by decoupling the leader election process from the transaction serialization process. In th"
+---
+
+# Bitcoin-NG: A Scalable Blockchain Protocol
+
+Bitcoin-NG addresses the inherent scalability limitations of Bitcoin by decoupling the leader election process from the transaction serialization process. In th
+
+## Abstract
+
+Bitcoin-NG addresses the inherent scalability limitations of Bitcoin by decoupling the leader election process from the transaction serialization process. In the standard Bitcoin protocol, the latency of block creation is limited by the time taken to propagate a block containing both transaction data and proof-of-work. Bitcoin-NG introduces a dual-structure approach: 'Key blocks' serve to elect a leader, while subsequent 'Microblocks' containing batches of transactions are signed and published by the leader at a high frequency. This methodology allows the network to achieve near-instantaneous transaction confirmation without increasing the security risk of chain forks or centralization. The results indicate that throughput is significantly increased while keeping the confirmation latency near the speed of network propagation. This research is pivotal in the evolution of blockchain architecture, moving away from block-based throughput toward stream-based models, and has influenced many subsequent layer-one scaling solutions and high-performance consensus algorithms designed to optimize bandwidth utilization and responsiveness.
+
+**Authors:** Ittay Eyal, Adem Efe Gencer, Emin Gün Sirer, Robbert van Renesse
+
+**Publication:** Academic Paper
+
+**Publication date:** 2016-01-01
+
+## Key findings
+
+- Separated transaction serialization from leader election to optimize network throughput.
+- Demonstrated significant reduction in transaction confirmation latency compared to standard Bitcoin.
+- Maintained security properties similar to the Nakamoto consensus while increasing scalability.
+- Introduced Microblocks as a mechanism for high-frequency transaction publishing.
+
+## Citation
+
+Ittay Eyal, Adem Efe Gencer, Emin Gün Sirer, Robbert van Renesse (2016). Bitcoin-NG: A Scalable Blockchain Protocol. Academic Paper. https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/eyal
+## Related knowledge
+
+- [Consensus](/categories/consensus) — glossary
+- [Consensus](/categories/consensus) — related-glossary
+- [Double Spend](/glossary/double-spend) — glossary
+- [Double Spend](/glossary/double-spend) — related-glossary
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — article
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — related-article
+- [How Blockchain Architecture Is Quietly Solving Real Business Problems](/topics/how-blockchain-architecture-is-quietly-solving-real-business-problems) — article
+- [How Blockchain Architecture Is Quietly Solving Real Business Problems](/topics/how-blockchain-architecture-is-quietly-solving-real-business-problems) — related-article
+- [Layer 3 in Blockchain: The Next Big Thing for Crypto Scalability?](/topics/layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability) — article
+- [Layer 3 in Blockchain: The Next Big Thing for Crypto Scalability?](/topics/layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability) — related-article
+- [Layer 3: The Next Frontier in Blockchain Scalability](/topics/layer-3-the-next-frontier-in-blockchain-scalability) — article
+- [Layer 3: The Next Frontier in Blockchain Scalability](/topics/layer-3-the-next-frontier-in-blockchain-scalability) — related-article
+- [Mint](/glossary/mint) — glossary
+- [Mint](/glossary/mint) — related-glossary
+- [Oracle](/glossary/oracle) — glossary
+- [Oracle](/glossary/oracle) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `research:bitcoin-ng-a-scalable-blockchain-protocol`

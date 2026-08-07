@@ -1,0 +1,53 @@
+---
+title: "Recovery Phrase"
+description: "A recovery phrase, also known as a mnemonic seed or seed phrase, is a sequence of 12 to 24 human-readable words that serves as the human-readable representation of a wallet's master private key. By adhering to the BIP39 standard, these words are used to mathematically derive all "
+---
+
+# Recovery Phrase
+
+A recovery phrase, also known as a mnemonic seed or seed phrase, is a sequence of 12 to 24 human-readable words that serves as the human-readable representation of a wallet's master private key. By adhering to the BIP39 standard, these words are used to mathematically derive all subsequent private and public keys associated with a wallet. This phrase acts as a universal backup; if a physical wallet is lost, destroyed, or reset, the recovery phrase can be imported into any compatible wallet software to regain full control.
+
+## Definition
+
+A recovery phrase, also known as a mnemonic seed or seed phrase, is a sequence of 12 to 24 human-readable words that serves as the human-readable representation of a wallet's master private key. By adhering to the BIP39 standard, these words are used to mathematically derive all subsequent private and public keys associated with a wallet. This phrase acts as a universal backup; if a physical wallet is lost, destroyed, or reset, the recovery phrase can be imported into any compatible wallet software to regain full control.
+
+## Simple explanation
+
+Your recovery phrase is the 'Master Password' for your entire digital life in crypto. If you lose your phone or break your hardware wallet, this specific list of 12-24 words is the ONLY way to get your money back. If someone finds these words, they own your money.
+
+## Why it matters
+
+The recovery phrase is the ultimate failsafe for self-custody. It is the single point of failure in the crypto world—if you lose it, your funds are permanently inaccessible, but if you secure it, your assets are safe regardless of hardware failure.
+
+## How it works
+
+The phrase is generated using a standardized list of 2,048 words. These words are converted into an entropy value (a long number), which acts as the 'master seed'. This seed is then processed through a hashing algorithm to derive the master private key, which governs the entire tree of account addresses within the HD wallet.
+
+## Real-world example
+
+If you lose your Ledger device, you can enter your 24-word recovery phrase into a new device to recover all your assets.
+
+## Advantages
+
+- Allows for easy recovery of lost wallets
+- Universal standard across most wallet providers
+- Human-readable format for physical backups
+
+## Limitations
+
+- If lost, funds are permanently irrecoverable
+- If stolen, the thief has total access
+- Difficult to store securely without being found
+
+## Common misconceptions
+
+- Users often think they can choose their own words, but the list is strictly standardized by BIP39. People also believe writing it on a computer is safe, but it is highly recommended to keep it purely offline.
+## Related knowledge
+
+- [HD Wallet](/glossary/hd-wallet) — term
+- [Seed Phrase](/glossary/seed-phrase) — term
+- [Self-Custody](/glossary/self-custody) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:recovery-phrase`

@@ -1,0 +1,51 @@
+---
+title: "Simple Vault Contract"
+description: "A basic DeFi vault that accepts ETH deposits and allows withdrawals."
+---
+
+# Simple Vault Contract
+
+A basic DeFi vault that accepts ETH deposits and allows withdrawals.
+
+A basic DeFi vault that accepts ETH deposits and allows withdrawals.
+
+## Explanation
+
+This vault demonstrates core DeFi primitives: deposit, withdraw, and balance tracking.
+
+**Security notes:**
+- Uses the **checks-effects-interactions** pattern: state is updated *before* the external call.
+- `msg.sender.call{value: amount}` sends ETH safely (vs. `transfer` which has gas limits).
+- Always validate amounts with `require` before state changes.
+
+In production, add reentrancy guards, events, and proper access controls.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract SimpleVault {
+    mapping(address => uint256) public balances;
+
+    function deposit() external payable {
+        require(msg.value > 0, "Must send ETH");
+        balances[msg.sender] += msg.value;
+    }
+
+    function withdraw(uint256 amount) external {
+        require(balances[msg.sender] >= amount, "Insufficient balance");
+        balances[msg.sender] -= amount;
+        (bool success, ) = msg.sender.call{value: amount}("");
+        require(success, "Transfer failed");
+    }
+
+    function getBalance() external view returns (uint256) {
+        return balances[msg.sender];
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:simple-vault-contract`

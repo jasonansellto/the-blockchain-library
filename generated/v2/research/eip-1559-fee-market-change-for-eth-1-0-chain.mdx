@@ -1,0 +1,51 @@
+---
+title: "EIP-1559: Fee Market Change for ETH 1.0 Chain"
+description: "EIP-1559 proposes a significant revision to Ethereum's fee market structure, aiming to improve user experience and transaction fee predictability. Instead of a"
+---
+
+# EIP-1559: Fee Market Change for ETH 1.0 Chain
+
+EIP-1559 proposes a significant revision to Ethereum's fee market structure, aiming to improve user experience and transaction fee predictability. Instead of a
+
+## Abstract
+
+EIP-1559 proposes a significant revision to Ethereum's fee market structure, aiming to improve user experience and transaction fee predictability. Instead of a simple first-price auction where users bid arbitrary amounts for transaction inclusion, EIP-1559 introduces a base fee mechanism that is algorithmically adjusted based on network congestion. This base fee is burned, removing it from circulation, and users can then include an optional tip to incentivize miners to prioritize their transactions. The protocol dynamically adjusts the block size, expanding when fees are low and contracting when they are high, within a target block size. This aims to smooth out fee volatility and provide a more predictable fee environment for users, while the burning mechanism introduces a deflationary pressure on ETH. The proposal was developed to address issues of unpredictable gas prices and to create a more robust fee market for the Ethereum network.
+
+**Authors:** Vitalik Buterin, Eric Conner, Rick Dudley, Matthew Slipper, Ian Norden, Abdelhamid Bakhta
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2019-01-01
+
+## Key findings
+
+- EIP-1559 introduces a base fee that is burned, which can have a deflationary effect on ETH.
+- The protocol dynamically adjusts block size to manage network congestion and fee predictability.
+- Transaction fees become more predictable by moving away from a pure gas auction to a base fee plus optional tip.
+- This change aims to improve the user experience for interacting with the Ethereum network.
+
+## Citation
+
+Vitalik Buterin, Eric Conner, Rick Dudley, Matthew Slipper, Ian Norden, Abdelhamid Bakhta (2019). EIP-1559: Fee Market Change for ETH 1.0 Chain. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-1559
+## Related knowledge
+
+- [Ethereum vs. Solana vs. Vector Smart Chain (VSC): Which Blockchain is Best in 2025?](/topics/ethereum-vs-solana-vs-vector-smart-chain-vsc-which-blockchain-is-best-in-2025) — article
+- [Ethereum vs. Solana vs. Vector Smart Chain (VSC): Which Blockchain is Best in 2025?](/topics/ethereum-vs-solana-vs-vector-smart-chain-vsc-which-blockchain-is-best-in-2025) — related-article
+- [Is Ethereum a block chain?](/topics/is-ethereum-a-block-chain) — article
+- [Is Ethereum a block chain?](/topics/is-ethereum-a-block-chain) — related-article
+- [Keccak-256](/glossary/keccak-256) — glossary
+- [Keccak-256](/glossary/keccak-256) — related-glossary
+- [Mint](/glossary/mint) — glossary
+- [Mint](/glossary/mint) — related-glossary
+- [Restaking and LRTs: How Ethereum’s New Narrative Is Reshaping DeFi](/topics/restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi) — article
+- [Restaking and LRTs: How Ethereum’s New Narrative Is Reshaping DeFi](/topics/restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi) — related-article
+- [Solana’s Comeback: Can It Outpace Ethereum in 2025?](/topics/solanas-comeback-can-it-outpace-ethereum-in-2025) — article
+- [Solana’s Comeback: Can It Outpace Ethereum in 2025?](/topics/solanas-comeback-can-it-outpace-ethereum-in-2025) — related-article
+- [Storage](/categories/storage) — glossary
+- [Storage](/categories/storage) — related-glossary
+- [Top 10 Blockchain Projects That Defined 2025](/topics/top-10-blockchain-projects-that-defined-2025) — article
+- [Top 10 Blockchain Projects That Defined 2025](/topics/top-10-blockchain-projects-that-defined-2025) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:eip-1559-fee-market-change-for-eth-1-0-chain`

@@ -1,0 +1,48 @@
+---
+title: "HMAC"
+description: "A construction that combines a secret key with a hash function to authenticate data integrity and origin."
+---
+
+# HMAC
+
+A construction that combines a secret key with a hash function to authenticate data integrity and origin.
+
+## Definition
+
+A construction that combines a secret key with a hash function to authenticate data integrity and origin.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+The process uses a cryptographic hash function like SHA-256 combined with a shared secret key. The sender processes the data and the key through the function to produce a unique authentication tag. The recipient performs the same calculation; if their generated tag matches the received one, the message is verified as authentic.
+
+## Real-world example
+
+The Lightning Network uses HMACs to authenticate messages sent between nodes, ensuring that payment routing information remains tamper-proof.
+
+## Advantages
+
+- Provides both integrity and authenticity
+- Efficient computational performance
+- Resistant to length extension attacks
+
+## Limitations
+
+- Requires secure key exchange
+- Both parties must share the same key
+- Vulnerable if the secret key is leaked
+
+## Common misconceptions
+
+- People often confuse HMAC with digital signatures, but they are not the same because HMAC uses a symmetric key.
+- Many believe HMAC is a standalone encryption method, but it only provides integrity, not confidentiality.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:hmac`

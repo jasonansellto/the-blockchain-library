@@ -1,0 +1,49 @@
+---
+title: "Verifiable Random Functions"
+description: "This seminal paper introduces the concept of a Verifiable Random Function (VRF), a cryptographic primitive that provides a publicly verifiable proof of correctn"
+---
+
+# Verifiable Random Functions
+
+This seminal paper introduces the concept of a Verifiable Random Function (VRF), a cryptographic primitive that provides a publicly verifiable proof of correctn
+
+## Abstract
+
+This seminal paper introduces the concept of a Verifiable Random Function (VRF), a cryptographic primitive that provides a publicly verifiable proof of correctness for a pseudorandom output. Unlike standard pseudo-random functions (PRFs), a VRF allows a user to generate a random value along with a non-interactive proof. Any third party, possessing the prover's public key, can verify that the generated value is indeed the correct result of the function applied to a given input, without needing to know the secret key or the internal state of the generator. The authors establish the formal definitions, security properties—namely uniqueness, collision resistance, and pseudorandomness—and propose concrete constructions. The VRF has become a foundational building block in blockchain systems, providing a mechanism for leader election, random number generation in smart contracts, and efficient proof-of-stake selection processes. By enabling verifiable unpredictability, VRFs resolve critical challenges in distributed systems that require trustless random sources that cannot be manipulated by participants, ensuring fairness and security in decentralized protocols.
+
+**Authors:** Silvio Micali, Michael Rabin, Salil Vadhan
+
+**Publication:** Academic Paper
+
+**Publication date:** 1999-01-01
+
+## Key findings
+
+- Introduces the cryptographic construction of Verifiable Random Functions (VRFs).
+- Defines the fundamental properties of uniqueness, collision resistance, and pseudorandomness for VRFs.
+- Provides a mechanism for publicly verifying random outputs without revealing private inputs.
+- Enables secure, non-interactive leader election in decentralized consensus protocols.
+
+## Citation
+
+Silvio Micali, Michael Rabin, Salil Vadhan (1999). Verifiable Random Functions. Academic Paper. https://doi.org/10.1109/SFFCS.1999.814584
+## Related knowledge
+
+- [2025 Security Lessons: Hacks, Exploits & the Push for Better Audits](/topics/2025-security-lessons-hacks-exploits-the-push-for-better-audits) — article
+- [2025 Security Lessons: Hacks, Exploits & the Push for Better Audits](/topics/2025-security-lessons-hacks-exploits-the-push-for-better-audits) — related-article
+- [Crypto Wallet Security in 2025: Best Practices and Tools](/topics/crypto-wallet-security-in-2025-best-practices-and-tools) — article
+- [Crypto Wallet Security in 2025: Best Practices and Tools](/topics/crypto-wallet-security-in-2025-best-practices-and-tools) — related-article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — related-article
+- [Double Spend](/glossary/double-spend) — glossary
+- [Double Spend](/glossary/double-spend) — related-glossary
+- [From Hype to Reality: The Rise of Quantum-Resistant Cryptography](/topics/from-hype-to-reality-the-rise-of-quantum-resistant-cryptography) — article
+- [From Hype to Reality: The Rise of Quantum-Resistant Cryptography](/topics/from-hype-to-reality-the-rise-of-quantum-resistant-cryptography) — related-article
+- [Multi-Party Computation](/glossary/multi-party-computation) — glossary
+- [Multi-Party Computation](/glossary/multi-party-computation) — related-glossary
+- [Why Predictability Beats Speed in Modern Blockchain Design](/topics/why-predictability-beats-speed-in-modern-blockchain-design) — article
+- [Why Predictability Beats Speed in Modern Blockchain Design](/topics/why-predictability-beats-speed-in-modern-blockchain-design) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:verifiable-random-functions`

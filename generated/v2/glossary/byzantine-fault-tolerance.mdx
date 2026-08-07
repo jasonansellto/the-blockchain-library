@@ -1,0 +1,50 @@
+---
+title: "Byzantine Fault Tolerance"
+description: "The ability of a distributed system to reach agreement even when some participants fail or behave maliciously."
+---
+
+# Byzantine Fault Tolerance
+
+The ability of a distributed system to reach agreement even when some participants fail or behave maliciously.
+
+## Definition
+
+The ability of a distributed system to reach agreement even when some participants fail or behave maliciously.
+
+## Why it matters
+
+Consensus concepts explain how independent nodes agree on one shared history without a central coordinator.
+
+## How it works
+
+The system uses multi-round voting mechanisms to reach agreement. Nodes exchange cryptographically signed messages about the validity of data. A block is only added if a predefined supermajority of nodes confirm they have seen and validated the same data, effectively ignoring the dishonest minority.
+
+## Real-world example
+
+The Cosmos SDK and Tendermint Core are prominent modern examples of BFT-based consensus frameworks in production.
+
+## Advantages
+
+- Resilience against arbitrary node behavior
+- Cryptographic verification of state
+- High level of trustlessness
+
+## Limitations
+
+- Communication costs scale poorly
+- Network latency sensitivity
+- Risk of stalls in high-churn environments
+
+## Common misconceptions
+
+- It is a myth that BFT applies only to leader-based protocols. Many people falsely believe that BFT automatically provides censorship resistance.
+## Related knowledge
+
+- [Block Producer](/glossary/block-producer) — term
+- [Finality](/glossary/finality) — term
+- [Proof of Stake](/books/proof-of-stake) — term
+- [Validator](/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:byzantine-fault-tolerance`

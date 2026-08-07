@@ -1,0 +1,49 @@
+---
+title: "The Latest Gossip on BFT Consensus (Tendermint)"
+description: "This report details the design and architecture of Tendermint, a BFT consensus protocol that simplifies the construction of blockchain networks. By combining a"
+---
+
+# The Latest Gossip on BFT Consensus (Tendermint)
+
+This report details the design and architecture of Tendermint, a BFT consensus protocol that simplifies the construction of blockchain networks. By combining a
+
+## Abstract
+
+This report details the design and architecture of Tendermint, a BFT consensus protocol that simplifies the construction of blockchain networks. By combining a gossip-based communication protocol with a robust BFT consensus engine, Tendermint provides a platform for building modular, high-performance distributed ledgers. The protocol is distinguished by its 'application-agnostic' design, separating the networking and consensus layers from the application state via an interface (ABCI). Tendermint enforces a strict block-proposer rotation, ensuring that consensus is finalized across the network for each block. Its core innovation lies in the simplification of the state machine transitions and the integration of a gossip protocol to disseminate blocks and votes efficiently. This architecture allows developers to build blockchains using various programming languages while leveraging a battle-tested consensus engine. The report highlights how Tendermint manages validator sets, slashing conditions, and safety guarantees, making it a critical primitive for the Cosmos ecosystem and many other Proof-of-Stake-based distributed systems today.
+
+**Authors:** Ethan Buchman, Jae Kwon, Zarko Milosevic
+
+**Publication:** arXiv preprint
+
+**Publication date:** 2018-01-01
+
+## Key findings
+
+- Tendermint provides an application-agnostic consensus engine for building diverse blockchains.
+- Gossip protocols are utilized to propagate information efficiently among network participants.
+- The consensus mechanism ensures immediate finality upon block commitment.
+- ABCI allows the consensus engine to remain decoupled from the application logic.
+
+## Citation
+
+Ethan Buchman, Jae Kwon, Zarko Milosevic (2018). The Latest Gossip on BFT Consensus (Tendermint). arXiv preprint. https://arxiv.org/abs/1807.04906
+## Related knowledge
+
+- [Consensus](/categories/consensus) — glossary
+- [Consensus](/categories/consensus) — related-glossary
+- [Ethereum vs. Solana vs. Vector Smart Chain (VSC): Which Blockchain is Best in 2025?](/topics/ethereum-vs-solana-vs-vector-smart-chain-vsc-which-blockchain-is-best-in-2025) — article
+- [Ethereum vs. Solana vs. Vector Smart Chain (VSC): Which Blockchain is Best in 2025?](/topics/ethereum-vs-solana-vs-vector-smart-chain-vsc-which-blockchain-is-best-in-2025) — related-article
+- [From Layer-1 to Layer-3: The Next Evolution of Blockchain Architecture](/topics/from-layer-1-to-layer-3-the-next-evolution-of-blockchain-architecture) — article
+- [From Layer-1 to Layer-3: The Next Evolution of Blockchain Architecture](/topics/from-layer-1-to-layer-3-the-next-evolution-of-blockchain-architecture) — related-article
+- [How Blockchain is Transforming AI: The Future of Decentralized Intelligence](/topics/how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence) — article
+- [How Blockchain is Transforming AI: The Future of Decentralized Intelligence](/topics/how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence) — related-article
+- [Mint](/glossary/mint) — glossary
+- [Mint](/glossary/mint) — related-glossary
+- [Private vs. Public Blockchains: Which Will Win in Enterprise?](/topics/private-vs-public-blockchains-which-will-win-in-enterprise) — article
+- [Private vs. Public Blockchains: Which Will Win in Enterprise?](/topics/private-vs-public-blockchains-which-will-win-in-enterprise) — related-article
+- [The Role of Blockchain in Supply Chain Resilience: Lessons from 2025](/topics/the-role-of-blockchain-in-supply-chain-resilience-lessons-from-2025) — article
+- [The Role of Blockchain in Supply Chain Resilience: Lessons from 2025](/topics/the-role-of-blockchain-in-supply-chain-resilience-lessons-from-2025) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:the-latest-gossip-on-bft-consensus-tendermint`

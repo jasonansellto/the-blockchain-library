@@ -1,0 +1,48 @@
+---
+title: "Multi-Party Computation"
+description: "A technique allowing multiple participants to jointly compute or control a cryptographic operation without revealing their private inputs."
+---
+
+# Multi-Party Computation
+
+A technique allowing multiple participants to jointly compute or control a cryptographic operation without revealing their private inputs.
+
+## Definition
+
+A technique allowing multiple participants to jointly compute or control a cryptographic operation without revealing their private inputs.
+
+## Why it matters
+
+Cryptography provides the mathematical foundation for keys, signatures, privacy, integrity, and verification.
+
+## How it works
+
+It uses secret sharing schemes, such as Shamir's Secret Sharing, to split a key into multiple pieces. When a transaction needs to be signed, the participants perform a distributed computation to generate the signature from their pieces. The full private key is never reconstructed, meaning an attacker would need to compromise multiple nodes simultaneously.
+
+## Real-world example
+
+Fireblocks and various enterprise-grade crypto wallets use MPC to secure large-scale institutional digital asset portfolios.
+
+## Advantages
+
+- Eliminates single point of failure
+- Enhances institutional security
+- No full key reconstruction
+
+## Limitations
+
+- Higher computational overhead
+- Complex integration requirements
+- Requires multiple active nodes
+
+## Common misconceptions
+
+- Many confuse MPC with multi-sig, but MPC creates a single signature, whereas multi-sig involves multiple distinct signatures on-chain.
+- Some assume MPC makes a wallet immune to all hacks, but security still depends on node integrity.
+## Related knowledge
+
+- [Hash Function](/glossary/hash-function) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:multi-party-computation`

@@ -1,0 +1,46 @@
+---
+title: "BIP39 Mnemonic to Key Pair (Python)"
+description: "Generate a BIP39 mnemonic phrase and derive an Ethereum key pair using web3.py."
+---
+
+# BIP39 Mnemonic to Key Pair (Python)
+
+Generate a BIP39 mnemonic phrase and derive an Ethereum key pair using web3.py.
+
+Generate a BIP39 mnemonic phrase and derive an Ethereum key pair using web3.py.
+
+## Explanation
+
+This demonstrates how seed phrases map to blockchain accounts.
+
+**Educational purposes only** — never generate keys on a production server or store private keys in plaintext.
+
+**How BIP39 works:**
+- A mnemonic is a human-readable encoding of 128–256 bits of entropy.
+- BIP-32 derives a hierarchical tree of key pairs from the seed.
+- BIP-44 defines the derivation path standard (e.g. `m/44'/60'/0'/0/0` for Ethereum).
+
+Install dependencies: `pip install mnemonic eth-account`.
+
+## Code
+
+```python
+from mnemonic import Mnemonic
+from eth_account import Account
+
+# Generate a 12-word mnemonic
+mnemo = Mnemonic("english")
+mnemonic_phrase = mnemo.generate(strength=128)
+print(f"Mnemonic: {mnemonic_phrase}")
+
+# Enable HD wallet features
+Account.enable_unaudited_hdwallet_features()
+
+# Derive the first Ethereum account
+account = Account.from_mnemonic(mnemonic_phrase)
+print(f"Address:   {account.address}")
+print(f"Private:   {account.key.hex()}")
+```
+---
+
+**Canonical knowledge ID:** `code-example:bip39-mnemonic-keypair-python`

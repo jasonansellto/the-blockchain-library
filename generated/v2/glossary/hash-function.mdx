@@ -1,0 +1,54 @@
+---
+title: "Hash Function"
+description: "A hash function is a deterministic mathematical algorithm that maps an arbitrary amount of input data to a fixed-size output, known as a hash value. These functions are designed to be collision-resistant, meaning it is computationally infeasible to find two different inputs that "
+---
+
+# Hash Function
+
+A hash function is a deterministic mathematical algorithm that maps an arbitrary amount of input data to a fixed-size output, known as a hash value. These functions are designed to be collision-resistant, meaning it is computationally infeasible to find two different inputs that produce the same output. In blockchain, cryptographic hash functions are used for transaction verification, block headers, and address generation, ensuring that the ledger remains tamper-evident and secure.
+
+## Definition
+
+A hash function is a deterministic mathematical algorithm that maps an arbitrary amount of input data to a fixed-size output, known as a hash value. These functions are designed to be collision-resistant, meaning it is computationally infeasible to find two different inputs that produce the same output. In blockchain, cryptographic hash functions are used for transaction verification, block headers, and address generation, ensuring that the ledger remains tamper-evident and secure.
+
+## Simple explanation
+
+A hash function is like a high-tech blender. No matter what ingredients you put in—a single strawberry or a whole grocery store—you always get the same size smoothie out. However, if you change one ingredient, the smoothie color and taste change entirely, letting you know the recipe was tampered with.
+
+## Why it matters
+
+Without robust hash functions, blockchain security would collapse because data integrity could not be guaranteed. They are the essential tools that allow decentralization to function safely.
+
+## How it works
+
+The function takes any input and processes it through a series of mathematical rounds, including bitwise operations and shifts. This result is always a fixed length, regardless of input size. It is engineered to be extremely sensitive, where a tiny change produces a completely new, unpredictable output.
+
+## Real-world example
+
+SHA-256 is the hash function used by Bitcoin, while Keccak-256 is the standard function used for the Ethereum network.
+
+## Advantages
+
+- Deterministic and consistent outputs
+- Extremely sensitive to input changes
+- Highly efficient for verification tasks
+
+## Limitations
+
+- Vulnerable to long-term quantum computing threats
+- Computationally expensive for complex functions
+- Risk of collisions in poorly designed functions
+
+## Common misconceptions
+
+- Users often mistake hash functions for encryption tools. Hash functions do not store secrets but rather verify data states.
+- Some believe that a faster function is always better, but security requires resistance to brute-force attacks.
+## Related knowledge
+
+- [Cryptography](/categories/cryptography) — term
+- [Proof of Work](/glossary/proof-of-work) — term
+- [SHA-256](/glossary/sha-256) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:hash-function`

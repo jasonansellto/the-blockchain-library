@@ -1,0 +1,49 @@
+---
+title: "Indexer"
+description: "Software that processes blockchain data into searchable or query-friendly structures for applications and analytics."
+---
+
+# Indexer
+
+Software that processes blockchain data into searchable or query-friendly structures for applications and analytics.
+
+## Definition
+
+Software that processes blockchain data into searchable or query-friendly structures for applications and analytics.
+
+## Why it matters
+
+Developer tooling connects applications and software to blockchain nodes, data, and smart contracts.
+
+## How it works
+
+The indexer constantly watches the blockchain for specific 'events' (such as a 'Transfer' event in an ERC-20 token). When it sees one, it strips out the relevant info, converts it, and saves it into an optimized database. The application then talks to this database to update its UI for the user.
+
+## Real-world example
+
+Covalent or The Graph indexers which turn millions of raw blockchain transactions into useful metrics for dashboards.
+
+## Advantages
+
+- Reduces load on blockchain nodes
+- Provides high-speed data retrieval
+- Allows for rich, complex query filtering
+
+## Limitations
+
+- Significant infrastructure overhead
+- Risk of data ingestion errors
+- Delayed availability during sync
+
+## Common misconceptions
+
+- Indexers store the blockchain data permanently; they are just a searchable mirror of the blockchain. Every dApp must build its own indexer; many use decentralized protocols or shared services.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:indexer`

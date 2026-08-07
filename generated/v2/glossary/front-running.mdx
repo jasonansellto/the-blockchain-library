@@ -1,0 +1,51 @@
+---
+title: "Front-Running"
+description: "The practice of placing a transaction before a known pending transaction to profit from or alter its expected execution."
+---
+
+# Front-Running
+
+The practice of placing a transaction before a known pending transaction to profit from or alter its expected execution.
+
+## Definition
+
+The practice of placing a transaction before a known pending transaction to profit from or alter its expected execution.
+
+## Why it matters
+
+MEV concepts explain how transaction ordering can create economic opportunities and risks.
+
+## How it works
+
+Bots constantly scan the pending transaction pool (mempool) for large trades. When a large trade is detected, the bot sends a transaction to buy the same asset, paying a higher gas fee to be included in the same or previous block. Once the user's trade pushes the price up, the bot sells the asset for a profit.
+
+## Real-world example
+
+Uniswap users often experience 'sandwich attacks,' where a bot buys before a user's trade and sells immediately after, trapping the user in a profit-stealing loop.
+
+## Advantages
+
+- Provides market efficiency for arbitrageurs
+- Incentivizes faster transaction processing
+- Highlights the need for better trade protections
+
+## Limitations
+
+- Harms retail user experience
+- Increases transaction costs through gas wars
+- Can lead to high slippage for users
+
+## Common misconceptions
+
+- Front-running is not always technically illegal in decentralized finance, but it is considered an extraction of user value.
+- Users believe paying higher gas fees always prevents front-running, but bots simply adjust their fees to remain ahead.
+## Related knowledge
+
+- [Block Builder](/glossary/block-builder) — term
+- [Mempool](/glossary/mempool) — term
+- [Searcher](/glossary/searcher) — term
+- [Transaction Ordering](/glossary/transaction-ordering) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:front-running`

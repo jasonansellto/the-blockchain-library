@@ -1,0 +1,52 @@
+---
+title: "ERC-721 Enumerable NFT"
+description: "An ERC-721 with Enumerable extension, allowing on-chain iteration of all minted tokens."
+---
+
+# ERC-721 Enumerable NFT
+
+An ERC-721 with Enumerable extension, allowing on-chain iteration of all minted tokens.
+
+An ERC-721 with Enumerable extension, allowing on-chain iteration of all minted tokens.
+
+## Explanation
+
+ERC721Enumerable adds on-chain indexing so you can query all tokens owned by an address without scanning logs. tokenOfOwnerByIndex returns the token ID at a given position. This is gas-expensive to deploy but convenient for dApps that need to display a user's NFT collection.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract EnumerableNFT is ERC721Enumerable, Ownable {
+    uint256 private _nextId = 1;
+    uint256 public constant MAX_SUPPLY = 10_000;
+    uint256 public constant MINT_PRICE = 0.05 ether;
+
+    constructor() ERC721("EnumerableNFT", "ENFT") Ownable(msg.sender) {}
+
+    function mint() external payable {
+        require(msg.value >= MINT_PRICE, "Insufficient ETH");
+        require(_nextId <= MAX_SUPPLY, "Sold out");
+        _safeMint(msg.sender, _nextId);
+        _nextId++;
+    }
+
+    // Enumerable: get all token IDs owned by an address
+    function tokensOfOwner(address owner) external view returns (uint256[] memory) {
+        uint256 balance = balanceOf(owner);
+        uint256[] memory tokens = new uint256[](balance);
+        for (uint256 i = 0; i < balance; i++) {
+            tokens[i] = tokenOfOwnerByIndex(owner, i);
+        }
+        return tokens;
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:erc-721-enumerable-nft`

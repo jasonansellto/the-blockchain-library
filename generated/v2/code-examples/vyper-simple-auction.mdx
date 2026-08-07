@@ -1,0 +1,51 @@
+---
+title: "Vyper Simple Auction"
+description: "A simple English auction contract in Vyper where the highest bidder wins when the auction ends."
+---
+
+# Vyper Simple Auction
+
+A simple English auction contract in Vyper where the highest bidder wins when the auction ends.
+
+A simple English auction contract in Vyper where the highest bidder wins when the auction ends.
+
+## Explanation
+
+This Vyper auction accepts increasing bids until the end time. Outbid bidders are automatically refunded. When the auction ends, the beneficiary receives the highest bid.
+
+## Code
+
+```vyper
+# @version ^0.3.10
+
+beneficiary: public(address)
+auctionEndTime: public(uint256)
+highestBidder: public(address)
+highestBid: public(uint256)
+ended: public(bool)
+
+@external
+def __init__(_beneficiary: address, _duration: uint256):
+    self.beneficiary = _beneficiary
+    self.auctionEndTime = block.timestamp + _duration
+
+@external
+@payable
+def bid():
+    assert block.timestamp < self.auctionEndTime, "Auction ended"
+    assert msg.value > self.highestBid, "Bid too low"
+    if self.highestBid > 0:
+        send(self.highestBidder, self.highestBid)
+    self.highestBidder = msg.sender
+    self.highestBid = msg.value
+
+@external
+def endAuction():
+    assert block.timestamp >= self.auctionEndTime, "Not yet ended"
+    assert not self.ended, "Already ended"
+    self.ended = True
+    send(self.beneficiary, self.highestBid)
+```
+---
+
+**Canonical knowledge ID:** `code-example:vyper-simple-auction`

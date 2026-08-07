@@ -1,0 +1,51 @@
+---
+title: "State Channel"
+description: "A mechanism allowing participants to conduct repeated off-chain state updates and submit only opening, closing, or disputed states on-chain."
+---
+
+# State Channel
+
+A mechanism allowing participants to conduct repeated off-chain state updates and submit only opening, closing, or disputed states on-chain.
+
+## Definition
+
+A mechanism allowing participants to conduct repeated off-chain state updates and submit only opening, closing, or disputed states on-chain.
+
+## Why it matters
+
+Scaling concepts explain how blockchain systems increase capacity while balancing security and decentralization.
+
+## How it works
+
+Participants deposit funds into a multi-sig smart contract on the blockchain. Once open, they transact directly off-chain by exchanging digitally signed messages representing current balances. When finished, they submit the final balance to the smart contract, which releases the corresponding funds, ensuring the outcome is final.
+
+## Real-world example
+
+The Lightning Network is the most famous example of a state channel implementation used for Bitcoin payments.
+
+## Advantages
+
+- Instant transaction finality
+- Minimal on-chain footprint
+- High privacy for participants
+
+## Limitations
+
+- Funds must be locked in advance
+- Requires participants to be online
+- Limited to two-party or fixed sets
+
+## Common misconceptions
+
+- People think state channels support all smart contracts, but they are limited to specific state updates.
+- Some believe channels never hit the blockchain, but they require on-chain setup and settlement.
+## Related knowledge
+
+- [Data Availability](/glossary/data-availability) — term
+- [Layer 2](/categories/layer-2) — term
+- [Rollup](/glossary/rollup) — term
+- [Throughput](/glossary/throughput) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:state-channel`

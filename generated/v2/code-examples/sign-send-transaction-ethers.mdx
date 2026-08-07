@@ -1,0 +1,38 @@
+---
+title: "Sign and Send Transaction (ethers.js)"
+description: "Sign and broadcast a transaction using an ethers.js Wallet instance."
+---
+
+# Sign and Send Transaction (ethers.js)
+
+Sign and broadcast a transaction using an ethers.js Wallet instance.
+
+Sign and broadcast a transaction using an ethers.js Wallet instance.
+
+## Explanation
+
+The Wallet class wraps a private key and provider. sendTransaction builds and signs a transaction. The .wait() method returns a receipt once the transaction is mined, containing the block number and success/failure status.
+
+## Code
+
+```javascript
+import { ethers } from "ethers";
+
+const provider = new ethers.JsonRpcProvider("https://rpc.ankr.com/eth");
+const wallet = new ethers.Wallet(privateKey, provider);
+
+// Send ETH
+const tx = await wallet.sendTransaction({
+  to: recipientAddress,
+  value: ethers.parseEther("0.1"),
+});
+console.log("Tx hash:", tx.hash);
+
+// Wait for confirmation
+const receipt = await tx.wait();
+console.log("Mined in block:", receipt.blockNumber);
+console.log("Status:", receipt.status === 1 ? "Success" : "Failed");
+```
+---
+
+**Canonical knowledge ID:** `code-example:sign-send-transaction-ethers`

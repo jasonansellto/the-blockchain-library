@@ -1,0 +1,34 @@
+name: Knowledge Distribution Validation
+
+on:
+  push:
+    paths:
+      - "data/compiled/**"
+      - "generated/v2/**"
+      - "public/knowledge/**"
+      - "knowledge-release.json"
+      - "scripts/generate-mintlify.mjs"
+      - "scripts/generate-knowledge-release.mjs"
+      - "scripts/validate-distribution.mjs"
+      - "package.json"
+  pull_request:
+    paths:
+      - "data/compiled/**"
+      - "generated/v2/**"
+      - "public/knowledge/**"
+      - "knowledge-release.json"
+      - "scripts/**"
+      - "package.json"
+
+jobs:
+  validate-distribution:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Regenerate distribution
+        run: npm run distribute:v2
+      - name: Ensure committed distribution is current
+        run: git diff --exit-code

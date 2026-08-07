@@ -1,0 +1,50 @@
+---
+title: "Delegatecall"
+description: "An EVM operation that executes another contract's code while preserving the calling contract's storage context."
+---
+
+# Delegatecall
+
+An EVM operation that executes another contract's code while preserving the calling contract's storage context.
+
+## Definition
+
+An EVM operation that executes another contract's code while preserving the calling contract's storage context.
+
+## Why it matters
+
+Smart-contract concepts are essential for understanding programmable blockchain applications.
+
+## How it works
+
+When contract A calls contract B using delegatecall, the EVM runs contract B's bytecode using contract A's current state and address. The 'msg.sender' and 'msg.value' remain unchanged as those of the original caller. This allows the code of one contract to manage the storage layout of another.
+
+## Real-world example
+
+Proxy patterns used by OpenZeppelin are the most common example, where a Proxy contract routes calls to a Logic contract to allow for seamless code upgrades.
+
+## Advantages
+
+- Enables contract upgradeability
+- Allows modular code reuse
+- Supports efficient cross-contract logic execution
+
+## Limitations
+
+- High risk of storage collision
+- Complex implementation and audit requirements
+- Security vulnerabilities if misused
+
+## Common misconceptions
+
+- People often think delegatecall simply copies code, but it actually executes it in the current context.
+- There is a belief that delegatecall is inherently insecure, but it is a powerful tool when implemented with correct storage layouts.
+## Related knowledge
+
+- [ABI](/glossary/abi) — term
+- [Smart Contract](/glossary/smart-contract) — term
+- [Solidity](/developers/resources/solidity) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:delegatecall`

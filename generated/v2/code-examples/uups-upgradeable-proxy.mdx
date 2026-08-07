@@ -1,0 +1,40 @@
+---
+title: "UUPS Upgradeable Proxy"
+description: "A UUPS upgradeable contract pattern that allows logic upgrades while preserving state, using OpenZeppelin upgrades plugin."
+---
+
+# UUPS Upgradeable Proxy
+
+A UUPS upgradeable contract pattern that allows logic upgrades while preserving state, using OpenZeppelin upgrades plugin.
+
+A UUPS upgradeable contract pattern that allows logic upgrades while preserving state, using OpenZeppelin upgrades plugin.
+
+## Explanation
+
+UUPS places the upgrade logic in the implementation contract itself. The _authorizeUpgrade function gates who can upgrade. This pattern is more gas-efficient than the transparent proxy pattern but requires care to avoid self-destructing the implementation.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+
+contract UpgradeableToken is UUPSUpgradeable, OwnableUpgradeable {
+    string public name;
+    uint256 public value;
+
+    function initialize(string memory _name) public initializer {
+        __Ownable_init(msg.sender);
+        __UUPSUpgradeable_init();
+        name = _name;
+    }
+
+    function _authorizeUpgrade(address) internal override onlyOwner {}
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:uups-upgradeable-proxy`

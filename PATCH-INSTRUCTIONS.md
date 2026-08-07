@@ -1,35 +1,65 @@
-# The Blockchain Library v1.4.0 — Learning & Developer Enrichment
+# v2.1.0 Knowledge Distribution Pipeline — Install
 
-IMPORTANT: `/images/github-banner.png` is not included and will not be overwritten.
+Copy this patch over the repository root.
 
-## Adds
-
-- 10 tutorial objects
-- 10 code-example objects
-- 10 AI-prompt objects
-- 10 quiz objects
-- 40 native Mintlify resource pages
-- 4 resource catalog pages
-- Knowledge Engine learning-enrichment documentation
-- Updated native Mintlify navigation
-
-## Why
-
-The existing repository had only 3 tutorial objects, 1 generic code example, 3 AI prompts, and 1 quiz. Several also referenced older topic IDs. This patch replaces those small starter sets with valid canonical topic mappings and useful resource coverage.
-
-## Build
-
-Extract into the repository root, then run:
+Run:
 
 ```powershell
-npm.cmd run build:platform
+npm.cmd run distribute:v2
 ```
 
-Then:
+This does NOT require a new Base44 export because it distributes the already-compiled `data/compiled/` release.
+
+Inspect:
+
+```text
+generated/v2/index.mdx
+generated/v2/mintlify-index.json
+knowledge-release.json
+public/knowledge/knowledge-release.json
+```
+
+Then update `docs.json` as described below.
+
+## docs.json navigation additions
+
+Add this page near the top of the **Explore Knowledge** group:
+
+```json
+"generated/v2/index"
+```
+
+Replace the older catalog entries with:
+
+```json
+"generated/v2/catalogs/topics",
+"generated/v2/catalogs/glossary",
+"generated/v2/catalogs/books",
+"generated/v2/catalogs/research"
+```
+
+In Learn, use:
+
+```json
+"generated/v2/catalogs/learning-paths"
+```
+
+In Developer Resources, add:
+
+```json
+"generated/v2/catalogs/resources",
+"generated/v2/catalogs/code-examples",
+"generated/v2/catalogs/rpc"
+```
+
+The individual generated pages do NOT need to be placed in the sidebar. They are linked from catalogs and remain searchable.
+
+## Commit
 
 ```powershell
-git pull origin main --rebase
-git add .
-git commit -m "Add learning and developer enrichment v1.4.0"
+git add package.json scripts generated/v2 public/knowledge knowledge-release.json KNOWLEDGE-DISTRIBUTION.md .github/workflows
+git commit -m "Launch Knowledge Distribution Pipeline v2.1.0"
 git push origin main
 ```
+
+Then apply `BASE44-GITHUB-SYNC-PROMPT.md` to the existing Base44 app to close the safe return-sync loop.

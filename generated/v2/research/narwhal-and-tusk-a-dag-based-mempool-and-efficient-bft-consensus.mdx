@@ -1,0 +1,50 @@
+---
+title: "Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus"
+description: "This paper introduces Narwhal, a high-throughput mempool protocol, and Tusk, an asynchronous Byzantine Fault Tolerant (BFT) consensus protocol, which together f"
+---
+
+# Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus
+
+This paper introduces Narwhal, a high-throughput mempool protocol, and Tusk, an asynchronous Byzantine Fault Tolerant (BFT) consensus protocol, which together f
+
+## Abstract
+
+This paper introduces Narwhal, a high-throughput mempool protocol, and Tusk, an asynchronous Byzantine Fault Tolerant (BFT) consensus protocol, which together form a modular and efficient system for distributed transaction processing. The core innovation lies in decoupling the data dissemination and ordering (mempool functionality) from the actual consensus logic. Narwhal organizes transactions into a Directed Acyclic Graph (DAG) structure, providing high-throughput data availability and reliable broadcast across replicas. This DAG-based mempool ensures that all honest nodes agree on a common set of available transactions before consensus takes place. Tusk then provides total ordering for these transactions through an asynchronous BFT protocol, which is resilient to network delays and partial synchrony assumptions. The combined system achieves significantly higher throughput and improved fault tolerance compared to traditional BFT systems, by optimizing the most expensive parts of consensus. This work offers a powerful design for building next-generation high-performance blockchain systems.
+
+**Authors:** George Danezis, Eleftherios Kokoris-Kogias, Alberto Sonnino, Alexander Spiegelman
+
+**Publication:** arXiv preprint
+
+**Publication date:** 2022-01-01
+
+## Key findings
+
+- The paper introduces Narwhal (DAG-based mempool) and Tusk (asynchronous BFT consensus) as a modular system.
+- Narwhal decouples transaction dissemination and ordering from the consensus mechanism, ensuring high-throughput data availability.
+- Tusk provides total ordering for transactions based on the data provided by Narwhal, robustly handling network delays.
+- The combined architecture achieves significantly higher throughput and improved fault tolerance for distributed systems.
+- This design offers a novel approach to building highly performant and scalable blockchain systems.
+
+## Citation
+
+George Danezis, Eleftherios Kokoris-Kogias, Alberto Sonnino, Alexander Spiegelman (2022). Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus. arXiv preprint. https://arxiv.org/pdf/2105.11827.pdf
+## Related knowledge
+
+- [Consensus](/categories/consensus) — glossary
+- [Consensus](/categories/consensus) — related-glossary
+- [Edge Computing, AI, and Blockchain: The New Stack](/topics/edge-computing-ai-and-blockchain-the-new-stack) — article
+- [Edge Computing, AI, and Blockchain: The New Stack](/topics/edge-computing-ai-and-blockchain-the-new-stack) — related-article
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — article
+- [From Throughput to Reliability: The New Metrics That Matter](/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — related-article
+- [Layer 3 in Blockchain: The Next Big Thing for Crypto Scalability?](/topics/layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability) — article
+- [Layer 3 in Blockchain: The Next Big Thing for Crypto Scalability?](/topics/layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability) — related-article
+- [Layer 3: The Next Frontier in Blockchain Scalability](/topics/layer-3-the-next-frontier-in-blockchain-scalability) — article
+- [Layer 3: The Next Frontier in Blockchain Scalability](/topics/layer-3-the-next-frontier-in-blockchain-scalability) — related-article
+- [Oracle](/glossary/oracle) — glossary
+- [Oracle](/glossary/oracle) — related-glossary
+- [The Impact of AI on Blockchain Development: Smarter Smart Contracts?](/topics/the-impact-of-ai-on-blockchain-development-smarter-smart-contracts) — article
+- [The Impact of AI on Blockchain Development: Smarter Smart Contracts?](/topics/the-impact-of-ai-on-blockchain-development-smarter-smart-contracts) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:narwhal-and-tusk-a-dag-based-mempool-and-efficient-bft-consensus`

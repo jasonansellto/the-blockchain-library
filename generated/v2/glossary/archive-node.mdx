@@ -1,0 +1,49 @@
+---
+title: "Archive Node"
+description: "A blockchain node that retains complete historical state and transaction data rather than pruning older information."
+---
+
+# Archive Node
+
+A blockchain node that retains complete historical state and transaction data rather than pruning older information.
+
+## Definition
+
+A blockchain node that retains complete historical state and transaction data rather than pruning older information.
+
+## Why it matters
+
+Infrastructure concepts explain the software and services that keep blockchain networks accessible and verifiable.
+
+## How it works
+
+When a node synchronizes, it processes every transaction and block in chronological order. Instead of discarding the state tree after a block is finalized, the archive node keeps the complete state trie for every block. This requires massive disk space, often many terabytes, to maintain the state snapshots of every historical block height.
+
+## Real-world example
+
+Block explorers like Etherscan utilize archive node data to show a user's account balance on a specific block number from three years ago.
+
+## Advantages
+
+- Full historical state access
+- Essential for deep data analysis
+- Enables historical smart contract debugging
+
+## Limitations
+
+- Extremely high storage requirements
+- High maintenance and infrastructure costs
+- Long synchronization times from genesis
+
+## Common misconceptions
+
+- All nodes store the full history of the blockchain; many nodes prune data to stay lightweight. Archive nodes are required to validate current transactions; they are actually used for querying, not standard validation.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:archive-node`

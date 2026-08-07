@@ -1,0 +1,63 @@
+---
+title: "Dutch Auction Contract"
+description: "A Dutch auction that decreases price over time until a buyer accepts, useful for fair NFT price discovery."
+---
+
+# Dutch Auction Contract
+
+A Dutch auction that decreases price over time until a buyer accepts, useful for fair NFT price discovery.
+
+A Dutch auction that decreases price over time until a buyer accepts, useful for fair NFT price discovery.
+
+## Explanation
+
+A Dutch auction starts at a high price that decreases linearly over time. The first buyer to accept the current price wins. This mechanism is used for fair price discovery — it discourages gas wars and front-running common in fixed-price sales.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract DutchAuction is ReentrancyGuard {
+    IERC721 public nft;
+    uint256 public nftId;
+
+    uint256 public constant DURATION = 3 days;
+    uint256 public startPrice;
+    uint256 public discountRate;
+    uint256 public startTime;
+    address public seller;
+
+    constructor(address _nft, uint256 _nftId, uint256 _startPrice, uint256 _discountRate) {
+        nft = IERC721(_nft);
+        nftId = _nftId;
+        startPrice = _startPrice;
+        discountRate = _discountRate;
+        startTime = block.timestamp;
+        seller = msg.sender;
+    }
+
+    function getPrice() public view returns (uint256) {
+        uint256 elapsed = block.timestamp - startTime;
+        uint256 discount = discountRate * elapsed;
+        if (discount >= startPrice) return 0;
+        return startPrice - discount;
+    }
+
+    function buy() external payable nonReentrant {
+        require(block.timestamp < startTime + DURATION, "Auction ended");
+        uint256 price = getPrice();
+        require(msg.value >= price, "Insufficient ETH");
+        nft.transferFrom(seller, msg.sender, nftId);
+        uint256 refund = msg.value - price;
+        if (refund > 0) payable(msg.sender).transfer(refund);
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:dutch-auction-contract`

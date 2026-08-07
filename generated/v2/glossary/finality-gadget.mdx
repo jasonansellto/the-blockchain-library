@@ -1,0 +1,50 @@
+---
+title: "Finality Gadget"
+description: "A consensus mechanism layered onto block production to provide stronger guarantees that selected blocks will not be reverted."
+---
+
+# Finality Gadget
+
+A consensus mechanism layered onto block production to provide stronger guarantees that selected blocks will not be reverted.
+
+## Definition
+
+A consensus mechanism layered onto block production to provide stronger guarantees that selected blocks will not be reverted.
+
+## Why it matters
+
+Consensus concepts explain how independent nodes agree on one shared history without a central coordinator.
+
+## How it works
+
+The gadget observes the block production of the main chain. When the chain reaches a certain height or a specific set of signatures is gathered, the gadget reaches a final decision and broadcasts a 'finalized' message that is cryptographically tied to the chain history, preventing any further changes.
+
+## Real-world example
+
+Ethereum's Casper FFG (Friendly Finality Gadget) acts as the finality mechanism for the Ethereum Proof of Stake transition.
+
+## Advantages
+
+- Strong security guarantees
+- Decoupling of speed and finality
+- Reduced chain reorganization risk
+
+## Limitations
+
+- Adds architectural complexity
+- Can cause network stalls if consensus fails
+- Requires significant stake to function
+
+## Common misconceptions
+
+- Some think the gadget is the blockchain itself, when it is actually an auxiliary layer. It is often mistakenly believed to speed up transactions, when it actually slows down the final confirmation time.
+## Related knowledge
+
+- [Block Producer](/glossary/block-producer) — term
+- [Finality](/glossary/finality) — term
+- [Proof of Stake](/books/proof-of-stake) — term
+- [Validator](/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:finality-gadget`

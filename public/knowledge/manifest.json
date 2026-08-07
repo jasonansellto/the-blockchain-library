@@ -1,0 +1,56 @@
+{
+  "compilerVersion": "2.0.1",
+  "schemaVersion": "2.0",
+  "buildId": "70e37656b46a4379",
+  "source": {
+    "exportDate": "2026-08-07T19:09:05.484Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0"
+  },
+  "generatedAt": "2026-08-07T19:27:02.401Z",
+  "sourceCounts": {
+    "glossary": 597,
+    "articles": 701,
+    "books": 98,
+    "research": 294,
+    "learning-paths": 12,
+    "resources": 134,
+    "code-snippets": 46,
+    "rpc": 160,
+    "authors": 1,
+    "categories": 86,
+    "news": 1720,
+    "newsletters": 9
+  },
+  "totals": {
+    "rawObjects": 3858,
+    "canonicalObjects": 3545,
+    "edges": 7415,
+    "searchableObjects": 3545
+  },
+  "quality": {
+    "rawObjects": 3858,
+    "canonicalObjects": 3545,
+    "exactDuplicateRowsRemoved": 298,
+    "canonicalMergeGroups": 15,
+    "canonicalMergeExcessRows": 15,
+    "duplicateCanonicalUids": 0,
+    "totalEdges": 7415,
+    "unresolvedRelationships": 1595,
+    "uniqueMissingConcepts": 299,
+    "selfEdgesSkipped": 21,
+    "missingSeoDescription": 2925,
+    "missingTags": 778,
+    "uncategorized": 426
+  },
+  "files": {
+    "catalog": "catalog.json",
+    "graph": "graph.json",
+    "related": "related.json",
+    "searchIndex": "search-index.json",
+    "reconciliation": "reconciliation.json",
+    "missingConcepts": "missing-concepts.json",
+    "duplicateMerges": "duplicate-merges.json",
+    "sourceMap": "source-map.json"
+  }
+}

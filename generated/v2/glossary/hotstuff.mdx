@@ -1,0 +1,53 @@
+---
+title: "HotStuff"
+description: "HotStuff is a BFT-based consensus protocol that simplifies the leader-based consensus process into a 'pipelined' structure. It addresses the complexity and performance bottlenecks found in traditional protocols like PBFT by making the leader rotation and communication pattern lin"
+---
+
+# HotStuff
+
+HotStuff is a BFT-based consensus protocol that simplifies the leader-based consensus process into a 'pipelined' structure. It addresses the complexity and performance bottlenecks found in traditional protocols like PBFT by making the leader rotation and communication pattern linear rather than quadratic. HotStuff is known for its responsiveness—meaning it performs as fast as the network latency allows—and its ability to handle leader changes without stalling the entire network.
+
+## Definition
+
+HotStuff is a BFT-based consensus protocol that simplifies the leader-based consensus process into a 'pipelined' structure. It addresses the complexity and performance bottlenecks found in traditional protocols like PBFT by making the leader rotation and communication pattern linear rather than quadratic. HotStuff is known for its responsiveness—meaning it performs as fast as the network latency allows—and its ability to handle leader changes without stalling the entire network.
+
+## Simple explanation
+
+HotStuff is like an efficient assembly line for making digital decisions. In older systems, every time the leader changed, the whole factory would have to stop and restart. HotStuff keeps the belt moving smoothly even when leaders switch, making the process much faster and more reliable.
+
+## Why it matters
+
+It provides the theoretical backbone for modern, performant, and stable enterprise-grade blockchains. Its simplicity and responsiveness make it easier for developers to build secure, high-performance distributed systems.
+
+## How it works
+
+HotStuff uses a three-phase commit process arranged in a pipeline. Each block only needs a single round-trip of communication to be committed, as the next block effectively confirms the previous one. This reduces the number of messages nodes must exchange, making the system highly scalable even with many participants.
+
+## Real-world example
+
+The Diem (formerly Libra) blockchain was designed to use the HotStuff protocol as its core consensus engine.
+
+## Advantages
+
+- Linear communication complexity
+- High responsiveness to network speed
+- Simplified leader change mechanism
+
+## Limitations
+
+- Requires high trust in the current leader
+- Performance depends on low latency
+- Limited to permissioned or set-validator contexts
+
+## Common misconceptions
+
+- Many think HotStuff is only for private networks, but it is capable of running in public contexts. It is also often incorrectly assumed to be a variant of Proof of Work.
+## Related knowledge
+
+- [BFT](/glossary/bft) — term
+- [Consensus](/categories/consensus) — term
+- [Leader Election](/glossary/leader-election) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:hotstuff`

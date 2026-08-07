@@ -1,0 +1,41 @@
+---
+title: "ABI Encode/Decode (Python)"
+description: "Encode and decode ABI-calldata in Python for contract interaction."
+---
+
+# ABI Encode/Decode (Python)
+
+Encode and decode ABI-calldata in Python for contract interaction.
+
+Encode and decode ABI-calldata in Python for contract interaction.
+
+## Explanation
+
+ABI encoding is how Ethereum serializes function arguments. The selector is the first 4 bytes of keccak(signature). eth_abi.encode packs the arguments. This is useful when building raw calldata or decoding logs without a full contract instance.
+
+## Code
+
+```python
+from eth_abi import encode, decode
+from eth_utils import keccak, to_hex
+
+# Encode function call: transfer(address,uint256)
+signature = "transfer(address,uint256)"
+selector = keccak(signature.encode())[:4]
+
+encoded_args = encode(
+    ["address", "uint256"],
+    ["0x1234...address", 1_000_000_000_000_000_000]
+)
+
+calldata = selector + encoded_args
+print("Calldata:", to_hex(calldata))
+
+# Decode the response
+response = encode(["bool"], [True])
+decoded = decode(["bool"], response)
+print("Decoded:", decoded)  # (True,)
+```
+---
+
+**Canonical knowledge ID:** `code-example:abi-encode-decode-python`

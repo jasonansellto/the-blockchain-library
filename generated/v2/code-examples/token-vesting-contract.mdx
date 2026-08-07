@@ -1,0 +1,72 @@
+---
+title: "Token Vesting Contract"
+description: "A linear token vesting contract that releases tokens over time with a cliff."
+---
+
+# Token Vesting Contract
+
+A linear token vesting contract that releases tokens over time with a cliff.
+
+A linear token vesting contract that releases tokens over time with a cliff.
+
+## Explanation
+
+Vesting schedules release tokens linearly over a duration, often with a cliff (no tokens released until a time after start). vestedAmount calculates how much is unlocked at the current block timestamp. release lets the beneficiary withdraw unlocked tokens.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract TokenVesting is ReentrancyGuard {
+    IERC20 public token;
+    struct VestingSchedule {
+        address beneficiary;
+        uint256 totalAmount;
+        uint256 released;
+        uint256 start;
+        uint256 duration;
+        uint256 cliff;
+    }
+
+    mapping(bytes32 => VestingSchedule) public schedules;
+
+    constructor(address _token) {
+        token = IERC20(_token);
+    }
+
+    function createSchedule(
+        address beneficiary,
+        uint256 amount,
+        uint256 start,
+        uint256 duration,
+        uint256 cliff
+    ) external returns (bytes32 vestingId) {
+        vestingId = keccak256(abi.encodePacked(beneficiary, start, duration, amount));
+        schedules[vestingId] = VestingSchedule(beneficiary, amount, 0, start, duration, cliff);
+        token.transferFrom(msg.sender, address(this), amount);
+    }
+
+    function vestedAmount(bytes32 vestingId) public view returns (uint256) {
+        VestingSchedule storage s = schedules[vestingId];
+        if (block.timestamp < s.start + s.cliff) return 0;
+        if (block.timestamp >= s.start + s.duration) return s.totalAmount;
+        return (s.totalAmount * (block.timestamp - s.start)) / s.duration;
+    }
+
+    function release(bytes32 vestingId) external nonReentrant {
+        VestingSchedule storage s = schedules[vestingId];
+        uint256 releasable = vestedAmount(vestingId) - s.released;
+        require(releasable > 0, "Nothing to release");
+        s.released += releasable;
+        token.transfer(s.beneficiary, releasable);
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:token-vesting-contract`

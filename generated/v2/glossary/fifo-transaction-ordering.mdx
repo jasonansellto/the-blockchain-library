@@ -1,0 +1,50 @@
+---
+title: "FIFO Transaction Ordering"
+description: "A transaction-ordering policy that processes eligible transactions in first-in, first-out order rather than primarily by fee bidding."
+---
+
+# FIFO Transaction Ordering
+
+A transaction-ordering policy that processes eligible transactions in first-in, first-out order rather than primarily by fee bidding.
+
+## Definition
+
+A transaction-ordering policy that processes eligible transactions in first-in, first-out order rather than primarily by fee bidding.
+
+## Why it matters
+
+Transaction concepts explain how user actions are represented, ordered, executed, and confirmed on-chain.
+
+## How it works
+
+Validator nodes maintain a mempool where incoming transactions are timestamped or ordered by arrival sequence. When constructing a block, the validator selects transactions from the front of this queue until the block is full. No additional incentives can change the relative position of a transaction once it has been placed in the queue.
+
+## Real-world example
+
+Various research-focused blockchain projects implement FIFO ordering to mitigate the negative impacts of MEV on decentralized exchanges.
+
+## Advantages
+
+- Prevents front-running and MEV exploitation
+- Promotes fairness and equal access
+- Reduces complexity in transaction broadcasting
+
+## Limitations
+
+- Vulnerable to latency-based manipulation
+- Hard to enforce in decentralized global networks
+- May ignore urgency of time-sensitive transactions
+
+## Common misconceptions
+
+- Many think FIFO is inefficient, but it actually saves resources by eliminating complex fee-sorting algorithms.
+- Users often confuse it with a lack of scalability, though it is purely about the sequencing of operations.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Cryptography](/categories/cryptography) — term
+- [Web3](/categories/web3) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:fifo-transaction-ordering`

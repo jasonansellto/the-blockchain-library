@@ -1,0 +1,64 @@
+---
+title: "Simple AMM Swap (Solidity)"
+description: "A minimal constant-product AMM (x*y=k) swap function — the math behind Uniswap."
+---
+
+# Simple AMM Swap (Solidity)
+
+A minimal constant-product AMM (x*y=k) swap function — the math behind Uniswap.
+
+A minimal constant-product AMM (x*y=k) swap function — the math behind Uniswap.
+
+## Explanation
+
+This implements the core **constant product formula** (`x * y = k`) that powers Uniswap V2.
+
+**The math:**
+- Adding `amountIn` to `reserveA` increases the pool's A supply.
+- The output is calculated so the product `A * B` stays constant.
+- Larger trades move the price more (slippage).
+
+**What's missing for production:** fees (0.3%), price oracles, flash loan protection, multi-hop routing. This is for understanding the mechanism — use Uniswap's audited contracts in production.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+interface IERC20 {
+    function transfer(address, uint256) external returns (bool);
+    function balanceOf(address) external view returns (uint256);
+}
+
+contract SimpleAMM {
+    IERC20 public tokenA;
+    IERC20 public tokenB;
+    uint256 public reserveA;
+    uint256 public reserveB;
+
+    constructor(address _a, address _b) {
+        tokenA = IERC20(_a);
+        tokenB = IERC20(_b);
+    }
+
+    function swapAforB(uint256 amountIn) external {
+        require(amountIn > 0, "Zero input");
+        tokenA.transferFrom(msg.sender, address(this), amountIn);
+
+        // Constant product: x * y = k
+        // (reserveA + amountIn) * (reserveB - amountOut) = reserveA * reserveB
+        uint256 amountOut = (reserveB * amountIn) /
+            (reserveA + amountIn);
+
+        require(amountOut < reserveB, "Insufficient liquidity");
+        reserveA += amountIn;
+        reserveB -= amountOut;
+
+        tokenB.transfer(msg.sender, amountOut);
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:simple-amm-swap-solidity`

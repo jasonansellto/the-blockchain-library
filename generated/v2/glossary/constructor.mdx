@@ -1,0 +1,50 @@
+---
+title: "Constructor"
+description: "A special smart-contract function executed once during deployment to initialize contract state."
+---
+
+# Constructor
+
+A special smart-contract function executed once during deployment to initialize contract state.
+
+## Definition
+
+A special smart-contract function executed once during deployment to initialize contract state.
+
+## Why it matters
+
+Smart-contract concepts are essential for understanding programmable blockchain applications.
+
+## How it works
+
+During deployment, the constructor code is called with arguments specified in the deployment script. The EVM executes this code, stores the initial values into the contract's state storage, and then permanently removes the constructor bytecode from the transaction chain to finalize the setup.
+
+## Real-world example
+
+In an ERC-20 token contract, the constructor is used to mint the initial token supply and assign it to the contract creator's wallet address.
+
+## Advantages
+
+- Executes only once at deployment
+- Saves space by excluding initialization code
+- Ensures critical state variables are set immediately
+
+## Limitations
+
+- Cannot be executed again after deployment
+- Complex setup can be expensive in gas
+- Must be carefully audited for security
+
+## Common misconceptions
+
+- Some believe the constructor can be called again to reset variables, but it is strictly a one-time function.
+- Many assume the constructor is part of the final contract code, but it is stripped away after initialization.
+## Related knowledge
+
+- [ABI](/glossary/abi) — term
+- [Smart Contract](/glossary/smart-contract) — term
+- [Solidity](/developers/resources/solidity) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:constructor`

@@ -1,0 +1,43 @@
+---
+title: "Keccak256 Hashing (Python)"
+description: "Compute Keccak-256 hashes in Python, matching Solidity's keccak256 function."
+---
+
+# Keccak256 Hashing (Python)
+
+Compute Keccak-256 hashes in Python, matching Solidity's keccak256 function.
+
+Compute Keccak-256 hashes in Python, matching Solidity's keccak256 function.
+
+## Explanation
+
+Keccak-256 is the hash function used by Ethereum. The first 4 bytes of keccak(signature) is the function selector used in ABI encoding. eth_hash provides a pure-Python implementation; pysha3 is an alternative.
+
+## Code
+
+```python
+from eth_hash.auto import keccak
+
+# Hash a string
+data = b"Hello, World!"
+h = keccak(data)
+print("Hash:", h.hex())
+
+# Hash an ABI-encoded packed message (for EIP-712)
+from eth_abi.packed import encode_packed
+
+packed = encode_packed(
+    ["address", "uint256"],
+    ["0x1234...address", 1000]
+)
+leaf = keccak(packed)
+print("Leaf:", leaf.hex())
+
+# Compute function selector
+sig = "transfer(address,uint256)"
+selector = keccak(sig.encode())[:4]
+print("Selector:", selector.hex())  # 0xa9059cbb
+```
+---
+
+**Canonical knowledge ID:** `code-example:keccak256-hashing-python`

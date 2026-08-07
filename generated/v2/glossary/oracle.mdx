@@ -1,0 +1,54 @@
+---
+title: "Oracle"
+description: "An oracle is a decentralized service that acts as a bridge between the blockchain and the outside world, providing off-chain data to smart contracts. Because smart contracts on a blockchain are inherently isolated to ensure deterministic consensus, they cannot directly fetch exte"
+---
+
+# Oracle
+
+An oracle is a decentralized service that acts as a bridge between the blockchain and the outside world, providing off-chain data to smart contracts. Because smart contracts on a blockchain are inherently isolated to ensure deterministic consensus, they cannot directly fetch external data like stock prices, weather, or sports scores. Oracles ingest this data from external APIs or sensors, verify it, and feed it into the blockchain environment so that smart contracts can execute logic based on real-world events.
+
+## Definition
+
+An oracle is a decentralized service that acts as a bridge between the blockchain and the outside world, providing off-chain data to smart contracts. Because smart contracts on a blockchain are inherently isolated to ensure deterministic consensus, they cannot directly fetch external data like stock prices, weather, or sports scores. Oracles ingest this data from external APIs or sensors, verify it, and feed it into the blockchain environment so that smart contracts can execute logic based on real-world events.
+
+## Simple explanation
+
+Imagine a smart contract is a computer that is completely unplugged from the internet. It can only see what is inside its own box. An oracle is like a trusted messenger who looks at the real world, writes down the price of gold or the score of a game, and delivers that information into the locked box so the computer can use it.
+
+## Why it matters
+
+Oracles are essential for enabling real-world use cases for smart contracts, such as decentralized finance (DeFi) protocols, insurance, and supply chain tracking. Without them, smart contracts would be limited to data generated within the blockchain itself, severely restricting their utility.
+
+## How it works
+
+Data sources send information to a network of oracle nodes. These nodes reach consensus on the accuracy of the data to avoid manipulation. The final verified data is sent as a transaction to the smart contract, which stores the value and uses it for automated calculations.
+
+## Real-world example
+
+Chainlink is the industry-standard decentralized oracle network providing price feeds to top DeFi protocols like Aave and Compound.
+
+## Advantages
+
+- Connects blockchain to external data
+- Enables real-world smart contract utility
+- Decentralized trust minimizes data manipulation
+
+## Limitations
+
+- Potential for oracle-based price manipulation
+- High latency for data updates
+- Dependence on external data source reliability
+
+## Common misconceptions
+
+- People often think oracles are just data sources, but they are technically the bridge/middleware layer.
+- Many believe a single node oracle is sufficient, failing to realize the massive centralization risk involved.
+## Related knowledge
+
+- [API](/glossary/api) — term
+- [Chainlink](/developers/resources/chainlink) — term
+- [Consensus](/categories/consensus) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:oracle`

@@ -1,0 +1,57 @@
+---
+title: "Reentrancy Guard Pattern"
+description: "Implement a reentrancy guard to prevent one of the most common smart contract attacks."
+---
+
+# Reentrancy Guard Pattern
+
+Implement a reentrancy guard to prevent one of the most common smart contract attacks.
+
+Implement a reentrancy guard to prevent one of the most common smart contract attacks.
+
+## Explanation
+
+**Reentrancy** is the most famous smart contract vulnerability (the DAO hack, 2016). A malicious contract re-enters a function before state is updated, draining funds.
+
+**How this guard works:**
+- A `_locked` boolean is set `true` at function entry.
+- If the external call triggers a re-entry, `nonReentrant` reverts.
+- The boolean resets after the function completes.
+
+OpenZeppelin provides `ReentrancyGuard` — prefer it in production. Always combine with checks-effects-interactions.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+abstract contract ReentrancyGuard {
+    bool private _locked;
+
+    modifier nonReentrant() {
+        require(!_locked, "Reentrancy: locked");
+        _locked = true;
+        _;
+        _locked = false;
+    }
+}
+
+contract SafeVault is ReentrancyGuard {
+    mapping(address => uint256) public balances;
+
+    function deposit() external payable {
+        balances[msg.sender] += msg.value;
+    }
+
+    function withdraw(uint256 amount) external nonReentrant {
+        require(balances[msg.sender] >= amount, "Insufficient");
+        balances[msg.sender] -= amount;
+        (bool ok, ) = msg.sender.call{value: amount}("");
+        require(ok, "Failed");
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:reentrancy-guard-pattern`

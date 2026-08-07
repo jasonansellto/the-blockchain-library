@@ -1,0 +1,51 @@
+---
+title: "ERC-1271: Standard Signature Validation Method for Smart Contracts"
+description: "ERC-1271 addresses a foundational challenge in blockchain identity: how smart contracts, which do not possess private keys, can verify signatures. Before this s"
+---
+
+# ERC-1271: Standard Signature Validation Method for Smart Contracts
+
+ERC-1271 addresses a foundational challenge in blockchain identity: how smart contracts, which do not possess private keys, can verify signatures. Before this s
+
+## Abstract
+
+ERC-1271 addresses a foundational challenge in blockchain identity: how smart contracts, which do not possess private keys, can verify signatures. Before this standard, dApps often failed to interact with smart contract wallets because they relied on ECDSA signature verification, which is impossible for contract-based accounts. ERC-1271 provides a standardized 'isValidSignature' function that allows external applications to query a smart contract to verify whether a given signature is valid for that contract's owner or policy. This is critical for the adoption of account abstraction, as it enables secure message signing for multisig wallets and other non-EOA accounts. The implementation relies on the contract executing its own internal logic to determine if the signature matches expected conditions, allowing for highly flexible authentication mechanisms, such as checking against stored public keys or verifying signatures from multi-party computation nodes. This standard is fundamental to ensuring that smart contract wallets are treated as first-class citizens in the Ethereum ecosystem, facilitating their use in decentralized exchanges, messaging protocols, and decentralized autonomous organizations.
+
+**Authors:** Richard Meissner, Francisco Giordano
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2018-01-01
+
+## Key findings
+
+- Defines a standardized way for smart contracts to verify signatures.
+- Enables smart contract wallets to sign messages and participate in off-chain authentication.
+- Solves the incompatibility between standard ECDSA verification and contract-based accounts.
+- Crucial for the integration of multisig wallets with decentralized applications.
+
+## Citation
+
+Richard Meissner, Francisco Giordano (2018). ERC-1271: Standard Signature Validation Method for Smart Contracts. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-1271
+## Related knowledge
+
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — article
+- [“Hide the Wires”: Why Web3 Is Getting Invisible](/topics/hide-the-wires-why-web3-is-getting-invisible) — related-article
+- [Browser Wallet](/glossary/browser-wallet) — glossary
+- [Browser Wallet](/glossary/browser-wallet) — related-glossary
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — related-article
+- [Digital Identity in 2026: The End of Passwords and the Rise of SSI](/topics/digital-identity-in-2026-the-end-of-passwords-and-the-rise-of-ssi) — article
+- [Digital Identity in 2026: The End of Passwords and the Rise of SSI](/topics/digital-identity-in-2026-the-end-of-passwords-and-the-rise-of-ssi) — related-article
+- [HD Wallet](/glossary/hd-wallet) — glossary
+- [HD Wallet](/glossary/hd-wallet) — related-glossary
+- [LP Token](/glossary/lp-token) — glossary
+- [LP Token](/glossary/lp-token) — related-glossary
+- [Modifier](/glossary/modifier) — glossary
+- [Modifier](/glossary/modifier) — related-glossary
+- [RPC Endpoint](/glossary/rpc-endpoint) — glossary
+- [RPC Endpoint](/glossary/rpc-endpoint) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `research:erc-1271-standard-signature-validation-method-for-smart-contracts`

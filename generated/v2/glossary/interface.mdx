@@ -1,0 +1,53 @@
+---
+title: "Interface"
+description: "An interface in Solidity is a specialized construct that defines the function signatures of a contract without implementing the actual logic. Interfaces allow different smart contracts to communicate with one another by providing a standardized blueprint of available functions. T"
+---
+
+# Interface
+
+An interface in Solidity is a specialized construct that defines the function signatures of a contract without implementing the actual logic. Interfaces allow different smart contracts to communicate with one another by providing a standardized blueprint of available functions. They define the names, parameter types, and return values of external contract functions. Interfaces are essential for cross-contract interactions because they allow a contract to invoke functions on another contract while ensuring type safety and binary compatibility according to the Application Binary Interface (ABI) standards.
+
+## Definition
+
+An interface in Solidity is a specialized construct that defines the function signatures of a contract without implementing the actual logic. Interfaces allow different smart contracts to communicate with one another by providing a standardized blueprint of available functions. They define the names, parameter types, and return values of external contract functions. Interfaces are essential for cross-contract interactions because they allow a contract to invoke functions on another contract while ensuring type safety and binary compatibility according to the Application Binary Interface (ABI) standards.
+
+## Simple explanation
+
+An interface is like a menu at a restaurant. It tells you what dishes (functions) are available to order, but it does not show you how the chef actually cooks the food. By looking at the menu, you know exactly how to request a meal, even if you do not know the kitchen's secret recipe.
+
+## Why it matters
+
+Interfaces enable composability, which is the cornerstone of the DeFi ecosystem, allowing protocols to interact with others seamlessly. They prevent integration errors by forcing contracts to adhere to a specific structure, which simplifies the development of complex, multi-contract systems.
+
+## How it works
+
+A developer writes an interface block containing only function declarations without the function bodies. When a contract needs to interact with another, it imports this interface and casts the external contract's address to the interface type. The contract can then call these methods as if they were local functions.
+
+## Real-world example
+
+The ERC-20 token standard provides a common interface that allows any wallet or exchange to interact with any token without knowing its internal implementation details.
+
+## Advantages
+
+- Enables cross-contract interoperability
+- Provides type-safe communication
+- Standardizes function call structures
+
+## Limitations
+
+- Cannot contain state variables
+- No implementation logic possible
+- Requires manual adherence to standards
+
+## Common misconceptions
+
+- Many developers mistakenly believe interfaces can hold logic if they are marked as abstract contracts.
+- It is often wrongly assumed that an interface automatically verifies the code of the contract it is calling.
+## Related knowledge
+
+- [ABI](/glossary/abi) — term
+- [ERC-20](/glossary/erc-20) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:interface`

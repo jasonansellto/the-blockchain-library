@@ -1,0 +1,49 @@
+---
+title: "BIP 152: Compact Block Relay"
+description: "BIP 152 (Bitcoin Improvement Proposal) introduces a mechanism for reducing the bandwidth requirements of block propagation within the Bitcoin network. Historica"
+---
+
+# BIP 152: Compact Block Relay
+
+BIP 152 (Bitcoin Improvement Proposal) introduces a mechanism for reducing the bandwidth requirements of block propagation within the Bitcoin network. Historica
+
+## Abstract
+
+BIP 152 (Bitcoin Improvement Proposal) introduces a mechanism for reducing the bandwidth requirements of block propagation within the Bitcoin network. Historically, broadcasting full blocks incurred significant overhead, contributing to network propagation delays and potentially favoring miners with superior connectivity. The methodology behind Compact Block Relay involves sending a header and a list of shortened transaction identifiers (short-hashes) rather than the full transaction set. If receiving nodes already possess the referenced transactions in their local mempools, they can reconstruct the block locally, thus avoiding redundant data transfer. This approach drastically minimizes the propagation time of blocks, improving the efficiency of the network and reducing the probability of stale or orphaned blocks. By standardizing this communication optimization, BIP 152 helps lower the barrier to entry for node operators and improves the overall synchronization performance of the global network. It represents an essential technical optimization that supports network decentralization by ensuring that block propagation is not a bottleneck, regardless of the transaction volume.
+
+**Authors:** Matt Corallo
+
+**Publication:** Standard Specification
+
+**Publication date:** 2016-01-01
+
+## Key findings
+
+- Reduced required bandwidth for block propagation by approximately 90% in typical cases.
+- Enabled nodes to reconstruct blocks from cached transaction data using short-hashes.
+- Decreased network-wide latency, thereby reducing the rate of orphaned blocks and chain forks.
+- Standardized efficient block transfer protocols for the Bitcoin network.
+
+## Citation
+
+Matt Corallo (2016). BIP 152: Compact Block Relay. Standard Specification. https://github.com/bitcoin/bips/blob/master/bip-0152.mediawiki
+## Related knowledge
+
+- [Blockchain in Space: How Decentralization is Powering Extraterrestrial Innovations](/topics/blockchain-in-space-how-decentralization-is-powering-extraterrestrial-innovations) — article
+- [Blockchain in Space: How Decentralization is Powering Extraterrestrial Innovations](/topics/blockchain-in-space-how-decentralization-is-powering-extraterrestrial-innovations) — related-article
+- [Consensus](/categories/consensus) — glossary
+- [Consensus](/categories/consensus) — related-glossary
+- [Cross-Chain Solutions in 2025: Are We Finally Interoperable?](/topics/cross-chain-solutions-in-2025-are-we-finally-interoperable) — article
+- [Cross-Chain Solutions in 2025: Are We Finally Interoperable?](/topics/cross-chain-solutions-in-2025-are-we-finally-interoperable) — related-article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — related-article
+- [Immutability](/glossary/immutability) — glossary
+- [Immutability](/glossary/immutability) — related-glossary
+- [The Evolution of DAOs in 2025: Trends and Use Cases](/topics/the-evolution-of-daos-in-2025-trends-and-use-cases) — article
+- [The Evolution of DAOs in 2025: Trends and Use Cases](/topics/the-evolution-of-daos-in-2025-trends-and-use-cases) — related-article
+- [The Evolution of Web3 Social Media Platforms: Privacy and Ownership in 2025](/topics/the-evolution-of-web3-social-media-platforms-privacy-and-ownership-in-2025) — article
+- [The Evolution of Web3 Social Media Platforms: Privacy and Ownership in 2025](/topics/the-evolution-of-web3-social-media-platforms-privacy-and-ownership-in-2025) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:bip-152-compact-block-relay`

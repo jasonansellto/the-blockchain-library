@@ -1,0 +1,56 @@
+---
+title: "Tendermint"
+description: "Tendermint is a high-performance, open-source engine for building blockchains that provides an instant-finality BFT consensus. It packages both the networking and consensus layers into a single, modular framework. Developers can focus on building the application logic (the 'state"
+---
+
+# Tendermint
+
+Tendermint is a high-performance, open-source engine for building blockchains that provides an instant-finality BFT consensus. It packages both the networking and consensus layers into a single, modular framework. Developers can focus on building the application logic (the 'state machine') without needing to worry about the complexities of peer-to-peer communication or consensus algorithms. Tendermint uses a strict, leader-based round-robin rotation, ensuring that every block is final as soon as it is committed.
+
+## Definition
+
+Tendermint is a high-performance, open-source engine for building blockchains that provides an instant-finality BFT consensus. It packages both the networking and consensus layers into a single, modular framework. Developers can focus on building the application logic (the 'state machine') without needing to worry about the complexities of peer-to-peer communication or consensus algorithms. Tendermint uses a strict, leader-based round-robin rotation, ensuring that every block is final as soon as it is committed.
+
+## Simple explanation
+
+Tendermint is like a 'Blockchain-in-a-Box.' It gives developers the ready-made engine to run a secure network, so they can just focus on building the cool features or apps on top. It makes sure that once a transaction happens, it is locked in stone immediately, with no chance of it being undone.
+
+## Why it matters
+
+It drastically lowers the barrier to entry for building sovereign, high-performance blockchains. By providing a secure, 'plug-and-play' consensus engine, it has enabled the entire Cosmos ecosystem to flourish with interoperable networks.
+
+## How it works
+
+Tendermint uses a BFT algorithm where validators take turns proposing blocks. The network goes through two rounds of voting (pre-vote and pre-commit) before a block is finalized. This ensures that every validator is in sync and that no conflicting blocks can ever be produced, ensuring instant finality.
+
+## Real-world example
+
+The Cosmos Hub and the entire Inter-Blockchain Communication (IBC) ecosystem are built using the Tendermint consensus engine.
+
+## Advantages
+
+- Instant finality
+- Modular architecture for developers
+- Strict security against forks
+
+## Limitations
+
+- Limited validator set size
+- Sensitivity to high latency
+- Performance ceiling for consensus participants
+
+## Common misconceptions
+
+- Many believe it is limited to Cosmos, but it is actually a general-purpose engine. It is also often incorrectly thought to be less secure than PoW despite its mathematical BFT guarantees.
+## Related knowledge
+
+- [BFT](/glossary/bft) — term
+- [Cosmos](/developers/resources/cosmos) — term
+- [Interoperability](/categories/interoperability) — term
+- [Proof of Stake](/books/proof-of-stake) — term
+- [State Machine](/glossary/state-machine) — term
+- [Validator](/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:tendermint`

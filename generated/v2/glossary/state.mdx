@@ -1,0 +1,54 @@
+---
+title: "State"
+description: "In blockchain terminology, 'state' refers to the current snapshot of all data stored on the network at a specific block height. This includes account balances, contract storage, and code that resides on the chain. As transactions are processed, they mutate the blockchain from one"
+---
+
+# State
+
+In blockchain terminology, 'state' refers to the current snapshot of all data stored on the network at a specific block height. This includes account balances, contract storage, and code that resides on the chain. As transactions are processed, they mutate the blockchain from one state to the next. The state is what users query when they want to check their token holdings or interact with a decentralized application, representing the 'truth' of the network at any given moment.
+
+## Definition
+
+In blockchain terminology, 'state' refers to the current snapshot of all data stored on the network at a specific block height. This includes account balances, contract storage, and code that resides on the chain. As transactions are processed, they mutate the blockchain from one state to the next. The state is what users query when they want to check their token holdings or interact with a decentralized application, representing the 'truth' of the network at any given moment.
+
+## Simple explanation
+
+Think of a bank account ledger. The 'state' is the current amount of money in your account right now. When you spend money, the bank changes that number, which creates a new 'state.' In a blockchain, the entire world's ledger is updated every few seconds.
+
+## Why it matters
+
+The state is the final output of blockchain computation. Maintaining the correct state across thousands of nodes is what provides the network's integrity and consistency.
+
+## How it works
+
+Every transaction that is validated is executed by nodes. This execution changes the values of balances or contract storage in the node's local database. These changes are then committed, moving the system to a new state which is hashed into the next block header.
+
+## Real-world example
+
+The Ethereum State Trie stores all account balances and contract data for the entire network.
+
+## Advantages
+
+- Consistent global truth
+- Verifiable data history
+- Foundation for smart contracts
+
+## Limitations
+
+- Grows indefinitely over time
+- Expensive to store
+- Requires constant syncing
+
+## Common misconceptions
+
+- It is not the same as the transaction history.
+- It does not need to be stored by every single user.
+## Related knowledge
+
+- [Block Header](/glossary/block-header) — term
+- [Execution](/categories/execution) — term
+- [Ledger](/developers/resources/ledger) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:state`

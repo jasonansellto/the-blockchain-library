@@ -1,0 +1,51 @@
+---
+title: "ERC-1967: Proxy Storage Slots"
+description: "ERC-1967 provides a standard mechanism for defining proxy storage slots in Ethereum upgradeable smart contracts. As the ecosystem matured, the proxy pattern bec"
+---
+
+# ERC-1967: Proxy Storage Slots
+
+ERC-1967 provides a standard mechanism for defining proxy storage slots in Ethereum upgradeable smart contracts. As the ecosystem matured, the proxy pattern bec
+
+## Abstract
+
+ERC-1967 provides a standard mechanism for defining proxy storage slots in Ethereum upgradeable smart contracts. As the ecosystem matured, the proxy pattern became a dominant design for upgradeability, yet different implementations often utilized arbitrary storage slots, leading to storage collisions between the proxy and the logic contract. ERC-1967 eliminates this by standardizing the specific, deterministic storage slots used to hold the implementation address, the admin address, and the beacon address. By using high-entropy slots derived from the keccak-256 hash of specific constant strings, the standard minimizes the risk of slot overlaps, allowing for safer development of upgradeable architectures. This specification ensures that tools like Etherscan, dashboard interfaces, and automated security scanners can reliably detect and display the actual implementation addresses behind a proxy. By establishing these conventions, the standard has improved the auditability, transparency, and safety of the most common proxy patterns used in DeFi protocols. It remains a critical technical standard that simplifies the integration of upgradeability features while maintaining storage integrity in complex smart contract systems.
+
+**Authors:** Santiago Palladino
+
+**Publication:** Ethereum Improvement Proposals
+
+**Publication date:** 2019-01-01
+
+## Key findings
+
+- Standardizes storage slots for proxy contracts to prevent storage collisions.
+- Enables uniform discovery of proxy logic and administrative state for third-party tools.
+- Facilitates interoperability between different upgradeable contract frameworks.
+- Reduces development complexity by providing a unified pattern for storage management.
+
+## Citation
+
+Santiago Palladino (2019). ERC-1967: Proxy Storage Slots. Ethereum Improvement Proposals. https://eips.ethereum.org/EIPS/eip-1967
+## Related knowledge
+
+- [Automated Market Maker](/glossary/automated-market-maker) — glossary
+- [Automated Market Maker](/glossary/automated-market-maker) — related-glossary
+- [Beacon Chain](/glossary/beacon-chain) — glossary
+- [Beacon Chain](/glossary/beacon-chain) — related-glossary
+- [Constructor](/glossary/constructor) — glossary
+- [Constructor](/glossary/constructor) — related-glossary
+- [Factory Contract](/glossary/factory-contract) — glossary
+- [Factory Contract](/glossary/factory-contract) — related-glossary
+- [LP Token](/glossary/lp-token) — glossary
+- [LP Token](/glossary/lp-token) — related-glossary
+- [Modifier](/glossary/modifier) — glossary
+- [Modifier](/glossary/modifier) — related-glossary
+- [Smart Contracts 2.0: How Advanced Automation is Reshaping Business](/topics/smart-contracts-2-0-how-advanced-automation-is-reshaping-business) — article
+- [Smart Contracts 2.0: How Advanced Automation is Reshaping Business](/topics/smart-contracts-2-0-how-advanced-automation-is-reshaping-business) — related-article
+- [Solana’s Comeback: Can It Outpace Ethereum in 2025?](/topics/solanas-comeback-can-it-outpace-ethereum-in-2025) — article
+- [Solana’s Comeback: Can It Outpace Ethereum in 2025?](/topics/solanas-comeback-can-it-outpace-ethereum-in-2025) — related-article
+
+---
+
+**Canonical knowledge ID:** `research:erc-1967-proxy-storage-slots`

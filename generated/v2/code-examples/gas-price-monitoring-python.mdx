@@ -1,0 +1,51 @@
+---
+title: "Gas Price Monitoring (Python)"
+description: "Monitor current gas prices and EIP-1559 fee suggestions using web3.py."
+---
+
+# Gas Price Monitoring (Python)
+
+Monitor current gas prices and EIP-1559 fee suggestions using web3.py.
+
+Monitor current gas prices and EIP-1559 fee suggestions using web3.py.
+
+## Explanation
+
+EIP-1559 split gas into base fee (burned) and priority fee (tip to miner). The base fee adjusts per block based on network congestion. maxFeePerGas caps what you'll pay; you're refunded the difference between max and base+priority.
+
+## Code
+
+```python
+from web3 import Web3
+
+w3 = Web3(Web3.HTTPProvider("https://rpc.ankr.com/eth"))
+
+# Legacy gas price
+gas_price = w3.eth.gas_price
+print(f"Legacy gas price: {w3.from_wei(gas_price, 'gwei'):.2f} gwei")
+
+# EIP-1559 fee data
+block = w3.eth.get_block("latest")
+base_fee = block["baseFeePerGas"]
+print(f"Base fee: {w3.from_wei(base_fee, 'gwei'):.2f} gwei")
+
+# Suggest max fee (base fee + 2 gwei priority)
+priority_fee = w3.to_wei(2, "gwei")
+max_fee = base_fee + priority_fee
+print(f"Suggested max fee: {w3.from_wei(max_fee, 'gwei'):.2f} gwei")
+print(f"Priority fee: {w3.from_wei(priority_fee, 'gwei'):.2f} gwei")
+
+# Estimate gas for a simple transfer
+est_gas = w3.eth.estimate_gas({
+    "to": "0x...recipient",
+    "value": w3.to_wei(0.1, "ether"),
+})
+print(f"Estimated gas: {est_gas}")
+
+# Total cost
+total_cost = est_gas * max_fee
+print(f"Total cost: {w3.from_wei(total_cost, 'ether'):.6f} ETH")
+```
+---
+
+**Canonical knowledge ID:** `code-example:gas-price-monitoring-python`

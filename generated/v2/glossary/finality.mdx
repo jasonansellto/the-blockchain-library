@@ -1,0 +1,56 @@
+---
+title: "Finality"
+description: "Finality in blockchain is the point at which a transaction is considered irreversible, immutable, and permanently recorded on the ledger. In Ethereum’s proof-of-stake system, finality occurs when a block has been 'justified' and 'finalized' by a supermajority of validators. Once "
+---
+
+# Finality
+
+Finality in blockchain is the point at which a transaction is considered irreversible, immutable, and permanently recorded on the ledger. In Ethereum’s proof-of-stake system, finality occurs when a block has been 'justified' and 'finalized' by a supermajority of validators. Once a block reaches this state, it cannot be reverted without the destruction of a significant portion of the total staked Ether, which serves as a massive economic deterrent against network tampering.
+
+## Definition
+
+Finality in blockchain is the point at which a transaction is considered irreversible, immutable, and permanently recorded on the ledger. In Ethereum’s proof-of-stake system, finality occurs when a block has been 'justified' and 'finalized' by a supermajority of validators. Once a block reaches this state, it cannot be reverted without the destruction of a significant portion of the total staked Ether, which serves as a massive economic deterrent against network tampering.
+
+## Simple explanation
+
+Finality is like the 'no-take-backs' moment in a transaction. When you send money in a bank, it takes days to clear. On Ethereum, once your transaction reaches finality, it is locked in stone forever and can never be erased or changed by anyone, not even the network creators.
+
+## Why it matters
+
+Finality is crucial for financial applications that require absolute certainty. Without it, users could potentially double-spend assets or experience 'reorgs' where transactions appear to happen but are later erased, causing massive loss of trust.
+
+## How it works
+
+Ethereum uses a mechanism called Casper FFG. Validators vote on blocks in epochs. If two-thirds of the validator set attest to a block, it is considered justified; if that same block receives a second round of support in the next epoch, it becomes finalized.
+
+## Real-world example
+
+A decentralized exchange waits for finality to ensure that a trade has officially occurred before allowing a user to withdraw their tokens.
+
+## Advantages
+
+- Provides irreversible security
+- Prevents double-spending attacks
+- Increases trust for institutional finance
+
+## Limitations
+
+- Takes time to achieve (two epochs)
+- Not instantaneous like centralized databases
+- Dependent on validator participation
+
+## Common misconceptions
+
+- Many believe a transaction is final the moment it is included in a block, but true finality takes several minutes.
+- Some assume finality means a block can never be changed, whereas it is technically 'economically final' and very difficult to revert.
+## Related knowledge
+
+- [Casper FFG](/glossary/casper-ffg) — term
+- [Consensus](/categories/consensus) — term
+- [Double Spend](/glossary/double-spend) — term
+- [Epoch](/glossary/epoch) — term
+- [Immutability](/glossary/immutability) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:finality`

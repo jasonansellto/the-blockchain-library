@@ -1,0 +1,54 @@
+---
+title: "Proxy Contract"
+description: "A proxy contract is a smart contract design pattern used to decouple the contract interface (the address users interact with) from the implementation logic (the contract containing the code). Users send transactions to the proxy, which then delegates the execution to a separate '"
+---
+
+# Proxy Contract
+
+A proxy contract is a smart contract design pattern used to decouple the contract interface (the address users interact with) from the implementation logic (the contract containing the code). Users send transactions to the proxy, which then delegates the execution to a separate 'logic' or 'implementation' contract using the 'delegatecall' opcode. This pattern is primarily used to enable contract upgradability, as developers can deploy a new implementation contract and update the proxy's pointer without changing the address that users interact with.
+
+## Definition
+
+A proxy contract is a smart contract design pattern used to decouple the contract interface (the address users interact with) from the implementation logic (the contract containing the code). Users send transactions to the proxy, which then delegates the execution to a separate 'logic' or 'implementation' contract using the 'delegatecall' opcode. This pattern is primarily used to enable contract upgradability, as developers can deploy a new implementation contract and update the proxy's pointer without changing the address that users interact with.
+
+## Simple explanation
+
+Think of a proxy contract as the customer service desk of a large company. You always go to the same desk (the same address) to ask for help. Behind the scenes, the person sitting at the desk can be replaced by someone better or faster, but you do not need to change where you go because the front desk remains constant.
+
+## Why it matters
+
+Proxy contracts are vital for the long-term maintenance of blockchain applications, as they allow developers to fix bugs or add new features without migrating liquidity or users to a new address. This is critical for high-value DeFi protocols that must maintain continuous operation.
+
+## How it works
+
+The proxy contract contains a storage slot pointing to the address of the implementation contract. When a user sends a transaction to the proxy, the proxy uses 'delegatecall' to run the implementation contract's code in the context of the proxy's storage. To upgrade, an admin changes the implementation address in the proxy.
+
+## Real-world example
+
+The Uniswap protocol utilizes proxy patterns to allow for the seamless addition of new features and protocol upgrades over time.
+
+## Advantages
+
+- Enables contract upgradability
+- Maintains a constant contract address
+- Allows bug fixes after deployment
+
+## Limitations
+
+- Complex logic and security risks
+- Risk of storage collisions
+- Requires careful administrative governance
+
+## Common misconceptions
+
+- Users often think the proxy holds all the logic, but it only acts as a gateway.
+- Many assume upgrading a contract is instantaneous and risk-free, ignoring the complex security implications.
+## Related knowledge
+
+- [Delegatecall](/glossary/delegatecall) — term
+- [Transparent Proxy](/glossary/transparent-proxy) — term
+- [Upgradeable Contract](/glossary/upgradeable-contract) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:proxy-contract`

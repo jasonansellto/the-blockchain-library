@@ -1,0 +1,45 @@
+---
+title: "HD Wallet Derivation (Python)"
+description: "Derive hierarchical deterministic (HD) wallet addresses from a mnemonic using BIP-32/BIP-44 in Python."
+---
+
+# HD Wallet Derivation (Python)
+
+Derive hierarchical deterministic (HD) wallet addresses from a mnemonic using BIP-32/BIP-44 in Python.
+
+Derive hierarchical deterministic (HD) wallet addresses from a mnemonic using BIP-32/BIP-44 in Python.
+
+## Explanation
+
+BIP-39 generates a mnemonic seed phrase. BIP-32 defines hierarchical derivation. BIP-44 standardizes the derivation path — m/44'/60'/0'/0/i is the Ethereum standard. This lets one seed phrase manage unlimited addresses.
+
+## Code
+
+```python
+from mnemonic import Mnemonic
+from eth_account import Account
+from eth_account.signers.local import LocalAccount
+import hdwallet
+
+# Generate a new mnemonic
+mnemo = Mnemonic("english")
+phrase = mnemo.generate(strength=128)  # 12 words
+print("Mnemonic:", phrase)
+
+# Derive the first Ethereum account (BIP-44 path m/44'/60'/0'/0/0)
+Account.enable_unaudited_hdwallet_features()
+account: LocalAccount = Account.from_mnemonic(
+    phrase,
+    account_path="m/44'/60'/0'/0/0"
+)
+print("Address:", account.address)
+print("Private key:", account.key.hex())
+
+# Derive multiple addresses
+for i in range(5):
+    acct = Account.from_mnemonic(phrase, account_path=f"m/44'/60'/0'/0/{i}")
+    print(f"Address {i}:", acct.address)
+```
+---
+
+**Canonical knowledge ID:** `code-example:hd-wallet-derivation-python`

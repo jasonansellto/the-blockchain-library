@@ -1,0 +1,43 @@
+---
+title: "Read ETH Balance with ethers.js"
+description: "Query an Ethereum address's native ETH balance using ethers.js v6."
+---
+
+# Read ETH Balance with ethers.js
+
+Query an Ethereum address's native ETH balance using ethers.js v6.
+
+Query an Ethereum address's native ETH balance using ethers.js v6.
+
+## Explanation
+
+This snippet connects to a public Ethereum RPC endpoint and reads an address's balance.
+
+**Key concepts:**
+- `JsonRpcProvider` connects to an Ethereum node via HTTP.
+- `getBalance()` returns the balance in **wei** (the smallest ETH unit).
+- `ethers.formatEther()` converts wei to a human-readable ETH string.
+
+Use this pattern to display wallet balances in any frontend application.
+
+## Code
+
+```javascript
+import { ethers } from "ethers";
+
+const provider = new ethers.JsonRpcProvider(
+  "https://rpc.ankr.com/eth"
+);
+
+async function getBalance(address) {
+  const balanceWei = await provider.getBalance(address);
+  const balanceEth = ethers.formatEther(balanceWei);
+  console.log(`Balance: ${balanceEth} ETH`);
+  return balanceEth;
+}
+
+getBalance("0x742d35Cc6634C0532925a3b844Bc454e4438f44e");
+```
+---
+
+**Canonical knowledge ID:** `code-example:read-eth-balance-ethersjs`

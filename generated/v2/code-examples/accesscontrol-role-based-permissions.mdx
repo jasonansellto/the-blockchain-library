@@ -1,0 +1,44 @@
+---
+title: "AccessControl Role-Based Permissions"
+description: "Role-based access control using OpenZeppelin's AccessControl for fine-grained permission management."
+---
+
+# AccessControl Role-Based Permissions
+
+Role-based access control using OpenZeppelin's AccessControl for fine-grained permission management.
+
+Role-based access control using OpenZeppelin's AccessControl for fine-grained permission management.
+
+## Explanation
+
+AccessControl provides a flexible role system. Each role is a bytes32 identifier. The onlyRole modifier enforces that the caller has the required role. Roles can be granted and revoked by admins.
+
+## Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/access/AccessControl.sol";
+
+contract RoleBasedContract is AccessControl {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+    bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
+
+    constructor(address admin) {
+        _grantRole(DEFAULT_ADMIN_ROLE, admin);
+        _grantRole(MINTER_ROLE, admin);
+    }
+
+    function mint(address to, uint256 amount) external onlyRole(MINTER_ROLE) {
+        // mint logic
+    }
+
+    function burn(address from, uint256 amount) external onlyRole(BURNER_ROLE) {
+        // burn logic
+    }
+}
+```
+---
+
+**Canonical knowledge ID:** `code-example:accesscontrol-role-based-permissions`
