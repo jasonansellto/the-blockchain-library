@@ -3,3 +3,7 @@ node_modules/
 .DS_Store
 .env
 .env.*
+
+# Local-only Base44 CMS exports. These may contain operational source metadata.
+imports/base44/*.json
+!imports/base44/.gitkeep

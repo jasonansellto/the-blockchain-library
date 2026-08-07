@@ -1,0 +1,47 @@
+{
+  "compilerVersion": "2.0.0",
+  "schemaVersion": "2.0",
+  "buildId": "e6d047978c24ac1d",
+  "source": {
+    "exportDate": "2026-08-07T19:09:05.484Z",
+    "version": "1.0.0",
+    "schemaVersion": "1.0"
+  },
+  "generatedAt": "2026-08-07T19:18:03.892Z",
+  "counts": {
+    "glossary": 597,
+    "articles": 701,
+    "books": 98,
+    "research": 294,
+    "learning-paths": 12,
+    "resources": 134,
+    "code-snippets": 46,
+    "rpc": 160,
+    "authors": 1,
+    "categories": 86,
+    "news": 1720,
+    "newsletters": 9
+  },
+  "totals": {
+    "objects": 3858,
+    "edges": 7357,
+    "searchableObjects": 3858
+  },
+  "quality": {
+    "totalObjects": 3858,
+    "totalEdges": 7357,
+    "unresolvedRelationships": 1595,
+    "selfEdgesSkipped": 21,
+    "duplicateKeys": 626,
+    "missingSeoDescription": 3139,
+    "missingTags": 879,
+    "uncategorized": 428
+  },
+  "files": {
+    "catalog": "catalog.json",
+    "graph": "graph.json",
+    "related": "related.json",
+    "searchIndex": "search-index.json",
+    "reconciliation": "reconciliation.json"
+  }
+}
