@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 
 const cwd = process.cwd();
 const compiledDir = path.join(cwd, "data", "compiled");
@@ -7,7 +8,7 @@ const outputRoot = path.join(cwd, "generated", "v2");
 
 const read = name => JSON.parse(fs.readFileSync(path.join(compiledDir, name), "utf8"));
 const ensure = dir => fs.mkdirSync(dir, { recursive: true });
-const escape = value => String(value ?? "").replace(/"/g, '\\"');
+const escape = value => String(value ?? "").replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\n/g, " ");
 const stripHtml = value => String(value ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 const mdText = value => String(value ?? "").replace(/\r/g, "").trim();
 const safeArray = value => Array.isArray(value) ? value : [];
@@ -25,14 +26,8 @@ fs.rmSync(outputRoot, { recursive: true, force: true });
 ensure(outputRoot);
 
 const DOC_TYPES = new Set([
-  "glossary",
-  "topic",
-  "book",
-  "research",
-  "learning-path",
-  "resource",
-  "code-example",
-  "infrastructure"
+  "glossary", "topic", "book", "research",
+  "learning-path", "resource", "code-example", "infrastructure"
 ]);
 
 const typeFolder = {
@@ -57,16 +52,38 @@ const typeLabel = {
   infrastructure: "RPC & Infrastructure"
 };
 
+function routeSlug(object) {
+  const slug = String(object.slug || object.id || "item").replace(/^\/+|\/+$/g, "");
+  if (slug.length <= 96) return slug;
+  const digest = crypto.createHash("sha1").update(object.uid || slug).digest("hex").slice(0, 8);
+  return `${slug.slice(0, 82).replace(/-+$/g, "")}-${digest}`;
+}
+
 function frontmatter(object, description) {
   return `---\ntitle: "${escape(object.title)}"\ndescription: "${escape(description.slice(0, 280))}"\n---\n\n`;
+}
+
+const publishable = catalog.filter(object =>
+  DOC_TYPES.has(object.type) &&
+  (!object.visibility || object.visibility === "public") &&
+  object.status !== "draft"
+);
+
+const docRouteByUid = new Map();
+for (const object of publishable) {
+  const folder = typeFolder[object.type];
+  docRouteByUid.set(object.uid, `/generated/v2/${folder}/${routeSlug(object)}`);
 }
 
 function relationBlock(uid) {
   const items = safeArray(related[uid]).slice(0, 16);
   if (!items.length) return "";
-  return `\n## Related knowledge\n\n${items.map(item =>
-    `- [${item.title}](${item.canonicalUrl || "#"}) — ${item.relationship || "related"}`
-  ).join("\n")}\n`;
+  return `\n## Related knowledge\n\n${items.map(item => {
+    const route = docRouteByUid.get(item.uid);
+    if (route) return `- [${item.title}](${route}) — ${item.relationship || "related"}`;
+    if (item.canonicalUrl) return `- [${item.title}](${item.canonicalUrl}) — ${item.relationship || "related"}`;
+    return `- ${item.title} — ${item.relationship || "related"}`;
+  }).join("\n")}\n`;
 }
 
 function detailsFor(object) {
@@ -146,15 +163,12 @@ function detailsFor(object) {
 }
 
 const generated = [];
-for (const object of catalog) {
-  if (!DOC_TYPES.has(object.type)) continue;
-  if (object.visibility && object.visibility !== "public") continue;
-  if (object.status === "draft") continue;
-
+for (const object of publishable) {
   const folder = typeFolder[object.type];
   const dir = path.join(outputRoot, folder);
   ensure(dir);
 
+  const safeSlug = routeSlug(object);
   const summary = stripHtml(object.summary || object.seoDescription || `${object.title} — The Blockchain Library`);
   const body = frontmatter(object, summary) +
     `# ${object.title}\n\n` +
@@ -163,28 +177,27 @@ for (const object of catalog) {
     relationBlock(object.uid) +
     `\n---\n\n**Canonical knowledge ID:** \`${object.uid}\`\n`;
 
-  const file = path.join(dir, `${object.slug}.mdx`);
-  fs.writeFileSync(file, body);
+  fs.writeFileSync(path.join(dir, `${safeSlug}.mdx`), body);
   generated.push({
     uid: object.uid,
     type: object.type,
     title: object.title,
-    path: `generated/v2/${folder}/${object.slug}`,
-    sourceCanonicalUrl: object.canonicalUrl
+    path: `generated/v2/${folder}/${safeSlug}`,
+    sourceCanonicalUrl: object.canonicalUrl,
+    sourceSlug: object.slug,
+    routeSlug: safeSlug
   });
 }
 
-// Catalog landing pages.
+ensure(path.join(outputRoot, "catalogs"));
 for (const type of DOC_TYPES) {
   const folder = typeFolder[type];
   const entries = generated.filter(x => x.type === type).sort((a,b) => a.title.localeCompare(b.title));
-  ensure(path.join(outputRoot, "catalogs"));
   const body =
     `---\ntitle: "${typeLabel[type]}"\ndescription: "${entries.length} canonical ${typeLabel[type].toLowerCase()} synchronized from The Blockchain Library Knowledge Engine."\n---\n\n` +
     `# ${typeLabel[type]}\n\n` +
     `**${entries.length} canonical records** · Knowledge build \`${manifest.buildId || "unknown"}\`\n\n` +
-    entries.map(x => `- [${x.title}](/${x.path})`).join("\n") +
-    "\n";
+    entries.map(x => `- [${x.title}](/${x.path})`).join("\n") + "\n";
   fs.writeFileSync(path.join(outputRoot, "catalogs", `${folder}.mdx`), body);
 }
 

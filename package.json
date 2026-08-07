@@ -1,7 +1,7 @@
 {
   "name": "the-blockchain-library",
   "private": true,
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Open-source blockchain knowledge platform and structured Knowledge Engine.",
   "scripts": {
     "validate:knowledge": "node scripts/validate-knowledge.mjs",
@@ -21,7 +21,8 @@
     "generate:mintlify": "node scripts/generate-mintlify.mjs",
     "generate:release": "node scripts/generate-knowledge-release.mjs",
     "validate:distribution": "node scripts/validate-distribution.mjs",
-    "distribute:v2": "npm run generate:mintlify && npm run generate:release && npm run validate:distribution",
+    "validate:docs": "node scripts/validate-docs-integrity.mjs",
+    "distribute:v2": "npm run generate:mintlify && npm run generate:release && npm run validate:distribution && npm run validate:docs",
     "release:knowledge": "npm run build:v2 && npm run distribute:v2"
   }
 }

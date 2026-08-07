@@ -1,0 +1,32 @@
+name: Documentation Integrity
+
+on:
+  push:
+    paths:
+      - "docs.json"
+      - "generated/v2/**"
+      - "scripts/generate-mintlify.mjs"
+      - "scripts/validate-docs-integrity.mjs"
+      - "package.json"
+  pull_request:
+    paths:
+      - "docs.json"
+      - "generated/v2/**"
+      - "scripts/generate-mintlify.mjs"
+      - "scripts/validate-docs-integrity.mjs"
+      - "package.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Regenerate Mintlify distribution
+        run: npm run generate:mintlify
+      - name: Validate documentation integrity
+        run: npm run validate:docs
+      - name: Ensure generated docs are current
+        run: git diff --exit-code

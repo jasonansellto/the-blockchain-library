@@ -24,8 +24,8 @@
         "href": "https://theblockchainlibrary.com"
       },
       {
-        "label": "Catalogs",
-        "href": "/knowledge-engine/dynamic-catalogs"
+        "label": "Knowledge Release",
+        "href": "/generated/v2/index"
       },
       {
         "label": "Explore",
@@ -52,8 +52,8 @@
         "header": "Learn",
         "items": [
           {
-            "label": "Learning Path",
-            "href": "/learn/learning-path"
+            "label": "Learning Paths",
+            "href": "/generated/v2/catalogs/learning-paths"
           },
           {
             "label": "Tutorials",
@@ -69,16 +69,20 @@
         "header": "Explore",
         "items": [
           {
-            "label": "Knowledge Explorer",
-            "href": "/knowledge-engine/explorer"
+            "label": "Knowledge Release",
+            "href": "/generated/v2/index"
+          },
+          {
+            "label": "Glossary",
+            "href": "/generated/v2/catalogs/glossary"
           },
           {
             "label": "Books",
-            "href": "/generated/catalogs/books"
+            "href": "/generated/v2/catalogs/books"
           },
           {
             "label": "Research",
-            "href": "/generated/catalogs/research"
+            "href": "/generated/v2/catalogs/research"
           }
         ]
       },
@@ -87,15 +91,15 @@
         "items": [
           {
             "label": "Developer Resources",
-            "href": "/developers/overview"
+            "href": "/generated/v2/catalogs/resources"
           },
           {
             "label": "Code Examples",
-            "href": "/generated/catalogs/code-examples"
+            "href": "/generated/v2/catalogs/code-examples"
           },
           {
-            "label": "AI Prompts",
-            "href": "/generated/catalogs/ai-prompts"
+            "label": "RPC Directory",
+            "href": "/generated/v2/catalogs/rpc"
           }
         ]
       }
@@ -137,6 +141,7 @@
               "learn/security/scams-and-phishing"
             ]
           },
+          "generated/v2/catalogs/learning-paths",
           "generated/catalogs/tutorials",
           "generated/catalogs/quizzes"
         ]
@@ -145,12 +150,13 @@
         "group": "Explore Knowledge",
         "icon": "compass",
         "pages": [
+          "generated/v2/index",
           "knowledge-engine/explorer",
           "knowledge-engine/dynamic-catalogs",
-          "generated/catalogs/topics",
-          "generated/catalogs/glossary",
-          "generated/catalogs/books",
-          "generated/catalogs/research",
+          "generated/v2/catalogs/topics",
+          "generated/v2/catalogs/glossary",
+          "generated/v2/catalogs/books",
+          "generated/v2/catalogs/research",
           "knowledge-graph/overview"
         ]
       },
@@ -188,7 +194,9 @@
           "developers/content-model",
           "developers/integrations",
           "developers/code-examples",
-          "generated/catalogs/code-examples"
+          "generated/v2/catalogs/resources",
+          "generated/v2/catalogs/code-examples",
+          "generated/v2/catalogs/rpc"
         ]
       },
       {
