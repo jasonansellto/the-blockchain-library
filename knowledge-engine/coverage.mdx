@@ -1,33 +1,31 @@
 ---
 title: "Knowledge Coverage"
-description: "Measure which blockchain topics have glossary, book, research, tutorial, code, AI prompt, quiz, and learning-path coverage."
+description: "Use the Knowledge Engine coverage model to identify which topics need more books, research, tutorials, code examples, prompts, quizzes, or learning paths."
 ---
 
 # Coverage-driven content development
 
-Version 1.3 adds a coverage engine that measures the resource depth of every canonical topic.
+Version 1.3 introduced a coverage model across these dimensions:
 
-<Card title="Open the interactive coverage report" href="/reports/coverage/" icon="chart-no-axes-column-increasing">
-See which topics are rich, developing, or still thin.
-</Card>
-
-## Coverage dimensions
-
-A topic receives credit when it is connected to:
-
-- Glossary definition
-- Book
+- Glossary
+- Books
 - Research
-- Tutorial
-- Code example
-- AI prompt
-- Quiz
-- Learning path
+- Tutorials
+- Code examples
+- AI prompts
+- Quizzes
+- Learning paths
 
-The generated report lives at:
+The coverage generator remains part of the repository build workflow and can be used locally to prioritize content development.
 
-```text
-/knowledge/coverage.json
+```powershell
+npm.cmd run build:platform
 ```
 
-This lets the editorial roadmap be based on actual gaps instead of intuition.
+## How to use the report
+
+Prioritize topics with the fewest connected resource types. A topic with a definition but no tutorial, example, quiz, research, or long-form resource should rank ahead of an already mature topic.
+
+<Note>
+The previous `/reports/coverage/` static route was removed from public navigation because Mintlify deploys the documentation as MDX routes rather than serving arbitrary HTML applications from the repository's `public/` directory.
+</Note>

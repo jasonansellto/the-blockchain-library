@@ -1,12 +1,33 @@
 ---
-title: "Knowledge Graph Explorer"
-description: "Search and explore structured topics, glossary terms, and semantic relationships."
+title: "Knowledge Explorer"
+description: "Explore The Blockchain Library through native Mintlify topic, glossary, book, research, and knowledge-engine routes."
 ---
 
-# Interactive Knowledge Graph Explorer
+# Knowledge Explorer
 
-<Card title="Open the explorer" href="/explorer/" icon="share-2">
-Search the Knowledge Engine by object type, inspect metadata, and follow relationships between concepts.
-</Card>
+The Blockchain Library uses a connected knowledge model rather than a flat document tree.
 
-The explorer reads the generated `/knowledge/catalog.json` and `/knowledge/graph.json` files, so it can expand automatically as the underlying knowledge objects grow.
+<CardGroup cols={2}>
+  <Card title="100 Topic Objects" href="/generated/catalogs/topics" icon="grid-2x2">
+    Browse canonical blockchain, Web3, DeFi, infrastructure, enterprise, and AI topics.
+  </Card>
+  <Card title="250-Term Glossary" href="/generated/catalogs/glossary" icon="book-a">
+    Browse structured definitions and terminology.
+  </Card>
+  <Card title="Books" href="/generated/catalogs/books" icon="book-open">
+    Explore long-form resources connected to canonical topics.
+  </Card>
+  <Card title="Research" href="/generated/catalogs/research" icon="microscope">
+    Explore research objects and publication metadata.
+  </Card>
+  <Card title="Knowledge Graph" href="/knowledge-graph/overview" icon="share-2">
+    See how knowledge objects relate to one another.
+  </Card>
+  <Card title="Learning Paths" href="/learn/learning-path" icon="graduation-cap">
+    Follow guided sequences through the knowledge base.
+  </Card>
+</CardGroup>
+
+<Note>
+The repository still contains generated structured data for future interactive applications. This documentation site uses Mintlify-native MDX routes so all public navigation remains deployable and crawlable.
+</Note>

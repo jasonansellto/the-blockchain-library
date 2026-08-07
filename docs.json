@@ -25,11 +25,11 @@
       },
       {
         "label": "Catalogs",
-        "href": "/catalogs/"
+        "href": "/knowledge-engine/dynamic-catalogs"
       },
       {
-        "label": "Graph Explorer",
-        "href": "/explorer/"
+        "label": "Explore",
+        "href": "/knowledge-engine/explorer"
       },
       {
         "label": "GitHub",
@@ -57,11 +57,11 @@
           },
           {
             "label": "Topics",
-            "href": "/catalogs/topics/"
+            "href": "/generated/catalogs/topics"
           },
           {
             "label": "Glossary",
-            "href": "/catalogs/glossary/"
+            "href": "/generated/catalogs/glossary"
           }
         ]
       },
@@ -70,15 +70,15 @@
         "items": [
           {
             "label": "Knowledge Explorer",
-            "href": "/explorer/"
+            "href": "/knowledge-engine/explorer"
           },
           {
             "label": "Books",
-            "href": "/catalogs/books/"
+            "href": "/generated/catalogs/books"
           },
           {
             "label": "Research",
-            "href": "/catalogs/research/"
+            "href": "/generated/catalogs/research"
           }
         ]
       },
@@ -90,8 +90,8 @@
             "href": "/knowledge-engine/overview"
           },
           {
-            "label": "Coverage Report",
-            "href": "/reports/coverage/"
+            "label": "Coverage Model",
+            "href": "/knowledge-engine/coverage"
           },
           {
             "label": "Developer Resources",
@@ -145,7 +145,10 @@
         "pages": [
           "knowledge-engine/explorer",
           "knowledge-engine/dynamic-catalogs",
-          "knowledge-engine/coverage",
+          "generated/catalogs/topics",
+          "generated/catalogs/glossary",
+          "generated/catalogs/books",
+          "generated/catalogs/research",
           "knowledge-graph/overview"
         ]
       },
