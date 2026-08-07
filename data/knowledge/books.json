@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.3.0",
   "updated": "2026-08-07",
   "books": [
     {
@@ -7,24 +7,34 @@
       "uid": "book:understanding-blockchain",
       "type": "book",
       "title": "Understanding Blockchain",
+      "subtitle": "A Beginner’s Guide to the Technology That’s Changing the World",
       "author": "Jason Ansell",
+      "summary": "A beginner-focused introduction to blockchain technology, distributed networks, transactions, consensus, and the core ideas behind decentralized systems.",
       "topicIds": [
-        "blockchain"
+        "blockchain",
+        "distributed-ledger",
+        "transactions",
+        "consensus"
       ],
-      "status": "published",
-      "subtitle": "A Beginner’s Guide to the Technology That’s Changing the World"
+      "canonicalUrl": "/generated/books/understanding-blockchain",
+      "status": "published"
     },
     {
       "id": "understanding-seed-phrases",
       "uid": "book:understanding-seed-phrases",
       "type": "book",
       "title": "Understanding Seed Phrases",
+      "subtitle": "Mastering Seed Phrases and Protecting Your Digital Wealth",
       "author": "Jason Ansell",
+      "summary": "A practical guide to wallet recovery, seed phrases, private keys, custody, and the security practices used to protect blockchain assets.",
       "topicIds": [
-        "wallets-security"
+        "wallets",
+        "private-keys",
+        "seed-phrases",
+        "hardware-wallets"
       ],
-      "status": "published",
-      "subtitle": "Mastering Seed Phrases and Protecting Your Digital Wealth"
+      "canonicalUrl": "/generated/books/understanding-seed-phrases",
+      "status": "published"
     },
     {
       "id": "beginner-guide-cryptocurrency",
@@ -32,9 +42,14 @@
       "type": "book",
       "title": "A Beginner’s Guide to Cryptocurrency",
       "author": "Jason Ansell",
+      "summary": "An accessible introduction to cryptocurrency, native assets, tokens, stablecoins, exchanges, custody, and digital-asset fundamentals.",
       "topicIds": [
-        "cryptocurrency"
+        "cryptocurrency",
+        "native-assets",
+        "tokens",
+        "stablecoins"
       ],
+      "canonicalUrl": "/generated/books/beginner-guide-cryptocurrency",
       "status": "published"
     },
     {
@@ -42,37 +57,51 @@
       "uid": "book:understanding-defi",
       "type": "book",
       "title": "Understanding Decentralized Finance",
+      "subtitle": "Unlocking The Potential of DeFi and Earning Passive Income",
       "author": "Jason Ansell",
+      "summary": "An introduction to decentralized finance, including lending, borrowing, liquidity pools, decentralized exchanges, collateral, and protocol risk.",
       "topicIds": [
-        "defi"
+        "defi",
+        "lending",
+        "borrowing",
+        "liquidity-pools"
       ],
-      "status": "published",
-      "subtitle": "Unlocking The Potential of DeFi and Earning Passive Income"
+      "canonicalUrl": "/generated/books/understanding-defi",
+      "status": "published"
     },
     {
       "id": "understanding-web3",
       "uid": "book:understanding-web3",
       "type": "book",
       "title": "Understanding Web3",
+      "subtitle": "The Beginner’s Guide to the Decentralized Internet",
       "author": "Jason Ansell",
+      "summary": "A beginner-oriented guide to Web3, decentralized applications, digital ownership, identity, smart contracts, and open protocol infrastructure.",
       "topicIds": [
-        "web3"
+        "web3",
+        "dapps",
+        "decentralized-identity",
+        "smart-contracts"
       ],
-      "status": "published",
-      "subtitle": "The Beginner’s Guide to the Decentralized Internet"
+      "canonicalUrl": "/generated/books/understanding-web3",
+      "status": "published"
     },
     {
       "id": "dark-side-web3",
       "uid": "book:dark-side-web3",
       "type": "book",
       "title": "The Dark Side of Web3",
+      "subtitle": "How to Spot and Avoid Crypto Scams",
       "author": "Jason Ansell",
+      "summary": "A practical security guide to recurring Web3 scam patterns, phishing, wallet drainers, social engineering, malicious contracts, and user-level risk.",
       "topicIds": [
-        "wallets-security",
-        "web3"
+        "phishing",
+        "wallet-drainers",
+        "social-engineering",
+        "smart-contract-risk"
       ],
-      "status": "published",
-      "subtitle": "How to Spot and Avoid Crypto Scams"
+      "canonicalUrl": "/generated/books/dark-side-web3",
+      "status": "published"
     },
     {
       "id": "quiet-rebuild-internet",
@@ -80,10 +109,14 @@
       "type": "book",
       "title": "The Quiet Rebuild of the Internet",
       "author": "Jason Ansell",
+      "summary": "A broader exploration of the transition toward decentralized infrastructure, programmable ownership, interoperability, and the next generation of internet systems.",
       "topicIds": [
         "web3",
-        "infrastructure"
+        "dapps",
+        "decentralized-identity",
+        "interoperability"
       ],
+      "canonicalUrl": "/generated/books/quiet-rebuild-internet",
       "status": "published"
     },
     {
@@ -91,29 +124,35 @@
       "uid": "book:deterministic-execution",
       "type": "book",
       "title": "Deterministic Execution: The Future of Blockchain Infrastructure",
+      "subtitle": "How Vector Smart Chain Reimagines Blockchain Infrastructure for the Real World",
       "author": "Jason Ansell",
+      "summary": "A technical and strategic exploration of predictable blockchain execution, fixed-cost transactions, infrastructure design, enterprise requirements, and autonomous systems.",
       "topicIds": [
-        "blockchain",
-        "smart-contracts",
-        "infrastructure",
+        "deterministic-execution",
+        "fixed-cost-transactions",
+        "predictable-fees",
         "enterprise-blockchain",
-        "ai-blockchain"
+        "blockchain"
       ],
-      "status": "published",
-      "subtitle": "How Vector Smart Chain Reimagines Blockchain Infrastructure for the Real World"
+      "canonicalUrl": "/generated/books/deterministic-execution",
+      "status": "published"
     },
     {
       "id": "ai-money-revolution",
       "uid": "book:ai-money-revolution",
       "type": "book",
       "title": "The AI Money Revolution",
+      "subtitle": "How Artificial Intelligence, Bitcoin, and Digital Assets Are Rebuilding the Global Economy",
       "author": "Jason Ansell",
+      "summary": "An exploration of AI agents, cryptocurrency, programmable payments, digital assets, and the financial infrastructure emerging around autonomous software.",
       "topicIds": [
-        "cryptocurrency",
-        "ai-blockchain"
+        "ai-agents",
+        "machine-payments",
+        "agent-wallets",
+        "cryptocurrency"
       ],
-      "status": "published",
-      "subtitle": "How Artificial Intelligence, Bitcoin, and Digital Assets Are Rebuilding the Global Economy"
+      "canonicalUrl": "/generated/books/ai-money-revolution",
+      "status": "published"
     }
   ]
 }

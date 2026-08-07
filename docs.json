@@ -90,12 +90,12 @@
             "href": "/knowledge-engine/overview"
           },
           {
-            "label": "Developer Resources",
-            "href": "/developers/overview"
+            "label": "Coverage Report",
+            "href": "/reports/coverage/"
           },
           {
-            "label": "MCP Server",
-            "href": "/mcp-server/overview"
+            "label": "Developer Resources",
+            "href": "/developers/overview"
           }
         ]
       }
@@ -145,6 +145,7 @@
         "pages": [
           "knowledge-engine/explorer",
           "knowledge-engine/dynamic-catalogs",
+          "knowledge-engine/coverage",
           "knowledge-graph/overview"
         ]
       },
@@ -159,6 +160,8 @@
           "knowledge-engine/glossary-data",
           "knowledge-engine/relationships",
           "knowledge-engine/related-resources",
+          "knowledge-engine/resource-enrichment",
+          "knowledge-engine/coverage",
           "knowledge-engine/learning-paths",
           "knowledge-engine/books-research",
           "knowledge-engine/ai-learning",

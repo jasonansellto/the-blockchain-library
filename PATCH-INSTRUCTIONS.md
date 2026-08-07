@@ -1,26 +1,40 @@
-# The Blockchain Library v1.2.0 — Dynamic Knowledge Patch
-
-This release focuses on maintainability and user experience rather than simply adding more pages.
+# The Blockchain Library v1.3.0 — Resource Enrichment
 
 IMPORTANT: `/images/github-banner.png` is not included and will not be overwritten.
 
-## What changes
+## What this release adds
 
-- Replaces the enormous 250-term sidebar with curated human navigation.
-- Generated topic/glossary pages stay in the repository and remain directly accessible.
-- Adds dynamic catalogs for topics, glossary, books, research, tutorials, and quizzes.
-- Upgrades the Knowledge Explorer with related-resource sections.
-- Fixes the data-generation architecture so books/research/tutorials/etc. are merged with v1.1 topics and glossary rather than being overwritten.
-- Adds `/knowledge/related.json`.
-- Adds `/knowledge/search-index.json`.
-- Adds unified Knowledge Platform validation and CI.
+- Corrected and enriched topic mappings for all 9 current book objects
+- Canonical URLs and summaries for books
+- Enriched research object with DOI and SSRN links
+- Generated canonical book pages
+- Generated canonical research page
+- Knowledge coverage generator
+- Interactive coverage report
+- Updated Knowledge Engine documentation
+- Updated Mintlify navigation
+- v1.3 platform build command
 
 ## Build
 
-After extracting into the repository root:
+Extract into the repository root.
+
+Then:
 
 ```powershell
 npm.cmd run build:platform
+```
+
+The build now also runs:
+
+```text
+generate:coverage
+```
+
+and writes:
+
+```text
+public/knowledge/coverage.json
 ```
 
 Then push:
@@ -28,10 +42,14 @@ Then push:
 ```powershell
 git pull origin main --rebase
 git add .
-git commit -m "Launch dynamic knowledge catalogs and related-resource engine v1.2.0"
+git commit -m "Add resource enrichment and knowledge coverage engine v1.3.0"
 git push origin main
 ```
 
-## Important
+After deployment, open:
 
-Do not delete the existing `generated/topics/` or `generated/glossary/` folders. They remain useful as indexable canonical pages even though they are no longer individually listed in Mintlify's sidebar.
+```text
+/reports/coverage/
+```
+
+Use the lowest-scoring topics to choose the next tutorials, code examples, quizzes, research objects, and AI prompts.

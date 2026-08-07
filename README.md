@@ -6,40 +6,37 @@
 
 The Blockchain Library is an open-source blockchain knowledge platform for learners, developers, researchers, educators, and AI systems.
 
-## Knowledge Platform v1.2
+## Resource Enrichment v1.3
 
-Version 1.2 separates **human navigation** from **machine-scale knowledge**.
+Version 1.3 turns content planning into a measurable process.
 
-Generated topic and glossary pages remain available, but the main documentation navigation is now curated around learning, exploration, development, AI interfaces, research, and the Knowledge Engine.
+### New capabilities
 
-### New platform surfaces
+- Enriched book objects with canonical topic mappings
+- Enriched research metadata and identifiers
+- Generated canonical book and research pages
+- Automatic topic-to-resource coverage scoring
+- Interactive coverage report
+- Coverage JSON for future APIs and editorial automation
 
-```text
-/catalogs/                  Dynamic object catalogs
-/explorer/                  Interactive Knowledge Explorer
-/knowledge/catalog.json     Unified object catalog
-/knowledge/graph.json       Semantic relationship graph
-/knowledge/related.json     Topic-to-resource index
-/knowledge/search-index.json Structured search index
-```
-
-### Build the unified data layer
+### Build the platform
 
 ```powershell
 npm.cmd run build:platform
 ```
 
-This merges expanded topics and glossary entries with books, research, tutorials, code examples, AI prompts, quizzes, and learning paths instead of allowing one generation step to overwrite another.
+New generated surface:
+
+```text
+/knowledge/coverage.json
+/reports/coverage/
+```
+
+The coverage report identifies which topics are missing books, research, tutorials, code examples, AI prompts, quizzes, or learning paths.
 
 ## Core principle
 
-```text
-Curated navigation for humans
-            +
-Comprehensive structured data for machines
-            =
-Maintainable knowledge platform
-```
+Build the next content where the knowledge graph proves it is needed.
 
 ## License
 

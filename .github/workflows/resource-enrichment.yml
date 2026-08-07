@@ -1,0 +1,31 @@
+name: Resource Enrichment CI
+
+on:
+  push:
+    paths:
+      - "data/knowledge/books.json"
+      - "data/knowledge/research.json"
+      - "data/knowledge/topics-expanded.json"
+      - "scripts/generate-coverage.mjs"
+      - "scripts/generate-platform-data.mjs"
+      - "scripts/validate-platform-data.mjs"
+      - "package.json"
+  pull_request:
+    paths:
+      - "data/knowledge/books.json"
+      - "data/knowledge/research.json"
+      - "data/knowledge/topics-expanded.json"
+      - "scripts/generate-coverage.mjs"
+      - "scripts/generate-platform-data.mjs"
+      - "scripts/validate-platform-data.mjs"
+      - "package.json"
+
+jobs:
+  resource-enrichment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm run build:platform
