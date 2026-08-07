@@ -2,51 +2,52 @@
 
 ## Current release line
 
-**v1.5.0 — Repository Professionalization**
+**v2.0.1 — Knowledge Reconciliation Engine**
 
-## Platform status
+## Production knowledge inventory
 
-| Area | Status | Notes |
-| --- | --- | --- |
-| Documentation Platform | Mature | Mintlify-based public documentation |
-| Knowledge Engine | Mature foundation | Canonical structured objects and generators |
-| Topic Objects | 100 | Expansion ongoing |
-| Glossary | 250 | Expansion ongoing |
-| Books | 9 | Connected to canonical topics |
-| Research | 1 | Research expansion needed |
-| Tutorials | 10 | Initial enrichment set |
-| Code Examples | 10 | Initial enrichment set |
-| AI Prompts | 10 | Initial enrichment set |
-| Quizzes | 10 | Initial enrichment set |
-| Learning Paths | 2 | Significant expansion opportunity |
-| Knowledge Graph | Active | Relationship density still growing |
-| Coverage Engine | Active | Used to guide content priorities |
-| Knowledge API | Planned | Targeted for v2.x |
-| AI Tutor | Planned | Depends on richer retrieval and API layers |
-| Contributor Dashboard | Planned | Future product layer |
+| Area | Exported | Canonical / Status |
+| --- | ---: | --- |
+| Total content records | 3,858 | 3,545 canonical objects |
+| Glossary | 597 | Canonicalized and deduplicated |
+| Articles / Topics | 701 | Canonicalized and deduplicated |
+| Books | 98 | Compiled |
+| Research | 294 | Compiled |
+| Learning Paths | 12 | Compiled |
+| Developer Resources | 134 | Compiled |
+| Code Examples | 46 | Canonicalized and deduplicated |
+| RPC Endpoints | 160 | Compiled |
+| Categories | 86 | Canonicalized |
+| News | 1,720 | Canonicalized and deduplicated |
+| Newsletters | 9 | Compiled |
+| Knowledge Graph Edges | — | 7,415 usable edges |
+
+## Reconciliation status
+
+- 298 exact duplicate export rows removed;
+- 15 additional canonical collision groups merged;
+- duplicate canonical UIDs reduced to zero;
+- 1,595 unresolved relationship references remain;
+- those unresolved references represent 299 unique missing concept candidates;
+- 21 self-referencing edges are excluded from the graph;
+- missing SEO, tags, and categorization are tracked as quality metrics.
+
+## Current architecture
+
+Base44 is the editorial authoring layer. GitHub stores the versioned compiled knowledge artifacts. The Knowledge Compiler validates and reconciles the export between them.
 
 ## Current priorities
 
-1. Increase relationship density.
-2. Expand research coverage.
-3. Expand tutorials and code examples.
-4. Improve learning-path depth.
-5. Strengthen citations and source metadata.
-6. Prepare stable contracts for the Knowledge API.
-
-## Repository maturity
-
-The repository now includes:
-
-- platform architecture;
-- data-model guidance;
-- editorial standards;
-- governance;
-- security policy;
-- contribution guidance;
-- issue and pull-request workflows;
-- semantic release history.
+1. Review the 299 missing concept candidates.
+2. Add or alias high-frequency foundational concepts such as Distributed Ledger, Private Key, EVM, Liquidity Pool, Public Key, Stablecoin, DEX, and Digital Signature.
+3. Reduce unresolved relationship references.
+4. Improve SEO metadata coverage.
+5. Improve tag and category coverage.
+6. Add schema validation and confidence-scored alias mapping.
+7. Prepare the compiled catalog for a versioned read-only Knowledge API.
 
 ## Next milestone
 
-The next major platform milestone is a versioned, read-only Knowledge API that exposes the existing canonical object model without creating a separate source of truth.
+**v2.1.0 — Relationship Repair & Coverage Intelligence**
+
+The next milestone should add an approved alias table, relationship-repair workflow, missing-concept triage, coverage scoring, and prioritized editorial queues.

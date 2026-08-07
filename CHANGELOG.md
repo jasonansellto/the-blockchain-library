@@ -2,6 +2,40 @@
 
 All notable changes to The Blockchain Library are documented here.
 
+## [2.0.1] — Reconciliation Engine
+
+### Added
+
+- canonical duplicate reconciliation;
+- exact duplicate source-record removal;
+- canonical collision merging with source-ID preservation;
+- `source-map.json`;
+- `missing-concepts.json`;
+- `duplicate-merges.json`;
+- ranked editorial queue for unresolved relationship targets;
+- alias-aware search records;
+- canonical JSON checksum validation for Base44 exports.
+
+### Improved
+
+- reduced 3,858 raw exported objects to 3,545 canonical objects without losing source provenance;
+- eliminated duplicate canonical UIDs;
+- increased usable graph edges to 7,415;
+- preserved all Base44 source IDs through canonical merges.
+
+## [2.0.0] — Knowledge Compiler
+
+### Added
+
+- Base44 export validation;
+- canonical object compilation;
+- compiled catalog;
+- graph generation;
+- related-resource index;
+- structured search index;
+- reconciliation report;
+- versioned compiler manifest.
+
 ## [1.5.0] — Repository Professionalization
 
 ### Added

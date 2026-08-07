@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "buildId": "e6d047978c24ac1d",
+  "version": "2.0.1",
+  "buildId": "70e37656b46a4379",
   "nodes": [
     {
       "id": "glossary:hd-wallet",
@@ -3583,7 +3583,7 @@
       "type": "glossary",
       "label": "Sidechain",
       "canonicalUrl": "/glossary/sidechain",
-      "categoryId": "6a4e39d110805a52385d8fc4",
+      "categoryId": "6a4e39d110805a52385d8fcd",
       "difficulty": "intermediate"
     },
     {
@@ -3759,22 +3759,6 @@
       "type": "glossary",
       "label": "Polygon",
       "canonicalUrl": "/glossary/polygon",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:rollup",
-      "type": "glossary",
-      "label": "Rollup",
-      "canonicalUrl": "/glossary/rollup",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:sidechain",
-      "type": "glossary",
-      "label": "Sidechain",
-      "canonicalUrl": "/glossary/sidechain",
       "categoryId": "6a4e39d110805a52385d8fcd",
       "difficulty": "intermediate"
     },
@@ -4001,782 +3985,6 @@
       "canonicalUrl": "/glossary/merkle-root",
       "categoryId": "6a4e39d110805a52385d8fc4",
       "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:enterprise-blockchain-infrastructure",
-      "type": "glossary",
-      "label": "Enterprise Blockchain Infrastructure",
-      "canonicalUrl": "/glossary/enterprise-blockchain-infrastructure",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:zero-knowledge-proof",
-      "type": "glossary",
-      "label": "Zero-Knowledge Proof",
-      "canonicalUrl": "/glossary/zero-knowledge-proof",
-      "categoryId": "6a4e39d110805a52385d8fc5",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:wallet-security",
-      "type": "glossary",
-      "label": "Wallet Security",
-      "canonicalUrl": "/glossary/wallet-security",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:wallet-import",
-      "type": "glossary",
-      "label": "Wallet Import",
-      "canonicalUrl": "/glossary/wallet-import",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:wallet-backup",
-      "type": "glossary",
-      "label": "Wallet Backup",
-      "canonicalUrl": "/glossary/wallet-backup",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:wallet-address",
-      "type": "glossary",
-      "label": "Wallet Address",
-      "canonicalUrl": "/glossary/wallet-address",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:business-module",
-      "type": "glossary",
-      "label": "Business Module",
-      "canonicalUrl": "/glossary/business-module",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:self-custody",
-      "type": "glossary",
-      "label": "Self-Custody",
-      "canonicalUrl": "/glossary/self-custody",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:zkrollup",
-      "type": "glossary",
-      "label": "zkRollup",
-      "canonicalUrl": "/glossary/zkrollup",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:yield-optimizer",
-      "type": "glossary",
-      "label": "Yield Optimizer",
-      "canonicalUrl": "/glossary/yield-optimizer",
-      "categoryId": "6a4e39d110805a52385d8fc9",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:yield-farming",
-      "type": "glossary",
-      "label": "Yield Farming",
-      "canonicalUrl": "/glossary/yield-farming",
-      "categoryId": "6a4e39d110805a52385d8fc9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:total-supply",
-      "type": "glossary",
-      "label": "Total Supply",
-      "canonicalUrl": "/glossary/total-supply",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:soulbound-token",
-      "type": "glossary",
-      "label": "Soulbound Token",
-      "canonicalUrl": "/glossary/soulbound-token",
-      "categoryId": "6a4e39d110805a52385d8fcb",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:provenance",
-      "type": "glossary",
-      "label": "Provenance",
-      "canonicalUrl": "/glossary/provenance",
-      "categoryId": "6a4e39d110805a52385d8fcb",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:rollup",
-      "type": "glossary",
-      "label": "Rollup",
-      "canonicalUrl": "/glossary/rollup",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:on-chain-business-automation",
-      "type": "glossary",
-      "label": "On-chain Business Automation",
-      "canonicalUrl": "/glossary/on-chain-business-automation",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:real-world-blockchain-infrastructure",
-      "type": "glossary",
-      "label": "Real-World Blockchain Infrastructure",
-      "canonicalUrl": "/glossary/real-world-blockchain-infrastructure",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:scam-token",
-      "type": "glossary",
-      "label": "Scam Token",
-      "canonicalUrl": "/glossary/scam-token",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:sybil-attack",
-      "type": "glossary",
-      "label": "Sybil Attack",
-      "canonicalUrl": "/glossary/sybil-attack",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:fixed-gas-model",
-      "type": "glossary",
-      "label": "Fixed Gas Model",
-      "canonicalUrl": "/glossary/fixed-gas-model",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:flat-transaction-fees",
-      "type": "glossary",
-      "label": "Flat Transaction Fees",
-      "canonicalUrl": "/glossary/flat-transaction-fees",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:hyper-deflationary-economics",
-      "type": "glossary",
-      "label": "Hyper-Deflationary Economics",
-      "canonicalUrl": "/glossary/hyper-deflationary-economics",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:machine-first-blockchain",
-      "type": "glossary",
-      "label": "Machine-First Blockchain",
-      "canonicalUrl": "/glossary/machine-first-blockchain",
-      "categoryId": "6a4e39d110805a52385d8fd6",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:rwa",
-      "type": "glossary",
-      "label": "RWA",
-      "canonicalUrl": "/glossary/rwa",
-      "categoryId": "6a4e39d110805a52385d8fd2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:tokenized-bonds",
-      "type": "glossary",
-      "label": "Tokenized Bonds",
-      "canonicalUrl": "/glossary/tokenized-bonds",
-      "categoryId": "6a4e39d110805a52385d8fd2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:tokenized-real-estate",
-      "type": "glossary",
-      "label": "Tokenized Real Estate",
-      "canonicalUrl": "/glossary/tokenized-real-estate",
-      "categoryId": "6a4e39d110805a52385d8fd2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:tokenized-stocks",
-      "type": "glossary",
-      "label": "Tokenized Stocks",
-      "canonicalUrl": "/glossary/tokenized-stocks",
-      "categoryId": "6a4e39d110805a52385d8fd2",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:baas",
-      "type": "glossary",
-      "label": "BaaS",
-      "canonicalUrl": "/glossary/baas",
-      "categoryId": "6a4cfe7ce8ddbcb85df987dd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:digital-identity",
-      "type": "glossary",
-      "label": "Digital Identity",
-      "canonicalUrl": "/glossary/digital-identity",
-      "categoryId": "6a4cfe7ce8ddbcb85df987dd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:supply-chain",
-      "type": "glossary",
-      "label": "Supply Chain",
-      "canonicalUrl": "/glossary/supply-chain",
-      "categoryId": "6a4cfe7ce8ddbcb85df987dd",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:polygon",
-      "type": "glossary",
-      "label": "Polygon",
-      "canonicalUrl": "/glossary/polygon",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:erc-1155",
-      "type": "glossary",
-      "label": "ERC-1155",
-      "canonicalUrl": "/glossary/erc-1155",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:erc-721",
-      "type": "glossary",
-      "label": "ERC-721",
-      "canonicalUrl": "/glossary/erc-721",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:erc-20",
-      "type": "glossary",
-      "label": "ERC-20",
-      "canonicalUrl": "/glossary/erc-20",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:eip",
-      "type": "glossary",
-      "label": "EIP",
-      "canonicalUrl": "/glossary/eip",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:burn-address",
-      "type": "glossary",
-      "label": "Burn Address",
-      "canonicalUrl": "/glossary/burn-address",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:starknet",
-      "type": "glossary",
-      "label": "Starknet",
-      "canonicalUrl": "/glossary/starknet",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:sidechain",
-      "type": "glossary",
-      "label": "Sidechain",
-      "canonicalUrl": "/glossary/sidechain",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:rollup",
-      "type": "glossary",
-      "label": "Rollup",
-      "canonicalUrl": "/glossary/rollup",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:interface",
-      "type": "glossary",
-      "label": "Interface",
-      "canonicalUrl": "/glossary/interface",
-      "categoryId": "6a4e39d110805a52385d8fc7",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:base",
-      "type": "glossary",
-      "label": "Base",
-      "canonicalUrl": "/glossary/base",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:arbitrum",
-      "type": "glossary",
-      "label": "Arbitrum",
-      "canonicalUrl": "/glossary/arbitrum",
-      "categoryId": "6a4e39d110805a52385d8fcd",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:private-blockchain",
-      "type": "glossary",
-      "label": "Private Blockchain",
-      "canonicalUrl": "/glossary/private-blockchain",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:permissionless-blockchain",
-      "type": "glossary",
-      "label": "Permissionless Blockchain",
-      "canonicalUrl": "/glossary/permissionless-blockchain",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:peer-to-peer-network",
-      "type": "glossary",
-      "label": "Peer-to-Peer Network",
-      "canonicalUrl": "/glossary/peer-to-peer-network",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:off-chain",
-      "type": "glossary",
-      "label": "Off-chain",
-      "canonicalUrl": "/glossary/off-chain",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:on-chain",
-      "type": "glossary",
-      "label": "On-chain",
-      "canonicalUrl": "/glossary/on-chain",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:hardware-wallet",
-      "type": "glossary",
-      "label": "Hardware Wallet",
-      "canonicalUrl": "/glossary/hardware-wallet",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:immutability",
-      "type": "glossary",
-      "label": "Immutability",
-      "canonicalUrl": "/glossary/immutability",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:hash-function",
-      "type": "glossary",
-      "label": "Hash Function",
-      "canonicalUrl": "/glossary/hash-function",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:hash",
-      "type": "glossary",
-      "label": "Hash",
-      "canonicalUrl": "/glossary/hash",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:recovery-phrase",
-      "type": "glossary",
-      "label": "Recovery Phrase",
-      "canonicalUrl": "/glossary/recovery-phrase",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:paper-wallet",
-      "type": "glossary",
-      "label": "Paper Wallet",
-      "canonicalUrl": "/glossary/paper-wallet",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:multi-signature-wallet",
-      "type": "glossary",
-      "label": "Multi-signature Wallet",
-      "canonicalUrl": "/glossary/multi-signature-wallet",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:mobile-wallet",
-      "type": "glossary",
-      "label": "Mobile Wallet",
-      "canonicalUrl": "/glossary/mobile-wallet",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:hot-wallet",
-      "type": "glossary",
-      "label": "Hot Wallet",
-      "canonicalUrl": "/glossary/hot-wallet",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:node",
-      "type": "glossary",
-      "label": "Node",
-      "canonicalUrl": "/glossary/node",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:custodial-wallet",
-      "type": "glossary",
-      "label": "Custodial Wallet",
-      "canonicalUrl": "/glossary/custodial-wallet",
-      "categoryId": "6a4e39d110805a52385d8fc6",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:upgradeable-contract",
-      "type": "glossary",
-      "label": "Upgradeable Contract",
-      "canonicalUrl": "/glossary/upgradeable-contract",
-      "categoryId": "6a4e39d110805a52385d8fc7",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:storage",
-      "type": "glossary",
-      "label": "Storage",
-      "canonicalUrl": "/glossary/storage",
-      "categoryId": "6a4e39d110805a52385d8fc7",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:solidity",
-      "type": "glossary",
-      "label": "Solidity",
-      "canonicalUrl": "/glossary/solidity",
-      "categoryId": "6a4e39d110805a52385d8fc7",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:proxy-contract",
-      "type": "glossary",
-      "label": "Proxy Contract",
-      "canonicalUrl": "/glossary/proxy-contract",
-      "categoryId": "6a4e39d110805a52385d8fc7",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:oracle",
-      "type": "glossary",
-      "label": "Oracle",
-      "canonicalUrl": "/glossary/oracle",
-      "categoryId": "6a4e39d110805a52385d8fc7",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:library-contract",
-      "type": "glossary",
-      "label": "Library Contract",
-      "canonicalUrl": "/glossary/library-contract",
-      "categoryId": "6a4e39d110805a52385d8fc7",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:deflationary-token",
-      "type": "glossary",
-      "label": "Deflationary Token",
-      "canonicalUrl": "/glossary/deflationary-token",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:public-blockchain",
-      "type": "glossary",
-      "label": "Public Blockchain",
-      "canonicalUrl": "/glossary/public-blockchain",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:proof-of-work",
-      "type": "glossary",
-      "label": "Proof of Work",
-      "canonicalUrl": "/glossary/proof-of-work",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:proof-of-stake",
-      "type": "glossary",
-      "label": "Proof of Stake",
-      "canonicalUrl": "/glossary/proof-of-stake",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:token-vesting",
-      "type": "glossary",
-      "label": "Token Vesting",
-      "canonicalUrl": "/glossary/token-vesting",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:mint",
-      "type": "glossary",
-      "label": "Mint",
-      "canonicalUrl": "/glossary/mint",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:max-supply",
-      "type": "glossary",
-      "label": "Max Supply",
-      "canonicalUrl": "/glossary/max-supply",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:inflationary-token",
-      "type": "glossary",
-      "label": "Inflationary Token",
-      "canonicalUrl": "/glossary/inflationary-token",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:emission",
-      "type": "glossary",
-      "label": "Emission",
-      "canonicalUrl": "/glossary/emission",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:rpc",
-      "type": "glossary",
-      "label": "RPC",
-      "canonicalUrl": "/glossary/rpc",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:burn",
-      "type": "glossary",
-      "label": "Burn",
-      "canonicalUrl": "/glossary/burn",
-      "categoryId": "6a4e39d110805a52385d8fce",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:load-balancer",
-      "type": "glossary",
-      "label": "Load Balancer",
-      "canonicalUrl": "/glossary/load-balancer",
-      "categoryId": "6a4e39d110805a52385d8fd4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:chain-indexer",
-      "type": "glossary",
-      "label": "Chain Indexer",
-      "canonicalUrl": "/glossary/chain-indexer",
-      "categoryId": "6a4e39d110805a52385d8fd4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:cdn",
-      "type": "glossary",
-      "label": "CDN",
-      "canonicalUrl": "/glossary/cdn",
-      "categoryId": "6a4e39d110805a52385d8fd4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:blockchain-explorer",
-      "type": "glossary",
-      "label": "Blockchain Explorer",
-      "canonicalUrl": "/glossary/blockchain-explorer",
-      "categoryId": "6a4e39d110805a52385d8fd4",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:staking",
-      "type": "glossary",
-      "label": "Staking",
-      "canonicalUrl": "/glossary/staking",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:shanghai-upgrade",
-      "type": "glossary",
-      "label": "Shanghai Upgrade",
-      "canonicalUrl": "/glossary/shanghai-upgrade",
-      "categoryId": "6a4e39d110805a52385d8fc8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:layer-1",
-      "type": "glossary",
-      "label": "Layer 1",
-      "canonicalUrl": "/glossary/layer-1",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:seed-phrase",
-      "type": "glossary",
-      "label": "Seed Phrase",
-      "canonicalUrl": "/glossary/seed-phrase",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:sidechain",
-      "type": "glossary",
-      "label": "Sidechain",
-      "canonicalUrl": "/glossary/sidechain",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:smart-contract",
-      "type": "glossary",
-      "label": "Smart Contract",
-      "canonicalUrl": "/glossary/smart-contract",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:soft-fork",
-      "type": "glossary",
-      "label": "Soft Fork",
-      "canonicalUrl": "/glossary/soft-fork",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:state",
-      "type": "glossary",
-      "label": "State",
-      "canonicalUrl": "/glossary/state",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:audit",
-      "type": "glossary",
-      "label": "Audit",
-      "canonicalUrl": "/glossary/audit",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:honeypot",
-      "type": "glossary",
-      "label": "Honeypot",
-      "canonicalUrl": "/glossary/honeypot",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:mev",
-      "type": "glossary",
-      "label": "MEV",
-      "canonicalUrl": "/glossary/mev",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "advanced"
-    },
-    {
-      "id": "glossary:phishing",
-      "type": "glossary",
-      "label": "Phishing",
-      "canonicalUrl": "/glossary/phishing",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:private-key-leak",
-      "type": "glossary",
-      "label": "Private Key Leak",
-      "canonicalUrl": "/glossary/private-key-leak",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:rug-pull",
-      "type": "glossary",
-      "label": "Rug Pull",
-      "canonicalUrl": "/glossary/rug-pull",
-      "categoryId": "6a4e39d110805a52385d8fcf",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:mempool",
-      "type": "glossary",
-      "label": "Mempool",
-      "canonicalUrl": "/glossary/mempool",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:miner",
-      "type": "glossary",
-      "label": "Miner",
-      "canonicalUrl": "/glossary/miner",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "beginner"
-    },
-    {
-      "id": "glossary:mining",
-      "type": "glossary",
-      "label": "Mining",
-      "canonicalUrl": "/glossary/mining",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "glossary:network",
-      "type": "glossary",
-      "label": "Network",
-      "canonicalUrl": "/glossary/network",
-      "categoryId": "6a4e39d110805a52385d8fc4",
-      "difficulty": "beginner"
     },
     {
       "id": "topic:download-all-five-mastering-crypto-ebooks-free-august-1-5",
@@ -8776,1614 +7984,6 @@
       "label": "SEO in 2026: Surviving Google’s AI-Generated Search Results",
       "canonicalUrl": "/topics/seo-in-2026-surviving-googles-ai-generated-search-results",
       "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:financial-stability-in-an-unstable-world-2026-edition",
-      "type": "topic",
-      "label": "Financial Stability in an Unstable World: 2026 Edition",
-      "canonicalUrl": "/topics/financial-stability-in-an-unstable-world-2026-edition",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:protocol-zero-when-systems-stop-failing-and-start-deciding",
-      "type": "topic",
-      "label": "Protocol Zero: When Systems Stop Failing—and Start Deciding",
-      "canonicalUrl": "/topics/protocol-zero-when-systems-stop-failing-and-start-deciding",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
-      "type": "topic",
-      "label": "Why Utility Tokens Are Making a Comeback (And Memes Are Evolving)",
-      "canonicalUrl": "/topics/why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:layer-1-wars-are-over-heres-what-actually-wins-in-2026",
-      "type": "topic",
-      "label": "Layer-1 Wars Are Over — Here’s What Actually Wins in 2026",
-      "canonicalUrl": "/topics/layer-1-wars-are-over-heres-what-actually-wins-in-2026",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-dark-side-of-web3-why-crypto-education-matters-more-than-ever",
-      "type": "topic",
-      "label": "The Dark Side of Web3: Why Crypto Education Matters More Than Ever",
-      "canonicalUrl": "/topics/the-dark-side-of-web3-why-crypto-education-matters-more-than-ever",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-users-dont-care-about-decentralization-but-benefit-anyway",
-      "type": "topic",
-      "label": "Why Users Don’t Care About Decentralization (But Benefit Anyway)",
-      "canonicalUrl": "/topics/why-users-dont-care-about-decentralization-but-benefit-anyway",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-infrastructure-tech-is-more-important-than-consumer-apps",
-      "type": "topic",
-      "label": "Why Infrastructure Tech Is More Important Than Consumer Apps",
-      "canonicalUrl": "/topics/why-infrastructure-tech-is-more-important-than-consumer-apps",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-trust-is-the-new-traffic-source",
-      "type": "topic",
-      "label": "Why Trust Is the New Traffic Source",
-      "canonicalUrl": "/topics/why-trust-is-the-new-traffic-source",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:understanding-blockchain-why-i-wrote-this-book-and-why-you-should-read-it",
-      "type": "topic",
-      "label": "Understanding Blockchain: Why I Wrote This Book (And Why You Should Read It)",
-      "canonicalUrl": "/topics/understanding-blockchain-why-i-wrote-this-book-and-why-you-should-read-it",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-diversification-looks-different-than-it-did-10-years-ago",
-      "type": "topic",
-      "label": "Why Diversification Looks Different Than It Did 10 Years Ago",
-      "canonicalUrl": "/topics/why-diversification-looks-different-than-it-did-10-years-ago",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-new-retail-investor-smarter-slower-and-more-selective",
-      "type": "topic",
-      "label": "The New Retail Investor: Smarter, Slower, and More Selective",
-      "canonicalUrl": "/topics/the-new-retail-investor-smarter-slower-and-more-selective",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:biggest-crypto-fails-of-2025-and-what-we-learned",
-      "type": "topic",
-      "label": "Biggest Crypto Fails of 2025 (and What We Learned)",
-      "canonicalUrl": "/topics/biggest-crypto-fails-of-2025-and-what-we-learned",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:budgeting-and-saving-in-2025-what-strategies-actually-worked",
-      "type": "topic",
-      "label": "Budgeting and Saving in 2025: What Strategies Actually Worked?",
-      "canonicalUrl": "/topics/budgeting-and-saving-in-2025-what-strategies-actually-worked",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-vsc-maintains-security-with-a-flat-rate-gas-model-even-during-peak-demand",
-      "type": "topic",
-      "label": "How VSC Maintains Security With a Flat-Rate Gas Model — Even During Peak Demand",
-      "canonicalUrl": "/topics/how-vsc-maintains-security-with-a-flat-rate-gas-model-even-during-peak-demand",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-identity-how-self-sovereign-credentials-are-changing-the-internet-2",
-      "type": "topic",
-      "label": "Web3 Identity: How Self-Sovereign Credentials Are Changing the Internet",
-      "canonicalUrl": "/topics/web3-identity-how-self-sovereign-credentials-are-changing-the-internet-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-financial-benefits-of-minimalism-how-less-can-lead-to-more-wealth-2",
-      "type": "topic",
-      "label": "The Financial Benefits of Minimalism: How Less Can Lead to More Wealth",
-      "canonicalUrl": "/topics/the-financial-benefits-of-minimalism-how-less-can-lead-to-more-wealth-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:high-ticket-vs-low-ticket-affiliate-products-which-strategy-yields-better-profits-2",
-      "type": "topic",
-      "label": "High-Ticket vs. Low-Ticket Affiliate Products: Which Strategy Yields Better Profits?",
-      "canonicalUrl": "/topics/high-ticket-vs-low-ticket-affiliate-products-which-strategy-yields-better-profits-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:daos-2-0-how-decentralized-governance-is-getting-an-upgrade",
-      "type": "topic",
-      "label": "DAOs 2.0: How Decentralized Governance Is Getting an Upgrade",
-      "canonicalUrl": "/topics/daos-2-0-how-decentralized-governance-is-getting-an-upgrade",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-blockchain-is-powering-smart-cities-of-the-future",
-      "type": "topic",
-      "label": "How Blockchain Is Powering Smart Cities of the Future",
-      "canonicalUrl": "/topics/how-blockchain-is-powering-smart-cities-of-the-future",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-return-of-bitcoin-etfs-what-it-means-for-retail-investors",
-      "type": "topic",
-      "label": "The Return of Bitcoin ETFs: What It Means for Retail Investors",
-      "canonicalUrl": "/topics/the-return-of-bitcoin-etfs-what-it-means-for-retail-investors",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
-      "type": "topic",
-      "label": "6G and the Internet of Everything: The Next Leap in Connectivity",
-      "canonicalUrl": "/topics/6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:building-passive-income-streams-from-dividends-to-digital-assets-2",
-      "type": "topic",
-      "label": "Building Passive Income Streams: From Dividends to Digital Assets",
-      "canonicalUrl": "/topics/building-passive-income-streams-from-dividends-to-digital-assets-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-rise-of-artificial-general-intelligence-agi-myth-or-imminent-reality",
-      "type": "topic",
-      "label": "The Rise of Artificial General Intelligence (AGI): Myth or Imminent Reality?",
-      "canonicalUrl": "/topics/the-rise-of-artificial-general-intelligence-agi-myth-or-imminent-reality",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:depin-explained-building-the-physical-internet-of-the-future",
-      "type": "topic",
-      "label": "DePIN Explained: Building the Physical Internet of the Future",
-      "canonicalUrl": "/topics/depin-explained-building-the-physical-internet-of-the-future",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
-      "type": "topic",
-      "label": "The Privacy Comeback: How ZK and Mixnets Are Saving Decentralization",
-      "canonicalUrl": "/topics/the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:crypto-gaming-2-0-why-play-to-earn-is-dead-and-play-to-own-is-rising",
-      "type": "topic",
-      "label": "Crypto Gaming 2.0: Why Play-to-Earn Is Dead, and Play-to-Own Is Rising",
-      "canonicalUrl": "/topics/crypto-gaming-2-0-why-play-to-earn-is-dead-and-play-to-own-is-rising",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:bitcoins-smart-contract-renaissance-runes-ordinals-and-beyond",
-      "type": "topic",
-      "label": "Bitcoin’s Smart Contract Renaissance: Runes, Ordinals, and Beyond",
-      "canonicalUrl": "/topics/bitcoins-smart-contract-renaissance-runes-ordinals-and-beyond",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi",
-      "type": "topic",
-      "label": "Restaking and LRTs: How Ethereum’s New Narrative Is Reshaping DeFi",
-      "canonicalUrl": "/topics/restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:ai-tokens-and-the-next-hype-cycle-are-they-the-new-defi",
-      "type": "topic",
-      "label": "AI Tokens and the Next Hype Cycle: Are They the New DeFi?",
-      "canonicalUrl": "/topics/ai-tokens-and-the-next-hype-cycle-are-they-the-new-defi",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:layer-1s-vs-modular-chains-what-will-dominate-in-2026",
-      "type": "topic",
-      "label": "Layer-1s vs. Modular Chains: What Will Dominate in 2026?",
-      "canonicalUrl": "/topics/layer-1s-vs-modular-chains-what-will-dominate-in-2026",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:quantum-computing-vs-blockchain-a-security-showdown",
-      "type": "topic",
-      "label": "Quantum Computing vs. Blockchain: A Security Showdown",
-      "canonicalUrl": "/topics/quantum-computing-vs-blockchain-a-security-showdown",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:post-bull-market-blues-what-happens-when-the-hype-fades",
-      "type": "topic",
-      "label": "Post-Bull Market Blues: What Happens When the Hype Fades?",
-      "canonicalUrl": "/topics/post-bull-market-blues-what-happens-when-the-hype-fades",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-battle-for-ar-vr-dominance-apple-vision-pro-vs-meta-quest-3",
-      "type": "topic",
-      "label": "The Battle for AR/VR Dominance: Apple Vision Pro vs. Meta Quest 3",
-      "canonicalUrl": "/topics/the-battle-for-ar-vr-dominance-apple-vision-pro-vs-meta-quest-3",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:sustainable-tech-building-a-greener-digital-future",
-      "type": "topic",
-      "label": "Sustainable Tech: Building a Greener Digital Future",
-      "canonicalUrl": "/topics/sustainable-tech-building-a-greener-digital-future",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:passive-income-apps-for-2025-how-to-earn-while-you-sleep",
-      "type": "topic",
-      "label": "Passive Income Apps for 2025: How to Earn While You Sleep",
-      "canonicalUrl": "/topics/passive-income-apps-for-2025-how-to-earn-while-you-sleep",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:affiliate-marketing-mistakes-to-avoid-a-beginners-guide-to-success-2",
-      "type": "topic",
-      "label": "Affiliate Marketing Mistakes to Avoid: A Beginner’s Guide to Success",
-      "canonicalUrl": "/topics/affiliate-marketing-mistakes-to-avoid-a-beginners-guide-to-success-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:building-the-user-friendly-web3-bridging-ux-and-decentralization",
-      "type": "topic",
-      "label": "Building the User-Friendly Web3: Bridging UX and Decentralization",
-      "canonicalUrl": "/topics/building-the-user-friendly-web3-bridging-ux-and-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-modular-blockchain-revolution-why-the-future-is-composable",
-      "type": "topic",
-      "label": "The Modular Blockchain Revolution: Why the Future Is Composable",
-      "canonicalUrl": "/topics/the-modular-blockchain-revolution-why-the-future-is-composable",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-10-underrated-crypto-projects-you-havent-heard-of-yet",
-      "type": "topic",
-      "label": "Top 10 Underrated Crypto Projects You Haven’t Heard Of Yet",
-      "canonicalUrl": "/topics/top-10-underrated-crypto-projects-you-havent-heard-of-yet",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-human-tech-symbiosis-how-wearables-and-implants-are-expanding-human-potential",
-      "type": "topic",
-      "label": "The Human-Tech Symbiosis: How Wearables and Implants Are Expanding Human Potential",
-      "canonicalUrl": "/topics/the-human-tech-symbiosis-how-wearables-and-implants-are-expanding-human-potential",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-fire-movement-in-2025-is-early-retirement-still-achievable-2",
-      "type": "topic",
-      "label": "The FIRE Movement in 2025: Is Early Retirement Still Achievable?",
-      "canonicalUrl": "/topics/the-fire-movement-in-2025-is-early-retirement-still-achievable-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:email-marketing-in-2025-is-it-still-relevant-for-affiliate-marketers-2",
-      "type": "topic",
-      "label": "Email Marketing in 2025: Is It Still Relevant for Affiliate Marketers?",
-      "canonicalUrl": "/topics/email-marketing-in-2025-is-it-still-relevant-for-affiliate-marketers-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-tokenized-web-how-ownership-is-rewriting-the-internet",
-      "type": "topic",
-      "label": "The Tokenized Web: How Ownership Is Rewriting the Internet",
-      "canonicalUrl": "/topics/the-tokenized-web-how-ownership-is-rewriting-the-internet",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:green-blockchains-can-decentralization-and-sustainability-coexist",
-      "type": "topic",
-      "label": "Green Blockchains: Can Decentralization and Sustainability Coexist?",
-      "canonicalUrl": "/topics/green-blockchains-can-decentralization-and-sustainability-coexist",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-2025-could-be-the-year-of-institutional-defi",
-      "type": "topic",
-      "label": "Why 2025 Could Be the Year of Institutional DeFi",
-      "canonicalUrl": "/topics/why-2025-could-be-the-year-of-institutional-defi",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-infrastructure-the-hidden-backbone-of-decentralization",
-      "type": "topic",
-      "label": "Web3 Infrastructure: The Hidden Backbone of Decentralization",
-      "canonicalUrl": "/topics/web3-infrastructure-the-hidden-backbone-of-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:recession-proof-investing-smart-moves-for-uncertain-markets",
-      "type": "topic",
-      "label": "Recession-Proof Investing: Smart Moves for Uncertain Markets",
-      "canonicalUrl": "/topics/recession-proof-investing-smart-moves-for-uncertain-markets",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:voice-search-and-affiliate-seo-how-to-optimize-for-smart-speakers",
-      "type": "topic",
-      "label": "Voice Search and Affiliate SEO: How to Optimize for Smart Speakers",
-      "canonicalUrl": "/topics/voice-search-and-affiliate-seo-how-to-optimize-for-smart-speakers",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:gaming-web3-in-2025-beyond-play-to-earn",
-      "type": "topic",
-      "label": "Gaming + Web3 in 2025: Beyond Play-to-Earn",
-      "canonicalUrl": "/topics/gaming-web3-in-2025-beyond-play-to-earn",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption",
-      "type": "topic",
-      "label": "Web3 in 2026: UX, Scaling, and The Breakout Year for Mass Adoption",
-      "canonicalUrl": "/topics/web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:introducing-altcoin-threads-where-crypto-meets-fashion",
-      "type": "topic",
-      "label": "Introducing Altcoin Threads: Where Crypto Meets Fashion",
-      "canonicalUrl": "/topics/introducing-altcoin-threads-where-crypto-meets-fashion",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
-      "type": "topic",
-      "label": "Big Updates to VSCRadio: The World’s First Blockchain-Powered Radio Platform",
-      "canonicalUrl": "/topics/big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-affiliate-marketing-strategies-for-2025-whats-working-now-2",
-      "type": "topic",
-      "label": "Top Affiliate Marketing Strategies for 2025: What’s Working Now?",
-      "canonicalUrl": "/topics/top-affiliate-marketing-strategies-for-2025-whats-working-now-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:socialfi-and-the-creator-economy-earning-while-you-engage",
-      "type": "topic",
-      "label": "SocialFi and the Creator Economy: Earning While You Engage",
-      "canonicalUrl": "/topics/socialfi-and-the-creator-economy-earning-while-you-engage",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:from-layer-1-to-layer-3-the-next-evolution-of-blockchain-architecture",
-      "type": "topic",
-      "label": "From Layer-1 to Layer-3: The Next Evolution of Blockchain Architecture",
-      "canonicalUrl": "/topics/from-layer-1-to-layer-3-the-next-evolution-of-blockchain-architecture",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-central-bank-digital-currencies-cbdcs-could-reshape-the-crypto-market",
-      "type": "topic",
-      "label": "How Central Bank Digital Currencies (CBDCs) Could Reshape the Crypto Market",
-      "canonicalUrl": "/topics/how-central-bank-digital-currencies-cbdcs-could-reshape-the-crypto-market",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:ai-powered-automation-future-of-work-in-2025",
-      "type": "topic",
-      "label": "AI-Powered Automation: Future of Work in 2025",
-      "canonicalUrl": "/topics/ai-powered-automation-future-of-work-in-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-build-a-balanced-portfolio-stocks-bonds-and-alternative-assets",
-      "type": "topic",
-      "label": "How to Build a Balanced Portfolio: Stocks, Bonds, and Alternative Assets",
-      "canonicalUrl": "/topics/how-to-build-a-balanced-portfolio-stocks-bonds-and-alternative-assets",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:affiliate-marketing-how-to-start-and-succeed-for-beginners",
-      "type": "topic",
-      "label": "Affiliate Marketing: How to Start and Succeed for Beginners",
-      "canonicalUrl": "/topics/affiliate-marketing-how-to-start-and-succeed-for-beginners",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-prepare-for-a-recession-in-2025-smart-investing-and-financial-planning-2",
-      "type": "topic",
-      "label": "How to Prepare for a Recession in 2025: Smart Investing and Financial Planning",
-      "canonicalUrl": "/topics/how-to-prepare-for-a-recession-in-2025-smart-investing-and-financial-planning-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-create-an-affiliate-marketing-funnel-that-converts-2",
-      "type": "topic",
-      "label": "How to Create an Affiliate Marketing Funnel That Converts",
-      "canonicalUrl": "/topics/how-to-create-an-affiliate-marketing-funnel-that-converts-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:enterprise-blockchain-in-2026-moving-past-pilots-into-real-adoption",
-      "type": "topic",
-      "label": "Enterprise Blockchain in 2026: Moving Past Pilots Into Real Adoption",
-      "canonicalUrl": "/topics/enterprise-blockchain-in-2026-moving-past-pilots-into-real-adoption",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:blockchain-and-artificial-intelligence-the-perfect-match-for-decentralization",
-      "type": "topic",
-      "label": "Blockchain and Artificial Intelligence: The Perfect Match for Decentralization",
-      "canonicalUrl": "/topics/blockchain-and-artificial-intelligence-the-perfect-match-for-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-rise-of-solana-and-vector-smart-chain-competing-for-speed-and-scale",
-      "type": "topic",
-      "label": "The Rise of Solana and Vector Smart Chain: Competing for Speed and Scale",
-      "canonicalUrl": "/topics/the-rise-of-solana-and-vector-smart-chain-competing-for-speed-and-scale",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:edge-computing-vs-cloud-computing-which-will-dominate-the-future",
-      "type": "topic",
-      "label": "Edge Computing vs. Cloud Computing: Which Will Dominate the Future?",
-      "canonicalUrl": "/topics/edge-computing-vs-cloud-computing-which-will-dominate-the-future",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-maximize-credit-card-rewards-in-2025-best-hacks-and-travel-perks-2",
-      "type": "topic",
-      "label": "How to Maximize Credit Card Rewards in 2025: Best Hacks and Travel Perks",
-      "canonicalUrl": "/topics/how-to-maximize-credit-card-rewards-in-2025-best-hacks-and-travel-perks-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:seo-strategies-for-affiliate-marketing-how-to-drive-organic-traffic-2",
-      "type": "topic",
-      "label": "SEO Strategies for Affiliate Marketing: How to Drive Organic Traffic",
-      "canonicalUrl": "/topics/seo-strategies-for-affiliate-marketing-how-to-drive-organic-traffic-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-convergence-of-web3-and-the-metaverse-what-to-expect-in-2025-2",
-      "type": "topic",
-      "label": "The Convergence of Web3 and the Metaverse: What to Expect in 2025",
-      "canonicalUrl": "/topics/the-convergence-of-web3-and-the-metaverse-what-to-expect-in-2025-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:consensus-mechanisms-explained-pow-pos-and-what-comes-next",
-      "type": "topic",
-      "label": "Consensus Mechanisms Explained: PoW, PoS, and What Comes Next",
-      "canonicalUrl": "/topics/consensus-mechanisms-explained-pow-pos-and-what-comes-next",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:crypto-security-101-protecting-your-wallet-from-modern-threats",
-      "type": "topic",
-      "label": "Crypto Security 101: Protecting Your Wallet from Modern Threats",
-      "canonicalUrl": "/topics/crypto-security-101-protecting-your-wallet-from-modern-threats",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:smart-cities-2-0-where-ai-iot-and-blockchain-converge",
-      "type": "topic",
-      "label": "Smart Cities 2.0: Where AI, IoT, and Blockchain Converge",
-      "canonicalUrl": "/topics/smart-cities-2-0-where-ai-iot-and-blockchain-converge",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-save-for-retirement-in-a-volatile-economy-tips-for-millennials-and-gen-z-2",
-      "type": "topic",
-      "label": "How to Save for Retirement in a Volatile Economy: Tips for Millennials and Gen Z",
-      "canonicalUrl": "/topics/how-to-save-for-retirement-in-a-volatile-economy-tips-for-millennials-and-gen-z-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-choose-the-best-affiliate-programs-tips-for-maximizing-profits-2",
-      "type": "topic",
-      "label": "How to Choose the Best Affiliate Programs: Tips for Maximizing Profits",
-      "canonicalUrl": "/topics/how-to-choose-the-best-affiliate-programs-tips-for-maximizing-profits-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-in-education-transforming-learning-through-decentralization-2",
-      "type": "topic",
-      "label": "Web3 in Education: Transforming Learning Through Decentralization",
-      "canonicalUrl": "/topics/web3-in-education-transforming-learning-through-decentralization-2",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:interoperability-wars-why-cross-chain-bridges-still-matter",
-      "type": "topic",
-      "label": "Interoperability Wars: Why Cross-Chain Bridges Still Matter",
-      "canonicalUrl": "/topics/interoperability-wars-why-cross-chain-bridges-still-matter",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-identify-the-next-100x-gem-before-everyone-else",
-      "type": "topic",
-      "label": "How to Identify the Next 100x Gem Before Everyone Else",
-      "canonicalUrl": "/topics/how-to-identify-the-next-100x-gem-before-everyone-else",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:ai-and-blockchain-bridging-the-gap-between-data-and-decentralization",
-      "type": "topic",
-      "label": "AI and Blockchain: Bridging the Gap Between Data and Decentralization",
-      "canonicalUrl": "/topics/ai-and-blockchain-bridging-the-gap-between-data-and-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:investing-in-green-tech-opportunities-in-sustainability-for-2025",
-      "type": "topic",
-      "label": "Investing in Green Tech: Opportunities in Sustainability for 2025",
-      "canonicalUrl": "/topics/investing-in-green-tech-opportunities-in-sustainability-for-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:email-marketing-for-affiliates-building-relationships-that-convert",
-      "type": "topic",
-      "label": "Email Marketing for Affiliates: Building Relationships That Convert",
-      "canonicalUrl": "/topics/email-marketing-for-affiliates-building-relationships-that-convert",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-identity-how-blockchain-is-redefining-digital-credentials",
-      "type": "topic",
-      "label": "Web3 Identity: How Blockchain is Redefining Digital Credentials",
-      "canonicalUrl": "/topics/web3-identity-how-blockchain-is-redefining-digital-credentials",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:quantum-computing-in-2030-predictions-and-challenges-ahead",
-      "type": "topic",
-      "label": "Quantum Computing in 2030: Predictions and Challenges Ahead",
-      "canonicalUrl": "/topics/quantum-computing-in-2030-predictions-and-challenges-ahead",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:from-theory-to-practice-how-blockchain-is-used-in-real-world-applications",
-      "type": "topic",
-      "label": "From Theory to Practice: How Blockchain is Used in Real-World Applications",
-      "canonicalUrl": "/topics/from-theory-to-practice-how-blockchain-is-used-in-real-world-applications",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:understanding-crypto-volatility-how-to-navigate-market-swings",
-      "type": "topic",
-      "label": "Understanding Crypto Volatility: How to Navigate Market Swings",
-      "canonicalUrl": "/topics/understanding-crypto-volatility-how-to-navigate-market-swings",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-psychology-of-spending-how-to-break-bad-habits-and-save-more",
-      "type": "topic",
-      "label": "The Psychology of Spending: How to Break Bad Habits and Save More",
-      "canonicalUrl": "/topics/the-psychology-of-spending-how-to-break-bad-habits-and-save-more",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-affiliate-marketing-trends-for-2025-what-to-focus-on",
-      "type": "topic",
-      "label": "Top Affiliate Marketing Trends for 2025: What to Focus On",
-      "canonicalUrl": "/topics/top-affiliate-marketing-trends-for-2025-what-to-focus-on",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:unlocking-the-creator-economy-with-web3-opportunities-for-artists-and-developers",
-      "type": "topic",
-      "label": "Unlocking the Creator Economy with Web3: Opportunities for Artists and Developers",
-      "canonicalUrl": "/topics/unlocking-the-creator-economy-with-web3-opportunities-for-artists-and-developers",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:5g-and-beyond-how-connectivity-is-powering-future-innovations",
-      "type": "topic",
-      "label": "5G and Beyond: How Connectivity is Powering Future Innovations",
-      "canonicalUrl": "/topics/5g-and-beyond-how-connectivity-is-powering-future-innovations",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-role-of-blockchain-in-ai-a-perfect-synergy",
-      "type": "topic",
-      "label": "The Role of Blockchain in AI: A Perfect Synergy?",
-      "canonicalUrl": "/topics/the-role-of-blockchain-in-ai-a-perfect-synergy",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-rise-of-crypto-etfs-are-they-worth-the-hype",
-      "type": "topic",
-      "label": "The Rise of Crypto ETFs: Are They Worth the Hype",
-      "canonicalUrl": "/topics/the-rise-of-crypto-etfs-are-they-worth-the-hype",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:managing-debt-and-savings-financial-wellness-tips-for-millennials-and-gen-z",
-      "type": "topic",
-      "label": "Managing Debt and Savings: Financial Wellness Tips for Millennials and Gen Z",
-      "canonicalUrl": "/topics/managing-debt-and-savings-financial-wellness-tips-for-millennials-and-gen-z",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:content-optimization-for-affiliate-marketing-seo-tips-for-higher-conversions",
-      "type": "topic",
-      "label": "Content Optimization for Affiliate Marketing: SEO Tips for Higher Conversions",
-      "canonicalUrl": "/topics/content-optimization-for-affiliate-marketing-seo-tips-for-higher-conversions",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:tokenization-in-web3-from-real-world-assets-to-digital-ownership",
-      "type": "topic",
-      "label": "Tokenization in Web3: From Real-World Assets to Digital Ownership",
-      "canonicalUrl": "/topics/tokenization-in-web3-from-real-world-assets-to-digital-ownership",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:affiliate-marketing-in-2026-ai-automation-agents-and-hyper-personalization",
-      "type": "topic",
-      "label": "Affiliate Marketing in 2026: AI Automation, Agents, and Hyper-Personalization",
-      "canonicalUrl": "/topics/affiliate-marketing-in-2026-ai-automation-agents-and-hyper-personalization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:smart-contracts-explained-how-they-work-and-why-they-matter",
-      "type": "topic",
-      "label": "Smart Contracts Explained: How They Work and Why They Matter",
-      "canonicalUrl": "/topics/smart-contracts-explained-how-they-work-and-why-they-matter",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-spot-legitimate-crypto-projects-avoiding-scams-and-risky-investments",
-      "type": "topic",
-      "label": "How to Spot Legitimate Crypto Projects: Avoiding Scams and Risky Investments",
-      "canonicalUrl": "/topics/how-to-spot-legitimate-crypto-projects-avoiding-scams-and-risky-investments",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:building-passive-income-streams-from-dividends-to-digital-assets",
-      "type": "topic",
-      "label": "Building Passive Income Streams: From Dividends to Digital Assets",
-      "canonicalUrl": "/topics/building-passive-income-streams-from-dividends-to-digital-assets",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:affiliate-marketing-for-beginners-how-to-start-and-succeed",
-      "type": "topic",
-      "label": "Affiliate Marketing for Beginners: How to Start and Succeed",
-      "canonicalUrl": "/topics/affiliate-marketing-for-beginners-how-to-start-and-succeed",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:daos-and-the-future-of-digital-governance-empowering-communities-with-web3",
-      "type": "topic",
-      "label": "DAOs and the Future of Digital Governance: Empowering Communities with Web3",
-      "canonicalUrl": "/topics/daos-and-the-future-of-digital-governance-empowering-communities-with-web3",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-role-of-quantum-computing-in-the-future-of-blockchain-security",
-      "type": "topic",
-      "label": "The Role of Quantum Computing in the Future of Blockchain Security",
-      "canonicalUrl": "/topics/the-role-of-quantum-computing-in-the-future-of-blockchain-security",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:blockchain-in-government-how-decentralization-is-changing-public-services",
-      "type": "topic",
-      "label": "Blockchain in Government: How Decentralization is Changing Public Services",
-      "canonicalUrl": "/topics/blockchain-in-government-how-decentralization-is-changing-public-services",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:crypto-for-beginners-building-your-first-portfolio-safely-and-strategically",
-      "type": "topic",
-      "label": "Crypto for Beginners: Building Your First Portfolio Safely and Strategically",
-      "canonicalUrl": "/topics/crypto-for-beginners-building-your-first-portfolio-safely-and-strategically",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:investing-in-alternative-assets-from-crypto-to-real-estate-crowdfunding",
-      "type": "topic",
-      "label": "Investing in Alternative Assets: From Crypto to Real Estate Crowdfunding",
-      "canonicalUrl": "/topics/investing-in-alternative-assets-from-crypto-to-real-estate-crowdfunding",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-strategies-for-affiliate-marketers-in-2025-trends-to-watch",
-      "type": "topic",
-      "label": "Top Strategies for Affiliate Marketers in 2025: Trends to Watch",
-      "canonicalUrl": "/topics/top-strategies-for-affiliate-marketers-in-2025-trends-to-watch",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-explained-what-it-means-for-the-internet-and-why-it-matters",
-      "type": "topic",
-      "label": "Web3 Explained: What It Means for the Internet and Why It Matters",
-      "canonicalUrl": "/topics/web3-explained-what-it-means-for-the-internet-and-why-it-matters",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:edge-computing-and-blockchain-how-decentralization-is-transforming-data-processing",
-      "type": "topic",
-      "label": "Edge Computing and Blockchain: How Decentralization is Transforming Data Processing",
-      "canonicalUrl": "/topics/edge-computing-and-blockchain-how-decentralization-is-transforming-data-processing",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-future-of-layer-one-blockchains-scalability-security-and-decentralization",
-      "type": "topic",
-      "label": "The Future of Layer One Blockchains: Scalability, Security, and Decentralization",
-      "canonicalUrl": "/topics/the-future-of-layer-one-blockchains-scalability-security-and-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:personal-finance-apps-top-picks-for-budgeting-and-saving-in-2025",
-      "type": "topic",
-      "label": "Personal Finance Apps: Top Picks for Budgeting and Saving in 2025",
-      "canonicalUrl": "/topics/personal-finance-apps-top-picks-for-budgeting-and-saving-in-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-crypto-trends-to-watch-in-2025-whats-next-for-the-market",
-      "type": "topic",
-      "label": "Top Crypto Trends to Watch in 2025: What’s Next for the Market",
-      "canonicalUrl": "/topics/top-crypto-trends-to-watch-in-2025-whats-next-for-the-market",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-10-affiliate-marketing-niches-for-2025-where-the-money-is",
-      "type": "topic",
-      "label": "Top 10 Affiliate Marketing Niches for 2025: Where the Money Is",
-      "canonicalUrl": "/topics/top-10-affiliate-marketing-niches-for-2025-where-the-money-is",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
-      "type": "topic",
-      "label": "The Evolution of Layer-2 Solutions: Scaling Blockchain for Mass Adoption",
-      "canonicalUrl": "/topics/the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
-      "type": "topic",
-      "label": "Top 10 Altcoins to Watch in 2025: Investment Strategies for the Next Bull Run",
-      "canonicalUrl": "/topics/top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-financial-benefits-of-minimalism-how-less-can-lead-to-more-wealth",
-      "type": "topic",
-      "label": "The Financial Benefits of Minimalism: How Less Can Lead to More Wealth",
-      "canonicalUrl": "/topics/the-financial-benefits-of-minimalism-how-less-can-lead-to-more-wealth",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-create-an-affiliate-marketing-funnel-that-converts",
-      "type": "topic",
-      "label": "How to Create an Affiliate Marketing Funnel That Converts",
-      "canonicalUrl": "/topics/how-to-create-an-affiliate-marketing-funnel-that-converts",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-in-education-transforming-learning-through-decentralization",
-      "type": "topic",
-      "label": "Web3 in Education: Transforming Learning Through Decentralization",
-      "canonicalUrl": "/topics/web3-in-education-transforming-learning-through-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-rise-of-quantum-computing-how-it-will-disrupt-the-tech-landscape",
-      "type": "topic",
-      "label": "The Rise of Quantum Computing: How It Will Disrupt the Tech Landscape",
-      "canonicalUrl": "/topics/the-rise-of-quantum-computing-how-it-will-disrupt-the-tech-landscape",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-role-of-blockchain-in-identity-management-decentralizing-digital-identity",
-      "type": "topic",
-      "label": "The Role of Blockchain in Identity Management: Decentralizing Digital Identity",
-      "canonicalUrl": "/topics/the-role-of-blockchain-in-identity-management-decentralizing-digital-identity",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-avoid-scams-and-fraud-in-the-crypto-market",
-      "type": "topic",
-      "label": "How to Avoid Scams and Fraud in the Crypto Market",
-      "canonicalUrl": "/topics/how-to-avoid-scams-and-fraud-in-the-crypto-market",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-save-for-retirement-in-a-volatile-economy-tips-for-millennials-and-gen-z",
-      "type": "topic",
-      "label": "How to Save for Retirement in a Volatile Economy: Tips for Millennials and Gen Z",
-      "canonicalUrl": "/topics/how-to-save-for-retirement-in-a-volatile-economy-tips-for-millennials-and-gen-z",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:affiliate-marketing-mistakes-to-avoid-a-beginners-guide-to-success",
-      "type": "topic",
-      "label": "Affiliate Marketing Mistakes to Avoid: A Beginner’s Guide to Success",
-      "canonicalUrl": "/topics/affiliate-marketing-mistakes-to-avoid-a-beginners-guide-to-success",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:decentralized-finance-defi-explained-the-future-of-banking-and-financial-services",
-      "type": "topic",
-      "label": "Decentralized Finance (DeFi) Explained: The Future of Banking and Financial Services",
-      "canonicalUrl": "/topics/decentralized-finance-defi-explained-the-future-of-banking-and-financial-services",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:5g-vs-fiber-optic-which-technology-will-dominate-the-future-of-connectivity",
-      "type": "topic",
-      "label": "5G vs. Fiber Optic: Which Technology Will Dominate the Future of Connectivity?",
-      "canonicalUrl": "/topics/5g-vs-fiber-optic-which-technology-will-dominate-the-future-of-connectivity",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:blockchain-and-environmental-sustainability-a-game-changer-for-green-tech",
-      "type": "topic",
-      "label": "Blockchain and Environmental Sustainability: A Game-Changer for Green Tech",
-      "canonicalUrl": "/topics/blockchain-and-environmental-sustainability-a-game-changer-for-green-tech",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
-      "type": "topic",
-      "label": "Top 5 Cryptocurrencies to Watch in 2025: Trends and Predictions",
-      "canonicalUrl": "/topics/top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-build-passive-income-streams-in-2025-investments-and-online-opportunities",
-      "type": "topic",
-      "label": "How to Build Passive Income Streams in 2025: Investments and Online Opportunities",
-      "canonicalUrl": "/topics/how-to-build-passive-income-streams-in-2025-investments-and-online-opportunities",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:high-ticket-vs-low-ticket-affiliate-products-which-strategy-yields-better-profits",
-      "type": "topic",
-      "label": "High-Ticket vs. Low-Ticket Affiliate Products: Which Strategy Yields Better Profits?",
-      "canonicalUrl": "/topics/high-ticket-vs-low-ticket-affiliate-products-which-strategy-yields-better-profits",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-web3-is-empowering-creators-with-nfts-and-tokenized-ownership",
-      "type": "topic",
-      "label": "How Web3 is Empowering Creators with NFTs and Tokenized Ownership",
-      "canonicalUrl": "/topics/how-web3-is-empowering-creators-with-nfts-and-tokenized-ownership",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:introducing-blockhackathon-com-your-gateway-to-the-next-generation-of-blockchain-innovation",
-      "type": "topic",
-      "label": "Introducing BlockHackathon.com: Your Gateway to the Next Generation of Blockchain Innovation",
-      "canonicalUrl": "/topics/introducing-blockhackathon-com-your-gateway-to-the-next-generation-of-blockchain-innovation",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-future-of-ai-how-artificial-intelligence-will-transform-industries-by-2030",
-      "type": "topic",
-      "label": "The Future of AI: How Artificial Intelligence Will Transform Industries by 2030",
-      "canonicalUrl": "/topics/the-future-of-ai-how-artificial-intelligence-will-transform-industries-by-2030",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-blockchain-is-revolutionizing-supply-chain-management",
-      "type": "topic",
-      "label": "How Blockchain is Revolutionizing Supply Chain Management",
-      "canonicalUrl": "/topics/how-blockchain-is-revolutionizing-supply-chain-management",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-store-your-cryptocurrency-safely-a-beginners-guide",
-      "type": "topic",
-      "label": "How to Store Your Cryptocurrency Safely: A Beginner’s Guide",
-      "canonicalUrl": "/topics/how-to-store-your-cryptocurrency-safely-a-beginners-guide",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:risks-and-rewards-understanding-cryptocurrency-as-an-investment",
-      "type": "topic",
-      "label": "Risks and Rewards: Understanding Cryptocurrency as an Investment",
-      "canonicalUrl": "/topics/risks-and-rewards-understanding-cryptocurrency-as-an-investment",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-choose-the-best-affiliate-programs-tips-for-maximizing-profits",
-      "type": "topic",
-      "label": "How to Choose the Best Affiliate Programs: Tips for Maximizing Profits",
-      "canonicalUrl": "/topics/how-to-choose-the-best-affiliate-programs-tips-for-maximizing-profits",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-convergence-of-web3-and-the-metaverse-what-to-expect-in-2025",
-      "type": "topic",
-      "label": "The Convergence of Web3 and the Metaverse: What to Expect in 2025",
-      "canonicalUrl": "/topics/the-convergence-of-web3-and-the-metaverse-what-to-expect-in-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-rise-of-edge-computing-decentralizing-data-processing",
-      "type": "topic",
-      "label": "The Rise of Edge Computing: Decentralizing Data Processing",
-      "canonicalUrl": "/topics/the-rise-of-edge-computing-decentralizing-data-processing",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:blockchain-interoperability-the-key-to-a-multi-chain-future",
-      "type": "topic",
-      "label": "Blockchain Interoperability: The Key to a Multi-Chain Future",
-      "canonicalUrl": "/topics/blockchain-interoperability-the-key-to-a-multi-chain-future",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:understanding-stablecoins-risks-and-use-cases",
-      "type": "topic",
-      "label": "Understanding Stablecoins: Risks and Use Cases",
-      "canonicalUrl": "/topics/understanding-stablecoins-risks-and-use-cases",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-build-a-balanced-investment-portfolio-stocks-bonds-and-alternative-assets",
-      "type": "topic",
-      "label": "How to Build a Balanced Investment Portfolio: Stocks, Bonds, and Alternative Assets",
-      "canonicalUrl": "/topics/how-to-build-a-balanced-investment-portfolio-stocks-bonds-and-alternative-assets",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-evolution-of-smart-devices-from-smart-homes-to-smart-cities",
-      "type": "topic",
-      "label": "The Evolution of Smart Devices: From Smart Homes to Smart Cities",
-      "canonicalUrl": "/topics/the-evolution-of-smart-devices-from-smart-homes-to-smart-cities",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:privacy-on-the-blockchain-how-zero-knowledge-proofs-are-changing-the-game",
-      "type": "topic",
-      "label": "Privacy on the Blockchain: How Zero-Knowledge Proofs Are Changing the Game",
-      "canonicalUrl": "/topics/privacy-on-the-blockchain-how-zero-knowledge-proofs-are-changing-the-game",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:understanding-blockchain-why-i-wrote-this-book-and-why-it-matters-more-than-ever",
-      "type": "topic",
-      "label": "Understanding Blockchain: Why I Wrote This Book and Why It Matters More Than Ever",
-      "canonicalUrl": "/topics/understanding-blockchain-why-i-wrote-this-book-and-why-it-matters-more-than-ever",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-evolution-of-daos-trends-and-use-cases-in-decentralized-governance",
-      "type": "topic",
-      "label": "The Evolution of DAOs: Trends and Use Cases in Decentralized Governance",
-      "canonicalUrl": "/topics/the-evolution-of-daos-trends-and-use-cases-in-decentralized-governance",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-role-of-technology-in-remote-work-trends-for-the-future-workplace",
-      "type": "topic",
-      "label": "The Role of Technology in Remote Work: Trends for the Future Workplace",
-      "canonicalUrl": "/topics/the-role-of-technology-in-remote-work-trends-for-the-future-workplace",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-i-wrote-a-beginners-guide-to-cryptocurrency-and-who-its-really-for",
-      "type": "topic",
-      "label": "Why I Wrote A Beginner’s Guide to Cryptocurrency — And Who It’s Really For",
-      "canonicalUrl": "/topics/why-i-wrote-a-beginners-guide-to-cryptocurrency-and-who-its-really-for",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:from-side-hustle-to-system-scaling-affiliate-income-responsibly",
-      "type": "topic",
-      "label": "From Side Hustle to System: Scaling Affiliate Income Responsibly",
-      "canonicalUrl": "/topics/from-side-hustle-to-system-scaling-affiliate-income-responsibly",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-long-term-thinking-is-the-ultimate-financial-advantage",
-      "type": "topic",
-      "label": "Why Long-Term Thinking Is the Ultimate Financial Advantage",
-      "canonicalUrl": "/topics/why-long-term-thinking-is-the-ultimate-financial-advantage",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:bear-markets-dont-want-price-predictions-they-want-orientation",
-      "type": "topic",
-      "label": "Bear Markets Don’t Want Price Predictions — They Want Orientation",
-      "canonicalUrl": "/topics/bear-markets-dont-want-price-predictions-they-want-orientation",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:bear-markets-reveal-which-blockchains-are-actually-needed",
-      "type": "topic",
-      "label": "Bear Markets Reveal Which Blockchains Are Actually Needed",
-      "canonicalUrl": "/topics/bear-markets-reveal-which-blockchains-are-actually-needed",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-i-wrote-the-dark-side-of-web3-and-why-smart-people-still-get-scammed",
-      "type": "topic",
-      "label": "Why I Wrote The Dark Side of Web3 — And Why Smart People Still Get Scammed",
-      "canonicalUrl": "/topics/why-i-wrote-the-dark-side-of-web3-and-why-smart-people-still-get-scammed",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-web3-adoption-doesnt-pause-during-bear-markets",
-      "type": "topic",
-      "label": "Why Web3 Adoption Doesn’t Pause During Bear Markets",
-      "canonicalUrl": "/topics/why-web3-adoption-doesnt-pause-during-bear-markets",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-reliability-is-the-most-important-tech-trend-right-now",
-      "type": "topic",
-      "label": "Why Reliability Is the Most Important Tech Trend Right Now",
-      "canonicalUrl": "/topics/why-reliability-is-the-most-important-tech-trend-right-now",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-i-wrote-understanding-seed-phrases-and-why-this-is-the-most-important-crypto-book-youll-ever-read",
-      "type": "topic",
-      "label": "Why I Wrote Understanding Seed Phrases — And Why This Is the Most Important Crypto Book You’ll Ever Read",
-      "canonicalUrl": "/topics/why-i-wrote-understanding-seed-phrases-and-why-this-is-the-most-important-crypto-book-youll-ever-read",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-aggressive-affiliate-marketing-fails-in-bear-markets",
-      "type": "topic",
-      "label": "Why Aggressive Affiliate Marketing Fails in Bear Markets",
-      "canonicalUrl": "/topics/why-aggressive-affiliate-marketing-fails-in-bear-markets",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:understanding-decentralized-finance-why-i-wrote-this-book-and-who-its-really-for",
-      "type": "topic",
-      "label": "Understanding Decentralized Finance: Why I Wrote This Book and Who It’s Really For",
-      "canonicalUrl": "/topics/understanding-decentralized-finance-why-i-wrote-this-book-and-who-its-really-for",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-people-actually-build-wealth-during-market-drawdowns",
-      "type": "topic",
-      "label": "How People Actually Build Wealth During Market Drawdowns",
-      "canonicalUrl": "/topics/how-people-actually-build-wealth-during-market-drawdowns",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-fewer-tokens-fewer-trades-and-more-patience-is-winning-in-2026",
-      "type": "topic",
-      "label": "Why Fewer Tokens, Fewer Trades, and More Patience Is Winning in 2026",
-      "canonicalUrl": "/topics/why-fewer-tokens-fewer-trades-and-more-patience-is-winning-in-2026",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:creating-evergreen-content-for-affiliate-marketing-a-long-term-strategy",
-      "type": "topic",
-      "label": "Creating Evergreen Content for Affiliate Marketing: A Long-Term Strategy",
-      "canonicalUrl": "/topics/creating-evergreen-content-for-affiliate-marketing-a-long-term-strategy",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:understanding-web3-why-i-wrote-this-book-and-why-the-internet-is-changing-again",
-      "type": "topic",
-      "label": "Understanding Web3: Why I Wrote This Book and Why the Internet Is Changing Again",
-      "canonicalUrl": "/topics/understanding-web3-why-i-wrote-this-book-and-why-the-internet-is-changing-again",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:free-crypto-education-why-im-giving-away-a-beginners-guide-to-cryptocurrency-for-a-limited-time",
-      "type": "topic",
-      "label": "Free Crypto Education: Why I’m Giving Away A Beginner’s Guide to Cryptocurrency (For a Limited Time)",
-      "canonicalUrl": "/topics/free-crypto-education-why-im-giving-away-a-beginners-guide-to-cryptocurrency-for-a-limited-time",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-blockchain-infrastructure-is-built-in-bear-markets-not-bulls",
-      "type": "topic",
-      "label": "Why Blockchain Infrastructure Is Built in Bear Markets, Not Bulls",
-      "canonicalUrl": "/topics/why-blockchain-infrastructure-is-built-in-bear-markets-not-bulls",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:what-web3-looks-like-when-speculation-is-removed",
-      "type": "topic",
-      "label": "What Web3 Looks Like When Speculation Is Removed",
-      "canonicalUrl": "/topics/what-web3-looks-like-when-speculation-is-removed",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-technologies-growing-quietly-while-headlines-focus-elsewhere",
-      "type": "topic",
-      "label": "The Technologies Growing Quietly While Headlines Focus Elsewhere",
-      "canonicalUrl": "/topics/the-technologies-growing-quietly-while-headlines-focus-elsewhere",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:mastering-crypto-the-complete-beginner-friendly-series-for-understanding-cryptocurrency-blockchain-defi-and-web3",
-      "type": "topic",
-      "label": "Mastering Crypto: The Complete Beginner-Friendly Series for Understanding Cryptocurrency, Blockchain, DeFi, and Web3",
-      "canonicalUrl": "/topics/mastering-crypto-the-complete-beginner-friendly-series-for-understanding-cryptocurrency-blockchain-defi-and-web3",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:what-affiliate-income-looks-like-without-hype-traffic",
-      "type": "topic",
-      "label": "What Affiliate Income Looks Like Without Hype Traffic",
-      "canonicalUrl": "/topics/what-affiliate-income-looks-like-without-hype-traffic",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-cash-flow-matters-more-than-net-worth-right-now",
-      "type": "topic",
-      "label": "Why Cash Flow Matters More Than Net Worth Right Now",
-      "canonicalUrl": "/topics/why-cash-flow-matters-more-than-net-worth-right-now",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-difference-between-dead-crypto-and-quiet-crypto",
-      "type": "topic",
-      "label": "The Difference Between “Dead” Crypto and Quiet Crypto",
-      "canonicalUrl": "/topics/the-difference-between-dead-crypto-and-quiet-crypto",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:what-enterprise-blockchain-adoption-looks-like-without-hype",
-      "type": "topic",
-      "label": "What Enterprise Blockchain Adoption Looks Like Without Hype",
-      "canonicalUrl": "/topics/what-enterprise-blockchain-adoption-looks-like-without-hype",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:why-the-next-crypto-bull-run-will-be-built-on-infrastructure-not-memes",
-      "type": "topic",
-      "label": "Why the Next Crypto Bull Run Will Be Built on Infrastructure, Not Memes",
-      "canonicalUrl": "/topics/why-the-next-crypto-bull-run-will-be-built-on-infrastructure-not-memes",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:blockchain-as-infrastructure-why-enterprises-are-finally-paying-attention",
-      "type": "topic",
-      "label": "Blockchain as Infrastructure: Why Enterprises Are Finally Paying Attention",
-      "canonicalUrl": "/topics/blockchain-as-infrastructure-why-enterprises-are-finally-paying-attention",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-dark-side-of-web3-is-free-for-the-next-5-days-heres-why-i-wrote-it",
-      "type": "topic",
-      "label": "The Dark Side of Web3 Is Free for the Next 5 Days — Here’s Why I Wrote It",
-      "canonicalUrl": "/topics/the-dark-side-of-web3-is-free-for-the-next-5-days-heres-why-i-wrote-it",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d9",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-post-hype-crypto-market-whos-still-building-and-why-it-matters",
-      "type": "topic",
-      "label": "The Post-Hype Crypto Market: Who’s Still Building and Why It Matters",
-      "canonicalUrl": "/topics/the-post-hype-crypto-market-whos-still-building-and-why-it-matters",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-environmental-impact-of-blockchain-myths-vs-facts",
-      "type": "topic",
-      "label": "The Environmental Impact of Blockchain: Myths vs. Facts",
-      "canonicalUrl": "/topics/the-environmental-impact-of-blockchain-myths-vs-facts",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:tokenizing-digital-art-the-nft-boom-and-the-future-of-web3-creators",
-      "type": "topic",
-      "label": "Tokenizing Digital Art: The NFT Boom and the Future of Web3 Creators",
-      "canonicalUrl": "/topics/tokenizing-digital-art-the-nft-boom-and-the-future-of-web3-creators",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:augmented-reality-ar-in-retail-changing-the-shopping-experience",
-      "type": "topic",
-      "label": "Augmented Reality (AR) in Retail: Changing the Shopping Experience",
-      "canonicalUrl": "/topics/augmented-reality-ar-in-retail-changing-the-shopping-experience",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-blockchain-is-revolutionizing-digital-identity-verification",
-      "type": "topic",
-      "label": "How Blockchain Is Revolutionizing Digital Identity Verification",
-      "canonicalUrl": "/topics/how-blockchain-is-revolutionizing-digital-identity-verification",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:navigating-the-crypto-tax-landscape-how-to-report-and-save-on-taxes",
-      "type": "topic",
-      "label": "Navigating the Crypto Tax Landscape: How to Report and Save on Taxes",
-      "canonicalUrl": "/topics/navigating-the-crypto-tax-landscape-how-to-report-and-save-on-taxes",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-scale-your-affiliate-marketing-business-tools-and-techniques",
-      "type": "topic",
-      "label": "How to Scale Your Affiliate Marketing Business: Tools and Techniques",
-      "canonicalUrl": "/topics/how-to-scale-your-affiliate-marketing-business-tools-and-techniques",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
-      "type": "topic",
-      "label": "Gaming in Web3: How Play-to-Earn Models Are Redefining Entertainment",
-      "canonicalUrl": "/topics/gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-future-of-edge-ai-merging-intelligence-with-decentralization",
-      "type": "topic",
-      "label": "The Future of Edge AI: Merging Intelligence with Decentralization",
-      "canonicalUrl": "/topics/the-future-of-edge-ai-merging-intelligence-with-decentralization",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:smart-cities-powered-by-blockchain-a-vision-for-the-future",
-      "type": "topic",
-      "label": "Smart Cities Powered by Blockchain: A Vision for the Future",
-      "canonicalUrl": "/topics/smart-cities-powered-by-blockchain-a-vision-for-the-future",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-earn-passive-income-with-crypto-in-2025-staking-lending-and-yield-farming",
-      "type": "topic",
-      "label": "How to Earn Passive Income with Crypto in 2025: Staking, Lending, and Yield Farming",
-      "canonicalUrl": "/topics/how-to-earn-passive-income-with-crypto-in-2025-staking-lending-and-yield-farming",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
-      "type": "topic",
-      "label": "Crypto Security Essentials: Protecting Your Digital Assets in 2025",
-      "canonicalUrl": "/topics/crypto-security-essentials-protecting-your-digital-assets-in-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-psychology-of-money-how-to-build-healthy-financial-habits",
-      "type": "topic",
-      "label": "The Psychology of Money: How to Build Healthy Financial Habits",
-      "canonicalUrl": "/topics/the-psychology-of-money-how-to-build-healthy-financial-habits",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:wtf-is-crypto-my-first-book-is-now-available-on-amazon-kindle",
-      "type": "topic",
-      "label": "“WTF IS CRYPTO?”: My First Book Is Now Available on Amazon Kindle!",
-      "canonicalUrl": "/topics/wtf-is-crypto-my-first-book-is-now-available-on-amazon-kindle",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-use-ai-to-scale-your-affiliate-marketing-business",
-      "type": "topic",
-      "label": "How to Use AI to Scale Your Affiliate Marketing Business",
-      "canonicalUrl": "/topics/how-to-use-ai-to-scale-your-affiliate-marketing-business",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-role-of-nfts-in-the-web3-economy-beyond-art-and-collectibles",
-      "type": "topic",
-      "label": "The Role of NFTs in the Web3 Economy: Beyond Art and Collectibles",
-      "canonicalUrl": "/topics/the-role-of-nfts-in-the-web3-economy-beyond-art-and-collectibles",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-emerging-technologies-in-2025-innovations-to-watch",
-      "type": "topic",
-      "label": "Top Emerging Technologies in 2025: Innovations to Watch",
-      "canonicalUrl": "/topics/top-emerging-technologies-in-2025-innovations-to-watch",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:ai-powered-automation-the-future-of-work-in-2025",
-      "type": "topic",
-      "label": "AI-Powered Automation: The Future of Work in 2025",
-      "canonicalUrl": "/topics/ai-powered-automation-the-future-of-work-in-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:a-beginners-guide-to-defi-lending-how-to-earn-passive-income-with-crypto",
-      "type": "topic",
-      "label": "A Beginner’s Guide to DeFi Lending: How to Earn Passive Income with Crypto",
-      "canonicalUrl": "/topics/a-beginners-guide-to-defi-lending-how-to-earn-passive-income-with-crypto",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-tech-trends-that-didnt-make-headlines-but-won",
-      "type": "topic",
-      "label": "The Tech Trends That Didn’t Make Headlines — But Won",
-      "canonicalUrl": "/topics/the-tech-trends-that-didnt-make-headlines-but-won",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-best-affiliate-marketing-tools-for-2025-reviews-and-recommendations",
-      "type": "topic",
-      "label": "The Best Affiliate Marketing Tools for 2025: Reviews and Recommendations",
-      "canonicalUrl": "/topics/the-best-affiliate-marketing-tools-for-2025-reviews-and-recommendations",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-web3-is-empowering-freelancers-and-remote-workers",
-      "type": "topic",
-      "label": "How Web3 Is Empowering Freelancers and Remote Workers",
-      "canonicalUrl": "/topics/how-web3-is-empowering-freelancers-and-remote-workers",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:the-rise-of-edge-computing-what-it-means-for-businesses-in-2025",
-      "type": "topic",
-      "label": "The Rise of Edge Computing: What It Means for Businesses in 2025",
-      "canonicalUrl": "/topics/the-rise-of-edge-computing-what-it-means-for-businesses-in-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-5-blockchain-platforms-for-developers-in-2025-which-one-to-choose",
-      "type": "topic",
-      "label": "Top 5 Blockchain Platforms for Developers in 2025: Which One to Choose?",
-      "canonicalUrl": "/topics/top-5-blockchain-platforms-for-developers-in-2025-which-one-to-choose",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
-      "type": "topic",
-      "label": "How to Identify Undervalued Cryptocurrencies Before the Next Bull Run",
-      "canonicalUrl": "/topics/how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:10-ways-to-save-money-in-2025-without-sacrificing-your-lifestyle",
-      "type": "topic",
-      "label": "10 Ways to Save Money in 2025 Without Sacrificing Your Lifestyle",
-      "canonicalUrl": "/topics/10-ways-to-save-money-in-2025-without-sacrificing-your-lifestyle",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d5",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-to-choose-high-converting-affiliate-products-in-2025",
-      "type": "topic",
-      "label": "How to Choose High-Converting Affiliate Products in 2025",
-      "canonicalUrl": "/topics/how-to-choose-high-converting-affiliate-products-in-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d8",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:announcing-the-launch-of-the-vector-smart-chain-vsc-mainnet-on-december-18th",
-      "type": "topic",
-      "label": "Announcing the Launch of the Vector Smart Chain (VSC) Mainnet on December 18th!",
-      "canonicalUrl": "/topics/announcing-the-launch-of-the-vector-smart-chain-vsc-mainnet-on-december-18th",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:web3-wallets-explained-how-to-choose-the-right-one-for-your-needs",
-      "type": "topic",
-      "label": "Web3 Wallets Explained: How to Choose the Right One for Your Needs",
-      "canonicalUrl": "/topics/web3-wallets-explained-how-to-choose-the-right-one-for-your-needs",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d2",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-ai-is-changing-content-creation-tools-and-tips-for-2025",
-      "type": "topic",
-      "label": "How AI Is Changing Content Creation: Tools and Tips for 2025",
-      "canonicalUrl": "/topics/how-ai-is-changing-content-creation-tools-and-tips-for-2025",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:how-blockchain-is-shaping-the-future-of-real-estate-transactions",
-      "type": "topic",
-      "label": "How Blockchain Is Shaping the Future of Real Estate Transactions",
-      "canonicalUrl": "/topics/how-blockchain-is-shaping-the-future-of-real-estate-transactions",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
-      "difficulty": "intermediate"
-    },
-    {
-      "id": "topic:top-crypto-investment-strategies-for-2025-maximize-your-portfolio",
-      "type": "topic",
-      "label": "Top Crypto Investment Strategies for 2025: Maximize Your Portfolio",
-      "canonicalUrl": "/topics/top-crypto-investment-strategies-for-2025-maximize-your-portfolio",
-      "categoryId": "6a4cfe7ce8ddbcb85df987d1",
       "difficulty": "intermediate"
     },
     {
@@ -14760,7 +12360,7 @@
       "label": "Simple AMM Swap (Solidity)",
       "canonicalUrl": "/developers/code-examples/simple-amm-swap-solidity",
       "categoryId": null,
-      "difficulty": "advanced"
+      "difficulty": "expert"
     },
     {
       "id": "code-example:nft-royalty-erc-2981",
@@ -14977,14 +12577,6 @@
       "canonicalUrl": "/developers/code-examples/vyper-erc-20-token",
       "categoryId": null,
       "difficulty": "beginner"
-    },
-    {
-      "id": "code-example:simple-amm-swap-solidity",
-      "type": "code-example",
-      "label": "Simple AMM Swap (Solidity)",
-      "canonicalUrl": "/developers/code-examples/simple-amm-swap-solidity",
-      "categoryId": null,
-      "difficulty": "expert"
     },
     {
       "id": "code-example:bip39-mnemonic-keypair-python",
@@ -16589,7 +14181,7 @@
     {
       "id": "category:layer-2-scaling",
       "type": "category",
-      "label": "Layer-2 Scaling",
+      "label": "Layer 2 Scaling",
       "canonicalUrl": "/categories/layer-2-scaling",
       "categoryId": null,
       "difficulty": null
@@ -16959,14 +14551,6 @@
       "type": "category",
       "label": "DAOs",
       "canonicalUrl": "/categories/daos",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
-      "id": "category:layer-2-scaling",
-      "type": "category",
-      "label": "Layer 2 Scaling",
-      "canonicalUrl": "/categories/layer-2-scaling",
       "categoryId": null,
       "difficulty": null
     },
@@ -21523,14 +19107,6 @@
       "difficulty": null
     },
     {
-      "id": "news:trade-xyz-to-cover-sk-hynix-perp-liquidation-losses-tied-to-price-anomaly",
-      "type": "news",
-      "label": "Trade.xyz to cover SK Hynix perp liquidation losses tied to price anomaly",
-      "canonicalUrl": "/news/trade-xyz-to-cover-sk-hynix-perp-liquidation-losses-tied-to-price-anomaly",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
       "id": "news:uniswap-founder-rejects-claims-v4-fees-reduce-lp-earnings",
       "type": "news",
       "label": "Uniswap founder rejects claims v4 fees reduce LP earnings",
@@ -21559,14 +19135,6 @@
       "type": "news",
       "label": "Zcash says Ironwood proof rules out undetectable counterfeiting bugs",
       "canonicalUrl": "/news/zcash-says-ironwood-proof-rules-out-undetectable-counterfeiting-bugs",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
-      "id": "news:tether-signs-tokenization-deal-with-nairobi-securities-exchange",
-      "type": "news",
-      "label": "Tether signs tokenization deal with Nairobi Securities Exchange",
-      "canonicalUrl": "/news/tether-signs-tokenization-deal-with-nairobi-securities-exchange",
       "categoryId": null,
       "difficulty": null
     },
@@ -21603,14 +19171,6 @@
       "difficulty": null
     },
     {
-      "id": "news:european-financial-institutions-launch-rl1-cooperative-blockchain-network",
-      "type": "news",
-      "label": "European financial institutions launch RL1 cooperative blockchain network",
-      "canonicalUrl": "/news/european-financial-institutions-launch-rl1-cooperative-blockchain-network",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
       "id": "news:ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network",
       "type": "news",
       "label": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
@@ -21635,26 +19195,10 @@
       "difficulty": null
     },
     {
-      "id": "news:kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations",
-      "type": "news",
-      "label": "Kraken opens Jersey Mike’s IPO to retail investors through tokenized shares and direct allocations",
-      "canonicalUrl": "/news/kraken-opens-jersey-mikes-ipo-to-retail-investors-through-tokenized-shares-and-direct-allocations",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
       "id": "news:anything-remotely-dovish-from-fed-could-be-good-for-bitcoin-says-analyst",
       "type": "news",
       "label": "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
       "canonicalUrl": "/news/anything-remotely-dovish-from-fed-could-be-good-for-bitcoin-says-analyst",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
-      "id": "news:morgan-stanley-expands-crypto-lineup-with-ether-solana-etps",
-      "type": "news",
-      "label": "Morgan Stanley expands crypto lineup with Ether, Solana ETPs",
-      "canonicalUrl": "/news/morgan-stanley-expands-crypto-lineup-with-ether-solana-etps",
       "categoryId": null,
       "difficulty": null
     },
@@ -21695,14 +19239,6 @@
       "type": "news",
       "label": "AmericanFortress proposes quantum-safe crypto wallet protection without fund migration",
       "canonicalUrl": "/news/americanfortress-proposes-quantum-safe-crypto-wallet-protection-without-fund-migration",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
-      "id": "news:visa-outlines-stablecoin-strategy-during-q3-earnings-call",
-      "type": "news",
-      "label": "Visa outlines stablecoin strategy during Q3 earnings call",
-      "canonicalUrl": "/news/visa-outlines-stablecoin-strategy-during-q3-earnings-call",
       "categoryId": null,
       "difficulty": null
     },
@@ -30235,14 +27771,6 @@
       "difficulty": null
     },
     {
-      "id": "news:bitwise-solana-etf-filing-keeps-the-sol-fund-race-moving-beyond-theory",
-      "type": "news",
-      "label": "Bitwise Solana ETF Filing Keeps The SOL Fund Race Moving Beyond Theory",
-      "canonicalUrl": "/news/bitwise-solana-etf-filing-keeps-the-sol-fund-race-moving-beyond-theory",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
       "id": "news:bitcoin-price-shows-resilience-above-60-000-amid-renewed-us-iran-hostilities",
       "type": "news",
       "label": "Bitcoin price shows resilience above $60,000 amid renewed US-Iran hostilities",
@@ -30271,14 +27799,6 @@
       "type": "news",
       "label": "Bitcoin peels back to $62K as Fed-wary futures traders cut risk: Is the BTC rally over?",
       "canonicalUrl": "/news/bitcoin-peels-back-to-62k-as-fed-wary-futures-traders-cut-risk-is-the-btc-rally-over",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
-      "id": "news:makerdaos-spark-distribution-plan-gives-the-endgame-roadmap-a-sharper-shape",
-      "type": "news",
-      "label": "MakerDAO’s SPARK Distribution Plan Gives The Endgame Roadmap A Sharper Shape",
-      "canonicalUrl": "/news/makerdaos-spark-distribution-plan-gives-the-endgame-roadmap-a-sharper-shape",
       "categoryId": null,
       "difficulty": null
     },
@@ -30395,14 +27915,6 @@
       "difficulty": null
     },
     {
-      "id": "news:paxos-usdgl-launch-adds-a-singapore-regulated-twist-to-yield-bearing-stablecoins",
-      "type": "news",
-      "label": "Paxos USDGL Launch Adds A Singapore-Regulated Twist To Yield-Bearing Stablecoins",
-      "canonicalUrl": "/news/paxos-usdgl-launch-adds-a-singapore-regulated-twist-to-yield-bearing-stablecoins",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
       "id": "news:binance-helium-listing-gives-depin-tokens-another-liquidity-boost",
       "type": "news",
       "label": "Binance Helium Listing Gives DePIN Tokens Another Liquidity Boost",
@@ -30491,26 +28003,10 @@
       "difficulty": null
     },
     {
-      "id": "news:aaves-native-gho-deployment-on-arbitrum-pushes-stablecoin-liquidity-deeper-into-layer-2",
-      "type": "news",
-      "label": "Aave’s Native GHO Deployment On Arbitrum Pushes Stablecoin Liquidity Deeper Into Layer 2",
-      "canonicalUrl": "/news/aaves-native-gho-deployment-on-arbitrum-pushes-stablecoin-liquidity-deeper-into-layer-2",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
       "id": "news:circle-brings-native-eurc-to-base-as-mica-gives-euro-stablecoins-a-clearer-lane",
       "type": "news",
       "label": "Circle Brings Native EURC To Base As MiCA Gives Euro Stablecoins A Clearer Lane",
       "canonicalUrl": "/news/circle-brings-native-eurc-to-base-as-mica-gives-euro-stablecoins-a-clearer-lane",
-      "categoryId": null,
-      "difficulty": null
-    },
-    {
-      "id": "news:heres-what-happened-in-crypto-today",
-      "type": "news",
-      "label": "Here’s what happened in crypto today",
-      "canonicalUrl": "/news/heres-what-happened-in-crypto-today",
       "categoryId": null,
       "difficulty": null
     },
@@ -31934,7 +29430,7 @@
     },
     {
       "from": "glossary:vector-smart-gas",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -32038,7 +29534,7 @@
     },
     {
       "from": "glossary:vector-smart-chain",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -32494,7 +29990,7 @@
     },
     {
       "from": "glossary:vsc-validator",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33134,7 +30630,7 @@
     },
     {
       "from": "glossary:vsg-burn-mechanism",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33462,7 +30958,7 @@
     },
     {
       "from": "glossary:vsg-burn-pool",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33518,7 +31014,7 @@
     },
     {
       "from": "glossary:vsc-staking",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33598,7 +31094,7 @@
     },
     {
       "from": "glossary:vsc-delegation",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33630,7 +31126,7 @@
     },
     {
       "from": "glossary:vsc-governance",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33710,7 +31206,7 @@
     },
     {
       "from": "glossary:vsc-mainnet",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33742,7 +31238,7 @@
     },
     {
       "from": "glossary:vsc-rpc",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33822,7 +31318,7 @@
     },
     {
       "from": "glossary:vsc-chain-id",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -33878,7 +31374,7 @@
     },
     {
       "from": "glossary:vsc-faucet",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -34166,7 +31662,7 @@
     },
     {
       "from": "glossary:vsc-bridge",
-      "to": "book:deterministic-execution",
+      "to": "glossary:deterministic-execution",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -41958,7 +39454,7 @@
     },
     {
       "from": "glossary:sidechain",
-      "to": "resource:polygon",
+      "to": "infrastructure:polygon-ankr",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -42390,7 +39886,7 @@
     },
     {
       "from": "glossary:base",
-      "to": "resource:optimism",
+      "to": "infrastructure:optimism-ankr",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -66700,13 +64196,25 @@
     },
     {
       "from": "book:the-ai-money-revolution",
-      "to": "glossary:digital-identity",
+      "to": "category:blockchain",
       "type": "related-glossary",
       "source": "embedded"
     },
     {
       "from": "book:the-ai-money-revolution",
-      "to": "glossary:proof-of-stake",
+      "to": "category:cryptocurrency",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "book:the-ai-money-revolution",
+      "to": "category:digital-identity",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "book:the-ai-money-revolution",
+      "to": "book:proof-of-stake",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -66808,7 +64316,7 @@
     },
     {
       "from": "research:iso-23257-2022-blockchain-and-distributed-ledger-technologies-reference-architecture",
-      "to": "glossary:enterprise-blockchain",
+      "to": "category:enterprise-blockchain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -66958,7 +64466,7 @@
     },
     {
       "from": "research:iso-tr-3242-2022-blockchain-and-distributed-ledger-technologies-use-cases",
-      "to": "glossary:supply-chain",
+      "to": "category:supply-chain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -67138,13 +64646,13 @@
     },
     {
       "from": "research:nistir-8401-blockchain-for-supply-chain-a-survey-of-use-cases-and-technical-elements",
-      "to": "glossary:enterprise-blockchain",
+      "to": "category:enterprise-blockchain",
       "type": "related-glossary",
       "source": "embedded"
     },
     {
       "from": "research:nistir-8401-blockchain-for-supply-chain-a-survey-of-use-cases-and-technical-elements",
-      "to": "glossary:deterministic-execution",
+      "to": "book:deterministic-execution",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -68080,7 +65588,7 @@
     },
     {
       "from": "research:quantum-resilient-privacy-ledger-qrpl-a-sovereign-digital-currency-for-the-post-quantum-era",
-      "to": "glossary:base",
+      "to": "resource:base",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -68200,7 +65708,7 @@
     },
     {
       "from": "research:quantum-private-and-auditable-ledger-qpadl",
-      "to": "glossary:enterprise-blockchain",
+      "to": "category:enterprise-blockchain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -69394,7 +66902,7 @@
     },
     {
       "from": "research:exploring-applications-of-blockchain-in-healthcare-road-map-and-future-directions",
-      "to": "glossary:walletconnect",
+      "to": "resource:walletconnect",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -69472,7 +66980,7 @@
     },
     {
       "from": "research:blockchain-for-healthcare",
-      "to": "glossary:supply-chain",
+      "to": "category:supply-chain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -69652,7 +67160,7 @@
     },
     {
       "from": "research:blockchain-technology-in-healthcare-a-systematic-review",
-      "to": "glossary:walletconnect",
+      "to": "resource:walletconnect",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -69982,7 +67490,7 @@
     },
     {
       "from": "research:circular-supply-chain-management-with-blockchain-technology-a-dynamic-capabilities-view",
-      "to": "glossary:supply-chain",
+      "to": "category:supply-chain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -70096,7 +67604,7 @@
     },
     {
       "from": "research:present-and-future-perspectives-of-blockchain-in-supply-chain-management-a-review-of-reviews-and-research-agenda",
-      "to": "glossary:supply-chain",
+      "to": "category:supply-chain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -70150,7 +67658,7 @@
     },
     {
       "from": "research:blockchain-for-supply-chain-from-promise-to-practice",
-      "to": "glossary:supply-chain",
+      "to": "category:supply-chain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -70270,7 +67778,7 @@
     },
     {
       "from": "research:privacy-preserving-transparent-supply-chain-management-through-hyperledger-fabric",
-      "to": "glossary:enterprise-blockchain",
+      "to": "category:enterprise-blockchain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -70648,7 +68156,7 @@
     },
     {
       "from": "research:the-future-of-depin-2024",
-      "to": "glossary:enterprise-blockchain",
+      "to": "category:enterprise-blockchain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -70660,7 +68168,7 @@
     },
     {
       "from": "research:the-future-of-depin-2024",
-      "to": "glossary:walletconnect",
+      "to": "resource:walletconnect",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -71386,7 +68894,7 @@
     },
     {
       "from": "research:blockchain-and-distributed-ledger-technologies-for-iot-security",
-      "to": "glossary:walletconnect",
+      "to": "resource:walletconnect",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -72370,7 +69878,7 @@
     },
     {
       "from": "research:decentralized-physical-infrastructure-network-depin-challenges-and-opportunities",
-      "to": "glossary:depin",
+      "to": "category:depin",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -72952,7 +70460,7 @@
     },
     {
       "from": "research:ai-based-crypto-tokens-the-illusion-of-decentralized-ai",
-      "to": "glossary:depin",
+      "to": "category:depin",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -74476,7 +71984,7 @@
     },
     {
       "from": "research:state-of-rwa-tokenization-2026-report",
-      "to": "glossary:walletconnect",
+      "to": "resource:walletconnect",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -74752,7 +72260,7 @@
     },
     {
       "from": "research:asset-tokenization-in-financial-markets-the-next-generation-of-financial-infrastructure",
-      "to": "glossary:walletconnect",
+      "to": "resource:walletconnect",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -75004,7 +72512,7 @@
     },
     {
       "from": "research:a-taxonomy-of-real-world-asset-tokenization-for-blockchain-based-financial-infrastructure",
-      "to": "glossary:walletconnect",
+      "to": "resource:walletconnect",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -76492,7 +74000,7 @@
     },
     {
       "from": "research:the-raiden-network-off-chain-state-networks",
-      "to": "glossary:layer-2",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -76582,6 +74090,12 @@
     },
     {
       "from": "research:a2l-anonymous-atomic-locks-for-scalability-and-interoperability-in-payment-channel-networks",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:a2l-anonymous-atomic-locks-for-scalability-and-interoperability-in-payment-channel-networks",
       "to": "glossary:erc-4626",
       "type": "related-glossary",
       "source": "embedded"
@@ -76630,7 +74144,13 @@
     },
     {
       "from": "research:perun-virtual-payment-hubs-over-cryptocurrencies",
-      "to": "glossary:layer-2",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:perun-virtual-payment-hubs-over-cryptocurrencies",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -76714,6 +74234,12 @@
     },
     {
       "from": "research:fuel-the-first-optimistic-rollup-on-ethereum",
+      "to": "category:blockchain",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:fuel-the-first-optimistic-rollup-on-ethereum",
       "to": "topic:solanas-comeback-can-it-outpace-ethereum-in-2025",
       "type": "related-article",
       "source": "embedded"
@@ -76745,6 +74271,12 @@
     {
       "from": "research:sprites-and-state-channels-payment-networks-that-go-faster-than-lightning",
       "to": "glossary:mint",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:sprites-and-state-channels-payment-networks-that-go-faster-than-lightning",
+      "to": "category:consensus",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -76786,7 +74318,7 @@
     },
     {
       "from": "research:polygon-matic-network-scalable-and-instant-blockchain-transactions-of-assets",
-      "to": "glossary:solidity",
+      "to": "resource:solidity",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -76804,7 +74336,7 @@
     },
     {
       "from": "research:polygon-matic-network-scalable-and-instant-blockchain-transactions-of-assets",
-      "to": "glossary:layer-2",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -76841,6 +74373,12 @@
     {
       "from": "research:cairo-a-turing-complete-language-for-efficient-scaling-of-blockchains",
       "to": "glossary:multi-party-computation",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:cairo-a-turing-complete-language-for-efficient-scaling-of-blockchains",
+      "to": "category:cryptography",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -76900,6 +74438,12 @@
     },
     {
       "from": "research:cryptonote-v-2-0",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:cryptonote-v-2-0",
       "to": "topic:from-hype-to-reality-the-rise-of-quantum-resistant-cryptography",
       "type": "related-article",
       "source": "embedded"
@@ -76926,6 +74470,12 @@
       "from": "research:cryptonote-v-2-0",
       "to": "topic:privacy-on-the-blockchain-how-zero-knowledge-proofs-are-changing-the-game",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:prism-deconstructing-the-blockchain-to-approach-physical-limits",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -77050,6 +74600,12 @@
     },
     {
       "from": "research:phantom-and-ghostdag-a-scalable-generalization-of-nakamoto-consensus",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:phantom-and-ghostdag-a-scalable-generalization-of-nakamoto-consensus",
       "to": "topic:from-throughput-to-reliability-the-new-metrics-that-matter",
       "type": "related-article",
       "source": "embedded"
@@ -77076,6 +74632,12 @@
       "from": "research:phantom-and-ghostdag-a-scalable-generalization-of-nakamoto-consensus",
       "to": "topic:layer-3-the-next-frontier-in-blockchain-scalability",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:lazyledger-a-distributed-data-availability-layer-for-scalability-optimized-blockchains",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -77122,7 +74684,13 @@
     },
     {
       "from": "research:near-protocol-sharding-design",
-      "to": "glossary:layer-2",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:near-protocol-sharding-design",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -77160,6 +74728,12 @@
       "from": "research:near-protocol-sharding-design",
       "to": "topic:is-blockchain-really-sustainable-examining-green-solutions-in-2025",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:bullshark-dag-bft-protocols-made-practical",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -77284,6 +74858,12 @@
     },
     {
       "from": "research:secure-high-rate-transaction-processing-in-bitcoin",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:secure-high-rate-transaction-processing-in-bitcoin",
       "to": "topic:from-throughput-to-reliability-the-new-metrics-that-matter",
       "type": "related-article",
       "source": "embedded"
@@ -77320,7 +74900,13 @@
     },
     {
       "from": "research:mina-a-constant-size-blockchain",
-      "to": "glossary:layer-2",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:mina-a-constant-size-blockchain",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -77356,6 +74942,12 @@
     },
     {
       "from": "research:the-stellar-consensus-protocol-a-federated-byzantine-agreement-model",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:the-stellar-consensus-protocol-a-federated-byzantine-agreement-model",
       "to": "topic:how-ai-is-transforming-cryptocurrency-trading-tools-and-strategies",
       "type": "related-article",
       "source": "embedded"
@@ -77382,6 +74974,12 @@
       "from": "research:the-stellar-consensus-protocol-a-federated-byzantine-agreement-model",
       "to": "topic:the-evolution-of-web3-social-media-platforms-privacy-and-ownership-in-2025",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:narwhal-and-tusk-a-dag-based-mempool-and-efficient-bft-consensus",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -77422,7 +75020,19 @@
     },
     {
       "from": "research:the-tangle",
-      "to": "glossary:layer-2",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:the-tangle",
+      "to": "category:layer-2",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:the-tangle",
+      "to": "category:governance",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -77458,7 +75068,7 @@
     },
     {
       "from": "research:fraud-and-data-availability-proofs-maximising-light-client-security-and-scaling-blockchains-with-dishonest-majorities",
-      "to": "glossary:layer-2",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -77471,6 +75081,12 @@
     {
       "from": "research:fraud-and-data-availability-proofs-maximising-light-client-security-and-scaling-blockchains-with-dishonest-majorities",
       "to": "glossary:layer-1",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:fraud-and-data-availability-proofs-maximising-light-client-security-and-scaling-blockchains-with-dishonest-majorities",
+      "to": "category:blockchain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -77596,7 +75212,13 @@
     },
     {
       "from": "research:on-the-size-of-pairing-based-non-interactive-arguments-of-knowledge",
-      "to": "glossary:layer-2",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:on-the-size-of-pairing-based-non-interactive-arguments-of-knowledge",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -77633,6 +75255,12 @@
     {
       "from": "research:algorand-scaling-byzantine-agreements-for-cryptocurrencies",
       "to": "glossary:mint",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:algorand-scaling-byzantine-agreements-for-cryptocurrencies",
+      "to": "category:consensus",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -77736,6 +75364,12 @@
       "from": "research:stableswap-efficient-mechanism-for-static-coin-trading",
       "to": "topic:2025-the-year-crypto-matured-key-milestones-and-market-shifts",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:flash-boys-2-0-frontrunning-transaction-reordering-and-consensus-instability-in-decentralized-exchanges",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -77950,6 +75584,12 @@
     },
     {
       "from": "research:managing-blockchain-transparency",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:managing-blockchain-transparency",
       "to": "glossary:oracle",
       "type": "related-glossary",
       "source": "embedded"
@@ -78142,7 +75782,7 @@
     },
     {
       "from": "research:regulation-blockchain-innovation-summit-2018",
-      "to": "glossary:digital-identity",
+      "to": "category:digital-identity",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78196,6 +75836,12 @@
     },
     {
       "from": "research:public-private-blockchains-finding-a-solution-that-works-for-you",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:public-private-blockchains-finding-a-solution-that-works-for-you",
       "to": "glossary:oracle",
       "type": "related-glossary",
       "source": "embedded"
@@ -78232,7 +75878,7 @@
     },
     {
       "from": "research:reinventing-identity-on-the-blockchain",
-      "to": "glossary:multi-signature-wallet",
+      "to": "code-example:multi-signature-wallet",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78250,7 +75896,7 @@
     },
     {
       "from": "research:reinventing-identity-on-the-blockchain",
-      "to": "glossary:solidity",
+      "to": "resource:solidity",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78293,6 +75939,12 @@
     {
       "from": "research:the-scaling-debate-bitcoin-ethereum",
       "to": "glossary:double-spend",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:the-scaling-debate-bitcoin-ethereum",
+      "to": "category:consensus",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78376,6 +76028,12 @@
     },
     {
       "from": "research:distributed-connectivity-the-blockchain-enabled-future-of-telecommunications",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:distributed-connectivity-the-blockchain-enabled-future-of-telecommunications",
       "to": "topic:the-evolution-of-web3-social-media-platforms-privacy-and-ownership-in-2025",
       "type": "related-article",
       "source": "embedded"
@@ -78436,7 +76094,13 @@
     },
     {
       "from": "research:diversity-in-the-blockchain-ecosystem",
-      "to": "glossary:solidity",
+      "to": "resource:solidity",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:diversity-in-the-blockchain-ecosystem",
+      "to": "category:governance",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78628,6 +76292,12 @@
     },
     {
       "from": "research:climate-change-economic-recovery-in-a-post-covid-19-world",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:climate-change-economic-recovery-in-a-post-covid-19-world",
       "to": "glossary:mint",
       "type": "related-glossary",
       "source": "embedded"
@@ -78640,7 +76310,13 @@
     },
     {
       "from": "research:climate-change-economic-recovery-in-a-post-covid-19-world",
-      "to": "glossary:ledger",
+      "to": "category:governance",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:climate-change-economic-recovery-in-a-post-covid-19-world",
+      "to": "resource:ledger",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78682,7 +76358,13 @@
     },
     {
       "from": "research:blockchain-identity",
-      "to": "glossary:multi-signature-wallet",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:blockchain-identity",
+      "to": "code-example:multi-signature-wallet",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78754,7 +76436,7 @@
     },
     {
       "from": "research:blockchain-pandemics",
-      "to": "glossary:ledger",
+      "to": "resource:ledger",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78898,7 +76580,7 @@
     },
     {
       "from": "research:reclaiming-medication-on-the-blockchain",
-      "to": "glossary:ledger",
+      "to": "resource:ledger",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -78910,7 +76592,7 @@
     },
     {
       "from": "research:reclaiming-medication-on-the-blockchain",
-      "to": "glossary:supply-chain",
+      "to": "category:supply-chain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -79060,7 +76742,7 @@
     },
     {
       "from": "research:2018-regulation-roundtable",
-      "to": "glossary:digital-identity",
+      "to": "category:digital-identity",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -79096,13 +76778,13 @@
     },
     {
       "from": "research:2020-pandemic-roundtable",
-      "to": "glossary:ledger",
+      "to": "resource:ledger",
       "type": "related-glossary",
       "source": "embedded"
     },
     {
       "from": "research:2020-pandemic-roundtable",
-      "to": "glossary:supply-chain",
+      "to": "category:supply-chain",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -79140,6 +76822,12 @@
       "from": "research:2020-pandemic-roundtable",
       "to": "topic:the-biggest-blockchain-breakthroughs-of-2025",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:winding-tree-and-the-future-of-travel",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -79216,6 +76904,12 @@
     },
     {
       "from": "research:going-cashless-the-digital-dollar-in-the-face-of-covid-19",
+      "to": "category:defi",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:going-cashless-the-digital-dollar-in-the-face-of-covid-19",
       "to": "glossary:tokenization",
       "type": "related-glossary",
       "source": "embedded"
@@ -79254,6 +76948,12 @@
       "from": "research:going-cashless-the-digital-dollar-in-the-face-of-covid-19",
       "to": "topic:the-role-of-cbdcs-how-central-bank-digital-currencies-are-changing-finance",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:blockchain-artificial-intelligence-the-battlefield-of-things",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -79354,7 +77054,13 @@
     },
     {
       "from": "research:patient-data-management-and-blockchain-the-uhn-case",
-      "to": "glossary:multi-signature-wallet",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:patient-data-management-and-blockchain-the-uhn-case",
+      "to": "code-example:multi-signature-wallet",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -79396,7 +77102,13 @@
     },
     {
       "from": "research:consolidating-multiple-government-expense-ledgers",
-      "to": "glossary:ledger",
+      "to": "resource:ledger",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:consolidating-multiple-government-expense-ledgers",
+      "to": "category:defi",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -79840,6 +77552,12 @@
     },
     {
       "from": "research:decentralized-identifiers-dids-v1-0",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:decentralized-identifiers-dids-v1-0",
       "to": "topic:the-evolution-of-web3-social-media-platforms-privacy-and-ownership-in-2025",
       "type": "related-article",
       "source": "embedded"
@@ -80068,6 +77786,12 @@
     },
     {
       "from": "research:halo-recursive-proof-composition-without-a-trusted-setup",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:halo-recursive-proof-composition-without-a-trusted-setup",
       "to": "glossary:immutability",
       "type": "related-glossary",
       "source": "embedded"
@@ -80207,6 +77931,12 @@
     {
       "from": "research:hashcash-a-denial-of-service-counter-measure",
       "to": "glossary:double-spend",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:hashcash-a-denial-of-service-counter-measure",
+      "to": "category:consensus",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -80374,6 +78104,12 @@
     },
     {
       "from": "research:pinocchio-nearly-practical-verifiable-computation",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:pinocchio-nearly-practical-verifiable-computation",
       "to": "glossary:immutability",
       "type": "related-glossary",
       "source": "embedded"
@@ -80464,7 +78200,7 @@
     },
     {
       "from": "research:eip-1559-fee-market-change-for-eth-1-0-chain",
-      "to": "glossary:storage",
+      "to": "category:storage",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -80644,6 +78380,12 @@
     },
     {
       "from": "research:bip-152-compact-block-relay",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:bip-152-compact-block-relay",
       "to": "glossary:immutability",
       "type": "related-glossary",
       "source": "embedded"
@@ -80734,6 +78476,12 @@
     },
     {
       "from": "research:bitcoin-ng-a-scalable-blockchain-protocol",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:bitcoin-ng-a-scalable-blockchain-protocol",
       "to": "glossary:mint",
       "type": "related-glossary",
       "source": "embedded"
@@ -80788,7 +78536,7 @@
     },
     {
       "from": "research:nova-recursive-zero-knowledge-arguments-from-folding-schemes",
-      "to": "glossary:layer-2",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -80848,6 +78596,12 @@
     },
     {
       "from": "research:plonk-permutations-over-lagrange-bases-for-oecumenical-noninteractive-arguments-of-knowledge",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:plonk-permutations-over-lagrange-bases-for-oecumenical-noninteractive-arguments-of-knowledge",
       "to": "glossary:immutability",
       "type": "related-glossary",
       "source": "embedded"
@@ -80902,7 +78656,7 @@
     },
     {
       "from": "research:eip-4844-shard-blob-transactions",
-      "to": "glossary:storage",
+      "to": "category:storage",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -80934,6 +78688,12 @@
       "from": "research:eip-4844-shard-blob-transactions",
       "to": "topic:how-to-survive-a-crypto-bear-market-expert-strategies-for-long-term-gains",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:polkadot-vision-for-a-heterogeneous-multi-chain-framework",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -81052,13 +78812,31 @@
     },
     {
       "from": "research:vector-smart-chain-a-machine-first-blockchain-architecture",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:vector-smart-chain-a-machine-first-blockchain-architecture",
+      "to": "category:governance",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:vector-smart-chain-a-machine-first-blockchain-architecture",
       "to": "glossary:genesis-block",
       "type": "related-glossary",
       "source": "embedded"
     },
     {
       "from": "research:vector-smart-chain-a-machine-first-blockchain-architecture",
-      "to": "glossary:web3",
+      "to": "category:blockchain",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:vector-smart-chain-a-machine-first-blockchain-architecture",
+      "to": "category:web3",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -81208,6 +78986,12 @@
     },
     {
       "from": "research:ipfs-content-addressed-versioned-p2p-file-system",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:ipfs-content-addressed-versioned-p2p-file-system",
       "to": "topic:layer-3-the-next-frontier-in-blockchain-scalability",
       "type": "related-article",
       "source": "embedded"
@@ -81234,6 +79018,12 @@
       "from": "research:ipfs-content-addressed-versioned-p2p-file-system",
       "to": "topic:web3-infrastructure-the-hidden-backbone-of-decentralization",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:filecoin-a-decentralized-storage-network-and-market",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -81274,13 +79064,19 @@
     },
     {
       "from": "research:cosmos-a-network-of-distributed-ledgers",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:cosmos-a-network-of-distributed-ledgers",
       "to": "glossary:erc-4626",
       "type": "related-glossary",
       "source": "embedded"
     },
     {
       "from": "research:cosmos-a-network-of-distributed-ledgers",
-      "to": "glossary:layer-2",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -81334,7 +79130,7 @@
     },
     {
       "from": "research:chainlink-2-0-next-steps-in-the-evolution-of-decentralized-oracle-networks",
-      "to": "glossary:layer-2",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -81514,6 +79310,12 @@
     },
     {
       "from": "research:practical-byzantine-fault-tolerance",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:practical-byzantine-fault-tolerance",
       "to": "glossary:oracle",
       "type": "related-glossary",
       "source": "embedded"
@@ -81556,6 +79358,12 @@
     },
     {
       "from": "research:the-latest-gossip-on-bft-consensus-tendermint",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:the-latest-gossip-on-bft-consensus-tendermint",
       "to": "topic:private-vs-public-blockchains-which-will-win-in-enterprise",
       "type": "related-article",
       "source": "embedded"
@@ -81582,6 +79390,12 @@
       "from": "research:the-latest-gossip-on-bft-consensus-tendermint",
       "to": "topic:ethereum-vs-solana-vs-vector-smart-chain-vsc-which-blockchain-is-best-in-2025",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:hotstuff-bft-consensus-with-linearity-and-responsiveness",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -81634,6 +79448,12 @@
     },
     {
       "from": "research:casper-the-friendly-finality-gadget",
+      "to": "category:consensus",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:casper-the-friendly-finality-gadget",
       "to": "glossary:double-spend",
       "type": "related-glossary",
       "source": "embedded"
@@ -81672,6 +79492,12 @@
       "from": "research:casper-the-friendly-finality-gadget",
       "to": "topic:top-10-blockchain-projects-that-defined-2025",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "research:snowflake-to-avalanche-a-novel-metastable-consensus-protocol-family-for-cryptocurrencies",
+      "to": "category:consensus",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -81760,7 +79586,13 @@
     },
     {
       "from": "research:scalable-transparent-and-post-quantum-secure-zero-knowledge-proofs-starks",
-      "to": "glossary:layer-2",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:scalable-transparent-and-post-quantum-secure-zero-knowledge-proofs-starks",
+      "to": "category:layer-2",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -81802,13 +79634,19 @@
     },
     {
       "from": "research:zerocash-decentralized-anonymous-payments-from-bitcoin",
+      "to": "category:cryptography",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:zerocash-decentralized-anonymous-payments-from-bitcoin",
       "to": "glossary:merkle-root",
       "type": "related-glossary",
       "source": "embedded"
     },
     {
       "from": "research:zerocash-decentralized-anonymous-payments-from-bitcoin",
-      "to": "glossary:ledger",
+      "to": "resource:ledger",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -81845,6 +79683,12 @@
     {
       "from": "research:the-knowledge-complexity-of-interactive-proof-systems",
       "to": "glossary:multi-party-computation",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "research:the-knowledge-complexity-of-interactive-proof-systems",
+      "to": "category:cryptography",
       "type": "related-glossary",
       "source": "embedded"
     },
@@ -82054,7 +79898,7 @@
     },
     {
       "from": "research:ethereum-a-secure-decentralised-generalised-transaction-ledger-yellow-paper",
-      "to": "glossary:solidity",
+      "to": "resource:solidity",
       "type": "related-glossary",
       "source": "embedded"
     },
