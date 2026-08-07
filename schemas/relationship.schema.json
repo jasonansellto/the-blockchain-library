@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theblockchainlibrary.com/schemas/relationship.schema.json",
+  "title": "Blockchain Library Relationship",
+  "type": "object",
+  "required": [
+    "from",
+    "to",
+    "type"
+  ],
+  "properties": {
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "related-to",
+        "prerequisite-for",
+        "part-of",
+        "used-by",
+        "secured-by",
+        "implemented-by",
+        "depends-on",
+        "contrasts-with"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

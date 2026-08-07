@@ -1,0 +1,57 @@
+{
+  "version": "0.4.0",
+  "resources": [
+    {
+      "id": "docs-architecture",
+      "type": "developer-guide",
+      "title": "Documentation architecture",
+      "url": "/developers/architecture",
+      "topicIds": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "chatgpt-app",
+      "type": "ai-interface",
+      "title": "ChatGPT App",
+      "url": "/chatgpt-app/overview",
+      "topicIds": [
+        "ai-blockchain"
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "integration",
+      "title": "MCP Server",
+      "url": "/mcp-server/overview",
+      "topicIds": [
+        "ai-blockchain",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "research-overview",
+      "type": "research",
+      "title": "Research overview",
+      "url": "/research/overview",
+      "topicIds": [
+        "blockchain",
+        "infrastructure",
+        "enterprise-blockchain",
+        "ai-blockchain"
+      ]
+    },
+    {
+      "id": "publications",
+      "type": "publication-index",
+      "title": "Publications",
+      "url": "/research/publications",
+      "topicIds": [
+        "blockchain",
+        "infrastructure",
+        "enterprise-blockchain",
+        "ai-blockchain"
+      ]
+    }
+  ]
+}

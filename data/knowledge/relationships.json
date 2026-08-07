@@ -1,0 +1,96 @@
+{
+  "version": "0.4.0",
+  "updated": "2026-08-07",
+  "relationshipTypes": [
+    "related-to",
+    "prerequisite-for",
+    "part-of",
+    "used-by",
+    "secured-by",
+    "implemented-by",
+    "depends-on",
+    "contrasts-with"
+  ],
+  "edges": [
+    {
+      "from": "blockchain",
+      "to": "consensus",
+      "type": "depends-on"
+    },
+    {
+      "from": "blockchain",
+      "to": "transaction",
+      "type": "part-of"
+    },
+    {
+      "from": "blockchain",
+      "to": "node",
+      "type": "implemented-by"
+    },
+    {
+      "from": "cryptocurrency",
+      "to": "wallet",
+      "type": "used-by"
+    },
+    {
+      "from": "wallet",
+      "to": "private-key",
+      "type": "secured-by"
+    },
+    {
+      "from": "wallet",
+      "to": "signature",
+      "type": "used-by"
+    },
+    {
+      "from": "smart-contract",
+      "to": "transaction",
+      "type": "used-by"
+    },
+    {
+      "from": "defi",
+      "to": "smart-contract",
+      "type": "depends-on"
+    },
+    {
+      "from": "defi",
+      "to": "liquidity",
+      "type": "related-to"
+    },
+    {
+      "from": "web3",
+      "to": "wallet",
+      "type": "related-to"
+    },
+    {
+      "from": "web3",
+      "to": "smart-contract",
+      "type": "related-to"
+    },
+    {
+      "from": "rpc",
+      "to": "node",
+      "type": "used-by"
+    },
+    {
+      "from": "validator",
+      "to": "consensus",
+      "type": "part-of"
+    },
+    {
+      "from": "ai-agent",
+      "to": "wallet",
+      "type": "related-to"
+    },
+    {
+      "from": "ai-agent",
+      "to": "smart-contract",
+      "type": "related-to"
+    },
+    {
+      "from": "ai-agent",
+      "to": "transaction",
+      "type": "related-to"
+    }
+  ]
+}

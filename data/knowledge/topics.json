@@ -1,0 +1,339 @@
+{
+  "version": "0.4.0",
+  "updated": "2026-08-07",
+  "topics": [
+    {
+      "id": "blockchain",
+      "title": "Blockchain",
+      "slug": "blockchain",
+      "summary": "Shared, cryptographically verifiable systems for recording and agreeing on state changes across a network.",
+      "level": "foundation",
+      "hub": "/topics/blockchain",
+      "primaryPage": "/learn/foundations/blockchain-basics",
+      "glossaryTerms": [
+        "blockchain",
+        "block",
+        "transaction",
+        "node",
+        "consensus",
+        "finality"
+      ],
+      "relatedTopics": [
+        "cryptocurrency",
+        "wallets-security",
+        "smart-contracts",
+        "infrastructure"
+      ],
+      "developerResources": [
+        "/developers/architecture"
+      ],
+      "researchResources": [
+        "/research/overview"
+      ],
+      "securityResources": [],
+      "tags": [
+        "blockchain",
+        "distributed-ledger",
+        "consensus",
+        "transactions"
+      ]
+    },
+    {
+      "id": "cryptocurrency",
+      "title": "Cryptocurrency",
+      "slug": "cryptocurrency",
+      "summary": "Digital assets whose ownership and transfer are recorded through blockchain or related distributed systems.",
+      "level": "foundation",
+      "hub": "/topics/cryptocurrency",
+      "primaryPage": "/learn/foundations/cryptocurrency",
+      "glossaryTerms": [
+        "cryptocurrency",
+        "token",
+        "native-asset",
+        "stablecoin",
+        "transaction"
+      ],
+      "relatedTopics": [
+        "blockchain",
+        "wallets-security",
+        "defi",
+        "web3"
+      ],
+      "developerResources": [],
+      "researchResources": [
+        "/research/overview"
+      ],
+      "securityResources": [
+        "/learn/security/scams-and-phishing"
+      ],
+      "tags": [
+        "crypto",
+        "digital-assets",
+        "tokens",
+        "payments"
+      ]
+    },
+    {
+      "id": "wallets-security",
+      "title": "Wallets & Security",
+      "slug": "wallets-security",
+      "summary": "Key management, signing, custody, permissions, transaction review, phishing defense, and wallet safety.",
+      "level": "foundation",
+      "hub": "/topics/wallets-security",
+      "primaryPage": "/learn/foundations/wallets",
+      "glossaryTerms": [
+        "wallet",
+        "address",
+        "private-key",
+        "seed-phrase",
+        "signature"
+      ],
+      "relatedTopics": [
+        "blockchain",
+        "cryptocurrency",
+        "smart-contracts",
+        "defi"
+      ],
+      "developerResources": [],
+      "researchResources": [],
+      "securityResources": [
+        "/learn/security/wallet-security",
+        "/learn/security/scams-and-phishing"
+      ],
+      "tags": [
+        "wallets",
+        "security",
+        "private-keys",
+        "seed-phrases",
+        "custody"
+      ]
+    },
+    {
+      "id": "smart-contracts",
+      "title": "Smart Contracts",
+      "slug": "smart-contracts",
+      "summary": "Programs deployed to blockchain-compatible execution environments that manage state, permissions, assets, and application logic.",
+      "level": "intermediate",
+      "hub": "/topics/smart-contracts",
+      "primaryPage": "/learn/foundations/smart-contracts",
+      "glossaryTerms": [
+        "smart-contract",
+        "transaction",
+        "gas",
+        "state"
+      ],
+      "relatedTopics": [
+        "blockchain",
+        "wallets-security",
+        "defi",
+        "web3",
+        "infrastructure"
+      ],
+      "developerResources": [
+        "/developers/overview",
+        "/developers/code-examples"
+      ],
+      "researchResources": [
+        "/research/overview"
+      ],
+      "securityResources": [
+        "/learn/security/wallet-security"
+      ],
+      "tags": [
+        "smart-contracts",
+        "execution",
+        "dapps",
+        "programming"
+      ]
+    },
+    {
+      "id": "defi",
+      "title": "DeFi",
+      "slug": "defi",
+      "summary": "Blockchain-based financial protocols for exchange, lending, liquidity, collateral, stablecoins, and programmable financial services.",
+      "level": "intermediate",
+      "hub": "/topics/defi",
+      "primaryPage": "/learn/foundations/defi",
+      "glossaryTerms": [
+        "defi",
+        "liquidity",
+        "dex",
+        "stablecoin",
+        "collateral"
+      ],
+      "relatedTopics": [
+        "cryptocurrency",
+        "wallets-security",
+        "smart-contracts",
+        "web3"
+      ],
+      "developerResources": [
+        "/developers/overview"
+      ],
+      "researchResources": [
+        "/research/overview"
+      ],
+      "securityResources": [
+        "/learn/security/wallet-security",
+        "/learn/security/scams-and-phishing"
+      ],
+      "tags": [
+        "defi",
+        "dex",
+        "lending",
+        "liquidity",
+        "stablecoins"
+      ]
+    },
+    {
+      "id": "web3",
+      "title": "Web3",
+      "slug": "web3",
+      "summary": "Applications and infrastructure built around cryptographic ownership, open protocols, blockchain systems, and programmable digital assets.",
+      "level": "intermediate",
+      "hub": "/topics/web3",
+      "primaryPage": "/learn/foundations/web3",
+      "glossaryTerms": [
+        "web3",
+        "dapp",
+        "wallet",
+        "smart-contract"
+      ],
+      "relatedTopics": [
+        "blockchain",
+        "cryptocurrency",
+        "wallets-security",
+        "smart-contracts",
+        "defi"
+      ],
+      "developerResources": [
+        "/developers/overview"
+      ],
+      "researchResources": [
+        "/research/overview"
+      ],
+      "securityResources": [
+        "/learn/security/scams-and-phishing"
+      ],
+      "tags": [
+        "web3",
+        "dapps",
+        "ownership",
+        "decentralization"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "title": "Blockchain Infrastructure",
+      "slug": "infrastructure",
+      "summary": "Nodes, RPC services, validators, execution environments, indexing, bridges, interoperability, and operational blockchain systems.",
+      "level": "advanced",
+      "hub": "/topics/infrastructure",
+      "primaryPage": "/topics/infrastructure",
+      "glossaryTerms": [
+        "node",
+        "rpc",
+        "validator",
+        "consensus",
+        "finality"
+      ],
+      "relatedTopics": [
+        "blockchain",
+        "smart-contracts",
+        "enterprise-blockchain",
+        "ai-blockchain"
+      ],
+      "developerResources": [
+        "/developers/architecture",
+        "/developers/integrations"
+      ],
+      "researchResources": [
+        "/research/overview",
+        "/research/publications"
+      ],
+      "securityResources": [],
+      "tags": [
+        "infrastructure",
+        "nodes",
+        "rpc",
+        "validators",
+        "interoperability"
+      ]
+    },
+    {
+      "id": "enterprise-blockchain",
+      "title": "Enterprise Blockchain",
+      "slug": "enterprise-blockchain",
+      "summary": "Business deployment requirements including predictability, governance, integration, privacy, security, compliance, and operational reliability.",
+      "level": "advanced",
+      "hub": "/topics/enterprise-blockchain",
+      "primaryPage": "/topics/enterprise-blockchain",
+      "glossaryTerms": [
+        "governance",
+        "validator",
+        "finality",
+        "interoperability"
+      ],
+      "relatedTopics": [
+        "blockchain",
+        "infrastructure",
+        "smart-contracts",
+        "ai-blockchain"
+      ],
+      "developerResources": [
+        "/developers/architecture",
+        "/developers/integrations"
+      ],
+      "researchResources": [
+        "/research/overview",
+        "/research/publications"
+      ],
+      "securityResources": [],
+      "tags": [
+        "enterprise",
+        "governance",
+        "compliance",
+        "infrastructure",
+        "operations"
+      ]
+    },
+    {
+      "id": "ai-blockchain",
+      "title": "AI + Blockchain",
+      "slug": "ai-blockchain",
+      "summary": "The intersection of AI agents, machine identity, programmable payments, permissions, verifiable records, and autonomous infrastructure.",
+      "level": "advanced",
+      "hub": "/topics/ai-blockchain",
+      "primaryPage": "/topics/ai-blockchain",
+      "glossaryTerms": [
+        "ai-agent",
+        "wallet",
+        "smart-contract",
+        "transaction"
+      ],
+      "relatedTopics": [
+        "blockchain",
+        "smart-contracts",
+        "infrastructure",
+        "enterprise-blockchain"
+      ],
+      "developerResources": [
+        "/developers/overview",
+        "/chatgpt-app/overview",
+        "/mcp-server/overview"
+      ],
+      "researchResources": [
+        "/research/overview",
+        "/research/publications"
+      ],
+      "securityResources": [],
+      "tags": [
+        "ai",
+        "agents",
+        "machine-payments",
+        "autonomous-systems",
+        "blockchain"
+      ]
+    }
+  ]
+}

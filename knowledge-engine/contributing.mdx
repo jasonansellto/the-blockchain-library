@@ -1,0 +1,38 @@
+---
+title: "Contributing to the Knowledge Engine"
+description: "How to add or update structured topics, definitions, relationships, learning paths, and resources safely."
+---
+
+## Contribution workflow
+
+<Steps>
+  <Step title="Edit the smallest relevant data file">
+    Update the canonical object instead of copying the same information into multiple datasets.
+  </Step>
+  <Step title="Use stable IDs">
+    Existing IDs should not be renamed casually because other records can reference them.
+  </Step>
+  <Step title="Add relationships explicitly">
+    Connect a new topic or term through `relationships.json` when a meaningful relationship exists.
+  </Step>
+  <Step title="Validate locally">
+    Run the repository validator before committing.
+  </Step>
+  <Step title="Preview documentation">
+    If the change also touches MDX, preview Mintlify locally.
+  </Step>
+</Steps>
+
+```bash
+npm run validate:knowledge
+mint dev
+```
+
+## Pull request checklist
+
+- No duplicate IDs
+- No broken topic references
+- Definitions are neutral and concise
+- New public concepts have appropriate relationships
+- URLs begin with `/` when they reference internal documentation
+- No credentials, private keys, seed phrases, or private data

@@ -8,10 +8,26 @@ The Blockchain Library is an open-source knowledge platform for blockchain educa
 
 [Website](https://theblockchainlibrary.com) · [Documentation](https://theblockchainlibrary.com) · [GitHub](https://github.com/jasonansellto/the-blockchain-library)
 
+## Knowledge Engine
+
+Version 0.4.0 introduces a structured knowledge layer so topics, definitions, relationships, learning paths, and resources can be reused across documentation, search, AI tools, APIs, quizzes, and future applications.
+
+```text
+data/knowledge/
+├── topics.json
+├── glossary.json
+├── relationships.json
+├── learning-paths.json
+└── resources.json
+```
+
+The human-readable Mintlify documentation remains the canonical reading experience. Structured data provides stable IDs, relationships, and metadata that software can reuse.
+
 ## What this repository contains
 
 - Structured blockchain learning paths
-- Topic hubs connecting concepts, tutorials, glossary entries, and developer resources
+- Connected topic hubs and knowledge graph
+- Machine-readable Knowledge Engine datasets
 - Developer documentation and architecture notes
 - ChatGPT App and MCP Server documentation
 - API planning and reference material
@@ -19,21 +35,15 @@ The Blockchain Library is an open-source knowledge platform for blockchain educa
 - Research and publishing documentation
 - Public roadmap, changelog, security, and contribution guidelines
 
-## Documentation architecture
+## Validate the Knowledge Engine
 
-```text
-GitHub
-  ↓
-MDX knowledge base
-  ↓
-Mintlify
-  ↓
-Searchable public documentation
-  ↓
-Learners • Developers • Researchers • AI systems
+```bash
+npm run validate:knowledge
 ```
 
-## Local preview
+GitHub Actions runs the same validation when structured knowledge files change.
+
+## Local documentation preview
 
 ```bash
 npm i -g mint
@@ -44,8 +54,11 @@ mint dev
 
 - `docs.json` — Mintlify configuration and navigation
 - `index.mdx` — documentation homepage
-- `topics/` — topic hubs
-- `knowledge-graph/` — connected knowledge architecture
+- `data/knowledge/` — reusable structured knowledge objects
+- `schemas/` — JSON schemas for canonical object types
+- `knowledge-engine/` — Knowledge Engine documentation
+- `topics/` — connected topic hubs
+- `knowledge-graph/` — relationship architecture
 - `learn/` — educational learning paths
 - `developers/` — technical documentation
 - `chatgpt-app/` — ChatGPT integration documentation
@@ -57,7 +70,7 @@ mint dev
 
 ## Contributing
 
-Contributions that improve accuracy, clarity, accessibility, examples, documentation, or learning content are welcome. See `CONTRIBUTING.md`.
+Contributions that improve accuracy, clarity, accessibility, examples, documentation, structured data, or learning content are welcome. See `CONTRIBUTING.md` and `/knowledge-engine/contributing`.
 
 ## License
 

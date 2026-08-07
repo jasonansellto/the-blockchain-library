@@ -58,15 +58,15 @@
         ]
       },
       {
-        "header": "Develop",
+        "header": "Build",
         "items": [
+          {
+            "label": "Knowledge Engine",
+            "href": "/knowledge-engine/overview"
+          },
           {
             "label": "Developer overview",
             "href": "/developers/overview"
-          },
-          {
-            "label": "ChatGPT App",
-            "href": "/chatgpt-app/overview"
           },
           {
             "label": "MCP Server",
@@ -152,6 +152,19 @@
         "icon": "share-2",
         "pages": [
           "knowledge-graph/overview"
+        ]
+      },
+      {
+        "group": "Knowledge Engine",
+        "icon": "database",
+        "pages": [
+          "knowledge-engine/overview",
+          "knowledge-engine/topics",
+          "knowledge-engine/glossary-data",
+          "knowledge-engine/relationships",
+          "knowledge-engine/learning-paths",
+          "knowledge-engine/ai-seo",
+          "knowledge-engine/contributing"
         ]
       },
       {

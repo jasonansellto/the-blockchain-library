@@ -1,0 +1,33 @@
+---
+title: "Relationships"
+description: "Semantic relationship model connecting concepts and topics across The Blockchain Library."
+---
+
+## Explicit graph edges
+
+The Knowledge Engine stores relationships separately from page prose so that software can understand how concepts connect.
+
+```json
+{
+  "from": "defi",
+  "to": "smart-contract",
+  "type": "depends-on"
+}
+```
+
+## Supported relationship types
+
+| Type | Meaning |
+| --- | --- |
+| `related-to` | General semantic relationship |
+| `prerequisite-for` | One concept should generally be understood before another |
+| `part-of` | A concept is a component or subset of another |
+| `used-by` | A concept or mechanism is used by another |
+| `secured-by` | A concept depends on another for security |
+| `implemented-by` | A concept is operationally implemented by another |
+| `depends-on` | One concept relies on another |
+| `contrasts-with` | Useful comparison or opposing model |
+
+## Future uses
+
+Relationships can power related-topic cards, contextual navigation, graph visualizations, AI retrieval expansion, quiz generation, and prerequisite-aware learning recommendations.

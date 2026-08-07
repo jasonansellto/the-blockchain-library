@@ -1,25 +1,48 @@
-# The Blockchain Library v0.3.0 patch
+# The Blockchain Library v0.4.0 — Knowledge Engine
 
-This patch moves the Mintlify site toward a connected knowledge-platform architecture.
+This patch introduces the first structured Knowledge Engine.
 
-## Included
-- Fixes the unresolved merge markers in `README.md`.
-- Replaces the homepage with a more polished knowledge-platform landing page.
-- Adds 10 topic hub pages.
-- Adds a Knowledge Graph page.
-- Updates `docs.json` navigation and footer links.
-- Uses the existing official icon at `/images/blockchain-library-icon.png`.
-- Does not overwrite existing learning, developer, ChatGPT, MCP, API, glossary, research, or project pages.
+IMPORTANT: Your manually updated banner at `/images/github-banner.png` is NOT included in this ZIP and will not be overwritten. The updated README references that PNG path.
+
+## Adds
+
+- `data/knowledge/topics.json`
+- `data/knowledge/glossary.json`
+- `data/knowledge/relationships.json`
+- `data/knowledge/learning-paths.json`
+- `data/knowledge/resources.json`
+- JSON schemas for topics, glossary entries, and relationships
+- `scripts/validate-knowledge.mjs`
+- `package.json` validation command
+- GitHub Actions validation workflow
+- Seven Mintlify Knowledge Engine documentation pages
+- Updated Mintlify navigation
+- Updated README using `images/github-banner.png`
 
 ## Install
-Extract this ZIP into the repository root and replace matching files.
+
+Extract the ZIP into the repository root and replace matching text/config files.
+
+Do NOT replace or delete your existing `/images/github-banner.png`.
 
 Then run:
 
 ```bash
+npm run validate:knowledge
 git add .
-git commit -m "Launch connected topic hubs and knowledge graph v0.3.0"
+git commit -m "Launch Blockchain Library Knowledge Engine v0.4.0"
 git push origin main
 ```
 
-Mintlify should redeploy automatically.
+Mintlify should redeploy automatically after the push.
+
+## Expected validation output
+
+```text
+Knowledge validation passed.
+Topics: 9
+Glossary entries: 28
+Relationships: 16
+Learning paths: 2
+Resources: 5
+```

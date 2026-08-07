@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theblockchainlibrary.com/schemas/glossary-entry.schema.json",
+  "title": "Blockchain Library Glossary Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "term",
+    "definition",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "term": {
+      "type": "string"
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 20
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topicIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relatedTerms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sourcePage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "published",
+        "deprecated"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

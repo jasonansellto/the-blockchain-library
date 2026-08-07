@@ -1,0 +1,30 @@
+---
+title: "Learning path data"
+description: "How structured learning paths reuse topic IDs and public documentation routes."
+---
+
+## Reusable ordered paths
+
+Learning paths define a user journey without duplicating the topic content itself.
+
+```json
+{
+  "id": "blockchain-foundations",
+  "title": "Blockchain Foundations",
+  "audience": "Beginner",
+  "steps": [
+    {
+      "order": 1,
+      "topicId": "blockchain",
+      "page": "/learn/foundations/blockchain-basics"
+    }
+  ]
+}
+```
+
+## Benefits
+
+- A topic can appear in multiple learning paths.
+- Pages can change without rewriting conceptual metadata.
+- Future apps can track progress by stable topic and path IDs.
+- AI assistants can recommend a next step from an explicit sequence.

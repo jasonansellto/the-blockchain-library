@@ -1,0 +1,81 @@
+{
+  "version": "0.4.0",
+  "paths": [
+    {
+      "id": "blockchain-foundations",
+      "title": "Blockchain Foundations",
+      "audience": "Beginner",
+      "description": "A structured introduction to blockchain, cryptocurrency, wallets, smart contracts, DeFi, and security.",
+      "steps": [
+        {
+          "order": 1,
+          "topicId": "blockchain",
+          "page": "/learn/foundations/blockchain-basics"
+        },
+        {
+          "order": 2,
+          "topicId": "cryptocurrency",
+          "page": "/learn/foundations/cryptocurrency"
+        },
+        {
+          "order": 3,
+          "topicId": "wallets-security",
+          "page": "/learn/foundations/wallets"
+        },
+        {
+          "order": 4,
+          "topicId": "smart-contracts",
+          "page": "/learn/foundations/smart-contracts"
+        },
+        {
+          "order": 5,
+          "topicId": "defi",
+          "page": "/learn/foundations/defi"
+        },
+        {
+          "order": 6,
+          "topicId": "wallets-security",
+          "page": "/learn/security/wallet-security"
+        }
+      ]
+    },
+    {
+      "id": "developer-infrastructure",
+      "title": "Blockchain Developer & Infrastructure Path",
+      "audience": "Intermediate to Advanced",
+      "description": "A path from blockchain concepts into architecture, integrations, smart contracts, infrastructure, and AI-facing interfaces.",
+      "steps": [
+        {
+          "order": 1,
+          "topicId": "blockchain",
+          "page": "/topics/blockchain"
+        },
+        {
+          "order": 2,
+          "topicId": "smart-contracts",
+          "page": "/topics/smart-contracts"
+        },
+        {
+          "order": 3,
+          "topicId": "infrastructure",
+          "page": "/topics/infrastructure"
+        },
+        {
+          "order": 4,
+          "topicId": "enterprise-blockchain",
+          "page": "/topics/enterprise-blockchain"
+        },
+        {
+          "order": 5,
+          "topicId": "ai-blockchain",
+          "page": "/topics/ai-blockchain"
+        },
+        {
+          "order": 6,
+          "topicId": "ai-blockchain",
+          "page": "/mcp-server/overview"
+        }
+      ]
+    }
+  ]
+}

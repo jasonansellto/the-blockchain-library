@@ -1,0 +1,35 @@
+---
+title: "Topic objects"
+description: "Structure and purpose of canonical topic objects in The Blockchain Library Knowledge Engine."
+---
+
+## Topic object
+
+Each major subject has a stable `id` that should remain consistent even when page titles, descriptions, or URLs evolve.
+
+```json
+{
+  "id": "smart-contracts",
+  "title": "Smart Contracts",
+  "slug": "smart-contracts",
+  "summary": "Programs deployed to blockchain-compatible execution environments...",
+  "level": "intermediate",
+  "hub": "/topics/smart-contracts",
+  "primaryPage": "/learn/foundations/smart-contracts",
+  "relatedTopics": ["blockchain", "wallets-security", "defi"],
+  "tags": ["smart-contracts", "execution", "dapps"]
+}
+```
+
+## Design rules
+
+- IDs use lowercase kebab-case.
+- IDs are stable identifiers, not display labels.
+- A topic should have one canonical hub.
+- Relationships use topic IDs rather than copied titles.
+- Resource arrays contain public documentation paths.
+- Tags support future search, filtering, and classification.
+
+## Current topic set
+
+The initial engine includes Blockchain, Cryptocurrency, Wallets & Security, Smart Contracts, DeFi, Web3, Blockchain Infrastructure, Enterprise Blockchain, and AI + Blockchain.

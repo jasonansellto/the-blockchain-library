@@ -1,0 +1,31 @@
+---
+title: "Glossary data"
+description: "How glossary definitions are represented as reusable structured objects."
+---
+
+## Glossary entry model
+
+Glossary entries are compact reference objects. They should define a term without trying to replace a complete topic page.
+
+```json
+{
+  "id": "private-key",
+  "term": "Private Key",
+  "definition": "Secret cryptographic material used to authorize signatures and blockchain actions.",
+  "aliases": [],
+  "topicIds": [],
+  "relatedTerms": [],
+  "sourcePage": null,
+  "status": "published"
+}
+```
+
+## Status lifecycle
+
+`draft` → `review` → `published` → `deprecated`
+
+This gives future editorial tooling a simple way to distinguish incomplete material from public reference content.
+
+<Warning>
+Definitions should not contain seed phrases, private keys, credentials, or operational secrets in examples.
+</Warning>
