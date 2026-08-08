@@ -11,7 +11,9 @@ const read = name => JSON.parse(fs.readFileSync(path.join(compiledDir, name), "u
 const copyJson = name => fs.copyFileSync(path.join(compiledDir, name), path.join(publicDir, name));
 const checksum = file => crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
 
+const packageDoc = JSON.parse(fs.readFileSync(path.join(cwd, "package.json"), "utf8"));
 const manifest = read("manifest.json");
+
 const files = [
   "manifest.json",
   "catalog.json",
@@ -27,7 +29,8 @@ const files = [
 for (const name of files) copyJson(name);
 
 const release = {
-  releaseVersion: "2.1.0",
+  platformVersion: packageDoc.version,
+  knowledgeReleaseVersion: "2.1.0",
   compilerVersion: manifest.compilerVersion,
   schemaVersion: manifest.schemaVersion,
   buildId: manifest.buildId,
@@ -37,6 +40,7 @@ const release = {
   quality: manifest.quality,
   distribution: {
     website: "https://theblockchainlibrary.com",
+    explorer: "https://theblockchainlibrary.com/explore",
     documentation: "https://docs.theblockchainlibrary.com",
     repository: "https://github.com/jasonansellto/the-blockchain-library"
   },
@@ -51,6 +55,7 @@ const release = {
     authoredContentOwner: "Base44",
     canonicalKnowledgeOwner: "GitHub",
     documentationPresentation: "Mintlify",
+    publicExplorer: "Base44",
     safeWebsiteReturnFields: [
       "canonicalUid",
       "canonicalStatus",
@@ -65,4 +70,7 @@ const release = {
 
 fs.writeFileSync(path.join(publicDir, "knowledge-release.json"), JSON.stringify(release, null, 2) + "\n");
 fs.writeFileSync(path.join(cwd, "knowledge-release.json"), JSON.stringify(release, null, 2) + "\n");
-console.log(`Knowledge release ${release.releaseVersion} generated for build ${release.buildId}.`);
+
+console.log(
+  `Platform ${release.platformVersion}; knowledge release ${release.knowledgeReleaseVersion}; build ${release.buildId}.`
+);

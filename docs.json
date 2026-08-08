@@ -29,7 +29,7 @@
       },
       {
         "label": "Explore",
-        "href": "/knowledge-engine/explorer"
+        "href": "https://theblockchainlibrary.com/explore"
       },
       {
         "label": "GitHub",
@@ -68,6 +68,10 @@
       {
         "header": "Explore",
         "items": [
+          {
+            "label": "Knowledge Explorer",
+            "href": "https://theblockchainlibrary.com/explore"
+          },
           {
             "label": "Knowledge Release",
             "href": "/generated/v2/index"
