@@ -1,5 +1,12 @@
 # Project Status
 
+## Synchronization (October 2026)
+
+- Base44 → GitHub sync is automated: the **Sync from Base44** workflow pulls published platform content daily (or on demand), compiles the canonical release and commits it.
+- Builds are reproducible: unchanged content produces an identical release, so CI freshness checks pass and the sync only commits real changes.
+- The platform export no longer drops or duplicates records (pagination now orders by record ID). Earlier "duplicate export rows" were largely caused by this.
+- Curated v1 knowledge outputs moved to `public/knowledge/curated/` so they can no longer overwrite the canonical release files.
+
 ## Current release line
 
 **v2.3.0 — Coverage Intelligence**

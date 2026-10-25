@@ -38,6 +38,6 @@
     "release:knowledge": "npm run build:v2 && npm run distribute:v2",
     "pull:base44": "node scripts/pull-base44-export.mjs",
     "sync:base44": "npm run pull:base44 && npm run release:knowledge",
-    "check": "npm run validate:knowledge && npm run build:expanded && npm run build:platform && npm run distribute:v2"
+    "check": "npm run build:knowledge && npm run build:expanded && npm run build:platform && npm run distribute:v2"
   }
 }

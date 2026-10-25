@@ -57,19 +57,29 @@ The repository includes:
 - `PROJECT_STATUS.md` — current maturity
 - `CHANGELOG.md` — release history
 
+## How the platform stays in sync
+
+```text
+theblockchainlibrary.com (Base44)        authored content
+        │  daily "Sync from Base44" workflow
+        ▼
+Knowledge Compiler (this repo)           canonical release → public/knowledge/
+        │
+        ├──▶ Mintlify docs               docs.theblockchainlibrary.com
+        └──▶ Website Explorer            reads public/knowledge/ from GitHub
+```
+
+Content published on the website is compiled here automatically every day, and can be triggered on demand from the **Actions** tab. The current release is described in [`knowledge-release.json`](knowledge-release.json).
+
 ## Validate and build
 
-On Windows PowerShell:
-
-```powershell
-npm.cmd run build:platform
-```
-
-On other supported shells:
+Requires Node.js 20+. No dependencies to install.
 
 ```bash
-npm run build:platform
+npm run check
 ```
+
+On Windows PowerShell use `npm.cmd run check`.
 
 ## Contributing
 
@@ -85,4 +95,4 @@ See `SECURITY.md`.
 
 ## License
 
-Code in this repository is licensed under the MIT License unless otherwise noted. Educational and publishing content may have separate rights where explicitly identified.
+[MIT](LICENSE) © 2026 Jason Ansell. This covers the code, the structured knowledge data and the documentation in this repository. Third-party material referenced by the knowledge base (books, papers, external sites) remains under its own terms.

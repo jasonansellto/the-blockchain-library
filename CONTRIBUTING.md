@@ -4,6 +4,25 @@ Thank you for contributing to The Blockchain Library.
 
 The project welcomes improvements to documentation, structured knowledge, developer resources, research metadata, validation, generation, and learning material.
 
+## Where things live
+
+The Blockchain Library has three layers. Edit the source, never the output.
+
+| You want to change | Edit here | Notes |
+| --- | --- | --- |
+| Curated topics, glossary, books, tutorials, quizzes, learning paths | `data/knowledge/` | Pull request to this repo |
+| Validators, compiler, generators, CI | `scripts/`, `.github/` | Pull request to this repo |
+| Hand-written docs | `*.mdx` outside `generated/` | Pull request to this repo |
+| Website articles, glossary pages, news, research and other published site content | theblockchainlibrary.com | Open a **content request** issue; maintainers apply it on the platform |
+| Website code (pages, components, backend functions) | The website repository, once published | See the README |
+
+These paths are **generated** and are overwritten by the daily *Sync from Base44* workflow — pull requests that edit them by hand will be asked to move the change to its source:
+
+- `data/compiled/`
+- `public/knowledge/` (except `public/knowledge/curated/`, which is generated from `data/knowledge/`)
+- `generated/v2/`
+- `knowledge-release.json`
+
 ## Before contributing
 
 Read:
@@ -46,17 +65,17 @@ Improve clarity, neutrality, terminology, accessibility, and technical accuracy.
 
 ## Local validation
 
-On Windows PowerShell:
-
-```powershell
-npm.cmd run build:platform
-```
-
-On other supported shells:
+Requires Node.js 20 or newer. No install step is needed.
 
 ```bash
-npm run build:platform
+npm run check
 ```
+
+On Windows PowerShell use `npm.cmd run check`.
+
+`check` validates and regenerates everything. If it changes any committed file, commit those changes with your pull request — CI fails when generated output is out of date.
+
+Maintainers with the sync token can pull fresh platform content and compile a release locally with `KNOWLEDGE_SYNC_TOKEN=… npm run sync:base44`.
 
 ## Knowledge-object rules
 
@@ -114,4 +133,4 @@ Maintainers may request changes for:
 
 ## Licensing
 
-By contributing, you agree that your contribution may be distributed under the repository's applicable license terms.
+This project is licensed under the [MIT License](LICENSE). By submitting a pull request you agree that your contribution is licensed under the MIT License as well, and that you have the right to license it.
