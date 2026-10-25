@@ -65,6 +65,14 @@ async function call(type, attempt = 1) {
   }
 }
 
+// Base44 returns rows with equal updated_date in arbitrary order (bulk imports
+// share timestamps), which would make every pull look like a change. Sort
+// deterministically so unchanged content compiles to an identical release.
+const cmp = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
+const byId = records => [...records].sort((a, b) => cmp(String(a.id ?? a.slug ?? ""), String(b.id ?? b.slug ?? "")));
+const edgeKey = e => `${e.source?.type}|${e.source?.id}|${e.relationshipType}|${e.target?.id}|${e.target?.label}`;
+const byEdge = records => [...records].sort((a, b) => cmp(edgeKey(a), edgeKey(b)));
+
 const writeJson = (name, value) =>
   fs.writeFileSync(path.join(outDir, name), JSON.stringify(value, null, 2) + "\n");
 
@@ -82,6 +90,7 @@ let newest = null;
 
 for (const ct of CONTENT_TYPES) {
   const data = await call(ct.key);
+  data.records = byId(data.records);
   writeJson(ct.file, data.records);
   manifest.contentTypes[ct.key] = { label: ct.label, file: ct.file, count: data.records.length, lastUpdated: data.lastUpdated };
   manifest.recordCounts[ct.key] = data.records.length;
@@ -91,6 +100,7 @@ for (const ct of CONTENT_TYPES) {
 }
 
 const rel = await call("relationships");
+rel.records = byEdge(rel.records);
 writeJson("relationships.json", rel.records);
 manifest.contentTypes.relationships = { file: "relationships.json", count: rel.records.length };
 manifest.recordCounts.relationships = rel.records.length;
