@@ -1,9 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
+import { nowIso } from "./lib/stable-time.mjs";
 
 const cwd = process.cwd();
 const d = path.join(cwd, "data", "knowledge");
-const out = path.join(cwd, "public", "knowledge");
+const out = path.join(cwd, "public", "knowledge", "curated");
+fs.mkdirSync(out, { recursive: true });
 fs.mkdirSync(out, { recursive: true });
 
 const exists = n => fs.existsSync(path.join(d, n));
@@ -115,6 +117,12 @@ const summary = {
   ]))
 };
 
-fs.writeFileSync(path.join(out, "coverage.json"), JSON.stringify({ summary, topics: rows }, null, 2) + "\n");
+const coveragePath = path.join(out, "coverage.json");
+try {
+  const prev = JSON.parse(fs.readFileSync(coveragePath, "utf8"));
+  const strip = doc => JSON.stringify({ ...doc, summary: { ...doc.summary, generatedAt: null } });
+  summary.generatedAt = strip(prev) === strip({ summary, topics: rows }) ? prev.summary.generatedAt : nowIso();
+} catch { summary.generatedAt = nowIso(); }
+fs.writeFileSync(coveragePath, JSON.stringify({ summary, topics: rows }, null, 2) + "\n");
 console.log("Coverage report generated.");
 console.log(JSON.stringify(summary, null, 2));

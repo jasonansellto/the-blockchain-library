@@ -386,7 +386,7 @@ const compiledManifest = {
     version: manifest.version || null,
     schemaVersion: manifest.schemaVersion || null
   },
-  generatedAt: new Date().toISOString(),
+  generatedAt: manifest.exportDate || new Date().toISOString(),
   sourceCounts: counts,
   totals: {
     rawObjects: quality.rawObjects,

@@ -9,7 +9,7 @@ const c={
  quizzes:read("quizzes.json").quizzes, learningPaths:read("learning-paths.json").paths
 };
 const edges=read("relationships.json").edges;
-const errors=[], uids=new Set(), topicIds=new Set(c.topics.map(x=>x.id));
+const errors=[], uids=new Set(), topicIds=new Set([...c.topics,...read("topics-expanded.json").topics].map(x=>x.id));
 for (const [name,objs] of Object.entries(c)) for (const o of objs) {
  if(!o.id||!o.uid||!o.type) errors.push(`${name}: missing id/uid/type`);
  if(uids.has(o.uid)) errors.push(`duplicate uid ${o.uid}`); else uids.add(o.uid);

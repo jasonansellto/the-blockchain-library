@@ -226,7 +226,7 @@ Generated files should not be edited manually. Update the authored source in Bas
 fs.writeFileSync(path.join(outputRoot, "index.mdx"), indexBody);
 
 fs.writeFileSync(path.join(outputRoot, "mintlify-index.json"), JSON.stringify({
-  generatedAt: new Date().toISOString(),
+  generatedAt: manifest.source?.exportDate || manifest.generatedAt || null,
   buildId: manifest.buildId || null,
   pages: generated
 }, null, 2) + "\n");

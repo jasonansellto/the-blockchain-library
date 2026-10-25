@@ -1,0 +1,64 @@
+name: Sync from Base44
+
+# Pulls the authored content from theblockchainlibrary.com (Base44), compiles a
+# canonical knowledge release, regenerates the docs, and commits the result.
+# Base44 owns authored content; this repository owns the compiled release.
+
+on:
+  schedule:
+    - cron: "17 9 * * *"        # daily, 09:17 UTC
+  workflow_dispatch:
+  repository_dispatch:
+    types: [base44-content-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-from-base44
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check sync token
+        env:
+          KNOWLEDGE_SYNC_TOKEN: ${{ secrets.KNOWLEDGE_SYNC_TOKEN }}
+        run: |
+          if [ -z "$KNOWLEDGE_SYNC_TOKEN" ]; then
+            echo "::error::Add the KNOWLEDGE_SYNC_TOKEN repository secret (Settings → Secrets and variables → Actions). It must match the Base44 app secret of the same name."
+            exit 1
+          fi
+
+      - name: Pull Base44 export
+        env:
+          KNOWLEDGE_SYNC_TOKEN: ${{ secrets.KNOWLEDGE_SYNC_TOKEN }}
+          BASE44_EXPORT_URL: ${{ vars.BASE44_EXPORT_URL }}
+        run: npm run pull:base44
+
+      - name: Compile and distribute knowledge release
+        run: npm run release:knowledge
+
+      - name: Validate everything
+        run: npm run check
+
+      - name: Commit release
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "Knowledge release already current."
+            exit 0
+          fi
+          BUILD_ID=$(node -p "require('./knowledge-release.json').buildId")
+          git config user.name "blockchain-library-sync[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Sync knowledge release from Base44 (build ${BUILD_ID})"
+          git push

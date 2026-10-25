@@ -1,0 +1,832 @@
+{
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "topic:blockchain",
+      "type": "topic",
+      "label": "Blockchain"
+    },
+    {
+      "id": "topic:cryptocurrency",
+      "type": "topic",
+      "label": "Cryptocurrency"
+    },
+    {
+      "id": "topic:wallets-security",
+      "type": "topic",
+      "label": "Wallets & Security"
+    },
+    {
+      "id": "topic:smart-contracts",
+      "type": "topic",
+      "label": "Smart Contracts"
+    },
+    {
+      "id": "topic:defi",
+      "type": "topic",
+      "label": "DeFi"
+    },
+    {
+      "id": "topic:web3",
+      "type": "topic",
+      "label": "Web3"
+    },
+    {
+      "id": "topic:infrastructure",
+      "type": "topic",
+      "label": "Blockchain Infrastructure"
+    },
+    {
+      "id": "topic:enterprise-blockchain",
+      "type": "topic",
+      "label": "Enterprise Blockchain"
+    },
+    {
+      "id": "topic:ai-blockchain",
+      "type": "topic",
+      "label": "AI + Blockchain"
+    },
+    {
+      "id": "glossary:blockchain",
+      "type": "glossary",
+      "label": "Blockchain"
+    },
+    {
+      "id": "glossary:block",
+      "type": "glossary",
+      "label": "Block"
+    },
+    {
+      "id": "glossary:transaction",
+      "type": "glossary",
+      "label": "Transaction"
+    },
+    {
+      "id": "glossary:node",
+      "type": "glossary",
+      "label": "Node"
+    },
+    {
+      "id": "glossary:consensus",
+      "type": "glossary",
+      "label": "Consensus"
+    },
+    {
+      "id": "glossary:finality",
+      "type": "glossary",
+      "label": "Finality"
+    },
+    {
+      "id": "glossary:cryptocurrency",
+      "type": "glossary",
+      "label": "Cryptocurrency"
+    },
+    {
+      "id": "glossary:token",
+      "type": "glossary",
+      "label": "Token"
+    },
+    {
+      "id": "glossary:native-asset",
+      "type": "glossary",
+      "label": "Native Asset"
+    },
+    {
+      "id": "glossary:stablecoin",
+      "type": "glossary",
+      "label": "Stablecoin"
+    },
+    {
+      "id": "glossary:wallet",
+      "type": "glossary",
+      "label": "Wallet"
+    },
+    {
+      "id": "glossary:address",
+      "type": "glossary",
+      "label": "Address"
+    },
+    {
+      "id": "glossary:private-key",
+      "type": "glossary",
+      "label": "Private Key"
+    },
+    {
+      "id": "glossary:seed-phrase",
+      "type": "glossary",
+      "label": "Seed Phrase"
+    },
+    {
+      "id": "glossary:signature",
+      "type": "glossary",
+      "label": "Signature"
+    },
+    {
+      "id": "glossary:smart-contract",
+      "type": "glossary",
+      "label": "Smart Contract"
+    },
+    {
+      "id": "glossary:gas",
+      "type": "glossary",
+      "label": "Gas"
+    },
+    {
+      "id": "glossary:state",
+      "type": "glossary",
+      "label": "State"
+    },
+    {
+      "id": "glossary:defi",
+      "type": "glossary",
+      "label": "DeFi"
+    },
+    {
+      "id": "glossary:dex",
+      "type": "glossary",
+      "label": "Decentralized Exchange"
+    },
+    {
+      "id": "glossary:liquidity",
+      "type": "glossary",
+      "label": "Liquidity"
+    },
+    {
+      "id": "glossary:collateral",
+      "type": "glossary",
+      "label": "Collateral"
+    },
+    {
+      "id": "glossary:web3",
+      "type": "glossary",
+      "label": "Web3"
+    },
+    {
+      "id": "glossary:dapp",
+      "type": "glossary",
+      "label": "Decentralized Application"
+    },
+    {
+      "id": "glossary:rpc",
+      "type": "glossary",
+      "label": "RPC"
+    },
+    {
+      "id": "glossary:validator",
+      "type": "glossary",
+      "label": "Validator"
+    },
+    {
+      "id": "glossary:interoperability",
+      "type": "glossary",
+      "label": "Interoperability"
+    },
+    {
+      "id": "glossary:governance",
+      "type": "glossary",
+      "label": "Governance"
+    },
+    {
+      "id": "glossary:ai-agent",
+      "type": "glossary",
+      "label": "AI Agent"
+    },
+    {
+      "id": "book:understanding-blockchain",
+      "type": "book",
+      "label": "Understanding Blockchain"
+    },
+    {
+      "id": "book:understanding-seed-phrases",
+      "type": "book",
+      "label": "Understanding Seed Phrases"
+    },
+    {
+      "id": "book:beginner-guide-cryptocurrency",
+      "type": "book",
+      "label": "A Beginner’s Guide to Cryptocurrency"
+    },
+    {
+      "id": "book:understanding-defi",
+      "type": "book",
+      "label": "Understanding Decentralized Finance"
+    },
+    {
+      "id": "book:understanding-web3",
+      "type": "book",
+      "label": "Understanding Web3"
+    },
+    {
+      "id": "book:dark-side-web3",
+      "type": "book",
+      "label": "The Dark Side of Web3"
+    },
+    {
+      "id": "book:quiet-rebuild-internet",
+      "type": "book",
+      "label": "The Quiet Rebuild of the Internet"
+    },
+    {
+      "id": "book:deterministic-execution",
+      "type": "book",
+      "label": "Deterministic Execution: The Future of Blockchain Infrastructure"
+    },
+    {
+      "id": "book:ai-money-revolution",
+      "type": "book",
+      "label": "The AI Money Revolution"
+    },
+    {
+      "id": "research:deterministic-execution-fixed-cost-l1",
+      "type": "research",
+      "label": "Deterministic Execution and Fixed-Cost Transaction Models in Layer-1 Blockchain Infrastructure"
+    },
+    {
+      "id": "tutorial:read-a-blockchain-transaction",
+      "type": "tutorial",
+      "label": "Read a Blockchain Transaction"
+    },
+    {
+      "id": "tutorial:review-a-transaction-before-signing",
+      "type": "tutorial",
+      "label": "Review a Transaction Before Signing"
+    },
+    {
+      "id": "tutorial:secure-a-self-custody-wallet",
+      "type": "tutorial",
+      "label": "Secure a Self-Custody Wallet"
+    },
+    {
+      "id": "tutorial:inspect-a-smart-contract",
+      "type": "tutorial",
+      "label": "Inspect a Smart Contract"
+    },
+    {
+      "id": "tutorial:evaluate-a-defi-protocol",
+      "type": "tutorial",
+      "label": "Evaluate a DeFi Protocol"
+    },
+    {
+      "id": "tutorial:compare-layer-2-designs",
+      "type": "tutorial",
+      "label": "Compare Layer-2 Designs"
+    },
+    {
+      "id": "tutorial:connect-an-application-to-rpc",
+      "type": "tutorial",
+      "label": "Connect an Application to RPC"
+    },
+    {
+      "id": "tutorial:trace-a-cross-chain-message",
+      "type": "tutorial",
+      "label": "Trace a Cross-Chain Message"
+    },
+    {
+      "id": "tutorial:model-predictable-transaction-costs",
+      "type": "tutorial",
+      "label": "Model Predictable Transaction Costs"
+    },
+    {
+      "id": "tutorial:design-an-agent-payment-flow",
+      "type": "tutorial",
+      "label": "Design an Agent Payment Flow"
+    },
+    {
+      "id": "code-example:fetch-a-block-with-json-rpc",
+      "type": "code-example",
+      "label": "Fetch a Block with JSON-RPC"
+    },
+    {
+      "id": "code-example:fetch-a-transaction-receipt",
+      "type": "code-example",
+      "label": "Fetch a Transaction Receipt"
+    },
+    {
+      "id": "code-example:validate-an-address-format",
+      "type": "code-example",
+      "label": "Validate an Address Format"
+    },
+    {
+      "id": "code-example:read-a-contract-method",
+      "type": "code-example",
+      "label": "Read a Contract Method"
+    },
+    {
+      "id": "code-example:quote-a-token-amount-safely",
+      "type": "code-example",
+      "label": "Quote a Token Amount Safely"
+    },
+    {
+      "id": "code-example:identify-network-and-chain-id",
+      "type": "code-example",
+      "label": "Identify Network and Chain ID"
+    },
+    {
+      "id": "code-example:rpc-failover-pattern",
+      "type": "code-example",
+      "label": "RPC Failover Pattern"
+    },
+    {
+      "id": "code-example:represent-a-cross-chain-message",
+      "type": "code-example",
+      "label": "Represent a Cross-Chain Message"
+    },
+    {
+      "id": "code-example:estimate-fixed-transaction-budget",
+      "type": "code-example",
+      "label": "Estimate Fixed Transaction Budget"
+    },
+    {
+      "id": "code-example:agent-transaction-policy",
+      "type": "code-example",
+      "label": "Agent Transaction Policy"
+    },
+    {
+      "id": "ai-prompt:explain-blockchain-at-three-levels",
+      "type": "ai-prompt",
+      "label": "Explain Blockchain at Three Levels"
+    },
+    {
+      "id": "ai-prompt:transaction-review-assistant",
+      "type": "ai-prompt",
+      "label": "Transaction Review Assistant"
+    },
+    {
+      "id": "ai-prompt:wallet-security-coach",
+      "type": "ai-prompt",
+      "label": "Wallet Security Coach"
+    },
+    {
+      "id": "ai-prompt:smart-contract-architecture-view",
+      "type": "ai-prompt",
+      "label": "Smart Contract Architecture View"
+    },
+    {
+      "id": "ai-prompt:defi-risk-map",
+      "type": "ai-prompt",
+      "label": "DeFi Risk Map"
+    },
+    {
+      "id": "ai-prompt:layer-2-comparison",
+      "type": "ai-prompt",
+      "label": "Layer-2 Comparison"
+    },
+    {
+      "id": "ai-prompt:rpc-reliability-review",
+      "type": "ai-prompt",
+      "label": "RPC Reliability Review"
+    },
+    {
+      "id": "ai-prompt:cross-chain-assumption-review",
+      "type": "ai-prompt",
+      "label": "Cross-Chain Assumption Review"
+    },
+    {
+      "id": "ai-prompt:execution-model-comparison",
+      "type": "ai-prompt",
+      "label": "Execution Model Comparison"
+    },
+    {
+      "id": "ai-prompt:agent-payment-architecture",
+      "type": "ai-prompt",
+      "label": "Agent Payment Architecture"
+    },
+    {
+      "id": "quiz:blockchain-fundamentals-check",
+      "type": "quiz",
+      "label": "Blockchain Fundamentals Check"
+    },
+    {
+      "id": "quiz:transaction-review-check",
+      "type": "quiz",
+      "label": "Transaction Review Check"
+    },
+    {
+      "id": "quiz:wallet-security-check",
+      "type": "quiz",
+      "label": "Wallet Security Check"
+    },
+    {
+      "id": "quiz:smart-contract-review-check",
+      "type": "quiz",
+      "label": "Smart Contract Review Check"
+    },
+    {
+      "id": "quiz:defi-risk-check",
+      "type": "quiz",
+      "label": "DeFi Risk Check"
+    },
+    {
+      "id": "quiz:layer-2-architecture-check",
+      "type": "quiz",
+      "label": "Layer-2 Architecture Check"
+    },
+    {
+      "id": "quiz:rpc-infrastructure-check",
+      "type": "quiz",
+      "label": "RPC Infrastructure Check"
+    },
+    {
+      "id": "quiz:interoperability-check",
+      "type": "quiz",
+      "label": "Interoperability Check"
+    },
+    {
+      "id": "quiz:deterministic-execution-check",
+      "type": "quiz",
+      "label": "Deterministic Execution Check"
+    },
+    {
+      "id": "quiz:ai-agent-infrastructure-check",
+      "type": "quiz",
+      "label": "AI Agent Infrastructure Check"
+    },
+    {
+      "id": "learning-path:blockchain-foundations",
+      "type": "learning-path",
+      "label": "Blockchain Foundations"
+    },
+    {
+      "id": "learning-path:developer-infrastructure",
+      "type": "learning-path",
+      "label": "Blockchain Developer & Infrastructure"
+    }
+  ],
+  "edges": [
+    {
+      "from": "topic:blockchain",
+      "to": "glossary:consensus",
+      "type": "depends-on"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "glossary:transaction",
+      "type": "part-of"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "glossary:node",
+      "type": "implemented-by"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "glossary:wallet",
+      "type": "used-by"
+    },
+    {
+      "from": "glossary:wallet",
+      "to": "glossary:private-key",
+      "type": "secured-by"
+    },
+    {
+      "from": "glossary:wallet",
+      "to": "glossary:signature",
+      "type": "used-by"
+    },
+    {
+      "from": "glossary:smart-contract",
+      "to": "glossary:transaction",
+      "type": "used-by"
+    },
+    {
+      "from": "topic:defi",
+      "to": "glossary:smart-contract",
+      "type": "depends-on"
+    },
+    {
+      "from": "topic:defi",
+      "to": "glossary:liquidity",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "glossary:wallet",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "glossary:smart-contract",
+      "type": "related-to"
+    },
+    {
+      "from": "glossary:rpc",
+      "to": "glossary:node",
+      "type": "used-by"
+    },
+    {
+      "from": "glossary:validator",
+      "to": "glossary:consensus",
+      "type": "part-of"
+    },
+    {
+      "from": "glossary:ai-agent",
+      "to": "glossary:wallet",
+      "type": "related-to"
+    },
+    {
+      "from": "glossary:ai-agent",
+      "to": "glossary:smart-contract",
+      "type": "related-to"
+    },
+    {
+      "from": "glossary:ai-agent",
+      "to": "glossary:transaction",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "book:understanding-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "book:deterministic-execution",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "research:deterministic-execution-fixed-cost-l1",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "topic:wallets-security",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:blockchain",
+      "to": "topic:infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "book:beginner-guide-cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "book:ai-money-revolution",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "topic:wallets-security",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:cryptocurrency",
+      "to": "topic:web3",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets-security",
+      "to": "book:understanding-seed-phrases",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets-security",
+      "to": "book:dark-side-web3",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets-security",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets-security",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets-security",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:wallets-security",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "book:deterministic-execution",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "research:deterministic-execution-fixed-cost-l1",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:wallets-security",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:web3",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:smart-contracts",
+      "to": "topic:infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "book:understanding-defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:wallets-security",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:defi",
+      "to": "topic:web3",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "book:understanding-web3",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "book:quiet-rebuild-internet",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "book:dark-side-web3",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "topic:cryptocurrency",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "topic:wallets-security",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:web3",
+      "to": "topic:defi",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:infrastructure",
+      "to": "book:deterministic-execution",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:infrastructure",
+      "to": "book:quiet-rebuild-internet",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:infrastructure",
+      "to": "research:deterministic-execution-fixed-cost-l1",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:infrastructure",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:infrastructure",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:infrastructure",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:infrastructure",
+      "to": "topic:ai-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "book:deterministic-execution",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "research:deterministic-execution-fixed-cost-l1",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:enterprise-blockchain",
+      "to": "topic:ai-blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-blockchain",
+      "to": "book:ai-money-revolution",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-blockchain",
+      "to": "book:deterministic-execution",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-blockchain",
+      "to": "research:deterministic-execution-fixed-cost-l1",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-blockchain",
+      "to": "topic:blockchain",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-blockchain",
+      "to": "topic:smart-contracts",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-blockchain",
+      "to": "topic:infrastructure",
+      "type": "related-to"
+    },
+    {
+      "from": "topic:ai-blockchain",
+      "to": "topic:enterprise-blockchain",
+      "type": "related-to"
+    }
+  ]
+}

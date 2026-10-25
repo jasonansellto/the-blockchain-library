@@ -35,7 +35,7 @@ const release = {
   schemaVersion: manifest.schemaVersion,
   buildId: manifest.buildId,
   source: manifest.source,
-  generatedAt: new Date().toISOString(),
+  generatedAt: manifest.source?.exportDate || manifest.generatedAt,
   totals: manifest.totals,
   quality: manifest.quality,
   distribution: {

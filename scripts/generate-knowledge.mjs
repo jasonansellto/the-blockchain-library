@@ -1,9 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
-const cwd=process.cwd(), d=path.join(cwd,"data","knowledge"), out=path.join(cwd,"public","knowledge");
+import { writeStableJson } from "./lib/stable-time.mjs";
+const cwd=process.cwd(), d=path.join(cwd,"data","knowledge"), out=path.join(cwd,"public","knowledge","curated","core");
 fs.mkdirSync(out,{recursive:true});
 const read=n=>JSON.parse(fs.readFileSync(path.join(d,n),"utf8"));
-const write=(n,v)=>fs.writeFileSync(path.join(out,n),JSON.stringify(v,null,2)+"\n");
+const write=(n,v)=>writeStableJson(path.join(out,n),v);
 const c={
  topics:read("topics.json").topics, glossary:read("glossary.json").entries, books:read("books.json").books,
  research:read("research.json").research, tutorials:read("tutorials.json").tutorials,
@@ -20,7 +21,7 @@ for(const t of c.topics){
  for(const rt of t.relatedTopics??[]) edges.push({from:t.uid,to:`topic:${rt}`,type:"related-to"});
 }
 const index={version:"1.0.0",generatedAt:new Date().toISOString(),counts:Object.fromEntries(Object.entries(c).map(([k,v])=>[k,v.length])),
- endpoints:{catalog:"/knowledge/catalog.json",graph:"/knowledge/graph.json",jsonld:"/knowledge/knowledge-graph.jsonld"}};
+ endpoints:{catalog:"/knowledge/curated/core/catalog.json",graph:"/knowledge/curated/core/graph.json",jsonld:"/knowledge/curated/core/knowledge-graph.jsonld"}};
 const graph={version:"1.0.0",nodes,edges};
 const jsonld={"@context":{"@vocab":"https://schema.org/","tbl":"https://theblockchainlibrary.com/ns#"},"@graph":[
  ...c.topics.map(t=>({"@id":`https://theblockchainlibrary.com${t.canonicalUrl}`,"@type":"DefinedTermSet","name":t.title,"description":t.summary,"url":`https://theblockchainlibrary.com${t.canonicalUrl}`})),

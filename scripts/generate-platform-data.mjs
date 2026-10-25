@@ -1,14 +1,15 @@
 import fs from "node:fs";
 import path from "node:path";
+import { writeStableJson } from "./lib/stable-time.mjs";
 
 const cwd = process.cwd();
 const dataDir = path.join(cwd, "data", "knowledge");
-const outDir = path.join(cwd, "public", "knowledge");
+const outDir = path.join(cwd, "public", "knowledge", "curated");
 fs.mkdirSync(outDir, { recursive: true });
 
 const exists = name => fs.existsSync(path.join(dataDir, name));
 const read = name => JSON.parse(fs.readFileSync(path.join(dataDir, name), "utf8"));
-const write = (name, value) => fs.writeFileSync(path.join(outDir, name), JSON.stringify(value, null, 2) + "\n");
+const write = (name, value) => writeStableJson(path.join(outDir, name), value);
 
 const expandedTopics = read("topics-expanded.json").topics;
 const expandedGlossary = read("glossary-expanded.json").entries;

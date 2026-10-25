@@ -3,6 +3,18 @@
   "private": true,
   "version": "2.3.0",
   "description": "Open-source blockchain knowledge platform and structured Knowledge Engine.",
+  "license": "MIT",
+  "homepage": "https://theblockchainlibrary.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonansellto/the-blockchain-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonansellto/the-blockchain-library/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "validate:knowledge": "node scripts/validate-knowledge.mjs",
     "generate:knowledge": "node scripts/generate-knowledge.mjs",
@@ -23,6 +35,9 @@
     "validate:distribution": "node scripts/validate-distribution.mjs",
     "validate:docs": "node scripts/validate-docs-integrity.mjs",
     "distribute:v2": "npm run generate:mintlify && npm run generate:release && npm run validate:distribution && npm run validate:docs",
-    "release:knowledge": "npm run build:v2 && npm run distribute:v2"
+    "release:knowledge": "npm run build:v2 && npm run distribute:v2",
+    "pull:base44": "node scripts/pull-base44-export.mjs",
+    "sync:base44": "npm run pull:base44 && npm run release:knowledge",
+    "check": "npm run validate:knowledge && npm run build:expanded && npm run build:platform && npm run distribute:v2"
   }
 }
