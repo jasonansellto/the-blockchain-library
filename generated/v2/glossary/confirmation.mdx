@@ -1,0 +1,57 @@
+---
+title: "Confirmation"
+description: "A confirmation refers to the process by which a transaction is included in a block on the blockchain and subsequently followed by additional blocks. Once a transaction is included in a block, it has one confirmation. As more blocks are added to the chain on top of that block, the"
+---
+
+# Confirmation
+
+A confirmation refers to the process by which a transaction is included in a block on the blockchain and subsequently followed by additional blocks. Once a transaction is included in a block, it has one confirmation. As more blocks are added to the chain on top of that block, the number of confirmations increases. Each new confirmation exponentially decreases the probability that the transaction can be reversed or double-spent, as attackers would need to rewrite the entire chain of confirmations to alter that transaction.
+
+## Definition
+
+A confirmation refers to the process by which a transaction is included in a block on the blockchain and subsequently followed by additional blocks. Once a transaction is included in a block, it has one confirmation. As more blocks are added to the chain on top of that block, the number of confirmations increases. Each new confirmation exponentially decreases the probability that the transaction can be reversed or double-spent, as attackers would need to rewrite the entire chain of confirmations to alter that transaction.
+
+## Simple explanation
+
+A confirmation is like waiting for a bank deposit to 'clear'. The first confirmation means your transaction is inside the system, and each extra block added afterward is like an extra layer of security, making it impossible to take back the transaction.
+
+## Why it matters
+
+Confirmations provide the necessary certainty for accepting payments. Businesses and exchanges require a specific number of confirmations before considering a deposit final, balancing the need for speed against the risk of chain reorganization.
+
+## How it works
+
+A transaction is broadcasted, picked up by a validator, and added to a block. Once that block is cryptographically verified by the network, it gains one confirmation. Every subsequent block mined behind it adds another level of cryptographic depth to the transaction.
+
+## Real-world example
+
+Most centralized exchanges require 2 to 6 confirmations on the Bitcoin network before allowing a user to trade their deposited funds.
+
+## Advantages
+
+- Provides mathematical proof of transaction validity
+- Reduces the risk of double-spend attacks
+- Allows for customized security vs speed levels
+
+## Limitations
+
+- Higher confirmation counts lead to slower settlement
+- Network congestion can delay confirmation times
+- User experience is impacted by waiting periods
+
+## Common misconceptions
+
+- Many believe a transaction is only valid after it is confirmed, but it is valid as soon as it is broadcasted.
+- Some think you need thousands of confirmations, but usually, a small number is statistically sufficient.
+## Related knowledge
+
+- [Block Height](/generated/v2/glossary/block-height) — term
+- [Double Spend](/generated/v2/glossary/double-spend) — term
+- [Finality](/generated/v2/glossary/finality) — term
+- [Mining](/generated/v2/glossary/mining) — term
+- [Node](/generated/v2/glossary/node) — term
+- [Transaction](/generated/v2/glossary/transaction) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:confirmation`

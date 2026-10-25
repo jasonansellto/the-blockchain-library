@@ -1,0 +1,55 @@
+---
+title: "Public Key"
+description: "A public key is a cryptographic key that is derived from a private key and shared openly with the world. It serves as the counterpart to the private key, allowing others to verify the authenticity of a digital signature without being able to recreate the private key itself. In bl"
+---
+
+# Public Key
+
+A public key is a cryptographic key that is derived from a private key and shared openly with the world. It serves as the counterpart to the private key, allowing others to verify the authenticity of a digital signature without being able to recreate the private key itself. In blockchain, the public key is used to receive transactions and serves as the basis for generating public-facing addresses where assets are stored.
+
+## Definition
+
+A public key is a cryptographic key that is derived from a private key and shared openly with the world. It serves as the counterpart to the private key, allowing others to verify the authenticity of a digital signature without being able to recreate the private key itself. In blockchain, the public key is used to receive transactions and serves as the basis for generating public-facing addresses where assets are stored.
+
+## Simple explanation
+
+Think of your public key as your email address or home mailbox. You give it to anyone so they can send you money or messages, but they can't open your mailbox or empty it. Only your private key, which you keep hidden, can 'open' the contents sent to your public key address.
+
+## Why it matters
+
+The public key allows the network to verify ownership and process transactions without compromising user security. It bridges the gap between private control and public transparency on the blockchain.
+
+## How it works
+
+Using elliptic curve cryptography, the public key is calculated from the private key. Because the math is one-way, anyone who sees the public key cannot calculate the private key. When you sign a transaction, others use the public key to check the signature to confirm the transaction came from the owner of the address.
+
+## Real-world example
+
+When you share your Bitcoin address, you are effectively sharing a representation of your public key so that others can send funds to your control.
+
+## Advantages
+
+- Allows safe sharing of addresses
+- Publicly verifiable by anyone
+- Mathematical link to private key
+
+## Limitations
+
+- Cannot be used for asset control
+- Linked to user's identity
+- Publicly visible on the blockchain
+
+## Common misconceptions
+
+- People often think the public key is the same as the wallet address, but the address is a shortened, formatted version of the public key.
+- Users assume sharing a public key allows someone to view all their transactions, which is true, but they cannot spend the funds.
+## Related knowledge
+
+- [Address](/generated/v2/glossary/address) — term
+- [Cryptography](/categories/cryptography) — term
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:public-key`

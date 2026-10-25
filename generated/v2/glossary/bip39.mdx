@@ -1,0 +1,54 @@
+---
+title: "BIP39"
+description: "Bitcoin Improvement Proposal 39 (BIP39) defines a method for generating a mnemonic sentence—a sequence of easy-to-remember words—to derive deterministic wallets. It uses a predefined list of 2048 words to represent the entropy of a master seed. By converting a random binary seed "
+---
+
+# BIP39
+
+Bitcoin Improvement Proposal 39 (BIP39) defines a method for generating a mnemonic sentence—a sequence of easy-to-remember words—to derive deterministic wallets. It uses a predefined list of 2048 words to represent the entropy of a master seed. By converting a random binary seed into a human-readable format, BIP39 makes it feasible for users to backup their cryptographic wallets by simply writing down a sequence of 12 to 24 words, significantly improving the usability of cold storage solutions.
+
+## Definition
+
+Bitcoin Improvement Proposal 39 (BIP39) defines a method for generating a mnemonic sentence—a sequence of easy-to-remember words—to derive deterministic wallets. It uses a predefined list of 2048 words to represent the entropy of a master seed. By converting a random binary seed into a human-readable format, BIP39 makes it feasible for users to backup their cryptographic wallets by simply writing down a sequence of 12 to 24 words, significantly improving the usability of cold storage solutions.
+
+## Simple explanation
+
+Instead of remembering a massive string of random numbers and letters to back up your crypto, BIP39 turns those numbers into a simple list of easy-to-remember words like 'apple' or 'mountain'. It acts like a master password that can recreate your entire wallet.
+
+## Why it matters
+
+BIP39 is the standard for wallet backups in the blockchain industry. It ensures that if a user loses their physical device, they can recover their funds on any other compatible hardware or software wallet using only their seed phrase.
+
+## How it works
+
+The process starts with a source of entropy (randomness) which is hashed to create a seed. This seed is divided into segments, each mapped to a specific index in the BIP39 word list. The resulting list of words is then converted back into the binary seed required to generate all the keys in the wallet.
+
+## Real-world example
+
+Most modern wallets like Trust Wallet, MetaMask, and Trezor utilize BIP39 mnemonic phrases for user account backups.
+
+## Advantages
+
+- Human-readable and easy to write down
+- Compatible across many different wallet providers
+- Standardized method for wallet recovery
+
+## Limitations
+
+- Phrase must be stored securely to prevent theft
+- Single point of failure for all funds
+- Prone to phishing and social engineering
+
+## Common misconceptions
+
+- Users often mistakenly believe that the word list is secret, but the list is actually public and known to everyone.
+- Some think the seed phrase is a password, but it is actually the source code for generating every private key in your wallet.
+## Related knowledge
+
+- [BIP44](/generated/v2/glossary/bip44) — term
+- [Cold Storage](/generated/v2/glossary/cold-storage) — term
+- [Seed Phrase](/generated/v2/glossary/seed-phrase) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:bip39`

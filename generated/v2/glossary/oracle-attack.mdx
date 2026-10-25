@@ -1,0 +1,55 @@
+---
+title: "Oracle Attack"
+description: "An oracle attack is a malicious exploit where an attacker manipulates the data feed providing price information to a smart contract. DeFi protocols often rely on off-chain price data from oracles; if an attacker can distort this data, they can trick a protocol into executing trad"
+---
+
+# Oracle Attack
+
+An oracle attack is a malicious exploit where an attacker manipulates the data feed providing price information to a smart contract. DeFi protocols often rely on off-chain price data from oracles; if an attacker can distort this data, they can trick a protocol into executing trades or liquidations at incorrect prices. This allows the attacker to siphon funds, drain liquidity pools, or steal collateral by exploiting the protocol's reliance on flawed or stale information.
+
+## Definition
+
+An oracle attack is a malicious exploit where an attacker manipulates the data feed providing price information to a smart contract. DeFi protocols often rely on off-chain price data from oracles; if an attacker can distort this data, they can trick a protocol into executing trades or liquidations at incorrect prices. This allows the attacker to siphon funds, drain liquidity pools, or steal collateral by exploiting the protocol's reliance on flawed or stale information.
+
+## Simple explanation
+
+Imagine a store that relies on a single sign outside to tell them the price of gold. An attacker paints a fake price on that sign. The store, trusting the sign, buys or sells based on the wrong price, and the attacker steals the profit from that mistake.
+
+## Why it matters
+
+Oracles are the bridges between the real world and the blockchain; when these bridges fail, it can lead to catastrophic losses. Understanding these attacks is critical for building secure and resilient decentralized applications.
+
+## How it works
+
+Attackers may use flash loans to manipulate the price of an asset on a decentralized exchange that a specific protocol uses as a price source. If the protocol's oracle is not decentralized or robust, it records this manipulated price. The attacker then triggers actions based on this false data for financial gain.
+
+## Real-world example
+
+The Mango Markets exploit involved a sophisticated oracle manipulation of the MNGO token price to drain the protocol's treasury.
+
+## Advantages
+
+- Exposes weaknesses in protocol security
+- Encourages development of decentralized oracles
+- Highlights the necessity of multi-source feeds
+
+## Limitations
+
+- Extremely high financial risk
+- Difficult to patch once deployed
+- Reputational damage to the protocol
+
+## Common misconceptions
+
+- People believe oracles are always accurate sources of truth. They are only as secure as the data feed aggregation method.
+- Many think all protocols are immune to price manipulation. Only those with robust, multi-oracle systems are truly hardened.
+## Related knowledge
+
+- [Chainlink](/generated/v2/resources/chainlink) — term
+- [Flash Loan](/generated/v2/glossary/flash-loan) — term
+- [Oracle](/generated/v2/glossary/oracle) — term
+- [Smart Contract](/generated/v2/glossary/smart-contract) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:oracle-attack`

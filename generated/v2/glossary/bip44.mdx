@@ -1,0 +1,53 @@
+---
+title: "BIP44"
+description: "BIP44 (Bitcoin Improvement Proposal 44) specifies a hierarchical deterministic (HD) wallet structure for multi-account and multi-currency support. Building upon BIP32 and BIP39, it defines a rigid tree structure for key derivation paths: purpose, coin type, account, change, and a"
+---
+
+# BIP44
+
+BIP44 (Bitcoin Improvement Proposal 44) specifies a hierarchical deterministic (HD) wallet structure for multi-account and multi-currency support. Building upon BIP32 and BIP39, it defines a rigid tree structure for key derivation paths: purpose, coin type, account, change, and address index. This standardization allows wallets to interact seamlessly, ensuring that a single seed phrase can derive keys for multiple different cryptocurrencies and accounts across various software implementations while maintaining interoperability.
+
+## Definition
+
+BIP44 (Bitcoin Improvement Proposal 44) specifies a hierarchical deterministic (HD) wallet structure for multi-account and multi-currency support. Building upon BIP32 and BIP39, it defines a rigid tree structure for key derivation paths: purpose, coin type, account, change, and address index. This standardization allows wallets to interact seamlessly, ensuring that a single seed phrase can derive keys for multiple different cryptocurrencies and accounts across various software implementations while maintaining interoperability.
+
+## Simple explanation
+
+BIP44 is like a digital filing cabinet. It gives every coin and account in your wallet a specific 'address' or 'drawer' so your software knows exactly where to look for your balances, no matter which wallet app you use.
+
+## Why it matters
+
+BIP44 provides the structural consistency needed for multi-asset wallets. Without it, moving a wallet from one app to another might result in failing to see your coins, as the software wouldn't know the correct derivation path.
+
+## How it works
+
+It defines a path format: m / purpose' / coin_type' / account' / change / address_index. The 'purpose' field is set to 44' to denote the standard. The software traverses this tree to generate the specific public and private keys needed for every account and currency supported by the wallet.
+
+## Real-world example
+
+When you import a seed phrase from a Trezor device into an Exodus wallet, BIP44 ensures all your accounts appear correctly.
+
+## Advantages
+
+- Standardized multi-currency support
+- Enables deterministic wallet backups
+- Ensures cross-wallet interoperability
+
+## Limitations
+
+- Rigid structure limits custom derivation paths
+- Requires software support to recognize paths
+- Increased complexity for non-standard chains
+
+## Common misconceptions
+
+- Many assume that all wallets support the exact same derivation paths, but some legacy wallets use different standards.
+- People often think they need to re-scan for coins every time, but BIP44 usually enables automatic path discovery.
+## Related knowledge
+
+- [BIP39](/generated/v2/glossary/bip39) — term
+- [Derivation Path](/generated/v2/glossary/derivation-path) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:bip44`

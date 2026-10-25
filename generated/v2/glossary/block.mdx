@@ -1,0 +1,57 @@
+---
+title: "Block"
+description: "A block is a foundational data structure in a blockchain that acts as a container for a batch of verified transactions. Each block contains a specific header with metadata—including the timestamp, a reference to the previous block's hash (the 'parent'), and a nonce used for minin"
+---
+
+# Block
+
+A block is a foundational data structure in a blockchain that acts as a container for a batch of verified transactions. Each block contains a specific header with metadata—including the timestamp, a reference to the previous block's hash (the 'parent'), and a nonce used for mining or validation. Once a block reaches consensus among the network participants, it is cryptographically 'chained' to the previous one, creating an immutable history of activity that is nearly impossible to alter without redoing the work required to produce the entire chain.
+
+## Definition
+
+A block is a foundational data structure in a blockchain that acts as a container for a batch of verified transactions. Each block contains a specific header with metadata—including the timestamp, a reference to the previous block's hash (the 'parent'), and a nonce used for mining or validation. Once a block reaches consensus among the network participants, it is cryptographically 'chained' to the previous one, creating an immutable history of activity that is nearly impossible to alter without redoing the work required to produce the entire chain.
+
+## Simple explanation
+
+Imagine a page in a record book. Once the page is full of transactions and everyone in the group agrees it's correct, you lock it into a binder. Each page has a stamp linking it to the one before it, so you can never tear out a page without breaking the whole chain.
+
+## Why it matters
+
+Blocks are the mechanism that gives a blockchain its security and chronological consistency. By grouping transactions, they allow the network to agree on the state of the system at discrete intervals, making the history transparent and permanent.
+
+## How it works
+
+Transactions are collected in a mempool before being included in a block. A validator or miner selects these transactions, runs the necessary code to verify them, and hashes the block. Once the block is added to the chain, it becomes 'finalized,' meaning it is permanently recorded and visible to all participants.
+
+## Real-world example
+
+A new block on the Bitcoin network is generated roughly every 10 minutes.
+
+## Advantages
+
+- Creates an immutable audit trail
+- Ensures network-wide agreement on data
+- Provides consistent security over time
+
+## Limitations
+
+- Limits total throughput based on block size
+- Propagation time creates latency in settlement
+- High energy consumption for some consensus types
+
+## Common misconceptions
+
+- Many think blocks are only for financial transactions, not realizing they can store any arbitrary data.
+- There is a common misunderstanding that a block can be modified later if everyone agrees, which contradicts the core principle of blockchain immutability.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Consensus Mechanism](/generated/v2/glossary/consensus-mechanism) — term
+- [Finality](/generated/v2/glossary/finality) — term
+- [Hash](/generated/v2/glossary/hash) — term
+- [Mempool](/generated/v2/glossary/mempool) — term
+- [Validator](/generated/v2/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:block`

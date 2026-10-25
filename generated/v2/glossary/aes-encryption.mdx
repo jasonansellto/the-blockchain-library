@@ -1,0 +1,52 @@
+---
+title: "AES Encryption"
+description: "Advanced Encryption Standard (AES) is a symmetric-key block cipher algorithm established by the U.S. National Institute of Standards and Technology (NIST) in 2001. It operates on fixed-size blocks of data, typically 128 bits, using key lengths of 128, 192, or 256 bits. AES utiliz"
+---
+
+# AES Encryption
+
+Advanced Encryption Standard (AES) is a symmetric-key block cipher algorithm established by the U.S. National Institute of Standards and Technology (NIST) in 2001. It operates on fixed-size blocks of data, typically 128 bits, using key lengths of 128, 192, or 256 bits. AES utilizes a substitution-permutation network design, performing multiple rounds of transformation to convert plaintext into ciphertext, making it highly resilient against cryptanalysis. It is the global standard for securing sensitive data in transit and at rest.
+
+## Definition
+
+Advanced Encryption Standard (AES) is a symmetric-key block cipher algorithm established by the U.S. National Institute of Standards and Technology (NIST) in 2001. It operates on fixed-size blocks of data, typically 128 bits, using key lengths of 128, 192, or 256 bits. AES utilizes a substitution-permutation network design, performing multiple rounds of transformation to convert plaintext into ciphertext, making it highly resilient against cryptanalysis. It is the global standard for securing sensitive data in transit and at rest.
+
+## Simple explanation
+
+Imagine you and a friend share a secret codebook. You both use the same book to scramble a message so only someone with the exact same book can turn it back into readable text. AES is like the world's most sophisticated and unbreakable version of that secret codebook, used by computers to keep data private.
+
+## Why it matters
+
+AES is essential for securing the sensitive data stored within cryptocurrency wallets and exchanges. It ensures that even if local files are stolen, the actual private keys and personal data remain encrypted and inaccessible to unauthorized actors.
+
+## How it works
+
+The algorithm divides the data into a grid and applies a series of mathematical operations including byte substitution, shifting rows, mixing columns, and adding round keys. This process repeats over 10 to 14 rounds depending on the key length. The complexity of these permutations makes reversing the process without the correct key computationally impossible.
+
+## Real-world example
+
+The hardware wallet Ledger Nano uses AES-256 to encrypt the secure element where the user's private keys are stored.
+
+## Advantages
+
+- Extremely high computational efficiency
+- Globally recognized security standard
+- Immune to most known brute-force attacks
+
+## Limitations
+
+- Requires secure key management
+- Symmetric keys must be shared securely
+- Susceptible to side-channel attacks
+
+## Common misconceptions
+
+- People often think AES is the same as public-key encryption, but it is actually a symmetric algorithm.
+- Some believe AES is unhackable, but its security relies entirely on the secrecy and complexity of the key.
+## Related knowledge
+
+- [Encryption](/generated/v2/glossary/encryption) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:aes-encryption`

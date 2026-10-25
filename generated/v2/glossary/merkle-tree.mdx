@@ -1,0 +1,54 @@
+---
+title: "Merkle Tree"
+description: "A Merkle Tree is a binary tree structure used to summarize and verify the integrity of large datasets. In blockchain, it organizes all transactions in a block by hashing them at the leaf nodes, then pairing and hashing those results up the tree until the root node (Merkle Root) i"
+---
+
+# Merkle Tree
+
+A Merkle Tree is a binary tree structure used to summarize and verify the integrity of large datasets. In blockchain, it organizes all transactions in a block by hashing them at the leaf nodes, then pairing and hashing those results up the tree until the root node (Merkle Root) is formed. This hierarchical structure allows the network to efficiently prove that any given piece of data is included in a set without requiring the full set to be processed.
+
+## Definition
+
+A Merkle Tree is a binary tree structure used to summarize and verify the integrity of large datasets. In blockchain, it organizes all transactions in a block by hashing them at the leaf nodes, then pairing and hashing those results up the tree until the root node (Merkle Root) is formed. This hierarchical structure allows the network to efficiently prove that any given piece of data is included in a set without requiring the full set to be processed.
+
+## Simple explanation
+
+A Merkle Tree is like a family tree, but for data. At the bottom are the individual transactions. As you go up the tree, branches combine until you reach the 'trunk,' which represents everything below it. If you have the trunk, you can verify any branch, which saves everyone a lot of time.
+
+## Why it matters
+
+It solves the 'big data' problem in blockchain. By using Merkle Trees, mobile wallets and light clients can interact with the network safely without needing to carry the entire, multi-terabyte blockchain history.
+
+## How it works
+
+Data is hashed into leaf nodes. These nodes are paired and hashed into parent nodes, repeating the process until the Merkle Root is reached. If a user needs to verify a transaction, the network provides a 'Merkle Path'—the minimal set of hashes needed to reconstruct the root—to prove the transaction is valid.
+
+## Real-world example
+
+Bitcoin and many other cryptocurrencies use Merkle Trees to structure transactions within their blocks, facilitating fast block verification.
+
+## Advantages
+
+- Optimizes data verification processes
+- Saves significant bandwidth and space
+- Allows for quick inclusion proofs
+
+## Limitations
+
+- Mathematically complex structure
+- Requires careful implementation to avoid bugs
+- Not intuitive for non-technical users
+
+## Common misconceptions
+
+- Many think Merkle Trees store data. They only store the cryptographic hashes that prove data exists.
+- People often confuse it with a standard tree data structure; it is specifically a cryptographic binary tree.
+## Related knowledge
+
+- [Blockchain](/categories/blockchain) — term
+- [Hash Function](/generated/v2/glossary/hash-function) — term
+- [Merkle Root](/generated/v2/glossary/merkle-root) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:merkle-tree`

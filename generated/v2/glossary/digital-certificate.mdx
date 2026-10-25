@@ -1,0 +1,54 @@
+---
+title: "Digital Certificate"
+description: "A digital certificate is an electronic document that uses a digital signature to bind a public key to an identity, such as a person, organization, or device. It is issued by a trusted Certificate Authority (CA) and serves as a digital passport in online interactions. The certific"
+---
+
+# Digital Certificate
+
+A digital certificate is an electronic document that uses a digital signature to bind a public key to an identity, such as a person, organization, or device. It is issued by a trusted Certificate Authority (CA) and serves as a digital passport in online interactions. The certificate contains information about the owner, the public key, the expiration date, and the digital signature of the issuer, allowing parties to verify the authenticity of a sender in an environment where they have no prior relationship.
+
+## Definition
+
+A digital certificate is an electronic document that uses a digital signature to bind a public key to an identity, such as a person, organization, or device. It is issued by a trusted Certificate Authority (CA) and serves as a digital passport in online interactions. The certificate contains information about the owner, the public key, the expiration date, and the digital signature of the issuer, allowing parties to verify the authenticity of a sender in an environment where they have no prior relationship.
+
+## Simple explanation
+
+Think of a digital certificate as a driver's license for the internet. It is a government-issued (or in this case, trusted agency-issued) ID card that proves you are who you say you are and that your public key is legitimate.
+
+## Why it matters
+
+In Web3, while traditional CAs are often bypassed for decentralized identity, the underlying concept is critical for verifying off-chain data sources and ensuring the integrity of smart contract interactions in enterprise environments.
+
+## How it works
+
+The owner creates a key pair and sends their public key to a CA. The CA verifies the owner's identity and signs the public key with their own private key. Users checking the certificate can verify the CA's signature using the CA's well-known public key, confirming the certificate is genuine.
+
+## Real-world example
+
+SSL/TLS certificates used to secure websites with HTTPS are the most common form of digital certificates.
+
+## Advantages
+
+- Establishes trust in digital transactions
+- Prevents impersonation and data tampering
+- Facilitates secure server authentication
+
+## Limitations
+
+- Relies on centralized trust entities
+- Susceptible to private key compromise of the CA
+- Certificate revocation can be complex
+
+## Common misconceptions
+
+- Many believe a digital certificate guarantees the content of a website is safe, when it only confirms identity.
+- Users often assume certificates are infallible, but they are vulnerable if the issuer is compromised.
+## Related knowledge
+
+- [Authentication](/generated/v2/glossary/authentication) — term
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [PKI](/generated/v2/glossary/pki) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:digital-certificate`

@@ -1,0 +1,55 @@
+---
+title: "Slippage"
+description: "Slippage is the difference between the expected price of a trade and the price at which the trade is actually executed. It commonly occurs in decentralized exchanges during periods of high volatility or when the trade size is large relative to the liquidity pool's total depth. Wh"
+---
+
+# Slippage
+
+Slippage is the difference between the expected price of a trade and the price at which the trade is actually executed. It commonly occurs in decentralized exchanges during periods of high volatility or when the trade size is large relative to the liquidity pool's total depth. When a large order is placed, it pushes the asset price significantly along the curve of the automated market maker, leading to a less favorable execution price for the trader.
+
+## Definition
+
+Slippage is the difference between the expected price of a trade and the price at which the trade is actually executed. It commonly occurs in decentralized exchanges during periods of high volatility or when the trade size is large relative to the liquidity pool's total depth. When a large order is placed, it pushes the asset price significantly along the curve of the automated market maker, leading to a less favorable execution price for the trader.
+
+## Simple explanation
+
+Imagine trying to buy all the apples at a fruit stand. The first few are cheap, but the more you try to buy at once, the more the shopkeeper raises the price of the remaining apples. The difference between the first price and the final average is your slippage.
+
+## Why it matters
+
+High slippage can make large trades prohibitively expensive and inefficient. Minimizing slippage is a primary goal for professional traders and developers who build liquidity protocols.
+
+## How it works
+
+When a trade occurs, the ratio of assets in the liquidity pool changes. The AMM algorithm automatically rebalances the price based on this new ratio. If a trade is large, the change in the ratio is significant, causing a noticeable shift in price from the moment the user confirms the transaction to the final execution.
+
+## Real-world example
+
+Swapping a million dollars of a low-liquidity coin on a decentralized exchange often results in significant price impact compared to small swaps.
+
+## Advantages
+
+- Reflects real-time market demand
+- Deters excessive trade sizing on thin pools
+- Incentivizes deeper market liquidity
+
+## Limitations
+
+- Increases trading costs
+- Difficult to predict during volatility
+- Can be mitigated but not eliminated
+
+## Common misconceptions
+
+- Traders often think slippage is the same as transaction fees. Fees are costs paid to the protocol; slippage is a loss from the price impact.
+- Many think slippage only happens on small exchanges. It occurs on any platform where order depth is insufficient for the trade size.
+## Related knowledge
+
+- [AMM](/generated/v2/glossary/amm) — term
+- [DEX](/generated/v2/glossary/dex) — term
+- [Liquidity Pool](/generated/v2/glossary/liquidity-pool) — term
+- [Price Impact](/generated/v2/glossary/price-impact) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:slippage`

@@ -1,0 +1,55 @@
+---
+title: "Mnemonic Phrase"
+description: "A mnemonic phrase, often called a seed phrase, is a sequence of randomly generated words used to derive and recover a cryptocurrency wallet's private keys. Developed under the BIP-39 standard, these phrases convert a binary seed into a human-readable format. By storing 12 to 24 w"
+---
+
+# Mnemonic Phrase
+
+A mnemonic phrase, often called a seed phrase, is a sequence of randomly generated words used to derive and recover a cryptocurrency wallet's private keys. Developed under the BIP-39 standard, these phrases convert a binary seed into a human-readable format. By storing 12 to 24 words, users can regenerate their entire wallet structure, including all associated public and private keys, across any compatible wallet software, providing a vital backup mechanism for self-custodial assets.
+
+## Definition
+
+A mnemonic phrase, often called a seed phrase, is a sequence of randomly generated words used to derive and recover a cryptocurrency wallet's private keys. Developed under the BIP-39 standard, these phrases convert a binary seed into a human-readable format. By storing 12 to 24 words, users can regenerate their entire wallet structure, including all associated public and private keys, across any compatible wallet software, providing a vital backup mechanism for self-custodial assets.
+
+## Simple explanation
+
+Your wallet's private key is a long, scary string of numbers that is impossible to memorize. A mnemonic phrase is just a list of simple words that acts as a master key. If you lose your phone or computer, you can type these words into a new device to get all your money back.
+
+## Why it matters
+
+Mnemonic phrases are the primary security layer for individual users in the decentralized world. They allow for true self-custody by ensuring that ownership is tied to a human-readable backup rather than a central service provider.
+
+## How it works
+
+The phrase is generated using a standardized dictionary of 2,048 words. These words represent a large random number (entropy) which is processed using the PBKDF2 function to create a master seed. This seed is then used by a Hierarchical Deterministic (HD) wallet to derive an infinite number of unique keys.
+
+## Real-world example
+
+Hardware wallets like Ledger and Trezor require users to write down a 24-word mnemonic phrase during the initial setup process.
+
+## Advantages
+
+- Human-readable backup method
+- Cross-wallet compatibility
+- Facilitates easy account recovery
+
+## Limitations
+
+- Physical loss leads to permanent funds loss
+- Vulnerable to social engineering attacks
+- Requires secure physical storage
+
+## Common misconceptions
+
+- Users often think the seed phrase is the password for the app, but it is the actual master key for the blockchain account.
+- People assume they can safely store the phrase in a digital photo or cloud storage, which is a major security risk.
+## Related knowledge
+
+- [BIP-39](/generated/v2/glossary/bip-39) — term
+- [HD Wallet](/generated/v2/glossary/hd-wallet) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+- [Self-Custody](/generated/v2/glossary/self-custody) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:mnemonic-phrase`

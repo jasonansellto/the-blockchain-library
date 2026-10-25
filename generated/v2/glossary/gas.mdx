@@ -1,0 +1,57 @@
+---
+title: "Gas"
+description: "Gas is the unit used to measure the computational effort required to execute operations on the Ethereum network. Since every operation—such as writing to storage, performing math, or sending tokens—consumes computing resources, gas ensures that network participants are compensate"
+---
+
+# Gas
+
+Gas is the unit used to measure the computational effort required to execute operations on the Ethereum network. Since every operation—such as writing to storage, performing math, or sending tokens—consumes computing resources, gas ensures that network participants are compensated for their work. Users must pay for this gas in Ether, which prevents spam and ensures that infinite loops or resource-intensive tasks cannot clog the network, as the execution will fail once the provided gas is exhausted.
+
+## Definition
+
+Gas is the unit used to measure the computational effort required to execute operations on the Ethereum network. Since every operation—such as writing to storage, performing math, or sending tokens—consumes computing resources, gas ensures that network participants are compensated for their work. Users must pay for this gas in Ether, which prevents spam and ensures that infinite loops or resource-intensive tasks cannot clog the network, as the execution will fail once the provided gas is exhausted.
+
+## Simple explanation
+
+Think of gas like fuel for a car. Your car needs fuel to travel, and the farther or faster you drive, the more fuel you use. On the blockchain, 'driving' is like running code. To run your smart contract, you need to pay for the 'fuel' (gas) required to keep the computer performing your task.
+
+## Why it matters
+
+Gas is the primary mechanism for network security and economic sustainability. It prevents malicious users from flooding the network with endless, free calculations that would otherwise crash the nodes.
+
+## How it works
+
+Each operation in the EVM has a predefined gas cost defined in the Ethereum Yellow Paper. When a transaction is sent, the user defines a gas fee. The EVM deducts gas for each step executed; if the transaction completes, the remaining gas is refunded. If the gas runs out, the state changes are reverted.
+
+## Real-world example
+
+Sending a simple ETH transfer uses 21,000 gas, whereas interacting with a complex NFT minting contract may cost hundreds of thousands of gas depending on the operations.
+
+## Advantages
+
+- Prevents network spam
+- Compensates node operators
+- Ensures computation is finite
+
+## Limitations
+
+- Fluctuating prices affect user experience
+- High costs discourage small transactions
+- Complexity of optimization for developers
+
+## Common misconceptions
+
+- People often think gas is the same as the network fee, but the fee is a product of gas used and gas price.
+- Some believe gas prices are fixed by the blockchain, but they are determined by network demand.
+## Related knowledge
+
+- [Ethereum](/categories/ethereum) — term
+- [EVM](/generated/v2/glossary/evm) — term
+- [Gwei](/generated/v2/glossary/gwei) — term
+- [Node](/generated/v2/glossary/node) — term
+- [Smart Contract](/generated/v2/glossary/smart-contract) — term
+- [Transaction](/generated/v2/glossary/transaction) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:gas`

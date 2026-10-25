@@ -1,0 +1,57 @@
+---
+title: "Account"
+description: "In the context of blockchain architecture, an account is a persistent entity that holds a balance of native tokens, stores state data, and possesses an associated address derived from a public key. Unlike the UTXO model used by Bitcoin, account-based models—most notably used by E"
+---
+
+# Account
+
+In the context of blockchain architecture, an account is a persistent entity that holds a balance of native tokens, stores state data, and possesses an associated address derived from a public key. Unlike the UTXO model used by Bitcoin, account-based models—most notably used by Ethereum—track the current state of every participant, allowing for complex smart contract interactions. Accounts serve as the fundamental primitive for identity and value representation, enabling protocols to manage user assets and execution environments securely within the ledger.
+
+## Definition
+
+In the context of blockchain architecture, an account is a persistent entity that holds a balance of native tokens, stores state data, and possesses an associated address derived from a public key. Unlike the UTXO model used by Bitcoin, account-based models—most notably used by Ethereum—track the current state of every participant, allowing for complex smart contract interactions. Accounts serve as the fundamental primitive for identity and value representation, enabling protocols to manage user assets and execution environments securely within the ledger.
+
+## Simple explanation
+
+Think of a blockchain account like a digital bank account that you control. Instead of a bank keeping track of your money, the blockchain software itself tracks your balance and what you are allowed to do. You use a secret digital key to prove you own the account so you can send money or interact with apps.
+
+## Why it matters
+
+Accounts are the bridge between human intent and machine execution on a blockchain. By tracking state rather than just transaction history, they enable the complex, programmable finance required for modern Web3 applications.
+
+## How it works
+
+An account consists of a balance, a nonce to prevent replay attacks, code for smart contracts, and storage for data. When a transaction is submitted, the network verifies the sender's signature and nonce. Once authenticated, the state of the sender's account is updated to reflect the new balance and the executed logic.
+
+## Real-world example
+
+An Ethereum externally owned account (EOA) managed by a user in the MetaMask browser extension.
+
+## Advantages
+
+- Enables complex state-based smart contracts
+- Simplifies tracking of token balances
+- Reduces transaction data storage requirements
+
+## Limitations
+
+- Requires nonce management for ordering transactions
+- Vulnerable if private keys are compromised
+- Higher complexity in signature verification logic
+
+## Common misconceptions
+
+- Many believe an account is stored on a centralized server instead of being a decentralized data point on the ledger.
+- People often mistake the account address for the private key used to access it.
+## Related knowledge
+
+- [Address](/generated/v2/glossary/address) — term
+- [Ethereum](/categories/ethereum) — term
+- [Nonce](/generated/v2/glossary/nonce) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+- [Smart Contract](/generated/v2/glossary/smart-contract) — term
+- [State Machine](/generated/v2/glossary/state-machine) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:account`
