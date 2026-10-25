@@ -14,7 +14,7 @@ The Blockchain Library has three layers. Edit the source, never the output.
 | Validators, compiler, generators, CI | `scripts/`, `.github/` | Pull request to this repo |
 | Hand-written docs | `*.mdx` outside `generated/` | Pull request to this repo |
 | Website articles, glossary pages, news, research and other published site content | theblockchainlibrary.com | Open a **content request** issue; maintainers apply it on the platform |
-| Website code (pages, components, backend functions) | The website repository, once published | See the README |
+| Website code (pages, components, backend functions) | [the-blockchain-library-app](https://github.com/jasonansellto/the-blockchain-library-app) | Pull request there; merged changes sync into the live app |
 
 These paths are **generated** and are overwritten by the daily *Sync from Base44* workflow — pull requests that edit them by hand will be asked to move the change to its source:
 

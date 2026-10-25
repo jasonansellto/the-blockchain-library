@@ -57,6 +57,13 @@ The repository includes:
 - `PROJECT_STATUS.md` — current maturity
 - `CHANGELOG.md` — release history
 
+## Repositories
+
+| Repository | What it holds |
+| --- | --- |
+| **the-blockchain-library** (this repo) | Knowledge engine: compiler, canonical release, docs |
+| [the-blockchain-library-app](https://github.com/jasonansellto/the-blockchain-library-app) | Website source: pages, components, backend functions |
+
 ## How the platform stays in sync
 
 ```text
