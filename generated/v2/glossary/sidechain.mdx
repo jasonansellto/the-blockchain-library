@@ -1,67 +1,74 @@
 ---
 title: "Sidechain"
-description: "A sidechain is an independent blockchain that runs in parallel to a main chain (like Ethereum), connected by a two-way bridge. Unlike a rollup, a sidechain has its own consensus mechanism and set of validators, meaning it does not inherit the security of the main chain. If a side"
+description: "A sidechain is a separate, independent blockchain that runs parallel to a main 'parent' chain. It is connected via a two-way bridge, which allows assets to be moved between the two chains. By operating independently, the sidechain can implement different consensus rules, higher t"
 ---
 
 # Sidechain
 
-A sidechain is an independent blockchain that runs in parallel to a main chain (like Ethereum), connected by a two-way bridge. Unlike a rollup, a sidechain has its own consensus mechanism and set of validators, meaning it does not inherit the security of the main chain. If a sidechain fails or is compromised, the main chain remains unaffected, but the assets and activity on the sidechain may be at significant risk.
+A sidechain is a separate, independent blockchain that runs parallel to a main 'parent' chain. It is connected via a two-way bridge, which allows assets to be moved between the two chains. By operating independently, the sidechain can implement different consensus rules, higher throughput, or lower fees, while still leveraging the security and ecosystem of the parent chain. Sidechains are a popular scaling solution that relieves congestion on mainnets while maintaining interoperability.
 
 ## Definition
 
-A sidechain is an independent blockchain that runs in parallel to a main chain (like Ethereum), connected by a two-way bridge. Unlike a rollup, a sidechain has its own consensus mechanism and set of validators, meaning it does not inherit the security of the main chain. If a sidechain fails or is compromised, the main chain remains unaffected, but the assets and activity on the sidechain may be at significant risk.
+A sidechain is a separate, independent blockchain that runs parallel to a main 'parent' chain. It is connected via a two-way bridge, which allows assets to be moved between the two chains. By operating independently, the sidechain can implement different consensus rules, higher throughput, or lower fees, while still leveraging the security and ecosystem of the parent chain. Sidechains are a popular scaling solution that relieves congestion on mainnets while maintaining interoperability.
 
 ## Simple explanation
 
-A sidechain is like a separate, smaller amusement park built next to a famous one. You can use your ticket from the big park to go to the smaller one, but the smaller park has its own security guards and rules.
+Think of a sidechain like a highway express lane. The main blockchain is the crowded city street, but if you take the express lane, you move faster. You can enter or exit the highway to the city streets whenever you want, helping traffic flow more smoothly for everyone.
 
 ## Why it matters
 
-Sidechains provide an alternative for applications that require extreme speed or flexibility that may not be available on the main chain. They offer a way to experiment with different governance models and consensus rules.
+Sidechains help solve the 'blockchain trilemma' by allowing networks to be faster and cheaper without compromising the security of the main chain assets.
 
 ## How it works
 
-Users transfer assets to a bridge, where they are locked on the main chain and minted as a representation on the sidechain. The sidechain operates independently using its own validators to process transactions. To move assets back, the user burns tokens on the sidechain to unlock the original funds on the main chain.
+Users send assets to a smart contract on the main chain, where they are locked. The sidechain then issues an equivalent amount of tokens. When the user wants to return, they burn the tokens on the sidechain, and the smart contract on the main chain unlocks the original assets.
 
 ## Real-world example
 
-The Gnosis Chain is a well-known example of a sidechain that operates alongside Ethereum.
+Polygon PoS acts as a sidechain to the Ethereum mainnet.
 
 ## Advantages
 
-- Customizable consensus rules
-- Extremely high speed potential
-- Independent network maintenance
 - Increased transaction speed
 - Lower transaction fees
 - Customizable protocols
+- Customizable consensus rules
+- Extremely high speed potential
+- Independent network maintenance
 
 ## Limitations
 
-- Lacks mainnet security guarantees
-- Bridge risks (asset lock/unlock)
-- Requires separate trust assumptions
 - Security depends on bridge
 - Less secure than mainnet
 - Risk of bridge hacks
+- Lacks mainnet security guarantees
+- Bridge risks (asset lock/unlock)
+- Requires separate trust assumptions
 
 ## Common misconceptions
 
-- Users often confuse sidechains with Layer 2 rollups; sidechains do not inherit Ethereum's security.
-- Many believe sidechains are just as 'decentralized' as the main network, but they often have fewer validators.
 - It is not the same as a layer-2 rollup.
 - It does not inherit all security features of the parent chain.
+- Users often confuse sidechains with Layer 2 rollups; sidechains do not inherit Ethereum's security.
+- Many believe sidechains are just as 'decentralized' as the main network, but they often have fewer validators.
 ## Related knowledge
 
+- [A Guide to Layer-One and Layer-Two Solutions: What’s the Difference?](/generated/v2/topics/a-guide-to-layer-one-and-layer-two-solutions-whats-the-difference) — article
+- [A Guide to Layer-One and Layer-Two Solutions: What’s the Difference?](/generated/v2/topics/a-guide-to-layer-one-and-layer-two-solutions-whats-the-difference) — related-article
+- [Bitcoin’s Smart Contract Renaissance: Runes, Ordinals, and Beyond](/generated/v2/topics/bitcoins-smart-contract-renaissance-runes-ordinals-and-beyond) — article
+- [Bitcoin’s Smart Contract Renaissance: Runes, Ordinals, and Beyond](/generated/v2/topics/bitcoins-smart-contract-renaissance-runes-ordinals-and-beyond) — related-article
+- [Blockchain Interoperability: The Key to a Multi-Chain Future](/generated/v2/topics/blockchain-interoperability-the-key-to-a-multi-chain-future) — article
+- [Blockchain Interoperability: The Key to a Multi-Chain Future](/generated/v2/topics/blockchain-interoperability-the-key-to-a-multi-chain-future) — related-article
 - [Bridge](/generated/v2/glossary/bridge) — term
 - [Consensus](/categories/consensus) — term
 - [Ethereum](/categories/ethereum) — term
 - [Interoperability](/categories/interoperability) — term
 - [Layer 1](/generated/v2/glossary/layer-1) — term
 - [Layer 2](/categories/layer-2) — term
+- [Layer-1s vs. Modular Chains: What Will Dominate in 2026?](/generated/v2/topics/layer-1s-vs-modular-chains-what-will-dominate-in-2026) — article
+- [Layer-1s vs. Modular Chains: What Will Dominate in 2026?](/generated/v2/topics/layer-1s-vs-modular-chains-what-will-dominate-in-2026) — related-article
 - [Mainnet](/generated/v2/glossary/mainnet) — term
 - [Polygon](/generated/v2/rpc/polygon-alchemy) — term
-- [Validator](/generated/v2/glossary/validator) — term
 
 ---
 

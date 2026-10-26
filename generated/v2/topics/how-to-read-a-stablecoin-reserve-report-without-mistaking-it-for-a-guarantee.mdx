@@ -1,0 +1,96 @@
+---
+title: "How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee"
+description: "Stablecoin transparency is useful only when readers understand the report date, scope, asset composition, redemption rules and risks that remain outside the accountant’s conclusion."
+---
+
+# How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee
+
+Stablecoin transparency is useful only when readers understand the report date, scope, asset composition, redemption rules and risks that remain outside the accountant’s conclusion.
+
+<p>“Fully backed” sounds like a complete answer. It is actually the beginning of a due-diligence question.</p>
+<p>A stablecoin reserve report can provide valuable evidence about assets and tokens in circulation at specified times. It cannot, by itself, prove that every holder can redeem instantly, that an issuer will remain operational under stress, or that every risk has been examined. The useful skill is learning to read the report for exactly what it covers—and then identifying what remains outside its scope.</p>
+<p>This article uses USDC disclosures as a current, concrete example. It is not a rating of USDC or any other asset, and it is not investment advice.</p>
+
+<h2>Begin with the assertion, not the headline</h2>
+<p>Circle’s <a href="https://www.circle.com/transparency">transparency page</a> says USDC reserve holdings are disclosed weekly and that a third-party accounting firm provides monthly assurance that reserve value exceeds USDC in circulation. The page listed reserve composition as of September 14, 2026 when checked for this article.</p>
+<p>The underlying report is more precise. In the <a href="https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20July%2026%20(1).pdf">July 2026 USDC examination report</a>, dated August 27, 2026, the independent accountants examined management’s assertion that the fair value of defined reserve assets was at least equal to defined USDC in circulation at two report dates: July 8 and July 31. Their opinion was that the assertion was fairly stated, in all material respects, under the report’s criteria.</p>
+<p>That wording matters. The engagement addresses a specific assertion, criteria and pair of snapshots. It is not a timeless certificate for the entire business. When reading any reserve report, underline the subject, measurement rule, dates and assurance conclusion before relying on a summary elsewhere.</p>
+
+<h2>Reconcile what counts as circulation</h2>
+<p>On-chain supply may look like the obvious liability figure, but implementation details can make the calculation more complicated. Circle’s July report starts with supply across its approved blockchains, then subtracts defined categories including tokens allowed but not issued, access-denied tokens and pending burns in its gateway contract.</p>
+<p>The important lesson is broader than those particular categories. A reader should be able to reproduce the bridge from observable token supply to the report’s definition of circulation. Ask:</p>
+<ul>
+<li>Which networks and token contracts are included?</li>
+<li>Which balances are excluded, and why?</li>
+<li>How are tokens in bridges, minting systems or pending burns handled?</li>
+<li>Can definitions be compared consistently from one report to the next?</li>
+</ul>
+<p>A total without a clear perimeter is difficult to interpret. Good reporting explains the perimeter and how technical supply states become an accounting quantity.</p>
+
+<h2>“One dollar of assets” is not one kind of risk</h2>
+<p>Next, inspect reserve composition. Cash, short-dated government securities, money-market fund interests and overnight repurchase agreements may all be dollar-denominated, but they have different settlement, custody, market and counterparty characteristics. The July report identifies the Circle Reserve Fund, Treasury securities, overnight Treasury repurchase agreements, cash at regulated financial institutions, segregated accounts and timing adjustments.</p>
+<p>The <a href="https://www.dfs.ny.gov/industry_guidance/industry_letters/il20220608_issuance_stablecoins">New York Department of Financial Services’ June 8, 2022 guidance</a> makes the same distinction in regulatory form for supervised U.S. dollar-backed stablecoins. Its baseline addresses not only reserve value, but permitted asset types, segregation from issuer assets, custody and redemption policies.</p>
+<p>So the better question is not merely “Are reserves at least equal to circulation?” It is “What are the reserves, where are they held, for whose benefit, and how quickly can they support redemptions?” Quantity, quality and accessibility are related but separate tests.</p>
+
+<h2>Redemption is an operating process</h2>
+<p>A token can trade near one dollar in a secondary market even when most holders do not redeem directly with the issuer. Direct redemption may require onboarding, compliance checks, supported jurisdictions, minimum amounts, business-day processing or fees.</p>
+<p>New York’s 2022 guidance illustrates why these details belong beside reserve information. For entities within its scope, it calls for clear policies granting lawful holders timely redemption at par, net of disclosed fees, subject to reasonable conditions. Its default definition of timely redemption is no more than two full business days after a compliant order, while recognizing limited extraordinary circumstances.</p>
+<p>This does not establish the terms of every stablecoin. It provides a useful reading framework: identify who has a legal or contractual redemption right, what makes an order compliant, how long processing may take, and whether an intermediary stands between the holder and issuer.</p>
+
+<h2>Separate snapshot assurance from system resilience</h2>
+<p>A reserve examination can offer reasonable assurance about a defined assertion. It does not automatically cover cybersecurity, key management, sanctions controls, business continuity, every internal control or the issuer’s future condition.</p>
+<p>That boundary is visible in New York’s <a href="https://www.dfs.ny.gov/industry-guidance/regulations/proposed-fs/rp-fs-23nycrr-202-text">proposed 23 NYCRR Part 202</a>, published in 2026. The proposal is not a final rule, but its structure is informative: it treats monthly reserve reporting and accountant examinations separately from annual internal-control attestations, redemption rules, capital, an operational backstop, information security and regulatory examinations.</p>
+<p>In other words, reserve sufficiency is one layer of reliability. Operational continuity and enforceable redemption are other layers. A serious review should not compress all three into the word “backed.”</p>
+
+<h2>A practical five-part reading test</h2>
+<ol>
+<li><strong>Scope:</strong> What exact assertion did the accountant examine, under which criteria?</li>
+<li><strong>Timing:</strong> Which dates are covered, and how frequently are new reports published?</li>
+<li><strong>Reconciliation:</strong> How does on-chain supply become the report’s circulation figure?</li>
+<li><strong>Assets:</strong> What is held, where, under what custody and segregation arrangements?</li>
+<li><strong>Redemption and operations:</strong> Who can redeem, on what terms, and what controls address disruptions outside the reserve snapshot?</li>
+</ol>
+<p>Transparency is strongest when these answers connect. The reserve report should lead to the asset disclosures, the asset disclosures to custody and segregation information, and the circulating-supply definition to observable blockchain data. Redemption terms and operating controls should be evaluated on their own evidence.</p>
+<p>The goal is not to dismiss attestations. It is to use them accurately. A narrowly defined, independently examined assertion can be meaningful evidence. It becomes misleading only when readers—or marketers—stretch it into a guarantee the report never made.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.circle.com/transparency">Circle: Transparency &amp; Stability</a></li>
+<li><a href="https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20July%2026%20(1).pdf">Independent Accountants’ Report and July 2026 USDC Reserve Report</a></li>
+<li><a href="https://www.dfs.ny.gov/industry_guidance/industry_letters/il20220608_issuance_stablecoins">New York DFS: Guidance on U.S. Dollar-Backed Stablecoins</a></li>
+<li><a href="https://www.dfs.ny.gov/industry-guidance/regulations/proposed-fs/rp-fs-23nycrr-202-text">New York DFS: Proposed 23 NYCRR Part 202</a></li>
+</ul>
+
+## Key takeaways
+
+- Reserve reports are point-in-time snapshots of asset value rather than guarantees of ongoing operational stability.
+- Carefully analyze how an issuer defines circulation, including which token balances are excluded from the reported total.
+- Different reserve assets, such as cash versus Treasury bills, carry distinct liquidity, settlement, and counterparty risks.
+- Redemption is an operational process subject to specific terms, compliance requirements, and business-day processing timelines.
+- Distinguish between accountant-verified asset snapshots and the broader scope of internal controls and cybersecurity resilience.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee)
+## Related knowledge
+
+- [2025: The Year Crypto Matured — Key Milestones and Market Shifts](/generated/v2/topics/2025-the-year-crypto-matured-key-milestones-and-market-shifts) — article
+- [2025: The Year Crypto Matured — Key Milestones and Market Shifts](/generated/v2/topics/2025-the-year-crypto-matured-key-milestones-and-market-shifts) — related-article
+- [Attestation](/generated/v2/glossary/attestation) — glossary
+- [Attestation](/generated/v2/glossary/attestation) — related-glossary
+- [Crypto Payment Adoption in 2025: Which Companies Are Leading the Charge?](/generated/v2/topics/crypto-payment-adoption-in-2025-which-companies-are-leading-the-charge) — article
+- [Crypto Payment Adoption in 2025: Which Companies Are Leading the Charge?](/generated/v2/topics/crypto-payment-adoption-in-2025-which-companies-are-leading-the-charge) — related-article
+- [Minting](/generated/v2/glossary/minting) — glossary
+- [Minting](/generated/v2/glossary/minting) — related-glossary
+- [Redemption](/generated/v2/glossary/redemption) — glossary
+- [Redemption](/generated/v2/glossary/redemption) — related-glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — related-glossary
+- [Stablecoin Innovation in the United States](/generated/v2/research/stablecoin-innovation-in-the-united-states) — research
+- [Stablecoin Innovation in the United States](/generated/v2/research/stablecoin-innovation-in-the-united-states) — related-research
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — article
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — related-article
+
+---
+
+**Canonical knowledge ID:** `topic:how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee`

@@ -1,0 +1,66 @@
+---
+title: "Crypto Custody Rules Should Test Recovery, Not Just Key Control"
+description: "The SEC's new crypto-custody proposal expands lawful options. My view: regulation should judge custody by recovery, verification and insolvency outcomes—not key control alone."
+---
+
+# Crypto Custody Rules Should Test Recovery, Not Just Key Control
+
+The SEC's new crypto-custody proposal expands lawful options. My view: regulation should judge custody by recovery, verification and insolvency outcomes—not key control alone.
+
+<p><strong>Opinion:</strong> The United States Securities and Exchange Commission's new crypto-custody proposal is useful because it recognizes a basic reality: digital assets do not fit neatly into rules written for paper certificates and conventional account ledgers. But expanding the list of lawful custody options is only the beginning. The standard that ultimately matters is whether assets can be verified, recovered and returned when people, software or institutions fail.</p>
+<p>That is a more demanding test than asking who controls a private key. Key control proves authority to move an asset. It does not, by itself, prove that the authority is properly separated, that the records match the blockchain, that a compromised signing system can be contained, or that clients remain legally entitled to their assets during an insolvency.</p>
+<h2>What the SEC proposed</h2>
+<p>On October 1, 2026, the SEC <a href="https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal">proposed new custody rules and amendments</a> for registered investment advisers and regulated funds. The proposal would permit crypto assets to be held through additional arrangements, including certain state trust companies and limited adviser self-custody when no permitted custodian is available.</p>
+<p>The details matter. The <a href="https://www.sec.gov/files/rules/proposed/2026/ia-7023.pdf">760-page proposing release</a> would require an adviser using self-custody to document initially and quarterly that a permitted custodian is unavailable. It also contemplates expertise assessments, cybersecurity controls, segregation, records and an internal-control report prepared by an independent public accountant. That report would have to test operating effectiveness and verify reconciliation of client crypto assets to the crypto network.</p>
+<p>Commissioner Hester Peirce's <a href="https://www.sec.gov/newsroom/speeches-statements/peirce-statement-proposed-amendments-custody-rules-100126">supporting statement</a> makes an important distinction: the proposal's “self-custody” means an adviser acting as custodian for clients, not an individual holding personal assets without an intermediary. That difference should remain explicit. I have previously discussed the practical complications of <a href="https://jasonansell.ca/article/the-problem-with-self-custody-that-nobody-talks-about">personal self-custody</a>; institutional custody creates another layer of responsibility because one operator acts for many beneficial owners.</p>
+<h2>Custody is a recovery system</h2>
+<p>My view is that a custody framework should be evaluated through five failure questions.</p>
+<ul><li><strong>Authority:</strong> Who can initiate, approve and complete a transfer, and can any one person or compromised system bypass that separation?</li><li><strong>Evidence:</strong> Can independent reviewers reconcile client entitlements, internal records and onchain balances without relying on the custodian's own summary?</li><li><strong>Recovery:</strong> If key material, infrastructure or a critical employee becomes unavailable, is there a tested path to restore control without creating a second uncontrolled signing route?</li><li><strong>Insolvency:</strong> Are client assets legally and operationally segregated from the custodian's estate and its general creditors?</li><li><strong>Exit:</strong> Can assets and records be moved to another qualified arrangement in a controlled, auditable process?</li></ul>
+<p>A provider can look strong on the first question and still fail the other four. A multisignature policy can distribute approvals but leave recovery dependent on the same cloud account. A proof-of-reserves snapshot can show assets at an address without proving client liabilities or insolvency treatment. Cold storage can reduce online exposure while making an emergency migration slow or operationally fragile.</p>
+<h2>Canada already offers a useful comparison</h2>
+<p>This is not a change to Canadian law. Canada nevertheless provides a relevant design comparison. On February 3, 2026, the Canadian Investment Regulatory Organization published its <a href="https://www.ciro.ca/newsroom/publications/notice-ciros-digital-asset-custody-framework">Digital Asset Custody Framework</a> for Dealer Members operating crypto-asset trading platforms.</p>
+<p>CIRO uses tiers that connect custody limits to demonstrated capability and risk. Its guidance addresses technology assurance, insurance, operational resilience, custodian independence, liability, sub-custody disclosure and whether segregated client assets should remain outside an insolvency estate. It also caps internal custody at 20% for covered Dealer Members and expects regular monitoring of custody limits.</p>
+<p>The Canadian framework is interim and applies in a different regulatory setting, so it should not be treated as a template for the SEC. Its strongest lesson is architectural: approval of a custodian is not the same as confidence in every custody arrangement. Exposure should reflect what the operator can prove, withstand and recover from.</p>
+<h2>What builders and businesses should do now</h2>
+<p>For builders, custody should be specified like critical infrastructure rather than purchased as a single vendor feature. Document the signing boundary, record every state transition, require separate approval for consequential transfers, and keep evidence that can be checked outside the primary custody system. Test the recovery runbook with realistic failures, including unavailable personnel, corrupted devices, a compromised service provider and an orderly migration to a new custodian.</p>
+<p>Businesses evaluating custody should ask for more than certifications. They should examine which systems and assets were actually covered, whether controls were tested over time, how exceptions were resolved, who bears liability for preventable technology failures and how client ownership survives insolvency. That operational focus also applies to tokenized securities, where legal rights and technical control must remain aligned—an issue explored in my recent analysis of the <a href="https://jasonansell.ca/article/sec-tokenized-stock-exemption-operations-test">SEC's tokenized-stock exemption</a>.</p>
+<h2>Limits and what would change my view</h2>
+<p>The SEC document is a proposal, not a final rule. Its comment period remains open for 60 days after publication in the Federal Register, and the final conditions may change. The available evidence is regulatory text and official statements, not proof that the proposed model has survived real institutional failures.</p>
+<p>My assessment would improve if the final rule makes recovery testing, network reconciliation, insolvency treatment and migration evidence consistently observable. It would weaken if eligibility becomes a substitute for operational proof, or if compliance reports describe control design without testing whether those controls worked.</p>
+<p>Crypto custody should not be reduced to possession of a key. The credible standard is demonstrated continuity of client ownership through compromise, outage, personnel failure and insolvency. A custody system earns trust by showing not only that it can hold an asset, but that it can still return it when the normal path breaks.</p>
+<p><strong>Disclosure:</strong> Jason Ansell is Co-Founder of Vector Smart Chain and an author whose work covers blockchain infrastructure and digital assets. Neither VSC nor his books are identified in the cited regulatory materials, and this opinion does not imply a commercial relationship with the SEC or CIRO. This article is not legal or investment advice.</p>
+<h2>Sources</h2>
+<ul><li><a href="https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal">U.S. SEC, “SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws”</a> (October 1, 2026)</li><li><a href="https://www.sec.gov/files/rules/proposed/2026/ia-7023.pdf">U.S. SEC, Adviser and Regulated Fund Custody Rules; Crypto Custody Rules, Release IA-7023</a> (October 1, 2026)</li><li><a href="https://www.sec.gov/newsroom/speeches-statements/peirce-statement-proposed-amendments-custody-rules-100126">Commissioner Hester M. Peirce, statement on the proposed custody rules</a> (October 1, 2026)</li><li><a href="https://www.ciro.ca/newsroom/publications/notice-ciros-digital-asset-custody-framework">CIRO, Notice on the Digital Asset Custody Framework</a> (February 3, 2026)</li></ul>
+
+## Key takeaways
+
+- The SEC is updating custody rules to better reflect the realities of managing digital assets for clients.
+- True custody security relies on verifying recovery, auditability, and insolvency outcomes, not just private key control.
+- Institutional custody requires rigorous systems to ensure client assets remain segregated from a custodian's general estate.
+- Custody systems should be treated as critical infrastructure, requiring regular, realistic testing of failure and recovery scenarios.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/crypto-custody-rules-recovery-not-key-control)
+## Related knowledge
+
+- [2025: The Year Crypto Matured — Key Milestones and Market Shifts](/generated/v2/topics/2025-the-year-crypto-matured-key-milestones-and-market-shifts) — article
+- [2025: The Year Crypto Matured — Key Milestones and Market Shifts](/generated/v2/topics/2025-the-year-crypto-matured-key-milestones-and-market-shifts) — related-article
+- [Cold Storage](/generated/v2/glossary/cold-storage) — glossary
+- [Cold Storage](/generated/v2/glossary/cold-storage) — related-glossary
+- [Crypto Regulation Is Coming Fast: What It Means for Investors in 2026](/generated/v2/topics/crypto-regulation-is-coming-fast-what-it-means-for-investors-in-2026) — article
+- [Crypto Regulation Is Coming Fast: What It Means for Investors in 2026](/generated/v2/topics/crypto-regulation-is-coming-fast-what-it-means-for-investors-in-2026) — related-article
+- [Proposal](/generated/v2/glossary/proposal) — glossary
+- [Proposal](/generated/v2/glossary/proposal) — related-glossary
+- [Self-Custody](/generated/v2/glossary/self-custody) — glossary
+- [Self-Custody](/generated/v2/glossary/self-custody) — related-glossary
+- [State Transition](/generated/v2/glossary/state-transition) — glossary
+- [State Transition](/generated/v2/glossary/state-transition) — related-glossary
+- [The Next Crypto Bull Market Will Look Different Than the Last One](/generated/v2/topics/the-next-crypto-bull-market-will-look-different-than-the-last-one) — article
+- [The Next Crypto Bull Market Will Look Different Than the Last One](/generated/v2/topics/the-next-crypto-bull-market-will-look-different-than-the-last-one) — related-article
+- [What Crypto Looks Like After Memecoins](/generated/v2/topics/what-crypto-looks-like-after-memecoins) — article
+- [What Crypto Looks Like After Memecoins](/generated/v2/topics/what-crypto-looks-like-after-memecoins) — related-article
+
+---
+
+**Canonical knowledge ID:** `topic:crypto-custody-rules-recovery-not-key-control`

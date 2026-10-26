@@ -1,0 +1,64 @@
+---
+title: "Why Website Migrations Break Automation Even When the Pages Work"
+description: "A successful website migration must preserve more than pages. Feeds, content identities and distribution workflows determine whether publishing keeps working."
+---
+
+# Why Website Migrations Break Automation Even When the Pages Work
+
+A successful website migration must preserve more than pages. Feeds, content identities and distribution workflows determine whether publishing keeps working.
+
+<p>A website migration can look complete while an important part of the business has stopped working. The pages load. The new design looks better. Readers can open the article archive. Yet the newsletter no longer receives new posts, the social queue stays empty, or an automated workflow quietly stops finding updates.</p>
+<p>The problem is that people and software consume a website differently. A reader follows a link and sees a page. An automation expects a particular address, data format and set of fields. Preserving the first experience does not automatically preserve the second.</p>
+<h2>A website has more than one interface</h2>
+<p>For a publisher, the visible website is only one way content leaves the system. Other interfaces can include RSS feeds, APIs, email subscriptions, webhooks, social integrations and search-engine sitemaps. Each has a separate job and a separate definition of success.</p>
+<p>WordPress, for example, provides built-in feeds for posts and comments. Its documentation also discusses forwarding feed readers when addresses change. Those feeds are part of the publishing infrastructure, even when most visitors never open them directly. <a href="https://developer.wordpress.org/advanced-administration/wordpress/feeds/">WordPress documents these feed behaviours here.</a></p>
+<p>Moving articles to a different platform preserves the content. Preserving the workflow requires an additional inventory: what reads that content, where it looks, and what it expects to receive.</p>
+<h2>A successful page request can still mean a failed feed</h2>
+<p>Imagine an automation that checks a site's feed address every few minutes. Before a migration, that address returns XML containing recent articles. Afterwards, the new application sends its standard HTML page for the same path.</p>
+<p>The request might still receive an HTTP 200 response. A basic uptime monitor could therefore show a healthy service. But the consumer needs a feed, and a successful delivery of the wrong format cannot satisfy that requirement.</p>
+<p>This distinction applies well beyond publishing. An integration can reach an endpoint and still receive a sign-in screen, an unexpected response structure or information that has stopped updating. Availability is only one layer of reliability. The response also needs to be usable and current.</p>
+<h2>Identity matters as much as the headline</h2>
+<p>Repairing a feed is not simply a matter of putting every archived article into a new XML document. A downstream system needs to distinguish a new article from an old article it has already processed.</p>
+<p>The RSS specification provides a GUID field for item identity and a publication-date field for timing. Feed readers may use the GUID to decide whether an item is new. Replacing established identifiers during a migration can therefore make old content appear unfamiliar to a consumer. <a href="https://www.rssboard.org/rss-specification">The RSS specification explains these fields.</a></p>
+<p>A practical migration should preserve known identifiers where possible. When that is not possible, a deliberate cutover boundary can keep the historical archive separate from newly syndicated content. Original publication dates should remain original dates. A software migration is not a new editorial publication event.</p>
+<p>The same principle appears in order processing, payment notifications and inventory updates: identify the event consistently before deciding whether to act on it again.</p>
+<h2>Publishing and distribution are different jobs</h2>
+<p>An article appearing on a website does not prove that it appeared on LinkedIn, Threads or Bluesky. Those are separate destinations with their own connections and execution results.</p>
+<p>Jetpack Social illustrates the distinction. It connects a WordPress site to supported social networks and offers automatic sharing when posts are published. A replacement content platform needs its own route into those destinations; importing the articles does not import the plugin's operating environment. <a href="https://jetpack.com/support/jetpack-social/">Jetpack describes its WordPress sharing workflow here.</a></p>
+<p>For a small publishing operation, this separation can be useful. The content platform produces one authoritative article and a stable URL. A distribution workflow adapts the headline, excerpt and link for each channel. If a social connection expires, the article can still publish while the failed destination is recorded for attention.</p>
+<h2>Test the whole journey with one real item</h2>
+<p>A useful acceptance test begins with one finished article. Publish it, open its public page, fetch the feed independently, and check that the title, link, category, date and identifier match. Then confirm that the distribution workflow received that item and that each intended destination completed its action.</p>
+<p>Each stage answers a different question. The database confirms that the record exists. The public page confirms that readers can access it. The feed confirms that subscribers and software can discover it. The automation history confirms that the consumer acted. A destination link confirms where the result actually appeared.</p>
+<p>Also check the next feed request. The same article should retain the same identity. A repair that succeeds once but generates a fresh identifier on every poll can create a new problem: repeated distribution.</p>
+<h2>Make portability part of the architecture</h2>
+<p>The long-term lesson is to document the interfaces that matter before changing platforms. Keep the publishing schedule, canonical URLs, feed contract, category names and distribution connections visible in the operating plan. Assign a clear owner to each step, even if that owner is the same person.</p>
+<p>This does not require an elaborate enterprise system. A short dependency list and a repeatable end-to-end test can be enough for a small site. What matters is that the system's definition of “published” extends beyond a row in a database.</p>
+<p>Modern platforms make it easier to rebuild the visible experience. Reliable infrastructure makes it possible to change that experience without losing the business processes connected to it. A migration is ready when the content still reaches the people and systems that depend on it.</p>
+<h2>Sources</h2>
+<ul><li><a href="https://developer.wordpress.org/advanced-administration/wordpress/feeds/">WordPress Developer Resources: WordPress Feeds</a></li><li><a href="https://www.rssboard.org/rss-specification">RSS Advisory Board: RSS 2.0 Specification</a></li><li><a href="https://jetpack.com/support/jetpack-social/">Jetpack: Get Started with Jetpack Social</a></li></ul>
+
+## Key takeaways
+
+- Website migrations involve more than visual design; they must preserve non-human interfaces like APIs and RSS feeds.
+- Data formats and unique identifiers must remain consistent to ensure downstream automated systems function correctly after migrating.
+- A successful HTTP 200 page load does not guarantee that automated services are receiving the expected data structure.
+- Effective migration testing requires verifying content flow from the database through to every external distribution destination.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/why-website-migrations-break-automation-even-when-the-pages-work)
+## Related knowledge
+
+- [AI-Powered Automation: The Future of Work in 2025](/generated/v2/topics/ai-powered-automation-the-future-of-work-in-2025) — article
+- [AI-Powered Automation: The Future of Work in 2025](/generated/v2/topics/ai-powered-automation-the-future-of-work-in-2025) — related-article
+- [Why AI Won’t Replace Work—It Will Restructure It](/generated/v2/topics/why-ai-wont-replace-work-it-will-restructure-it) — article
+- [Why AI Won’t Replace Work—It Will Restructure It](/generated/v2/topics/why-ai-wont-replace-work-it-will-restructure-it) — related-article
+- [Why Reliability Is the Most Important Tech Trend Right Now](/generated/v2/topics/why-reliability-is-the-most-important-tech-trend-right-now) — article
+- [Why Reliability Is the Most Important Tech Trend Right Now](/generated/v2/topics/why-reliability-is-the-most-important-tech-trend-right-now) — related-article
+- [Why the Future Will Be Built on Invisible Technology](/generated/v2/topics/why-the-future-will-be-built-on-invisible-technology) — article
+- [Why the Future Will Be Built on Invisible Technology](/generated/v2/topics/why-the-future-will-be-built-on-invisible-technology) — related-article
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:why-website-migrations-break-automation-even-when-the-pages-work`

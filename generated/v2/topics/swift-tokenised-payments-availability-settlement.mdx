@@ -1,0 +1,69 @@
+---
+title: "Swift’s Tokenised Payments Need Two Clocks: Availability and Settlement"
+description: "Swift reports live tokenised payments across five currencies. Businesses should test usable customer funds and final interbank settlement as separate milestones."
+---
+
+# Swift’s Tokenised Payments Need Two Clocks: Availability and Settlement
+
+Swift reports live tokenised payments across five currencies. Businesses should test usable customer funds and final interbank settlement as separate milestones.
+
+<p><strong>Analysis — October 7, 2026.</strong> A cross-border payment can be available to a customer before the participating banks finish settling between themselves. That distinction should guide how businesses assess Swift’s blockchain-based ledger. The useful question is not simply how fast a token moves. It is what the recipient can do with the money, what obligations remain outstanding and who carries them.</p>
+<p>My assessment is that Swift’s recent progress makes tokenised bank payments more credible as operational infrastructure. It does not establish that every stage of a payment now completes continuously. Builders should measure customer availability and interbank settlement separately, then explain how those states fit together.</p>
+<h2>What changed at Sibos</h2>
+<p>In its <a href="https://www.swift.com/news-events/news/swift-platform-transforms-cross-border-payments-experience-across-existing-rails-and-digital-value">September 28 update</a>, Swift said most of the 17 first-mover banks had used its ledger for real-time payments around the clock across six continents. It reported activity in EUR, GBP, HKD, SGD and USD, covering institutional settlement, corporate treasury and interbank funding. These are Swift’s own reported results, rather than an independently audited performance study.</p>
+<p>The date matters. This was a progress report at Sibos, not the initial announcement. Swift’s <a href="https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure">July 9 release</a> described the ledger as ready for initial use and said the banks were preparing to pilot live transactions. It also described an orchestration layer connecting bank-issued tokenised deposits on banks’ own ledgers: customer funds could move overnight or at weekends before final settlement through existing systems.</p>
+<p>That architecture offers a more precise reading of “24/7.” Customer-facing availability and completion of the banks’ mutual obligations are different milestones. A product can improve the first without making the second instantaneous.</p>
+<h2>Two clocks, one payment</h2>
+<p>Imagine a manufacturer paying an overseas supplier on a Saturday. This is a hypothetical example, not a report of a Swift transaction. The supplier’s account shows funds and the supplier can use them. Meanwhile, participating institutions still have an obligation to complete settlement under the applicable arrangements.</p>
+<p>For the supplier, earlier access could be valuable. For the banks, the unfinished obligation still needs funding, limits and an accountable process. The right conclusion is neither that the payment failed nor that all settlement risk disappeared. The conclusion depends on the terms governing each state.</p>
+<p>I would therefore ask a provider to explain two clocks. The availability clock ends when the recipient has the promised usable balance. The settlement clock ends when the relevant interbank obligations are discharged under the governing rules. Marketing that reports only the fastest clock leaves a treasury team unable to assess the complete service.</p>
+<h2>A ledger does not complete the last mile</h2>
+<p>Swift’s <a href="https://www.swift.com/news-events/news/unlocking-last-mile-speed-cross-border-payments">July 20 last-mile research summary</a> says roughly 80% of overall processing time is spent after a payment reaches the recipient’s financial institution. It identifies regulatory requirements, foreign-exchange conditions, inconsistent standards, risk controls and domestic infrastructure as sources of friction. This is a network-level finding from Swift; it is not a benchmark for its new ledger.</p>
+<p>My inference is that tokenisation and crediting operations must be evaluated together. A fast transfer notification is not enough if the recipient’s institution cannot release funds predictably. A dashboard should show an exception awaiting review rather than presenting every accepted instruction as completed.</p>
+<p>Canadian businesses should be especially careful about availability claims for their own workflows. CAD was absent from the five currencies named in the September report. That does not establish that Canadian access is impossible, but the cited update does not verify a Canadian-dollar service. A business paying in CAD should ask its bank about its exact currency pair, destination, recipient eligibility and conversion arrangements.</p>
+<h2>What builders should request before integration</h2>
+<p>A practical evaluation should start with an explicit payment-state model and the evidence returned at each transition. “Submitted,” “accepted,” “credited,” “available” and “settled” should have contractual meanings. An API response should not quietly collapse those states into a single success flag.</p>
+<ul>
+<li><strong>Usability:</strong> Can the recipient withdraw or spend the credited amount immediately, and under what restrictions?</li>
+<li><strong>Outstanding exposure:</strong> Which institution funds any gap before settlement, and what happens when its limit is reached?</li>
+<li><strong>Exceptions:</strong> What happens during compliance review, insufficient liquidity, a timeout or an unavailable receiving bank?</li>
+<li><strong>Evidence:</strong> Can both parties reconcile identifiers, fees, exchange rates and state changes without assuming a retry created a new payment?</li>
+</ul>
+<p>These questions are my proposed procurement tests, not claims that Swift’s implementation lacks the corresponding controls. They turn an infrastructure announcement into requirements a developer and finance team can inspect together.</p>
+<p>The same discipline matters when comparing bank-issued tokenised deposits with stablecoins. A familiar-looking digital balance is not enough to identify its legal claim or redemption conditions. My earlier <a href="https://jasonansell.ca/article/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee">guide to reading stablecoin reserve reports</a> examines another part of that evidence problem. Neither a reserve report nor a ledger label substitutes for the terms of the payment product.</p>
+<h2>What would change this assessment</h2>
+<p>The cited announcements establish reported participation and use cases. They do not provide an independently verified distribution of end-to-end completion times, exception rates or losses across operating conditions. I would strengthen the assessment if banks published corridor-specific service terms and measured both clocks, including weekends and failed or delayed payments. Evidence that settlement exposures were consistently bounded and recoverable would be more persuasive than another fastest-transaction demonstration.</p>
+<p>Swift’s ledger deserves attention because it connects new payment capabilities to institutions businesses already use. Its next test is whether a customer can understand the entire payment promise—not just the moment a token arrives.</p>
+<p><strong>Disclosure:</strong> Jason Ansell is a VSC co-founder and writes books about blockchain and cryptocurrency. Those interests inform the subject area; this article is not a recommendation to buy tokens or a claim of firsthand testing of Swift’s ledger.</p>
+<h2>Sources</h2>
+<ul><li><a href="https://www.swift.com/news-events/news/swift-platform-transforms-cross-border-payments-experience-across-existing-rails-and-digital-value">Swift: September 28, 2026 progress update</a></li><li><a href="https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure">Swift: July 9, 2026 initial-use announcement</a></li><li><a href="https://www.swift.com/news-events/news/unlocking-last-mile-speed-cross-border-payments">Swift: July 20, 2026 last-mile research summary</a></li></ul>
+
+## Key takeaways
+
+- Tokenised payments involve two distinct milestones: immediate customer availability and the final interbank settlement.
+- Fast digital balance updates do not guarantee that all interbank obligations have been fully discharged.
+- Businesses should require transparent API responses that clearly distinguish between different stages of a transaction.
+- Integration teams must evaluate the underlying liquidity arrangements and legal claims attached to tokenised deposits.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/swift-tokenised-payments-availability-settlement)
+## Related knowledge
+
+- [Canada’s Stablecoin Framework Has Three Compliance Layers](/generated/v2/topics/canada-stablecoin-framework-three-compliance-layers) — article
+- [Canada’s Stablecoin Framework Has Three Compliance Layers](/generated/v2/topics/canada-stablecoin-framework-three-compliance-layers) — related-article
+- [Ledger](/generated/v2/glossary/ledger) — glossary
+- [Ledger](/generated/v2/glossary/ledger) — related-glossary
+- [Redemption](/generated/v2/glossary/redemption) — glossary
+- [Redemption](/generated/v2/glossary/redemption) — related-glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — related-glossary
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — article
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — related-article
+- [Treasury](/generated/v2/glossary/treasury) — glossary
+- [Treasury](/generated/v2/glossary/treasury) — related-glossary
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:swift-tokenised-payments-availability-settlement`

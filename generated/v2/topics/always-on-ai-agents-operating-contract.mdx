@@ -1,0 +1,70 @@
+---
+title: "Always-On AI Agents Need an Operating Contract, Not Just a Prompt"
+description: "OpenAI's new always-on agents make persistence a product feature. Businesses now need explicit operating contracts for scope, evidence, budgets and stop conditions."
+---
+
+# Always-On AI Agents Need an Operating Contract, Not Just a Prompt
+
+OpenAI's new always-on agents make persistence a product feature. Businesses now need explicit operating contracts for scope, evidence, budgets and stop conditions.
+
+<p><strong>Analysis:</strong> OpenAI's new dots product is being introduced as an always-on AI agent that can keep working across conversations, apps and recurring tasks. The product announcement matters because it moves the central design question beyond prompt quality. When an agent can continue working as conditions change, the real specification is an operating contract: what responsibility it owns, which resources it may use, what evidence it must return and when it must stop.</p>
+<p>This is not simply a safety concern. It is a product and management problem. A persistent agent needs the equivalent of a job description, a runbook and a review process. Without those, even competent work can drift away from the outcome the business intended.</p>
+<h2>What changed with always-on agents</h2>
+<p>On September 29, 2026, OpenAI <a href="https://openai.com/index/introducing-dots/" rel="noopener noreferrer">introduced dots</a> as agents powered by GPT-6 Astra, with their own cloud computer, browser and access to connected apps. OpenAI says they can handle ongoing projects, scheduled work and background research, while bringing consequential decisions back for review.</p>
+<p>The persistence is the important part. A conventional chat task usually has a visible beginning and end. A long-running agent can receive new information, accumulate memory, move between tools and continue after the original instruction has become stale. That makes the environment part of the specification.</p>
+<p>OpenAI's September 29 <a href="https://deploymentsafety.openai.com/gpt-6-astra/evaluating-auto-review" rel="noopener noreferrer">dots safety appendix</a> tests this directly. In one evaluation, the agent had to adapt when permissions or scope changed during a task. It passed 45 of 49 episodes, including all 17 explicit permission-change cases. In another test, increasing the number of intervening tasks from five to ten raised the rate of moderate scope-boundary flags from 8.6% to 19.7%. OpenAI says these evaluations are not necessarily representative of production, but the direction is useful: more accumulated context creates more boundary-management work.</p>
+<h2>Permissions are necessary, but not sufficient</h2>
+<p>I previously argued that <a href="https://jasonansell.ca/article/ai-agents-clear-permissions-openai-misalignment-disclosures">AI agents need clear permissions before they get more responsibility</a>. Persistent agents add another layer. A permission answers whether an action is allowed. An operating contract explains why the agent is working, which state it should maintain, how success is measured and what happens when the situation changes.</p>
+<p>OpenAI's workspace controls illustrate the distinction. Its <a href="https://help.openai.com/en/articles/20001554-manage-dots-in-chatgpt-workspaces" rel="noopener noreferrer">administrator documentation</a> separates access to dots from cloud-browser use, network access, computer access, password management, plugins and service-level authorization. There is no single permission switch that describes the whole operating boundary.</p>
+<p>For builders, this means authorization should be evaluated at each state transition. Reading a support queue, drafting a fix, running a test, opening a pull request and merging code are different states with different consequences. The agent should not inherit authority for the final state merely because it was allowed to begin the first one.</p>
+<h2>What an operating contract should contain</h2>
+<p>A useful operating contract can be short, but it should be explicit about six things:</p>
+<ul><li><strong>Mandate:</strong> the responsibility the agent owns and the outcomes it does not own.</li><li><strong>Authority:</strong> the systems it may read, the actions it may take and the actions that require review or handoff.</li><li><strong>Budgets:</strong> limits on time, compute, spending, messages, retries and parallel work.</li><li><strong>Evidence:</strong> the logs, tests, sources, screenshots or diffs required before work can be called complete.</li><li><strong>Checkpoints:</strong> moments when changing conditions, new stakeholders or expanding scope require renewed approval.</li><li><strong>Stop conditions:</strong> the failures, ambiguities, security signals or cost thresholds that end the run and notify an accountable person.</li></ul>
+<p>This is also where a definition of done becomes valuable. If an agent is told to “improve the website,” it can keep finding work. If it is told to correct three verified accessibility defects, pass named tests and prepare a reviewable change without publishing, the endpoint is observable.</p>
+<h2>Evidence should travel with the work</h2>
+<p>OpenAI's product examples emphasize completed pull requests, test results and review artifacts. That is the right direction. Persistent agents should return receipts, not just summaries. A decision-maker needs to see what changed, which source or test supported it, what remains uncertain and which actions occurred outside the reversible workspace.</p>
+<p>The company's <a href="https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs" rel="noopener noreferrer">privacy and safety FAQ</a> describes layered controls including plugin permissions, custom rules, automated action review and monitoring. It also warns that safeguards reduce risk rather than eliminate it, and that some completed actions cannot be reversed. An evidence trail therefore serves two purposes: quality review before approval and incident reconstruction after an unexpected result.</p>
+<h2>The practical Canadian question is data flow</h2>
+<p>For Canadian organizations, the first deployment question should be which connected information crosses into the agent's working context and where resulting files, memories and logs remain. As discussed in <a href="https://jasonansell.ca/article/canada-ai-vendor-privacy-guidance-architecture-checklist">Canada's AI vendor privacy guidance</a>, data mapping, retention, optional features and exit planning belong in architecture review rather than a later policy document.</p>
+<p>An operating contract should therefore identify data classes the agent may use, locations where it may create durable artifacts and the process for revoking access without assuming that previously retained context disappears automatically.</p>
+<h2>Limits and what would change this assessment</h2>
+<p>The evidence available today comes primarily from OpenAI's product documentation and internal evaluations. Dots are rolling out gradually, enterprise access begins as a beta, and the safety appendix says some tests isolate model behaviour without the full production safeguard stack. The reported figures should not be treated as independent proof of real-world reliability.</p>
+<p>This assessment would improve with external evaluations, public incident reporting, clearer admin telemetry and evidence showing how boundary failures change across months of real work. It would worsen if organizations treat persistence as permission, hide agent activity from reviewers or measure success only by task volume.</p>
+<p>Always-on agents can be genuinely useful. But their value will come from disciplined delegation, not unlimited initiative. The winning interface is unlikely to be one perfect prompt. It will be a living contract that keeps responsibility, authority, evidence and accountability aligned as the work changes.</p>
+<p><em>Disclosure: Jason Ansell is Co-Founder of Vector Smart Chain and author of The AI Money Revolution. Neither VSC nor the book is identified in OpenAI's materials, and this analysis does not imply a commercial relationship with OpenAI. This article is not legal, privacy or investment advice.</em></p>
+<h2>Sources</h2>
+<ul><li><a href="https://openai.com/index/introducing-dots/" rel="noopener noreferrer">OpenAI, Introducing dots</a> (September 29, 2026)</li><li><a href="https://deploymentsafety.openai.com/gpt-6-astra/evaluating-auto-review" rel="noopener noreferrer">OpenAI, GPT-6 Astra System Card, Appendix: dots</a> (added September 29, 2026)</li><li><a href="https://help.openai.com/en/articles/20001554-manage-dots-in-chatgpt-workspaces" rel="noopener noreferrer">OpenAI Help Center, Manage dots in ChatGPT workspaces</a> (accessed September 30, 2026)</li><li><a href="https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs" rel="noopener noreferrer">OpenAI Help Center, Dots privacy, security, and safety FAQs</a> (accessed September 30, 2026)</li></ul>
+
+## Key takeaways
+
+- Always-on agents require formal operating contracts rather than just simple prompt instructions to function effectively.
+- Persistent agents introduce risks of scope drift, requiring clear boundaries for authority and operational mandate.
+- An operating contract must specify mandates, budgets, checkpoints, and explicit stop conditions for the agent.
+- Agents should produce verifiable evidence for their work to enable quality review and post-incident analysis.
+- Authorization for autonomous agents must be re-evaluated at each state transition rather than inherited.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/always-on-ai-agents-operating-contract)
+## Related knowledge
+
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — article
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — related-article
+- [AI Agent](/generated/v2/glossary/ai-agent) — glossary
+- [AI Agent](/generated/v2/glossary/ai-agent) — related-glossary
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — article
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — related-article
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — article
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — related-article
+- [AI Agents, Automation, and the Death of Traditional Software Interfaces](/generated/v2/topics/ai-agents-automation-and-the-death-of-traditional-software-interfaces-2) — article
+- [AI Agents, Automation, and the Death of Traditional Software Interfaces](/generated/v2/topics/ai-agents-automation-and-the-death-of-traditional-software-interfaces-2) — related-article
+- [Checkpoint](/generated/v2/glossary/checkpoint) — glossary
+- [Checkpoint](/generated/v2/glossary/checkpoint) — related-glossary
+- [Safety](/generated/v2/glossary/safety) — glossary
+- [Safety](/generated/v2/glossary/safety) — related-glossary
+- [State Transition](/generated/v2/glossary/state-transition) — glossary
+- [State Transition](/generated/v2/glossary/state-transition) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:always-on-ai-agents-operating-contract`

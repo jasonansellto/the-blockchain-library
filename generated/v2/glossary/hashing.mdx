@@ -1,0 +1,67 @@
+---
+title: "Hashing"
+description: "Hashing is the process of converting input data of any size into a fixed-length string of characters, typically a hexadecimal number, using a cryptographic algorithm. This mathematical transformation is one-way, meaning the original data cannot be reconstructed from the hash. In "
+---
+
+# Hashing
+
+Hashing is the process of converting input data of any size into a fixed-length string of characters, typically a hexadecimal number, using a cryptographic algorithm. This mathematical transformation is one-way, meaning the original data cannot be reconstructed from the hash. In blockchain, hashing is foundational for data integrity, as even a tiny change in the input data results in a completely different hash output, allowing nodes to quickly verify that data has not been tampered with or corrupted.
+
+## Definition
+
+Hashing is the process of converting input data of any size into a fixed-length string of characters, typically a hexadecimal number, using a cryptographic algorithm. This mathematical transformation is one-way, meaning the original data cannot be reconstructed from the hash. In blockchain, hashing is foundational for data integrity, as even a tiny change in the input data results in a completely different hash output, allowing nodes to quickly verify that data has not been tampered with or corrupted.
+
+## Simple explanation
+
+Imagine a magical shredder that takes a huge document and turns it into a tiny, unique digital fingerprint. If you change even one single letter in the original document, the shredder creates a completely different fingerprint. In blockchain, this fingerprint is used to keep data safe. If someone tries to change the data in a block, the fingerprint won't match anymore, and the whole network will immediately know something is wrong.
+
+## Why it matters
+
+Hashing is the bedrock of blockchain security and integrity. It enables the creation of immutable chains of blocks and allows for the rapid identification of unauthorized data modifications, making it impossible to alter past transactions without detection.
+
+## How it works
+
+A cryptographic hash function, such as SHA-256, takes an input and processes it through a series of complex mathematical operations to produce a fixed-length output. If the input changes by even one bit, the Avalanche effect ensures the resulting hash changes entirely. By storing the hash of the previous block inside the header of the current block, the blockchain links them together, creating a chain where history cannot be rewritten.
+
+## Real-world example
+
+Bitcoin uses the SHA-256 hashing algorithm to secure its ledger and enable the Proof-of-Work consensus mechanism.
+
+## Advantages
+
+- Ensures data integrity and authenticity
+- Extremely fast verification of large data sets
+- Provides the foundation for immutable chains
+
+## Limitations
+
+- Susceptible to brute-force attacks on weak algorithms
+- One-way nature prevents data recovery
+- Collision risk exists if the hash length is too short
+
+## Common misconceptions
+
+- Many assume hashing is a form of encryption, but it is actually a one-way function that cannot be decrypted.
+- Some believe that two different inputs can produce the same hash, but while theoretically possible, it is computationally infeasible.
+## Related knowledge
+
+- [A Beginner’s Guide to Blockchain Technology: How It Works and Why It Matters](/generated/v2/topics/a-beginners-guide-to-blockchain-technology-how-it-works-and-why-it-matters) — article
+- [A Beginner’s Guide to Blockchain Technology: How It Works and Why It Matters](/generated/v2/topics/a-beginners-guide-to-blockchain-technology-how-it-works-and-why-it-matters) — related-article
+- [Block Header](/generated/v2/glossary/block-header) — term
+- [Cryptography](/categories/cryptography) — term
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Merkle Tree](/generated/v2/glossary/merkle-tree) — term
+- [Proof of Work](/generated/v2/glossary/proof-of-work) — term
+- [Quantum Computing Progress in 2025: Is Blockchain Still Safe?](/generated/v2/topics/quantum-computing-progress-in-2025-is-blockchain-still-safe) — article
+- [Quantum Computing Progress in 2025: Is Blockchain Still Safe?](/generated/v2/topics/quantum-computing-progress-in-2025-is-blockchain-still-safe) — related-article
+- [SHA-256](/generated/v2/glossary/sha-256) — term
+- [The Role of Quantum Computing in the Future of Blockchain Security](/generated/v2/topics/the-role-of-quantum-computing-in-the-future-of-blockchain-security) — article
+- [The Role of Quantum Computing in the Future of Blockchain Security](/generated/v2/topics/the-role-of-quantum-computing-in-the-future-of-blockchain-security) — related-article
+- [What Does Crypto Mean?](/generated/v2/topics/what-does-crypto-mean) — article
+- [What Does Crypto Mean?](/generated/v2/topics/what-does-crypto-mean) — related-article
+- [What is an Example of Web3?](/generated/v2/topics/what-is-an-example-of-web3) — article
+- [What is an Example of Web3?](/generated/v2/topics/what-is-an-example-of-web3) — related-article
+
+---
+
+**Canonical knowledge ID:** `glossary:hashing`

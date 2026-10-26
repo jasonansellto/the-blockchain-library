@@ -1,0 +1,87 @@
+---
+title: "Canada’s Stablecoin Framework Has Three Compliance Layers"
+description: "Canada’s Stablecoin Act governs issuers, but payment services and trading remain separate compliance layers. Builders need to map the role their product actually performs."
+---
+
+# Canada’s Stablecoin Framework Has Three Compliance Layers
+
+Canada’s Stablecoin Act governs issuers, but payment services and trading remain separate compliance layers. Builders need to map the role their product actually performs.
+
+<p><em>Analysis:</em> Canada’s stablecoin framework is not a single licence that makes every product using an approved token compliant. It is a layered system: federal supervision for non-financial issuers, payment-service oversight for certain payment functions, and securities regulation for exchange and trading activity.</p>
+<p>That distinction is the practical takeaway for builders. A wallet, exchange, merchant-payment service and token issuer may touch the same fiat-backed stablecoin while performing different regulated roles. A compliant asset does not automatically make every service built around it compliant.</p>
+
+<h2>The law exists, but the operating rules are still coming</h2>
+<p>Canada’s <a href="https://laws-lois.justice.gc.ca/eng/acts/S-15.9/FullText.html">Stablecoin Act</a> received Royal Assent on March 26, 2026. The official text also marks its operative provisions as not yet in force. The <a href="https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html">Department of Finance framework</a> says supporting regulations are being developed, with draft regulations to be published in the Canada Gazette and the framework expected to come into force in 2027.</p>
+<p>This means the architecture is visible, but important implementation details remain unsettled. Teams can identify which layer they are likely to occupy and build evidence into their systems now. They should not claim registration, approval or a final compliance position before the relevant rules and processes exist.</p>
+
+<h2>Layer one: issuing the stablecoin</h2>
+<p>The Stablecoin Act is aimed at non-financial institutions that issue fiat-backed stablecoins to people in Canada. Its definition of issuing covers creating a stablecoin and making it available for purchase, directly or indirectly, in Canada. Finance says the framework will apply to domestic and foreign issuers and will not distinguish between Canadian-dollar and foreign-currency stablecoins.</p>
+<p>The issuer layer carries the obligations most people associate with stablecoin safety. The framework calls for registration with the Bank of Canada, reserves at least equal to outstanding stablecoins, high-quality liquid assets in the reference currency, segregation at a qualified custodian, and redemption at par. The Act also requires policies for governance, risk management, data security, and recovery and resolution.</p>
+<p>The <a href="https://www.bankofcanada.ca/regulatory-oversight/stablecoins/">Bank of Canada describes its role</a> as registering issuers, supervising compliance, monitoring issuance and redemption risk, and taking enforcement action. Its focus is the issuer’s promise and the machinery supporting that promise—not every downstream use of the token.</p>
+
+<h2>Layer two: performing payment functions</h2>
+<p>A separate question arises when a product uses a stablecoin to provide a payment service. Finance says the Bank of Canada will supervise payment service providers under the Retail Payment Activities Act when they perform payment functions in a fiat-backed stablecoin, subject to that stablecoin being prescribed in regulation.</p>
+<p>The Bank’s <a href="https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/">payment-service registration guidance</a> uses a functional test. It examines whether a business provides accounts, holds funds, initiates transfers, transmits or authorizes payment instructions, or clears and settles transfers as a service. Geography and exclusions also matter.</p>
+<p>For product teams, the important boundary is activity rather than branding. Calling software a wallet, checkout tool or treasury dashboard does not answer whether it performs a regulated payment function. The transaction flow, custody model, customer relationship and revenue model provide the evidence.</p>
+
+<h2>Layer three: exchange and trading</h2>
+<p>Finance also says that securities regulators will continue to regulate the exchange and trading of fiat-backed stablecoins on securities exchanges and crypto-trading platforms. A platform therefore cannot treat issuer registration as a substitute for its own market, custody, disclosure or registration analysis.</p>
+<p>This is why “the stablecoin is regulated” is an incomplete product claim. It may describe the issuer layer while saying nothing about the intermediary that lists, swaps, routes, holds or settles the asset for a customer.</p>
+
+<h2>Build a role map before a compliance checklist</h2>
+<p>A useful design review should begin with four questions:</p>
+<ol>
+<li><strong>Who creates and redeems the token?</strong> Record the issuer, reserve model, direct redemption terms and evidence of registration when the regime is active.</li>
+<li><strong>Who holds assets or controls transfers?</strong> Map custody, account administration, instruction routing, settlement and every third party in the payment path.</li>
+<li><strong>Who enables exchange or trading?</strong> Identify listing, matching, swapping, brokerage and conversion functions instead of grouping them under a generic “crypto” label.</li>
+<li><strong>What happens when a dependency fails?</strong> Document freezes, rejected redemptions, chain incidents, custodian failures and the process for returning customer assets or moving to another provider.</li>
+</ol>
+<p>That role map should drive separate evidence packages. Issuer evidence includes reserves, segregation and redemption. Payment-service evidence includes operational risk controls, end-user fund safeguards and incident handling. Trading-platform evidence includes the requirements of the relevant securities regulator. One company may need more than one package.</p>
+<p>Reserve disclosures still matter, but they answer only part of the first layer. The related guide, <a href="https://jasonansell.ca/article/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee">How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee</a>, explains why asset quality, custody and redemption access must be evaluated separately.</p>
+
+<h2>Limits and what could change this assessment</h2>
+<p>This analysis describes the framework published by Finance, the enacted-but-not-in-force Stablecoin Act, and current Bank of Canada guidance. It is not legal advice. Final regulations could change definitions, exemptions, transition periods, prescribed stablecoins and the coordination between federal and provincial regimes.</p>
+<p>The assessment would change materially if draft regulations consolidate these layers into a coordinated application process, narrow which downstream stablecoin services fall under the Retail Payment Activities Act, or establish broad equivalence arrangements for foreign issuers. Until then, the safest architectural assumption is that issuer, payment and trading obligations must be mapped independently.</p>
+<p><em>Disclosure: Jason Ansell is a co-founder of Vector Smart Chain. This article does not assess VSC, any stablecoin, or any token as an investment.</em></p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://laws-lois.justice.gc.ca/eng/acts/S-15.9/FullText.html">Justice Laws Website: Stablecoin Act</a></li>
+<li><a href="https://www.canada.ca/en/department-finance/programs/financial-sector-policy/canadas-stablecoin-framework.html">Department of Finance Canada: Canada’s Stablecoin Framework</a></li>
+<li><a href="https://www.bankofcanada.ca/regulatory-oversight/stablecoins/">Bank of Canada: Stablecoins</a></li>
+<li><a href="https://www.bankofcanada.ca/2026/06/criteria-for-registering-payment-service-providers/">Bank of Canada: Criteria for registering payment service providers</a></li>
+</ul>
+
+## Key takeaways
+
+- Canada’s stablecoin framework uses a three-layer model: issuance, payment processing, and trading.
+- Registration as an issuer does not cover downstream wallet, exchange, or payment service activities.
+- The Stablecoin Act was passed in 2026, with full regulatory enforcement expected in 2027.
+- Product teams should map their specific operational roles before establishing a compliance strategy.
+- Compliance evidence must be prepared separately for each layer of the service provided.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/canada-stablecoin-framework-three-compliance-layers)
+## Related knowledge
+
+- [Fiat-Backed Stablecoin](/generated/v2/glossary/fiat-backed-stablecoin) — glossary
+- [Fiat-Backed Stablecoin](/generated/v2/glossary/fiat-backed-stablecoin) — related-glossary
+- [How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee](/generated/v2/topics/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee) — article
+- [How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee](/generated/v2/topics/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee) — related-article
+- [Redemption](/generated/v2/glossary/redemption) — glossary
+- [Redemption](/generated/v2/glossary/redemption) — related-glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — related-glossary
+- [Stablecoin Innovation in the United States](/generated/v2/research/stablecoin-innovation-in-the-united-states) — research
+- [Stablecoin Innovation in the United States](/generated/v2/research/stablecoin-innovation-in-the-united-states) — related-research
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — article
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — related-article
+- [The Role of Stable Capital in Volatile Markets](/generated/v2/topics/the-role-of-stable-capital-in-volatile-markets) — article
+- [The Role of Stable Capital in Volatile Markets](/generated/v2/topics/the-role-of-stable-capital-in-volatile-markets) — related-article
+- [Treasury](/generated/v2/glossary/treasury) — glossary
+- [Treasury](/generated/v2/glossary/treasury) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:canada-stablecoin-framework-three-compliance-layers`

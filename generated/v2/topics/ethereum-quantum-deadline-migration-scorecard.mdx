@@ -1,0 +1,66 @@
+---
+title: "Ethereum’s Quantum Deadline Needs a Migration Scorecard"
+description: "Ethereum’s new 2029 target is a useful commitment, not a forecast of quantum attacks. The next test is whether migration progress becomes measurable for the people building on it."
+---
+
+# Ethereum’s Quantum Deadline Needs a Migration Scorecard
+
+Ethereum’s new 2029 target is a useful commitment, not a forecast of quantum attacks. The next test is whether migration progress becomes measurable for the people building on it.
+
+<p><strong>Opinion.</strong> Ethereum’s new quantum-readiness target deserves attention for what it asks developers to deliver, not for what readers might imagine it predicts. My view is that a deadline becomes valuable when it creates a public way to measure unfinished work. Without that, a distant date can become either a marketing badge or a source of unnecessary alarm.</p>
+<p>The practical question for businesses building on blockchain is therefore not simply whether a network has announced a quantum plan. It is whether the parts their products depend on can make the transition together, and whether anyone can demonstrate that before customers must rely on them.</p>
+<h2>A target is not a forecast</h2>
+<p>In its <a href="https://blog.ethereum.org/2026/09/07/protocol-priorities">September 7, 2026 priorities post</a>, the Ethereum Foundation’s Protocol cluster set a December 2029 target for quantum resistance across Ethereum L1’s execution, consensus and data layers. It described planning for a quantum threat as early as 2030 as a deliberately aggressive assumption, not a confident prediction. The post also distinguishes full readiness from a minimum viable contingency with reduced guarantees that researchers are still defining.</p>
+<p>Those distinctions matter. This is a development commitment by the Protocol cluster, not independent evidence that the work is complete or that an attack will become feasible on a particular date. Readers should keep the announced target, the contingency and the uncertain threat timeline separate.</p>
+<h2>The scorecard I would want to see</h2>
+<p>I would assess progress through a small set of explicit questions. Which security function is changing? Which release is expected to deliver it? What test demonstrates that it works with the other components? What remains outside the claim? Who has responsibility for closing that gap?</p>
+<p>For example, consider a hypothetical application whose customer interface, signing device and settlement network come from different suppliers. A successful demonstration by one supplier would not establish that a customer can complete the whole workflow. A useful progress report would identify the unsupported combination instead of averaging it away into a broad readiness percentage.</p>
+<p>That is why I would prefer a list of completed, tested transitions and named blockers over an unexplained “quantum-ready” label. The label compresses too many different questions. It can obscure whether a feature is specified, available for testing, enabled in a released product or actually used by customers.</p>
+<h2>Standards do not complete an integration</h2>
+<p><a href="https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc">NIST’s National Cybersecurity Center of Excellence migration project</a> separates cryptographic discovery from interoperability testing. Its work covers finding where cryptography is used and testing compatibility in controlled environments. The project notes that NIST released three post-quantum standards in August 2024. Those standards are background to today’s implementation work, not a new September 2026 announcement.</p>
+<p>My interpretation is that teams should ask for two different kinds of evidence: a defensible account of what must change, and a demonstration that the proposed replacement works in context. Neither substitutes for the other. An excellent test of a component nobody depends on says little about the difficult parts of a real migration.</p>
+<p>A business reviewing a vendor could make this concrete without trying to become a cryptography laboratory. Ask the vendor to define exactly which product version its claim covers, what customer action is required and what happens to an unsupported integration. Record unresolved answers as dependencies, rather than treating a presentation as delivery.</p>
+<h2>The Canadian comparison has a defined scope</h2>
+<p>Canada’s <a href="https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001">federal migration roadmap</a>, effective June 23, 2025, sets out milestones for non-classified Government of Canada IT: initial departmental plans in April 2026, high-priority systems by the end of 2031 and remaining systems by the end of 2035. It also calls for progress reporting and inventories that identify dependencies and responsible contacts.</p>
+<p>This is a useful Canadian reference, but those milestones should not be presented as universal deadlines for every private business. Nor does the difference between Canada’s dates and Ethereum’s target establish that one programme is safer. Their scope, responsibilities and systems differ.</p>
+<p>The comparison I find valuable is the visibility of responsibility. A date accompanied by an inventory and an accountable owner gives outsiders something to question. A date without those details mostly gives them something to repeat.</p>
+<h2>What would change my assessment</h2>
+<p>I would become more confident in the value of Ethereum’s target as public evidence shows integrated tests, clearly bounded readiness claims and workable transitions for affected users. I would become less confident if the headline date stayed fixed while definitions became vaguer or unresolved dependencies disappeared from public reporting.</p>
+<p>There is a real counterargument: too much reporting can consume the engineering time it is meant to protect. The answer should be a compact, evidence-linked scorecard, not an elaborate reporting industry. A short record of what passed, what failed and what changed would be enough to make the commitment more useful.</p>
+<p>This assessment does not independently audit Ethereum’s implementations or estimate when a cryptographically relevant quantum computer will exist. It argues for a way to judge delivery under uncertainty. Readers can explore the wider infrastructure context in the <a href="https://jasonansell.ca/topics/blockchain">blockchain topic guide</a>.</p>
+<p><strong>Disclosure:</strong> <a href="https://jasonansell.ca/about">Jason Ansell</a> is Co-Founder of Vector Smart Chain and an author of blockchain books. Those interests are relevant to this commentary; no comparative readiness claim about VSC is made here. The application example is hypothetical.</p>
+<h2>Sources</h2>
+<ul><li>Ethereum Foundation Protocol Cluster, <a href="https://blog.ethereum.org/2026/09/07/protocol-priorities">Current and Emerging Priorities</a>, September 7, 2026.</li><li>NIST NCCoE, <a href="https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc">Migration to Post-Quantum Cryptography</a>, project page reviewed September 18, 2026.</li><li>Canadian Centre for Cyber Security, <a href="https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001">Government of Canada migration roadmap</a>, effective June 23, 2025.</li></ul>
+
+## Key takeaways
+
+- Ethereum's 2029 quantum-readiness target serves as a development commitment rather than a prediction of specific threat timelines.
+- Effective migration requires transparent, evidence-based scorecards rather than vague, high-level readiness labels.
+- Integration testing is vital, as a single component's quantum readiness does not guarantee system-wide security for end users.
+- Public reporting should focus on identifying responsible owners, documented dependencies, and verifiable test results to track progress.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/ethereum-quantum-deadline-migration-scorecard)
+## Related knowledge
+
+- [Blockchain Security Risk Assessment in Quantum Era, Migration Strategies and Proactive Defense](/generated/v2/research/blockchain-security-risk-assessment-in-quantum-era-migration-strategies-and-proactive-defense) — research
+- [Blockchain Security Risk Assessment in Quantum Era, Migration Strategies and Proactive Defense](/generated/v2/research/blockchain-security-risk-assessment-in-quantum-era-migration-strategies-and-proactive-defense) — related-research
+- [Cryptography](/generated/v2/glossary/cryptography) — glossary
+- [Cryptography](/generated/v2/glossary/cryptography) — related-glossary
+- [Ethereum](/generated/v2/glossary/ethereum) — glossary
+- [Ethereum](/generated/v2/glossary/ethereum) — related-glossary
+- [Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant](/generated/v2/topics/ethereum-glamsterdam-gas-assumptions-test-suite) — article
+- [Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant](/generated/v2/topics/ethereum-glamsterdam-gas-assumptions-test-suite) — related-article
+- [Is Ethereum a block chain?](/generated/v2/topics/is-ethereum-a-block-chain) — article
+- [Is Ethereum a block chain?](/generated/v2/topics/is-ethereum-a-block-chain) — related-article
+- [Quantum and Post-Quantum Blockchain: A Systematic Survey](/generated/v2/research/quantum-and-post-quantum-blockchain-a-systematic-survey) — research
+- [Quantum and Post-Quantum Blockchain: A Systematic Survey](/generated/v2/research/quantum-and-post-quantum-blockchain-a-systematic-survey) — related-research
+- [Quantum Resistance](/generated/v2/glossary/quantum-resistance) — glossary
+- [Quantum Resistance](/generated/v2/glossary/quantum-resistance) — related-glossary
+- [Top 10 Blockchain Projects That Defined 2025](/generated/v2/topics/top-10-blockchain-projects-that-defined-2025) — article
+- [Top 10 Blockchain Projects That Defined 2025](/generated/v2/topics/top-10-blockchain-projects-that-defined-2025) — related-article
+
+---
+
+**Canonical knowledge ID:** `topic:ethereum-quantum-deadline-migration-scorecard`

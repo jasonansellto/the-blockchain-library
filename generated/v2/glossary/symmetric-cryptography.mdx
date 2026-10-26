@@ -1,0 +1,53 @@
+---
+title: "Symmetric Cryptography"
+description: "Symmetric cryptography, also known as secret-key cryptography, is a method of encryption where a single, shared private key is used to both encrypt and decrypt digital information. Because the same key is required for both ends of the communication, the security of the data relie"
+---
+
+# Symmetric Cryptography
+
+Symmetric cryptography, also known as secret-key cryptography, is a method of encryption where a single, shared private key is used to both encrypt and decrypt digital information. Because the same key is required for both ends of the communication, the security of the data relies entirely on the secrecy of the key. It is computationally efficient and faster than asymmetric (public-key) methods, making it ideal for bulk data encryption and securing large amounts of sensitive information at rest or in transit.
+
+## Definition
+
+Symmetric cryptography, also known as secret-key cryptography, is a method of encryption where a single, shared private key is used to both encrypt and decrypt digital information. Because the same key is required for both ends of the communication, the security of the data relies entirely on the secrecy of the key. It is computationally efficient and faster than asymmetric (public-key) methods, making it ideal for bulk data encryption and securing large amounts of sensitive information at rest or in transit.
+
+## Simple explanation
+
+Imagine you and a friend share a secret box with a single physical key that you both keep copies of. You put your note in the box, lock it, and send it to your friend; your friend uses their matching key to unlock it and read the note. Since only the two of you have this exact key, nobody else can open the box. In computing, that 'key' is a long string of numbers used to scramble and unscramble digital files.
+
+## Why it matters
+
+In the blockchain ecosystem, symmetric encryption is essential for protecting private keys stored in wallets and securing communication channels between network nodes. Its speed and efficiency allow for the encrypted storage of massive amounts of data without overwhelming the processing power of decentralized applications.
+
+## How it works
+
+The algorithm takes a plaintext message and a secret key, applying complex mathematical operations to transform the data into unreadable ciphertext. To recover the original data, the receiver uses the same algorithm and the exact same secret key to reverse the operations. This process is repeated for every communication session or data block, ensuring confidentiality so long as the key remains confidential.
+
+## Real-world example
+
+The AES (Advanced Encryption Standard) algorithm is the most common real-world implementation, used extensively by Bitcoin core software to encrypt local wallet files, such as 'wallet.dat', protecting user assets from unauthorized local access.
+
+## Advantages
+
+- High computational speed and efficiency
+- Low processing overhead for large data
+- Well-suited for bulk data encryption
+
+## Limitations
+
+- Secure key distribution is difficult
+- Single point of failure for security
+- Does not provide non-repudiation
+
+## Common misconceptions
+
+- Many people believe symmetric keys can be shared openly across public networks like asymmetric keys.
+- Some users mistakenly assume that symmetric encryption is insecure because it uses a single key.
+## Related knowledge
+
+- [Encryption](/generated/v2/glossary/encryption) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:symmetric-cryptography`

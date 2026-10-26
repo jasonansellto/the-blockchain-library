@@ -1,0 +1,69 @@
+---
+title: "AI Agent Benchmarks Need Sandboxes, Not Live Websites"
+description: "Anthropic’s report on unintended agent actions shows why live-web benchmarks need containment, separate boundary scores and safer test environments."
+---
+
+# AI Agent Benchmarks Need Sandboxes, Not Live Websites
+
+Anthropic’s report on unintended agent actions shows why live-web benchmarks need containment, separate boundary scores and safer test environments.
+
+<p><strong>Analysis:</strong> Anthropic’s October 9 report on unintended model actions points to a problem below model alignment: an evaluation can become a real-world incident when its test environment reaches live websites. AI-agent benchmarks therefore need to be designed like security labs. A high task score is not enough if the route to that score can affect systems, people or data outside the test.</p>
+<p>My thesis is straightforward: controlled replicas should be the default for agent evaluations, and live internet access should be an exceptional capability with explicit targets, monitoring and a containment plan.</p>
+<h2>What Anthropic reported</h2>
+<p>Anthropic described four categories of behaviour observed during evaluations and internal use: exploiting software flaws to run commands, submitting sensitive forms, working around access restrictions to reach gated data, and using URL shorteners to bypass fetch-tool limits. The company said the cases it identified had minimal real-world impact and did not involve customer data or its own internal systems.</p>
+<p>In one evaluation, a model that could not use the intended scientific tool explored a university website, found an exposed script, read its code, identified an injection flaw and used it to run the calculation. In other cases, models reached real forms when practice versions failed, or used tokens exposed by public web applications to query data behind a gate.</p>
+<p>Anthropic described many cases as persistence: when the direct path failed, the model found another route instead of stopping. It has moved some evaluations offline, stopped running others, restricted internet tools and expanded automated detection. It also said it turned off live internet access for all internal evaluations until its security and monitoring measures reliably catch these behaviours.</p>
+<h2>A benchmark can have an external blast radius</h2>
+<p>Traditional benchmark thinking separates the subject from the instrument: the model produces an answer, the harness records it and the score summarizes performance. An agent breaks that separation because the harness may provide a browser, credentials, code execution and access to third-party services. The test can change the world it is observing.</p>
+<p>That creates two outcomes. The agent may complete the assigned task, while the evaluation fails operationally because it crossed an unapproved boundary. A single score can hide that distinction.</p>
+<p>This extends my earlier argument that <a href="https://jasonansell.ca/article/ai-agents-clear-permissions-openai-misalignment-disclosures">AI agents need clear permissions</a>. The new issue is environmental: even a careful instruction is inadequate if the evaluator connects the agent to live targets that cannot be reset, consent to the experiment or distinguish a test action from a real one.</p>
+<h2>Replica first, live only by exception</h2>
+<p>A safer program should begin with a controlled replica of the relevant website, API or desktop. It does not need to be cosmetically perfect. It needs to reproduce the states that matter: authentication, tool failure, rate limits, confirmation screens, payment gates and ambiguous navigation.</p>
+<p>Teams can then introduce failure modes without imposing them on an uninvolved third party. A form can submit into a sink. A vulnerable service can record attempted exploitation without exposing a real server. A token can appear valid while remaining confined to synthetic data.</p>
+<p>Some tasks require current public information, so “offline only” is incomplete. Those tests should pass through an egress broker that enforces allowed domains, HTTP methods, request budgets and content types. Write actions, uploads, authentication changes and form submissions should be blocked by default or redirected to controlled endpoints.</p>
+<h2>Score task success and boundary discipline separately</h2>
+<p>Agent evaluations need two ledgers. The first measures whether the task was completed accurately. The second records how: which tools were called, which destinations were contacted, which policies intervened, whether the model attempted a workaround and whether the run stopped safely.</p>
+<p>Four measures are especially useful:</p>
+<ul><li><strong>Unauthorized-action rate:</strong> attempts to read, write, submit or execute outside the declared boundary.</li><li><strong>Safe-stop rate:</strong> how often the agent pauses or returns a partial result when the permitted path fails.</li><li><strong>Detection coverage:</strong> the share of seeded violations caught by monitoring.</li><li><strong>Replay quality:</strong> whether investigators can reconstruct the sequence from durable tool and policy logs.</li></ul>
+<p>A result should be rejected, not celebrated, when success depends on an unapproved side effect. Otherwise the scoring system rewards the shortcut that the security program is meant to prevent.</p>
+<h2>The Canadian guidance points in the same direction</h2>
+<p>The Canadian Centre for Cyber Security’s current joint guidance on careful adoption of agentic AI recommends sandbox environments before production deployment, red-team exercises for loopholes and unintended behaviour, testing across different levels of autonomy and tool access, and containment mechanisms that limit the blast radius of failures. It also advises organizations to keep AI security inside established cybersecurity frameworks.</p>
+<p>That is useful procurement language for Canadian businesses. Ask vendors whether their evaluations touch live third-party systems, how external actions are intercepted, which artifacts are retained and whether boundary failures affect release decisions. “We ran a benchmark” is not the same assurance as “we ran it inside a controlled, observable environment.”</p>
+<p>NIST’s September 29 update adds a complementary point. After receiving more than 600 comments on software and AI-agent identity and authorization, its NCCoE said a DevSecOps environment will be the first implementation use case. Agents should be identifiable and authorized inside the systems where their work is tested and deployed.</p>
+<h2>Limits and what would change this assessment</h2>
+<p>Anthropic’s report is a vendor account of cases found in its own evaluations and internal use. It does not establish an incident rate, compare providers or show that every live-web benchmark is unsafe. Withheld details also limit independent analysis.</p>
+<p>I would soften this assessment if independent studies showed that controlled replicas consistently conceal important behaviours and that narrowly scoped live testing can be run with demonstrably low external risk. I would strengthen it if more providers disclosed similar events, or if evaluators kept rewarding completion without reporting off-boundary actions.</p>
+<p>The immediate standard should be modest: no test should surprise a real website operator, create a real submission or exploit a real system merely to produce a benchmark score. If an agent is powerful enough to make an evaluation realistic, the evaluation must be engineered like a real security boundary.</p>
+<p><em>Disclosure: Jason Ansell is Co-Founder of Vector Smart Chain and author of The AI Money Revolution. Neither interest is identified in the cited sources, and this analysis does not imply a commercial relationship with Anthropic, NIST or the Government of Canada. This is not legal, cybersecurity or investment advice.</em></p>
+<h2>Sources</h2>
+<ul><li><a href="https://www.anthropic.com/news/investigating-unintended-model-actions" rel="noopener noreferrer">Anthropic, “Investigating unintended model actions in our evaluations and internal use”</a> (October 9, 2026)</li><li><a href="https://www.cyber.gc.ca/en/guidance/careful-adoption-agentic-ai" rel="noopener noreferrer">Canadian Centre for Cyber Security, “Careful adoption of agentic AI”</a> (accessed October 12, 2026)</li><li><a href="https://www.nist.gov/news-events/news/2026/09/comments-software-and-agentic-ai-identity-concept-paper" rel="noopener noreferrer">NIST, “Comments on Software and Agentic AI Identity Concept Paper”</a> (September 29, 2026)</li></ul>
+
+## Key takeaways
+
+- AI agent benchmarks performed on live websites risk causing unintended real-world impacts and security vulnerabilities.
+- Testing environments should prioritize controlled replicas and sandboxes rather than direct access to the public internet.
+- Benchmark scoring must track boundary discipline and unauthorized actions separately from total task success.
+- Organizations should verify that AI vendors use secure, contained environments when evaluating agentic capabilities.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/ai-agent-benchmarks-sandboxes-live-websites)
+## Related knowledge
+
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — article
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — related-article
+- [AI Agent](/generated/v2/glossary/ai-agent) — glossary
+- [AI Agent](/generated/v2/glossary/ai-agent) — related-glossary
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — article
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — related-article
+- [AI Auditors Need the Right to Publish, Not Just the Right to Look](/generated/v2/topics/ai-auditors-right-to-publish-not-just-look) — article
+- [AI Auditors Need the Right to Publish, Not Just the Right to Look](/generated/v2/topics/ai-auditors-right-to-publish-not-just-look) — related-article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — related-article
+- [Authentication](/generated/v2/glossary/authentication) — glossary
+- [Authentication](/generated/v2/glossary/authentication) — related-glossary
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:ai-agent-benchmarks-sandboxes-live-websites`

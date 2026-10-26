@@ -1,0 +1,64 @@
+---
+title: "Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home"
+description: "Anthropic's Agent Skills donation is good governance. The harder work is making portable skills trustworthy before they spread across agent platforms."
+---
+
+# Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home
+
+Anthropic's Agent Skills donation is good governance. The harder work is making portable skills trustworthy before they spread across agent platforms.
+
+<p><strong>Opinion.</strong> Anthropic's donation of the Agent Skills standard to the Linux Foundation's Agentic AI Foundation is a welcome governance move. It reduces the chance that a useful interoperability layer remains controlled by one vendor. But a neutral home is only the beginning. If skills are meant to move easily between agents, the standard now needs to treat them as a software supply chain: versioned, attributable, permission-aware, testable and safe to roll back.</p>
+<p>That is the practical issue behind the October 22 announcement. Anthropic says more than 70 agent platforms have integrated Agent Skills since the standard was published in December 2025. The Linux Foundation describes the format as a reusable package of instructions, scripts and resources that agents can load on demand. The format's own repository is even more direct: a skill is a folder with a required <code>SKILL.md</code> file, and it may also contain executable scripts, references, templates and other assets.</p>
+<p>Portability is the advantage. It is also the risk multiplier.</p>
+<h2>Governance does not replace verification</h2>
+<p>Neutral governance can improve participation, reduce lock-in and make a roadmap more credible. Anthropic says the Agent Skills name, logo, GitHub organization and domain are moving to the foundation, with maintainers from several companies acting as individuals. It has proposed versioned releases, a formal proposal process and security guidance.</p>
+<p>Those are sensible first steps, but the word <em>proposed</em> matters. A portable skill can shape an agent's behaviour and can ship code that the agent may execute. Trusting the foundation that hosts a standard is not the same as trusting every package created under that standard. Open governance answers who can change the rules. Supply-chain controls answer which artifact was installed, who produced it, what it can access, what changed and how to recover when it fails.</p>
+<p>The current specification already makes skills auditable in a useful sense: they are files that can be reviewed and version-controlled. Yet review becomes harder as catalogues grow and agents activate skills dynamically. A human cannot inspect every instruction, transitive dependency and script at the moment an agent needs it. The standard therefore needs machine-readable signals, not only prose.</p>
+<h2>Five requirements should move to the front of the roadmap</h2>
+<p><strong>First, releases need explicit compatibility rules.</strong> A version number is useful only if builders know which changes can alter behaviour, which agent features a skill requires and whether an older runtime should refuse the package. Pinning to an immutable version must be normal, not an expert-only workaround.</p>
+<p><strong>Second, every skill should declare capabilities.</strong> A platform should be able to determine before activation whether a skill expects shell access, file writes, browser control, secrets, external network calls or particular tools. A February 2026 community proposal in the Agent Skills repository called for such structured declarations. That proposal is not part of the adopted standard, but it identifies the right design question: permission prompts and policy engines need data they can evaluate before execution.</p>
+<p><strong>Third, provenance should be verifiable.</strong> Skills need signed release artifacts or an equivalent attestation model, content hashes, publisher identity and a transparent record of what was reviewed. A familiar name in a catalogue is not enough if a mirror, dependency or update can change the bytes.</p>
+<p><strong>Fourth, dependencies need first-class metadata.</strong> If a skill relies on packages, command-line tools, models or remote services, those requirements should be declared with constrained versions and integrity information. Reproducible installation matters because the same <code>SKILL.md</code> can behave differently when its surrounding environment changes.</p>
+<p><strong>Fifth, conformance should include behaviour.</strong> The official Agent Skills documentation recommends running structured evaluations with and without a skill or against a previous version. The foundation can build on that advice by defining portable test fixtures, permission-denial tests and rollback criteria. Passing a schema check proves that a package is shaped correctly; it does not prove that the package produces acceptable outcomes.</p>
+<h2>What builders should do now</h2>
+<p>Teams should not wait for the governance roadmap to harden. Pin skills to reviewed commits or releases. Inspect bundled scripts and dependencies. Run them with least privilege, deny outbound access by default and separate test data from production credentials. Maintain an approved catalogue with an owner and review date for every skill. Record which version produced an important output, and keep a fast rollback path.</p>
+<p>Most importantly, evaluate skills inside the same sandbox and tool policy used in production. A good score in an unconstrained test environment says little about a deployment where the agent can write files, call APIs or publish content. That is the same operational lesson behind <a href="https://jasonansell.ca/article/ai-agent-benchmarks-sandboxes-live-websites">testing AI agents with realistic sandboxes</a>: capability and control have to be measured together.</p>
+<h2>Limits and what would change my assessment</h2>
+<p>This is an early governance announcement, not a completed security program. The AAIF may deliver strong guidance and compatibility rules quickly, and individual platforms can enforce safeguards beyond the base format. A skill that contains only instructions also presents a different risk profile from one that includes executable code. The controls should reflect that difference rather than treating every package as equally dangerous.</p>
+<p>I would become less concerned if the first versioned releases include capability declarations, provenance or signing, dependency metadata and shared conformance tests, with major platforms actually enforcing them. I would become more concerned if growth is measured mainly by skill counts and installations while security guidance remains optional prose. Neutral governance is a valuable foundation. The next milestone is a trust layer that travels with the skill.</p>
+<h2>Sources</h2>
+<ul><li><a href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation" rel="noopener noreferrer">Anthropic: Donating Agent Skills to the Agentic AI Foundation</a>, October 22, 2026</li><li><a href="https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox" rel="noopener noreferrer">Linux Foundation: AAIF announces four new projects</a>, October 22, 2026</li><li><a href="https://github.com/agentskills/agentskills" rel="noopener noreferrer">Agent Skills specification repository</a></li><li><a href="https://agentskills.io/skill-creation/evaluating-skills" rel="noopener noreferrer">Agent Skills: Evaluating skill output quality</a></li><li><a href="https://github.com/agentskills/agentskills/discussions/181" rel="noopener noreferrer">Community proposal: capability declarations for skills</a>, February 18, 2026</li></ul>
+<p><em>Disclosure: Jason Ansell is the author of <span>The AI Money Revolution</span>. This article does not evaluate or promote the book, and no commercial relationship with Anthropic or the Agentic AI Foundation is asserted.</em></p>
+
+## Key takeaways
+
+- Anthropic transferred the Agent Skills standard to the Linux Foundation to promote vendor-neutral governance.
+- Portable AI skills introduce significant security risks that require supply-chain controls like versioning and provenance.
+- The standard needs machine-readable signals for capability declarations and dependency management to ensure safety.
+- Development teams should treat agent skills like software, using strict versioning, sandboxing, and permission policies.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/agent-skills-supply-chain-rules-neutral-home)
+## Related knowledge
+
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — article
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — related-article
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — article
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — related-article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — related-article
+- [Attestation](/generated/v2/glossary/attestation) — glossary
+- [Attestation](/generated/v2/glossary/attestation) — related-glossary
+- [Blockchain for IoT security and privacy: The case study of a smart home](/generated/v2/research/blockchain-for-iot-security-and-privacy-the-case-study-of-a-smart-home) — research
+- [Blockchain for IoT security and privacy: The case study of a smart home](/generated/v2/research/blockchain-for-iot-security-and-privacy-the-case-study-of-a-smart-home) — related-research
+- [Governance](/generated/v2/glossary/governance) — glossary
+- [Governance](/generated/v2/glossary/governance) — related-glossary
+- [Metadata](/generated/v2/glossary/metadata) — glossary
+- [Metadata](/generated/v2/glossary/metadata) — related-glossary
+- [NISTIR 8202: Blockchain Technology Overview](/generated/v2/research/nistir-8202-blockchain-technology-overview) — research
+- [NISTIR 8202: Blockchain Technology Overview](/generated/v2/research/nistir-8202-blockchain-technology-overview) — related-research
+
+---
+
+**Canonical knowledge ID:** `topic:agent-skills-supply-chain-rules-neutral-home`

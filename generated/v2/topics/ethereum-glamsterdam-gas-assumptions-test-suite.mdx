@@ -1,0 +1,83 @@
+---
+title: "Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant"
+description: "Ethereum’s Glamsterdam upgrade changes more than capacity. It turns gas, state access and builder interfaces into versioned dependencies teams must test."
+---
+
+# Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant
+
+Ethereum’s Glamsterdam upgrade changes more than capacity. It turns gas, state access and builder interfaces into versioned dependencies teams must test.
+
+<p><strong>Analysis.</strong> Ethereum’s Glamsterdam upgrade is often summarized as a path to more Layer 1 capacity. For application teams, the more important change is methodological: gas behavior, state access and block production can no longer be treated as stable background constants. They are becoming versioned dependencies that belong in a project’s test matrix.</p>
+
+<p>The immediate milestone is not mainnet. The <a href="https://blog.ethereum.org/en/2026/10/16/glamsterdam-hoodi-announcement" rel="noopener noreferrer">Ethereum Foundation’s October 16 announcement</a> says Glamsterdam activated on Sepolia on October 6 and is scheduled for Hoodi on October 26 at 17:42:48 UTC. Hoodi’s gas limit will rise to 200 million at that activation. The mainnet date remains undecided. That distinction matters: builders have a valuable testing window, not a launch deadline.</p>
+
+<h2>Three changes have to be tested together</h2>
+
+<p>Glamsterdam combines several proposals, but three form the core operational story.</p>
+
+<p>First, <a href="https://eips.ethereum.org/EIPS/eip-7732" rel="noopener noreferrer">EIP-7732</a> brings proposer-builder separation into the consensus protocol. A proposer includes a builder’s commitment, the builder later reveals the execution payload, and the protocol handles payment. Consensus validation is separated from execution validation, while a payload timeliness committee checks whether the reveal and blob data arrived on time. This is more than a validator upgrade: teams operating relays, builders, monitoring or failover systems need to validate new duties and interfaces.</p>
+
+<p>Second, <a href="https://eips.ethereum.org/EIPS/eip-7928" rel="noopener noreferrer">EIP-7928</a> introduces enforced block-level access lists. These lists record the accounts and storage locations touched during execution, plus post-transaction values. The proposal is designed to enable parallel disk reads, transaction validation and state-root calculation. It also changes the data exchanged through the Engine API. A missing or spurious entry can invalidate a block, so infrastructure teams should treat the access list as consensus-critical data, not optional metadata.</p>
+
+<p>Third, Glamsterdam reprices persistent state. <a href="https://eips.ethereum.org/EIPS/eip-8037" rel="noopener noreferrer">EIP-8037</a> gives state creation its own accounting dimension and raises costs intended to better reflect long-term storage burdens; EIP-8038 revises state-access costs. The EIP-8037 authors model these changes against rapid state growth and larger blocks, but their measurements and projections are proposal evidence, not guarantees about future network behavior. The practical lesson is narrower: operations that create, touch or retain state can change relative cost even when their business logic is unchanged.</p>
+
+<p>Together, these are coordinated capacity changes. Proposer-builder separation creates more room for payload validation. Block-level access lists make parallel work possible. Repricing makes the resource budget more explicit. Testing any one in isolation risks missing the interaction.</p>
+
+<h2>A builder’s Glamsterdam test matrix</h2>
+
+<p>The Ethereum Foundation’s <a href="https://blog.ethereum.org/2026/08/24/glamsterdam-repricing-testing" rel="noopener noreferrer">repricing impact analysis</a> replayed historical mainnet transactions under the proposed schedule. It reports that the large majority were unchanged, while a smaller group either failed or degraded. Many flagged transactions were resolved by increasing the gas limit. The recurring risk patterns were fixed 2,300-gas stipends, hardcoded call limits, branches based on <code>gasleft()</code>, and pre-signed transactions with fixed gas.</p>
+
+<p>That evidence argues against panic and against complacency. A useful test plan should cover four layers:</p>
+
+<ul>
+  <li><strong>Contracts:</strong> replay high-value paths, failure paths, factory deployments, storage-heavy operations and value transfers on Sepolia and Hoodi. Record the result, gas used and state created instead of checking only whether a transaction succeeded.</li>
+  <li><strong>Wallet and application code:</strong> remove fixed stipends and cached gas constants where possible. Re-test <code>eth_estimateGas</code>, transaction simulation, sponsorship rules, account-abstraction bundlers and paymasters.</li>
+  <li><strong>Infrastructure:</strong> update both execution and consensus clients where applicable. Test builder connections, Engine API integrations, monitoring and failover against the confirmed Hoodi client releases rather than assuming a pre-upgrade interface still works.</li>
+  <li><strong>Operations:</strong> set alerts for changed failure rates, estimation variance and state-heavy workloads. Preserve comparable pre-upgrade baselines so regressions are measurable.</li>
+</ul>
+
+<p>This is the same design direction discussed in <a href="https://jasonansell.ca/article/wallets-should-sign-outcomes-not-just-instructions">why wallets should sign outcomes, not only instructions</a>: implicit execution assumptions become safer when systems expose and verify them. Glamsterdam applies that principle lower in the stack.</p>
+
+<h2>What is not known yet</h2>
+
+<p>Hoodi is a testnet, not a forecast of mainnet load, builder competition or every production integration. Several specifications remain in Last Call, client release tables are still being completed, and final operational guidance can change. A successful activation would show that implementations agree under test conditions; it would not prove that every application has removed brittle gas assumptions.</p>
+
+<p>The assessment should change if Hoodi reveals material client divergence, payload-timing failures, access-list inconsistencies or widespread application breakage. It should also change when final gas parameters, complete client support and a mainnet schedule are published. Until then, the responsible posture is readiness without invented urgency.</p>
+
+<p><strong>Bottom line:</strong> Glamsterdam makes Ethereum’s scaling work more explicit at every layer. The best preparation is not guessing a mainnet date. It is turning gas, state and builder-interface assumptions into reproducible tests while there is still time to learn from testnets.</p>
+
+<p><em>Disclosure: Jason Ansell co-founded Vector Smart Chain, a separate blockchain network. This analysis is based on public Ethereum specifications and Foundation material. It is not investment advice.</em></p>
+
+## Key takeaways
+
+- Glamsterdam shifts gas and state access from stable constants to versioned, testable dependencies.
+- Proposer-builder separation is now integrated directly into the Ethereum consensus protocol.
+- Enforced access lists enable parallel transaction processing but require strict infrastructure implementation.
+- Application teams must remove hardcoded gas stipends and constants to prevent transaction failures.
+- The Hoodi testnet provides a vital window to validate infrastructure against new block-level requirements.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/ethereum-glamsterdam-gas-assumptions-test-suite)
+## Related knowledge
+
+- [Bundler](/generated/v2/glossary/bundler) — glossary
+- [Bundler](/generated/v2/glossary/bundler) — related-glossary
+- [EIP-2938: Account Abstraction](/generated/v2/research/eip-2938-account-abstraction) — research
+- [EIP-2938: Account Abstraction](/generated/v2/research/eip-2938-account-abstraction) — related-research
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](/generated/v2/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform) — research
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](/generated/v2/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform) — related-research
+- [Gas Limit](/generated/v2/glossary/gas-limit) — glossary
+- [Gas Limit](/generated/v2/glossary/gas-limit) — related-glossary
+- [Mainnet](/generated/v2/glossary/mainnet) — glossary
+- [Mainnet](/generated/v2/glossary/mainnet) — related-glossary
+- [Mastering Ethereum](/generated/v2/books/mastering-ethereum) — book
+- [Mastering Ethereum](/generated/v2/books/mastering-ethereum) — related-book
+- [Proposal](/generated/v2/glossary/proposal) — glossary
+- [Proposal](/generated/v2/glossary/proposal) — related-glossary
+- [Proposer-Builder Separation](/generated/v2/glossary/proposer-builder-separation) — glossary
+- [Proposer-Builder Separation](/generated/v2/glossary/proposer-builder-separation) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:ethereum-glamsterdam-gas-assumptions-test-suite`

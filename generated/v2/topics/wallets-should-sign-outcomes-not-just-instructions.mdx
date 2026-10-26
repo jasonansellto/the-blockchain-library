@@ -1,0 +1,80 @@
+---
+title: "Wallets Should Sign Outcomes, Not Just Instructions"
+description: "Ethereum’s draft transaction-assertion design points to a better wallet standard: enforce the result a user accepts, not only the call they authorize."
+---
+
+# Wallets Should Sign Outcomes, Not Just Instructions
+
+Ethereum’s draft transaction-assertion design points to a better wallet standard: enforce the result a user accepts, not only the call they authorize.
+
+<p><strong>Opinion — October 9, 2026.</strong> A crypto wallet can prove that you approved a transaction without proving that the transaction produced the result you intended. That gap is more than a user-interface problem. It is a weakness in what the network actually enforces.</p>
+<p>My view is that the next important wallet standard should let users sign outcomes, not just instructions. Clearer transaction screens still matter, but a decoded request and a predicted simulation are not the same as an enforceable limit on the final state. If a wallet promises a safer experience, the protection should survive the moment between signing and execution.</p>
+<h2>A valid signature can still authorize a bad result</h2>
+<p>On October 5, the Ethereum Foundation’s Access Cluster published an <a href="https://blog.ethereum.org/2026/10/05/transaction-assertions">R&amp;D proposal on native transaction assertions</a>. Its central distinction is useful: an <em>intent mismatch</em> occurs when the user signs something different from what they thought they were approving, while an <em>outcome mismatch</em> occurs when the signed request is accurate but produces an unacceptable result against the code and state present at execution.</p>
+<p>Ethereum executes the authorized call without deciding whether its balance changes, approvals or contract configuration match the signer’s economic goal. Code can be upgraded and transaction ordering can change market state. A signature authenticates the request; it does not certify the result.</p>
+<p>Clear signing helps by translating calldata into something a person can understand. Simulation helps by estimating effects against a selected chain state. Both are valuable. But the Foundation notes that state may change before inclusion, and the transaction that reaches the signer can differ from what was simulated. These tools inform a decision before execution; they do not necessarily constrain what may be true afterward.</p>
+<h2>Turn expectations into executable limits</h2>
+<p>A transaction assertion would add a rule that runs after the transaction’s actions but before their effects become final. The rule could require a minimum amount received, cap spending, prevent an unexpected token approval, preserve a wallet’s control logic or permit only a defined set of state changes. If the rule fails, the actions revert.</p>
+<p>That changes the safety model. Instead of asking a user to trust a preview, the wallet can attach a machine-enforced condition to the same signed package. The important product question becomes: what outcome will this wallet refuse to accept?</p>
+<p>For ordinary users, the answer should not be a screen full of storage slots. Wallets could translate common goals into narrow policies:</p>
+<ul>
+<li><strong>Swaps:</strong> receive at least a stated amount and create no unrelated approvals.</li>
+<li><strong>Account changes:</strong> preserve the approved implementation and signer set.</li>
+<li><strong>Delegated activity:</strong> constrain the contracts, assets, value and expiry available to an agent.</li>
+<li><strong>Multi-step workflows:</strong> return unused assets and revoke temporary permissions before completion.</li>
+</ul>
+<p>These are design examples, not claims that EIP-7906 already protects live wallets. The proposal is still a draft.</p>
+<h2>The policy must not come from the compromised component</h2>
+<p>The most important detail is easy to miss: a weak assertion can approve a harmful outcome. If the same compromised interface builds both the transaction and its safety rule, the rule may merely bless the attack.</p>
+<p>Useful assertions therefore need an independent source of policy. That could be a standing wallet rule, an account-level limit, a separately approved template or protocol logic that rejects transactions without the exact required assertion. The assertion is not a magic shield. It is an enforcement mechanism whose value depends on who defines the boundary.</p>
+<p>This is also why outcome enforcement belongs in the infrastructure layer. I have previously argued that <a href="https://jasonansell.ca/article/what-web3-looks-like-when-wallets-become-invisible">wallets will become less visible to users</a>. Less visible cannot mean less accountable. As interfaces abstract keys, networks and transaction construction, they should make the user’s intended result more explicit inside the transaction—not leave it as a hopeful interpretation of the interface.</p>
+<h2>What EIP-7906 would actually add</h2>
+<p><a href="https://eips.ethereum.org/EIPS/eip-7906">EIP-7906</a> proposes three EVM instructions—TXTRACE, TXDIFF and EVENTDATACOPY—plus a read-only POST_TX frame. Together, they would let assertion code inspect net balance, storage and code changes, newly deployed contracts and emitted events. If a check fails, the execution body reverts, while the transaction remains included and the gas payer still pays for work performed.</p>
+<p>Failed assertions are not free simulations: users can still pay gas when a safety condition blocks the outcome.</p>
+<p>The proposal also depends on EIP-8141 frame transactions. The Foundation says EIP-7906 has advanced to “Considered for Inclusion” for Hegotá but is not confirmed. It would not force every transaction to carry an assertion. Existing immutable contracts could not simply be retrofitted to require one, and a rule covering one transaction on one network would not protect a route spanning multiple chains.</p>
+<h2>What builders should do before protocol support exists</h2>
+<p>Teams should not wait for a core-protocol decision. Wallet and dApp builders can inventory which outcomes they claim to protect, separate transaction decoding from independent simulation, and document where a last-minute state change can invalidate a preview.</p>
+<p>Teams can also design a small set of user-readable guarantees that could later compile into native assertions, then test them against adversarial state changes. A “safe swap” should have a precise failure condition, not just a warning colour.</p>
+<h2>Limits and what would change my view</h2>
+<p>Native assertions add complexity, gas cost and new failure modes. Overly broad rules create false confidence; overly strict rules can make valid transactions fail. Enumerating state changes may also create integration and performance costs that only real implementations can reveal.</p>
+<p>I would change my assessment if wallet trials showed that equivalent protection can be delivered more reliably through independent simulation, contract-level checks and account policies without protocol changes. I would also be less enthusiastic if assertion templates become another opaque permission layer users cannot verify, or if the cost and compatibility burden excludes ordinary transactions. The case becomes stronger with interoperable templates, adversarial testing and evidence that wallets can present meaningful guarantees without exposing protocol complexity.</p>
+<p>A signature should remain proof of authorization. It should not be mistaken for proof of satisfaction. Crypto UX will improve when wallets can enforce the difference.</p>
+<p><strong>Disclosure:</strong> Jason Ansell is a co-founder of Vector Smart Chain and writes books about blockchain and cryptocurrency. Those interests inform the subject area. This opinion is not a claim of participation in Ethereum’s proposal process, not a report of firsthand wallet testing, and not investment advice.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://blog.ethereum.org/2026/10/05/transaction-assertions">Ethereum Foundation Access Cluster: How native transaction assertions could enforce a transaction’s final outcome</a> (October 5, 2026)</li>
+<li><a href="https://eips.ethereum.org/EIPS/eip-7906">EIP-7906: Transaction Assertions via State Diff Opcode</a> (draft; accessed October 9, 2026)</li>
+</ul>
+
+## Key takeaways
+
+- Current wallet signing methods authenticate instructions but do not enforce the actual final outcome.
+- EIP-7906 proposes native transaction assertions to allow users to set executable limits on transaction results.
+- Assertions help protect against malicious or unexpected state changes occurring between signing and final execution.
+- Safety policies must be derived from an independent source to avoid manipulation by compromised wallet interfaces.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/wallets-should-sign-outcomes-not-just-instructions)
+## Related knowledge
+
+- [Calldata](/generated/v2/glossary/calldata) — glossary
+- [Calldata](/generated/v2/glossary/calldata) — related-glossary
+- [Ethereum’s Quantum Deadline Needs a Migration Scorecard](/generated/v2/topics/ethereum-quantum-deadline-migration-scorecard) — article
+- [Ethereum’s Quantum Deadline Needs a Migration Scorecard](/generated/v2/topics/ethereum-quantum-deadline-migration-scorecard) — related-article
+- [Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant](/generated/v2/topics/ethereum-glamsterdam-gas-assumptions-test-suite) — article
+- [Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant](/generated/v2/topics/ethereum-glamsterdam-gas-assumptions-test-suite) — related-article
+- [Is Ethereum a block chain?](/generated/v2/topics/is-ethereum-a-block-chain) — article
+- [Is Ethereum a block chain?](/generated/v2/topics/is-ethereum-a-block-chain) — related-article
+- [Opcode](/generated/v2/glossary/opcode) — glossary
+- [Opcode](/generated/v2/glossary/opcode) — related-glossary
+- [Proposal](/generated/v2/glossary/proposal) — glossary
+- [Proposal](/generated/v2/glossary/proposal) — related-glossary
+- [Revert](/generated/v2/glossary/revert) — glossary
+- [Revert](/generated/v2/glossary/revert) — related-glossary
+- [Safety](/generated/v2/glossary/safety) — glossary
+- [Safety](/generated/v2/glossary/safety) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:wallets-should-sign-outcomes-not-just-instructions`

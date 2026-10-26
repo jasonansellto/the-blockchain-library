@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T16:04:14.269Z",
-  "buildId": "b7567edcc212c966",
+  "generatedAt": "2026-10-26T16:03:05.890Z",
+  "buildId": "573d977be495b24d",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -5221,6 +5221,258 @@
       "sourceCanonicalUrl": "/glossary/vsc-faucet",
       "sourceSlug": "vsc-faucet",
       "routeSlug": "vsc-faucet"
+    },
+    {
+      "uid": "glossary:token-burn",
+      "type": "glossary",
+      "title": "Token Burn",
+      "path": "generated/v2/glossary/token-burn",
+      "sourceCanonicalUrl": "/glossary/token-burn",
+      "sourceSlug": "token-burn",
+      "routeSlug": "token-burn"
+    },
+    {
+      "uid": "glossary:decentralized-finance",
+      "type": "glossary",
+      "title": "Decentralized Finance",
+      "path": "generated/v2/glossary/decentralized-finance",
+      "sourceCanonicalUrl": "/glossary/decentralized-finance",
+      "sourceSlug": "decentralized-finance",
+      "routeSlug": "decentralized-finance"
+    },
+    {
+      "uid": "glossary:edge-computing",
+      "type": "glossary",
+      "title": "Edge Computing",
+      "path": "generated/v2/glossary/edge-computing",
+      "sourceCanonicalUrl": "/glossary/edge-computing",
+      "sourceSlug": "edge-computing",
+      "routeSlug": "edge-computing"
+    },
+    {
+      "uid": "glossary:gas-optimization",
+      "type": "glossary",
+      "title": "Gas Optimization",
+      "path": "generated/v2/glossary/gas-optimization",
+      "sourceCanonicalUrl": "/glossary/gas-optimization",
+      "sourceSlug": "gas-optimization",
+      "routeSlug": "gas-optimization"
+    },
+    {
+      "uid": "glossary:scalability",
+      "type": "glossary",
+      "title": "Scalability",
+      "path": "generated/v2/glossary/scalability",
+      "sourceCanonicalUrl": "/glossary/scalability",
+      "sourceSlug": "scalability",
+      "routeSlug": "scalability"
+    },
+    {
+      "uid": "glossary:protocol",
+      "type": "glossary",
+      "title": "Protocol",
+      "path": "generated/v2/glossary/protocol",
+      "sourceCanonicalUrl": "/glossary/protocol",
+      "sourceSlug": "protocol",
+      "routeSlug": "protocol"
+    },
+    {
+      "uid": "glossary:dapp",
+      "type": "glossary",
+      "title": "DApp",
+      "path": "generated/v2/glossary/dapp",
+      "sourceCanonicalUrl": "/glossary/dapp",
+      "sourceSlug": "dapp",
+      "routeSlug": "dapp"
+    },
+    {
+      "uid": "glossary:distributed-ledger-technology",
+      "type": "glossary",
+      "title": "Distributed Ledger Technology",
+      "path": "generated/v2/glossary/distributed-ledger-technology",
+      "sourceCanonicalUrl": "/glossary/distributed-ledger-technology",
+      "sourceSlug": "distributed-ledger-technology",
+      "routeSlug": "distributed-ledger-technology"
+    },
+    {
+      "uid": "glossary:immutable",
+      "type": "glossary",
+      "title": "Immutable",
+      "path": "generated/v2/glossary/immutable",
+      "sourceCanonicalUrl": "/glossary/immutable",
+      "sourceSlug": "immutable",
+      "routeSlug": "immutable"
+    },
+    {
+      "uid": "glossary:peer-to-peer",
+      "type": "glossary",
+      "title": "Peer-to-Peer",
+      "path": "generated/v2/glossary/peer-to-peer",
+      "sourceCanonicalUrl": "/glossary/peer-to-peer",
+      "sourceSlug": "peer-to-peer",
+      "routeSlug": "peer-to-peer"
+    },
+    {
+      "uid": "glossary:hard-fork",
+      "type": "glossary",
+      "title": "Hard Fork",
+      "path": "generated/v2/glossary/hard-fork",
+      "sourceCanonicalUrl": "/glossary/hard-fork",
+      "sourceSlug": "hard-fork",
+      "routeSlug": "hard-fork"
+    },
+    {
+      "uid": "glossary:transparency",
+      "type": "glossary",
+      "title": "Transparency",
+      "path": "generated/v2/glossary/transparency",
+      "sourceCanonicalUrl": "/glossary/transparency",
+      "sourceSlug": "transparency",
+      "routeSlug": "transparency"
+    },
+    {
+      "uid": "glossary:custody",
+      "type": "glossary",
+      "title": "Custody",
+      "path": "generated/v2/glossary/custody",
+      "sourceCanonicalUrl": "/glossary/custody",
+      "sourceSlug": "custody",
+      "routeSlug": "custody"
+    },
+    {
+      "uid": "glossary:deployment",
+      "type": "glossary",
+      "title": "Deployment",
+      "path": "generated/v2/glossary/deployment",
+      "sourceCanonicalUrl": "/glossary/deployment",
+      "sourceSlug": "deployment",
+      "routeSlug": "deployment"
+    },
+    {
+      "uid": "glossary:escrow",
+      "type": "glossary",
+      "title": "Escrow",
+      "path": "generated/v2/glossary/escrow",
+      "sourceCanonicalUrl": "/glossary/escrow",
+      "sourceSlug": "escrow",
+      "routeSlug": "escrow"
+    },
+    {
+      "uid": "glossary:hashing",
+      "type": "glossary",
+      "title": "Hashing",
+      "path": "generated/v2/glossary/hashing",
+      "sourceCanonicalUrl": "/glossary/hashing",
+      "sourceSlug": "hashing",
+      "routeSlug": "hashing"
+    },
+    {
+      "uid": "glossary:hashrate",
+      "type": "glossary",
+      "title": "Hashrate",
+      "path": "generated/v2/glossary/hashrate",
+      "sourceCanonicalUrl": "/glossary/hashrate",
+      "sourceSlug": "hashrate",
+      "routeSlug": "hashrate"
+    },
+    {
+      "uid": "glossary:settlement",
+      "type": "glossary",
+      "title": "Settlement",
+      "path": "generated/v2/glossary/settlement",
+      "sourceCanonicalUrl": "/glossary/settlement",
+      "sourceSlug": "settlement",
+      "routeSlug": "settlement"
+    },
+    {
+      "uid": "glossary:trustless",
+      "type": "glossary",
+      "title": "Trustless",
+      "path": "generated/v2/glossary/trustless",
+      "sourceCanonicalUrl": "/glossary/trustless",
+      "sourceSlug": "trustless",
+      "routeSlug": "trustless"
+    },
+    {
+      "uid": "glossary:internet-of-things",
+      "type": "glossary",
+      "title": "Internet of Things",
+      "path": "generated/v2/glossary/internet-of-things",
+      "sourceCanonicalUrl": "/glossary/internet-of-things",
+      "sourceSlug": "internet-of-things",
+      "routeSlug": "internet-of-things"
+    },
+    {
+      "uid": "glossary:iot",
+      "type": "glossary",
+      "title": "IoT",
+      "path": "generated/v2/glossary/iot",
+      "sourceCanonicalUrl": "/glossary/iot",
+      "sourceSlug": "iot",
+      "routeSlug": "iot"
+    },
+    {
+      "uid": "glossary:kyc",
+      "type": "glossary",
+      "title": "KYC",
+      "path": "generated/v2/glossary/kyc",
+      "sourceCanonicalUrl": "/glossary/kyc",
+      "sourceSlug": "kyc",
+      "routeSlug": "kyc"
+    },
+    {
+      "uid": "glossary:latency",
+      "type": "glossary",
+      "title": "Latency",
+      "path": "generated/v2/glossary/latency",
+      "sourceCanonicalUrl": "/glossary/latency",
+      "sourceSlug": "latency",
+      "routeSlug": "latency"
+    },
+    {
+      "uid": "glossary:qr-code",
+      "type": "glossary",
+      "title": "QR Code",
+      "path": "generated/v2/glossary/qr-code",
+      "sourceCanonicalUrl": "/glossary/qr-code",
+      "sourceSlug": "qr-code",
+      "routeSlug": "qr-code"
+    },
+    {
+      "uid": "glossary:scarcity",
+      "type": "glossary",
+      "title": "Scarcity",
+      "path": "generated/v2/glossary/scarcity",
+      "sourceCanonicalUrl": "/glossary/scarcity",
+      "sourceSlug": "scarcity",
+      "routeSlug": "scarcity"
+    },
+    {
+      "uid": "glossary:token-standard",
+      "type": "glossary",
+      "title": "Token Standard",
+      "path": "generated/v2/glossary/token-standard",
+      "sourceCanonicalUrl": "/glossary/token-standard",
+      "sourceSlug": "token-standard",
+      "routeSlug": "token-standard"
+    },
+    {
+      "uid": "glossary:snapshot",
+      "type": "glossary",
+      "title": "Snapshot",
+      "path": "generated/v2/glossary/snapshot",
+      "sourceCanonicalUrl": "/glossary/snapshot",
+      "sourceSlug": "snapshot",
+      "routeSlug": "snapshot"
+    },
+    {
+      "uid": "glossary:symmetric-cryptography",
+      "type": "glossary",
+      "title": "Symmetric Cryptography",
+      "path": "generated/v2/glossary/symmetric-cryptography",
+      "sourceCanonicalUrl": "/glossary/symmetric-cryptography",
+      "sourceSlug": "symmetric-cryptography",
+      "routeSlug": "symmetric-cryptography"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",
@@ -11530,6 +11782,222 @@
       "sourceCanonicalUrl": "/topics/download-all-five-mastering-crypto-ebooks-free-august-1-5",
       "sourceSlug": "download-all-five-mastering-crypto-ebooks-free-august-1-5",
       "routeSlug": "download-all-five-mastering-crypto-ebooks-free-august-1-5"
+    },
+    {
+      "uid": "topic:agent-skills-supply-chain-rules-neutral-home",
+      "type": "topic",
+      "title": "Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home",
+      "path": "generated/v2/topics/agent-skills-supply-chain-rules-neutral-home",
+      "sourceCanonicalUrl": "/topics/agent-skills-supply-chain-rules-neutral-home",
+      "sourceSlug": "agent-skills-supply-chain-rules-neutral-home",
+      "routeSlug": "agent-skills-supply-chain-rules-neutral-home"
+    },
+    {
+      "uid": "topic:stablecoin-payment-costs-all-in-denominator",
+      "type": "topic",
+      "title": "Stablecoin Payment Costs Need an All-In Denominator",
+      "path": "generated/v2/topics/stablecoin-payment-costs-all-in-denominator",
+      "sourceCanonicalUrl": "/topics/stablecoin-payment-costs-all-in-denominator",
+      "sourceSlug": "stablecoin-payment-costs-all-in-denominator",
+      "routeSlug": "stablecoin-payment-costs-all-in-denominator"
+    },
+    {
+      "uid": "topic:ethereum-glamsterdam-gas-assumptions-test-suite",
+      "type": "topic",
+      "title": "Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant",
+      "path": "generated/v2/topics/ethereum-glamsterdam-gas-assumptions-test-suite",
+      "sourceCanonicalUrl": "/topics/ethereum-glamsterdam-gas-assumptions-test-suite",
+      "sourceSlug": "ethereum-glamsterdam-gas-assumptions-test-suite",
+      "routeSlug": "ethereum-glamsterdam-gas-assumptions-test-suite"
+    },
+    {
+      "uid": "topic:ai-auditors-right-to-publish-not-just-look",
+      "type": "topic",
+      "title": "AI Auditors Need the Right to Publish, Not Just the Right to Look",
+      "path": "generated/v2/topics/ai-auditors-right-to-publish-not-just-look",
+      "sourceCanonicalUrl": "/topics/ai-auditors-right-to-publish-not-just-look",
+      "sourceSlug": "ai-auditors-right-to-publish-not-just-look",
+      "routeSlug": "ai-auditors-right-to-publish-not-just-look"
+    },
+    {
+      "uid": "topic:canada-stablecoin-framework-three-compliance-layers",
+      "type": "topic",
+      "title": "Canada’s Stablecoin Framework Has Three Compliance Layers",
+      "path": "generated/v2/topics/canada-stablecoin-framework-three-compliance-layers",
+      "sourceCanonicalUrl": "/topics/canada-stablecoin-framework-three-compliance-layers",
+      "sourceSlug": "canada-stablecoin-framework-three-compliance-layers",
+      "routeSlug": "canada-stablecoin-framework-three-compliance-layers"
+    },
+    {
+      "uid": "topic:ai-agent-benchmarks-sandboxes-live-websites",
+      "type": "topic",
+      "title": "AI Agent Benchmarks Need Sandboxes, Not Live Websites",
+      "path": "generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites",
+      "sourceCanonicalUrl": "/topics/ai-agent-benchmarks-sandboxes-live-websites",
+      "sourceSlug": "ai-agent-benchmarks-sandboxes-live-websites",
+      "routeSlug": "ai-agent-benchmarks-sandboxes-live-websites"
+    },
+    {
+      "uid": "topic:wallets-should-sign-outcomes-not-just-instructions",
+      "type": "topic",
+      "title": "Wallets Should Sign Outcomes, Not Just Instructions",
+      "path": "generated/v2/topics/wallets-should-sign-outcomes-not-just-instructions",
+      "sourceCanonicalUrl": "/topics/wallets-should-sign-outcomes-not-just-instructions",
+      "sourceSlug": "wallets-should-sign-outcomes-not-just-instructions",
+      "routeSlug": "wallets-should-sign-outcomes-not-just-instructions"
+    },
+    {
+      "uid": "topic:swift-tokenised-payments-availability-settlement",
+      "type": "topic",
+      "title": "Swift’s Tokenised Payments Need Two Clocks: Availability and Settlement",
+      "path": "generated/v2/topics/swift-tokenised-payments-availability-settlement",
+      "sourceCanonicalUrl": "/topics/swift-tokenised-payments-availability-settlement",
+      "sourceSlug": "swift-tokenised-payments-availability-settlement",
+      "routeSlug": "swift-tokenised-payments-availability-settlement"
+    },
+    {
+      "uid": "topic:ethereum-zkapi-private-ai-billing-prompt-privacy",
+      "type": "topic",
+      "title": "Ethereum’s zkAPI Separates AI Billing From Identity—Not From the Prompt",
+      "path": "generated/v2/topics/ethereum-zkapi-private-ai-billing-prompt-privacy",
+      "sourceCanonicalUrl": "/topics/ethereum-zkapi-private-ai-billing-prompt-privacy",
+      "sourceSlug": "ethereum-zkapi-private-ai-billing-prompt-privacy",
+      "routeSlug": "ethereum-zkapi-private-ai-billing-prompt-privacy"
+    },
+    {
+      "uid": "topic:crypto-custody-rules-recovery-not-key-control",
+      "type": "topic",
+      "title": "Crypto Custody Rules Should Test Recovery, Not Just Key Control",
+      "path": "generated/v2/topics/crypto-custody-rules-recovery-not-key-control",
+      "sourceCanonicalUrl": "/topics/crypto-custody-rules-recovery-not-key-control",
+      "sourceSlug": "crypto-custody-rules-recovery-not-key-control",
+      "routeSlug": "crypto-custody-rules-recovery-not-key-control"
+    },
+    {
+      "uid": "topic:always-on-ai-agents-operating-contract",
+      "type": "topic",
+      "title": "Always-On AI Agents Need an Operating Contract, Not Just a Prompt",
+      "path": "generated/v2/topics/always-on-ai-agents-operating-contract",
+      "sourceCanonicalUrl": "/topics/always-on-ai-agents-operating-contract",
+      "sourceSlug": "always-on-ai-agents-operating-contract",
+      "routeSlug": "always-on-ai-agents-operating-contract"
+    },
+    {
+      "uid": "topic:sec-tokenized-stock-exemption-operations-test",
+      "type": "topic",
+      "title": "The SEC’s Tokenized-Stock Exemption Is an Operations Test, Not a Shortcut",
+      "path": "generated/v2/topics/sec-tokenized-stock-exemption-operations-test",
+      "sourceCanonicalUrl": "/topics/sec-tokenized-stock-exemption-operations-test",
+      "sourceSlug": "sec-tokenized-stock-exemption-operations-test",
+      "routeSlug": "sec-tokenized-stock-exemption-operations-test"
+    },
+    {
+      "uid": "topic:publishing-is-a-state-machine-not-a-button",
+      "type": "topic",
+      "title": "Publishing Is a State Machine, Not a Button",
+      "path": "generated/v2/topics/publishing-is-a-state-machine-not-a-button",
+      "sourceCanonicalUrl": "/topics/publishing-is-a-state-machine-not-a-button",
+      "sourceSlug": "publishing-is-a-state-machine-not-a-button",
+      "routeSlug": "publishing-is-a-state-machine-not-a-button"
+    },
+    {
+      "uid": "topic:canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "type": "topic",
+      "title": "Canada’s New Privacy Guidance Turns AI Vendor Selection into an Architecture Decision",
+      "path": "generated/v2/topics/canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "sourceCanonicalUrl": "/topics/canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "sourceSlug": "canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "routeSlug": "canada-ai-vendor-privacy-guidance-architecture-checklist"
+    },
+    {
+      "uid": "topic:ethereum-quantum-deadline-migration-scorecard",
+      "type": "topic",
+      "title": "Ethereum’s Quantum Deadline Needs a Migration Scorecard",
+      "path": "generated/v2/topics/ethereum-quantum-deadline-migration-scorecard",
+      "sourceCanonicalUrl": "/topics/ethereum-quantum-deadline-migration-scorecard",
+      "sourceSlug": "ethereum-quantum-deadline-migration-scorecard",
+      "routeSlug": "ethereum-quantum-deadline-migration-scorecard"
+    },
+    {
+      "uid": "topic:ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "type": "topic",
+      "title": "AI Agents Need Clear Permissions Before They Get More Responsibility",
+      "path": "generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "sourceCanonicalUrl": "/topics/ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "sourceSlug": "ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "routeSlug": "ai-agents-clear-permissions-openai-misalignment-disclosures"
+    },
+    {
+      "uid": "topic:visa-onchain-lending-stablecoin-payment-programs",
+      "type": "topic",
+      "title": "What Visa’s Onchain Lending Announcement Means for Everyday Crypto Use",
+      "path": "generated/v2/topics/visa-onchain-lending-stablecoin-payment-programs",
+      "sourceCanonicalUrl": "/topics/visa-onchain-lending-stablecoin-payment-programs",
+      "sourceSlug": "visa-onchain-lending-stablecoin-payment-programs",
+      "routeSlug": "visa-onchain-lending-stablecoin-payment-programs"
+    },
+    {
+      "uid": "topic:would-you-let-ai-spend-your-money-visa-trust",
+      "type": "topic",
+      "title": "Would You Let an AI Spend Your Money?",
+      "path": "generated/v2/topics/would-you-let-ai-spend-your-money-visa-trust",
+      "sourceCanonicalUrl": "/topics/would-you-let-ai-spend-your-money-visa-trust",
+      "sourceSlug": "would-you-let-ai-spend-your-money-visa-trust",
+      "routeSlug": "would-you-let-ai-spend-your-money-visa-trust"
+    },
+    {
+      "uid": "topic:how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee",
+      "type": "topic",
+      "title": "How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee",
+      "path": "generated/v2/topics/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee",
+      "sourceCanonicalUrl": "/topics/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee",
+      "sourceSlug": "how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee",
+      "routeSlug": "how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee"
+    },
+    {
+      "uid": "topic:why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes",
+      "type": "topic",
+      "title": "Why Smart Contract Upgrades Are Governance Decisions, Not Just Code Changes",
+      "path": "generated/v2/topics/why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes",
+      "sourceCanonicalUrl": "/topics/why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes",
+      "sourceSlug": "why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes",
+      "routeSlug": "why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes"
+    },
+    {
+      "uid": "topic:why-website-migrations-break-automation-even-when-the-pages-work",
+      "type": "topic",
+      "title": "Why Website Migrations Break Automation Even When the Pages Work",
+      "path": "generated/v2/topics/why-website-migrations-break-automation-even-when-the-pages-work",
+      "sourceCanonicalUrl": "/topics/why-website-migrations-break-automation-even-when-the-pages-work",
+      "sourceSlug": "why-website-migrations-break-automation-even-when-the-pages-work",
+      "routeSlug": "why-website-migrations-break-automation-even-when-the-pages-work"
+    },
+    {
+      "uid": "topic:why-i-wrote-the-last-man-standing-after-the-lindsay-clancy-mistrial",
+      "type": "topic",
+      "title": "Why I Wrote The Last Man Standing After the Lindsay Clancy Mistrial",
+      "path": "generated/v2/topics/why-i-wrote-the-last-man-standing-after-the-lindsay-clancy-mistrial",
+      "sourceCanonicalUrl": "/topics/why-i-wrote-the-last-man-standing-after-the-lindsay-clancy-mistrial",
+      "sourceSlug": "why-i-wrote-the-last-man-standing-after-the-lindsay-clancy-mistrial",
+      "routeSlug": "why-i-wrote-the-last-man-standing-after-the-lindsay-clancy-mistrial"
+    },
+    {
+      "uid": "topic:digital-infrastructure-will-define-the-next-decade",
+      "type": "topic",
+      "title": "Digital Infrastructure Will Define the Next Decade",
+      "path": "generated/v2/topics/digital-infrastructure-will-define-the-next-decade",
+      "sourceCanonicalUrl": "/topics/digital-infrastructure-will-define-the-next-decade",
+      "sourceSlug": "digital-infrastructure-will-define-the-next-decade",
+      "routeSlug": "digital-infrastructure-will-define-the-next-decade"
+    },
+    {
+      "uid": "topic:what-is-web3",
+      "type": "topic",
+      "title": "What is Web3?",
+      "path": "generated/v2/topics/what-is-web3",
+      "sourceCanonicalUrl": "/topics/what-is-web3",
+      "sourceSlug": "what-is-web3",
+      "routeSlug": "what-is-web3"
     },
     {
       "uid": "book:the-quiet-rebuild-of-the-internet",

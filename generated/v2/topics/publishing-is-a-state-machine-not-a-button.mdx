@@ -1,0 +1,70 @@
+---
+title: "Publishing Is a State Machine, Not a Button"
+description: "A post is not finished when a database row says published. It is finished when the reader page, assets, crawler HTML, RSS identity and share previews agree."
+---
+
+# Publishing Is a State Machine, Not a Button
+
+A post is not finished when a database row says published. It is finished when the reader page, assets, crawler HTML, RSS identity and share previews agree.
+
+<p><strong>Builder's Notes:</strong> I have stopped treating <em>Publish</em> as a single event. In a modern web application, the button may change one database record while the public result depends on several systems that update on different schedules. My working rule after rebuilding JasonAnsell.ca is simple: a post is not published because one field says so. It is published when every surface that matters agrees about what the item is.</p>
+<p>This is a narrower lesson than my earlier article about <a href="https://jasonansell.ca/article/why-website-migrations-break-automation-even-when-the-pages-work">why website migrations break automation</a>. That piece focused on preserving feeds and workflows during a move. This one is about the release model that emerged afterward: publication behaves like a state machine, with explicit gates and evidence for each state.</p>
+<h2>What one article revealed</h2>
+<p>On September 25, 2026, I checked the most recent analysis published on this site. Its browser-rendered reader page showed the full article and its 1200-by-630 artwork. The RSS feed contained one matching item whose link and permalink GUID used the same canonical URL. A standalone share page contained the title, image, canonical link and complete body without depending on the application runtime.</p>
+<p>The raw HTML response for the canonical reader URL was different. It had a self-referencing canonical URL, but it still carried a platform fallback rather than the complete article body and article-specific presentation. A reader with JavaScript saw the finished work; a consumer relying only on the first HTML response saw a different state.</p>
+<p>That observation is consistent with <a href="https://docs.base44.com/Performance-and-SEO/SEO-and-search-visibility" rel="noopener noreferrer">Base44's current search documentation</a>. It explains that browser-based apps need a crawler-rendered version and that, when a complete rendered page is not ready, the platform may serve a shorter fallback summary. This is useful protection against an empty shell, but it is also a reason to test the actual response instead of assuming that a successful browser view proves crawler readiness.</p>
+<h2>The six states I now verify</h2>
+<h3>1. The source record is complete</h3>
+<p>The title, slug, body, excerpt, author, date, canonical URL and image references must exist together. I do not create unfinished public records because a frontend can expose them before an editorial draft is ready. The canonical identity is decided here and should not drift later.</p>
+<h3>2. The reader experience renders</h3>
+<p>The public page must show the actual heading, article body, sources, date and artwork on a real browser. An API response does not prove that routing, client queries or layout work. It also does not catch a page that loads but overflows or hides essential controls on mobile.</p>
+<h3>3. The required assets load</h3>
+<p>During this rebuild, a successful HTML response once masked missing JavaScript assets, leaving the site unable to start. That changed the release test: I now fetch every referenced production script and stylesheet, confirm a 200 response, verify its MIME type and make sure the file is not empty. A green page request is only the first check.</p>
+<h3>4. Crawler HTML describes the same page</h3>
+<p>Google's <a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics" rel="noopener noreferrer">JavaScript SEO guidance, updated March 4, 2026</a>, separates crawling, rendering and indexing. Google notes that rendering can happen after the initial fetch and recommends server-side rendering or prerendering because not every bot runs JavaScript. It also emphasizes unique titles, descriptions and consistent canonical URLs. That makes raw HTML inspection a separate release gate, not an SEO afterthought.</p>
+<h3>5. Syndication preserves identity</h3>
+<p>RSS is not merely another copy of the page. It is an event stream consumed by automations and feed readers. The <a href="https://www.rssboard.org/rss-specification" rel="noopener noreferrer">RSS 2.0 specification</a> says a GUID uniquely identifies an item and may be used by aggregators to decide whether it is new. Keeping the canonical permalink stable as the GUID prevents an ordinary edit from looking like a second publication.</p>
+<h3>6. Share metadata matches the article</h3>
+<p>A social platform may never execute the reader application. The <a href="https://ogp.me/" rel="noopener noreferrer">Open Graph protocol</a> identifies title, type, image and canonical URL as the basic page properties, and recommends image dimensions and alt text. I verify those fields in generated share HTML rather than assuming that the visible page title will become the preview.</p>
+<h2>Build success and live success are different</h2>
+<p>The local build for this site creates canonical HTML and a separate share/import page for each public item. Automated checks confirm one H1, one Open Graph title, the correct canonical, the complete sanitized body and the expected image. Those checks are valuable because they catch deterministic mistakes before release.</p>
+<p>They cannot prove that the hosting layer deployed the same files, that its crawler snapshot refreshed, or that a CDN serves every bundle. Production checks answer those questions. The distinction matters because rerunning a build cannot fix a deployment that never reached the edge, and repeatedly editing content cannot fix a crawler snapshot that is still pending.</p>
+<h2>My opinion: publish should fail closed</h2>
+<p>A serious publishing workflow should show each state independently: record saved, image public, reader rendered, assets healthy, crawler metadata correct, share page live and feed item stable. If one state is unknown, the system should say so plainly. It should not convert a partial success into a broad green badge.</p>
+<p>The checklist will vary by platform. A system that atomically released data, prerendered HTML, feeds, metadata and versioned assets could collapse several steps. Better platform evidence could also reduce manual verification. What would not change is the need to observe external boundaries: search crawlers, feed consumers, social caches and CDNs remain separate systems with their own timing.</p>
+<p>That is why I now treat the publish control as the start of verification, not the end of the job.</p>
+<p><em>Disclosure: These Builder's Notes are based on the documented JasonAnsell.ca rebuild and its Base44 implementation. Base44 is named because it is part of the stack; this is not a sponsored endorsement.</em></p>
+<h2>Sources</h2>
+<ul><li><a href="https://docs.base44.com/Performance-and-SEO/SEO-and-search-visibility" rel="noopener noreferrer">Base44: Getting your app found in search</a> (accessed September 25, 2026)</li><li><a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics" rel="noopener noreferrer">Google Search Central: Understand the JavaScript SEO basics</a> (updated March 4, 2026)</li><li><a href="https://www.rssboard.org/rss-specification" rel="noopener noreferrer">RSS Advisory Board: RSS 2.0 Specification</a> (current specification, accessed September 25, 2026)</li><li><a href="https://ogp.me/" rel="noopener noreferrer">The Open Graph protocol</a> (accessed September 25, 2026)</li></ul>
+
+## Key takeaways
+
+- Publishing is a multi-step process involving databases, reader pages, assets, crawlers, feeds, and social share previews.
+- A successful build does not guarantee that content is correctly distributed across all live production surfaces.
+- Developers should independently verify six specific publication states to ensure content consistency and accessibility.
+- Publishing workflows should fail closed, clearly identifying which specific system states are incomplete or failing.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/publishing-is-a-state-machine-not-a-button)
+## Related knowledge
+
+- [Building an Affiliate Business Around Expertise Instead of Traffic](/generated/v2/topics/building-an-affiliate-business-around-expertise-instead-of-traffic) — article
+- [Building an Affiliate Business Around Expertise Instead of Traffic](/generated/v2/topics/building-an-affiliate-business-around-expertise-instead-of-traffic) — related-article
+- [CDN](/generated/v2/glossary/cdn) — glossary
+- [CDN](/generated/v2/glossary/cdn) — related-glossary
+- [How AI Is Changing Content Creation: Tools and Tips for 2025](/generated/v2/topics/how-ai-is-changing-content-creation-tools-and-tips-for-2025) — article
+- [How AI Is Changing Content Creation: Tools and Tips for 2025](/generated/v2/topics/how-ai-is-changing-content-creation-tools-and-tips-for-2025) — related-article
+- [Metadata](/generated/v2/glossary/metadata) — glossary
+- [Metadata](/generated/v2/glossary/metadata) — related-glossary
+- [State Machine](/generated/v2/glossary/state-machine) — glossary
+- [State Machine](/generated/v2/glossary/state-machine) — related-glossary
+- [Why Most Affiliate Websites Fail Within Two Years](/generated/v2/topics/why-most-affiliate-websites-fail-within-two-years) — article
+- [Why Most Affiliate Websites Fail Within Two Years](/generated/v2/topics/why-most-affiliate-websites-fail-within-two-years) — related-article
+- [Why Website Migrations Break Automation Even When the Pages Work](/generated/v2/topics/why-website-migrations-break-automation-even-when-the-pages-work) — article
+- [Why Website Migrations Break Automation Even When the Pages Work](/generated/v2/topics/why-website-migrations-break-automation-even-when-the-pages-work) — related-article
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:publishing-is-a-state-machine-not-a-button`

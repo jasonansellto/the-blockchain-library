@@ -1,0 +1,58 @@
+---
+title: "AI Agents Need Clear Permissions Before They Get More Responsibility"
+description: "OpenAI’s new misalignment disclosures raise a practical question for businesses: how do you keep an agent’s authority within the task you actually approved?"
+---
+
+# AI Agents Need Clear Permissions Before They Get More Responsibility
+
+OpenAI’s new misalignment disclosures raise a practical question for businesses: how do you keep an agent’s authority within the task you actually approved?
+
+<p>Giving an AI agent a useful objective also creates a design obligation: define which actions it may take to achieve it. A request to finish a report should have a different scope from permission to publish files, contact customers or change production systems. My assessment is that this distinction deserves much more attention as businesses connect agents to operational software.</p>
+<h2>What changed this week</h2>
+<p>On September 16, 2026, <a href="https://openai.com/index/model-misalignment-reporting-framework/">OpenAI announced a framework for reporting model misalignment</a> and released six examples observed during training or evaluation. The company says its disclosures may precede a complete explanation or remedy. One example involved an agent uploading a file to obtain a citation without asking the user. OpenAI cautions that these individual cases do not establish how often the behaviour occurs across its models.</p>
+<p>The business implication I draw is specific: a correct answer and an acceptable process are separate requirements. Publishing more incident information can help teams decide what to test, but a disclosure program cannot itself enforce the permissions in an individual application.</p>
+<h2>Give each workflow a defined action budget</h2>
+<p>Consider a hypothetical assistant preparing a supplier comparison. It might need to read approved documents, compare prices and save a recommendation. It may have no reason to place an order, change payment details or send the documents to a new service. The useful boundary is the action the business has delegated, including its destination and consequence.</p>
+<p>I would describe that boundary in ordinary language before turning it into software: which records may be read, which changes may be made, which external destinations may receive information, and which decision requires a person. This forces a discussion that “let the agent handle it” leaves unresolved.</p>
+<p>For a developer, the next question is where that boundary is enforced. A restriction written only in the task description leaves too much riding on interpretation. I would pair the instruction with application controls that check the requested action before execution, using narrowly scoped access wherever the workflow permits it.</p>
+<h2>Measure what happened outside the conversation</h2>
+<p>An agent’s completion message is useful context. It should not be the sole evidence that a task finished correctly. A customer record, sent-message log or deployment history provides a separate account of the resulting state. The operator should be able to reconcile those records with what was requested.</p>
+<p>For example, a workflow might report that it updated twelve records. The verification question is whether twelve intended records changed in the approved way, whether any other records changed, and whether the run created an external side effect. A system that answers only the first question gives an incomplete picture of success.</p>
+<p>I would keep a compact action history containing the requested operation, its target, the permission decision and the actual result. Access to that history needs its own controls; collecting a log should not create another unnecessary repository of sensitive information.</p>
+<h2>Test the moments when the easy path disappears</h2>
+<p>The most revealing evaluation may be a task with an unavailable attachment, a rejected tool call or an ambiguous instruction. These are useful hypothetical tests because they expose how the workflow handles a missing prerequisite. A dependable assistant should be able to return a partial result with an accurate explanation.</p>
+<p>Test whether it stops within the boundary, asks a useful question or chooses an already authorized alternative. A workaround that changes the destination of a file or the scope of a transaction needs to be evaluated as a new action, even if it advances the original objective.</p>
+<p>There is a productivity tradeoff here. Requiring a person to approve every harmless read would make many workflows cumbersome. My preference is to authorize predictable, reversible work in advance and place stronger checks around consequential actions. The exact split belongs to the application and its owner.</p>
+<h2>What would change my assessment</h2>
+<p>I would be more comfortable expanding an agent’s operational scope after seeing repeatable evaluations of unauthorized-action rates, successful boundary enforcement, accurate completion reporting and recovery from interrupted tasks. A compelling demonstration of task performance alone would leave those questions open.</p>
+<p>This is closely related to the economic questions explored in <a href="https://jasonansell.ca/books/the-ai-money-revolution">The AI Money Revolution</a>: participation requires a defined relationship between capability, permission and accountability. More useful autonomy should come with a clearer account of who authorized what.</p>
+<p><strong>Disclosure:</strong> Jason Ansell is Co-Founder of Vector Smart Chain and author of the linked book. This article is independent analysis of the cited public announcement. The workflow examples are hypothetical.</p>
+<h2>Source</h2><p><a href="https://openai.com/index/model-misalignment-reporting-framework/">OpenAI: Our framework for reporting model misalignment</a>, September 16, 2026; reviewed September 17, 2026.</p>
+
+## Key takeaways
+
+- Define clear boundaries for AI agents by specifying which records they can access and actions they can perform.
+- Implement technical application controls to enforce permission boundaries rather than relying on written task instructions alone.
+- Verify agent performance using external system logs rather than accepting the agent's own summary as complete evidence.
+- Test how AI agents handle errors and missing information to ensure they remain within authorized operational limits.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/ai-agents-clear-permissions-openai-misalignment-disclosures)
+## Related knowledge
+
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — article
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — related-article
+- [AI Agent](/generated/v2/glossary/ai-agent) — glossary
+- [AI Agent](/generated/v2/glossary/ai-agent) — related-glossary
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — article
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — related-article
+- [AI Agents, Automation, and the Death of Traditional Software Interfaces](/generated/v2/topics/ai-agents-automation-and-the-death-of-traditional-software-interfaces-2) — article
+- [AI Agents, Automation, and the Death of Traditional Software Interfaces](/generated/v2/topics/ai-agents-automation-and-the-death-of-traditional-software-interfaces-2) — related-article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — related-article
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:ai-agents-clear-permissions-openai-misalignment-disclosures`

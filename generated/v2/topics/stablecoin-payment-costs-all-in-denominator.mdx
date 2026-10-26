@@ -1,0 +1,86 @@
+---
+title: "Stablecoin Payment Costs Need an All-In Denominator"
+description: "New BIS and Bank of Canada research shows why stablecoin payment claims need to measure FX, liquidity, on-ramps, compliance and time to usable funds—not just blockchain fees."
+---
+
+# Stablecoin Payment Costs Need an All-In Denominator
+
+New BIS and Bank of Canada research shows why stablecoin payment claims need to measure FX, liquidity, on-ramps, compliance and time to usable funds—not just blockchain fees.
+
+<p><strong>Analysis.</strong> The cheapest-looking payment rail is not necessarily the cheapest payment. That distinction matters as stablecoins move from crypto-native transfers into treasury, supplier and cross-border payment products.</p>
+
+<p>A <a href="https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins">Bank for International Settlements working paper published October 19, 2026</a> compares banks, fintech money-transfer operators and stablecoin-based transfers using harmonized cost measures. Its central finding is more useful than either the pro-stablecoin or anti-stablecoin version of the story: fintechs have already compressed costs substantially, while stablecoins are not a universal shortcut around the hard parts of moving money between currencies and banking systems.</p>
+
+<p>For builders and businesses, the practical lesson is to stop treating blockchain transaction fees as the denominator. The right denominator is the amount the recipient can actually use, in the required currency and account, at the promised time.</p>
+
+<h2>The ledger fee is only one layer</h2>
+
+<p>A stablecoin transfer can settle onchain quickly and cost very little at the protocol layer. But most business payments begin with fiat and end with fiat. Between those endpoints are acquisition, trading, spreads, network fees, custody or wallet operations, compliance checks, withdrawal charges and bank processing. Liquidity also matters: the BIS paper finds that markets between US-dollar stablecoins and non-US currencies are generally thin.</p>
+
+<p>That makes a headline comparison such as “a few cents onchain versus a bank wire fee” incomplete. It compares one component of the new rail with the bundled price of the old one. The BIS researchers instead separate foreign-exchange markups from explicit charges, including exchange trading fees, blockchain fees and fiat withdrawal costs. In their bank sample, FX markups ranged from roughly 2% to 4.7% before explicit wire fees. For US$10,000 transfers from the United States, median fintech costs to developed-market currency groups were about US$40–$60, although some destinations were more expensive.</p>
+
+<p>Stablecoins can still be competitive in particular corridors. But the paper cautions that favourable pricing into some emerging markets may reflect capital controls rather than a durable technology advantage. Thin market depth and volatile conversion pricing also limit how much can move at the quoted rate.</p>
+
+<h2>Canada shows why FX needs to be visible</h2>
+
+<p>The Canadian evidence makes the denominator problem concrete. A <a href="https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-49/">Bank of Canada staff analytical paper updated October 16, 2026</a> examined quoted prices for Canadian business-to-business and business-to-person cross-border payments. It reports total bank margins of about 2%–3.5% of transaction value, with foreign exchange accounting for more than three-quarters of the measured cost.</p>
+
+<p>Those figures are not a live market quote or a forecast. The underlying data cover simulated transfers, not necessarily completed transactions: Canadian outbound quotes from 2021–2023 and inbound quotes from 2023–2024. The sample includes transfers of C$5,000 and C$20,000 outbound, plus US$5,000 and US$20,000 inbound. Receiver-side landing fees were not observed, and larger firms may negotiate different pricing. Even with those limits, the result is valuable because it shows where the visible fee can mislead: most of the measured cost was in the rate, not the line item labelled “fee.”</p>
+
+<p>The paper also finds meaningful price dispersion across banks for the same corridor, amount and year. That suggests procurement and transparency can matter before a company changes rails. A better comparison may reveal that a fintech route already beats a bank quote without introducing stablecoin custody and off-ramp dependencies.</p>
+
+<h2>A useful test is end-to-end, not rail-by-rail</h2>
+
+<p>Teams evaluating a stablecoin payment product should build a corridor scorecard around the whole payment. At minimum, measure the source-currency amount debited, the destination-currency amount available to the recipient, elapsed time to usable funds, quote expiry, failure and return handling, liquidity at the intended size, and every compliance or reconciliation step that still requires manual work.</p>
+
+<p>Run the test across realistic amounts and time windows. A route that works beautifully for US$500 at midday may price differently for US$50,000 outside local banking hours. Record the variance, not only the best execution. Include the operational cost of exceptions: a payment that is cheap when successful but difficult to reverse, investigate or reconcile can be expensive for finance teams.</p>
+
+<p>Builders should also separate availability from final settlement. As I argued in <a href="https://jasonansell.ca/article/swift-tokenised-payments-availability-settlement">my recent analysis of tokenised payments</a>, users seeing funds and institutions treating the obligation as final are different events. The same discipline applies here: an onchain confirmation is not automatically the moment a supplier has spendable local currency in its bank account.</p>
+
+<h2>What would change this assessment</h2>
+
+<p>The balance would shift if non-US stablecoin liquidity deepens, regulated on- and off-ramps publish dependable all-in quotes, and business systems automate identity, sanctions, reconciliation and exception handling across corridors. Direct settlement in a tokenized unit that both counterparties are willing and permitted to retain would also remove conversions that currently dominate the calculation.</p>
+
+<p>For now, the strongest case for stablecoin payments is corridor-specific rather than universal. The product advantage has to survive conversion, compliance and cash-out. The winning provider will not be the one with the lowest blockchain fee; it will be the one that can prove the lowest predictable cost to usable funds.</p>
+
+<h2>Sources</h2>
+
+<ul>
+  <li><a href="https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins">Bank for International Settlements, “Competing rails for cross-border payments: banks, fintechs, and stablecoins,” October 19, 2026</a>.</li>
+  <li><a href="https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-49/">Bank of Canada, “How Costly Are Cross-Border Payments for Firms?”, updated October 16, 2026</a>.</li>
+</ul>
+
+<p><em>Disclosure: Jason Ansell has a disclosed interest in Vector Smart Chain and related blockchain publishing projects. This analysis does not evaluate VSC and is not investment advice.</em></p>
+
+## Key takeaways
+
+- Blockchain transaction fees are not a complete measure of the actual cost of a stablecoin payment.
+- Total payment costs must include FX markups, liquidity, compliance, and time required to reach usable funds.
+- Fintech solutions currently offer competitive alternatives to both traditional banks and stablecoin-based payment rails.
+- Businesses should test payment corridors across varied amounts and times to account for market variance.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/stablecoin-payment-costs-all-in-denominator)
+## Related knowledge
+
+- [Canada’s Stablecoin Framework Has Three Compliance Layers](/generated/v2/topics/canada-stablecoin-framework-three-compliance-layers) — article
+- [Canada’s Stablecoin Framework Has Three Compliance Layers](/generated/v2/topics/canada-stablecoin-framework-three-compliance-layers) — related-article
+- [Crypto Payment Adoption in 2025: Which Companies Are Leading the Charge?](/generated/v2/topics/crypto-payment-adoption-in-2025-which-companies-are-leading-the-charge) — article
+- [Crypto Payment Adoption in 2025: Which Companies Are Leading the Charge?](/generated/v2/topics/crypto-payment-adoption-in-2025-which-companies-are-leading-the-charge) — related-article
+- [How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee](/generated/v2/topics/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee) — article
+- [How to Read a Stablecoin Reserve Report Without Mistaking It for a Guarantee](/generated/v2/topics/how-to-read-a-stablecoin-reserve-report-without-mistaking-it-for-a-guarantee) — related-article
+- [Liquidity](/generated/v2/glossary/liquidity) — glossary
+- [Liquidity](/generated/v2/glossary/liquidity) — related-glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — glossary
+- [Stablecoin](/generated/v2/glossary/stablecoin) — related-glossary
+- [Stablecoin Innovation in the United States](/generated/v2/research/stablecoin-innovation-in-the-united-states) — research
+- [Stablecoin Innovation in the United States](/generated/v2/research/stablecoin-innovation-in-the-united-states) — related-research
+- [The Digital Currency Challenge](/generated/v2/books/the-digital-currency-challenge) — book
+- [The Digital Currency Challenge](/generated/v2/books/the-digital-currency-challenge) — related-book
+- [Treasury](/generated/v2/glossary/treasury) — glossary
+- [Treasury](/generated/v2/glossary/treasury) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:stablecoin-payment-costs-all-in-denominator`

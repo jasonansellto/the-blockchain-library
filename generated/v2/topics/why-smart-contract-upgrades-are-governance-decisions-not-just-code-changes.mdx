@@ -1,0 +1,88 @@
+---
+title: "Why Smart Contract Upgrades Are Governance Decisions, Not Just Code Changes"
+description: "An upgradeable contract can keep the same address while its rules change. Here is how to assess upgrade authority, timelocks, compatibility and public accountability."
+---
+
+# Why Smart Contract Upgrades Are Governance Decisions, Not Just Code Changes
+
+An upgradeable contract can keep the same address while its rules change. Here is how to assess upgrade authority, timelocks, compatibility and public accountability.
+
+<p>A contract address can stay the same while the rules behind it change. For anyone building on a blockchain application, that distinction matters more than a broad promise of immutability. The useful question is not simply whether a contract can be upgraded. It is who can authorize the change, what constrains them, and how everyone else can evaluate the result.</p>
+<p>This is a practical reading of current Ethereum and OpenZeppelin documentation, checked on September 15, 2026—not a report of a newly announced protocol upgrade. The central argument is straightforward: an upgrade mechanism is also a governance mechanism, whether its operators call it governance or not.</p>
+
+<h2>The address is not the whole application</h2>
+<p>In the proxy pattern described by <a href="https://docs.openzeppelin.com/upgrades-plugins/proxies">OpenZeppelin</a>, users interact with a proxy that delegates execution to a separate implementation contract. The proxy retains the application state. An upgrade changes which implementation it uses, rather than rewriting the deployed implementation's code.</p>
+<p>That creates continuity, but continuity of address is not continuity of behaviour. An integration can still point to the same destination after an upgrade while encountering different application logic. OpenZeppelin also explains that upgrade control can sit with an individual address, a multisignature wallet or a DAO.</p>
+<p>The analytical consequence is that decentralization should be assessed at the change-control boundary, not inferred from the presence of a blockchain. A public ledger makes activity inspectable; it does not, by itself, answer who gets to change the application.</p>
+
+<h2>Trace authority before judging the label</h2>
+<p>A useful review should produce an authority map in plain language. Begin with the operation that changes the implementation. Identify what can call it, then ask who controls that caller. Continue until the explanation reaches the people, keys or voting process that actually authorize a change.</p>
+<p>As a hypothetical comparison, imagine two projects that both advertise community governance. One makes an on-chain vote a necessary step in an upgrade. The other asks for a community vote but leaves a separate operator able to upgrade without it. The same marketing label describes materially different promises.</p>
+<p>For a published governance policy, ask for answers to four concrete questions:</p>
+<ul>
+<li>Which deployed contracts and roles can authorize an upgrade?</li>
+<li>Does the advertised approval process actually control execution?</li>
+<li>What exceptions exist for emergencies, and what can those exceptions change?</li>
+<li>Who can alter the authority arrangement itself?</li>
+</ul>
+<p>These are proposed review questions, not an assertion that every project has a bypass. Their purpose is to turn an abstract claim into something a reader can verify.</p>
+
+<h2>A timelock buys time, not correctness</h2>
+<p><a href="https://docs.openzeppelin.com/contracts/5.x/access-control">OpenZeppelin's access-control documentation</a> describes a timelock that separates proposing an operation from executing it and imposes a minimum delay. When properly placed in control, that delay gives users an opportunity to inspect a pending operation before execution. Changes to the timelock's own minimum delay must go through the timelock itself.</p>
+<p>A delay is therefore a response window, not proof that an upgrade is good. My practical test would be whether that window is usable: is the proposal understandable, is someone watching it, and can affected users actually respond before it executes?</p>
+<p>There is also an availability trade-off. OpenZeppelin warns that a self-administered timelock can become indefinitely locked if the necessary proposer or executor accounts become unavailable. The governance design needs a credible operating process as well as restrictions on power.</p>
+
+<h2>Approval cannot repair incompatible state</h2>
+<p>Even a legitimately approved upgrade can be technically wrong. <a href="https://docs.openzeppelin.com/upgrades-plugins/writing-upgradeable">OpenZeppelin's upgradeable-contract guidance</a> warns that incompatible storage-layout changes, including reordering existing state variables or changing their types, can cause stored values to be misinterpreted. Initialization also needs explicit protection against unintended repeated execution; ordinary constructor assumptions do not initialize proxy state.</p>
+<p>This suggests two separate approval questions: is the change authorized, and is the transition safe? Treating one answer as evidence for the other leaves a gap.</p>
+<p>A useful release package should make both reviews possible. It should explain the intended behaviour change, identify the exact implementation being proposed, and provide compatibility checks and tests covering existing state. Reviewers should be able to connect the human-readable proposal to the transaction that will execute it. A passing vote is not a substitute for that connection.</p>
+
+<h2>Make the change observable</h2>
+<p><a href="https://eips.ethereum.org/EIPS/eip-1967">ERC-1967</a>, created on April 24, 2019, standardizes storage locations for proxy implementation, beacon and optional admin information. It also recommends corresponding events when those values change. These conventions help tools inspect proxy relationships and detect changes; they do not certify the safety of the new code.</p>
+<p>For an operator, a useful upgrade record would connect the proposal, approval, execution transaction and resulting implementation address. For an integrator, that record provides a concrete point at which to reassess assumptions. Neither audience should have to infer the actual deployed change from a celebratory announcement.</p>
+
+<h2>The promise should survive scrutiny</h2>
+<p>Upgradeability is not automatically a defect, and removing it is not automatically a complete security strategy. The design decision is about which kinds of change a system permits and under whose authority.</p>
+<p>The strongest governance explanation is one that lets an outsider follow the entire path: from proposed change, through authorization and technical review, to the code now in use. If that path is difficult to explain, adding the word “decentralized” does not make it clearer.</p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://docs.openzeppelin.com/upgrades-plugins/proxies">OpenZeppelin: Proxy Upgrade Pattern</a></li>
+<li><a href="https://docs.openzeppelin.com/contracts/5.x/access-control">OpenZeppelin Contracts 5.x: Access Control</a></li>
+<li><a href="https://docs.openzeppelin.com/upgrades-plugins/writing-upgradeable">OpenZeppelin: Writing Upgradeable Contracts</a></li>
+<li><a href="https://eips.ethereum.org/EIPS/eip-1967">ERC-1967: Proxy Storage Slots</a></li>
+</ul>
+
+## Key takeaways
+
+- Upgradeable contracts use proxy patterns to update logic while maintaining a persistent public address.
+- Upgrade authority is a governance mechanism that should be mapped to identify who truly controls changes.
+- Timelocks provide a necessary review window but do not ensure the technical safety of an update.
+- Governance approval cannot repair fundamental technical errors like incompatible storage-layout changes or poor initialization.
+- Transparency requires connecting human-readable proposals to the specific on-chain transactions executing the code update.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes)
+## Related knowledge
+
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — article
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — related-article
+- [Constructor](/generated/v2/glossary/constructor) — glossary
+- [Constructor](/generated/v2/glossary/constructor) — related-glossary
+- [Contract Address](/generated/v2/glossary/contract-address) — glossary
+- [Contract Address](/generated/v2/glossary/contract-address) — related-glossary
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/generated/v2/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — article
+- [Decentralized Identity: How Blockchain is Solving the Digital Identity Crisis](/generated/v2/topics/decentralized-identity-how-blockchain-is-solving-the-digital-identity-crisis) — related-article
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](/generated/v2/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform) — research
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](/generated/v2/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform) — related-research
+- [Governance](/generated/v2/glossary/governance) — glossary
+- [Governance](/generated/v2/glossary/governance) — related-glossary
+- [Hands-On Smart Contract Development with Solidity and Ethereum](/generated/v2/books/hands-on-smart-contract-development-with-solidity-and-ethereum) — book
+- [Hands-On Smart Contract Development with Solidity and Ethereum](/generated/v2/books/hands-on-smart-contract-development-with-solidity-and-ethereum) — related-book
+- [Monad: The Scalable L1 Smart Contract Platform](/generated/v2/research/monad-the-scalable-l1-smart-contract-platform) — research
+- [Monad: The Scalable L1 Smart Contract Platform](/generated/v2/research/monad-the-scalable-l1-smart-contract-platform) — related-research
+
+---
+
+**Canonical knowledge ID:** `topic:why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes`
