@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T16:03:05.890Z",
-  "buildId": "573d977be495b24d",
+  "generatedAt": "2026-10-27T15:15:11.973Z",
+  "buildId": "bde482b963933ba6",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -5473,6 +5473,114 @@
       "sourceCanonicalUrl": "/glossary/symmetric-cryptography",
       "sourceSlug": "symmetric-cryptography",
       "routeSlug": "symmetric-cryptography"
+    },
+    {
+      "uid": "glossary:sharding",
+      "type": "glossary",
+      "title": "Sharding",
+      "path": "generated/v2/glossary/sharding",
+      "sourceCanonicalUrl": "/glossary/sharding",
+      "sourceSlug": "sharding",
+      "routeSlug": "sharding"
+    },
+    {
+      "uid": "glossary:asic",
+      "type": "glossary",
+      "title": "ASIC",
+      "path": "generated/v2/glossary/asic",
+      "sourceCanonicalUrl": "/glossary/asic",
+      "sourceSlug": "asic",
+      "routeSlug": "asic"
+    },
+    {
+      "uid": "glossary:data-integrity",
+      "type": "glossary",
+      "title": "Data Integrity",
+      "path": "generated/v2/glossary/data-integrity",
+      "sourceCanonicalUrl": "/glossary/data-integrity",
+      "sourceSlug": "data-integrity",
+      "routeSlug": "data-integrity"
+    },
+    {
+      "uid": "glossary:distributed-systems",
+      "type": "glossary",
+      "title": "Distributed Systems",
+      "path": "generated/v2/glossary/distributed-systems",
+      "sourceCanonicalUrl": "/glossary/distributed-systems",
+      "sourceSlug": "distributed-systems",
+      "routeSlug": "distributed-systems"
+    },
+    {
+      "uid": "glossary:permissionless",
+      "type": "glossary",
+      "title": "Permissionless",
+      "path": "generated/v2/glossary/permissionless",
+      "sourceCanonicalUrl": "/glossary/permissionless",
+      "sourceSlug": "permissionless",
+      "routeSlug": "permissionless"
+    },
+    {
+      "uid": "glossary:auditability",
+      "type": "glossary",
+      "title": "Auditability",
+      "path": "generated/v2/glossary/auditability",
+      "sourceCanonicalUrl": "/glossary/auditability",
+      "sourceSlug": "auditability",
+      "routeSlug": "auditability"
+    },
+    {
+      "uid": "glossary:ciphertext",
+      "type": "glossary",
+      "title": "Ciphertext",
+      "path": "generated/v2/glossary/ciphertext",
+      "sourceCanonicalUrl": "/glossary/ciphertext",
+      "sourceSlug": "ciphertext",
+      "routeSlug": "ciphertext"
+    },
+    {
+      "uid": "glossary:decryption",
+      "type": "glossary",
+      "title": "Decryption",
+      "path": "generated/v2/glossary/decryption",
+      "sourceCanonicalUrl": "/glossary/decryption",
+      "sourceSlug": "decryption",
+      "routeSlug": "decryption"
+    },
+    {
+      "uid": "glossary:algorithm",
+      "type": "glossary",
+      "title": "Algorithm",
+      "path": "generated/v2/glossary/algorithm",
+      "sourceCanonicalUrl": "/glossary/algorithm",
+      "sourceSlug": "algorithm",
+      "routeSlug": "algorithm"
+    },
+    {
+      "uid": "glossary:asymmetric-cryptography",
+      "type": "glossary",
+      "title": "Asymmetric Cryptography",
+      "path": "generated/v2/glossary/asymmetric-cryptography",
+      "sourceCanonicalUrl": "/glossary/asymmetric-cryptography",
+      "sourceSlug": "asymmetric-cryptography",
+      "routeSlug": "asymmetric-cryptography"
+    },
+    {
+      "uid": "glossary:bip32",
+      "type": "glossary",
+      "title": "BIP32",
+      "path": "generated/v2/glossary/bip32",
+      "sourceCanonicalUrl": "/glossary/bip32",
+      "sourceSlug": "bip32",
+      "routeSlug": "bip32"
+    },
+    {
+      "uid": "glossary:non-custodial",
+      "type": "glossary",
+      "title": "Non-Custodial",
+      "path": "generated/v2/glossary/non-custodial",
+      "sourceCanonicalUrl": "/glossary/non-custodial",
+      "sourceSlug": "non-custodial",
+      "routeSlug": "non-custodial"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",
@@ -11998,6 +12106,15 @@
       "sourceCanonicalUrl": "/topics/what-is-web3",
       "sourceSlug": "what-is-web3",
       "routeSlug": "what-is-web3"
+    },
+    {
+      "uid": "topic:browser-mediated-digital-credentials-web3-trust-model",
+      "type": "topic",
+      "title": "Browser-Mediated Credentials Change the Web3 Trust Model",
+      "path": "generated/v2/topics/browser-mediated-digital-credentials-web3-trust-model",
+      "sourceCanonicalUrl": "/topics/browser-mediated-digital-credentials-web3-trust-model",
+      "sourceSlug": "browser-mediated-digital-credentials-web3-trust-model",
+      "routeSlug": "browser-mediated-digital-credentials-web3-trust-model"
     },
     {
       "uid": "book:the-quiet-rebuild-of-the-internet",

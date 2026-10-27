@@ -1,0 +1,56 @@
+---
+title: "Sharding"
+description: "Sharding is a horizontal database partitioning technique used in blockchain architectures to improve scalability by splitting the network state into smaller, manageable segments called shards. Instead of every node processing every transaction, each node is only responsible for t"
+---
+
+# Sharding
+
+Sharding is a horizontal database partitioning technique used in blockchain architectures to improve scalability by splitting the network state into smaller, manageable segments called shards. Instead of every node processing every transaction, each node is only responsible for the data and validation within its assigned shard. This parallelization allows the blockchain to process significantly more transactions per second (TPS) while maintaining decentralization by distributing the computational load across the network, rather than requiring every participant to store the entire ledger history locally.
+
+## Definition
+
+Sharding is a horizontal database partitioning technique used in blockchain architectures to improve scalability by splitting the network state into smaller, manageable segments called shards. Instead of every node processing every transaction, each node is only responsible for the data and validation within its assigned shard. This parallelization allows the blockchain to process significantly more transactions per second (TPS) while maintaining decentralization by distributing the computational load across the network, rather than requiring every participant to store the entire ledger history locally.
+
+## Simple explanation
+
+Imagine a library where every single book must be read by every librarian. It is slow and inefficient. Sharding is like dividing the library into smaller sections; each librarian only needs to focus on their assigned section. This allows the library to process many more visitors at the same time because the work is shared instead of one person trying to do everything.
+
+## Why it matters
+
+Sharding is critical for solving the blockchain trilemma by enabling mass-scale transaction throughput without centralizing the network. It allows decentralized platforms to support global consumer applications, such as payments and gaming, which require high speed.
+
+## How it works
+
+The network splits the state into disjoint subsets called shards, each with its own set of validators. Transactions involving different shards are processed in parallel, drastically increasing global throughput. Cross-shard communication protocols then ensure these independent segments remain synchronized and consistent within the global ledger state.
+
+## Real-world example
+
+The Ethereum network roadmap includes the implementation of sharding through 'danksharding' to optimize data availability and increase layer-2 rollup throughput significantly.
+
+## Advantages
+
+- Massive increase in transaction throughput
+- Reduces hardware requirements for node operators
+- Enables sustainable network growth
+
+## Limitations
+
+- Increased complexity in cross-shard communication
+- Potential reduction in individual shard security
+- Difficult to maintain state synchronization
+
+## Common misconceptions
+
+- Many believe sharding removes all requirements for full node validation, but nodes still need to verify data availability.
+- People often think sharding is simple to implement, whereas it is actually one of the most complex architectural upgrades in blockchain.
+## Related knowledge
+
+- [Blockchain Trilemma](/generated/v2/glossary/blockchain-trilemma) — term
+- [Consensus Mechanism](/generated/v2/glossary/consensus-mechanism) — term
+- [Layer 2](/categories/layer-2) — term
+- [Scalability](/generated/v2/glossary/scalability) — term
+- [Throughput](/generated/v2/glossary/throughput) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:sharding`

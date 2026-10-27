@@ -1,0 +1,55 @@
+---
+title: "BIP32"
+description: "Bitcoin Improvement Proposal 32 (BIP32) defines the standard for Hierarchical Deterministic (HD) wallets. It provides a system where a single master seed can generate a tree structure of unlimited keys and addresses. By using a parent extended key to derive child keys, BIP32 allo"
+---
+
+# BIP32
+
+Bitcoin Improvement Proposal 32 (BIP32) defines the standard for Hierarchical Deterministic (HD) wallets. It provides a system where a single master seed can generate a tree structure of unlimited keys and addresses. By using a parent extended key to derive child keys, BIP32 allows users to manage multiple accounts or addresses using only one backup phrase. This structure includes hardened derivation, which prevents the compromise of a child key from exposing the parent key, significantly enhancing security and operational convenience for multi-asset management.
+
+## Definition
+
+Bitcoin Improvement Proposal 32 (BIP32) defines the standard for Hierarchical Deterministic (HD) wallets. It provides a system where a single master seed can generate a tree structure of unlimited keys and addresses. By using a parent extended key to derive child keys, BIP32 allows users to manage multiple accounts or addresses using only one backup phrase. This structure includes hardened derivation, which prevents the compromise of a child key from exposing the parent key, significantly enhancing security and operational convenience for multi-asset management.
+
+## Simple explanation
+
+Think of BIP32 like a master key that can create thousands of unique, smaller keys. Instead of writing down a new password every time you create a new account, you only need to keep one 'master' seed phrase safe. From this master phrase, your wallet can automatically generate new addresses whenever you need them, while still keeping everything connected to the original backup.
+
+## Why it matters
+
+BIP32 revolutionized how users interact with cryptocurrencies by making wallet backups simple and efficient. It eliminates the need to manage individual private keys for every address, drastically reducing the risk of losing funds through poor backup management.
+
+## How it works
+
+BIP32 uses a seed to generate a master private key and a master chain code. Through a process called HMAC-SHA512, it derives child keys from the parent key in a deterministic sequence. This allows the wallet to calculate the exact same child keys every time the master seed is provided, ensuring consistent access to funds across different devices.
+
+## Real-world example
+
+Hardware wallets like Trezor and Ledger rely on BIP32 to allow users to back up their entire portfolio of crypto assets using a single 12 or 24-word recovery phrase.
+
+## Advantages
+
+- Enables single-seed recovery for all addresses
+- Supports logical organization of funds
+- Allows public key derivation without private key exposure
+
+## Limitations
+
+- Single point of failure at the seed level
+- Complexity in implementation for developers
+- Requires consistent standards across all wallets
+
+## Common misconceptions
+
+- Many believe BIP32 is just about Bitcoin, but it is actually the universal standard for address derivation in most modern wallets.
+- Users sometimes think that having a child key revealed compromises the master seed, but hardened derivation prevents this issue.
+## Related knowledge
+
+- [BIP39](/generated/v2/glossary/bip39) — term
+- [Derivation Path](/generated/v2/glossary/derivation-path) — term
+- [HD Wallet](/generated/v2/glossary/hd-wallet) — term
+- [Seed Phrase](/generated/v2/glossary/seed-phrase) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:bip32`

@@ -1,0 +1,58 @@
+---
+title: "Asymmetric Cryptography"
+description: "Asymmetric cryptography, also known as public-key cryptography, is a cryptographic system that uses pairs of mathematically related keys: a public key, which may be disseminated widely, and a private key, which is kept secret. The system relies on computational complexity, specif"
+---
+
+# Asymmetric Cryptography
+
+Asymmetric cryptography, also known as public-key cryptography, is a cryptographic system that uses pairs of mathematically related keys: a public key, which may be disseminated widely, and a private key, which is kept secret. The system relies on computational complexity, specifically the difficulty of factoring large prime numbers or solving discrete logarithm problems. Data encrypted with a recipient's public key can only be decrypted with the corresponding private key, ensuring confidentiality, while digital signatures created with a private key can be verified by anyone with the public key, ensuring authenticity and non-repudiation.
+
+## Definition
+
+Asymmetric cryptography, also known as public-key cryptography, is a cryptographic system that uses pairs of mathematically related keys: a public key, which may be disseminated widely, and a private key, which is kept secret. The system relies on computational complexity, specifically the difficulty of factoring large prime numbers or solving discrete logarithm problems. Data encrypted with a recipient's public key can only be decrypted with the corresponding private key, ensuring confidentiality, while digital signatures created with a private key can be verified by anyone with the public key, ensuring authenticity and non-repudiation.
+
+## Simple explanation
+
+Imagine a mailbox with a slot that anyone can put letters through, but only the owner with a special key can open the back to retrieve them. In digital terms, your public key is the slot address everyone sees, and your private key is the secret key that only you hold. It allows you to receive secure messages and prove who you are without ever needing to share your secret key with anyone else.
+
+## Why it matters
+
+Asymmetric cryptography is the fundamental pillar of blockchain technology, enabling secure transactions without a central authority. It allows users to own and control their digital assets securely and provides the mathematical foundation for verifying the identity of transaction signers on a public ledger.
+
+## How it works
+
+The system utilizes asymmetric algorithms like RSA or Elliptic Curve Cryptography to generate a linked key pair. When a sender wants to transmit data, they use the recipient's public key to encrypt the message. Once received, the private key holder uses their secret mathematical component to decrypt the data, or uses it to digitally sign a transaction to prove ownership.
+
+## Real-world example
+
+Bitcoin uses the Elliptic Curve Digital Signature Algorithm (ECDSA) to ensure that only the owner of a specific address can initiate an outgoing transaction.
+
+## Advantages
+
+- Eliminates the need for secure key exchange
+- Supports secure digital signatures and authenticity
+- Provides non-repudiation in transactions
+
+## Limitations
+
+- Computationally slower than symmetric encryption
+- Susceptible to quantum computing threats
+- Loss of private key leads to total asset loss
+
+## Common misconceptions
+
+- People often think the public key can be used to derive the private key, but this is mathematically impossible.
+- Some believe that asymmetric cryptography is inherently 'unhackable,' but it remains vulnerable to poor implementation or side-channel attacks.
+## Related knowledge
+
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Elliptic Curve Cryptography](/generated/v2/glossary/elliptic-curve-cryptography) — term
+- [Encryption](/generated/v2/glossary/encryption) — term
+- [Hashing](/generated/v2/glossary/hashing) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+- [Public Key](/generated/v2/glossary/public-key) — term
+- [Wallet](/generated/v2/glossary/wallet) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:asymmetric-cryptography`
