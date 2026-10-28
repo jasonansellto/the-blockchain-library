@@ -1,0 +1,55 @@
+---
+title: "DAG"
+description: "A Directed Acyclic Graph (DAG) is a data structure utilized as an alternative to the linear blockchain architecture for distributed ledger technology. In a DAG, transactions are not bundled into sequential blocks; instead, each new transaction must validate one or more previous t"
+---
+
+# DAG
+
+A Directed Acyclic Graph (DAG) is a data structure utilized as an alternative to the linear blockchain architecture for distributed ledger technology. In a DAG, transactions are not bundled into sequential blocks; instead, each new transaction must validate one or more previous transactions to be included in the network. This architecture allows for parallel processing of transactions, enabling the network to scale horizontally. Because there is no single chain, the graph structure inherently prevents cycles, ensuring a one-way chronological flow of data and consensus across the ledger.
+
+## Definition
+
+A Directed Acyclic Graph (DAG) is a data structure utilized as an alternative to the linear blockchain architecture for distributed ledger technology. In a DAG, transactions are not bundled into sequential blocks; instead, each new transaction must validate one or more previous transactions to be included in the network. This architecture allows for parallel processing of transactions, enabling the network to scale horizontally. Because there is no single chain, the graph structure inherently prevents cycles, ensuring a one-way chronological flow of data and consensus across the ledger.
+
+## Simple explanation
+
+Imagine a traditional blockchain like a single line of people waiting for one teller; only one person can move forward at a time. A DAG is more like a busy grocery store with dozens of checkout lanes where everyone is moving at once. Instead of waiting for a single block, your transaction is confirmed by referencing the transactions that came right before it. This makes the system much faster because it does not have to stop and wait for everyone else to be organized into a single group before confirming.
+
+## Why it matters
+
+DAGs represent a shift toward high-throughput, low-fee distributed ledgers that are better suited for microtransactions and IoT devices. By eliminating miners and block times, they address the fundamental scalability limitations of traditional proof-of-work blockchains.
+
+## How it works
+
+In a DAG, each new transaction acts as a node that must verify at least two previous transactions to be accepted into the graph. This process creates a chain-like dependency where the weight of validations increases as more transactions are added, effectively confirming the older ones. Consensus is reached through the cumulative weight of these references rather than through a global block production cycle. This structure eliminates the need for traditional block rewards and allows nodes to process transactions concurrently.
+
+## Real-world example
+
+IOTA (Tangle) is the most prominent example of a DAG, designed specifically for machine-to-machine payments in the Internet of Things, as well as Fantom and Hedera Hashgraph which utilize DAG-based consensus mechanisms.
+
+## Advantages
+
+- High transaction throughput and scalability
+- Minimal or zero transaction fees
+- Efficient for low-power IoT devices
+- No traditional mining energy expenditure
+
+## Limitations
+
+- Vulnerability to centralization in early stages
+- Complexity in ensuring network security
+- Lack of mature decentralized consensus models
+- Increased risk of network spam attacks
+
+## Common misconceptions
+
+- Many believe a DAG is just another type of blockchain, but it is actually an alternative data structure that functions without blocks.
+- People often assume DAGs are inherently insecure compared to blockchains, but they provide different trade-offs regarding decentralization and consensus speed.
+## Related knowledge
+
+- [Distributed Ledger Technology](/generated/v2/glossary/distributed-ledger-technology) — term
+- [Node](/generated/v2/glossary/node) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:dag`

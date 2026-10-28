@@ -1,0 +1,53 @@
+---
+title: "Certificate Authority"
+description: "A Certificate Authority (CA) is a trusted third-party entity that issues digital certificates to verify the identity of individuals, computers, or organizations. These certificates use public key infrastructure (PKI) to bind a public key to a specific entity, typically signed wit"
+---
+
+# Certificate Authority
+
+A Certificate Authority (CA) is a trusted third-party entity that issues digital certificates to verify the identity of individuals, computers, or organizations. These certificates use public key infrastructure (PKI) to bind a public key to a specific entity, typically signed with the CA’s private key. While CAs are foundational to the security of traditional Web2 protocols like HTTPS/TLS, their role in blockchain is often contrastive; blockchain protocols rely on decentralized trust rather than the centralized authority model provided by CAs.
+
+## Definition
+
+A Certificate Authority (CA) is a trusted third-party entity that issues digital certificates to verify the identity of individuals, computers, or organizations. These certificates use public key infrastructure (PKI) to bind a public key to a specific entity, typically signed with the CA’s private key. While CAs are foundational to the security of traditional Web2 protocols like HTTPS/TLS, their role in blockchain is often contrastive; blockchain protocols rely on decentralized trust rather than the centralized authority model provided by CAs.
+
+## Simple explanation
+
+Think of a Certificate Authority like a government agency that issues passports. Just as a passport proves who you are, a digital certificate proves that a website or device is who they claim to be. Your browser checks with these 'passport offices' to make sure the websites you visit are legitimate and not imposters.
+
+## Why it matters
+
+CAs maintain the security of the internet by preventing man-in-the-middle attacks, ensuring that data is encrypted between verified parties. In blockchain, they represent the traditional 'trusted intermediary' model that decentralized networks seek to replace or augment with cryptographically verifiable code.
+
+## How it works
+
+A CA receives a Certificate Signing Request (CSR) from an entity. The CA verifies the entity's identity and then digitally signs a certificate containing the entity's public key. Browsers and operating systems come pre-installed with a list of trusted root CA certificates, allowing them to verify any certificate signed by that authority.
+
+## Real-world example
+
+Let's Encrypt is a non-profit CA that provides free digital certificates for websites to enable encrypted HTTPS connections globally.
+
+## Advantages
+
+- Establishes trust in digital communication
+- Prevents impersonation of legitimate domains
+- Standardizes identity verification globally
+
+## Limitations
+
+- Single point of failure for trust
+- Centralized entities can be compromised or coerced
+- Does not fit decentralized identity models
+
+## Common misconceptions
+
+- People think a certificate authority proves a website is safe to use, not just that it is identified correctly.
+- Users assume all certificate authorities are equally trustworthy.
+## Related knowledge
+
+- [Digital Certificate](/generated/v2/glossary/digital-certificate) — term
+- [Trustless](/generated/v2/glossary/trustless) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:certificate-authority`

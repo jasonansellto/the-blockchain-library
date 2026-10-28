@@ -1,0 +1,56 @@
+---
+title: "Mnemonic"
+description: "A mnemonic, in the context of blockchain technology, is a human-readable sequence of 12 to 24 words derived from the BIP-39 standard that represents a hierarchical deterministic (HD) wallet's master private key. These words serve as a convenient and mnemonic way for users to back"
+---
+
+# Mnemonic
+
+A mnemonic, in the context of blockchain technology, is a human-readable sequence of 12 to 24 words derived from the BIP-39 standard that represents a hierarchical deterministic (HD) wallet's master private key. These words serve as a convenient and mnemonic way for users to backup and recover their entire crypto wallet. By inputting this sequence into any compatible wallet software, the deterministic algorithm recreates the cryptographic keys and the associated address structure, ensuring wallet accessibility across different devices.
+
+## Definition
+
+A mnemonic, in the context of blockchain technology, is a human-readable sequence of 12 to 24 words derived from the BIP-39 standard that represents a hierarchical deterministic (HD) wallet's master private key. These words serve as a convenient and mnemonic way for users to backup and recover their entire crypto wallet. By inputting this sequence into any compatible wallet software, the deterministic algorithm recreates the cryptographic keys and the associated address structure, ensuring wallet accessibility across different devices.
+
+## Simple explanation
+
+Instead of trying to memorize or write down a long, complex string of random letters and numbers, a mnemonic turns that code into a list of everyday words. It acts as a master password for your wallet, allowing you to easily write it down on paper and store it somewhere safe to recover your money if your device breaks.
+
+## Why it matters
+
+Mnemonics bridge the gap between complex machine-readable cryptography and human usability, enabling users to maintain backups of their assets. Without them, managing private keys would be practically impossible for the average user.
+
+## How it works
+
+The process uses the BIP-39 standard to map a random entropy source to a list of 2048 words. These words are then hashed using PBKDF2 to create a binary seed. This seed acts as the root for a tree of keys, allowing a single mnemonic to control an unlimited number of blockchain addresses.
+
+## Real-world example
+
+MetaMask and Trust Wallet prompt users to write down a 12-word mnemonic phrase upon account creation to ensure recovery if the browser or phone is lost.
+
+## Advantages
+
+- Human-readable format for easier backup
+- Compatible across different wallet software
+- Enables quick recovery of entire wallets
+
+## Limitations
+
+- Physical record is vulnerable to theft or fire
+- Not secure if stored digitally as plain text
+- Lengthy phrases can be difficult to manage securely
+
+## Common misconceptions
+
+- Users frequently assume that their mnemonic is the same thing as their account password.
+- Many believe they can change or customize their mnemonic words.
+## Related knowledge
+
+- [BIP-39](/generated/v2/glossary/bip-39) — term
+- [Entropy](/generated/v2/glossary/entropy) — term
+- [HD Wallet](/generated/v2/glossary/hd-wallet) — term
+- [Recovery Phrase](/generated/v2/glossary/recovery-phrase) — term
+- [Seed Phrase](/generated/v2/glossary/seed-phrase) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:mnemonic`

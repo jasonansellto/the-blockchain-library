@@ -1,0 +1,75 @@
+---
+title: "Canada’s Frontier-AI Cyber Direction Starts With an Asset Inventory"
+description: "Canada’s new frontier-AI cyber direction makes a useful point for every technology operator: faster threats raise the value of accurate inventories, governed machine identities and tested recovery evidence."
+---
+
+# Canada’s Frontier-AI Cyber Direction Starts With an Asset Inventory
+
+Canada’s new frontier-AI cyber direction makes a useful point for every technology operator: faster threats raise the value of accurate inventories, governed machine identities and tested recovery evidence.
+
+<p><strong>Analysis.</strong> <strong>Thesis:</strong> Canada’s new frontier-AI cyber direction is most useful when read as an evidence mandate, not an AI-security shopping list. Before an organization adds defensive models or agentic tools, it needs to know which services matter, what supports them, who and what can access them, and whether containment and recovery actually work.</p>
+<h2>The important signal is the sequence</h2>
+<p>The Government of Canada’s <a href="https://www.canada.ca/en/government/system/digital-government/policies-standards/spin/direction-government-canada-cyber-security-readiness-frontier-artificial-intelligence-era.html" rel="noopener noreferrer">Security Policy Implementation Notice on frontier-AI cyber readiness</a> took effect on October 1, 2026. It says advances in AI can accelerate vulnerability discovery, exploit generation and multi-stage attacks. Yet its first operational move is deliberately modest: identify the most critical services and, where capacity is constrained, start with no more than three.</p>
+<p>That sequencing matters. “AI-powered security” is easy to buy and hard to evaluate. A bounded service map gives teams something concrete to defend. Each selected service can be traced to its applications, infrastructure, devices, integrations, data, vendors and identities. Gaps then become visible as operational facts rather than abstract risk scores.</p>
+<h2>Inventory is a control, not paperwork</h2>
+<p>The direction asks departments to maintain current application inventories, architecture diagrams, lists of Internet-facing assets and software bills of materials for department-developed software supporting critical services. It also proposes coverage metrics: whether applications are recorded, diagrams are current, exposed assets are validated and SBOMs have been updated.</p>
+<p>For builders and businesses, the practical lesson is not to copy federal tooling. It is to make the dependency model queryable. If a high-risk library is disclosed, can the team identify affected services in minutes? If a vendor account is compromised, can it list every reachable system? If an API is retired, can it find the agents, automations and workflows that still call it?</p>
+<p>An inventory that cannot answer those questions is a document, not a control. The useful version is tied to deployment, identity and vendor-management processes so that changes update the evidence. This also complements the supply-chain argument in <a href="https://jasonansell.ca/article/agent-skills-supply-chain-rules-neutral-home">Agent Skills Need Supply-Chain Rules</a>: reusable AI components need provenance, ownership and revocation paths, not just convenient installation.</p>
+<h2>Machine identities belong in the same map</h2>
+<p>One of the direction’s strongest details is its treatment of non-person entities. Service accounts, service principals, machine identities and AI agents should have clear owners, documented business purposes, lifecycle controls and regular privilege reviews, while always-on access and static credentials are minimized.</p>
+<p>This is where conventional access reviews often fail. Human accounts may be recertified every quarter while an automation token quietly retains broad production access for years. Agentic systems increase that exposure because they connect models to tools, data and actions. The Canadian Centre for Cyber Security’s <a href="https://www.cyber.gc.ca/en/guidance/careful-adoption-agentic-ai" rel="noopener noreferrer">agentic-AI guidance</a> recommends using existing cyber frameworks, strict least privilege and ongoing visibility rather than treating AI security as a separate discipline.</p>
+<p>A defensible machine-identity record should answer five questions: who owns it, why it exists, which resources it can reach, how credentials rotate, and what event disables it. If any answer depends on the person who originally built the integration, the organization has accumulated operational debt.</p>
+<h2>Readiness has to be demonstrated</h2>
+<p>The direction links inventory to faster vulnerability handling, phishing-resistant authentication for privileged access, segmentation, protected logging, pre-approved containment actions and tested restores from separated or immutable backups. Those are not glamorous controls, but they produce evidence that can be inspected.</p>
+<p>A practical six-step adaptation for a technology team is:</p>
+<ol>
+<li>Select up to three services whose loss would most harm customers or operations.</li>
+<li>Map their software, data, infrastructure, vendors, Internet exposure and human and machine identities.</li>
+<li>Connect dependency data to vulnerability triage and set shorter response targets for exposed systems.</li>
+<li>Give every service account and agent an owner, expiration or review date, least-privilege scope and credential-rotation path.</li>
+<li>Centralize tamper-resistant logs and pre-authorize safe containment actions for likely scenarios.</li>
+<li>Restore each critical service from protected backups and verify the result against a known-good reference.</li>
+</ol>
+<p>The outcome is not a compliance binder. It is a recurring answer to three questions: what can fail, how quickly can we contain it, and can we restore trustworthy service?</p>
+<h2>Limits and what would change this assessment</h2>
+<p>This direction applies to federal organizations covered by Government of Canada security policy; it is not a private-sector rule. Its publication does not prove that departments have accurate inventories, faster patching or recoverable systems. The proposed indicators measure coverage and process, and some can still be satisfied without demonstrating lower incident impact.</p>
+<p>The assessment would strengthen if implementation reporting shows inventories staying current, machine identities receiving timely privilege reviews, high-risk findings closing faster and restore exercises succeeding. It would weaken if the program becomes annual attestation while unmanaged assets, dormant credentials and untested recovery paths persist.</p>
+<p><strong>Disclosure:</strong> Jason Ansell is co-founder of Vector Smart Chain and an author of books about blockchain and Web3. Neither VSC nor those books is evaluated or promoted in this analysis. This article is not investment advice.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.canada.ca/en/government/system/digital-government/policies-standards/spin/direction-government-canada-cyber-security-readiness-frontier-artificial-intelligence-era.html" rel="noopener noreferrer">Treasury Board of Canada Secretariat, Direction on Government of Canada Cyber Security Readiness in the Frontier Artificial Intelligence Era</a>, effective October 1, 2026.</li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/top-10-artificial-intelligence-security-actions-primer-itsap10049" rel="noopener noreferrer">Canadian Centre for Cyber Security, Top 10 artificial intelligence security actions</a>, accessed October 28, 2026.</li>
+<li><a href="https://www.cyber.gc.ca/en/guidance/careful-adoption-agentic-ai" rel="noopener noreferrer">Canadian Centre for Cyber Security and international partners, Careful adoption of agentic AI</a>, accessed October 28, 2026.</li>
+</ul>
+
+## Key takeaways
+
+- Prioritize building accurate, queryable asset and identity inventories before adopting advanced AI security tools.
+- Treat machine identities and AI agents with strict lifecycle controls, least-privilege access, and clear ownership.
+- Focus security efforts on the three most critical services to ensure containment and recovery are verifiable.
+- Translate security policies into operational evidence by testing restores and measuring response capabilities.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/canada-frontier-ai-cyber-direction-asset-inventory)
+## Related knowledge
+
+- [Attestation](/generated/v2/glossary/attestation) — glossary
+- [Attestation](/generated/v2/glossary/attestation) — related-glossary
+- [Provenance](/generated/v2/glossary/provenance) — glossary
+- [Provenance](/generated/v2/glossary/provenance) — related-glossary
+- [Quantum Computing in 2030: Predictions and Challenges Ahead](/generated/v2/topics/quantum-computing-in-2030-predictions-and-challenges-ahead) — article
+- [Quantum Computing in 2030: Predictions and Challenges Ahead](/generated/v2/topics/quantum-computing-in-2030-predictions-and-challenges-ahead) — related-article
+- [Quantum Internet: Are We on the Verge of a Fully Encrypted Web?](/generated/v2/topics/quantum-internet-are-we-on-the-verge-of-a-fully-encrypted-web) — article
+- [Quantum Internet: Are We on the Verge of a Fully Encrypted Web?](/generated/v2/topics/quantum-internet-are-we-on-the-verge-of-a-fully-encrypted-web) — related-article
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — article
+- [Stablecoin Payment Costs Need an All-In Denominator](/generated/v2/topics/stablecoin-payment-costs-all-in-denominator) — related-article
+- [Treasury](/generated/v2/glossary/treasury) — glossary
+- [Treasury](/generated/v2/glossary/treasury) — related-glossary
+- [Why People Trust Technology More Than They Understand It](/generated/v2/topics/why-people-trust-technology-more-than-they-understand-it) — article
+- [Why People Trust Technology More Than They Understand It](/generated/v2/topics/why-people-trust-technology-more-than-they-understand-it) — related-article
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:canada-frontier-ai-cyber-direction-asset-inventory`

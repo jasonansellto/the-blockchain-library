@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T15:15:11.973Z",
-  "buildId": "bde482b963933ba6",
+  "generatedAt": "2026-10-28T16:01:50.530Z",
+  "buildId": "d2a9b9bdfd7acc74",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -5581,6 +5581,114 @@
       "sourceCanonicalUrl": "/glossary/non-custodial",
       "sourceSlug": "non-custodial",
       "routeSlug": "non-custodial"
+    },
+    {
+      "uid": "glossary:key-management",
+      "type": "glossary",
+      "title": "Key Management",
+      "path": "generated/v2/glossary/key-management",
+      "sourceCanonicalUrl": "/glossary/key-management",
+      "sourceSlug": "key-management",
+      "routeSlug": "key-management"
+    },
+    {
+      "uid": "glossary:mnemonic",
+      "type": "glossary",
+      "title": "Mnemonic",
+      "path": "generated/v2/glossary/mnemonic",
+      "sourceCanonicalUrl": "/glossary/mnemonic",
+      "sourceSlug": "mnemonic",
+      "routeSlug": "mnemonic"
+    },
+    {
+      "uid": "glossary:certificate-authority",
+      "type": "glossary",
+      "title": "Certificate Authority",
+      "path": "generated/v2/glossary/certificate-authority",
+      "sourceCanonicalUrl": "/glossary/certificate-authority",
+      "sourceSlug": "certificate-authority",
+      "routeSlug": "certificate-authority"
+    },
+    {
+      "uid": "glossary:capital-markets",
+      "type": "glossary",
+      "title": "Capital Markets",
+      "path": "generated/v2/glossary/capital-markets",
+      "sourceCanonicalUrl": "/glossary/capital-markets",
+      "sourceSlug": "capital-markets",
+      "routeSlug": "capital-markets"
+    },
+    {
+      "uid": "glossary:censorship-resistance",
+      "type": "glossary",
+      "title": "Censorship Resistance",
+      "path": "generated/v2/glossary/censorship-resistance",
+      "sourceCanonicalUrl": "/glossary/censorship-resistance",
+      "sourceSlug": "censorship-resistance",
+      "routeSlug": "censorship-resistance"
+    },
+    {
+      "uid": "glossary:database",
+      "type": "glossary",
+      "title": "Database",
+      "path": "generated/v2/glossary/database",
+      "sourceCanonicalUrl": "/glossary/database",
+      "sourceSlug": "database",
+      "routeSlug": "database"
+    },
+    {
+      "uid": "glossary:decentralized-exchange",
+      "type": "glossary",
+      "title": "Decentralized Exchange",
+      "path": "generated/v2/glossary/decentralized-exchange",
+      "sourceCanonicalUrl": "/glossary/decentralized-exchange",
+      "sourceSlug": "decentralized-exchange",
+      "routeSlug": "decentralized-exchange"
+    },
+    {
+      "uid": "glossary:centralized-exchange",
+      "type": "glossary",
+      "title": "Centralized Exchange",
+      "path": "generated/v2/glossary/centralized-exchange",
+      "sourceCanonicalUrl": "/glossary/centralized-exchange",
+      "sourceSlug": "centralized-exchange",
+      "routeSlug": "centralized-exchange"
+    },
+    {
+      "uid": "glossary:coinbase",
+      "type": "glossary",
+      "title": "Coinbase",
+      "path": "generated/v2/glossary/coinbase",
+      "sourceCanonicalUrl": "/glossary/coinbase",
+      "sourceSlug": "coinbase",
+      "routeSlug": "coinbase"
+    },
+    {
+      "uid": "glossary:compiler",
+      "type": "glossary",
+      "title": "Compiler",
+      "path": "generated/v2/glossary/compiler",
+      "sourceCanonicalUrl": "/glossary/compiler",
+      "sourceSlug": "compiler",
+      "routeSlug": "compiler"
+    },
+    {
+      "uid": "glossary:compliance",
+      "type": "glossary",
+      "title": "Compliance",
+      "path": "generated/v2/glossary/compliance",
+      "sourceCanonicalUrl": "/glossary/compliance",
+      "sourceSlug": "compliance",
+      "routeSlug": "compliance"
+    },
+    {
+      "uid": "glossary:dag",
+      "type": "glossary",
+      "title": "DAG",
+      "path": "generated/v2/glossary/dag",
+      "sourceCanonicalUrl": "/glossary/dag",
+      "sourceSlug": "dag",
+      "routeSlug": "dag"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",
@@ -12115,6 +12223,15 @@
       "sourceCanonicalUrl": "/topics/browser-mediated-digital-credentials-web3-trust-model",
       "sourceSlug": "browser-mediated-digital-credentials-web3-trust-model",
       "routeSlug": "browser-mediated-digital-credentials-web3-trust-model"
+    },
+    {
+      "uid": "topic:canada-frontier-ai-cyber-direction-asset-inventory",
+      "type": "topic",
+      "title": "Canada’s Frontier-AI Cyber Direction Starts With an Asset Inventory",
+      "path": "generated/v2/topics/canada-frontier-ai-cyber-direction-asset-inventory",
+      "sourceCanonicalUrl": "/topics/canada-frontier-ai-cyber-direction-asset-inventory",
+      "sourceSlug": "canada-frontier-ai-cyber-direction-asset-inventory",
+      "routeSlug": "canada-frontier-ai-cyber-direction-asset-inventory"
     },
     {
       "uid": "book:the-quiet-rebuild-of-the-internet",

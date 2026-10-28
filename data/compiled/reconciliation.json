@@ -1,8 +1,8 @@
 {
-  "buildId": "bde482b963933ba6",
+  "buildId": "d2a9b9bdfd7acc74",
   "sourceCounts": {
-    "glossary": 637,
-    "articles": 726,
+    "glossary": 649,
+    "articles": 727,
     "books": 98,
     "research": 294,
     "learning-paths": 12,
@@ -11,12 +11,12 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 5974,
+    "news": 6082,
     "newsletters": 21
   },
   "canonicalCounts": {
-    "glossary": 620,
-    "articles": 726,
+    "glossary": 632,
+    "articles": 727,
     "books": 98,
     "research": 294,
     "learning-paths": 12,
@@ -25,22 +25,22 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 5946,
+    "news": 6053,
     "newsletters": 21
   },
   "quality": {
-    "rawObjects": 8189,
-    "canonicalObjects": 8142,
+    "rawObjects": 8310,
+    "canonicalObjects": 8262,
     "exactDuplicateRowsRemoved": 0,
-    "canonicalMergeGroups": 43,
-    "canonicalMergeExcessRows": 47,
+    "canonicalMergeGroups": 44,
+    "canonicalMergeExcessRows": 48,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 24341,
-    "unresolvedRelationships": 414,
-    "uniqueMissingConcepts": 332,
+    "totalEdges": 24539,
+    "unresolvedRelationships": 418,
+    "uniqueMissingConcepts": 336,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 6338,
-    "missingTags": 905,
+    "missingSeoDescription": 6235,
+    "missingTags": 917,
     "uncategorized": 427
   },
   "exactDuplicateRows": [],
@@ -564,6 +564,18 @@
       "sourceTypes": [
         "news"
       ]
+    },
+    {
+      "uid": "news:sun-io-completes-52nd-buyback-and-burn-total-sun-burned-surpasses-685m-as-sunswap-accelerates-ecosystem-integrations",
+      "title": "SUN.io Completes 52nd Buyback and Burn: Total SUN Burned Surpasses 685M as SunSwap Accelerates Ecosystem Integrations",
+      "sourceIds": [
+        "6ae21c6ec1e87a2ccbd036ef",
+        "6ae21c6ec1e87a2ccbd036e9"
+      ],
+      "mergedRecords": 2,
+      "sourceTypes": [
+        "news"
+      ]
     }
   ],
   "unresolvedRelationships": [
@@ -995,20 +1007,6 @@
         "title": "Atomic Swap"
       },
       "target": {
-        "id": "Decentralized Exchange",
-        "label": "Decentralized Exchange"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a37a90720a2ef889bab",
-        "slug": "atomic-swap",
-        "title": "Atomic Swap"
-      },
-      "target": {
         "id": "HTLC",
         "label": "HTLC"
       },
@@ -1261,20 +1259,6 @@
         "title": "USDC"
       },
       "target": {
-        "id": "Coinbase",
-        "label": "Coinbase"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a63043258f78e08e484",
-        "slug": "usdc",
-        "title": "USDC"
-      },
-      "target": {
         "id": "Regulatory Compliance",
         "label": "Regulatory Compliance"
       },
@@ -1452,20 +1436,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6a4e3a66ffc74e4f58a3cf02",
-        "slug": "aes-encryption",
-        "title": "AES Encryption"
-      },
-      "target": {
-        "id": "Key Management",
-        "label": "Key Management"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6a4e3a66ffc74e4f58a3cf04",
         "slug": "bip39",
         "title": "BIP39"
@@ -1473,20 +1443,6 @@
       "target": {
         "id": "Deterministic Wallet",
         "label": "Deterministic Wallet"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a66ffc74e4f58a3cf04",
-        "slug": "bip39",
-        "title": "BIP39"
-      },
-      "target": {
-        "id": "Mnemonic",
-        "label": "Mnemonic"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -1541,20 +1497,6 @@
         "title": "Digital Certificate"
       },
       "target": {
-        "id": "Certificate Authority",
-        "label": "Certificate Authority"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a66ffc74e4f58a3cf07",
-        "slug": "digital-certificate",
-        "title": "Digital Certificate"
-      },
-      "target": {
         "id": "SSL/TLS",
         "label": "SSL/TLS"
       },
@@ -1578,20 +1520,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6a4e3a8d9d928855299b0a9d",
-        "slug": "decentralization",
-        "title": "Decentralization"
-      },
-      "target": {
-        "id": "Censorship Resistance",
-        "label": "Censorship Resistance"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6a4e3a8d9d928855299b0a9f",
         "slug": "distributed-ledger",
         "title": "Distributed Ledger"
@@ -1599,20 +1527,6 @@
       "target": {
         "id": "DLT",
         "label": "DLT"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a8d9d928855299b0a9f",
-        "slug": "distributed-ledger",
-        "title": "Distributed Ledger"
-      },
-      "target": {
-        "id": "Database",
-        "label": "Database"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -2213,20 +2127,6 @@
         "title": "PKI"
       },
       "target": {
-        "id": "Certificate Authority",
-        "label": "Certificate Authority"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a9280e20b9e1f48da83",
-        "slug": "pki",
-        "title": "PKI"
-      },
-      "target": {
         "id": "SSL",
         "label": "SSL"
       },
@@ -2460,20 +2360,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6a4e3b15089cdb130fd95f16",
-        "slug": "ledger",
-        "title": "Ledger"
-      },
-      "target": {
-        "id": "Database",
-        "label": "Database"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6a4e3b15089cdb130fd95f17",
         "slug": "mainnet",
         "title": "Mainnet"
@@ -2537,20 +2423,6 @@
       "target": {
         "id": "Assets",
         "label": "Assets"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3b15bc9d379c14b6291b",
-        "slug": "custodial-wallet",
-        "title": "Custodial Wallet"
-      },
-      "target": {
-        "id": "Centralized Exchange",
-        "label": "Centralized Exchange"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -2852,20 +2724,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6a4e3b1633e34c1f741cefcc",
-        "slug": "solidity",
-        "title": "Solidity"
-      },
-      "target": {
-        "id": "Compiler",
-        "label": "Compiler"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6a4e3b1633e34c1f741cefcd",
         "slug": "storage",
         "title": "Storage"
@@ -3097,20 +2955,6 @@
       "target": {
         "id": "Nitro",
         "label": "Nitro"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3b486d3f44e693b9340a",
-        "slug": "base",
-        "title": "Base"
-      },
-      "target": {
-        "id": "Coinbase",
-        "label": "Coinbase"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -4005,20 +3849,6 @@
         "title": "Avalanche Consensus"
       },
       "target": {
-        "id": "DAG",
-        "label": "DAG"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3b8ccc1e69e768e45cc3",
-        "slug": "avalanche-consensus",
-        "title": "Avalanche Consensus"
-      },
-      "target": {
         "id": "Subnet",
         "label": "Subnet"
       },
@@ -4378,20 +4208,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6a4e3ba543cb60c9b6480ff3",
-        "slug": "traceability",
-        "title": "Traceability"
-      },
-      "target": {
-        "id": "Compliance",
-        "label": "Compliance"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6a4e3ba5819dd9b9d3e0d181",
         "slug": "rwa",
         "title": "RWA"
@@ -4399,20 +4215,6 @@
       "target": {
         "id": "TradFi",
         "label": "TradFi"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3ba5819dd9b9d3e0d183",
-        "slug": "tokenized-bonds",
-        "title": "Tokenized Bonds"
-      },
-      "target": {
-        "id": "Capital Markets",
-        "label": "Capital Markets"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -4483,20 +4285,6 @@
       "target": {
         "id": "Brokerage",
         "label": "Brokerage"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3ba5819dd9b9d3e0d185",
-        "slug": "tokenized-stocks",
-        "title": "Tokenized Stocks"
-      },
-      "target": {
-        "id": "Capital Markets",
-        "label": "Capital Markets"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -5111,20 +4899,6 @@
         "title": "Wallet Backup"
       },
       "target": {
-        "id": "Mnemonic",
-        "label": "Mnemonic"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3bc2330bb088fbfa2030",
-        "slug": "wallet-backup",
-        "title": "Wallet Backup"
-      },
-      "target": {
         "id": "Private Keys",
         "label": "Private Keys"
       },
@@ -5211,20 +4985,6 @@
       "target": {
         "id": "Two-Factor Authentication",
         "label": "Two-Factor Authentication"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3bd31feed140df9fcc47",
-        "slug": "yield-farming",
-        "title": "Yield Farming"
-      },
-      "target": {
-        "id": "Decentralized Exchange",
-        "label": "Decentralized Exchange"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -5449,20 +5209,6 @@
       "target": {
         "id": "Frontend",
         "label": "Frontend"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6ade7dcbee223880895060e8",
-        "slug": "distributed-ledger-technology",
-        "title": "Distributed Ledger Technology"
-      },
-      "target": {
-        "id": "DAG",
-        "label": "DAG"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -5713,20 +5459,6 @@
         "title": "Deployment"
       },
       "target": {
-        "id": "Compiler",
-        "label": "Compiler"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6ade7dda730cebc2a547e84c",
-        "slug": "deployment",
-        "title": "Deployment"
-      },
-      "target": {
         "id": "Gas Fees",
         "label": "Gas Fees"
       },
@@ -5841,34 +5573,6 @@
       "target": {
         "id": "AML",
         "label": "AML"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6adf6e46e9187f69c0907b04",
-        "slug": "kyc",
-        "title": "KYC"
-      },
-      "target": {
-        "id": "Centralized Exchange",
-        "label": "Centralized Exchange"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6adf6e46e9187f69c0907b04",
-        "slug": "kyc",
-        "title": "KYC"
-      },
-      "target": {
-        "id": "Compliance",
-        "label": "Compliance"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -6086,20 +5790,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6adf6e5d86ce792abc0ac742",
-        "slug": "symmetric-cryptography",
-        "title": "Symmetric Cryptography"
-      },
-      "target": {
-        "id": "Key Management",
-        "label": "Key Management"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6ae0bfdef9f0383d960d11df",
         "slug": "sharding",
         "title": "Sharding"
@@ -6149,20 +5839,6 @@
       "target": {
         "id": "Nodes",
         "label": "Nodes"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6ae0bfe67727ab82263b376d",
-        "slug": "permissionless",
-        "title": "Permissionless"
-      },
-      "target": {
-        "id": "Censorship Resistance",
-        "label": "Censorship Resistance"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -6254,20 +5930,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6ae0bff499b598b430870fcb",
-        "slug": "decryption",
-        "title": "Decryption"
-      },
-      "target": {
-        "id": "Key Management",
-        "label": "Key Management"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6ae0bff499b598b430870fcc",
         "slug": "algorithm",
         "title": "Algorithm"
@@ -6310,20 +5972,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6ae0bffb2a27336ddef1cf66",
-        "slug": "bip32",
-        "title": "BIP32"
-      },
-      "target": {
-        "id": "Mnemonic",
-        "label": "Mnemonic"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6ae0bfff6b0aa5b60b2d0547",
         "slug": "non-custodial",
         "title": "Non-Custodial"
@@ -6331,6 +5979,426 @@
       "target": {
         "id": "Self-Sovereignty",
         "label": "Self-Sovereignty"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d346",
+        "slug": "key-management",
+        "title": "Key Management"
+      },
+      "target": {
+        "id": "MPC",
+        "label": "MPC"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d346",
+        "slug": "key-management",
+        "title": "Key Management"
+      },
+      "target": {
+        "id": "Multi-Signature",
+        "label": "Multi-Signature"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d347",
+        "slug": "mnemonic",
+        "title": "Mnemonic"
+      },
+      "target": {
+        "id": "Deterministic Wallet",
+        "label": "Deterministic Wallet"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d348",
+        "slug": "certificate-authority",
+        "title": "Certificate Authority"
+      },
+      "target": {
+        "id": "Decentralized Identity",
+        "label": "Decentralized Identity"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d348",
+        "slug": "certificate-authority",
+        "title": "Certificate Authority"
+      },
+      "target": {
+        "id": "HTTPS",
+        "label": "HTTPS"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d348",
+        "slug": "certificate-authority",
+        "title": "Certificate Authority"
+      },
+      "target": {
+        "id": "Public Key Infrastructure",
+        "label": "Public Key Infrastructure"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d348",
+        "slug": "certificate-authority",
+        "title": "Certificate Authority"
+      },
+      "target": {
+        "id": "TLS",
+        "label": "TLS"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211777f42048c47b9d348",
+        "slug": "certificate-authority",
+        "title": "Certificate Authority"
+      },
+      "target": {
+        "id": "X.509",
+        "label": "X.509"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2117cb1481beb658c31f9",
+        "slug": "capital-markets",
+        "title": "Capital Markets"
+      },
+      "target": {
+        "id": "Fractionalization",
+        "label": "Fractionalization"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2117cb1481beb658c31f9",
+        "slug": "capital-markets",
+        "title": "Capital Markets"
+      },
+      "target": {
+        "id": "Real World Assets",
+        "label": "Real World Assets"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2117cb1481beb658c31f9",
+        "slug": "capital-markets",
+        "title": "Capital Markets"
+      },
+      "target": {
+        "id": "Security Tokens",
+        "label": "Security Tokens"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2118417d2b6dab0aba599",
+        "slug": "censorship-resistance",
+        "title": "Censorship Resistance"
+      },
+      "target": {
+        "id": "Self-Sovereignty",
+        "label": "Self-Sovereignty"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2118417d2b6dab0aba59a",
+        "slug": "database",
+        "title": "Database"
+      },
+      "target": {
+        "id": "CRUD",
+        "label": "CRUD"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2118417d2b6dab0aba59a",
+        "slug": "database",
+        "title": "Database"
+      },
+      "target": {
+        "id": "Centralization",
+        "label": "Centralization"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2118417d2b6dab0aba59a",
+        "slug": "database",
+        "title": "Database"
+      },
+      "target": {
+        "id": "Replication",
+        "label": "Replication"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae21189365b97790095be36",
+        "slug": "centralized-exchange",
+        "title": "Centralized Exchange"
+      },
+      "target": {
+        "id": "Fiat Currency",
+        "label": "Fiat Currency"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae21189365b97790095be36",
+        "slug": "centralized-exchange",
+        "title": "Centralized Exchange"
+      },
+      "target": {
+        "id": "Order Book",
+        "label": "Order Book"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2118d4f0f2913d138aac4",
+        "slug": "coinbase",
+        "title": "Coinbase"
+      },
+      "target": {
+        "id": "Fiat Currency",
+        "label": "Fiat Currency"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2118d4f0f2913d138aac4",
+        "slug": "coinbase",
+        "title": "Coinbase"
+      },
+      "target": {
+        "id": "Order Book",
+        "label": "Order Book"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2118d4f0f2913d138aac4",
+        "slug": "coinbase",
+        "title": "Coinbase"
+      },
+      "target": {
+        "id": "Public Company",
+        "label": "Public Company"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211915e96210392e6e2e1",
+        "slug": "compiler",
+        "title": "Compiler"
+      },
+      "target": {
+        "id": "Debugger",
+        "label": "Debugger"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2119fc69ef16831a80f47",
+        "slug": "compliance",
+        "title": "Compliance"
+      },
+      "target": {
+        "id": "AML",
+        "label": "AML"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2119fc69ef16831a80f47",
+        "slug": "compliance",
+        "title": "Compliance"
+      },
+      "target": {
+        "id": "GDPR",
+        "label": "GDPR"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2119fc69ef16831a80f47",
+        "slug": "compliance",
+        "title": "Compliance"
+      },
+      "target": {
+        "id": "Identity Management",
+        "label": "Identity Management"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae2119fc69ef16831a80f47",
+        "slug": "compliance",
+        "title": "Compliance"
+      },
+      "target": {
+        "id": "Permissioned Ledger",
+        "label": "Permissioned Ledger"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211af02999c71d40b05ed",
+        "slug": "dag",
+        "title": "DAG"
+      },
+      "target": {
+        "id": "Asynchronous Byzantine Fault Tolerance",
+        "label": "Asynchronous Byzantine Fault Tolerance"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211af02999c71d40b05ed",
+        "slug": "dag",
+        "title": "DAG"
+      },
+      "target": {
+        "id": "Hashgraph",
+        "label": "Hashgraph"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211af02999c71d40b05ed",
+        "slug": "dag",
+        "title": "DAG"
+      },
+      "target": {
+        "id": "Microtransactions",
+        "label": "Microtransactions"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211af02999c71d40b05ed",
+        "slug": "dag",
+        "title": "DAG"
+      },
+      "target": {
+        "id": "Scalability Trilemma",
+        "label": "Scalability Trilemma"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6ae211af02999c71d40b05ed",
+        "slug": "dag",
+        "title": "DAG"
+      },
+      "target": {
+        "id": "Tangle",
+        "label": "Tangle"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -6750,6 +6818,64 @@
       ]
     },
     {
+      "key": "fiat-currency",
+      "label": "Fiat Currency",
+      "count": 4,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3a63043258f78e08e47f",
+            "slug": "asset-backed-stablecoin",
+            "title": "Asset-backed Stablecoin"
+          },
+          "target": {
+            "id": "Fiat Currency",
+            "label": "Fiat Currency"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6adf6e46e9187f69c0907b04",
+            "slug": "kyc",
+            "title": "KYC"
+          },
+          "target": {
+            "id": "Fiat Currency",
+            "label": "Fiat Currency"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae21189365b97790095be36",
+            "slug": "centralized-exchange",
+            "title": "Centralized Exchange"
+          },
+          "target": {
+            "id": "Fiat Currency",
+            "label": "Fiat Currency"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae2118d4f0f2913d138aac4",
+            "slug": "coinbase",
+            "title": "Coinbase"
+          },
+          "target": {
+            "id": "Fiat Currency",
+            "label": "Fiat Currency"
+          }
+        }
+      ]
+    },
+    {
       "key": "6a4cfeff5c3d7803fb3fe20a",
       "label": "6a4cfeff5c3d7803fb3fe20a",
       "count": 3,
@@ -6842,8 +6968,8 @@
       ]
     },
     {
-      "key": "key-management",
-      "label": "Key Management",
+      "key": "order-book",
+      "label": "Order Book",
       "count": 3,
       "relationshipTypes": [
         "term"
@@ -6852,44 +6978,44 @@
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3a66ffc74e4f58a3cf02",
-            "slug": "aes-encryption",
-            "title": "AES Encryption"
+            "id": "6a4e3a8ea74addcc8ec97b22",
+            "slug": "market-maker",
+            "title": "Market Maker"
           },
           "target": {
-            "id": "Key Management",
-            "label": "Key Management"
+            "id": "Order Book",
+            "label": "Order Book"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6adf6e5d86ce792abc0ac742",
-            "slug": "symmetric-cryptography",
-            "title": "Symmetric Cryptography"
+            "id": "6ae21189365b97790095be36",
+            "slug": "centralized-exchange",
+            "title": "Centralized Exchange"
           },
           "target": {
-            "id": "Key Management",
-            "label": "Key Management"
+            "id": "Order Book",
+            "label": "Order Book"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6ae0bff499b598b430870fcb",
-            "slug": "decryption",
-            "title": "Decryption"
+            "id": "6ae2118d4f0f2913d138aac4",
+            "slug": "coinbase",
+            "title": "Coinbase"
           },
           "target": {
-            "id": "Key Management",
-            "label": "Key Management"
+            "id": "Order Book",
+            "label": "Order Book"
           }
         }
       ]
     },
     {
-      "key": "mnemonic",
-      "label": "Mnemonic",
+      "key": "permissioned-ledger",
+      "label": "Permissioned Ledger",
       "count": 3,
       "relationshipTypes": [
         "term"
@@ -6898,37 +7024,37 @@
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3a66ffc74e4f58a3cf04",
-            "slug": "bip39",
-            "title": "BIP39"
+            "id": "6a4e3bbfcb408e38b03d5b19",
+            "slug": "enterprise-blockchain-infrastructure",
+            "title": "Enterprise Blockchain Infrastructure"
           },
           "target": {
-            "id": "Mnemonic",
-            "label": "Mnemonic"
+            "id": "Permissioned Ledger",
+            "label": "Permissioned Ledger"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3bc2330bb088fbfa2030",
-            "slug": "wallet-backup",
-            "title": "Wallet Backup"
+            "id": "6ae0bfe67727ab82263b376d",
+            "slug": "permissionless",
+            "title": "Permissionless"
           },
           "target": {
-            "id": "Mnemonic",
-            "label": "Mnemonic"
+            "id": "Permissioned Ledger",
+            "label": "Permissioned Ledger"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6ae0bffb2a27336ddef1cf66",
-            "slug": "bip32",
-            "title": "BIP32"
+            "id": "6ae2119fc69ef16831a80f47",
+            "slug": "compliance",
+            "title": "Compliance"
           },
           "target": {
-            "id": "Mnemonic",
-            "label": "Mnemonic"
+            "id": "Permissioned Ledger",
+            "label": "Permissioned Ledger"
           }
         }
       ]
@@ -7014,93 +7140,13 @@
       ]
     },
     {
-      "key": "capital-markets",
-      "label": "Capital Markets",
+      "key": "aml",
+      "label": "AML",
       "count": 2,
       "relationshipTypes": [
         "term"
       ],
       "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3ba5819dd9b9d3e0d183",
-            "slug": "tokenized-bonds",
-            "title": "Tokenized Bonds"
-          },
-          "target": {
-            "id": "Capital Markets",
-            "label": "Capital Markets"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3ba5819dd9b9d3e0d185",
-            "slug": "tokenized-stocks",
-            "title": "Tokenized Stocks"
-          },
-          "target": {
-            "id": "Capital Markets",
-            "label": "Capital Markets"
-          }
-        }
-      ]
-    },
-    {
-      "key": "censorship-resistance",
-      "label": "Censorship Resistance",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a8d9d928855299b0a9d",
-            "slug": "decentralization",
-            "title": "Decentralization"
-          },
-          "target": {
-            "id": "Censorship Resistance",
-            "label": "Censorship Resistance"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ae0bfe67727ab82263b376d",
-            "slug": "permissionless",
-            "title": "Permissionless"
-          },
-          "target": {
-            "id": "Censorship Resistance",
-            "label": "Censorship Resistance"
-          }
-        }
-      ]
-    },
-    {
-      "key": "centralized-exchange",
-      "label": "Centralized Exchange",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3b15bc9d379c14b6291b",
-            "slug": "custodial-wallet",
-            "title": "Custodial Wallet"
-          },
-          "target": {
-            "id": "Centralized Exchange",
-            "label": "Centralized Exchange"
-          }
-        },
         {
           "source": {
             "type": "glossary",
@@ -7109,15 +7155,27 @@
             "title": "KYC"
           },
           "target": {
-            "id": "Centralized Exchange",
-            "label": "Centralized Exchange"
+            "id": "AML",
+            "label": "AML"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae2119fc69ef16831a80f47",
+            "slug": "compliance",
+            "title": "Compliance"
+          },
+          "target": {
+            "id": "AML",
+            "label": "AML"
           }
         }
       ]
     },
     {
-      "key": "certificate-authority",
-      "label": "Certificate Authority",
+      "key": "centralization",
+      "label": "Centralization",
       "count": 2,
       "relationshipTypes": [
         "term"
@@ -7126,32 +7184,32 @@
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3a66ffc74e4f58a3cf07",
-            "slug": "digital-certificate",
-            "title": "Digital Certificate"
+            "id": "6a4e3a63043258f78e08e485",
+            "slug": "usdt",
+            "title": "USDT"
           },
           "target": {
-            "id": "Certificate Authority",
-            "label": "Certificate Authority"
+            "id": "Centralization",
+            "label": "Centralization"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3a9280e20b9e1f48da83",
-            "slug": "pki",
-            "title": "PKI"
+            "id": "6ae2118417d2b6dab0aba59a",
+            "slug": "database",
+            "title": "Database"
           },
           "target": {
-            "id": "Certificate Authority",
-            "label": "Certificate Authority"
+            "id": "Centralization",
+            "label": "Centralization"
           }
         }
       ]
     },
     {
-      "key": "coinbase",
-      "label": "Coinbase",
+      "key": "decentralized-identity",
+      "label": "Decentralized Identity",
       "count": 2,
       "relationshipTypes": [
         "term"
@@ -7160,195 +7218,25 @@
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3a63043258f78e08e484",
-            "slug": "usdc",
-            "title": "USDC"
+            "id": "6a4e3bd671e793a8e37a3a48",
+            "slug": "soulbound-token",
+            "title": "Soulbound Token"
           },
           "target": {
-            "id": "Coinbase",
-            "label": "Coinbase"
+            "id": "Decentralized Identity",
+            "label": "Decentralized Identity"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3b486d3f44e693b9340a",
-            "slug": "base",
-            "title": "Base"
+            "id": "6ae211777f42048c47b9d348",
+            "slug": "certificate-authority",
+            "title": "Certificate Authority"
           },
           "target": {
-            "id": "Coinbase",
-            "label": "Coinbase"
-          }
-        }
-      ]
-    },
-    {
-      "key": "compiler",
-      "label": "Compiler",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3b1633e34c1f741cefcc",
-            "slug": "solidity",
-            "title": "Solidity"
-          },
-          "target": {
-            "id": "Compiler",
-            "label": "Compiler"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ade7dda730cebc2a547e84c",
-            "slug": "deployment",
-            "title": "Deployment"
-          },
-          "target": {
-            "id": "Compiler",
-            "label": "Compiler"
-          }
-        }
-      ]
-    },
-    {
-      "key": "compliance",
-      "label": "Compliance",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3ba543cb60c9b6480ff3",
-            "slug": "traceability",
-            "title": "Traceability"
-          },
-          "target": {
-            "id": "Compliance",
-            "label": "Compliance"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6adf6e46e9187f69c0907b04",
-            "slug": "kyc",
-            "title": "KYC"
-          },
-          "target": {
-            "id": "Compliance",
-            "label": "Compliance"
-          }
-        }
-      ]
-    },
-    {
-      "key": "dag",
-      "label": "DAG",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3b8ccc1e69e768e45cc3",
-            "slug": "avalanche-consensus",
-            "title": "Avalanche Consensus"
-          },
-          "target": {
-            "id": "DAG",
-            "label": "DAG"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ade7dcbee223880895060e8",
-            "slug": "distributed-ledger-technology",
-            "title": "Distributed Ledger Technology"
-          },
-          "target": {
-            "id": "DAG",
-            "label": "DAG"
-          }
-        }
-      ]
-    },
-    {
-      "key": "database",
-      "label": "Database",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a8d9d928855299b0a9f",
-            "slug": "distributed-ledger",
-            "title": "Distributed Ledger"
-          },
-          "target": {
-            "id": "Database",
-            "label": "Database"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3b15089cdb130fd95f16",
-            "slug": "ledger",
-            "title": "Ledger"
-          },
-          "target": {
-            "id": "Database",
-            "label": "Database"
-          }
-        }
-      ]
-    },
-    {
-      "key": "decentralized-exchange",
-      "label": "Decentralized Exchange",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a37a90720a2ef889bab",
-            "slug": "atomic-swap",
-            "title": "Atomic Swap"
-          },
-          "target": {
-            "id": "Decentralized Exchange",
-            "label": "Decentralized Exchange"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3bd31feed140df9fcc47",
-            "slug": "yield-farming",
-            "title": "Yield Farming"
-          },
-          "target": {
-            "id": "Decentralized Exchange",
-            "label": "Decentralized Exchange"
+            "id": "Decentralized Identity",
+            "label": "Decentralized Identity"
           }
         }
       ]
@@ -7451,6 +7339,40 @@
           "target": {
             "id": "Derivatives",
             "label": "Derivatives"
+          }
+        }
+      ]
+    },
+    {
+      "key": "deterministic-wallet",
+      "label": "Deterministic Wallet",
+      "count": 2,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3a66ffc74e4f58a3cf04",
+            "slug": "bip39",
+            "title": "BIP39"
+          },
+          "target": {
+            "id": "Deterministic Wallet",
+            "label": "Deterministic Wallet"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae211777f42048c47b9d347",
+            "slug": "mnemonic",
+            "title": "Mnemonic"
+          },
+          "target": {
+            "id": "Deterministic Wallet",
+            "label": "Deterministic Wallet"
           }
         }
       ]
@@ -7660,40 +7582,6 @@
       ]
     },
     {
-      "key": "fiat-currency",
-      "label": "Fiat Currency",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a63043258f78e08e47f",
-            "slug": "asset-backed-stablecoin",
-            "title": "Asset-backed Stablecoin"
-          },
-          "target": {
-            "id": "Fiat Currency",
-            "label": "Fiat Currency"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6adf6e46e9187f69c0907b04",
-            "slug": "kyc",
-            "title": "KYC"
-          },
-          "target": {
-            "id": "Fiat Currency",
-            "label": "Fiat Currency"
-          }
-        }
-      ]
-    },
-    {
       "key": "frontend",
       "label": "Frontend",
       "count": 2,
@@ -7757,6 +7645,40 @@
           "target": {
             "id": "Gossip Protocol",
             "label": "Gossip Protocol"
+          }
+        }
+      ]
+    },
+    {
+      "key": "hashgraph",
+      "label": "Hashgraph",
+      "count": 2,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ade7dcbee223880895060e8",
+            "slug": "distributed-ledger-technology",
+            "title": "Distributed Ledger Technology"
+          },
+          "target": {
+            "id": "Hashgraph",
+            "label": "Hashgraph"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae211af02999c71d40b05ed",
+            "slug": "dag",
+            "title": "DAG"
+          },
+          "target": {
+            "id": "Hashgraph",
+            "label": "Hashgraph"
           }
         }
       ]
@@ -7898,6 +7820,40 @@
       ]
     },
     {
+      "key": "multi-signature",
+      "label": "Multi-signature",
+      "count": 2,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ade7dda730cebc2a547e84d",
+            "slug": "escrow",
+            "title": "Escrow"
+          },
+          "target": {
+            "id": "Multi-signature",
+            "label": "Multi-signature"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae211777f42048c47b9d346",
+            "slug": "key-management",
+            "title": "Key Management"
+          },
+          "target": {
+            "id": "Multi-Signature",
+            "label": "Multi-Signature"
+          }
+        }
+      ]
+    },
+    {
       "key": "network-congestion",
       "label": "Network Congestion",
       "count": 2,
@@ -7995,40 +7951,6 @@
           "target": {
             "id": "Open Source",
             "label": "Open Source"
-          }
-        }
-      ]
-    },
-    {
-      "key": "permissioned-ledger",
-      "label": "Permissioned Ledger",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3bbfcb408e38b03d5b19",
-            "slug": "enterprise-blockchain-infrastructure",
-            "title": "Enterprise Blockchain Infrastructure"
-          },
-          "target": {
-            "id": "Permissioned Ledger",
-            "label": "Permissioned Ledger"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ae0bfe67727ab82263b376d",
-            "slug": "permissionless",
-            "title": "Permissionless"
-          },
-          "target": {
-            "id": "Permissioned Ledger",
-            "label": "Permissioned Ledger"
           }
         }
       ]
@@ -8272,6 +8194,40 @@
       ]
     },
     {
+      "key": "self-sovereignty",
+      "label": "Self-Sovereignty",
+      "count": 2,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae0bfff6b0aa5b60b2d0547",
+            "slug": "non-custodial",
+            "title": "Non-Custodial"
+          },
+          "target": {
+            "id": "Self-Sovereignty",
+            "label": "Self-Sovereignty"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae2118417d2b6dab0aba599",
+            "slug": "censorship-resistance",
+            "title": "Censorship Resistance"
+          },
+          "target": {
+            "id": "Self-Sovereignty",
+            "label": "Self-Sovereignty"
+          }
+        }
+      ]
+    },
+    {
       "key": "simplified-payment-verification",
       "label": "Simplified Payment Verification",
       "count": 2,
@@ -8369,6 +8325,74 @@
           "target": {
             "id": "Supply Chain Management",
             "label": "Supply Chain Management"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tangle",
+      "label": "Tangle",
+      "count": 2,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3b8ccc1e69e768e45cc7",
+            "slug": "directed-acyclic-graph",
+            "title": "Directed Acyclic Graph"
+          },
+          "target": {
+            "id": "Tangle",
+            "label": "Tangle"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae211af02999c71d40b05ed",
+            "slug": "dag",
+            "title": "DAG"
+          },
+          "target": {
+            "id": "Tangle",
+            "label": "Tangle"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tls",
+      "label": "TLS",
+      "count": 2,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3a9280e20b9e1f48da83",
+            "slug": "pki",
+            "title": "PKI"
+          },
+          "target": {
+            "id": "TLS",
+            "label": "TLS"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae211777f42048c47b9d348",
+            "slug": "certificate-authority",
+            "title": "Certificate Authority"
+          },
+          "target": {
+            "id": "TLS",
+            "label": "TLS"
           }
         }
       ]
@@ -8754,28 +8778,6 @@
       ]
     },
     {
-      "key": "aml",
-      "label": "AML",
-      "count": 1,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6adf6e46e9187f69c0907b04",
-            "slug": "kyc",
-            "title": "KYC"
-          },
-          "target": {
-            "id": "AML",
-            "label": "AML"
-          }
-        }
-      ]
-    },
-    {
       "key": "api-economy",
       "label": "API Economy",
       "count": 1,
@@ -8903,6 +8905,28 @@
           "target": {
             "id": "Assets",
             "label": "Assets"
+          }
+        }
+      ]
+    },
+    {
+      "key": "asynchronous-byzantine-fault-tolerance",
+      "label": "Asynchronous Byzantine Fault Tolerance",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae211af02999c71d40b05ed",
+            "slug": "dag",
+            "title": "DAG"
+          },
+          "target": {
+            "id": "Asynchronous Byzantine Fault Tolerance",
+            "label": "Asynchronous Byzantine Fault Tolerance"
           }
         }
       ]
@@ -9370,28 +9394,6 @@
       ]
     },
     {
-      "key": "centralization",
-      "label": "Centralization",
-      "count": 1,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a63043258f78e08e485",
-            "slug": "usdt",
-            "title": "USDT"
-          },
-          "target": {
-            "id": "Centralization",
-            "label": "Centralization"
-          }
-        }
-      ]
-    },
-    {
       "key": "cex",
       "label": "CEX",
       "count": 1,
@@ -9497,6 +9499,72 @@
           "target": {
             "id": "Cloud Computing",
             "label": "Cloud Computing"
+          }
+        }
+      ]
+    },
+    {
+      "key": "code-reuse",
+      "label": "Code Reuse",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3b1633e34c1f741cefc7",
+            "slug": "library-contract",
+            "title": "Library Contract"
+          },
+          "target": {
+            "id": "Code Reuse",
+            "label": "Code Reuse"
+          }
+        }
+      ]
+    },
+    {
+      "key": "collateralization-ratio",
+      "label": "Collateralization Ratio",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3a63043258f78e08e481",
+            "slug": "overcollateralized-stablecoin",
+            "title": "Overcollateralized Stablecoin"
+          },
+          "target": {
+            "id": "Collateralization Ratio",
+            "label": "Collateralization Ratio"
+          }
+        }
+      ]
+    },
+    {
+      "key": "collision-resistance",
+      "label": "Collision Resistance",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3b15089cdb130fd95f12",
+            "slug": "hash-function",
+            "title": "Hash Function"
+          },
+          "target": {
+            "id": "Collision Resistance",
+            "label": "Collision Resistance"
           }
         }
       ]
