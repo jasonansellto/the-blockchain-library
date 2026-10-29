@@ -6962,6 +6962,138 @@
     "text": "DAG A Directed Acyclic Graph (DAG) is a data structure utilized as an alternative to the linear blockchain architecture for distributed ledger technology. In a DAG, transactions are not bundled into sequential blocks; instead, each new transaction must validate one or more previous transactions to be included in the network. This architecture allows for parallel processing of transactions, enabling the network to scale horizontally. Because there is no single chain, the graph structure inherently prevents cycles, ensuring a one-way chronological flow of data and consensus across the ledger. DAG — Definition & Explanation | The Blockchain Library Learn about DAG (Directed Acyclic Graph) in blockchain. Understand how this advanced data structure enables high-speed, scalable, and feeless decentralized networks."
   },
   {
+    "id": "glossary:fiat-currency",
+    "type": "glossary",
+    "title": "Fiat Currency",
+    "aliases": [],
+    "summary": "Fiat currency is a legal tender whose value is not derived from a physical commodity like gold or silver, but is instead established by government decree. It functions as a medium of exchange because of public trust in the issuing government and the underlying economic stability of the state. Central banks manage the supply of fiat currency through monetary policy, including interest rates and open market operations, to regulate inflation and stimulate economic growth, though it is inherently susceptible to devaluation through excessive printing.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/fiat-currency",
+    "text": "Fiat Currency Fiat currency is a legal tender whose value is not derived from a physical commodity like gold or silver, but is instead established by government decree. It functions as a medium of exchange because of public trust in the issuing government and the underlying economic stability of the state. Central banks manage the supply of fiat currency through monetary policy, including interest rates and open market operations, to regulate inflation and stimulate economic growth, though it is inherently susceptible to devaluation through excessive printing. Fiat Currency — Definition & Explanation | The Blockchain Library Learn what fiat currency is, how it functions as legal tender without commodity backing, and its critical role in the global economy and cryptocurrency markets."
+  },
+  {
+    "id": "glossary:aml",
+    "type": "glossary",
+    "title": "AML",
+    "aliases": [],
+    "summary": "Anti-Money Laundering (AML) refers to a comprehensive set of legal and procedural controls designed to prevent criminals from disguising illegally obtained funds as legitimate income. In the financial sector, AML mandates that institutions monitor customer transactions, verify identities, and report suspicious activities to regulatory authorities. Within the blockchain industry, AML compliance is increasingly critical for exchanges and protocols that interface with the traditional financial system, ensuring that digital assets are not utilized to facilitate illicit activities like terrorism financing or tax evasion.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/aml",
+    "text": "AML Anti-Money Laundering (AML) refers to a comprehensive set of legal and procedural controls designed to prevent criminals from disguising illegally obtained funds as legitimate income. In the financial sector, AML mandates that institutions monitor customer transactions, verify identities, and report suspicious activities to regulatory authorities. Within the blockchain industry, AML compliance is increasingly critical for exchanges and protocols that interface with the traditional financial system, ensuring that digital assets are not utilized to facilitate illicit activities like terrorism financing or tax evasion. AML — Definition & Explanation | The Blockchain Library Discover how Anti-Money Laundering (AML) regulations operate within the blockchain industry, ensuring financial security and institutional compliance today."
+  },
+  {
+    "id": "glossary:centralization",
+    "type": "glossary",
+    "title": "Centralization",
+    "aliases": [],
+    "summary": "Centralization is an organizational structure where decision-making power, control, and data are concentrated within a single entity or a small group of stakeholders. In a centralized system, a central authority manages network protocols, updates, and user access, often leading to increased efficiency but creating a single point of failure. This contrasts with decentralized systems, where power is distributed across a large, non-hierarchical network of participants. In the context of blockchain, centralization usually occurs in governance models or infrastructure hosting, impacting trustlessness and censorship resistance.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/centralization",
+    "text": "Centralization Centralization is an organizational structure where decision-making power, control, and data are concentrated within a single entity or a small group of stakeholders. In a centralized system, a central authority manages network protocols, updates, and user access, often leading to increased efficiency but creating a single point of failure. This contrasts with decentralized systems, where power is distributed across a large, non-hierarchical network of participants. In the context of blockchain, centralization usually occurs in governance models or infrastructure hosting, impacting trustlessness and censorship resistance. Centralization — Definition & Explanation | The Blockchain Library Explore the concept of centralization in blockchain, its impact on governance, security, and the trade-offs between efficiency and decentralized control."
+  },
+  {
+    "id": "glossary:derivatives",
+    "type": "glossary",
+    "title": "Derivatives",
+    "aliases": [],
+    "summary": "In the context of blockchain and stablecoins, derivatives are financial contracts that derive their value from the performance of an underlying asset, such as a cryptocurrency, commodity, or fiat currency. These instruments, which include futures, options, and perpetual swaps, allow participants to speculate on future price movements, hedge against volatility, or gain leveraged exposure without directly owning the underlying collateral. Within the stablecoin ecosystem, derivatives are frequently used to manage risk, provide liquidity for synthetic assets, and facilitate complex decentralized finance (DeFi) trading strategies.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/derivatives",
+    "text": "Derivatives In the context of blockchain and stablecoins, derivatives are financial contracts that derive their value from the performance of an underlying asset, such as a cryptocurrency, commodity, or fiat currency. These instruments, which include futures, options, and perpetual swaps, allow participants to speculate on future price movements, hedge against volatility, or gain leveraged exposure without directly owning the underlying collateral. Within the stablecoin ecosystem, derivatives are frequently used to manage risk, provide liquidity for synthetic assets, and facilitate complex decentralized finance (DeFi) trading strategies. Derivatives — Definition & Explanation | The Blockchain Library Explore blockchain derivatives in our comprehensive glossary. Learn how futures, options, and swaps enable risk management and leverage in decentralized finance."
+  },
+  {
+    "id": "glossary:order-book",
+    "type": "glossary",
+    "title": "Order Book",
+    "aliases": [],
+    "summary": "An order book is an electronic list of buy and sell orders for a specific financial asset, organized by price level. It serves as the fundamental data structure for centralized and decentralized exchanges, tracking the depth of market liquidity. In a blockchain context, the order book facilitates price discovery by matching limit orders from buyers and sellers. It aggregates all outstanding bids and asks, allowing participants to see the current market supply and demand dynamics before executing trades, ensuring transparency and order execution priority.",
+    "categoryId": "6a4e39d110805a52385d8fc9",
+    "tags": [],
+    "canonicalUrl": "/glossary/order-book",
+    "text": "Order Book An order book is an electronic list of buy and sell orders for a specific financial asset, organized by price level. It serves as the fundamental data structure for centralized and decentralized exchanges, tracking the depth of market liquidity. In a blockchain context, the order book facilitates price discovery by matching limit orders from buyers and sellers. It aggregates all outstanding bids and asks, allowing participants to see the current market supply and demand dynamics before executing trades, ensuring transparency and order execution priority. Order Book — Definition & Explanation | The Blockchain Library Learn how order books function in blockchain and DeFi. Discover how these electronic lists facilitate price discovery and transparent trading for digital assets."
+  },
+  {
+    "id": "glossary:permissioned-ledger",
+    "type": "glossary",
+    "title": "Permissioned Ledger",
+    "aliases": [],
+    "summary": "A permissioned ledger is a type of distributed ledger technology where access and participation are restricted to a defined set of authorized entities. Unlike public blockchains, which are permissionless and open to any participant, a permissioned ledger requires identity verification before users can interact with the network, read data, or validate transactions. This architecture provides high levels of privacy, controlled transparency, and regulatory compliance, making it a preferred choice for enterprise environments where operational confidentiality and defined governance roles are essential for business operations.",
+    "categoryId": "6a4e39d110805a52385d8fd6",
+    "tags": [],
+    "canonicalUrl": "/glossary/permissioned-ledger",
+    "text": "Permissioned Ledger A permissioned ledger is a type of distributed ledger technology where access and participation are restricted to a defined set of authorized entities. Unlike public blockchains, which are permissionless and open to any participant, a permissioned ledger requires identity verification before users can interact with the network, read data, or validate transactions. This architecture provides high levels of privacy, controlled transparency, and regulatory compliance, making it a preferred choice for enterprise environments where operational confidentiality and defined governance roles are essential for business operations. Permissioned Ledger — Definition & Explanation | The Blockchain Library Learn about permissioned ledgers: how these restricted, secure blockchain networks balance decentralized technology with the privacy needs of enterprise organizations."
+  },
+  {
+    "id": "glossary:decentralized-identity",
+    "type": "glossary",
+    "title": "Decentralized Identity",
+    "aliases": [],
+    "summary": "Decentralized Identity (DID) is a framework for digital identity that enables individuals to own, manage, and control their personal data without reliance on central authorities or identity providers. Utilizing blockchain technology and cryptographic proofs, DIDs allow users to verify their identity through verifiable credentials rather than passwords or centralized databases. This paradigm shifts the architecture of trust from siloed corporate intermediaries to user-centric, self-sovereign models, ensuring that privacy, portability, and interoperability remain fundamental features of the digital interaction landscape.",
+    "categoryId": "6a4e39d110805a52385d8fcb",
+    "tags": [],
+    "canonicalUrl": "/glossary/decentralized-identity",
+    "text": "Decentralized Identity Decentralized Identity (DID) is a framework for digital identity that enables individuals to own, manage, and control their personal data without reliance on central authorities or identity providers. Utilizing blockchain technology and cryptographic proofs, DIDs allow users to verify their identity through verifiable credentials rather than passwords or centralized databases. This paradigm shifts the architecture of trust from siloed corporate intermediaries to user-centric, self-sovereign models, ensuring that privacy, portability, and interoperability remain fundamental features of the digital interaction landscape. Decentralized Identity — Definition & Explanation | The Blockchain Library Learn about Decentralized Identity (DID). Understand how blockchain empowers users to own their digital identity, improve privacy, and control personal data."
+  },
+  {
+    "id": "glossary:digital-ownership",
+    "type": "glossary",
+    "title": "Digital Ownership",
+    "aliases": [],
+    "summary": "Digital ownership refers to the state of having exclusive, provable control and property rights over a digital asset via a blockchain ledger. Unlike traditional digital files that can be copied infinitely, blockchain-based ownership creates scarcity and verifiable provenance through unique tokens. This architecture ensures that creators and collectors can prove authenticity, transfer assets without third-party permission, and participate in secondary markets, effectively bridging the gap between physical property rights and digital information.",
+    "categoryId": "6a4e39d110805a52385d8fcb",
+    "tags": [],
+    "canonicalUrl": "/glossary/digital-ownership",
+    "text": "Digital Ownership Digital ownership refers to the state of having exclusive, provable control and property rights over a digital asset via a blockchain ledger. Unlike traditional digital files that can be copied infinitely, blockchain-based ownership creates scarcity and verifiable provenance through unique tokens. This architecture ensures that creators and collectors can prove authenticity, transfer assets without third-party permission, and participate in secondary markets, effectively bridging the gap between physical property rights and digital information. Digital Ownership — Definition & Explanation | The Blockchain Library Explore digital ownership in Web3. Discover how blockchain technology enables verifiable property rights, provenance, and true scarcity for digital assets."
+  },
+  {
+    "id": "glossary:deflationary",
+    "type": "glossary",
+    "title": "Deflationary",
+    "aliases": [],
+    "summary": "A deflationary economic model in the context of blockchain refers to a tokenomic structure where the total circulating supply of an asset decreases over time. This is typically achieved through mechanisms like token burning, where tokens are permanently sent to unspendable addresses, or fee-burning protocols. By reducing the supply relative to demand, a deflationary model aims to create scarcity, potentially impacting the asset's value. In Ethereum's case, EIP-1559 introduced a mechanism that burns a portion of transaction fees, potentially making ETH deflationary depending on network activity.",
+    "categoryId": "6a4e39d110805a52385d8fc8",
+    "tags": [],
+    "canonicalUrl": "/glossary/deflationary",
+    "text": "Deflationary A deflationary economic model in the context of blockchain refers to a tokenomic structure where the total circulating supply of an asset decreases over time. This is typically achieved through mechanisms like token burning, where tokens are permanently sent to unspendable addresses, or fee-burning protocols. By reducing the supply relative to demand, a deflationary model aims to create scarcity, potentially impacting the asset's value. In Ethereum's case, EIP-1559 introduced a mechanism that burns a portion of transaction fees, potentially making ETH deflationary depending on network activity. Deflationary — Definition & Explanation | The Blockchain Library Learn how deflationary models in blockchain reduce token supply to create scarcity. Understand the Ethereum EIP-1559 burn mechanism and its impact on tokenomics."
+  },
+  {
+    "id": "glossary:delegation",
+    "type": "glossary",
+    "title": "Delegation",
+    "aliases": [],
+    "summary": "Delegation is a mechanism within delegated proof-of-stake (DPoS) and similar blockchain consensus models whereby token holders assign their voting power or staking weight to a chosen validator or delegate. By delegating their assets, users participate in the network's security and governance processes without needing to run their own infrastructure. The delegate acts on behalf of the delegators to propose blocks, validate transactions, and cast governance votes, often distributing a portion of the earned rewards back to the delegators proportionally to their stake.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/delegation",
+    "text": "Delegation Delegation is a mechanism within delegated proof-of-stake (DPoS) and similar blockchain consensus models whereby token holders assign their voting power or staking weight to a chosen validator or delegate. By delegating their assets, users participate in the network's security and governance processes without needing to run their own infrastructure. The delegate acts on behalf of the delegators to propose blocks, validate transactions, and cast governance votes, often distributing a portion of the earned rewards back to the delegators proportionally to their stake. Delegation — Definition & Explanation | The Blockchain Library Learn how delegation works in blockchain networks. Understand how staking your tokens with validators secures the network while earning passive rewards."
+  },
+  {
+    "id": "glossary:ecosystem",
+    "type": "glossary",
+    "title": "Ecosystem",
+    "aliases": [],
+    "summary": "A blockchain ecosystem refers to a comprehensive, interconnected environment comprising a core blockchain protocol and its surrounding suite of decentralized applications (dApps), development tools, service providers, developer communities, and financial infrastructure. It functions as a self-sustaining economy where various components rely on the underlying protocol's native assets, security architecture, and consensus rules. An ecosystem's health is typically measured by its liquidity, developer activity, user adoption, and the interoperability of the integrated protocols and tools.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/ecosystem",
+    "text": "Ecosystem A blockchain ecosystem refers to a comprehensive, interconnected environment comprising a core blockchain protocol and its surrounding suite of decentralized applications (dApps), development tools, service providers, developer communities, and financial infrastructure. It functions as a self-sustaining economy where various components rely on the underlying protocol's native assets, security architecture, and consensus rules. An ecosystem's health is typically measured by its liquidity, developer activity, user adoption, and the interoperability of the integrated protocols and tools. Ecosystem — Definition & Explanation | The Blockchain Library Discover what a blockchain ecosystem is. Explore how interconnected dApps, developers, and tools create value within a decentralized digital economy."
+  },
+  {
+    "id": "glossary:deterministic-wallet",
+    "type": "glossary",
+    "title": "Deterministic Wallet",
+    "aliases": [],
+    "summary": "A deterministic wallet is a type of cryptocurrency wallet that derives all of its public and private key pairs from a single master seed or master key. By using a standardized key derivation function, the wallet can generate an infinite sequence of unique addresses from this initial seed. Because the derivation process is mathematically repeatable, any device holding the seed can recover the entire history of addresses and balances, providing a unified and reliable method for multi-currency asset management and disaster recovery.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/deterministic-wallet",
+    "text": "Deterministic Wallet A deterministic wallet is a type of cryptocurrency wallet that derives all of its public and private key pairs from a single master seed or master key. By using a standardized key derivation function, the wallet can generate an infinite sequence of unique addresses from this initial seed. Because the derivation process is mathematically repeatable, any device holding the seed can recover the entire history of addresses and balances, providing a unified and reliable method for multi-currency asset management and disaster recovery. Deterministic Wallet — Definition & Explanation | The Blockchain Library Learn how deterministic wallets simplify crypto asset management by using a single master seed phrase to derive and recover all your public and private keys."
+  },
+  {
     "id": "topic:what-crypto-looks-like-after-memecoins",
     "type": "topic",
     "title": "What Crypto Looks Like After Memecoins",
@@ -123974,6 +124106,1366 @@
     ],
     "canonicalUrl": "/news/bitcoin-apps-risk-massive-fee-drain-and-2-library-bugs-are-blamed",
     "text": "Bitcoin apps risk massive fee drain, and 2 library bugs are blamed DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost",
+    "type": "news",
+    "title": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost",
+    "text": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading",
+    "type": "news",
+    "title": "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading'",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading",
+    "text": "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:crypto-isnt-a-partisan-fight-proven-by-data",
+    "type": "news",
+    "title": "Crypto isn’t a partisan fight, proven by data",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/crypto-isnt-a-partisan-fight-proven-by-data",
+    "text": "Crypto isn’t a partisan fight, proven by data Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:fed-leaves-interest-rates-unchanged-as-expected",
+    "type": "news",
+    "title": "Fed leaves interest rates unchanged, as expected",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/fed-leaves-interest-rates-unchanged-as-expected",
+    "text": "Fed leaves interest rates unchanged, as expected Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:coinbase-earnings-wall-street-divided-on-trading-rebound-after-robinhood-crypto-revenue-sinks-55",
+    "type": "news",
+    "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/coinbase-earnings-wall-street-divided-on-trading-rebound-after-robinhood-crypto-revenue-sinks-55",
+    "text": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55% Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:canadian-crypto-king-case-to-go-to-jury-as-criminal-trial-winds-down",
+    "type": "news",
+    "title": "Canadian ‘crypto king’ case to go to jury as criminal trial winds down",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/canadian-crypto-king-case-to-go-to-jury-as-criminal-trial-winds-down",
+    "text": "Canadian ‘crypto king’ case to go to jury as criminal trial winds down Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:sam-bankman-fried-wrote-to-actor-portraying-him-in-netflix-series",
+    "type": "news",
+    "title": "Sam Bankman-Fried wrote to actor portraying him in Netflix series",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/sam-bankman-fried-wrote-to-actor-portraying-him-in-netflix-series",
+    "text": "Sam Bankman-Fried wrote to actor portraying him in Netflix series Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks",
+    "type": "news",
+    "title": "Strategy shareholders approve daily dividends for four preferred stocks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks",
+    "text": "Strategy shareholders approve daily dividends for four preferred stocks Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:crypto-pac-spending-before-midterms-possibly-obscured-after-reported-fec-hack",
+    "type": "news",
+    "title": "Crypto PAC spending before midterms possibly obscured after reported FEC hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/crypto-pac-spending-before-midterms-possibly-obscured-after-reported-fec-hack",
+    "text": "Crypto PAC spending before midterms possibly obscured after reported FEC hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-price-bounce-rejected-at-50-day-trend-line-ahead-of-fomc-earnings",
+    "type": "news",
+    "title": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-bounce-rejected-at-50-day-trend-line-ahead-of-fomc-earnings",
+    "text": "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:phantom-launches-kalshi-powered-prediction-markets-for-us-users",
+    "type": "news",
+    "title": "Phantom launches Kalshi-powered prediction markets for US users",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/phantom-launches-kalshi-powered-prediction-markets-for-us-users",
+    "text": "Phantom launches Kalshi-powered prediction markets for US users Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ethereum-researchers-explore-transaction-assertions-to-reduce-signing-risks",
+    "type": "news",
+    "title": "Ethereum Researchers Explore Transaction Assertions to Reduce Signing Risks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ethereum-researchers-explore-transaction-assertions-to-reduce-signing-risks",
+    "text": "Ethereum Researchers Explore Transaction Assertions to Reduce Signing Risks Trading Markets"
+  },
+  {
+    "id": "news:ethereum-developers-delay-glamsterdam-hoodi-upgrade-without-new-date",
+    "type": "news",
+    "title": "Ethereum Developers Delay Glamsterdam Hoodi Upgrade Without New Date",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ethereum-developers-delay-glamsterdam-hoodi-upgrade-without-new-date",
+    "text": "Ethereum Developers Delay Glamsterdam Hoodi Upgrade Without New Date Trading Markets"
+  },
+  {
+    "id": "news:samsung-wallet-prepares-usdc-transfers-on-solana-for-us-galaxy-users",
+    "type": "news",
+    "title": "Samsung Wallet Prepares USDC Transfers on Solana for US Galaxy Users",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/samsung-wallet-prepares-usdc-transfers-on-solana-for-us-galaxy-users",
+    "text": "Samsung Wallet Prepares USDC Transfers on Solana for US Galaxy Users Trading Markets"
+  },
+  {
+    "id": "news:solana-breakpoint-london-adds-revolut-chair-and-former-uk-leaders",
+    "type": "news",
+    "title": "Solana Breakpoint London Adds Revolut Chair and Former UK Leaders",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/solana-breakpoint-london-adds-revolut-chair-and-former-uk-leaders",
+    "text": "Solana Breakpoint London Adds Revolut Chair and Former UK Leaders Trading Markets"
+  },
+  {
+    "id": "news:solana-ships-new-validator-and-sdk-releases-after-alpenglow-upgrade",
+    "type": "news",
+    "title": "Solana Ships New Validator and SDK Releases After Alpenglow Upgrade",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/solana-ships-new-validator-and-sdk-releases-after-alpenglow-upgrade",
+    "text": "Solana Ships New Validator and SDK Releases After Alpenglow Upgrade Trading Markets"
+  },
+  {
+    "id": "news:solana-alpenglow-goes-live-targeting-150-millisecond-finality",
+    "type": "news",
+    "title": "Solana Alpenglow Goes Live, Targeting 150-Millisecond Finality",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/solana-alpenglow-goes-live-targeting-150-millisecond-finality",
+    "text": "Solana Alpenglow Goes Live, Targeting 150-Millisecond Finality Trading Markets"
+  },
+  {
+    "id": "news:occ-proposes-weekly-and-quarterly-reporting-forms-for-stablecoin-issuers",
+    "type": "news",
+    "title": "OCC Proposes Weekly and Quarterly Reporting Forms for Stablecoin Issuers",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/occ-proposes-weekly-and-quarterly-reporting-forms-for-stablecoin-issuers",
+    "text": "OCC Proposes Weekly and Quarterly Reporting Forms for Stablecoin Issuers Trading Markets"
+  },
+  {
+    "id": "news:robinhood-posts-record-1-4-billion-revenue-but-a-14-profit-drop-exposes-hidden-portfolio-losses",
+    "type": "news",
+    "title": "Robinhood posts record $1.4 billion revenue, but a 14% profit drop exposes hidden portfolio losses",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/robinhood-posts-record-1-4-billion-revenue-but-a-14-profit-drop-exposes-hidden-portfolio-losses",
+    "text": "Robinhood posts record $1.4 billion revenue, but a 14% profit drop exposes hidden portfolio losses DeFi NFT Web3"
+  },
+  {
+    "id": "news:coinbase-says-it-wasn-8217-t-breached-but-hackers-don-8217-t-need-to-steal-crypto-to-hurt-users",
+    "type": "news",
+    "title": "Coinbase says it wasn&#8217;t breached, but hackers don&#8217;t need to steal crypto to hurt users",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/coinbase-says-it-wasn-8217-t-breached-but-hackers-don-8217-t-need-to-steal-crypto-to-hurt-users",
+    "text": "Coinbase says it wasn&#8217;t breached, but hackers don&#8217;t need to steal crypto to hurt users DeFi NFT Web3"
+  },
+  {
+    "id": "news:polymarket-built-a-14-billion-us-trading-business-almost-entirely-on-sports-bets",
+    "type": "news",
+    "title": "Polymarket built a $14 billion US trading business almost entirely on sports bets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/polymarket-built-a-14-billion-us-trading-business-almost-entirely-on-sports-bets",
+    "text": "Polymarket built a $14 billion US trading business almost entirely on sports bets DeFi NFT Web3"
+  },
+  {
+    "id": "news:galaxys-ai-data-centers-bring-79-million-in-lease-revenue-and-a-small-net-loss",
+    "type": "news",
+    "title": "Galaxy’s AI data centers bring $79 million in lease revenue and a small net loss",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/galaxys-ai-data-centers-bring-79-million-in-lease-revenue-and-a-small-net-loss",
+    "text": "Galaxy’s AI data centers bring $79 million in lease revenue and a small net loss DeFi NFT Web3"
+  },
+  {
+    "id": "news:euro-area-banks-report-record-deterioration-in-retail-funding-access",
+    "type": "news",
+    "title": "Euro-area banks report record deterioration in retail-funding access",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/euro-area-banks-report-record-deterioration-in-retail-funding-access",
+    "text": "Euro-area banks report record deterioration in retail-funding access DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-dips-below-80-000-as-samsung-led-tech-jitters-and-a-hawkish-fed-weigh-on-crypto",
+    "type": "news",
+    "title": "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-dips-below-80-000-as-samsung-led-tech-jitters-and-a-hawkish-fed-weigh-on-crypto",
+    "text": "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:mystery-wall-street-journal-ad-sparks-new-fight-over-tokenized-stocks",
+    "type": "news",
+    "title": "Mystery Wall Street Journal ad sparks new fight over tokenized stocks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/mystery-wall-street-journal-ad-sparks-new-fight-over-tokenized-stocks",
+    "text": "Mystery Wall Street Journal ad sparks new fight over tokenized stocks Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:tampered-ledger-wallets-cost-singapore-users-2-7m-police",
+    "type": "news",
+    "title": "Tampered Ledger wallets cost Singapore users $2.7M: Police",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/tampered-ledger-wallets-cost-singapore-users-2-7m-police",
+    "text": "Tampered Ledger wallets cost Singapore users $2.7M: Police Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:feds-hawkish-rate-hold-keeps-pressure-on-bitcoin-analysts",
+    "type": "news",
+    "title": "Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/feds-hawkish-rate-hold-keeps-pressure-on-bitcoin-analysts",
+    "text": "Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:janus-henderson-launches-tokenized-nasdaq-100-fund-jqqq-on-stellar",
+    "type": "news",
+    "title": "Janus Henderson Launches Tokenized Nasdaq-100 Fund JQQQ on Stellar",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/janus-henderson-launches-tokenized-nasdaq-100-fund-jqqq-on-stellar",
+    "text": "Janus Henderson Launches Tokenized Nasdaq-100 Fund JQQQ on Stellar Trading Markets"
+  },
+  {
+    "id": "news:ripple-and-drivewealth-link-stablecoin-settlement-to-global-brokerage",
+    "type": "news",
+    "title": "Ripple and DriveWealth Link Stablecoin Settlement to Global Brokerage",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ripple-and-drivewealth-link-stablecoin-settlement-to-global-brokerage",
+    "text": "Ripple and DriveWealth Link Stablecoin Settlement to Global Brokerage Trading Markets"
+  },
+  {
+    "id": "news:sec-crypto-custody-proposal-could-expand-options-for-advisers-and-funds",
+    "type": "news",
+    "title": "SEC Crypto Custody Proposal Could Expand Options for Advisers and Funds",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/sec-crypto-custody-proposal-could-expand-options-for-advisers-and-funds",
+    "text": "SEC Crypto Custody Proposal Could Expand Options for Advisers and Funds Trading Markets"
+  },
+  {
+    "id": "news:sec-flags-tokenization-and-market-infrastructure-in-2027-exam-priorities",
+    "type": "news",
+    "title": "SEC Flags Tokenization and Market Infrastructure in 2027 Exam Priorities",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/sec-flags-tokenization-and-market-infrastructure-in-2027-exam-priorities",
+    "text": "SEC Flags Tokenization and Market Infrastructure in 2027 Exam Priorities Trading Markets"
+  },
+  {
+    "id": "news:swiss-finma-approves-first-domestic-retail-bitcoin-etf",
+    "type": "news",
+    "title": "Swiss FINMA Approves First Domestic Retail Bitcoin ETF",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/swiss-finma-approves-first-domestic-retail-bitcoin-etf",
+    "text": "Swiss FINMA Approves First Domestic Retail Bitcoin ETF Trading Markets"
+  },
+  {
+    "id": "news:ripple-is-heading-for-its-best-year-ever-while-xrp-faces-its-worst-since-2022",
+    "type": "news",
+    "title": "Ripple is heading for its best year ever while XRP faces its worst since 2022",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/ripple-is-heading-for-its-best-year-ever-while-xrp-faces-its-worst-since-2022",
+    "text": "Ripple is heading for its best year ever while XRP faces its worst since 2022 DeFi NFT Web3"
+  },
+  {
+    "id": "news:bithumb-hack-leaks-staff-data-and-regulators-launch-raid",
+    "type": "news",
+    "title": "Bithumb hack leaks staff data and regulators launch raid",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bithumb-hack-leaks-staff-data-and-regulators-launch-raid",
+    "text": "Bithumb hack leaks staff data and regulators launch raid DeFi NFT Web3"
+  },
+  {
+    "id": "news:ethena-pay-8217-s-11x-leverage-loop-promises-high-yield-but-risks-hidden-losses",
+    "type": "news",
+    "title": "Ethena Pay&#8217;s 11x leverage loop promises high yield, but risks hidden losses",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/ethena-pay-8217-s-11x-leverage-loop-promises-high-yield-but-risks-hidden-losses",
+    "text": "Ethena Pay&#8217;s 11x leverage loop promises high yield, but risks hidden losses DeFi NFT Web3"
+  },
+  {
+    "id": "news:thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
+    "type": "news",
+    "title": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
+    "text": "Thai Supreme Court rules bitcoin is property after thief challenges conviction Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
+    "type": "news",
+    "title": "Bermuda taps WalletConnect to advance its onchain economy plan",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
+    "text": "Bermuda taps WalletConnect to advance its onchain economy plan Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:former-swift-ceo-joins-stablecoin-firm-opentrade-as-chairman",
+    "type": "news",
+    "title": "Former Swift CEO joins stablecoin firm OpenTrade as chairman",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/former-swift-ceo-joins-stablecoin-firm-opentrade-as-chairman",
+    "text": "Former Swift CEO joins stablecoin firm OpenTrade as chairman Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:the-chart-bitcoin-traders-should-be-paying-attention-to",
+    "type": "news",
+    "title": "The chart bitcoin traders should be paying attention to",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/the-chart-bitcoin-traders-should-be-paying-attention-to",
+    "text": "The chart bitcoin traders should be paying attention to Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-its-now-public",
+    "type": "news",
+    "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-its-now-public",
+    "text": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:security-failure-at-indian-certificate-firm-bites-ethereum-as-developers-rush-out-fixes",
+    "type": "news",
+    "title": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/security-failure-at-indian-certificate-firm-bites-ethereum-as-developers-rush-out-fixes",
+    "text": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:utah-charges-predictions-platform-kalshi-with-illegal-gambling",
+    "type": "news",
+    "title": "Utah charges predictions platform Kalshi with illegal gambling",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/utah-charges-predictions-platform-kalshi-with-illegal-gambling",
+    "text": "Utah charges predictions platform Kalshi with illegal gambling Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-etfs-add-137m-pushing-october-back-into-the-green",
+    "type": "news",
+    "title": "Bitcoin ETFs add $137M, pushing October back into the green",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-etfs-add-137m-pushing-october-back-into-the-green",
+    "text": "Bitcoin ETFs add $137M, pushing October back into the green Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:your-fridge-could-one-day-stake-ether-launch-memecoins-cftc-chair",
+    "type": "news",
+    "title": "Your fridge could one day stake Ether, launch memecoins: CFTC chair",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/your-fridge-could-one-day-stake-ether-launch-memecoins-cftc-chair",
+    "text": "Your fridge could one day stake Ether, launch memecoins: CFTC chair Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:trx-options-launch-on-blockchain-com-expanding-global-access-to-the-tron-ecosystem",
+    "type": "news",
+    "title": "TRX Options Launch on Blockchain.com, Expanding Global Access to the TRON Ecosystem",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/trx-options-launch-on-blockchain-com-expanding-global-access-to-the-tron-ecosystem",
+    "text": "TRX Options Launch on Blockchain.com, Expanding Global Access to the TRON Ecosystem Trading Markets"
+  },
+  {
+    "id": "news:bitgo-plans-in-platform-access-to-wisdomtree-tokenized-treasury-fund",
+    "type": "news",
+    "title": "BitGo Plans In-Platform Access to WisdomTree Tokenized Treasury Fund",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitgo-plans-in-platform-access-to-wisdomtree-tokenized-treasury-fund",
+    "text": "BitGo Plans In-Platform Access to WisdomTree Tokenized Treasury Fund Trading Markets"
+  },
+  {
+    "id": "news:cf-benchmarks-debuts-onchain-oracle-for-institutional-crypto-price-indices",
+    "type": "news",
+    "title": "CF Benchmarks Debuts Onchain Oracle for Institutional Crypto Price Indices",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/cf-benchmarks-debuts-onchain-oracle-for-institutional-crypto-price-indices",
+    "text": "CF Benchmarks Debuts Onchain Oracle for Institutional Crypto Price Indices Trading Markets"
+  },
+  {
+    "id": "news:polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
+    "type": "news",
+    "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
+    "text": "Polymarket brings ultra-short crypto prediction markets to U.S. platform Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:crypto-for-advisors-only-1-in-5-americans-say-the-financial-system-is-secure",
+    "type": "news",
+    "title": "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/crypto-for-advisors-only-1-in-5-americans-say-the-financial-system-is-secure",
+    "text": "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:why-switzerlands-first-genuine-spot-bitcoin-etf-could-soon-attract-overseas-banks-and-brokers",
+    "type": "news",
+    "title": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/why-switzerlands-first-genuine-spot-bitcoin-etf-could-soon-attract-overseas-banks-and-brokers",
+    "text": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
+    "type": "news",
+    "title": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
+    "text": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
+    "type": "news",
+    "title": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
+    "text": "New quantum model slashes hardware needed to break bitcoin keys by 17 times Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+    "type": "news",
+    "title": "Walmart, Eli Lilly join growing pushback against OKX–ICE tokenized stock plans",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+    "text": "Walmart, Eli Lilly join growing pushback against OKX–ICE tokenized stock plans Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:a-new-framework-for-tokenized-asset-tracking",
+    "type": "news",
+    "title": "A new framework for tokenized asset tracking",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/a-new-framework-for-tokenized-asset-tracking",
+    "text": "A new framework for tokenized asset tracking Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+    "type": "news",
+    "title": "Tokenized stock venue on Canton could beat OKX–ICE to first trade under SEC framework",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+    "text": "Tokenized stock venue on Canton could beat OKX–ICE to first trade under SEC framework Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:u-s-sanctions-russian-nationals-for-laundering-millions-in-crypto-for-north-korean-it-workers",
+    "type": "news",
+    "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/u-s-sanctions-russian-nationals-for-laundering-millions-in-crypto-for-north-korean-it-workers",
+    "text": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:as-10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing",
+    "type": "news",
+    "title": "As $10 billion in bitcoin options near expiry, the tell is in the pricing",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/as-10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing",
+    "text": "As $10 billion in bitcoin options near expiry, the tell is in the pricing Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-drops-to-80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
+    "type": "news",
+    "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-drops-to-80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
+    "text": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+    "type": "news",
+    "title": "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S.",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+    "text": "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S. Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:cathie-woods-ark-buys-the-dip-on-robinhood-in-its-largest-purchase-in-6-months-after-23-slump",
+    "type": "news",
+    "title": "Cathie Wood’s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/cathie-woods-ark-buys-the-dip-on-robinhood-in-its-largest-purchase-in-6-months-after-23-slump",
+    "text": "Cathie Wood’s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:solana-wallet-solflare-pledges-to-pay-missed-rewards-on-staked-160-million-after-validator-goes-offline",
+    "type": "news",
+    "title": "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/solana-wallet-solflare-pledges-to-pay-missed-rewards-on-staked-160-million-after-validator-goes-offline",
+    "text": "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:live-updates-bitcoin-catches-small-bid-as-nasdaq-and-interest-rates-fall-sharply",
+    "type": "news",
+    "title": "Live updates: Bitcoin catches small bid as Nasdaq and interest rates fall sharply",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/live-updates-bitcoin-catches-small-bid-as-nasdaq-and-interest-rates-fall-sharply",
+    "text": "Live updates: Bitcoin catches small bid as Nasdaq and interest rates fall sharply Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:kalshi-raises-1b-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b",
+    "type": "news",
+    "title": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/kalshi-raises-1b-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b",
+    "text": "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-price-jumps-to-81-5k-as-us-gdp-data-beats-expectations",
+    "type": "news",
+    "title": "Bitcoin price jumps to $81.5K as US GDP data beats expectations",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-jumps-to-81-5k-as-us-gdp-data-beats-expectations",
+    "text": "Bitcoin price jumps to $81.5K as US GDP data beats expectations Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:french-senate-adopts-bill-for-automatic-sharing-of-crypto-tax-data",
+    "type": "news",
+    "title": "French Senate adopts bill for automatic sharing of crypto tax data",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/french-senate-adopts-bill-for-automatic-sharing-of-crypto-tax-data",
+    "text": "French Senate adopts bill for automatic sharing of crypto tax data Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing",
+    "type": "news",
+    "title": "Bank of England opens consultation on tokenized collateral for clearing",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bank-of-england-opens-consultation-on-tokenized-collateral-for-clearing",
+    "text": "Bank of England opens consultation on tokenized collateral for clearing Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:canton-foundation-grants-redstone-15-8m-canton-coin-for-pricing-standard",
+    "type": "news",
+    "title": "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/canton-foundation-grants-redstone-15-8m-canton-coin-for-pricing-standard",
+    "text": "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:brazils-halloween-eve-crypto-deadline-brings-more-tricks-than-treats",
+    "type": "news",
+    "title": "Brazil’s Halloween eve crypto deadline brings more tricks than treats",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/brazils-halloween-eve-crypto-deadline-brings-more-tricks-than-treats",
+    "text": "Brazil’s Halloween eve crypto deadline brings more tricks than treats Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:private-fast-usdt-is-coming-to-bitcoin-can-it-compete-with-ethereum-and-tron",
+    "type": "news",
+    "title": "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron?",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/private-fast-usdt-is-coming-to-bitcoin-can-it-compete-with-ethereum-and-tron",
+    "text": "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron? Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:polygon-expands-open-money-stack-to-solana-after-tron-rollout",
+    "type": "news",
+    "title": "Polygon expands Open Money Stack to Solana, after Tron rollout",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/polygon-expands-open-money-stack-to-solana-after-tron-rollout",
+    "text": "Polygon expands Open Money Stack to Solana, after Tron rollout Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:chainalysis-traces-north-korean-crypto-cash-outs-through-garantex",
+    "type": "news",
+    "title": "Chainalysis traces North Korean crypto cash-outs through Garantex",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/chainalysis-traces-north-korean-crypto-cash-outs-through-garantex",
+    "text": "Chainalysis traces North Korean crypto cash-outs through Garantex Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:unlimit-founder-backs-phase-blockchain-with-45m-as-mainnet-launches",
+    "type": "news",
+    "title": "Unlimit founder backs Phase blockchain with $45M as mainnet launches",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/unlimit-founder-backs-phase-blockchain-with-45m-as-mainnet-launches",
+    "text": "Unlimit founder backs Phase blockchain with $45M as mainnet launches Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:htx-agrees-to-halt-unlawful-uk-crypto-promotions-after-fca-case",
+    "type": "news",
+    "title": "HTX agrees to halt unlawful UK crypto promotions after FCA case",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/htx-agrees-to-halt-unlawful-uk-crypto-promotions-after-fca-case",
+    "text": "HTX agrees to halt unlawful UK crypto promotions after FCA case Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:eu-investors-rank-crypto-above-retirement-plans-for-lasting-wealth-creation-okx-survey",
+    "type": "news",
+    "title": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/eu-investors-rank-crypto-above-retirement-plans-for-lasting-wealth-creation-okx-survey",
+    "text": "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:coinbase-seeks-brazil-crypto-license-expects-no-service-disruption",
+    "type": "news",
+    "title": "Coinbase seeks Brazil crypto license, expects no service disruption",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/coinbase-seeks-brazil-crypto-license-expects-no-service-disruption",
+    "text": "Coinbase seeks Brazil crypto license, expects no service disruption Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-lending-and-yield-could-drive-next-wave-of-institutional-demand-rootstock-says",
+    "type": "news",
+    "title": "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-lending-and-yield-could-drive-next-wave-of-institutional-demand-rootstock-says",
+    "text": "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k",
+    "type": "news",
+    "title": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-long-term-resistance-in-focus-as-analysis-sees-selling-risk-above-85k",
+    "text": "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ecb-president-christine-lagarde-to-step-down-in-february-2027",
+    "type": "news",
+    "title": "ECB President Christine Lagarde to step down in February 2027",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/ecb-president-christine-lagarde-to-step-down-in-february-2027",
+    "text": "ECB President Christine Lagarde to step down in February 2027 Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ripple-projects-nearly-900m-annual-product-revenue-run-rate-amid-banking-push",
+    "type": "news",
+    "title": "Ripple Projects Nearly $900M Annual Product Revenue Run Rate Amid Banking Push",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ripple-projects-nearly-900m-annual-product-revenue-run-rate-amid-banking-push",
+    "text": "Ripple Projects Nearly $900M Annual Product Revenue Run Rate Amid Banking Push Trading Markets"
+  },
+  {
+    "id": "news:ripple-usd-reaches-coinbase-as-rlusd-expands-across-three-blockchains",
+    "type": "news",
+    "title": "Ripple USD Reaches Coinbase as RLUSD Expands Across Three Blockchains",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ripple-usd-reaches-coinbase-as-rlusd-expands-across-three-blockchains",
+    "text": "Ripple USD Reaches Coinbase as RLUSD Expands Across Three Blockchains Trading Markets"
+  },
+  {
+    "id": "news:bitcoin-faces-a-hawkish-fed-pause-as-two-officials-seek-higher-rates",
+    "type": "news",
+    "title": "Bitcoin Faces a Hawkish Fed Pause as Two Officials Seek Higher Rates",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitcoin-faces-a-hawkish-fed-pause-as-two-officials-seek-higher-rates",
+    "text": "Bitcoin Faces a Hawkish Fed Pause as Two Officials Seek Higher Rates Trading Markets"
+  },
+  {
+    "id": "news:dtcc-launches-tokenized-securities-service-as-wall-street-tests-new-settlement-rails",
+    "type": "news",
+    "title": "DTCC Launches Tokenized Securities Service as Wall Street Tests New Settlement Rails",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/dtcc-launches-tokenized-securities-service-as-wall-street-tests-new-settlement-rails",
+    "text": "DTCC Launches Tokenized Securities Service as Wall Street Tests New Settlement Rails Trading Markets"
+  },
+  {
+    "id": "news:mexc-reports-88-growth-in-ai-related-tokenized-u-s-stock-and-etf-trading-volume-in-september-with-four-infrastructure-sectors-up-over-90",
+    "type": "news",
+    "title": "MEXC Reports 88% Growth in AI-Related Tokenized U.S. Stock and ETF Trading Volume in September, With Four Infrastructure Sectors Up Over 90%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/mexc-reports-88-growth-in-ai-related-tokenized-u-s-stock-and-etf-trading-volume-in-september-with-four-infrastructure-sectors-up-over-90",
+    "text": "MEXC Reports 88% Growth in AI-Related Tokenized U.S. Stock and ETF Trading Volume in September, With Four Infrastructure Sectors Up Over 90% Trading Markets"
+  },
+  {
+    "id": "news:bitcoin-developers-rush-to-fix-3-security-flaws-after-ai-uncovers-them",
+    "type": "news",
+    "title": "Bitcoin developers rush to fix 3 security flaws after AI uncovers them",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-developers-rush-to-fix-3-security-flaws-after-ai-uncovers-them",
+    "text": "Bitcoin developers rush to fix 3 security flaws after AI uncovers them DeFi NFT Web3"
+  },
+  {
+    "id": "news:strategys-strc-nears-100-level-that-could-reopen-a-bitcoin-funding-channel",
+    "type": "news",
+    "title": "Strategy’s STRC nears $100 level that could reopen a Bitcoin funding channel",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/strategys-strc-nears-100-level-that-could-reopen-a-bitcoin-funding-channel",
+    "text": "Strategy’s STRC nears $100 level that could reopen a Bitcoin funding channel DeFi NFT Web3"
+  },
+  {
+    "id": "news:only-10-of-fomo-apps-solana-wallets-were-profitable-after-fees",
+    "type": "news",
+    "title": "Only 10% of FOMO app’s Solana wallets were profitable after fees",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/only-10-of-fomo-apps-solana-wallets-were-profitable-after-fees",
+    "text": "Only 10% of FOMO app’s Solana wallets were profitable after fees DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-options-carried-a-far-smaller-election-premium-than-in-2024",
+    "type": "news",
+    "title": "Bitcoin options carried a far smaller election premium than in 2024",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-options-carried-a-far-smaller-election-premium-than-in-2024",
+    "text": "Bitcoin options carried a far smaller election premium than in 2024 DeFi NFT Web3"
+  },
+  {
+    "id": "news:chinas-tech-crash-erased-480-billion-bitcoin-rose-27-over-the-same-dates",
+    "type": "news",
+    "title": "China’s tech crash erased $480 billion. Bitcoin rose 27% over the same dates",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/chinas-tech-crash-erased-480-billion-bitcoin-rose-27-over-the-same-dates",
+    "text": "China’s tech crash erased $480 billion. Bitcoin rose 27% over the same dates DeFi NFT Web3"
+  },
+  {
+    "id": "news:north-korea-8217-s-600-million-fake-worker-empire-has-a-hidden-crypto-connection",
+    "type": "news",
+    "title": "North Korea&#8217;s $600 million fake-worker empire has a hidden crypto connection",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/north-korea-8217-s-600-million-fake-worker-empire-has-a-hidden-crypto-connection",
+    "text": "North Korea&#8217;s $600 million fake-worker empire has a hidden crypto connection DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-could-reach-1-6-million-by-2036-but-82-of-the-forecast-rests-on-one-bet",
+    "type": "news",
+    "title": "Bitcoin could reach $1.6 million by 2036, but 82% of the forecast rests on one bet",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-could-reach-1-6-million-by-2036-but-82-of-the-forecast-rests-on-one-bet",
+    "text": "Bitcoin could reach $1.6 million by 2036, but 82% of the forecast rests on one bet DeFi NFT Web3"
+  },
+  {
+    "id": "news:fed-8217-s-divided-rate-decision-threatens-bitcoin-8217-s-comeback-as-december-hike-looms",
+    "type": "news",
+    "title": "Fed&#8217;s divided rate decision threatens Bitcoin&#8217;s comeback as December hike looms",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/fed-8217-s-divided-rate-decision-threatens-bitcoin-8217-s-comeback-as-december-hike-looms",
+    "text": "Fed&#8217;s divided rate decision threatens Bitcoin&#8217;s comeback as December hike looms DeFi NFT Web3"
+  },
+  {
+    "id": "news:ripples-rlusd-stablecoin-gains-coinbase-access-as-moodys-awards-investment-grade-rating",
+    "type": "news",
+    "title": "Ripple’s RLUSD stablecoin gains Coinbase access as Moody’s awards investment-grade rating",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/ripples-rlusd-stablecoin-gains-coinbase-access-as-moodys-awards-investment-grade-rating",
+    "text": "Ripple’s RLUSD stablecoin gains Coinbase access as Moody’s awards investment-grade rating DeFi NFT Web3"
   },
   {
     "id": "newsletter:issue-1-blockchain-foundations",

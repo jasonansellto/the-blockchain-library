@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T16:01:50.530Z",
-  "buildId": "d2a9b9bdfd7acc74",
+  "generatedAt": "2026-10-29T16:04:14.792Z",
+  "buildId": "155ec517fe9bb3fe",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -5689,6 +5689,114 @@
       "sourceCanonicalUrl": "/glossary/dag",
       "sourceSlug": "dag",
       "routeSlug": "dag"
+    },
+    {
+      "uid": "glossary:fiat-currency",
+      "type": "glossary",
+      "title": "Fiat Currency",
+      "path": "generated/v2/glossary/fiat-currency",
+      "sourceCanonicalUrl": "/glossary/fiat-currency",
+      "sourceSlug": "fiat-currency",
+      "routeSlug": "fiat-currency"
+    },
+    {
+      "uid": "glossary:aml",
+      "type": "glossary",
+      "title": "AML",
+      "path": "generated/v2/glossary/aml",
+      "sourceCanonicalUrl": "/glossary/aml",
+      "sourceSlug": "aml",
+      "routeSlug": "aml"
+    },
+    {
+      "uid": "glossary:centralization",
+      "type": "glossary",
+      "title": "Centralization",
+      "path": "generated/v2/glossary/centralization",
+      "sourceCanonicalUrl": "/glossary/centralization",
+      "sourceSlug": "centralization",
+      "routeSlug": "centralization"
+    },
+    {
+      "uid": "glossary:derivatives",
+      "type": "glossary",
+      "title": "Derivatives",
+      "path": "generated/v2/glossary/derivatives",
+      "sourceCanonicalUrl": "/glossary/derivatives",
+      "sourceSlug": "derivatives",
+      "routeSlug": "derivatives"
+    },
+    {
+      "uid": "glossary:order-book",
+      "type": "glossary",
+      "title": "Order Book",
+      "path": "generated/v2/glossary/order-book",
+      "sourceCanonicalUrl": "/glossary/order-book",
+      "sourceSlug": "order-book",
+      "routeSlug": "order-book"
+    },
+    {
+      "uid": "glossary:permissioned-ledger",
+      "type": "glossary",
+      "title": "Permissioned Ledger",
+      "path": "generated/v2/glossary/permissioned-ledger",
+      "sourceCanonicalUrl": "/glossary/permissioned-ledger",
+      "sourceSlug": "permissioned-ledger",
+      "routeSlug": "permissioned-ledger"
+    },
+    {
+      "uid": "glossary:decentralized-identity",
+      "type": "glossary",
+      "title": "Decentralized Identity",
+      "path": "generated/v2/glossary/decentralized-identity",
+      "sourceCanonicalUrl": "/glossary/decentralized-identity",
+      "sourceSlug": "decentralized-identity",
+      "routeSlug": "decentralized-identity"
+    },
+    {
+      "uid": "glossary:digital-ownership",
+      "type": "glossary",
+      "title": "Digital Ownership",
+      "path": "generated/v2/glossary/digital-ownership",
+      "sourceCanonicalUrl": "/glossary/digital-ownership",
+      "sourceSlug": "digital-ownership",
+      "routeSlug": "digital-ownership"
+    },
+    {
+      "uid": "glossary:deflationary",
+      "type": "glossary",
+      "title": "Deflationary",
+      "path": "generated/v2/glossary/deflationary",
+      "sourceCanonicalUrl": "/glossary/deflationary",
+      "sourceSlug": "deflationary",
+      "routeSlug": "deflationary"
+    },
+    {
+      "uid": "glossary:delegation",
+      "type": "glossary",
+      "title": "Delegation",
+      "path": "generated/v2/glossary/delegation",
+      "sourceCanonicalUrl": "/glossary/delegation",
+      "sourceSlug": "delegation",
+      "routeSlug": "delegation"
+    },
+    {
+      "uid": "glossary:ecosystem",
+      "type": "glossary",
+      "title": "Ecosystem",
+      "path": "generated/v2/glossary/ecosystem",
+      "sourceCanonicalUrl": "/glossary/ecosystem",
+      "sourceSlug": "ecosystem",
+      "routeSlug": "ecosystem"
+    },
+    {
+      "uid": "glossary:deterministic-wallet",
+      "type": "glossary",
+      "title": "Deterministic Wallet",
+      "path": "generated/v2/glossary/deterministic-wallet",
+      "sourceCanonicalUrl": "/glossary/deterministic-wallet",
+      "sourceSlug": "deterministic-wallet",
+      "routeSlug": "deterministic-wallet"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",

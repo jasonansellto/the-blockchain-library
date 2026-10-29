@@ -1,0 +1,57 @@
+---
+title: "Deterministic Wallet"
+description: "A deterministic wallet is a type of cryptocurrency wallet that derives all of its public and private key pairs from a single master seed or master key. By using a standardized key derivation function, the wallet can generate an infinite sequence of unique addresses from this init"
+---
+
+# Deterministic Wallet
+
+A deterministic wallet is a type of cryptocurrency wallet that derives all of its public and private key pairs from a single master seed or master key. By using a standardized key derivation function, the wallet can generate an infinite sequence of unique addresses from this initial seed. Because the derivation process is mathematically repeatable, any device holding the seed can recover the entire history of addresses and balances, providing a unified and reliable method for multi-currency asset management and disaster recovery.
+
+## Definition
+
+A deterministic wallet is a type of cryptocurrency wallet that derives all of its public and private key pairs from a single master seed or master key. By using a standardized key derivation function, the wallet can generate an infinite sequence of unique addresses from this initial seed. Because the derivation process is mathematically repeatable, any device holding the seed can recover the entire history of addresses and balances, providing a unified and reliable method for multi-currency asset management and disaster recovery.
+
+## Simple explanation
+
+Imagine you have a magic key that can open any door in a giant building. Instead of needing a separate key for every single room, you use this one master key to instantly recreate any specific door key you need whenever you need it. A deterministic wallet works just like that: you have one secret master phrase that can magically recreate all your individual crypto account addresses, so you never have to back up a new file every time you create a new address.
+
+## Why it matters
+
+Deterministic wallets are the backbone of modern self-custody, as they simplify the backup process to a single seed phrase. This innovation ensures that users can easily recover their entire portfolio across different devices without needing to manage thousands of individual private keys.
+
+## How it works
+
+Deterministic wallets utilize the BIP-32 and BIP-39 standards to translate a user's mnemonic seed phrase into a master node. From this root, a hierarchical tree of keys is generated using a one-way cryptographic hash function. Because the derivation is mathematical, the wallet software always produces the exact same sequence of public and private keys every time the seed is restored.
+
+## Real-world example
+
+Hardware wallets like Ledger and Trezor, as well as software wallets like MetaMask and Trust Wallet, all function as Hierarchical Deterministic (HD) wallets by using seed phrases to manage multi-chain assets.
+
+## Advantages
+
+- Single backup for all assets
+- Simplified cross-device synchronization
+- Eliminates need for individual key backups
+- Enables hierarchical account management
+
+## Limitations
+
+- Seed phrase compromise loses all funds
+- Requires secure physical storage of seed
+- Standardization complexity across different blockchains
+
+## Common misconceptions
+
+- Users often mistakenly believe that the wallet stores their actual coins rather than just the keys used to access them on the blockchain.
+- People sometimes think that creating a new address requires a new backup, whereas deterministic wallets automatically handle this via the seed.
+## Related knowledge
+
+- [BIP-39](/generated/v2/glossary/bip-39) — term
+- [Cold Storage](/generated/v2/glossary/cold-storage) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+- [Public Key](/generated/v2/glossary/public-key) — term
+- [Seed Phrase](/generated/v2/glossary/seed-phrase) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:deterministic-wallet`
