@@ -7094,6 +7094,138 @@
     "text": "Deterministic Wallet A deterministic wallet is a type of cryptocurrency wallet that derives all of its public and private key pairs from a single master seed or master key. By using a standardized key derivation function, the wallet can generate an infinite sequence of unique addresses from this initial seed. Because the derivation process is mathematically repeatable, any device holding the seed can recover the entire history of addresses and balances, providing a unified and reliable method for multi-currency asset management and disaster recovery. Deterministic Wallet — Definition & Explanation | The Blockchain Library Learn how deterministic wallets simplify crypto asset management by using a single master seed phrase to derive and recover all your public and private keys."
   },
   {
+    "id": "glossary:blockchain-analytics",
+    "type": "glossary",
+    "title": "Blockchain Analytics",
+    "aliases": [],
+    "summary": "Blockchain analytics refers to the practice of monitoring, inspecting, and interpreting data stored on distributed ledgers to identify patterns, evaluate network health, and track transaction flows. By utilizing specialized software to decode cryptographic transactions, analysts can deanonymize pseudonymous addresses, detect illicit activity, and assess market trends. This field encompasses on-chain metrics, such as transaction volume and active address counts, as well as forensic investigations that map the movement of digital assets across exchanges and wallets for compliance and security purposes.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/blockchain-analytics",
+    "text": "Blockchain Analytics Blockchain analytics refers to the practice of monitoring, inspecting, and interpreting data stored on distributed ledgers to identify patterns, evaluate network health, and track transaction flows. By utilizing specialized software to decode cryptographic transactions, analysts can deanonymize pseudonymous addresses, detect illicit activity, and assess market trends. This field encompasses on-chain metrics, such as transaction volume and active address counts, as well as forensic investigations that map the movement of digital assets across exchanges and wallets for compliance and security purposes. Blockchain Analytics — Definition & Explanation | The Blockchain Library Explore blockchain analytics: learn how data forensics, on-chain monitoring, and pattern identification empower transparency and security in the crypto ecosystem."
+  },
+  {
+    "id": "glossary:gossip-protocol",
+    "type": "glossary",
+    "title": "Gossip Protocol",
+    "aliases": [],
+    "summary": "A gossip protocol is a peer-to-peer communication mechanism inspired by the social phenomenon of spreading information through informal networks. In blockchain and distributed systems, nodes randomly select peers to share data updates, creating a rapid, exponential propagation of information across the entire network. This decentralized approach eliminates the need for a central authority to broadcast messages, ensuring that information—such as transaction details or block information—reaches the majority of nodes even if parts of the network are offline or undergoing partitions.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/gossip-protocol",
+    "text": "Gossip Protocol A gossip protocol is a peer-to-peer communication mechanism inspired by the social phenomenon of spreading information through informal networks. In blockchain and distributed systems, nodes randomly select peers to share data updates, creating a rapid, exponential propagation of information across the entire network. This decentralized approach eliminates the need for a central authority to broadcast messages, ensuring that information—such as transaction details or block information—reaches the majority of nodes even if parts of the network are offline or undergoing partitions. Gossip Protocol — Definition & Explanation | The Blockchain Library Discover how gossip protocols enable decentralized communication in blockchains by mimicking viral information spread for robust network synchronization."
+  },
+  {
+    "id": "glossary:hashgraph",
+    "type": "glossary",
+    "title": "Hashgraph",
+    "aliases": [],
+    "summary": "Hashgraph is a proprietary distributed ledger technology (DLT) that utilizes a directed acyclic graph (DAG) structure to record transaction history instead of a traditional linear blockchain. It employs a 'gossip about gossip' mechanism, where metadata about the communication history is included in every message. This allows the network to reach consensus on the order and timing of transactions without the energy-intensive mining process or the bottlenecks of block production, resulting in high throughput, near-instant finality, and fair ordering of events.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/hashgraph",
+    "text": "Hashgraph Hashgraph is a proprietary distributed ledger technology (DLT) that utilizes a directed acyclic graph (DAG) structure to record transaction history instead of a traditional linear blockchain. It employs a 'gossip about gossip' mechanism, where metadata about the communication history is included in every message. This allows the network to reach consensus on the order and timing of transactions without the energy-intensive mining process or the bottlenecks of block production, resulting in high throughput, near-instant finality, and fair ordering of events. Hashgraph — Definition & Explanation | The Blockchain Library Learn about Hashgraph, a high-performance DLT using a DAG structure and gossip-about-gossip to achieve fast, fair, and energy-efficient consensus."
+  },
+  {
+    "id": "glossary:efficiency",
+    "type": "glossary",
+    "title": "Efficiency",
+    "aliases": [],
+    "summary": "In the context of decentralized finance, efficiency refers to the optimization of capital deployment, transaction speed, and cost-effectiveness within blockchain networks. It measures how effectively liquidity is utilized across automated market makers, lending protocols, and yield aggregators. High efficiency indicates minimal slippage, lower transaction fees, and high capital utilization rates, allowing users to earn returns or swap assets with minimal friction. This concept encompasses both algorithmic efficiency in smart contracts and economic efficiency in minimizing asset idle time.",
+    "categoryId": "6a4e39d110805a52385d8fc9",
+    "tags": [],
+    "canonicalUrl": "/glossary/efficiency",
+    "text": "Efficiency In the context of decentralized finance, efficiency refers to the optimization of capital deployment, transaction speed, and cost-effectiveness within blockchain networks. It measures how effectively liquidity is utilized across automated market makers, lending protocols, and yield aggregators. High efficiency indicates minimal slippage, lower transaction fees, and high capital utilization rates, allowing users to earn returns or swap assets with minimal friction. This concept encompasses both algorithmic efficiency in smart contracts and economic efficiency in minimizing asset idle time. Efficiency — Definition & Explanation | The Blockchain Library Learn what efficiency means in DeFi. Explore how capital utilization, transaction speeds, and low costs drive the success of decentralized finance protocols."
+  },
+  {
+    "id": "glossary:ltv-ratio",
+    "type": "glossary",
+    "title": "LTV Ratio",
+    "aliases": [],
+    "summary": "The Loan-to-Value (LTV) ratio is a critical financial metric used in decentralized lending protocols to express the percentage of a loan relative to the market value of the collateral deposited. It acts as a safety buffer for the protocol, determining the maximum borrowing capacity allowed for a specific asset. When the market price of the collateral falls, the LTV ratio increases; if it crosses a predefined threshold, the protocol may trigger an automated liquidation process to protect the lender's capital.",
+    "categoryId": "6a4e39d110805a52385d8fc9",
+    "tags": [],
+    "canonicalUrl": "/glossary/ltv-ratio",
+    "text": "LTV Ratio The Loan-to-Value (LTV) ratio is a critical financial metric used in decentralized lending protocols to express the percentage of a loan relative to the market value of the collateral deposited. It acts as a safety buffer for the protocol, determining the maximum borrowing capacity allowed for a specific asset. When the market price of the collateral falls, the LTV ratio increases; if it crosses a predefined threshold, the protocol may trigger an automated liquidation process to protect the lender's capital. LTV Ratio — Definition & Explanation | The Blockchain Library Understand the Loan-to-Value (LTV) ratio in DeFi. Learn how this crucial metric manages risk, borrowing limits, and liquidation processes in crypto lending."
+  },
+  {
+    "id": "glossary:elliptic-curve",
+    "type": "glossary",
+    "title": "Elliptic Curve",
+    "aliases": [],
+    "summary": "An elliptic curve is a plane algebraic curve defined by the equation y^2 = x^3 + ax + b, used extensively in modern cryptography to provide secure digital signatures and key exchange mechanisms. In the context of blockchain, elliptic curve cryptography (ECC) relies on the algebraic structure of elliptic curves over finite fields to create public-private key pairs. The security of these systems is based on the intractability of the elliptic curve discrete logarithm problem, which ensures that it is computationally infeasible to derive a private key from a known public key.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/elliptic-curve",
+    "text": "Elliptic Curve An elliptic curve is a plane algebraic curve defined by the equation y^2 = x^3 + ax + b, used extensively in modern cryptography to provide secure digital signatures and key exchange mechanisms. In the context of blockchain, elliptic curve cryptography (ECC) relies on the algebraic structure of elliptic curves over finite fields to create public-private key pairs. The security of these systems is based on the intractability of the elliptic curve discrete logarithm problem, which ensures that it is computationally infeasible to derive a private key from a known public key. Elliptic Curve — Definition & Explanation | The Blockchain Library Learn how elliptic curves provide the mathematical foundation for blockchain security, enabling robust digital signatures and private key management in Web3 protocols."
+  },
+  {
+    "id": "glossary:exchange",
+    "type": "glossary",
+    "title": "Exchange",
+    "aliases": [],
+    "summary": "A blockchain exchange is a digital marketplace or platform that facilitates the trading of cryptocurrencies, stablecoins, and digital assets. These entities act as intermediaries that connect buyers and sellers, providing liquidity, price discovery, and secure execution of orders. Exchanges operate either as Centralized Exchanges (CEX), which utilize custodial order books and internal matching engines, or Decentralized Exchanges (DEX), which leverage automated market makers (AMMs) and smart contracts to allow for non-custodial peer-to-peer asset swaps across blockchain networks.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/exchange",
+    "text": "Exchange A blockchain exchange is a digital marketplace or platform that facilitates the trading of cryptocurrencies, stablecoins, and digital assets. These entities act as intermediaries that connect buyers and sellers, providing liquidity, price discovery, and secure execution of orders. Exchanges operate either as Centralized Exchanges (CEX), which utilize custodial order books and internal matching engines, or Decentralized Exchanges (DEX), which leverage automated market makers (AMMs) and smart contracts to allow for non-custodial peer-to-peer asset swaps across blockchain networks. Exchange — Definition & Explanation | The Blockchain Library Learn how cryptocurrency exchanges function as vital digital marketplaces for buying, selling, and trading digital assets, including stablecoins and altcoins."
+  },
+  {
+    "id": "glossary:hedging",
+    "type": "glossary",
+    "title": "Hedging",
+    "aliases": [],
+    "summary": "Hedging in the blockchain context refers to the strategic implementation of financial positions designed to offset potential losses in an existing asset portfolio. By utilizing instruments such as perpetual futures, options, or stablecoin yield strategies, market participants mitigate exposure to the inherent volatility of digital assets. Hedging does not eliminate risk entirely but serves as a risk management technique to neutralize negative price movements, often employed by institutional investors and stablecoin issuers to maintain portfolio stability.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/hedging",
+    "text": "Hedging Hedging in the blockchain context refers to the strategic implementation of financial positions designed to offset potential losses in an existing asset portfolio. By utilizing instruments such as perpetual futures, options, or stablecoin yield strategies, market participants mitigate exposure to the inherent volatility of digital assets. Hedging does not eliminate risk entirely but serves as a risk management technique to neutralize negative price movements, often employed by institutional investors and stablecoin issuers to maintain portfolio stability. Hedging — Definition & Explanation | The Blockchain Library Understand the role of hedging in blockchain as a vital risk management strategy to offset potential losses and protect portfolios from extreme market volatility."
+  },
+  {
+    "id": "glossary:exit-scam",
+    "type": "glossary",
+    "title": "Exit Scam",
+    "aliases": [],
+    "summary": "An exit scam is a fraudulent practice in the cryptocurrency and decentralized finance (DeFi) sectors where the project developers or platform operators abruptly terminate their operations after collecting significant capital from investors. By effectively disappearing with the users' funds—often through the drainage of liquidity pools, the sale of pre-mined tokens, or the closure of centralized exchange platforms—the perpetrators permanently deprive investors of their assets. This form of malicious activity is characterized by premeditated intent to deceive participants under the guise of a legitimate technological endeavor.",
+    "categoryId": "6a4e39d110805a52385d8fcf",
+    "tags": [],
+    "canonicalUrl": "/glossary/exit-scam",
+    "text": "Exit Scam An exit scam is a fraudulent practice in the cryptocurrency and decentralized finance (DeFi) sectors where the project developers or platform operators abruptly terminate their operations after collecting significant capital from investors. By effectively disappearing with the users' funds—often through the drainage of liquidity pools, the sale of pre-mined tokens, or the closure of centralized exchange platforms—the perpetrators permanently deprive investors of their assets. This form of malicious activity is characterized by premeditated intent to deceive participants under the guise of a legitimate technological endeavor. Exit Scam — Definition & Explanation | The Blockchain Library Learn what an exit scam is in the world of cryptocurrency. Discover how these fraudulent schemes operate, why they occur, and how to protect your digital assets."
+  },
+  {
+    "id": "glossary:frontend",
+    "type": "glossary",
+    "title": "Frontend",
+    "aliases": [],
+    "summary": "In the context of blockchain and decentralized applications (dApps), the frontend refers to the client-side layer that provides the user interface (UI) through which users interact with the blockchain. Unlike traditional centralized applications where the frontend might pull data from a private server database, a blockchain frontend utilizes libraries like ethers.js or web3.js to communicate directly with smart contracts via a blockchain node or a gateway service. It acts as the visual bridge, translating complex cryptographic transactions into intuitive interactions for non-technical users.",
+    "categoryId": "6a4e39d110805a52385d8fd4",
+    "tags": [],
+    "canonicalUrl": "/glossary/frontend",
+    "text": "Frontend In the context of blockchain and decentralized applications (dApps), the frontend refers to the client-side layer that provides the user interface (UI) through which users interact with the blockchain. Unlike traditional centralized applications where the frontend might pull data from a private server database, a blockchain frontend utilizes libraries like ethers.js or web3.js to communicate directly with smart contracts via a blockchain node or a gateway service. It acts as the visual bridge, translating complex cryptographic transactions into intuitive interactions for non-technical users. Frontend — Definition & Explanation | The Blockchain Library Learn what a frontend is in blockchain. Understand how it serves as the essential user interface for dApps, connecting you to smart contracts securely."
+  },
+  {
+    "id": "glossary:identity-management",
+    "type": "glossary",
+    "title": "Identity Management",
+    "aliases": [],
+    "summary": "In the context of enterprise blockchain, Identity Management (IdM) refers to the framework of policies, technologies, and cryptographic protocols that enable the secure administration of digital identities for individuals, organizations, and IoT devices. By leveraging decentralized identifiers (DIDs) and verifiable credentials (VCs), enterprise blockchain solutions provide a tamper-proof, interoperable layer for authentication and authorization. This paradigm shifts control from centralized identity providers to the users themselves, facilitating self-sovereign identity while ensuring regulatory compliance, data privacy, and reduced attack surfaces across complex distributed network ecosystems.",
+    "categoryId": "6a4cfe7ce8ddbcb85df987dd",
+    "tags": [],
+    "canonicalUrl": "/glossary/identity-management",
+    "text": "Identity Management In the context of enterprise blockchain, Identity Management (IdM) refers to the framework of policies, technologies, and cryptographic protocols that enable the secure administration of digital identities for individuals, organizations, and IoT devices. By leveraging decentralized identifiers (DIDs) and verifiable credentials (VCs), enterprise blockchain solutions provide a tamper-proof, interoperable layer for authentication and authorization. This paradigm shifts control from centralized identity providers to the users themselves, facilitating self-sovereign identity while ensuring regulatory compliance, data privacy, and reduced attack surfaces across complex distributed network ecosystems. Identity Management — Definition & Explanation | The Blockchain Library Explore Identity Management in enterprise blockchain. Learn how DIDs and verifiable credentials enable secure, self-sovereign identity and data privacy for businesses."
+  },
+  {
+    "id": "glossary:layer-0",
+    "type": "glossary",
+    "title": "Layer 0",
+    "aliases": [],
+    "summary": "Layer 0 refers to the foundational networking and protocol infrastructure that sits beneath Layer 1 blockchains, such as Ethereum or Bitcoin. It provides the base connectivity, interoperability, and security frameworks that allow multiple independent Layer 1 blockchains to communicate and share state. By standardizing the underlying communication protocols and consensus mechanisms, Layer 0 architectures enable developers to launch custom, application-specific blockchains that inherit the security and scalability of the underlying infrastructure, effectively solving the silo problem prevalent in traditional distributed ledger technology.",
+    "categoryId": "6a4e39d110805a52385d8fd0",
+    "tags": [],
+    "canonicalUrl": "/glossary/layer-0",
+    "text": "Layer 0 Layer 0 refers to the foundational networking and protocol infrastructure that sits beneath Layer 1 blockchains, such as Ethereum or Bitcoin. It provides the base connectivity, interoperability, and security frameworks that allow multiple independent Layer 1 blockchains to communicate and share state. By standardizing the underlying communication protocols and consensus mechanisms, Layer 0 architectures enable developers to launch custom, application-specific blockchains that inherit the security and scalability of the underlying infrastructure, effectively solving the silo problem prevalent in traditional distributed ledger technology. Layer 0 — Definition & Explanation | The Blockchain Library Learn about Layer 0 blockchain infrastructure: the foundational networking layer enabling cross-chain interoperability, shared security, and a scalable Web3 ecosystem."
+  },
+  {
     "id": "topic:what-crypto-looks-like-after-memecoins",
     "type": "topic",
     "title": "What Crypto Looks Like After Memecoins",
@@ -21878,6 +22010,22 @@
     ],
     "canonicalUrl": "/topics/canada-frontier-ai-cyber-direction-asset-inventory",
     "text": "Canada’s Frontier-AI Cyber Direction Starts With an Asset Inventory Canada’s new frontier-AI cyber direction makes a useful point for every technology operator: faster threats raise the value of accurate inventories, governed machine identities and tested recovery evidence. Understanding Canada’s Frontier-AI Cyber Security Policy Learn how Canada's frontier-AI cyber security direction emphasizes asset inventories and machine identity management to improve operational resilience. cybersecurity frontier AI asset inventory machine identity Canada"
+  },
+  {
+    "id": "topic:health-ai-appeal-path-accuracy-score",
+    "type": "topic",
+    "title": "Health AI Needs an Appeal Path, Not Just an Accuracy Score",
+    "aliases": [],
+    "summary": "Canada’s privacy regulators have set a useful health-AI test: people need a practical way to challenge consequential outputs and reach qualified human review.",
+    "categoryId": "6a4cfe7ce8ddbcb85df987d3",
+    "tags": [
+      "Artificial Intelligence",
+      "Health AI",
+      "Privacy",
+      "Canada"
+    ],
+    "canonicalUrl": "/topics/health-ai-appeal-path-accuracy-score",
+    "text": "Health AI Needs an Appeal Path, Not Just an Accuracy Score Canada’s privacy regulators have set a useful health-AI test: people need a practical way to challenge consequential outputs and reach qualified human review. Why Health AI Requires a Formal Appeal Path Learn why health AI systems need a formal appeal path to challenge outputs, and how privacy regulators are shaping requirements for clinical oversight. Artificial Intelligence Health AI Privacy Canada"
   },
   {
     "id": "book:the-quiet-rebuild-of-the-internet",
@@ -125466,6 +125614,724 @@
     ],
     "canonicalUrl": "/news/ripples-rlusd-stablecoin-gains-coinbase-access-as-moodys-awards-investment-grade-rating",
     "text": "Ripple’s RLUSD stablecoin gains Coinbase access as Moody’s awards investment-grade rating DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-loses-5-7-billion-in-largest-crypto-hack-to-date",
+    "type": "news",
+    "title": "Binance loses $5.7 billion in largest crypto hack to date",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-loses-5-7-billion-in-largest-crypto-hack-to-date",
+    "text": "Binance loses $5.7 billion in largest crypto hack to date Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
+    "type": "news",
+    "title": "Polymarket suspends trading after third-party breach leads to user losses",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses",
+    "text": "Polymarket suspends trading after third-party breach leads to user losses Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:stanley-druckenmillers-first-x-post-backs-hyperliquid-venture-after-23-million-indirect-investment",
+    "type": "news",
+    "title": "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/stanley-druckenmillers-first-x-post-backs-hyperliquid-venture-after-23-million-indirect-investment",
+    "text": "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
+    "type": "news",
+    "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
+    "text": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+    "type": "news",
+    "title": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/from-rivals-to-partners-polygon-and-solana-team-to-bring-stablecoin-payments-to-banks",
+    "text": "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
+    "type": "news",
+    "title": "Crypto exchange HTX exits the UK after settling with the FCA",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
+    "text": "Crypto exchange HTX exits the UK after settling with the FCA Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-investigates-potential-multibillion-dollar-hack",
+    "type": "news",
+    "title": "Binance investigates potential multibillion-dollar hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-investigates-potential-multibillion-dollar-hack",
+    "text": "Binance investigates potential multibillion-dollar hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:public-companies-double-share-of-blockchain-revenue-since-2022-report",
+    "type": "news",
+    "title": "Public companies double share of blockchain revenue since 2022: Report",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/public-companies-double-share-of-blockchain-revenue-since-2022-report",
+    "text": "Public companies double share of blockchain revenue since 2022: Report Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:polymarket-suspended-trading-amid-reports-of-user-funds-being-drained",
+    "type": "news",
+    "title": "Polymarket suspended trading amid reports of user funds being drained",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/polymarket-suspended-trading-amid-reports-of-user-funds-being-drained",
+    "text": "Polymarket suspended trading amid reports of user funds being drained Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:hype-teases-all-time-high-as-nyse-owner-ice-eyes-us-hyperliquid-perps",
+    "type": "news",
+    "title": "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/hype-teases-all-time-high-as-nyse-owner-ice-eyes-us-hyperliquid-perps",
+    "text": "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:kucoin-suspends-services-in-russia-and-belarus",
+    "type": "news",
+    "title": "KuCoin suspends services in Russia and Belarus",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/kucoin-suspends-services-in-russia-and-belarus",
+    "text": "KuCoin suspends services in Russia and Belarus Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:nasdaq-listed-canton-strategic-holdings-plans-tokenized-stock-trading-from-nov-2",
+    "type": "news",
+    "title": "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/nasdaq-listed-canton-strategic-holdings-plans-tokenized-stock-trading-from-nov-2",
+    "text": "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2 Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:hedera-ecosystem-adds-bron-self-custody-platform-through-industry-association",
+    "type": "news",
+    "title": "Hedera Ecosystem Adds Bron Self-Custody Platform Through Industry Association",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/hedera-ecosystem-adds-bron-self-custody-platform-through-industry-association",
+    "text": "Hedera Ecosystem Adds Bron Self-Custody Platform Through Industry Association Trading Markets"
+  },
+  {
+    "id": "news:falconx-backs-250m-credit-facility-for-ibis-as-crypto-lending-infrastructure-evolves",
+    "type": "news",
+    "title": "FalconX Backs $250M Credit Facility for Ibis as Crypto Lending Infrastructure Evolves",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/falconx-backs-250m-credit-facility-for-ibis-as-crypto-lending-infrastructure-evolves",
+    "text": "FalconX Backs $250M Credit Facility for Ibis as Crypto Lending Infrastructure Evolves Trading Markets"
+  },
+  {
+    "id": "news:bitwise-sees-bitcoin-at-1-6-million-by-2036-but-the-forecast-has-big-assumptions",
+    "type": "news",
+    "title": "Bitwise Sees Bitcoin at $1.6 Million by 2036, but the Forecast Has Big Assumptions",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitwise-sees-bitcoin-at-1-6-million-by-2036-but-the-forecast-has-big-assumptions",
+    "text": "Bitwise Sees Bitcoin at $1.6 Million by 2036, but the Forecast Has Big Assumptions Trading Markets"
+  },
+  {
+    "id": "news:stellar-gains-usdc-payment-corridor-as-movantis-targets-us-el-salvador-transfers",
+    "type": "news",
+    "title": "Stellar Gains USDC Payment Corridor as Movantis Targets US–El Salvador Transfers",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/stellar-gains-usdc-payment-corridor-as-movantis-targets-us-el-salvador-transfers",
+    "text": "Stellar Gains USDC Payment Corridor as Movantis Targets US–El Salvador Transfers Trading Markets"
+  },
+  {
+    "id": "news:stellar-private-fund-liquidity-pilot-tests-a-new-way-to-price-redemptions",
+    "type": "news",
+    "title": "Stellar Private Fund Liquidity Pilot Tests a New Way to Price Redemptions",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/stellar-private-fund-liquidity-pilot-tests-a-new-way-to-price-redemptions",
+    "text": "Stellar Private Fund Liquidity Pilot Tests a New Way to Price Redemptions Trading Markets"
+  },
+  {
+    "id": "news:securitize-plans-stellar-integration-as-tokenized-asset-platforms-expand",
+    "type": "news",
+    "title": "Securitize Plans Stellar Integration as Tokenized Asset Platforms Expand",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/securitize-plans-stellar-integration-as-tokenized-asset-platforms-expand",
+    "text": "Securitize Plans Stellar Integration as Tokenized Asset Platforms Expand Trading Markets"
+  },
+  {
+    "id": "news:6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-expects-more-pain",
+    "type": "news",
+    "title": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-expects-more-pain",
+    "text": "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
+    "type": "news",
+    "title": "Institutional crypto investors rush to pull funds from exchanges after Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/institutional-crypto-investors-rush-to-pull-funds-from-exchanges-after-binance-hack",
+    "text": "Institutional crypto investors rush to pull funds from exchanges after Binance hack Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:cryptos-longtime-foe-north-koreas-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+    "type": "news",
+    "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/cryptos-longtime-foe-north-koreas-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
+    "text": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
+    "type": "news",
+    "title": "Binance hack drained wallets backing customer assets, reserve data shows",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
+    "text": "Binance hack drained wallets backing customer assets, reserve data shows Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-hack-could-accelerate-shift-to-dexs-standard-chartered",
+    "type": "news",
+    "title": "Binance hack could accelerate shift to DEXs: Standard Chartered",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-hack-could-accelerate-shift-to-dexs-standard-chartered",
+    "text": "Binance hack could accelerate shift to DEXs: Standard Chartered Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-points-to-engineers-hacked-laptop-in-6-3b-breach",
+    "type": "news",
+    "title": "Binance points to engineer’s hacked laptop in $6.3B breach",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-points-to-engineers-hacked-laptop-in-6-3b-breach",
+    "text": "Binance points to engineer’s hacked laptop in $6.3B breach Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-hack-rattles-markets-as-bnb-falls-8-bitcoin-nears-77k",
+    "type": "news",
+    "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-hack-rattles-markets-as-bnb-falls-8-bitcoin-nears-77k",
+    "text": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:tampered-ledger-reported-in-singapore-a-month-before-news-broke-asia-express",
+    "type": "news",
+    "title": "Tampered Ledger reported in Singapore a month before news broke: Asia Express",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/tampered-ledger-reported-in-singapore-a-month-before-news-broke-asia-express",
+    "text": "Tampered Ledger reported in Singapore a month before news broke: Asia Express Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:kamino-opens-solana-lending-market-for-backpack-tokenized-equity-collateral",
+    "type": "news",
+    "title": "Kamino Opens Solana Lending Market for Backpack Tokenized Equity Collateral",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/kamino-opens-solana-lending-market-for-backpack-tokenized-equity-collateral",
+    "text": "Kamino Opens Solana Lending Market for Backpack Tokenized Equity Collateral Trading Markets"
+  },
+  {
+    "id": "news:stellar-unveils-thruput-with-multi-million-transaction-execution-benchmarks",
+    "type": "news",
+    "title": "Stellar Unveils Thruput With Multi-Million-Transaction Execution Benchmarks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/stellar-unveils-thruput-with-multi-million-transaction-execution-benchmarks",
+    "text": "Stellar Unveils Thruput With Multi-Million-Transaction Execution Benchmarks Trading Markets"
+  },
+  {
+    "id": "news:google-cloud-previews-institutional-crypto-key-security-service-as-custody-risks-grow",
+    "type": "news",
+    "title": "Google Cloud Previews Institutional Crypto Key-Security Service as Custody Risks Grow",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/google-cloud-previews-institutional-crypto-key-security-service-as-custody-risks-grow",
+    "text": "Google Cloud Previews Institutional Crypto Key-Security Service as Custody Risks Grow Trading Markets"
+  },
+  {
+    "id": "news:robinhood-crypto-revenue-falls-55-as-prediction-markets-support-growth",
+    "type": "news",
+    "title": "Robinhood Crypto Revenue Falls 55% as Prediction Markets Support Growth",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/robinhood-crypto-revenue-falls-55-as-prediction-markets-support-growth",
+    "text": "Robinhood Crypto Revenue Falls 55% as Prediction Markets Support Growth Trading Markets"
+  },
+  {
+    "id": "news:circle-and-aci-bring-usdc-settlement-into-latin-american-payment-operations",
+    "type": "news",
+    "title": "Circle and ACI Bring USDC Settlement Into Latin American Payment Operations",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/circle-and-aci-bring-usdc-settlement-into-latin-american-payment-operations",
+    "text": "Circle and ACI Bring USDC Settlement Into Latin American Payment Operations Trading Markets"
+  },
+  {
+    "id": "news:dbs-survey-finds-88-of-businesses-testing-or-using-tokenized-money",
+    "type": "news",
+    "title": "DBS Survey Finds 88% of Businesses Testing or Using Tokenized Money",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/dbs-survey-finds-88-of-businesses-testing-or-using-tokenized-money",
+    "text": "DBS Survey Finds 88% of Businesses Testing or Using Tokenized Money Trading Markets"
+  },
+  {
+    "id": "news:strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
+    "type": "news",
+    "title": "Strategy CFO resigns as company posts record quarterly profit. MSTR stock falls 6%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
+    "text": "Strategy CFO resigns as company posts record quarterly profit. MSTR stock falls 6% Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:live-updates-binance-finds-more-breaches-in-6-3-billion-hack-ai-spending-fears-hit-tech",
+    "type": "news",
+    "title": "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/live-updates-binance-finds-more-breaches-in-6-3-billion-hack-ai-spending-fears-hit-tech",
+    "text": "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90",
+    "type": "news",
+    "title": "Binance hacker dumps a little-known 2017 token and it crashes 90%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-hacker-dumps-a-little-known-2017-token-and-it-crashes-90",
+    "text": "Binance hacker dumps a little-known 2017 token and it crashes 90% Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-ether-and-xrp-selloff-wipes-out-1-5-billion-in-leveraged-crypto-bets",
+    "type": "news",
+    "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-ether-and-xrp-selloff-wipes-out-1-5-billion-in-leveraged-crypto-bets",
+    "text": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:xrp-ledger-developers-tighten-the-rules-for-who-can-hold-restricted-tokens",
+    "type": "news",
+    "title": "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/xrp-ledger-developers-tighten-the-rules-for-who-can-hold-restricted-tokens",
+    "text": "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-hack-bites-indias-largest-crypto-exchange-as-it-curbs-futures-trading",
+    "type": "news",
+    "title": "Binance hack bites India's largest crypto exchange as it curbs futures trading",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-hack-bites-indias-largest-crypto-exchange-as-it-curbs-futures-trading",
+    "text": "Binance hack bites India's largest crypto exchange as it curbs futures trading Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-hacker-splits-1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+    "type": "news",
+    "title": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-hacker-splits-1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+    "text": "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:thorchains-rune-jumps-13-after-binances-record-6-3b-hack",
+    "type": "news",
+    "title": "THORChain’s RUNE jumps 13% after Binance’s record $6.3B hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/thorchains-rune-jumps-13-after-binances-record-6-3b-hack",
+    "text": "THORChain’s RUNE jumps 13% after Binance’s record $6.3B hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:trezor-warns-cryptobilis-buyers-to-move-funds-over-suspected-implant",
+    "type": "news",
+    "title": "Trezor warns CryptoBilis buyers to move funds over suspected implant",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/trezor-warns-cryptobilis-buyers-to-move-funds-over-suspected-implant",
+    "text": "Trezor warns CryptoBilis buyers to move funds over suspected implant Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:live-updates-binance-uncovers-more-breach-points-in-6-3b-hack",
+    "type": "news",
+    "title": "Live updates: Binance uncovers more breach points in $6.3B hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/live-updates-binance-uncovers-more-breach-points-in-6-3b-hack",
+    "text": "Live updates: Binance uncovers more breach points in $6.3B hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:strategy-eyes-more-bitcoin-buys-as-saylor-touts-30b-credit-capacity",
+    "type": "news",
+    "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/strategy-eyes-more-bitcoin-buys-as-saylor-touts-30b-credit-capacity",
+    "text": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:north-koreas-tradertraitor-linked-to-6-3b-binance-hack",
+    "type": "news",
+    "title": "North Korea’s TraderTraitor linked to $6.3B Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/north-koreas-tradertraitor-linked-to-6-3b-binance-hack",
+    "text": "North Korea’s TraderTraitor linked to $6.3B Binance hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:usdd-reports-strong-treasury-performance-growth-in-key-metrics-and-ecosystem-expansion",
+    "type": "news",
+    "title": "USDD Reports Strong Treasury Performance, Growth in Key Metrics, and Ecosystem Expansion",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/usdd-reports-strong-treasury-performance-growth-in-key-metrics-and-ecosystem-expansion",
+    "text": "USDD Reports Strong Treasury Performance, Growth in Key Metrics, and Ecosystem Expansion Trading Markets"
+  },
+  {
+    "id": "news:coinbase-says-customer-funds-safe-after-analytics-vendor-contact-data-incident",
+    "type": "news",
+    "title": "Coinbase Says Customer Funds Safe After Analytics Vendor Contact-Data Incident",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/coinbase-says-customer-funds-safe-after-analytics-vendor-contact-data-incident",
+    "text": "Coinbase Says Customer Funds Safe After Analytics Vendor Contact-Data Incident Trading Markets"
+  },
+  {
+    "id": "news:bitcoin-slips-below-80-000-after-fed-holds-rates-and-tech-shares-weaken",
+    "type": "news",
+    "title": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitcoin-slips-below-80-000-after-fed-holds-rates-and-tech-shares-weaken",
+    "text": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken Trading Markets"
+  },
+  {
+    "id": "news:ethereum-client-updates-address-certificate-risk-in-teku-and-besu",
+    "type": "news",
+    "title": "Ethereum Client Updates Address Certificate Risk in Teku and Besu",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ethereum-client-updates-address-certificate-risk-in-teku-and-besu",
+    "text": "Ethereum Client Updates Address Certificate Risk in Teku and Besu Trading Markets"
+  },
+  {
+    "id": "news:mirae-asset-issues-tokenized-dollar-notes-on-solana-for-professional-investors",
+    "type": "news",
+    "title": "Mirae Asset Issues Tokenized Dollar Notes on Solana for Professional Investors",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/mirae-asset-issues-tokenized-dollar-notes-on-solana-for-professional-investors",
+    "text": "Mirae Asset Issues Tokenized Dollar Notes on Solana for Professional Investors Trading Markets"
   },
   {
     "id": "newsletter:issue-1-blockchain-foundations",

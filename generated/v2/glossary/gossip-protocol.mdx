@@ -1,0 +1,54 @@
+---
+title: "Gossip Protocol"
+description: "A gossip protocol is a peer-to-peer communication mechanism inspired by the social phenomenon of spreading information through informal networks. In blockchain and distributed systems, nodes randomly select peers to share data updates, creating a rapid, exponential propagation of"
+---
+
+# Gossip Protocol
+
+A gossip protocol is a peer-to-peer communication mechanism inspired by the social phenomenon of spreading information through informal networks. In blockchain and distributed systems, nodes randomly select peers to share data updates, creating a rapid, exponential propagation of information across the entire network. This decentralized approach eliminates the need for a central authority to broadcast messages, ensuring that information—such as transaction details or block information—reaches the majority of nodes even if parts of the network are offline or undergoing partitions.
+
+## Definition
+
+A gossip protocol is a peer-to-peer communication mechanism inspired by the social phenomenon of spreading information through informal networks. In blockchain and distributed systems, nodes randomly select peers to share data updates, creating a rapid, exponential propagation of information across the entire network. This decentralized approach eliminates the need for a central authority to broadcast messages, ensuring that information—such as transaction details or block information—reaches the majority of nodes even if parts of the network are offline or undergoing partitions.
+
+## Simple explanation
+
+Think of a gossip protocol like a rumor spreading in a crowded room. One person tells two friends, those two tell two more, and very quickly, everyone knows the news. In a blockchain, this is how computers tell each other about new transactions without needing one central "announcer" to talk to every single person.
+
+## Why it matters
+
+Gossip protocols are critical for network resilience and scalability, ensuring that distributed systems remain synchronized. They allow blockchains to function robustly in a peer-to-peer environment without depending on vulnerable, centralized servers.
+
+## How it works
+
+Each node maintains a list of neighbors and periodically chooses a subset of them to send new data. Upon receiving the data, the peer validates it and continues the cycle of sharing with its own neighbors. This process repeats until the information reaches every reachable node in the decentralized network.
+
+## Real-world example
+
+The Ethereum network utilizes the libp2p GossipSub protocol to efficiently disseminate blocks and transactions among its thousands of distributed validator nodes.
+
+## Advantages
+
+- High fault tolerance and resilience
+- Efficient decentralized information propagation
+- No single point of failure
+
+## Limitations
+
+- Can lead to high network bandwidth consumption
+- Latency in reaching total network consensus
+- Susceptibility to malicious packet flooding
+
+## Common misconceptions
+
+- It is often mistaken for a consensus mechanism, whereas it is actually a messaging transport layer.
+- Some assume the protocol is inefficient because it seems random, but it is actually mathematically proven to be very fast.
+## Related knowledge
+
+- [Distributed Systems](/generated/v2/glossary/distributed-systems) — term
+- [Latency](/generated/v2/glossary/latency) — term
+- [libp2p](/generated/v2/resources/libp2p) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:gossip-protocol`

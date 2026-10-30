@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T16:04:14.792Z",
-  "buildId": "155ec517fe9bb3fe",
+  "generatedAt": "2026-10-30T15:15:45.389Z",
+  "buildId": "25a15b9d5301ee42",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -5797,6 +5797,114 @@
       "sourceCanonicalUrl": "/glossary/deterministic-wallet",
       "sourceSlug": "deterministic-wallet",
       "routeSlug": "deterministic-wallet"
+    },
+    {
+      "uid": "glossary:blockchain-analytics",
+      "type": "glossary",
+      "title": "Blockchain Analytics",
+      "path": "generated/v2/glossary/blockchain-analytics",
+      "sourceCanonicalUrl": "/glossary/blockchain-analytics",
+      "sourceSlug": "blockchain-analytics",
+      "routeSlug": "blockchain-analytics"
+    },
+    {
+      "uid": "glossary:gossip-protocol",
+      "type": "glossary",
+      "title": "Gossip Protocol",
+      "path": "generated/v2/glossary/gossip-protocol",
+      "sourceCanonicalUrl": "/glossary/gossip-protocol",
+      "sourceSlug": "gossip-protocol",
+      "routeSlug": "gossip-protocol"
+    },
+    {
+      "uid": "glossary:hashgraph",
+      "type": "glossary",
+      "title": "Hashgraph",
+      "path": "generated/v2/glossary/hashgraph",
+      "sourceCanonicalUrl": "/glossary/hashgraph",
+      "sourceSlug": "hashgraph",
+      "routeSlug": "hashgraph"
+    },
+    {
+      "uid": "glossary:efficiency",
+      "type": "glossary",
+      "title": "Efficiency",
+      "path": "generated/v2/glossary/efficiency",
+      "sourceCanonicalUrl": "/glossary/efficiency",
+      "sourceSlug": "efficiency",
+      "routeSlug": "efficiency"
+    },
+    {
+      "uid": "glossary:ltv-ratio",
+      "type": "glossary",
+      "title": "LTV Ratio",
+      "path": "generated/v2/glossary/ltv-ratio",
+      "sourceCanonicalUrl": "/glossary/ltv-ratio",
+      "sourceSlug": "ltv-ratio",
+      "routeSlug": "ltv-ratio"
+    },
+    {
+      "uid": "glossary:elliptic-curve",
+      "type": "glossary",
+      "title": "Elliptic Curve",
+      "path": "generated/v2/glossary/elliptic-curve",
+      "sourceCanonicalUrl": "/glossary/elliptic-curve",
+      "sourceSlug": "elliptic-curve",
+      "routeSlug": "elliptic-curve"
+    },
+    {
+      "uid": "glossary:exchange",
+      "type": "glossary",
+      "title": "Exchange",
+      "path": "generated/v2/glossary/exchange",
+      "sourceCanonicalUrl": "/glossary/exchange",
+      "sourceSlug": "exchange",
+      "routeSlug": "exchange"
+    },
+    {
+      "uid": "glossary:hedging",
+      "type": "glossary",
+      "title": "Hedging",
+      "path": "generated/v2/glossary/hedging",
+      "sourceCanonicalUrl": "/glossary/hedging",
+      "sourceSlug": "hedging",
+      "routeSlug": "hedging"
+    },
+    {
+      "uid": "glossary:exit-scam",
+      "type": "glossary",
+      "title": "Exit Scam",
+      "path": "generated/v2/glossary/exit-scam",
+      "sourceCanonicalUrl": "/glossary/exit-scam",
+      "sourceSlug": "exit-scam",
+      "routeSlug": "exit-scam"
+    },
+    {
+      "uid": "glossary:frontend",
+      "type": "glossary",
+      "title": "Frontend",
+      "path": "generated/v2/glossary/frontend",
+      "sourceCanonicalUrl": "/glossary/frontend",
+      "sourceSlug": "frontend",
+      "routeSlug": "frontend"
+    },
+    {
+      "uid": "glossary:identity-management",
+      "type": "glossary",
+      "title": "Identity Management",
+      "path": "generated/v2/glossary/identity-management",
+      "sourceCanonicalUrl": "/glossary/identity-management",
+      "sourceSlug": "identity-management",
+      "routeSlug": "identity-management"
+    },
+    {
+      "uid": "glossary:layer-0",
+      "type": "glossary",
+      "title": "Layer 0",
+      "path": "generated/v2/glossary/layer-0",
+      "sourceCanonicalUrl": "/glossary/layer-0",
+      "sourceSlug": "layer-0",
+      "routeSlug": "layer-0"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",
@@ -12340,6 +12448,15 @@
       "sourceCanonicalUrl": "/topics/canada-frontier-ai-cyber-direction-asset-inventory",
       "sourceSlug": "canada-frontier-ai-cyber-direction-asset-inventory",
       "routeSlug": "canada-frontier-ai-cyber-direction-asset-inventory"
+    },
+    {
+      "uid": "topic:health-ai-appeal-path-accuracy-score",
+      "type": "topic",
+      "title": "Health AI Needs an Appeal Path, Not Just an Accuracy Score",
+      "path": "generated/v2/topics/health-ai-appeal-path-accuracy-score",
+      "sourceCanonicalUrl": "/topics/health-ai-appeal-path-accuracy-score",
+      "sourceSlug": "health-ai-appeal-path-accuracy-score",
+      "routeSlug": "health-ai-appeal-path-accuracy-score"
     },
     {
       "uid": "book:the-quiet-rebuild-of-the-internet",

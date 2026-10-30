@@ -1,0 +1,56 @@
+---
+title: "Elliptic Curve"
+description: "An elliptic curve is a plane algebraic curve defined by the equation y^2 = x^3 + ax + b, used extensively in modern cryptography to provide secure digital signatures and key exchange mechanisms. In the context of blockchain, elliptic curve cryptography (ECC) relies on the algebra"
+---
+
+# Elliptic Curve
+
+An elliptic curve is a plane algebraic curve defined by the equation y^2 = x^3 + ax + b, used extensively in modern cryptography to provide secure digital signatures and key exchange mechanisms. In the context of blockchain, elliptic curve cryptography (ECC) relies on the algebraic structure of elliptic curves over finite fields to create public-private key pairs. The security of these systems is based on the intractability of the elliptic curve discrete logarithm problem, which ensures that it is computationally infeasible to derive a private key from a known public key.
+
+## Definition
+
+An elliptic curve is a plane algebraic curve defined by the equation y^2 = x^3 + ax + b, used extensively in modern cryptography to provide secure digital signatures and key exchange mechanisms. In the context of blockchain, elliptic curve cryptography (ECC) relies on the algebraic structure of elliptic curves over finite fields to create public-private key pairs. The security of these systems is based on the intractability of the elliptic curve discrete logarithm problem, which ensures that it is computationally infeasible to derive a private key from a known public key.
+
+## Simple explanation
+
+Imagine a special loop-like shape on a graph. In math, if you pick a point on this shape and follow a specific rule to 'add' it to itself many times, you end up at a new point. It is very easy to find the final point if you know how many times you added, but it is nearly impossible to figure out how many times you added if you only see the starting and ending points. This puzzle acts like a digital vault, keeping your crypto wallet secure.
+
+## Why it matters
+
+Elliptic curves are the backbone of transaction security in blockchain networks like Bitcoin and Ethereum. They enable users to prove ownership of assets and authorize transactions without ever revealing their private keys to the network.
+
+## How it works
+
+ECC operates by performing scalar multiplication of a base point on the curve, which generates a public key. The private key remains a randomly chosen integer, while the resulting public key is a coordinate on the curve. Because finding the original scalar from the coordinate is mathematically impossible with current computing power, the system provides high security with smaller key sizes.
+
+## Real-world example
+
+The Elliptic Curve Digital Signature Algorithm (ECDSA) is utilized by Bitcoin (secp256k1) and Ethereum to generate wallet addresses and sign outgoing transactions.
+
+## Advantages
+
+- High security with smaller key sizes
+- Lower computational overhead for devices
+- Efficient bandwidth usage in transactions
+
+## Limitations
+
+- Vulnerability to potential quantum computing advancements
+- High complexity in secure implementation
+- Lack of standardized curves across all protocols
+
+## Common misconceptions
+
+- People often think elliptic curves are only used for encryption, but they are primarily used for digital signatures in blockchain.
+- It is a common error to believe that longer keys are always safer than elliptic curve keys when ECC is actually more efficient at equivalent security levels.
+## Related knowledge
+
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [ECDSA](/generated/v2/glossary/ecdsa) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+- [Public Key Cryptography](/generated/v2/glossary/public-key-cryptography) — term
+- [Quantum Resistance](/generated/v2/glossary/quantum-resistance) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:elliptic-curve`

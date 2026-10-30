@@ -1,0 +1,54 @@
+---
+title: "LTV Ratio"
+description: "The Loan-to-Value (LTV) ratio is a critical financial metric used in decentralized lending protocols to express the percentage of a loan relative to the market value of the collateral deposited. It acts as a safety buffer for the protocol, determining the maximum borrowing capaci"
+---
+
+# LTV Ratio
+
+The Loan-to-Value (LTV) ratio is a critical financial metric used in decentralized lending protocols to express the percentage of a loan relative to the market value of the collateral deposited. It acts as a safety buffer for the protocol, determining the maximum borrowing capacity allowed for a specific asset. When the market price of the collateral falls, the LTV ratio increases; if it crosses a predefined threshold, the protocol may trigger an automated liquidation process to protect the lender's capital.
+
+## Definition
+
+The Loan-to-Value (LTV) ratio is a critical financial metric used in decentralized lending protocols to express the percentage of a loan relative to the market value of the collateral deposited. It acts as a safety buffer for the protocol, determining the maximum borrowing capacity allowed for a specific asset. When the market price of the collateral falls, the LTV ratio increases; if it crosses a predefined threshold, the protocol may trigger an automated liquidation process to protect the lender's capital.
+
+## Simple explanation
+
+Imagine you want to borrow $50 from a friend, but they ask you to leave your $100 watch as security. Your LTV ratio here is 50%. If the value of your watch drops to $60, you are getting closer to the danger zone. In crypto lending, if your 'watch' (your collateral) drops too low in value, the system might automatically sell it to make sure the lender gets their money back.
+
+## Why it matters
+
+The LTV ratio is fundamental to risk management in permissionless lending markets, as it prevents bad debt from accumulating. By strictly enforcing these ratios, protocols can ensure solvency even during periods of extreme market volatility.
+
+## How it works
+
+When a user deposits crypto as collateral, the smart contract calculates its current USD value and multiplies it by the asset's specific LTV limit to determine the maximum borrowable amount. As prices change, an oracle feeds real-time market data to the protocol to constantly monitor the LTV. If the current borrowed amount divided by the collateral value exceeds the maximum LTV, the protocol triggers an automated liquidation to sell the collateral and repay the debt.
+
+## Real-world example
+
+On the Aave protocol, different assets have different LTV settings; for example, stablecoins like USDC may have a high LTV of 80%, while more volatile assets may only be allowed an LTV of 50%.
+
+## Advantages
+
+- Protects protocol solvency
+- Automated risk management
+- Enables over-collateralized borrowing
+
+## Limitations
+
+- Risk of automated liquidation during flash crashes
+- Requires constant monitoring of asset prices
+- Rigid thresholds can discourage capital efficiency
+
+## Common misconceptions
+
+- Many users mistakenly believe their collateral is safe forever regardless of market price movements.
+- It is often assumed that all crypto assets have the same LTV requirements across all lending platforms.
+## Related knowledge
+
+- [Collateral](/generated/v2/glossary/collateral) — term
+- [Liquidation](/generated/v2/glossary/liquidation) — term
+- [Oracles](/categories/oracles) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:ltv-ratio`
