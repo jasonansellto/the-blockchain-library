@@ -7226,6 +7226,138 @@
     "text": "Layer 0 Layer 0 refers to the foundational networking and protocol infrastructure that sits beneath Layer 1 blockchains, such as Ethereum or Bitcoin. It provides the base connectivity, interoperability, and security frameworks that allow multiple independent Layer 1 blockchains to communicate and share state. By standardizing the underlying communication protocols and consensus mechanisms, Layer 0 architectures enable developers to launch custom, application-specific blockchains that inherit the security and scalability of the underlying infrastructure, effectively solving the silo problem prevalent in traditional distributed ledger technology. Layer 0 — Definition & Explanation | The Blockchain Library Learn about Layer 0 blockchain infrastructure: the foundational networking layer enabling cross-chain interoperability, shared security, and a scalable Web3 ecosystem."
   },
   {
+    "id": "glossary:public-key-infrastructure",
+    "type": "glossary",
+    "title": "Public Key Infrastructure",
+    "aliases": [],
+    "summary": "Public Key Infrastructure (PKI) is a robust framework of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption. At its core, PKI binds public keys to specific user identities by means of a Certificate Authority (CA). This infrastructure establishes trust in electronic transactions, ensuring that data integrity, authentication, and non-repudiation are maintained across distributed networks and public internet communications.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/public-key-infrastructure",
+    "text": "Public Key Infrastructure Public Key Infrastructure (PKI) is a robust framework of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption. At its core, PKI binds public keys to specific user identities by means of a Certificate Authority (CA). This infrastructure establishes trust in electronic transactions, ensuring that data integrity, authentication, and non-repudiation are maintained across distributed networks and public internet communications. Public Key Infrastructure — Definition & Explanation | The Blockchain Library Learn about Public Key Infrastructure (PKI), the framework enabling secure digital identity, encryption, and trust in web communications and blockchain technology."
+  },
+  {
+    "id": "glossary:public-ledger",
+    "type": "glossary",
+    "title": "Public Ledger",
+    "aliases": [],
+    "summary": "A public ledger is a decentralized, distributed digital database that maintains an immutable, chronological record of all transactions within a network. Unlike centralized databases controlled by a single entity, a public ledger is accessible and verifiable by any participant. It uses cryptographic proofs to ensure data integrity, meaning that once a transaction is confirmed and added to the ledger, it cannot be retroactively altered or deleted without consensus from the network participants.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/public-ledger",
+    "text": "Public Ledger A public ledger is a decentralized, distributed digital database that maintains an immutable, chronological record of all transactions within a network. Unlike centralized databases controlled by a single entity, a public ledger is accessible and verifiable by any participant. It uses cryptographic proofs to ensure data integrity, meaning that once a transaction is confirmed and added to the ledger, it cannot be retroactively altered or deleted without consensus from the network participants. Public Ledger — Definition & Explanation | The Blockchain Library Learn what a public ledger is in blockchain. Understand how this decentralized, immutable record keeps networks secure, transparent, and free from central control."
+  },
+  {
+    "id": "glossary:backend",
+    "type": "glossary",
+    "title": "Backend",
+    "aliases": [],
+    "summary": "In the context of blockchain, the backend refers to the server-side infrastructure and underlying protocols that execute logic, manage state, and interact with the distributed ledger. Unlike traditional centralized backends that reside on a single server, a blockchain backend consists of a network of nodes running client software to maintain the state of the network. It processes smart contract execution, manages peer-to-peer communications, and ensures compliance with network rules through local consensus validation.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/backend",
+    "text": "Backend In the context of blockchain, the backend refers to the server-side infrastructure and underlying protocols that execute logic, manage state, and interact with the distributed ledger. Unlike traditional centralized backends that reside on a single server, a blockchain backend consists of a network of nodes running client software to maintain the state of the network. It processes smart contract execution, manages peer-to-peer communications, and ensures compliance with network rules through local consensus validation. Backend — Definition & Explanation | The Blockchain Library Explore the role of the backend in blockchain and Web3. Understand how decentralized server-side logic powers applications without reliance on a central server."
+  },
+  {
+    "id": "glossary:broadcast",
+    "type": "glossary",
+    "title": "Broadcast",
+    "aliases": [],
+    "summary": "Broadcasting is the networking process in a blockchain ecosystem where a node transmits data—such as a new transaction or a proposed block—to all other connected nodes in the network. This peer-to-peer communication relies on a gossip protocol to ensure the rapid dissemination of information across the distributed network. Effective broadcasting is critical for maintaining network synchronization, as it ensures all participants receive and validate data within a similar timeframe to achieve global consensus.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/broadcast",
+    "text": "Broadcast Broadcasting is the networking process in a blockchain ecosystem where a node transmits data—such as a new transaction or a proposed block—to all other connected nodes in the network. This peer-to-peer communication relies on a gossip protocol to ensure the rapid dissemination of information across the distributed network. Effective broadcasting is critical for maintaining network synchronization, as it ensures all participants receive and validate data within a similar timeframe to achieve global consensus. Broadcast — Definition & Explanation | The Blockchain Library Discover how broadcasting works in blockchain. Learn the role of peer-to-peer messaging and gossip protocols in keeping distributed networks synchronized."
+  },
+  {
+    "id": "glossary:market-cap",
+    "type": "glossary",
+    "title": "Market Cap",
+    "aliases": [],
+    "summary": "Market capitalization, or market cap, represents the total dollar value of a cryptocurrency’s circulating supply. It is calculated by multiplying the current price of a single unit of the asset by the total number of units currently in circulation. Unlike traditional stock market cap, which factors in company shares, crypto market cap serves as a primary metric for evaluating the relative size and market dominance of a digital asset compared to others within the decentralized ecosystem.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/market-cap",
+    "text": "Market Cap Market capitalization, or market cap, represents the total dollar value of a cryptocurrency’s circulating supply. It is calculated by multiplying the current price of a single unit of the asset by the total number of units currently in circulation. Unlike traditional stock market cap, which factors in company shares, crypto market cap serves as a primary metric for evaluating the relative size and market dominance of a digital asset compared to others within the decentralized ecosystem. Market Cap — Definition & Explanation | The Blockchain Library Understand what market cap is in crypto. Learn how market capitalization is calculated and why it is a vital metric for comparing digital asset market sizes."
+  },
+  {
+    "id": "glossary:multi-signature",
+    "type": "glossary",
+    "title": "Multi-signature",
+    "aliases": [],
+    "summary": "Multi-signature, or multisig, is a digital signature technology that requires more than one private key to authorize a blockchain transaction. By establishing a m-of-n scheme, where a predefined threshold of signers must approve an action, it replaces the vulnerability of single-point-of-failure inherent in standard single-key addresses. It is a fundamental cryptographic standard for enhancing the security of high-value wallets, institutional custody, and decentralized governance structures within the blockchain ecosystem.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/multi-signature",
+    "text": "Multi-signature Multi-signature, or multisig, is a digital signature technology that requires more than one private key to authorize a blockchain transaction. By establishing a m-of-n scheme, where a predefined threshold of signers must approve an action, it replaces the vulnerability of single-point-of-failure inherent in standard single-key addresses. It is a fundamental cryptographic standard for enhancing the security of high-value wallets, institutional custody, and decentralized governance structures within the blockchain ecosystem. Multi-signature — Definition & Explanation | The Blockchain Library Learn how multi-signature (multisig) technology improves blockchain security. Discover how m-of-n key thresholds protect assets and prevent single-point failure."
+  },
+  {
+    "id": "glossary:network-congestion",
+    "type": "glossary",
+    "title": "Network Congestion",
+    "aliases": [],
+    "summary": "Network congestion occurs when the number of transactions being broadcast to a blockchain exceeds the network's processing capacity. Because blocks have limited size and throughput speed, an overflow of pending transactions results in a backlog in the mempool. This phenomenon typically forces users to pay higher priority fees to ensure faster confirmation, effectively pricing out users who opt for standard or lower fee tiers during periods of extreme high demand.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/network-congestion",
+    "text": "Network Congestion Network congestion occurs when the number of transactions being broadcast to a blockchain exceeds the network's processing capacity. Because blocks have limited size and throughput speed, an overflow of pending transactions results in a backlog in the mempool. This phenomenon typically forces users to pay higher priority fees to ensure faster confirmation, effectively pricing out users who opt for standard or lower fee tiers during periods of extreme high demand. Network Congestion — Definition & Explanation | The Blockchain Library Discover what network congestion is in blockchain. Learn how transaction backlogs work, why gas fees spike, and how congestion impacts network usability."
+  },
+  {
+    "id": "glossary:volatility",
+    "type": "glossary",
+    "title": "Volatility",
+    "aliases": [],
+    "summary": "Volatility is a statistical measure of the dispersion of returns for a given security or market index over a specific period. In the context of blockchain and cryptocurrencies, it refers to the rapid and significant fluctuations in price that digital assets experience. This phenomenon is driven by market sentiment, liquidity constraints, regulatory news, and speculative trading behavior. High volatility signifies a higher degree of price uncertainty and risk, distinguishing decentralized digital assets from more stable, traditional financial instruments that often exhibit lower standard deviations in their price movements.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/volatility",
+    "text": "Volatility Volatility is a statistical measure of the dispersion of returns for a given security or market index over a specific period. In the context of blockchain and cryptocurrencies, it refers to the rapid and significant fluctuations in price that digital assets experience. This phenomenon is driven by market sentiment, liquidity constraints, regulatory news, and speculative trading behavior. High volatility signifies a higher degree of price uncertainty and risk, distinguishing decentralized digital assets from more stable, traditional financial instruments that often exhibit lower standard deviations in their price movements. Volatility — Definition & Explanation | The Blockchain Library Learn about volatility in blockchain. Understand why cryptocurrency prices fluctuate rapidly, the impact on Web3 adoption, and how market liquidity affects value."
+  },
+  {
+    "id": "glossary:fiat",
+    "type": "glossary",
+    "title": "Fiat",
+    "aliases": [],
+    "summary": "Fiat currency is legal tender whose value is derived from government decree and economic stability rather than physical commodities like gold or silver. Unlike cryptocurrencies, which rely on decentralized ledgers, fiat is issued and regulated by central banks. It serves as the primary medium of exchange, unit of account, and store of value for modern economies. In the context of blockchain, fiat represents the traditional monetary systems that decentralized protocols aim to bridge, integrate, or, in some extremist cases, replace through digital alternatives.",
+    "categoryId": "6a4e39d110805a52385d8fc9",
+    "tags": [],
+    "canonicalUrl": "/glossary/fiat",
+    "text": "Fiat Fiat currency is legal tender whose value is derived from government decree and economic stability rather than physical commodities like gold or silver. Unlike cryptocurrencies, which rely on decentralized ledgers, fiat is issued and regulated by central banks. It serves as the primary medium of exchange, unit of account, and store of value for modern economies. In the context of blockchain, fiat represents the traditional monetary systems that decentralized protocols aim to bridge, integrate, or, in some extremist cases, replace through digital alternatives. Fiat — Definition & Explanation | The Blockchain Library Understand what fiat currency is, how it functions as government-backed legal tender, and its critical role in bridging traditional finance with the crypto ecosystem."
+  },
+  {
+    "id": "glossary:market-capitalization",
+    "type": "glossary",
+    "title": "Market Capitalization",
+    "aliases": [],
+    "summary": "Market capitalization, or market cap, in the context of cryptocurrencies and NFTs, is a metric used to determine the relative size and total value of a specific asset or collection. It is calculated by multiplying the current floor price of an asset by the total circulating supply of that asset class. While it serves as a common benchmark for investor sentiment and liquidity, it is important to note that in the NFT space, market cap can be highly volatile due to the illiquid nature of individual unique tokens.",
+    "categoryId": "6a4e39d110805a52385d8fcb",
+    "tags": [],
+    "canonicalUrl": "/glossary/market-capitalization",
+    "text": "Market Capitalization Market capitalization, or market cap, in the context of cryptocurrencies and NFTs, is a metric used to determine the relative size and total value of a specific asset or collection. It is calculated by multiplying the current floor price of an asset by the total circulating supply of that asset class. While it serves as a common benchmark for investor sentiment and liquidity, it is important to note that in the NFT space, market cap can be highly volatile due to the illiquid nature of individual unique tokens. Market Capitalization — Definition & Explanation | The Blockchain Library Learn what Market Capitalization is in the context of NFTs and crypto. Understand how this metric calculates total value and why it matters for digital assets."
+  },
+  {
+    "id": "glossary:non-custodial-wallet",
+    "type": "glossary",
+    "title": "Non-Custodial Wallet",
+    "aliases": [],
+    "summary": "A non-custodial wallet is a type of cryptocurrency wallet where the user retains full control over their private keys, which are cryptographic sequences required to authorize transactions and access assets. Unlike custodial services, where a third party manages the keys on the user's behalf, a non-custodial wallet ensures that the user is solely responsible for their security. This architecture aligns with the core decentralized ethos of blockchain technology, as the user is not reliant on an intermediary to access their funds.",
+    "categoryId": "6a4e39d110805a52385d8fcb",
+    "tags": [],
+    "canonicalUrl": "/glossary/non-custodial-wallet",
+    "text": "Non-Custodial Wallet A non-custodial wallet is a type of cryptocurrency wallet where the user retains full control over their private keys, which are cryptographic sequences required to authorize transactions and access assets. Unlike custodial services, where a third party manages the keys on the user's behalf, a non-custodial wallet ensures that the user is solely responsible for their security. This architecture aligns with the core decentralized ethos of blockchain technology, as the user is not reliant on an intermediary to access their funds. Non-Custodial Wallet — Definition & Explanation | The Blockchain Library Discover what a non-custodial wallet is and why it is vital for security. Learn how to maintain full control of your private keys in the decentralized web."
+  },
+  {
+    "id": "glossary:network-layer",
+    "type": "glossary",
+    "title": "Network Layer",
+    "aliases": [],
+    "summary": "The network layer in a blockchain architecture, often referred to as the peer-to-peer (P2P) layer, serves as the fundamental communication backbone that enables nodes to discover one another, propagate transactions, and broadcast block information across a distributed system. It operates independently of the consensus mechanism, utilizing gossip protocols to ensure that all participating nodes maintain a consistent view of the ledger's state. By facilitating the seamless dissemination of data packets, the network layer ensures high availability, censorship resistance, and robust connectivity across a globally decentralized ecosystem.",
+    "categoryId": "6a4e39d110805a52385d8fd6",
+    "tags": [],
+    "canonicalUrl": "/glossary/network-layer",
+    "text": "Network Layer The network layer in a blockchain architecture, often referred to as the peer-to-peer (P2P) layer, serves as the fundamental communication backbone that enables nodes to discover one another, propagate transactions, and broadcast block information across a distributed system. It operates independently of the consensus mechanism, utilizing gossip protocols to ensure that all participating nodes maintain a consistent view of the ledger's state. By facilitating the seamless dissemination of data packets, the network layer ensures high availability, censorship resistance, and robust connectivity across a globally decentralized ecosystem. Network Layer — Definition & Explanation | The Blockchain Library Explore the blockchain network layer: the essential P2P infrastructure enabling node communication, transaction propagation, and data synchronization in Web3."
+  },
+  {
     "id": "topic:what-crypto-looks-like-after-memecoins",
     "type": "topic",
     "title": "What Crypto Looks Like After Memecoins",
@@ -126332,6 +126464,650 @@
     ],
     "canonicalUrl": "/news/mirae-asset-issues-tokenized-dollar-notes-on-solana-for-professional-investors",
     "text": "Mirae Asset Issues Tokenized Dollar Notes on Solana for Professional Investors Trading Markets"
+  },
+  {
+    "id": "news:wall-street-analysts-urge-investors-to-buy-crypto-stocks-after-6-3-billion-binance-hack",
+    "type": "news",
+    "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/wall-street-analysts-urge-investors-to-buy-crypto-stocks-after-6-3-billion-binance-hack",
+    "text": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-arranges-6-34-billion-to-cover-losses-from-record-crypto-hack",
+    "type": "news",
+    "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-arranges-6-34-billion-to-cover-losses-from-record-crypto-hack",
+    "text": "Binance arranges $6.34 billion to cover losses from record crypto hack Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:heres-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
+    "type": "news",
+    "title": "Here's how big bitcoin traders responded after the Binance hack hit",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/heres-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
+    "text": "Here's how big bitcoin traders responded after the Binance hack hit Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:heres-how-an-ethereum-upgrade-helped-drain-part-of-binances-6-billion-loss",
+    "type": "news",
+    "title": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/heres-how-an-ethereum-upgrade-helped-drain-part-of-binances-6-billion-loss",
+    "text": "Here’s how an Ethereum upgrade helped drain part of Binance’s $6 billion loss Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:crypto-liquidations-jump-to-1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+    "type": "news",
+    "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/crypto-liquidations-jump-to-1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
+    "text": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:will-golds-infinite-mint-bug-make-bitcoin-more-valuable",
+    "type": "news",
+    "title": "Will gold’s ‘infinite mint bug’ make Bitcoin more valuable?",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/will-golds-infinite-mint-bug-make-bitcoin-more-valuable",
+    "text": "Will gold’s ‘infinite mint bug’ make Bitcoin more valuable? Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-working-with-fbi-to-recover-assets-following-6-3b-hack",
+    "type": "news",
+    "title": "Binance working with FBI to recover assets following $6.3B hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-working-with-fbi-to-recover-assets-following-6-3b-hack",
+    "text": "Binance working with FBI to recover assets following $6.3B hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-says-it-holds-5b-in-matching-tokens-to-cover-hack-losses",
+    "type": "news",
+    "title": "Binance says it holds $5B in matching tokens to cover hack losses",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-says-it-holds-5b-in-matching-tokens-to-cover-hack-losses",
+    "text": "Binance says it holds $5B in matching tokens to cover hack losses Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:zcash-grants-group-offers-124m-compromise-as-governance-backlash-grows",
+    "type": "news",
+    "title": "Zcash grants group offers $124M compromise as governance backlash grows",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/zcash-grants-group-offers-124m-compromise-as-governance-backlash-grows",
+    "text": "Zcash grants group offers $124M compromise as governance backlash grows Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-price-metrics-hint-at-rebound-as-1-6b-liquidations-follow-binance-hack",
+    "type": "news",
+    "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-metrics-hint-at-rebound-as-1-6b-liquidations-follow-binance-hack",
+    "text": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:eip-7702-didnt-cause-binance-hack-but-may-have-amplified-losses",
+    "type": "news",
+    "title": "EIP-7702 didn’t cause Binance hack, but may have amplified losses",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/eip-7702-didnt-cause-binance-hack-but-may-have-amplified-losses",
+    "text": "EIP-7702 didn’t cause Binance hack, but may have amplified losses Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-hackers-bitcoin-haul-tops-coinbases-corporate-treasury",
+    "type": "news",
+    "title": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-hackers-bitcoin-haul-tops-coinbases-corporate-treasury",
+    "text": "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:mexc-launches-canton-0-fee-carnival-with-1m-prize-pool",
+    "type": "news",
+    "title": "MEXC Launches Canton 0-Fee Carnival with $1M Prize Pool",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/mexc-launches-canton-0-fee-carnival-with-1m-prize-pool",
+    "text": "MEXC Launches Canton 0-Fee Carnival with $1M Prize Pool Trading Markets"
+  },
+  {
+    "id": "news:mexc-pulls-out-of-four-countries-despite-ambitious-plan-to-rival-global-trading-giants",
+    "type": "news",
+    "title": "MEXC pulls out of four countries despite ambitious plan to rival global trading giants",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/mexc-pulls-out-of-four-countries-despite-ambitious-plan-to-rival-global-trading-giants",
+    "text": "MEXC pulls out of four countries despite ambitious plan to rival global trading giants DeFi NFT Web3"
+  },
+  {
+    "id": "news:cz-asks-musk-to-stop-trolling-saying-our-spacex-shares-top-1-billion",
+    "type": "news",
+    "title": "CZ asks Musk to stop trolling, saying ‘our’ SpaceX shares top $1 billion",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/cz-asks-musk-to-stop-trolling-saying-our-spacex-shares-top-1-billion",
+    "text": "CZ asks Musk to stop trolling, saying ‘our’ SpaceX shares top $1 billion DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock",
+    "type": "news",
+    "title": "Bitcoin fell after the Fed’s pause, but blaming interest rates misses the Binance shock",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock",
+    "text": "Bitcoin fell after the Fed’s pause, but blaming interest rates misses the Binance shock DeFi NFT Web3"
+  },
+  {
+    "id": "news:a-10-sports-bet-helped-trigger-13-felony-charges-against-kalshi-in-utah",
+    "type": "news",
+    "title": "A $10 sports bet helped trigger 13 felony charges against Kalshi in Utah",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/a-10-sports-bet-helped-trigger-13-felony-charges-against-kalshi-in-utah",
+    "text": "A $10 sports bet helped trigger 13 felony charges against Kalshi in Utah DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-mining-difficulty-hits-148-trillion-as-revenues-fall-to-three-month-lows",
+    "type": "news",
+    "title": "Bitcoin mining difficulty hits 148 trillion as revenues fall to three-month lows",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-mining-difficulty-hits-148-trillion-as-revenues-fall-to-three-month-lows",
+    "text": "Bitcoin mining difficulty hits 148 trillion as revenues fall to three-month lows DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-uncovers-more-breach-points-in-6-billion-hack",
+    "type": "news",
+    "title": "Binance uncovers more breach points in $6 billion hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-uncovers-more-breach-points-in-6-billion-hack",
+    "text": "Binance uncovers more breach points in $6 billion hack DeFi NFT Web3"
+  },
+  {
+    "id": "news:polymarket-suffers-second-multimillion-dollar-security-breach-in-just-four-months",
+    "type": "news",
+    "title": "Polymarket suffers second multimillion-dollar security breach in just four months",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/polymarket-suffers-second-multimillion-dollar-security-breach-in-just-four-months",
+    "text": "Polymarket suffers second multimillion-dollar security breach in just four months DeFi NFT Web3"
+  },
+  {
+    "id": "news:walmart-microsoft-and-jpmorgan-block-nyse-backed-venture-from-tokenizing-their-shares",
+    "type": "news",
+    "title": "Walmart, Microsoft and JPMorgan block NYSE-backed venture from tokenizing their shares",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/walmart-microsoft-and-jpmorgan-block-nyse-backed-venture-from-tokenizing-their-shares",
+    "text": "Walmart, Microsoft and JPMorgan block NYSE-backed venture from tokenizing their shares DeFi NFT Web3"
+  },
+  {
+    "id": "news:circle-and-aci-plan-usdc-settlement-pilot-alongside-colombias-payment-rails",
+    "type": "news",
+    "title": "Circle and ACI plan USDC settlement pilot alongside Colombia’s payment rails",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/circle-and-aci-plan-usdc-settlement-pilot-alongside-colombias-payment-rails",
+    "text": "Circle and ACI plan USDC settlement pilot alongside Colombia’s payment rails DeFi NFT Web3"
+  },
+  {
+    "id": "news:central-banks-map-their-role-in-a-payments-system-shared-with-stablecoins",
+    "type": "news",
+    "title": "Central banks map their role in a payments system shared with stablecoins",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/central-banks-map-their-role-in-a-payments-system-shared-with-stablecoins",
+    "text": "Central banks map their role in a payments system shared with stablecoins DeFi NFT Web3"
+  },
+  {
+    "id": "news:experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+    "type": "news",
+    "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+    "text": "Experts divided over Binance hack asset freezes, warn recovery is another matter Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-uncovers-wider-breach-in-6-3-billion-exploit-targets-sunday-withdrawal-restart",
+    "type": "news",
+    "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-uncovers-wider-breach-in-6-3-billion-exploit-targets-sunday-withdrawal-restart",
+    "text": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-1-5b",
+    "type": "news",
+    "title": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/tethers-excess-reserves-nearly-double-to-8b-as-q3-profit-hits-1-5b",
+    "text": "Tether’s excess reserves nearly double to $8B as Q3 profit hits $1.5B Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:coinbase-leads-crypto-stock-selloff-following-6-3b-binance-hack",
+    "type": "news",
+    "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/coinbase-leads-crypto-stock-selloff-following-6-3b-binance-hack",
+    "text": "Coinbase leads crypto stock selloff following $6.3B Binance hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:crypto-biz-bitcoins-quantum-threat-is-becoming-an-economic-problem",
+    "type": "news",
+    "title": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/crypto-biz-bitcoins-quantum-threat-is-becoming-an-economic-problem",
+    "text": "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:recap-how-binances-record-6-3b-hack-unfolded",
+    "type": "news",
+    "title": "Recap: How Binance’s record $6.3B hack unfolded",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/recap-how-binances-record-6-3b-hack-unfolded",
+    "text": "Recap: How Binance’s record $6.3B hack unfolded Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold",
+    "type": "news",
+    "title": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold",
+    "text": "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:uniswap-launches-tjar-fee-tool-but-only-fast-searchers-capture-the-hidden-arbitrage-profit",
+    "type": "news",
+    "title": "Uniswap launches TJAR fee tool, but only fast searchers capture the hidden arbitrage profit",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/uniswap-launches-tjar-fee-tool-but-only-fast-searchers-capture-the-hidden-arbitrage-profit",
+    "text": "Uniswap launches TJAR fee tool, but only fast searchers capture the hidden arbitrage profit DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft",
+    "type": "news",
+    "title": "Binance hackers deploy never-seen-before laundering tactics to conceal $6.3 billion theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-hackers-deploy-never-seen-before-laundering-tactics-to-conceal-6-3-billion-theft",
+    "text": "Binance hackers deploy never-seen-before laundering tactics to conceal $6.3 billion theft DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-gives-48-hour-withdrawal-target-while-bitcoin-deposits-remain-open",
+    "type": "news",
+    "title": "Binance gives 48-hour withdrawal target while Bitcoin deposits remain open",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-gives-48-hour-withdrawal-target-while-bitcoin-deposits-remain-open",
+    "text": "Binance gives 48-hour withdrawal target while Bitcoin deposits remain open DeFi NFT Web3"
+  },
+  {
+    "id": "news:coinbase-8217-s-719-million-profit-reveals-a-company-caught-between-two-crypto-economies",
+    "type": "news",
+    "title": "Coinbase&#8217;s $719 million profit reveals a company caught between two crypto economies",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/coinbase-8217-s-719-million-profit-reveals-a-company-caught-between-two-crypto-economies",
+    "text": "Coinbase&#8217;s $719 million profit reveals a company caught between two crypto economies DeFi NFT Web3"
+  },
+  {
+    "id": "news:lagarde-to-leave-ecb-with-europes-tokenized-finance-blueprint-still-undecided",
+    "type": "news",
+    "title": "Lagarde to leave ECB with Europe’s tokenized-finance blueprint still undecided",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/lagarde-to-leave-ecb-with-europes-tokenized-finance-blueprint-still-undecided",
+    "text": "Lagarde to leave ECB with Europe’s tokenized-finance blueprint still undecided DeFi NFT Web3"
+  },
+  {
+    "id": "news:boj-will-more-than-double-stock-fund-sales-from-january",
+    "type": "news",
+    "title": "BOJ will more than double stock-fund sales from January",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/boj-will-more-than-double-stock-fund-sales-from-january",
+    "text": "BOJ will more than double stock-fund sales from January DeFi NFT Web3"
+  },
+  {
+    "id": "news:openai-reportedly-cuts-fundraising-and-valuation-targets-amid-ai-jitters",
+    "type": "news",
+    "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/openai-reportedly-cuts-fundraising-and-valuation-targets-amid-ai-jitters",
+    "text": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-hackers-raced-to-move-billions-before-it-could-be-frozen",
+    "type": "news",
+    "title": "Binance hackers raced to move billions before it could be frozen",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-hackers-raced-to-move-billions-before-it-could-be-frozen",
+    "text": "Binance hackers raced to move billions before it could be frozen Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-stolen-from-binance-tops-teslas-holdings-and-is-over-twice-el-salvadors-reserve",
+    "type": "news",
+    "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-stolen-from-binance-tops-teslas-holdings-and-is-over-twice-el-salvadors-reserve",
+    "text": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:westpac-limits-crypto-exchange-deposits-driven-by-fraud-rules",
+    "type": "news",
+    "title": "Westpac limits crypto exchange deposits driven by fraud rules",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/westpac-limits-crypto-exchange-deposits-driven-by-fraud-rules",
+    "text": "Westpac limits crypto exchange deposits driven by fraud rules DeFi NFT Web3"
+  },
+  {
+    "id": "news:aave-reopens-frozen-markets-but-blocks-new-collateral-loans",
+    "type": "news",
+    "title": "Aave reopens frozen markets but blocks new collateral loans",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/aave-reopens-frozen-markets-but-blocks-new-collateral-loans",
+    "text": "Aave reopens frozen markets but blocks new collateral loans DeFi NFT Web3"
+  },
+  {
+    "id": "news:maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations",
+    "type": "news",
+    "title": "Maple locks $280M in XRP collateral and upcoming maturity dates threaten liquidations",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations",
+    "text": "Maple locks $280M in XRP collateral and upcoming maturity dates threaten liquidations DeFi NFT Web3"
+  },
+  {
+    "id": "news:metamask-adds-stellar-integration-but-cross-chain-bridges-require-manual-setup",
+    "type": "news",
+    "title": "MetaMask adds Stellar integration, but cross-chain bridges require manual setup",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/metamask-adds-stellar-integration-but-cross-chain-bridges-require-manual-setup",
+    "text": "MetaMask adds Stellar integration, but cross-chain bridges require manual setup DeFi NFT Web3"
   },
   {
     "id": "newsletter:issue-1-blockchain-foundations",

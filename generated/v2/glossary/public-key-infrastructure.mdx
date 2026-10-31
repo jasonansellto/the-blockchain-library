@@ -1,0 +1,59 @@
+---
+title: "Public Key Infrastructure"
+description: "Public Key Infrastructure (PKI) is a robust framework of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption. At its core, PKI binds public keys to specific user ide"
+---
+
+# Public Key Infrastructure
+
+Public Key Infrastructure (PKI) is a robust framework of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption. At its core, PKI binds public keys to specific user identities by means of a Certificate Authority (CA). This infrastructure establishes trust in electronic transactions, ensuring that data integrity, authentication, and non-repudiation are maintained across distributed networks and public internet communications.
+
+## Definition
+
+Public Key Infrastructure (PKI) is a robust framework of roles, policies, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption. At its core, PKI binds public keys to specific user identities by means of a Certificate Authority (CA). This infrastructure establishes trust in electronic transactions, ensuring that data integrity, authentication, and non-repudiation are maintained across distributed networks and public internet communications.
+
+## Simple explanation
+
+Think of PKI like a digital passport office. If you want to prove who you are online, you need a document signed by a trusted authority that says, 'Yes, this person is who they say they are.' In the digital world, PKI issues these 'passports' (digital certificates) so that when you connect to a website, your computer knows it is talking to the real site and not an imposter trying to steal your data.
+
+## Why it matters
+
+PKI serves as the foundation for secure internet communication, allowing browsers and servers to establish encrypted connections via HTTPS. In blockchain, it provides the fundamental security mechanisms for identity verification and secure data transmission between nodes and users, ensuring that participants can interact trustlessly.
+
+## How it works
+
+PKI operates through a hierarchical system where a Certificate Authority (CA) verifies the identity of an entity and issues a digitally signed certificate. This certificate contains the entity's public key, which is then used by other parties to encrypt data or verify digital signatures. The recipient uses the CA’s public key to validate the certificate's authenticity, creating a chain of trust back to a root certificate.
+
+## Real-world example
+
+The most pervasive use of PKI is in the TLS/SSL protocols that power secure web browsing; when you see the padlock icon in your browser, your computer is utilizing PKI to verify the website's certificate issued by a trusted CA like Let's Encrypt or DigiCert.
+
+## Advantages
+
+- Ensures data integrity and authenticity
+- Provides non-repudiation of transactions
+- Enables secure encrypted communications
+- Standardizes trust across diverse networks
+
+## Limitations
+
+- Centralized point of failure in Certificate Authorities
+- Complex and costly infrastructure to manage
+- Vulnerable to private key compromise
+- Revocation processes can be slow
+
+## Common misconceptions
+
+- Many people believe that PKI is only for websites, but it is actually used for email encryption, document signing, and code authentication.
+- People often think PKI is synonymous with blockchain, but PKI relies on centralized trust while public blockchains are designed to function without central authorities.
+## Related knowledge
+
+- [Asymmetric Cryptography](/generated/v2/glossary/asymmetric-cryptography) — term
+- [Certificate Authority](/generated/v2/glossary/certificate-authority) — term
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Encryption](/generated/v2/glossary/encryption) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+- [Public Key](/generated/v2/glossary/public-key) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:public-key-infrastructure`

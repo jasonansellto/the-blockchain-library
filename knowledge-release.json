@@ -3,32 +3,32 @@
   "knowledgeReleaseVersion": "2.1.0",
   "compilerVersion": "2.0.1",
   "schemaVersion": "2.0",
-  "buildId": "25a15b9d5301ee42",
+  "buildId": "9fb4c13e73ba6b80",
   "source": {
-    "exportDate": "2026-10-30T15:15:45.389Z",
+    "exportDate": "2026-10-31T15:17:46.972Z",
     "version": "1.0.0",
     "schemaVersion": "1.0"
   },
-  "generatedAt": "2026-10-30T15:15:45.389Z",
+  "generatedAt": "2026-10-31T15:17:46.972Z",
   "totals": {
-    "rawObjects": 8477,
-    "canonicalObjects": 8428,
-    "edges": 24874,
-    "searchableObjects": 8428
+    "rawObjects": 8532,
+    "canonicalObjects": 8483,
+    "edges": 25042,
+    "searchableObjects": 8483
   },
   "quality": {
-    "rawObjects": 8477,
-    "canonicalObjects": 8428,
+    "rawObjects": 8532,
+    "canonicalObjects": 8483,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 49,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 24874,
-    "unresolvedRelationships": 437,
+    "totalEdges": 25042,
+    "unresolvedRelationships": 434,
     "uniqueMissingConcepts": 367,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 6376,
-    "missingTags": 941,
+    "missingSeoDescription": 6419,
+    "missingTags": 953,
     "uncategorized": 427
   },
   "distribution": {
@@ -40,31 +40,31 @@
   "publicFiles": {
     "manifest.json": {
       "path": "/knowledge/manifest.json",
-      "sha256": "99dcecd0a8751ec9a89d9d18ca06f4e55815f2c3c390140b48c49ec21161fe2b"
+      "sha256": "c95e7530d3f0221fd60594f38570c5ce453afda21a9a46cec77e8dad39dbb0b2"
     },
     "catalog.json": {
       "path": "/knowledge/catalog.json",
-      "sha256": "278177d417121969ec41b094f69a1ae9a09f6b55b47c863051f644909c5cd800"
+      "sha256": "e22140cfdbc06f177cdfad645aec67d391e229fc1b3457aa78460880c328bc65"
     },
     "graph.json": {
       "path": "/knowledge/graph.json",
-      "sha256": "d768617c4ad69d00282f8ac4d32c4483210a7c03a48a67070aef8067d9a9299d"
+      "sha256": "d36caeb73e60c5eeb2e7f4a8d1f90e8304278b9e6ee9f1b15d010e31f0d2aafc"
     },
     "related.json": {
       "path": "/knowledge/related.json",
-      "sha256": "94e72bd1a5702d2bc6a0e5a3b8ee3b2ec2db009a7c157b54d466090c515e22b1"
+      "sha256": "9ce2a3d2ec2bf33d34430075d648f32910e1c356111ed3a51e87c5191e8a6477"
     },
     "search-index.json": {
       "path": "/knowledge/search-index.json",
-      "sha256": "d65da4a5419c9df7e84d1bff5d5e7a645b5a15d8dfd17ab938089ede5be68552"
+      "sha256": "62d8356cf58a1fe6f2e124e9beae897d3d8de658e11f5790aff3c15151f3cd37"
     },
     "reconciliation.json": {
       "path": "/knowledge/reconciliation.json",
-      "sha256": "acf21ff83b9774ec4ff2629c78ef1ba2d08874952cea14933429ff282cb2447c"
+      "sha256": "5c28509dcfdca2589de6d706c45608def3f936ac533108f76801e9a531e1331d"
     },
     "missing-concepts.json": {
       "path": "/knowledge/missing-concepts.json",
-      "sha256": "5e9dff8b65c00fb55eca8e8720fb80d48ad8ef6c0dd4bd67c4edd3f28e3be37d"
+      "sha256": "18c2ad62579348f4b0a47d528c5895b55695f0d1cbe4edaedfaf53017a93961f"
     },
     "duplicate-merges.json": {
       "path": "/knowledge/duplicate-merges.json",
@@ -72,7 +72,7 @@
     },
     "source-map.json": {
       "path": "/knowledge/source-map.json",
-      "sha256": "4b40c7021ce4107f983fed7f4752005a0b5f87ef1f2bed22e248846c4d9c978a"
+      "sha256": "a11ff4a41a194e5ac6a45ef10403822ab373a05527b038d42d32c011eebb673b"
     }
   },
   "syncContract": {

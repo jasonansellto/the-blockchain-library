@@ -1,0 +1,57 @@
+---
+title: "Broadcast"
+description: "Broadcasting is the networking process in a blockchain ecosystem where a node transmits data—such as a new transaction or a proposed block—to all other connected nodes in the network. This peer-to-peer communication relies on a gossip protocol to ensure the rapid dissemination of"
+---
+
+# Broadcast
+
+Broadcasting is the networking process in a blockchain ecosystem where a node transmits data—such as a new transaction or a proposed block—to all other connected nodes in the network. This peer-to-peer communication relies on a gossip protocol to ensure the rapid dissemination of information across the distributed network. Effective broadcasting is critical for maintaining network synchronization, as it ensures all participants receive and validate data within a similar timeframe to achieve global consensus.
+
+## Definition
+
+Broadcasting is the networking process in a blockchain ecosystem where a node transmits data—such as a new transaction or a proposed block—to all other connected nodes in the network. This peer-to-peer communication relies on a gossip protocol to ensure the rapid dissemination of information across the distributed network. Effective broadcasting is critical for maintaining network synchronization, as it ensures all participants receive and validate data within a similar timeframe to achieve global consensus.
+
+## Simple explanation
+
+Imagine you are in a large room with 100 people and you have important news. You whisper it to five neighbors, and they each whisper it to five more. Very quickly, everyone in the room knows the news. In a blockchain, when you send money, your computer 'broadcasts' that info to its neighbors, who then pass it on until the whole network is aware of your transaction.
+
+## Why it matters
+
+Broadcasting is the heartbeat of a decentralized network, ensuring that all nodes remain synchronized and informed. Without efficient broadcast mechanisms, the network would suffer from data silos, conflicting records, and the inability to reach global consensus on the state of the chain.
+
+## How it works
+
+When a node initiates a transaction, it creates a data packet containing the transaction details and a digital signature. This packet is pushed to its immediate peer nodes via P2P connections. These peers validate the data and subsequently forward it to their own connected peers, recursively propagating the information until it reaches the entire network.
+
+## Real-world example
+
+When you execute a swap on a DEX like Uniswap, your wallet broadcasts the transaction to a node, which then propagates it to the Ethereum mempool for miners or validators to pick up.
+
+## Advantages
+
+- Facilitates rapid network-wide information propagation
+- Eliminates reliance on a central message broker
+- Supports the decentralized peer-to-peer architecture
+- Reduces latency in transaction discovery
+
+## Limitations
+
+- Bandwidth costs for operating network nodes
+- Susceptibility to network congestion during spikes
+- Potential for propagation delay variations
+- Requires efficient gossip protocol optimization
+
+## Common misconceptions
+
+- It is often assumed that broadcasting means sending data to a central authority.
+- People think broadcasting happens instantaneously everywhere at once, ignoring speed-of-light constraints.
+## Related knowledge
+
+- [Gossip Protocol](/generated/v2/glossary/gossip-protocol) — term
+- [Mempool](/generated/v2/glossary/mempool) — term
+- [Node](/generated/v2/glossary/node) — term
+- [Peer-to-Peer](/generated/v2/glossary/peer-to-peer) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:broadcast`

@@ -2,7 +2,7 @@
   {
     "key": "gas-fees",
     "label": "Gas Fees",
-    "count": 8,
+    "count": 9,
     "relationshipTypes": [
       "term"
     ],
@@ -384,6 +384,64 @@
     ]
   },
   {
+    "key": "validators",
+    "label": "Validators",
+    "count": 4,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6a4e3b73f974338c3c8ae650",
+          "slug": "finality",
+          "title": "Finality"
+        },
+        "target": {
+          "id": "Validators",
+          "label": "Validators"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6a4e3b73f974338c3c8ae653",
+          "slug": "shanghai-upgrade",
+          "title": "Shanghai Upgrade"
+        },
+        "target": {
+          "id": "Validators",
+          "label": "Validators"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae0bfdef9f0383d960d11df",
+          "slug": "sharding",
+          "title": "Sharding"
+        },
+        "target": {
+          "id": "Validators",
+          "label": "Validators"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6067304c24ed40ef4100c",
+          "slug": "network-congestion",
+          "title": "Network Congestion"
+        },
+        "target": {
+          "id": "Validators",
+          "label": "Validators"
+        }
+      }
+    ]
+  },
+  {
     "key": "6a4cfeff5c3d7803fb3fe20a",
     "label": "6a4cfeff5c3d7803fb3fe20a",
     "count": 3,
@@ -476,8 +534,8 @@
     ]
   },
   {
-    "key": "public-key-infrastructure",
-    "label": "Public Key Infrastructure",
+    "key": "propagation",
+    "label": "Propagation",
     "count": 3,
     "relationshipTypes": [
       "term"
@@ -486,44 +544,44 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ae211777f42048c47b9d348",
-          "slug": "certificate-authority",
-          "title": "Certificate Authority"
+          "id": "6a4e3b49f513543bfd2e8856",
+          "slug": "mempool",
+          "title": "Mempool"
         },
         "target": {
-          "id": "Public Key Infrastructure",
-          "label": "Public Key Infrastructure"
+          "id": "Propagation",
+          "label": "Propagation"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae3637e445de345a55f3881",
-          "slug": "decentralized-identity",
-          "title": "Decentralized Identity"
+          "id": "6a4e3b49f513543bfd2e885d",
+          "slug": "peer-to-peer-network",
+          "title": "Peer-to-Peer Network"
         },
         "target": {
-          "id": "Public Key Infrastructure",
-          "label": "Public Key Infrastructure"
+          "id": "Propagation",
+          "label": "Propagation"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae4b49dc5806389897f8df1",
-          "slug": "identity-management",
-          "title": "Identity Management"
+          "id": "6ae6069ad29b544660f6504b",
+          "slug": "network-layer",
+          "title": "Network Layer"
         },
         "target": {
-          "id": "Public Key Infrastructure",
-          "label": "Public Key Infrastructure"
+          "id": "Propagation",
+          "label": "Propagation"
         }
       }
     ]
   },
   {
-    "key": "public-ledger",
-    "label": "Public Ledger",
+    "key": "secondary-market",
+    "label": "Secondary Market",
     "count": 3,
     "relationshipTypes": [
       "term"
@@ -532,129 +590,37 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3b729fbb40b77381de45",
-          "slug": "blockchain-explorer",
-          "title": "Blockchain Explorer"
+          "id": "6a4e3a8fa90b360663850c38",
+          "slug": "floor-price",
+          "title": "Floor Price"
         },
         "target": {
-          "id": "Public Ledger",
-          "label": "Public Ledger"
+          "id": "Secondary Market",
+          "label": "Secondary Market"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ade7dd37784af5baf399c32",
-          "slug": "transparency",
-          "title": "Transparency"
+          "id": "6a4e3a8fa90b360663850c3d",
+          "slug": "nft-royalties",
+          "title": "NFT Royalties"
         },
         "target": {
-          "id": "Public Ledger",
-          "label": "Public Ledger"
+          "id": "Secondary Market",
+          "label": "Secondary Market"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae4b47a63dc426a15cc2670",
-          "slug": "blockchain-analytics",
-          "title": "Blockchain Analytics"
+          "id": "6ae60683c8476f72f4a5e38f",
+          "slug": "market-capitalization",
+          "title": "Market Capitalization"
         },
         "target": {
-          "id": "Public ledger",
-          "label": "Public ledger"
-        }
-      }
-    ]
-  },
-  {
-    "key": "validators",
-    "label": "Validators",
-    "count": 3,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b73f974338c3c8ae650",
-          "slug": "finality",
-          "title": "Finality"
-        },
-        "target": {
-          "id": "Validators",
-          "label": "Validators"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b73f974338c3c8ae653",
-          "slug": "shanghai-upgrade",
-          "title": "Shanghai Upgrade"
-        },
-        "target": {
-          "id": "Validators",
-          "label": "Validators"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae0bfdef9f0383d960d11df",
-          "slug": "sharding",
-          "title": "Sharding"
-        },
-        "target": {
-          "id": "Validators",
-          "label": "Validators"
-        }
-      }
-    ]
-  },
-  {
-    "key": "volatility",
-    "label": "Volatility",
-    "count": 3,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a63043258f78e08e482",
-          "slug": "stablecoin-peg",
-          "title": "Stablecoin Peg"
-        },
-        "target": {
-          "id": "Volatility",
-          "label": "Volatility"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8ea74addcc8ec97b25",
-          "slug": "slippage",
-          "title": "Slippage"
-        },
-        "target": {
-          "id": "Volatility",
-          "label": "Volatility"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae4b48f8928a73e09f06905",
-          "slug": "hedging",
-          "title": "Hedging"
-        },
-        "target": {
-          "id": "Volatility",
-          "label": "Volatility"
+          "id": "Secondary Market",
+          "label": "Secondary Market"
         }
       }
     ]
@@ -694,8 +660,8 @@
     ]
   },
   {
-    "key": "backend",
-    "label": "Backend",
+    "key": "blue-chip",
+    "label": "Blue Chip",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -704,32 +670,32 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ade7dc311cc90a6dec59b19",
-          "slug": "dapp",
-          "title": "DApp"
+          "id": "6ae6067304c24ed40ef4100a",
+          "slug": "market-cap",
+          "title": "Market Cap"
         },
         "target": {
-          "id": "Backend",
-          "label": "Backend"
+          "id": "Blue Chip",
+          "label": "Blue Chip"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae4b498e65234a25da5b35e",
-          "slug": "frontend",
-          "title": "Frontend"
+          "id": "6ae60683c8476f72f4a5e38f",
+          "slug": "market-capitalization",
+          "title": "Market Capitalization"
         },
         "target": {
-          "id": "Backend",
-          "label": "Backend"
+          "id": "Blue Chip",
+          "label": "Blue Chip"
         }
       }
     ]
   },
   {
-    "key": "broadcast",
-    "label": "Broadcast",
+    "key": "central-bank-digital-currency",
+    "label": "Central Bank Digital Currency",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -738,25 +704,59 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3b8abbcadb0068f64ab0",
-          "slug": "transaction",
-          "title": "Transaction"
+          "id": "6ae3636adbdab768f18ef2a3",
+          "slug": "fiat-currency",
+          "title": "Fiat Currency"
         },
         "target": {
-          "id": "Broadcast",
-          "label": "Broadcast"
+          "id": "Central Bank Digital Currency",
+          "label": "Central Bank Digital Currency"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae4b47a63dc426a15cc2671",
-          "slug": "gossip-protocol",
-          "title": "Gossip Protocol"
+          "id": "6ae6067b8800de7bec8b0788",
+          "slug": "fiat",
+          "title": "Fiat"
         },
         "target": {
-          "id": "Broadcast",
-          "label": "Broadcast"
+          "id": "Central Bank Digital Currency",
+          "label": "Central Bank Digital Currency"
+        }
+      }
+    ]
+  },
+  {
+    "key": "decentralized-application",
+    "label": "Decentralized Application",
+    "count": 2,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6adf6e55ac7c87950403f82d",
+          "slug": "token-standard",
+          "title": "Token Standard"
+        },
+        "target": {
+          "id": "Decentralized Application",
+          "label": "Decentralized Application"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6066ccbfa7eae1b25cf08",
+          "slug": "backend",
+          "title": "Backend"
+        },
+        "target": {
+          "id": "Decentralized Application",
+          "label": "Decentralized Application"
         }
       }
     ]
@@ -796,8 +796,8 @@
     ]
   },
   {
-    "key": "fiat",
-    "label": "Fiat",
+    "key": "legal-tender",
+    "label": "Legal Tender",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -806,32 +806,32 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3a8ea74addcc8ec97b26",
-          "slug": "stablecoin",
-          "title": "Stablecoin"
+          "id": "6ae3636adbdab768f18ef2a3",
+          "slug": "fiat-currency",
+          "title": "Fiat Currency"
         },
         "target": {
-          "id": "Fiat",
-          "label": "Fiat"
+          "id": "Legal Tender",
+          "label": "Legal Tender"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae4b48f8928a73e09f06904",
-          "slug": "exchange",
-          "title": "Exchange"
+          "id": "6ae6067b8800de7bec8b0788",
+          "slug": "fiat",
+          "title": "Fiat"
         },
         "target": {
-          "id": "Fiat",
-          "label": "Fiat"
+          "id": "Legal Tender",
+          "label": "Legal Tender"
         }
       }
     ]
   },
   {
-    "key": "market-cap",
-    "label": "Market Cap",
+    "key": "network-latency",
+    "label": "Network Latency",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -840,195 +840,25 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3a37a90720a2ef889ba9",
-          "slug": "altcoin",
-          "title": "Altcoin"
+          "id": "6a4e3bbfcb408e38b03d5b1b",
+          "slug": "deterministic-consensus",
+          "title": "Deterministic Consensus"
         },
         "target": {
-          "id": "Market Cap",
-          "label": "Market Cap"
+          "id": "Network Latency",
+          "label": "Network Latency"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3a63043258f78e08e485",
-          "slug": "usdt",
-          "title": "USDT"
+          "id": "6ae6066ccbfa7eae1b25cf09",
+          "slug": "broadcast",
+          "title": "Broadcast"
         },
         "target": {
-          "id": "Market Cap",
-          "label": "Market Cap"
-        }
-      }
-    ]
-  },
-  {
-    "key": "market-capitalization",
-    "label": "Market Capitalization",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8fa90b360663850c38",
-          "slug": "floor-price",
-          "title": "Floor Price"
-        },
-        "target": {
-          "id": "Market Capitalization",
-          "label": "Market Capitalization"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3bd49ef6c586dfd7891f",
-          "slug": "total-supply",
-          "title": "Total Supply"
-        },
-        "target": {
-          "id": "Market Capitalization",
-          "label": "Market Capitalization"
-        }
-      }
-    ]
-  },
-  {
-    "key": "multi-signature",
-    "label": "Multi-signature",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ade7dda730cebc2a547e84d",
-          "slug": "escrow",
-          "title": "Escrow"
-        },
-        "target": {
-          "id": "Multi-signature",
-          "label": "Multi-signature"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae211777f42048c47b9d346",
-          "slug": "key-management",
-          "title": "Key Management"
-        },
-        "target": {
-          "id": "Multi-Signature",
-          "label": "Multi-Signature"
-        }
-      }
-    ]
-  },
-  {
-    "key": "network-congestion",
-    "label": "Network Congestion",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b8abbcadb0068f64ab1",
-          "slug": "transaction-fee",
-          "title": "Transaction Fee"
-        },
-        "target": {
-          "id": "Network Congestion",
-          "label": "Network Congestion"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3baba35aa5b23278fba9",
-          "slug": "fixed-gas-model",
-          "title": "Fixed Gas Model"
-        },
-        "target": {
-          "id": "Network Congestion",
-          "label": "Network Congestion"
-        }
-      }
-    ]
-  },
-  {
-    "key": "network-layer",
-    "label": "Network Layer",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3bbfcb408e38b03d5b1e",
-          "slug": "real-world-blockchain-infrastructure",
-          "title": "Real-World Blockchain Infrastructure"
-        },
-        "target": {
-          "id": "Network Layer",
-          "label": "Network Layer"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ade7dcbee223880895060ea",
-          "slug": "peer-to-peer",
-          "title": "Peer-to-Peer"
-        },
-        "target": {
-          "id": "Network Layer",
-          "label": "Network Layer"
-        }
-      }
-    ]
-  },
-  {
-    "key": "non-custodial-wallet",
-    "label": "Non-Custodial Wallet",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ade7d27bc73afd61a62f460",
-          "slug": "decentralized-finance",
-          "title": "Decentralized Finance"
-        },
-        "target": {
-          "id": "Non-Custodial Wallet",
-          "label": "Non-Custodial Wallet"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae3638dbac88dfb5e8a467a",
-          "slug": "deterministic-wallet",
-          "title": "Deterministic Wallet"
-        },
-        "target": {
-          "id": "Non-custodial Wallet",
-          "label": "Non-custodial Wallet"
+          "id": "Network Latency",
+          "label": "Network Latency"
         }
       }
     ]
@@ -1102,6 +932,40 @@
     ]
   },
   {
+    "key": "price-discovery",
+    "label": "Price Discovery",
+    "count": 2,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6a4e3a63043258f78e08e482",
+          "slug": "stablecoin-peg",
+          "title": "Stablecoin Peg"
+        },
+        "target": {
+          "id": "Price Discovery",
+          "label": "Price Discovery"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae606779a6f9e6e61e40bb6",
+          "slug": "volatility",
+          "title": "Volatility"
+        },
+        "target": {
+          "id": "Price Discovery",
+          "label": "Price Discovery"
+        }
+      }
+    ]
+  },
+  {
     "key": "privacy-preserving-computation",
     "label": "Privacy-Preserving Computation",
     "count": 2,
@@ -1165,40 +1029,6 @@
         "target": {
           "id": "Private Keys",
           "label": "Private Keys"
-        }
-      }
-    ]
-  },
-  {
-    "key": "propagation",
-    "label": "Propagation",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b49f513543bfd2e8856",
-          "slug": "mempool",
-          "title": "Mempool"
-        },
-        "target": {
-          "id": "Propagation",
-          "label": "Propagation"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b49f513543bfd2e885d",
-          "slug": "peer-to-peer-network",
-          "title": "Peer-to-Peer Network"
-        },
-        "target": {
-          "id": "Propagation",
-          "label": "Propagation"
         }
       }
     ]
@@ -1306,40 +1136,6 @@
     ]
   },
   {
-    "key": "secondary-market",
-    "label": "Secondary Market",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8fa90b360663850c38",
-          "slug": "floor-price",
-          "title": "Floor Price"
-        },
-        "target": {
-          "id": "Secondary Market",
-          "label": "Secondary Market"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8fa90b360663850c3d",
-          "slug": "nft-royalties",
-          "title": "NFT Royalties"
-        },
-        "target": {
-          "id": "Secondary Market",
-          "label": "Secondary Market"
-        }
-      }
-    ]
-  },
-  {
     "key": "self-sovereignty",
     "label": "Self-Sovereignty",
     "count": 2,
@@ -1403,6 +1199,40 @@
         "target": {
           "id": "Simplified Payment Verification",
           "label": "Simplified Payment Verification"
+        }
+      }
+    ]
+  },
+  {
+    "key": "ssl-tls",
+    "label": "SSL/TLS",
+    "count": 2,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6a4e3a66ffc74e4f58a3cf07",
+          "slug": "digital-certificate",
+          "title": "Digital Certificate"
+        },
+        "target": {
+          "id": "SSL/TLS",
+          "label": "SSL/TLS"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae606646bec8c6a1d9d1b9c",
+          "slug": "public-key-infrastructure",
+          "title": "Public Key Infrastructure"
+        },
+        "target": {
+          "id": "SSL/TLS",
+          "label": "SSL/TLS"
         }
       }
     ]
@@ -1709,6 +1539,40 @@
         "target": {
           "id": "Utility Token",
           "label": "Utility Token"
+        }
+      }
+    ]
+  },
+  {
+    "key": "valuation",
+    "label": "Valuation",
+    "count": 2,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6a4e3a8fa90b360663850c38",
+          "slug": "floor-price",
+          "title": "Floor Price"
+        },
+        "target": {
+          "id": "Valuation",
+          "label": "Valuation"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae60683c8476f72f4a5e38f",
+          "slug": "market-capitalization",
+          "title": "Market Capitalization"
+        },
+        "target": {
+          "id": "Valuation",
+          "label": "Valuation"
         }
       }
     ]
@@ -2110,6 +1974,28 @@
     ]
   },
   {
+    "key": "bandwidth",
+    "label": "Bandwidth",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6069ad29b544660f6504b",
+          "slug": "network-layer",
+          "title": "Network Layer"
+        },
+        "target": {
+          "id": "Bandwidth",
+          "label": "Bandwidth"
+        }
+      }
+    ]
+  },
+  {
     "key": "basis-trade",
     "label": "Basis Trade",
     "count": 1,
@@ -2149,6 +2035,28 @@
         "target": {
           "id": "Batch Transfer",
           "label": "Batch Transfer"
+        }
+      }
+    ]
+  },
+  {
+    "key": "bear-market",
+    "label": "Bear Market",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae606779a6f9e6e61e40bb6",
+          "slug": "volatility",
+          "title": "Volatility"
+        },
+        "target": {
+          "id": "Bear Market",
+          "label": "Bear Market"
         }
       }
     ]
@@ -2215,6 +2123,28 @@
         "target": {
           "id": "Block Confirmation",
           "label": "Block Confirmation"
+        }
+      }
+    ]
+  },
+  {
+    "key": "block-size",
+    "label": "Block Size",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6067304c24ed40ef4100c",
+          "slug": "network-congestion",
+          "title": "Network Congestion"
+        },
+        "target": {
+          "id": "Block Size",
+          "label": "Block Size"
         }
       }
     ]
@@ -2523,28 +2453,6 @@
         "target": {
           "id": "Capital Utilization",
           "label": "Capital Utilization"
-        }
-      }
-    ]
-  },
-  {
-    "key": "central-bank-digital-currency",
-    "label": "Central Bank Digital Currency",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae3636adbdab768f18ef2a3",
-          "slug": "fiat-currency",
-          "title": "Fiat Currency"
-        },
-        "target": {
-          "id": "Central Bank Digital Currency",
-          "label": "Central Bank Digital Currency"
         }
       }
     ]
@@ -3474,28 +3382,6 @@
     ]
   },
   {
-    "key": "decentralized-application",
-    "label": "Decentralized Application",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6adf6e55ac7c87950403f82d",
-          "slug": "token-standard",
-          "title": "Token Standard"
-        },
-        "target": {
-          "id": "Decentralized Application",
-          "label": "Decentralized Application"
-        }
-      }
-    ]
-  },
-  {
     "key": "decentralized-physical-infrastructure-networks",
     "label": "Decentralized Physical Infrastructure Networks",
     "count": 1,
@@ -4305,6 +4191,28 @@
         "target": {
           "id": "Fee",
           "label": "Fee"
+        }
+      }
+    ]
+  },
+  {
+    "key": "fiat-to-crypto-on-ramp",
+    "label": "Fiat-to-Crypto On-ramp",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6067b8800de7bec8b0788",
+          "slug": "fiat",
+          "title": "Fiat"
+        },
+        "target": {
+          "id": "Fiat-to-Crypto On-ramp",
+          "label": "Fiat-to-Crypto On-ramp"
         }
       }
     ]
@@ -5322,28 +5230,6 @@
     ]
   },
   {
-    "key": "legal-tender",
-    "label": "Legal Tender",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae3636adbdab768f18ef2a3",
-          "slug": "fiat-currency",
-          "title": "Fiat Currency"
-        },
-        "target": {
-          "id": "Legal Tender",
-          "label": "Legal Tender"
-        }
-      }
-    ]
-  },
-  {
     "key": "leverage",
     "label": "Leverage",
     "count": 1,
@@ -5476,6 +5362,28 @@
     ]
   },
   {
+    "key": "m-of-n-scheme",
+    "label": "M-of-N Scheme",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6067304c24ed40ef4100b",
+          "slug": "multi-signature",
+          "title": "Multi-signature"
+        },
+        "target": {
+          "id": "M-of-N Scheme",
+          "label": "M-of-N Scheme"
+        }
+      }
+    ]
+  },
+  {
     "key": "m2m-communication",
     "label": "M2M Communication",
     "count": 1,
@@ -5537,6 +5445,28 @@
         "target": {
           "id": "Margin Call",
           "label": "Margin Call"
+        }
+      }
+    ]
+  },
+  {
+    "key": "market-dominance",
+    "label": "Market Dominance",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6067304c24ed40ef4100a",
+          "slug": "market-cap",
+          "title": "Market Cap"
+        },
+        "target": {
+          "id": "Market Dominance",
+          "label": "Market Dominance"
         }
       }
     ]
@@ -5916,28 +5846,6 @@
     ]
   },
   {
-    "key": "network-latency",
-    "label": "Network Latency",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3bbfcb408e38b03d5b1b",
-          "slug": "deterministic-consensus",
-          "title": "Deterministic Consensus"
-        },
-        "target": {
-          "id": "Network Latency",
-          "label": "Network Latency"
-        }
-      }
-    ]
-  },
-  {
     "key": "network-propagation",
     "label": "Network Propagation",
     "count": 1,
@@ -6290,6 +6198,28 @@
     ]
   },
   {
+    "key": "p2p-protocol",
+    "label": "P2P Protocol",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6069ad29b544660f6504b",
+          "slug": "network-layer",
+          "title": "Network Layer"
+        },
+        "target": {
+          "id": "P2P Protocol",
+          "label": "P2P Protocol"
+        }
+      }
+    ]
+  },
+  {
     "key": "pbft",
     "label": "pBFT",
     "count": 1,
@@ -6510,28 +6440,6 @@
     ]
   },
   {
-    "key": "price-discovery",
-    "label": "Price Discovery",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a63043258f78e08e482",
-          "slug": "stablecoin-peg",
-          "title": "Stablecoin Peg"
-        },
-        "target": {
-          "id": "Price Discovery",
-          "label": "Price Discovery"
-        }
-      }
-    ]
-  },
-  {
     "key": "price-manipulation",
     "label": "Price Manipulation",
     "count": 1,
@@ -6549,6 +6457,28 @@
         "target": {
           "id": "Price Manipulation",
           "label": "Price Manipulation"
+        }
+      }
+    ]
+  },
+  {
+    "key": "propagation-delay",
+    "label": "Propagation Delay",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6066ccbfa7eae1b25cf09",
+          "slug": "broadcast",
+          "title": "Broadcast"
+        },
+        "target": {
+          "id": "Propagation Delay",
+          "label": "Propagation Delay"
         }
       }
     ]
@@ -6945,6 +6875,28 @@
         "target": {
           "id": "Replication",
           "label": "Replication"
+        }
+      }
+    ]
+  },
+  {
+    "key": "reserve-currency",
+    "label": "Reserve Currency",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6067b8800de7bec8b0788",
+          "slug": "fiat",
+          "title": "Fiat"
+        },
+        "target": {
+          "id": "Reserve Currency",
+          "label": "Reserve Currency"
         }
       }
     ]
@@ -7539,28 +7491,6 @@
         "target": {
           "id": "SSL",
           "label": "SSL"
-        }
-      }
-    ]
-  },
-  {
-    "key": "ssl-tls",
-    "label": "SSL/TLS",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a66ffc74e4f58a3cf07",
-          "slug": "digital-certificate",
-          "title": "Digital Certificate"
-        },
-        "target": {
-          "id": "SSL/TLS",
-          "label": "SSL/TLS"
         }
       }
     ]
@@ -8446,28 +8376,6 @@
     ]
   },
   {
-    "key": "valuation",
-    "label": "Valuation",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8fa90b360663850c38",
-          "slug": "floor-price",
-          "title": "Floor Price"
-        },
-        "target": {
-          "id": "Valuation",
-          "label": "Valuation"
-        }
-      }
-    ]
-  },
-  {
     "key": "vesting-schedule",
     "label": "Vesting Schedule",
     "count": 1,
@@ -8485,6 +8393,28 @@
         "target": {
           "id": "Vesting Schedule",
           "label": "Vesting Schedule"
+        }
+      }
+    ]
+  },
+  {
+    "key": "virtual-machine",
+    "label": "Virtual Machine",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae6066ccbfa7eae1b25cf08",
+          "slug": "backend",
+          "title": "Backend"
+        },
+        "target": {
+          "id": "Virtual Machine",
+          "label": "Virtual Machine"
         }
       }
     ]
@@ -8529,6 +8459,28 @@
         "target": {
           "id": "Virtual voting",
           "label": "Virtual voting"
+        }
+      }
+    ]
+  },
+  {
+    "key": "volume",
+    "label": "Volume",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae60683c8476f72f4a5e38f",
+          "slug": "market-capitalization",
+          "title": "Market Capitalization"
+        },
+        "target": {
+          "id": "Volume",
+          "label": "Volume"
         }
       }
     ]

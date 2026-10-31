@@ -1,0 +1,55 @@
+---
+title: "Network Layer"
+description: "The network layer in a blockchain architecture, often referred to as the peer-to-peer (P2P) layer, serves as the fundamental communication backbone that enables nodes to discover one another, propagate transactions, and broadcast block information across a distributed system. It "
+---
+
+# Network Layer
+
+The network layer in a blockchain architecture, often referred to as the peer-to-peer (P2P) layer, serves as the fundamental communication backbone that enables nodes to discover one another, propagate transactions, and broadcast block information across a distributed system. It operates independently of the consensus mechanism, utilizing gossip protocols to ensure that all participating nodes maintain a consistent view of the ledger's state. By facilitating the seamless dissemination of data packets, the network layer ensures high availability, censorship resistance, and robust connectivity across a globally decentralized ecosystem.
+
+## Definition
+
+The network layer in a blockchain architecture, often referred to as the peer-to-peer (P2P) layer, serves as the fundamental communication backbone that enables nodes to discover one another, propagate transactions, and broadcast block information across a distributed system. It operates independently of the consensus mechanism, utilizing gossip protocols to ensure that all participating nodes maintain a consistent view of the ledger's state. By facilitating the seamless dissemination of data packets, the network layer ensures high availability, censorship resistance, and robust connectivity across a globally decentralized ecosystem.
+
+## Simple explanation
+
+Imagine the network layer as the post office and telephone system of a blockchain. It is the invisible infrastructure that allows different computers (nodes) across the world to talk to each other. When you send a transaction, this layer ensures your computer shouts it out to all its neighbors, who then pass that message along until everyone on the network knows what happened. It is basically the digital mail delivery service that keeps every computer on the blockchain in sync.
+
+## Why it matters
+
+The network layer is essential because it guarantees that information travels quickly and reliably without requiring a central server. Without a functional network layer, a blockchain would be unable to reach consensus, as nodes would not be able to share the data necessary to validate transactions.
+
+## How it works
+
+Nodes maintain persistent connections with a set of peers, constantly exchanging messages regarding new transactions or newly mined blocks. When a node receives new data, it validates the information and then gossips it to its other connected peers to ensure rapid spread throughout the network. This process continues iteratively until the information has reached every participating node in the decentralized system, maintaining the global state.
+
+## Real-world example
+
+On the Bitcoin or Vector Smart Chain networks, a node running the P2P protocol uses gossip algorithms to broadcast a new block to neighboring nodes, ensuring that miners and validators everywhere receive the update in near-real-time.
+
+## Advantages
+
+- Enables decentralized communication without central servers
+- Facilitates censorship resistance by ensuring information diffusion
+- Supports network scalability through efficient message propagation
+
+## Limitations
+
+- Susceptible to network-level DDoS attacks
+- Can experience latency during high congestion
+- P2P discovery mechanisms can be complex to secure
+
+## Common misconceptions
+
+- The network layer does not actually validate the rules of the blockchain; it only handles the transport of data.
+- A faster network layer does not necessarily mean the blockchain has a higher throughput or faster finality.
+## Related knowledge
+
+- [Distributed Ledger](/generated/v2/glossary/distributed-ledger) — term
+- [Gossip Protocol](/generated/v2/glossary/gossip-protocol) — term
+- [Latency](/generated/v2/glossary/latency) — term
+- [Node](/generated/v2/glossary/node) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:network-layer`
