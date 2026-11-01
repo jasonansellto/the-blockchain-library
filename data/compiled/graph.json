@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "9fb4c13e73ba6b80",
+  "buildId": "250cf4b512cd43b4",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -67699,6 +67699,366 @@
       "difficulty": null
     },
     {
+      "id": "news:traders-are-already-placing-leveraged-bets-on-anthropics-ipo-using-crypto-contracts",
+      "type": "news",
+      "label": "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts",
+      "canonicalUrl": "/news/traders-are-already-placing-leveraged-bets-on-anthropics-ipo-using-crypto-contracts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-6-3-billion-breach",
+      "type": "news",
+      "label": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+      "canonicalUrl": "/news/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-6-3-billion-breach",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:institutions-embrace-crypto-staking-despite-shrinking-yields",
+      "type": "news",
+      "label": "Institutions embrace crypto staking despite shrinking yields",
+      "canonicalUrl": "/news/institutions-embrace-crypto-staking-despite-shrinking-yields",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+      "type": "news",
+      "label": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
+      "canonicalUrl": "/news/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+      "type": "news",
+      "label": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+      "canonicalUrl": "/news/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:18-years-in-what-has-bitcoin-truly-done",
+      "type": "news",
+      "label": "18 years in, what has Bitcoin truly done?",
+      "canonicalUrl": "/news/18-years-in-what-has-bitcoin-truly-done",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:a-nasdaq-listed-company-may-sell-450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "type": "news",
+      "label": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+      "canonicalUrl": "/news/a-nasdaq-listed-company-may-sell-450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-3-billion",
+      "type": "news",
+      "label": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
+      "canonicalUrl": "/news/the-6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-3-billion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-says-90-of-stolen-assets-replenished-targets-sunday-withdrawals",
+      "type": "news",
+      "label": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
+      "canonicalUrl": "/news/binance-says-90-of-stolen-assets-replenished-targets-sunday-withdrawals",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-held-up-better-than-expected-after-binance-hack-strive-ceo-says",
+      "type": "news",
+      "label": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+      "canonicalUrl": "/news/bitcoin-held-up-better-than-expected-after-binance-hack-strive-ceo-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-turns-18-has-the-original-rebel-grown-up",
+      "type": "news",
+      "label": "Bitcoin turns 18: Has the original rebel grown up?",
+      "canonicalUrl": "/news/bitcoin-turns-18-has-the-original-rebel-grown-up",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:texas-brothers-sentenced-to-15-years-in-prison-for-armed-crypto-robbery-kidnapping",
+      "type": "news",
+      "label": "Texas brothers sentenced to 15 years in prison for armed crypto robbery, kidnapping",
+      "canonicalUrl": "/news/texas-brothers-sentenced-to-15-years-in-prison-for-armed-crypto-robbery-kidnapping",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:blockchain-investigator-chainalysis-hit-by-cybersecurity-incident",
+      "type": "news",
+      "label": "Blockchain investigator Chainalysis hit by cybersecurity incident",
+      "canonicalUrl": "/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-6-3b-record-hack-sparks-pre-election-political-clashes",
+      "type": "news",
+      "label": "Binance $6.3B record hack sparks pre-election political clashes",
+      "canonicalUrl": "/news/binance-6-3b-record-hack-sparks-pre-election-political-clashes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-details-6-3b-hot-wallet-breach-as-exchange-pledges-to-cover-losses",
+      "type": "news",
+      "label": "Binance Details $6.3B Hot-Wallet Breach as Exchange Pledges to Cover Losses",
+      "canonicalUrl": "/news/binance-details-6-3b-hot-wallet-breach-as-exchange-pledges-to-cover-losses",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+      "type": "news",
+      "label": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+      "canonicalUrl": "/news/bitcoins-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:a-stolen-iphone-14-000-in-losses-and-londons-crypto-theft-problem",
+      "type": "news",
+      "label": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
+      "canonicalUrl": "/news/a-stolen-iphone-14-000-in-losses-and-londons-crypto-theft-problem",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:shopifys-base-usdc-checkout-puts-stablecoins-into-mainstream-e-commerce",
+      "type": "news",
+      "label": "Shopify’s Base USDC Checkout Puts Stablecoins Into Mainstream E-Commerce",
+      "canonicalUrl": "/news/shopifys-base-usdc-checkout-puts-stablecoins-into-mainstream-e-commerce",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hanwha-chooses-chainlink-data-and-ccip-for-global-tokenization-platform",
+      "type": "news",
+      "label": "Hanwha Chooses Chainlink Data and CCIP for Global Tokenization Platform",
+      "canonicalUrl": "/news/hanwha-chooses-chainlink-data-and-ccip-for-global-tokenization-platform",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainlink-unveils-24-7-pricing-for-tokenized-assets-as-aave-adopts-feeds",
+      "type": "news",
+      "label": "Chainlink Unveils 24/7 Pricing for Tokenized Assets as Aave Adopts Feeds",
+      "canonicalUrl": "/news/chainlink-unveils-24-7-pricing-for-tokenized-assets-as-aave-adopts-feeds",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:uniswap-opens-tjar-fee-conversion-beyond-protocol-as-robinhood-joins",
+      "type": "news",
+      "label": "Uniswap Opens TJAR Fee Conversion Beyond Protocol as Robinhood Joins",
+      "canonicalUrl": "/news/uniswap-opens-tjar-fee-conversion-beyond-protocol-as-robinhood-joins",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:polygon-extends-open-money-stack-to-solana-for-stablecoin-payment-flows",
+      "type": "news",
+      "label": "Polygon Extends Open Money Stack to Solana for Stablecoin Payment Flows",
+      "canonicalUrl": "/news/polygon-extends-open-money-stack-to-solana-for-stablecoin-payment-flows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fbi-confirms-north-koreas-role-in-6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "type": "news",
+      "label": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+      "canonicalUrl": "/news/fbi-confirms-north-koreas-role-in-6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors",
+      "type": "news",
+      "label": "Aave Expands Stock-Backed USDC Loans on Base for Eligible Investors",
+      "canonicalUrl": "/news/aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:polygon-adds-agent-payment-limits-to-open-money-stack",
+      "type": "news",
+      "label": "Polygon Adds Agent Payment Limits to Open Money Stack",
+      "canonicalUrl": "/news/polygon-adds-agent-payment-limits-to-open-money-stack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainalysis-finds-443b-mena-crypto-economy-as-uae-growth-outpaces-region",
+      "type": "news",
+      "label": "Chainalysis Finds $443B MENA Crypto Economy as UAE Growth Outpaces Region",
+      "canonicalUrl": "/news/chainalysis-finds-443b-mena-crypto-economy-as-uae-growth-outpaces-region",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:further-asset-management-taps-chainlink-ace-for-abu-dhabi-compliance-platform",
+      "type": "news",
+      "label": "Further Asset Management Taps Chainlink ACE for Abu Dhabi Compliance Platform",
+      "canonicalUrl": "/news/further-asset-management-taps-chainlink-ace-for-abu-dhabi-compliance-platform",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainlink-launches-custodysync-with-anchorage-to-link-custody-and-defi-loans",
+      "type": "news",
+      "label": "Chainlink Launches CustodySync With Anchorage to Link Custody and DeFi Loans",
+      "canonicalUrl": "/news/chainlink-launches-custodysync-with-anchorage-to-link-custody-and-defi-loans",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tether-backed-fase-foundation-targets-scams-and-stablecoin-aid",
+      "type": "news",
+      "label": "Tether-Backed FASE Foundation Targets Scams and Stablecoin Aid",
+      "canonicalUrl": "/news/tether-backed-fase-foundation-targets-scams-and-stablecoin-aid",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:uniswap-adds-developer-analytics-as-swap-api-usage-crosses-2b",
+      "type": "news",
+      "label": "Uniswap Adds Developer Analytics as Swap API Usage Crosses $2B",
+      "canonicalUrl": "/news/uniswap-adds-developer-analytics-as-swap-api-usage-crosses-2b",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-recovery-faces-rising-derivatives-exposure-and-643-million-in-etf-outflows",
+      "type": "news",
+      "label": "Bitcoin’s recovery faces rising derivatives exposure and $643 million in ETF outflows",
+      "canonicalUrl": "/news/bitcoins-recovery-faces-rising-derivatives-exposure-and-643-million-in-etf-outflows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jupiter-lends-withdrawal-liquidity-rebounds-from-near-zero-to-29-million-usdc",
+      "type": "news",
+      "label": "Jupiter Lend’s withdrawal liquidity rebounds from near zero to 29 million USDC",
+      "canonicalUrl": "/news/jupiter-lends-withdrawal-liquidity-rebounds-from-near-zero-to-29-million-usdc",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:banks-are-owed-349b-by-private-credit-funds-that-may-not-be-collecting-cash-from-borrowers",
+      "type": "news",
+      "label": "Banks are owed $349B by private credit funds that may not be collecting cash from borrowers",
+      "canonicalUrl": "/news/banks-are-owed-349b-by-private-credit-funds-that-may-not-be-collecting-cash-from-borrowers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainalysis-breach-exposed-customer-names-emails-and-company-roles",
+      "type": "news",
+      "label": "Chainalysis breach exposed customer names, emails and company roles",
+      "canonicalUrl": "/news/chainalysis-breach-exposed-customer-names-emails-and-company-roles",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:saylor-calls-new-bitcoin-bull-market-but-strategy-8217-s-own-numbers-reveal-a-costly-problem",
+      "type": "news",
+      "label": "Saylor calls new Bitcoin bull market, but Strategy&#8217;s own numbers reveal a costly problem",
+      "canonicalUrl": "/news/saylor-calls-new-bitcoin-bull-market-but-strategy-8217-s-own-numbers-reveal-a-costly-problem",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-lose-643-million-in-a-day-wiping-out-the-weeks-inflows",
+      "type": "news",
+      "label": "Bitcoin ETFs lose $643 million in a day, wiping out the week’s inflows",
+      "canonicalUrl": "/news/bitcoin-etfs-lose-643-million-in-a-day-wiping-out-the-weeks-inflows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:prediction-markets-bring-robinhood-173-million-as-crypto-revenue-slumps",
+      "type": "news",
+      "label": "Prediction markets bring Robinhood $173 million as crypto revenue slumps",
+      "canonicalUrl": "/news/prediction-markets-bring-robinhood-173-million-as-crypto-revenue-slumps",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:why-ripple-8217-s-16-trillion-payment-volume-isnt-boosting-xrp",
+      "type": "news",
+      "label": "Why Ripple&#8217;s $16 trillion payment volume isn’t boosting XRP",
+      "canonicalUrl": "/news/why-ripple-8217-s-16-trillion-payment-volume-isnt-boosting-xrp",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-6-3-billion-hack",
+      "type": "news",
+      "label": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+      "canonicalUrl": "/news/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-6-3-billion-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-says-phase-one-of-withdrawals-opens-after-6-3b-hack",
+      "type": "news",
+      "label": "Binance says phase one of withdrawals opens after $6.3B hack",
+      "canonicalUrl": "/news/binance-says-phase-one-of-withdrawals-opens-after-6-3b-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fbi-blames-north-korea-for-record-6-3b-binance-hack",
+      "type": "news",
+      "label": "FBI blames North Korea for record $6.3B Binance hack",
+      "canonicalUrl": "/news/fbi-blames-north-korea-for-record-6-3b-binance-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:circle-details-cctp-path-for-non-usdc-tokens-across-supported-chains",
+      "type": "news",
+      "label": "Circle Details CCTP Path for Non-USDC Tokens Across Supported Chains",
+      "canonicalUrl": "/news/circle-details-cctp-path-for-non-usdc-tokens-across-supported-chains",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:curve-launches-first-native-non-evm-stableswap-deployment-on-stellar",
+      "type": "news",
+      "label": "Curve Launches First Native Non-EVM StableSwap Deployment on Stellar",
+      "canonicalUrl": "/news/curve-launches-first-native-non-evm-stableswap-deployment-on-stellar",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ondo-brings-seven-tokenized-investment-portfolios-to-solana",
+      "type": "news",
+      "label": "Ondo Brings Seven Tokenized Investment Portfolios to Solana",
+      "canonicalUrl": "/news/ondo-brings-seven-tokenized-investment-portfolios-to-solana",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solanas-reward-records-leave-stakers-with-a-gap-in-validator-fee-data",
+      "type": "news",
+      "label": "Solana’s reward records leave stakers with a gap in validator fee data",
+      "canonicalUrl": "/news/solanas-reward-records-leave-stakers-with-a-gap-in-validator-fee-data",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -70934,6 +71294,14 @@
     },
     {
       "from": "topic:the-hidden-fragility-of-always-on-digital-systems",
+      "to": "glossary:network-layer",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:the-hidden-fragility-of-always-on-digital-systems",
       "to": "research:introducing-digital-trust-infrastructure",
       "type": "research",
       "source": "base44",
@@ -71205,6 +71573,14 @@
       "category": "articles"
     },
     {
+      "from": "topic:why-most-web3-startups-build-the-wrong-product-first",
+      "to": "glossary:backend",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
       "from": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
       "to": "topic:the-difference-between-building-for-web3-users-vs-real-users",
       "type": "article",
@@ -71245,6 +71621,14 @@
       "category": "articles"
     },
     {
+      "from": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
+      "to": "glossary:backend",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
       "from": "topic:the-transition-from-crypto-products-to-internet-products",
       "to": "topic:why-the-next-wave-of-web3-wont-be-branded-as-web3",
       "type": "article",
@@ -71280,6 +71664,14 @@
       "from": "topic:the-transition-from-crypto-products-to-internet-products",
       "to": "book:the-quiet-rebuild-of-the-internet",
       "type": "book",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:the-transition-from-crypto-products-to-internet-products",
+      "to": "glossary:backend",
+      "type": "glossary",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -72632,6 +73024,14 @@
       "from": "topic:what-strong-hands-actually-means-in-crypto",
       "to": "topic:why-most-crypto-gains-are-made-in-boring-market-conditions",
       "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:what-strong-hands-actually-means-in-crypto",
+      "to": "glossary:volatility",
+      "type": "glossary",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -75360,6 +75760,14 @@
       "from": "topic:why-most-new-technology-doesnt-matter-and-what-actually-does",
       "to": "topic:edge-computing-ai-and-blockchain-the-new-stack",
       "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:why-most-new-technology-doesnt-matter-and-what-actually-does",
+      "to": "glossary:backend",
+      "type": "glossary",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -99845,6 +100253,14 @@
       "category": "articles"
     },
     {
+      "from": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "to": "glossary:broadcast",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
       "from": "topic:introducing-altcoin-threads-where-crypto-meets-fashion",
       "to": "topic:introducing-ansell-publishing-a-new-home-for-modern-knowledge",
       "type": "article",
@@ -99912,6 +100328,14 @@
       "from": "topic:crypto-one-presale-is-live-the-all-in-one-app-thats-changing-the-game",
       "to": "topic:what-a-mature-crypto-market-actually-looks-like",
       "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:crypto-one-presale-is-live-the-all-in-one-app-thats-changing-the-game",
+      "to": "glossary:market-cap",
+      "type": "glossary",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -112517,6 +112941,14 @@
       "category": "articles"
     },
     {
+      "from": "topic:why-most-affiliate-funnels-fail-after-90-days",
+      "to": "glossary:broadcast",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
       "from": "topic:money-habits-that-matter-more-than-investment-picks",
       "to": "topic:passive-income-myths-that-refuse-to-die",
       "type": "article",
@@ -113344,6 +113776,14 @@
       "from": "topic:how-people-actually-build-wealth-during-market-drawdowns",
       "to": "book:cryptocurrency-for-beginners-made-easy-a-non-technical-guide-to-unlock-the-basics-of-crypto-invest-like-a-pro-and-build-wealth-quickly-with-tax-free-strategies",
       "type": "book",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:how-people-actually-build-wealth-during-market-drawdowns",
+      "to": "glossary:volatility",
+      "type": "glossary",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -151462,6 +151902,14 @@
     },
     {
       "from": "glossary:public-key-infrastructure",
+      "to": "topic:a-deep-dive-into-quantum-resistant-cryptography-preparing-for-a-post-quantum-world",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:public-key-infrastructure",
       "to": "glossary:asymmetric-cryptography",
       "type": "term",
       "source": "base44",
@@ -151504,6 +151952,46 @@
       "from": "glossary:public-key-infrastructure",
       "to": "glossary:public-key",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:is-bitcoin-a-blockchain",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:what-does-crypto-mean",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:why-is-web3-a-big-deal",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:is-crypto-the-same-as-money",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:is-crypto-safer-than-banks",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -151558,6 +152046,46 @@
     },
     {
       "from": "glossary:backend",
+      "to": "topic:why-most-web3-startups-build-the-wrong-product-first",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:the-transition-from-crypto-products-to-internet-products",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:what-enterprise-blockchain-adoption-looks-like-without-hype",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:backend",
       "to": "glossary:api",
       "type": "term",
       "source": "base44",
@@ -151598,6 +152126,46 @@
     },
     {
       "from": "glossary:broadcast",
+      "to": "topic:what-actually-happens-when-you-use-a-web3-app-step-by-step-breakdown",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:what-is-blockchain-an-easy-to-understand-explanation-with-examples",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:understanding-the-fundamentals-of-blockchain-technology",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:broadcast",
       "to": "glossary:gossip-protocol",
       "type": "term",
       "source": "base44",
@@ -151624,6 +152192,46 @@
       "from": "glossary:broadcast",
       "to": "glossary:peer-to-peer",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:the-hidden-cost-of-holding-illiquid-altcoins",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:blockchain-without-speculation-pure-utility-chains-explained",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -151664,6 +152272,30 @@
       "from": "glossary:market-cap",
       "to": "glossary:volatility",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:multi-signature",
+      "to": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:multi-signature",
+      "to": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:multi-signature",
+      "to": "topic:crypto-wallet-security-in-2025-best-practices-and-tools",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -151718,6 +152350,46 @@
     },
     {
       "from": "glossary:network-congestion",
+      "to": "topic:the-difference-between-transaction-throughput-and-real-scalability",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:why-infrastructure-is-becoming-blockchains-most-valuable-layer",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:deterministic-execution-why-the-future-of-blockchain-infrastructure-will-be-built-quietly",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-congestion",
       "to": "category:layer-2",
       "type": "term",
       "source": "base44",
@@ -151744,6 +152416,46 @@
       "from": "glossary:network-congestion",
       "to": "glossary:throughput",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:the-role-of-stable-capital-in-volatile-markets",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:risks-and-rewards-understanding-cryptocurrency-as-an-investment",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:understanding-crypto-volatility-how-to-navigate-market-swings",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:bitcoin-etf-flows-in-2025-are-institutions-driving-the-next-bull-run",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -151800,6 +152512,46 @@
       "from": "glossary:fiat",
       "to": "glossary:stablecoin",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:what-crypto-looks-like-after-memecoins",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:coinswap-is-back-online-faster-than-ever-with-new-data-feeds",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -151880,6 +152632,38 @@
       "from": "glossary:non-custodial-wallet",
       "to": "glossary:self-custody",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:the-hidden-fragility-of-always-on-digital-systems",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:6g-on-the-horizon-what-it-means-for-data-iot-and-decentralization",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -188105,6 +188889,264 @@
       "source": "embedded"
     },
     {
+      "from": "glossary:public-key-infrastructure",
+      "to": "topic:a-deep-dive-into-quantum-resistant-cryptography-preparing-for-a-post-quantum-world",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:is-bitcoin-a-blockchain",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:what-does-crypto-mean",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:why-is-web3-a-big-deal",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:is-crypto-the-same-as-money",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:public-ledger",
+      "to": "topic:is-crypto-safer-than-banks",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:what-enterprise-blockchain-adoption-looks-like-without-hype",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:why-most-web3-startups-build-the-wrong-product-first",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:backend",
+      "to": "topic:the-transition-from-crypto-products-to-internet-products",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:what-actually-happens-when-you-use-a-web3-app-step-by-step-breakdown",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:what-is-blockchain-an-easy-to-understand-explanation-with-examples",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:understanding-the-fundamentals-of-blockchain-technology",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:broadcast",
+      "to": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:the-hidden-cost-of-holding-illiquid-altcoins",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-cap",
+      "to": "topic:blockchain-without-speculation-pure-utility-chains-explained",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:multi-signature",
+      "to": "topic:crypto-wallet-security-in-2025-best-practices-and-tools",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:multi-signature",
+      "to": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:multi-signature",
+      "to": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:the-difference-between-transaction-throughput-and-real-scalability",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:why-infrastructure-is-becoming-blockchains-most-valuable-layer",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-congestion",
+      "to": "topic:deterministic-execution-why-the-future-of-blockchain-infrastructure-will-be-built-quietly",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:understanding-crypto-volatility-how-to-navigate-market-swings",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:the-role-of-stable-capital-in-volatile-markets",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:risks-and-rewards-understanding-cryptocurrency-as-an-investment",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:volatility",
+      "to": "topic:bitcoin-etf-flows-in-2025-are-institutions-driving-the-next-bull-run",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:coinswap-is-back-online-faster-than-ever-with-new-data-feeds",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:what-crypto-looks-like-after-memecoins",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:market-capitalization",
+      "to": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:the-hidden-fragility-of-always-on-digital-systems",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:6g-on-the-horizon-what-it-means-for-data-iot-and-decentralization",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:network-layer",
+      "to": "topic:the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
       "from": "topic:what-crypto-looks-like-after-memecoins",
       "to": "glossary:stablecoin",
       "type": "related-glossary",
@@ -190380,6 +191422,12 @@
     },
     {
       "from": "topic:the-hidden-fragility-of-always-on-digital-systems",
+      "to": "glossary:network-layer",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:the-hidden-fragility-of-always-on-digital-systems",
       "to": "topic:why-most-technology-isnt-built-to-last-and-what-actually-survives",
       "type": "related-article",
       "source": "embedded"
@@ -190584,6 +191632,12 @@
     },
     {
       "from": "topic:why-most-web3-startups-build-the-wrong-product-first",
+      "to": "glossary:backend",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:why-most-web3-startups-build-the-wrong-product-first",
       "to": "topic:why-abstraction-will-define-the-next-phase-of-web3",
       "type": "related-article",
       "source": "embedded"
@@ -190604,6 +191658,12 @@
       "from": "topic:why-most-web3-startups-build-the-wrong-product-first",
       "to": "topic:why-most-web3-users-dont-actually-care-about-decentralization",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
+      "to": "glossary:backend",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -190634,6 +191694,12 @@
       "from": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
       "to": "book:deterministic-execution",
       "type": "related-book",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:the-transition-from-crypto-products-to-internet-products",
+      "to": "glossary:backend",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -191654,6 +192720,12 @@
       "from": "topic:why-most-crypto-projects-dont-need-a-token",
       "to": "research:designing-a-token-economy-incentives-governance-and-tokenomics",
       "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:what-strong-hands-actually-means-in-crypto",
+      "to": "glossary:volatility",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -193700,6 +194772,12 @@
       "from": "topic:why-ux-now-matters-more-than-technology-itself",
       "to": "topic:why-the-future-will-be-built-on-invisible-technology",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:why-most-new-technology-doesnt-matter-and-what-actually-does",
+      "to": "glossary:backend",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -212064,6 +213142,12 @@
     },
     {
       "from": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "to": "glossary:broadcast",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
       "to": "topic:big-update-vsc-radio-launches-listen-to-earn-get-paid-to-enjoy-great-music",
       "type": "related-article",
       "source": "embedded"
@@ -212114,6 +213198,12 @@
       "from": "topic:introducing-altcoin-threads-where-crypto-meets-fashion",
       "to": "topic:introducing-ansell-publishing-a-new-home-for-modern-knowledge",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:crypto-one-presale-is-live-the-all-in-one-app-thats-changing-the-game",
+      "to": "glossary:market-cap",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -221568,6 +222658,12 @@
     },
     {
       "from": "topic:why-most-affiliate-funnels-fail-after-90-days",
+      "to": "glossary:broadcast",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:why-most-affiliate-funnels-fail-after-90-days",
       "to": "topic:why-most-affiliate-websites-fail-within-two-years",
       "type": "related-article",
       "source": "embedded"
@@ -222182,6 +223278,12 @@
       "from": "topic:understanding-decentralized-finance-why-i-wrote-this-book-and-who-its-really-for",
       "to": "research:lido-a-staking-pool-for-ethereum-2-0",
       "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:how-people-actually-build-wealth-during-market-drawdowns",
+      "to": "glossary:volatility",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {

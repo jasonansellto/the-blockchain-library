@@ -46195,6 +46195,22 @@
   ],
   "glossary:public-key-infrastructure": [
     {
+      "uid": "topic:a-deep-dive-into-quantum-resistant-cryptography-preparing-for-a-post-quantum-world",
+      "type": "topic",
+      "title": "A Deep Dive into Quantum-Resistant Cryptography: Preparing for a Post-Quantum World",
+      "canonicalUrl": "/topics/a-deep-dive-into-quantum-resistant-cryptography-preparing-for-a-post-quantum-world",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:a-deep-dive-into-quantum-resistant-cryptography-preparing-for-a-post-quantum-world",
+      "type": "topic",
+      "title": "A Deep Dive into Quantum-Resistant Cryptography: Preparing for a Post-Quantum World",
+      "canonicalUrl": "/topics/a-deep-dive-into-quantum-resistant-cryptography-preparing-for-a-post-quantum-world",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:asymmetric-cryptography",
       "type": "glossary",
       "title": "Asymmetric Cryptography",
@@ -46285,11 +46301,91 @@
       "strength": 1
     },
     {
+      "uid": "topic:is-bitcoin-a-blockchain",
+      "type": "topic",
+      "title": "Is Bitcoin a Blockchain?",
+      "canonicalUrl": "/topics/is-bitcoin-a-blockchain",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-bitcoin-a-blockchain",
+      "type": "topic",
+      "title": "Is Bitcoin a Blockchain?",
+      "canonicalUrl": "/topics/is-bitcoin-a-blockchain",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-crypto-safer-than-banks",
+      "type": "topic",
+      "title": "Is Crypto Safer Than Banks?",
+      "canonicalUrl": "/topics/is-crypto-safer-than-banks",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-crypto-safer-than-banks",
+      "type": "topic",
+      "title": "Is Crypto Safer Than Banks?",
+      "canonicalUrl": "/topics/is-crypto-safer-than-banks",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-crypto-the-same-as-money",
+      "type": "topic",
+      "title": "Is Crypto the Same as Money?",
+      "canonicalUrl": "/topics/is-crypto-the-same-as-money",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-crypto-the-same-as-money",
+      "type": "topic",
+      "title": "Is Crypto the Same as Money?",
+      "canonicalUrl": "/topics/is-crypto-the-same-as-money",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:node",
       "type": "glossary",
       "title": "Node",
       "canonicalUrl": "/glossary/node",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-does-crypto-mean",
+      "type": "topic",
+      "title": "What Does Crypto Mean?",
+      "canonicalUrl": "/topics/what-does-crypto-mean",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-does-crypto-mean",
+      "type": "topic",
+      "title": "What Does Crypto Mean?",
+      "canonicalUrl": "/topics/what-does-crypto-mean",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-is-web3-a-big-deal",
+      "type": "topic",
+      "title": "Why is Web3 a Big Deal?",
+      "canonicalUrl": "/topics/why-is-web3-a-big-deal",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-is-web3-a-big-deal",
+      "type": "topic",
+      "title": "Why is Web3 a Big Deal?",
+      "canonicalUrl": "/topics/why-is-web3-a-big-deal",
+      "relationship": "related-article",
       "strength": 1
     }
   ],
@@ -46300,6 +46396,38 @@
       "title": "API",
       "canonicalUrl": "/glossary/api",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
+      "type": "topic",
+      "title": "How Web3 Quietly Becomes Part of Everyday Technology",
+      "canonicalUrl": "/topics/how-web3-quietly-becomes-part-of-everyday-technology",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-web3-quietly-becomes-part-of-everyday-technology",
+      "type": "topic",
+      "title": "How Web3 Quietly Becomes Part of Everyday Technology",
+      "canonicalUrl": "/topics/how-web3-quietly-becomes-part-of-everyday-technology",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "type": "topic",
+      "title": "Invisible Web3: Why Users Won’t Even Know They’re On-Chain",
+      "canonicalUrl": "/topics/invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "type": "topic",
+      "title": "Invisible Web3: Why Users Won’t Even Know They’re On-Chain",
+      "canonicalUrl": "/topics/invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "relationship": "related-article",
       "strength": 1
     },
     {
@@ -46333,9 +46461,73 @@
       "canonicalUrl": "/glossary/state",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "topic:the-transition-from-crypto-products-to-internet-products",
+      "type": "topic",
+      "title": "The Transition From “Crypto Products” to “Internet Products”",
+      "canonicalUrl": "/topics/the-transition-from-crypto-products-to-internet-products",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-transition-from-crypto-products-to-internet-products",
+      "type": "topic",
+      "title": "The Transition From “Crypto Products” to “Internet Products”",
+      "canonicalUrl": "/topics/the-transition-from-crypto-products-to-internet-products",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-enterprise-blockchain-adoption-looks-like-without-hype",
+      "type": "topic",
+      "title": "What Enterprise Blockchain Adoption Looks Like Without Hype",
+      "canonicalUrl": "/topics/what-enterprise-blockchain-adoption-looks-like-without-hype",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-enterprise-blockchain-adoption-looks-like-without-hype",
+      "type": "topic",
+      "title": "What Enterprise Blockchain Adoption Looks Like Without Hype",
+      "canonicalUrl": "/topics/what-enterprise-blockchain-adoption-looks-like-without-hype",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-most-web3-startups-build-the-wrong-product-first",
+      "type": "topic",
+      "title": "Why Most Web3 Startups Build the Wrong Product First",
+      "canonicalUrl": "/topics/why-most-web3-startups-build-the-wrong-product-first",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-most-web3-startups-build-the-wrong-product-first",
+      "type": "topic",
+      "title": "Why Most Web3 Startups Build the Wrong Product First",
+      "canonicalUrl": "/topics/why-most-web3-startups-build-the-wrong-product-first",
+      "relationship": "related-article",
+      "strength": 1
     }
   ],
   "glossary:broadcast": [
+    {
+      "uid": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "type": "topic",
+      "title": "Big Updates to VSCRadio: The World’s First Blockchain-Powered Radio Platform",
+      "canonicalUrl": "/topics/big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "type": "topic",
+      "title": "Big Updates to VSCRadio: The World’s First Blockchain-Powered Radio Platform",
+      "canonicalUrl": "/topics/big-updates-to-vscradio-the-worlds-first-blockchain-powered-radio-platform",
+      "relationship": "related-article",
+      "strength": 1
+    },
     {
       "uid": "glossary:gossip-protocol",
       "type": "glossary",
@@ -46367,6 +46559,70 @@
       "canonicalUrl": "/glossary/peer-to-peer",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "topic",
+      "title": "Security Best Practices for DeFi and Web3 Developers",
+      "canonicalUrl": "/topics/security-best-practices-for-defi-and-web3-developers",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "topic",
+      "title": "Security Best Practices for DeFi and Web3 Developers",
+      "canonicalUrl": "/topics/security-best-practices-for-defi-and-web3-developers",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:understanding-the-fundamentals-of-blockchain-technology",
+      "type": "topic",
+      "title": "Understanding the Fundamentals of Blockchain Technology",
+      "canonicalUrl": "/topics/understanding-the-fundamentals-of-blockchain-technology",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:understanding-the-fundamentals-of-blockchain-technology",
+      "type": "topic",
+      "title": "Understanding the Fundamentals of Blockchain Technology",
+      "canonicalUrl": "/topics/understanding-the-fundamentals-of-blockchain-technology",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-actually-happens-when-you-use-a-web3-app-step-by-step-breakdown",
+      "type": "topic",
+      "title": "What Actually Happens When You Use a Web3 App (Step-by-Step Breakdown)",
+      "canonicalUrl": "/topics/what-actually-happens-when-you-use-a-web3-app-step-by-step-breakdown",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-actually-happens-when-you-use-a-web3-app-step-by-step-breakdown",
+      "type": "topic",
+      "title": "What Actually Happens When You Use a Web3 App (Step-by-Step Breakdown)",
+      "canonicalUrl": "/topics/what-actually-happens-when-you-use-a-web3-app-step-by-step-breakdown",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-is-blockchain-an-easy-to-understand-explanation-with-examples",
+      "type": "topic",
+      "title": "What is Blockchain? An Easy-to-Understand Explanation with Examples",
+      "canonicalUrl": "/topics/what-is-blockchain-an-easy-to-understand-explanation-with-examples",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-is-blockchain-an-easy-to-understand-explanation-with-examples",
+      "type": "topic",
+      "title": "What is Blockchain? An Easy-to-Understand Explanation with Examples",
+      "canonicalUrl": "/topics/what-is-blockchain-an-easy-to-understand-explanation-with-examples",
+      "relationship": "related-article",
+      "strength": 1
     }
   ],
   "glossary:market-cap": [
@@ -46376,6 +46632,22 @@
       "title": "Altcoin",
       "canonicalUrl": "/glossary/altcoin",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:blockchain-without-speculation-pure-utility-chains-explained",
+      "type": "topic",
+      "title": "Blockchain Without Speculation: Pure Utility Chains Explained",
+      "canonicalUrl": "/topics/blockchain-without-speculation-pure-utility-chains-explained",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:blockchain-without-speculation-pure-utility-chains-explained",
+      "type": "topic",
+      "title": "Blockchain Without Speculation: Pure Utility Chains Explained",
+      "canonicalUrl": "/topics/blockchain-without-speculation-pure-utility-chains-explained",
+      "relationship": "related-article",
       "strength": 1
     },
     {
@@ -46395,6 +46667,22 @@
       "strength": 1
     },
     {
+      "uid": "topic:how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
+      "type": "topic",
+      "title": "How to Identify Undervalued Cryptocurrencies Before the Next Bull Run",
+      "canonicalUrl": "/topics/how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
+      "type": "topic",
+      "title": "How to Identify Undervalued Cryptocurrencies Before the Next Bull Run",
+      "canonicalUrl": "/topics/how-to-identify-undervalued-cryptocurrencies-before-the-next-bull-run",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:liquidity",
       "type": "glossary",
       "title": "Liquidity",
@@ -46403,11 +46691,59 @@
       "strength": 1
     },
     {
+      "uid": "topic:the-hidden-cost-of-holding-illiquid-altcoins",
+      "type": "topic",
+      "title": "The Hidden Cost of Holding Illiquid Altcoins",
+      "canonicalUrl": "/topics/the-hidden-cost-of-holding-illiquid-altcoins",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-hidden-cost-of-holding-illiquid-altcoins",
+      "type": "topic",
+      "title": "The Hidden Cost of Holding Illiquid Altcoins",
+      "canonicalUrl": "/topics/the-hidden-cost-of-holding-illiquid-altcoins",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "type": "topic",
+      "title": "Top 5 Cryptocurrencies to Watch in 2025: Trends and Predictions",
+      "canonicalUrl": "/topics/top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "type": "topic",
+      "title": "Top 5 Cryptocurrencies to Watch in 2025: Trends and Predictions",
+      "canonicalUrl": "/topics/top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:volatility",
       "type": "glossary",
       "title": "Volatility",
       "canonicalUrl": "/glossary/volatility",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "topic",
+      "title": "Why Liquidity Is Becoming More Important Than Market Cap",
+      "canonicalUrl": "/topics/why-liquidity-is-becoming-more-important-than-market-cap",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "topic",
+      "title": "Why Liquidity Is Becoming More Important Than Market Cap",
+      "canonicalUrl": "/topics/why-liquidity-is-becoming-more-important-than-market-cap",
+      "relationship": "related-article",
       "strength": 1
     }
   ],
@@ -46418,6 +46754,38 @@
       "title": "Cold Storage",
       "canonicalUrl": "/glossary/cold-storage",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "type": "topic",
+      "title": "Crypto Security Essentials: Protecting Your Digital Assets in 2025",
+      "canonicalUrl": "/topics/crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "type": "topic",
+      "title": "Crypto Security Essentials: Protecting Your Digital Assets in 2025",
+      "canonicalUrl": "/topics/crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:crypto-wallet-security-in-2025-best-practices-and-tools",
+      "type": "topic",
+      "title": "Crypto Wallet Security in 2025: Best Practices and Tools",
+      "canonicalUrl": "/topics/crypto-wallet-security-in-2025-best-practices-and-tools",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:crypto-wallet-security-in-2025-best-practices-and-tools",
+      "type": "topic",
+      "title": "Crypto Wallet Security in 2025: Best Practices and Tools",
+      "canonicalUrl": "/topics/crypto-wallet-security-in-2025-best-practices-and-tools",
+      "relationship": "related-article",
       "strength": 1
     },
     {
@@ -46445,6 +46813,22 @@
       "strength": 1
     },
     {
+      "uid": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "topic",
+      "title": "Security Best Practices for DeFi and Web3 Developers",
+      "canonicalUrl": "/topics/security-best-practices-for-defi-and-web3-developers",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "topic",
+      "title": "Security Best Practices for DeFi and Web3 Developers",
+      "canonicalUrl": "/topics/security-best-practices-for-defi-and-web3-developers",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:smart-contract",
       "type": "glossary",
       "title": "Smart Contract",
@@ -46462,6 +46846,22 @@
     }
   ],
   "glossary:network-congestion": [
+    {
+      "uid": "topic:deterministic-execution-why-the-future-of-blockchain-infrastructure-will-be-built-quietly",
+      "type": "topic",
+      "title": "Deterministic Execution: Why the Future of Blockchain Infrastructure Will Be Built Quietly",
+      "canonicalUrl": "/topics/deterministic-execution-why-the-future-of-blockchain-infrastructure-will-be-built-quietly",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:deterministic-execution-why-the-future-of-blockchain-infrastructure-will-be-built-quietly",
+      "type": "topic",
+      "title": "Deterministic Execution: Why the Future of Blockchain Infrastructure Will Be Built Quietly",
+      "canonicalUrl": "/topics/deterministic-execution-why-the-future-of-blockchain-infrastructure-will-be-built-quietly",
+      "relationship": "related-article",
+      "strength": 1
+    },
     {
       "uid": "category:layer-2",
       "type": "category",
@@ -46487,11 +46887,75 @@
       "strength": 1
     },
     {
+      "uid": "topic:scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "type": "topic",
+      "title": "Scaling DeFi: What’s Next for Decentralized Finance in 2025?",
+      "canonicalUrl": "/topics/scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "type": "topic",
+      "title": "Scaling DeFi: What’s Next for Decentralized Finance in 2025?",
+      "canonicalUrl": "/topics/scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-difference-between-transaction-throughput-and-real-scalability",
+      "type": "topic",
+      "title": "The Difference Between Transaction Throughput and Real Scalability",
+      "canonicalUrl": "/topics/the-difference-between-transaction-throughput-and-real-scalability",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-difference-between-transaction-throughput-and-real-scalability",
+      "type": "topic",
+      "title": "The Difference Between Transaction Throughput and Real Scalability",
+      "canonicalUrl": "/topics/the-difference-between-transaction-throughput-and-real-scalability",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
+      "type": "topic",
+      "title": "The Evolution of Layer-2 Solutions: Scaling Blockchain for Mass Adoption",
+      "canonicalUrl": "/topics/the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
+      "type": "topic",
+      "title": "The Evolution of Layer-2 Solutions: Scaling Blockchain for Mass Adoption",
+      "canonicalUrl": "/topics/the-evolution-of-layer-2-solutions-scaling-blockchain-for-mass-adoption",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:throughput",
       "type": "glossary",
       "title": "Throughput",
       "canonicalUrl": "/glossary/throughput",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-infrastructure-is-becoming-blockchains-most-valuable-layer",
+      "type": "topic",
+      "title": "Why Infrastructure Is Becoming Blockchain’s Most Valuable Layer",
+      "canonicalUrl": "/topics/why-infrastructure-is-becoming-blockchains-most-valuable-layer",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-infrastructure-is-becoming-blockchains-most-valuable-layer",
+      "type": "topic",
+      "title": "Why Infrastructure Is Becoming Blockchain’s Most Valuable Layer",
+      "canonicalUrl": "/topics/why-infrastructure-is-becoming-blockchains-most-valuable-layer",
+      "relationship": "related-article",
       "strength": 1
     }
   ],
@@ -46502,6 +46966,22 @@
       "title": "Arbitrage",
       "canonicalUrl": "/glossary/arbitrage",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:bitcoin-etf-flows-in-2025-are-institutions-driving-the-next-bull-run",
+      "type": "topic",
+      "title": "Bitcoin ETF Flows in 2025: Are Institutions Driving the Next Bull Run?",
+      "canonicalUrl": "/topics/bitcoin-etf-flows-in-2025-are-institutions-driving-the-next-bull-run",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:bitcoin-etf-flows-in-2025-are-institutions-driving-the-next-bull-run",
+      "type": "topic",
+      "title": "Bitcoin ETF Flows in 2025: Are Institutions Driving the Next Bull Run?",
+      "canonicalUrl": "/topics/bitcoin-etf-flows-in-2025-are-institutions-driving-the-next-bull-run",
+      "relationship": "related-article",
       "strength": 1
     },
     {
@@ -46521,6 +47001,22 @@
       "strength": 1
     },
     {
+      "uid": "topic:risks-and-rewards-understanding-cryptocurrency-as-an-investment",
+      "type": "topic",
+      "title": "Risks and Rewards: Understanding Cryptocurrency as an Investment",
+      "canonicalUrl": "/topics/risks-and-rewards-understanding-cryptocurrency-as-an-investment",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:risks-and-rewards-understanding-cryptocurrency-as-an-investment",
+      "type": "topic",
+      "title": "Risks and Rewards: Understanding Cryptocurrency as an Investment",
+      "canonicalUrl": "/topics/risks-and-rewards-understanding-cryptocurrency-as-an-investment",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:slippage",
       "type": "glossary",
       "title": "Slippage",
@@ -46534,6 +47030,54 @@
       "title": "Stablecoins",
       "canonicalUrl": "/categories/stablecoins",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "topic",
+      "title": "The Impact of Institutional Adoption on the Crypto Market",
+      "canonicalUrl": "/topics/the-impact-of-institutional-adoption-on-the-crypto-market",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "topic",
+      "title": "The Impact of Institutional Adoption on the Crypto Market",
+      "canonicalUrl": "/topics/the-impact-of-institutional-adoption-on-the-crypto-market",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-role-of-stable-capital-in-volatile-markets",
+      "type": "topic",
+      "title": "The Role of Stable Capital in Volatile Markets",
+      "canonicalUrl": "/topics/the-role-of-stable-capital-in-volatile-markets",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-role-of-stable-capital-in-volatile-markets",
+      "type": "topic",
+      "title": "The Role of Stable Capital in Volatile Markets",
+      "canonicalUrl": "/topics/the-role-of-stable-capital-in-volatile-markets",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:understanding-crypto-volatility-how-to-navigate-market-swings",
+      "type": "topic",
+      "title": "Understanding Crypto Volatility: How to Navigate Market Swings",
+      "canonicalUrl": "/topics/understanding-crypto-volatility-how-to-navigate-market-swings",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:understanding-crypto-volatility-how-to-navigate-market-swings",
+      "type": "topic",
+      "title": "Understanding Crypto Volatility: How to Navigate Market Swings",
+      "canonicalUrl": "/topics/understanding-crypto-volatility-how-to-navigate-market-swings",
+      "relationship": "related-article",
       "strength": 1
     }
   ],
@@ -46565,6 +47109,22 @@
       "strength": 1
     },
     {
+      "uid": "topic:coinswap-is-back-online-faster-than-ever-with-new-data-feeds",
+      "type": "topic",
+      "title": "CoinSwap Is Back Online — Faster Than Ever with New Data Feeds",
+      "canonicalUrl": "/topics/coinswap-is-back-online-faster-than-ever-with-new-data-feeds",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:coinswap-is-back-online-faster-than-ever-with-new-data-feeds",
+      "type": "topic",
+      "title": "CoinSwap Is Back Online — Faster Than Ever with New Data Feeds",
+      "canonicalUrl": "/topics/coinswap-is-back-online-faster-than-ever-with-new-data-feeds",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:floor-price",
       "type": "glossary",
       "title": "Floor Price",
@@ -46573,11 +47133,75 @@
       "strength": 1
     },
     {
+      "uid": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "topic",
+      "title": "How Deterministic Execution Changes Enterprise Blockchain Adoption",
+      "canonicalUrl": "/topics/how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "topic",
+      "title": "How Deterministic Execution Changes Enterprise Blockchain Adoption",
+      "canonicalUrl": "/topics/how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:liquidity",
       "type": "glossary",
       "title": "Liquidity",
       "canonicalUrl": "/glossary/liquidity",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "topic",
+      "title": "The Impact of Institutional Adoption on the Crypto Market",
+      "canonicalUrl": "/topics/the-impact-of-institutional-adoption-on-the-crypto-market",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-impact-of-institutional-adoption-on-the-crypto-market",
+      "type": "topic",
+      "title": "The Impact of Institutional Adoption on the Crypto Market",
+      "canonicalUrl": "/topics/the-impact-of-institutional-adoption-on-the-crypto-market",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-crypto-looks-like-after-memecoins",
+      "type": "topic",
+      "title": "What Crypto Looks Like After Memecoins",
+      "canonicalUrl": "/topics/what-crypto-looks-like-after-memecoins",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-crypto-looks-like-after-memecoins",
+      "type": "topic",
+      "title": "What Crypto Looks Like After Memecoins",
+      "canonicalUrl": "/topics/what-crypto-looks-like-after-memecoins",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "topic",
+      "title": "Why Liquidity Is Becoming More Important Than Market Cap",
+      "canonicalUrl": "/topics/why-liquidity-is-becoming-more-important-than-market-cap",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "topic",
+      "title": "Why Liquidity Is Becoming More Important Than Market Cap",
+      "canonicalUrl": "/topics/why-liquidity-is-becoming-more-important-than-market-cap",
+      "relationship": "related-article",
       "strength": 1
     }
   ],
@@ -46641,6 +47265,38 @@
   ],
   "glossary:network-layer": [
     {
+      "uid": "topic:6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
+      "type": "topic",
+      "title": "6G and the Internet of Everything: The Next Leap in Connectivity",
+      "canonicalUrl": "/topics/6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
+      "type": "topic",
+      "title": "6G and the Internet of Everything: The Next Leap in Connectivity",
+      "canonicalUrl": "/topics/6g-and-the-internet-of-everything-the-next-leap-in-connectivity",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:6g-on-the-horizon-what-it-means-for-data-iot-and-decentralization",
+      "type": "topic",
+      "title": "6G on the Horizon: What It Means for Data, IoT, and Decentralization",
+      "canonicalUrl": "/topics/6g-on-the-horizon-what-it-means-for-data-iot-and-decentralization",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:6g-on-the-horizon-what-it-means-for-data-iot-and-decentralization",
+      "type": "topic",
+      "title": "6G on the Horizon: What It Means for Data, IoT, and Decentralization",
+      "canonicalUrl": "/topics/6g-on-the-horizon-what-it-means-for-data-iot-and-decentralization",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:distributed-ledger",
       "type": "glossary",
       "title": "Distributed Ledger",
@@ -46670,6 +47326,38 @@
       "title": "Node",
       "canonicalUrl": "/glossary/node",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-hidden-fragility-of-always-on-digital-systems",
+      "type": "topic",
+      "title": "The Hidden Fragility of “Always-On” Digital Systems",
+      "canonicalUrl": "/topics/the-hidden-fragility-of-always-on-digital-systems",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-hidden-fragility-of-always-on-digital-systems",
+      "type": "topic",
+      "title": "The Hidden Fragility of “Always-On” Digital Systems",
+      "canonicalUrl": "/topics/the-hidden-fragility-of-always-on-digital-systems",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
+      "type": "topic",
+      "title": "The Privacy Comeback: How ZK and Mixnets Are Saving Decentralization",
+      "canonicalUrl": "/topics/the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
+      "type": "topic",
+      "title": "The Privacy Comeback: How ZK and Mixnets Are Saving Decentralization",
+      "canonicalUrl": "/topics/the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
+      "relationship": "related-article",
       "strength": 1
     }
   ],
@@ -52863,6 +53551,22 @@
       "strength": 1
     },
     {
+      "uid": "glossary:network-layer",
+      "type": "glossary",
+      "title": "Network Layer",
+      "canonicalUrl": "/glossary/network-layer",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:network-layer",
+      "type": "glossary",
+      "title": "Network Layer",
+      "canonicalUrl": "/glossary/network-layer",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
       "uid": "research:new-directions-in-decentralized-physical-infrastructure-networks-modular-depin-infrastructure",
       "type": "research",
       "title": "New Directions in Decentralized Physical Infrastructure Networks: Modular DePIN Infrastructure",
@@ -53385,6 +54089,22 @@
   ],
   "topic:why-most-web3-startups-build-the-wrong-product-first": [
     {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
       "uid": "topic:why-abstraction-will-define-the-next-phase-of-web3",
       "type": "topic",
       "title": "Why Abstraction Will Define the Next Phase of Web3",
@@ -53450,6 +54170,22 @@
     }
   ],
   "topic:how-web3-quietly-becomes-part-of-everyday-technology": [
+    {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
     {
       "uid": "book:deterministic-execution",
       "type": "book",
@@ -53532,6 +54268,22 @@
     }
   ],
   "topic:the-transition-from-crypto-products-to-internet-products": [
+    {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
     {
       "uid": "topic:the-hidden-bottlenecks-slowing-down-web3-adoption",
       "type": "topic",
@@ -56340,6 +57092,22 @@
       "title": "The Role of Stable Capital in Volatile Markets",
       "canonicalUrl": "/topics/the-role-of-stable-capital-in-volatile-markets",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:volatility",
+      "type": "glossary",
+      "title": "Volatility",
+      "canonicalUrl": "/glossary/volatility",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:volatility",
+      "type": "glossary",
+      "title": "Volatility",
+      "canonicalUrl": "/glossary/volatility",
+      "relationship": "related-glossary",
       "strength": 1
     },
     {
@@ -61860,6 +62628,22 @@
     }
   ],
   "topic:why-most-new-technology-doesnt-matter-and-what-actually-does": [
+    {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:backend",
+      "type": "glossary",
+      "title": "Backend",
+      "canonicalUrl": "/glossary/backend",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
     {
       "uid": "topic:edge-computing-ai-and-blockchain-the-new-stack",
       "type": "topic",
@@ -111525,6 +112309,22 @@
       "strength": 1
     },
     {
+      "uid": "glossary:broadcast",
+      "type": "glossary",
+      "title": "Broadcast",
+      "canonicalUrl": "/glossary/broadcast",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:broadcast",
+      "type": "glossary",
+      "title": "Broadcast",
+      "canonicalUrl": "/glossary/broadcast",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
       "uid": "topic:introducing-aitrade-the-most-advanced-ai-powered-crypto-analysis-platform",
       "type": "topic",
       "title": "Introducing AiTrade: The Most Advanced AI-Powered Crypto Analysis Platform",
@@ -111656,6 +112456,22 @@
     }
   ],
   "topic:crypto-one-presale-is-live-the-all-in-one-app-thats-changing-the-game": [
+    {
+      "uid": "glossary:market-cap",
+      "type": "glossary",
+      "title": "Market Cap",
+      "canonicalUrl": "/glossary/market-cap",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:market-cap",
+      "type": "glossary",
+      "title": "Market Cap",
+      "canonicalUrl": "/glossary/market-cap",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
     {
       "uid": "topic:the-next-crypto-bull-market-will-look-different-than-the-last-one",
       "type": "topic",
@@ -137225,6 +138041,22 @@
       "strength": 1
     },
     {
+      "uid": "glossary:broadcast",
+      "type": "glossary",
+      "title": "Broadcast",
+      "canonicalUrl": "/glossary/broadcast",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:broadcast",
+      "type": "glossary",
+      "title": "Broadcast",
+      "canonicalUrl": "/glossary/broadcast",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
       "uid": "topic:building-an-affiliate-business-around-expertise-instead-of-traffic",
       "type": "topic",
       "title": "Building an Affiliate Business Around Expertise Instead of Traffic",
@@ -138952,6 +139784,22 @@
       "title": "Passive Income Myths That Refuse to Die",
       "canonicalUrl": "/topics/passive-income-myths-that-refuse-to-die",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:volatility",
+      "type": "glossary",
+      "title": "Volatility",
+      "canonicalUrl": "/glossary/volatility",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:volatility",
+      "type": "glossary",
+      "title": "Volatility",
+      "canonicalUrl": "/glossary/volatility",
+      "relationship": "related-glossary",
       "strength": 1
     },
     {
@@ -210615,6 +211463,51 @@
   "news:aave-reopens-frozen-markets-but-blocks-new-collateral-loans": [],
   "news:maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations": [],
   "news:metamask-adds-stellar-integration-but-cross-chain-bridges-require-manual-setup": [],
+  "news:traders-are-already-placing-leveraged-bets-on-anthropics-ipo-using-crypto-contracts": [],
+  "news:binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-6-3-billion-breach": [],
+  "news:institutions-embrace-crypto-staking-despite-shrinking-yields": [],
+  "news:uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton": [],
+  "news:as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards": [],
+  "news:18-years-in-what-has-bitcoin-truly-done": [],
+  "news:a-nasdaq-listed-company-may-sell-450-million-bitcoin-citing-binance-hack-and-quantum-fears": [],
+  "news:the-6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-3-billion": [],
+  "news:binance-says-90-of-stolen-assets-replenished-targets-sunday-withdrawals": [],
+  "news:bitcoin-held-up-better-than-expected-after-binance-hack-strive-ceo-says": [],
+  "news:bitcoin-turns-18-has-the-original-rebel-grown-up": [],
+  "news:texas-brothers-sentenced-to-15-years-in-prison-for-armed-crypto-robbery-kidnapping": [],
+  "news:blockchain-investigator-chainalysis-hit-by-cybersecurity-incident": [],
+  "news:binance-6-3b-record-hack-sparks-pre-election-political-clashes": [],
+  "news:binance-details-6-3b-hot-wallet-breach-as-exchange-pledges-to-cover-losses": [],
+  "news:bitcoins-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered": [],
+  "news:a-stolen-iphone-14-000-in-losses-and-londons-crypto-theft-problem": [],
+  "news:shopifys-base-usdc-checkout-puts-stablecoins-into-mainstream-e-commerce": [],
+  "news:hanwha-chooses-chainlink-data-and-ccip-for-global-tokenization-platform": [],
+  "news:chainlink-unveils-24-7-pricing-for-tokenized-assets-as-aave-adopts-feeds": [],
+  "news:uniswap-opens-tjar-fee-conversion-beyond-protocol-as-robinhood-joins": [],
+  "news:polygon-extends-open-money-stack-to-solana-for-stablecoin-payment-flows": [],
+  "news:fbi-confirms-north-koreas-role-in-6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses": [],
+  "news:aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors": [],
+  "news:polygon-adds-agent-payment-limits-to-open-money-stack": [],
+  "news:chainalysis-finds-443b-mena-crypto-economy-as-uae-growth-outpaces-region": [],
+  "news:further-asset-management-taps-chainlink-ace-for-abu-dhabi-compliance-platform": [],
+  "news:chainlink-launches-custodysync-with-anchorage-to-link-custody-and-defi-loans": [],
+  "news:tether-backed-fase-foundation-targets-scams-and-stablecoin-aid": [],
+  "news:uniswap-adds-developer-analytics-as-swap-api-usage-crosses-2b": [],
+  "news:bitcoins-recovery-faces-rising-derivatives-exposure-and-643-million-in-etf-outflows": [],
+  "news:jupiter-lends-withdrawal-liquidity-rebounds-from-near-zero-to-29-million-usdc": [],
+  "news:banks-are-owed-349b-by-private-credit-funds-that-may-not-be-collecting-cash-from-borrowers": [],
+  "news:chainalysis-breach-exposed-customer-names-emails-and-company-roles": [],
+  "news:saylor-calls-new-bitcoin-bull-market-but-strategy-8217-s-own-numbers-reveal-a-costly-problem": [],
+  "news:bitcoin-etfs-lose-643-million-in-a-day-wiping-out-the-weeks-inflows": [],
+  "news:prediction-markets-bring-robinhood-173-million-as-crypto-revenue-slumps": [],
+  "news:why-ripple-8217-s-16-trillion-payment-volume-isnt-boosting-xrp": [],
+  "news:binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-6-3-billion-hack": [],
+  "news:binance-says-phase-one-of-withdrawals-opens-after-6-3b-hack": [],
+  "news:fbi-blames-north-korea-for-record-6-3b-binance-hack": [],
+  "news:circle-details-cctp-path-for-non-usdc-tokens-across-supported-chains": [],
+  "news:curve-launches-first-native-non-evm-stableswap-deployment-on-stellar": [],
+  "news:ondo-brings-seven-tokenized-investment-portfolios-to-solana": [],
+  "news:solanas-reward-records-leave-stakers-with-a-gap-in-validator-fee-data": [],
   "newsletter:issue-1-blockchain-foundations": [],
   "newsletter:issue-2-smart-contracts-defi": [],
   "newsletter:issue-3-web3-decentralized-internet": [],
