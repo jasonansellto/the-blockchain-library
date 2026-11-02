@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T15:52:04.779Z",
-  "buildId": "250cf4b512cd43b4",
+  "generatedAt": "2026-11-02T17:03:24.636Z",
+  "buildId": "772660369e08615b",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -6013,6 +6013,222 @@
       "sourceCanonicalUrl": "/glossary/network-layer",
       "sourceSlug": "network-layer",
       "routeSlug": "network-layer"
+    },
+    {
+      "uid": "glossary:propagation",
+      "type": "glossary",
+      "title": "Propagation",
+      "path": "generated/v2/glossary/propagation",
+      "sourceCanonicalUrl": "/glossary/propagation",
+      "sourceSlug": "propagation",
+      "routeSlug": "propagation"
+    },
+    {
+      "uid": "glossary:blue-chip",
+      "type": "glossary",
+      "title": "Blue Chip",
+      "path": "generated/v2/glossary/blue-chip",
+      "sourceCanonicalUrl": "/glossary/blue-chip",
+      "sourceSlug": "blue-chip",
+      "routeSlug": "blue-chip"
+    },
+    {
+      "uid": "glossary:open-source",
+      "type": "glossary",
+      "title": "Open Source",
+      "path": "generated/v2/glossary/open-source",
+      "sourceCanonicalUrl": "/glossary/open-source",
+      "sourceSlug": "open-source",
+      "routeSlug": "open-source"
+    },
+    {
+      "uid": "glossary:pseudonymity",
+      "type": "glossary",
+      "title": "Pseudonymity",
+      "path": "generated/v2/glossary/pseudonymity",
+      "sourceCanonicalUrl": "/glossary/pseudonymity",
+      "sourceSlug": "pseudonymity",
+      "routeSlug": "pseudonymity"
+    },
+    {
+      "uid": "glossary:secondary-market",
+      "type": "glossary",
+      "title": "Secondary Market",
+      "path": "generated/v2/glossary/secondary-market",
+      "sourceCanonicalUrl": "/glossary/secondary-market",
+      "sourceSlug": "secondary-market",
+      "routeSlug": "secondary-market"
+    },
+    {
+      "uid": "glossary:decentralized-application",
+      "type": "glossary",
+      "title": "Decentralized Application",
+      "path": "generated/v2/glossary/decentralized-application",
+      "sourceCanonicalUrl": "/glossary/decentralized-application",
+      "sourceSlug": "decentralized-application",
+      "routeSlug": "decentralized-application"
+    },
+    {
+      "uid": "glossary:central-bank-digital-currency",
+      "type": "glossary",
+      "title": "Central Bank Digital Currency",
+      "path": "generated/v2/glossary/central-bank-digital-currency",
+      "sourceCanonicalUrl": "/glossary/central-bank-digital-currency",
+      "sourceSlug": "central-bank-digital-currency",
+      "routeSlug": "central-bank-digital-currency"
+    },
+    {
+      "uid": "glossary:legal-tender",
+      "type": "glossary",
+      "title": "Legal Tender",
+      "path": "generated/v2/glossary/legal-tender",
+      "sourceCanonicalUrl": "/glossary/legal-tender",
+      "sourceSlug": "legal-tender",
+      "routeSlug": "legal-tender"
+    },
+    {
+      "uid": "glossary:price-discovery",
+      "type": "glossary",
+      "title": "Price Discovery",
+      "path": "generated/v2/glossary/price-discovery",
+      "sourceCanonicalUrl": "/glossary/price-discovery",
+      "sourceSlug": "price-discovery",
+      "routeSlug": "price-discovery"
+    },
+    {
+      "uid": "glossary:network-latency",
+      "type": "glossary",
+      "title": "Network Latency",
+      "path": "generated/v2/glossary/network-latency",
+      "sourceCanonicalUrl": "/glossary/network-latency",
+      "sourceSlug": "network-latency",
+      "routeSlug": "network-latency"
+    },
+    {
+      "uid": "glossary:parachain",
+      "type": "glossary",
+      "title": "Parachain",
+      "path": "generated/v2/glossary/parachain",
+      "sourceCanonicalUrl": "/glossary/parachain",
+      "sourceSlug": "parachain",
+      "routeSlug": "parachain"
+    },
+    {
+      "uid": "glossary:privacy-preserving-computation",
+      "type": "glossary",
+      "title": "Privacy-Preserving Computation",
+      "path": "generated/v2/glossary/privacy-preserving-computation",
+      "sourceCanonicalUrl": "/glossary/privacy-preserving-computation",
+      "sourceSlug": "privacy-preserving-computation",
+      "routeSlug": "privacy-preserving-computation"
+    },
+    {
+      "uid": "glossary:regulatory-compliance",
+      "type": "glossary",
+      "title": "Regulatory Compliance",
+      "path": "generated/v2/glossary/regulatory-compliance",
+      "sourceCanonicalUrl": "/glossary/regulatory-compliance",
+      "sourceSlug": "regulatory-compliance",
+      "routeSlug": "regulatory-compliance"
+    },
+    {
+      "uid": "glossary:self-sovereignty",
+      "type": "glossary",
+      "title": "Self-Sovereignty",
+      "path": "generated/v2/glossary/self-sovereignty",
+      "sourceCanonicalUrl": "/glossary/self-sovereignty",
+      "sourceSlug": "self-sovereignty",
+      "routeSlug": "self-sovereignty"
+    },
+    {
+      "uid": "glossary:simplified-payment-verification",
+      "type": "glossary",
+      "title": "Simplified Payment Verification",
+      "path": "generated/v2/glossary/simplified-payment-verification",
+      "sourceCanonicalUrl": "/glossary/simplified-payment-verification",
+      "sourceSlug": "simplified-payment-verification",
+      "routeSlug": "simplified-payment-verification"
+    },
+    {
+      "uid": "glossary:tps",
+      "type": "glossary",
+      "title": "TPS",
+      "path": "generated/v2/glossary/tps",
+      "sourceCanonicalUrl": "/glossary/tps",
+      "sourceSlug": "tps",
+      "routeSlug": "tps"
+    },
+    {
+      "uid": "glossary:transaction-id",
+      "type": "glossary",
+      "title": "Transaction ID",
+      "path": "generated/v2/glossary/transaction-id",
+      "sourceCanonicalUrl": "/glossary/transaction-id",
+      "sourceSlug": "transaction-id",
+      "routeSlug": "transaction-id"
+    },
+    {
+      "uid": "glossary:ssl-tls",
+      "type": "glossary",
+      "title": "SSL/TLS",
+      "path": "generated/v2/glossary/ssl-tls",
+      "sourceCanonicalUrl": "/glossary/ssl-tls",
+      "sourceSlug": "ssl-tls",
+      "routeSlug": "ssl-tls"
+    },
+    {
+      "uid": "glossary:tls",
+      "type": "glossary",
+      "title": "TLS",
+      "path": "generated/v2/glossary/tls",
+      "sourceCanonicalUrl": "/glossary/tls",
+      "sourceSlug": "tls",
+      "routeSlug": "tls"
+    },
+    {
+      "uid": "glossary:two-factor-authentication",
+      "type": "glossary",
+      "title": "Two-Factor Authentication",
+      "path": "generated/v2/glossary/two-factor-authentication",
+      "sourceCanonicalUrl": "/glossary/two-factor-authentication",
+      "sourceSlug": "two-factor-authentication",
+      "routeSlug": "two-factor-authentication"
+    },
+    {
+      "uid": "glossary:supply-and-demand",
+      "type": "glossary",
+      "title": "Supply and Demand",
+      "path": "generated/v2/glossary/supply-and-demand",
+      "sourceCanonicalUrl": "/glossary/supply-and-demand",
+      "sourceSlug": "supply-and-demand",
+      "routeSlug": "supply-and-demand"
+    },
+    {
+      "uid": "glossary:supply-chain-management",
+      "type": "glossary",
+      "title": "Supply Chain Management",
+      "path": "generated/v2/glossary/supply-chain-management",
+      "sourceCanonicalUrl": "/glossary/supply-chain-management",
+      "sourceSlug": "supply-chain-management",
+      "routeSlug": "supply-chain-management"
+    },
+    {
+      "uid": "glossary:tangle",
+      "type": "glossary",
+      "title": "Tangle",
+      "path": "generated/v2/glossary/tangle",
+      "sourceCanonicalUrl": "/glossary/tangle",
+      "sourceSlug": "tangle",
+      "routeSlug": "tangle"
+    },
+    {
+      "uid": "glossary:transaction-signing",
+      "type": "glossary",
+      "title": "Transaction Signing",
+      "path": "generated/v2/glossary/transaction-signing",
+      "sourceCanonicalUrl": "/glossary/transaction-signing",
+      "sourceSlug": "transaction-signing",
+      "routeSlug": "transaction-signing"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",
@@ -12565,6 +12781,15 @@
       "sourceCanonicalUrl": "/topics/health-ai-appeal-path-accuracy-score",
       "sourceSlug": "health-ai-appeal-path-accuracy-score",
       "routeSlug": "health-ai-appeal-path-accuracy-score"
+    },
+    {
+      "uid": "topic:tokenized-money-convertibility-test",
+      "type": "topic",
+      "title": "Tokenized Money Needs a Convertibility Test",
+      "path": "generated/v2/topics/tokenized-money-convertibility-test",
+      "sourceCanonicalUrl": "/topics/tokenized-money-convertibility-test",
+      "sourceSlug": "tokenized-money-convertibility-test",
+      "routeSlug": "tokenized-money-convertibility-test"
     },
     {
       "uid": "book:the-quiet-rebuild-of-the-internet",

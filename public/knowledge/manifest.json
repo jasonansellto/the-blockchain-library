@@ -1,16 +1,16 @@
 {
   "compilerVersion": "2.0.1",
   "schemaVersion": "2.0",
-  "buildId": "250cf4b512cd43b4",
+  "buildId": "772660369e08615b",
   "source": {
-    "exportDate": "2026-11-01T15:52:04.779Z",
+    "exportDate": "2026-11-02T17:03:24.636Z",
     "version": "1.0.0",
     "schemaVersion": "1.0"
   },
-  "generatedAt": "2026-11-01T15:52:04.779Z",
+  "generatedAt": "2026-11-02T17:03:24.636Z",
   "sourceCounts": {
-    "glossary": 685,
-    "articles": 728,
+    "glossary": 709,
+    "articles": 729,
     "books": 98,
     "research": 294,
     "learning-paths": 12,
@@ -19,28 +19,28 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 6312,
-    "newsletters": 21
+    "news": 6393,
+    "newsletters": 22
   },
   "totals": {
-    "rawObjects": 8577,
-    "canonicalObjects": 8528,
-    "edges": 25148,
-    "searchableObjects": 8528
+    "rawObjects": 8684,
+    "canonicalObjects": 8635,
+    "edges": 25391,
+    "searchableObjects": 8635
   },
   "quality": {
-    "rawObjects": 8577,
-    "canonicalObjects": 8528,
+    "rawObjects": 8684,
+    "canonicalObjects": 8635,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 49,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25148,
-    "unresolvedRelationships": 434,
-    "uniqueMissingConcepts": 367,
+    "totalEdges": 25391,
+    "unresolvedRelationships": 446,
+    "uniqueMissingConcepts": 391,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 6464,
-    "missingTags": 953,
+    "missingSeoDescription": 6546,
+    "missingTags": 977,
     "uncategorized": 427
   },
   "files": {

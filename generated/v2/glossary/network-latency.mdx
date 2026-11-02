@@ -1,0 +1,57 @@
+---
+title: "Network Latency"
+description: "Network latency refers to the time delay experienced during data transmission across a distributed network, specifically measuring the interval between a signal being sent from one node and its receipt by another. In the context of the Vector Smart Chain and similar distributed l"
+---
+
+# Network Latency
+
+Network latency refers to the time delay experienced during data transmission across a distributed network, specifically measuring the interval between a signal being sent from one node and its receipt by another. In the context of the Vector Smart Chain and similar distributed ledger technologies, this metric encompasses the duration required for transaction propagation, consensus validation, and state synchronization across geographically dispersed nodes. High latency can exacerbate synchronization issues, delay block finality, and potentially increase the probability of network forks if communication intervals exceed block production speeds.
+
+## Definition
+
+Network latency refers to the time delay experienced during data transmission across a distributed network, specifically measuring the interval between a signal being sent from one node and its receipt by another. In the context of the Vector Smart Chain and similar distributed ledger technologies, this metric encompasses the duration required for transaction propagation, consensus validation, and state synchronization across geographically dispersed nodes. High latency can exacerbate synchronization issues, delay block finality, and potentially increase the probability of network forks if communication intervals exceed block production speeds.
+
+## Simple explanation
+
+Think of network latency like the time it takes for a friend to hear you after you shout across a large field. If you are standing next to each other, they hear you instantly; if they are a mile away, there is a delay before the sound reaches them. In blockchain, this is the time it takes for a computer to send a transaction message to all the other computers in the network. If the delay is too long, the system becomes sluggish and slow to agree on the latest information.
+
+## Why it matters
+
+Network latency is a critical bottleneck for blockchain scalability and user experience, directly impacting how quickly transactions are confirmed and finalized. Excessive latency can lead to network congestion and inconsistent state views, which are detrimental to high-frequency trading applications and real-time decentralized finance protocols.
+
+## How it works
+
+Network latency is determined by the cumulative time spent on packet transmission, propagation through physical infrastructure, and node processing delays during the consensus algorithm. Data packets must travel across routers and switches, often over vast physical distances, before being parsed by the receiving node's software. As the number of nodes increases or the global geographical spread widens, the time required to achieve a synchronized consensus state typically rises, creating inherent performance constraints.
+
+## Real-world example
+
+In the Vector Smart Chain environment, a validator in Tokyo attempting to broadcast a block to peers in London will experience inevitable signal delay due to the speed of light constraints and physical internet infrastructure routing, which necessitates efficient gossip protocols to mitigate the impact on block production intervals.
+
+## Advantages
+
+- Identifies bottlenecks in decentralized network architecture
+- Helps optimize peer-to-peer messaging protocols
+- Assists in determining optimal validator node placement
+
+## Limitations
+
+- Physical limitations imposed by the speed of light
+- Vulnerability to poor internet infrastructure in certain regions
+- Difficult to minimize in highly decentralized global networks
+
+## Common misconceptions
+
+- People often mistake high latency for low network bandwidth, but they are technically separate metrics.
+- It is a common myth that adding more nodes to a network will automatically decrease latency.
+## Related knowledge
+
+- [Consensus Mechanism](/generated/v2/glossary/consensus-mechanism) — term
+- [From Throughput to Reliability: The New Metrics That Matter](/generated/v2/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — article
+- [From Throughput to Reliability: The New Metrics That Matter](/generated/v2/topics/from-throughput-to-reliability-the-new-metrics-that-matter) — related-article
+- [Gossip Protocol](/generated/v2/glossary/gossip-protocol) — term
+- [Sharding](/generated/v2/glossary/sharding) — term
+- [Throughput](/generated/v2/glossary/throughput) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:network-latency`

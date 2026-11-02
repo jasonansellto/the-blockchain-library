@@ -1,0 +1,57 @@
+---
+title: "Tangle"
+description: "The Tangle is a Directed Acyclic Graph (DAG) based data structure used primarily by the IOTA network to achieve decentralized consensus without traditional blockchain blocks or miners. Instead of linear chaining, every new transaction must validate two previous transactions to be"
+---
+
+# Tangle
+
+The Tangle is a Directed Acyclic Graph (DAG) based data structure used primarily by the IOTA network to achieve decentralized consensus without traditional blockchain blocks or miners. Instead of linear chaining, every new transaction must validate two previous transactions to be included in the network. This asynchronous, non-sequential architecture allows for massive scalability and feeless transactions by eliminating the competitive mining process, distributing the validation burden across all participating users rather than a centralized set of block producers.
+
+## Definition
+
+The Tangle is a Directed Acyclic Graph (DAG) based data structure used primarily by the IOTA network to achieve decentralized consensus without traditional blockchain blocks or miners. Instead of linear chaining, every new transaction must validate two previous transactions to be included in the network. This asynchronous, non-sequential architecture allows for massive scalability and feeless transactions by eliminating the competitive mining process, distributing the validation burden across all participating users rather than a centralized set of block producers.
+
+## Simple explanation
+
+Imagine a classroom where students don't wait for a teacher to mark their work. Instead, before a student can hand in their own homework, they must first quickly check and approve the work of two other classmates. As everyone keeps doing this, a web of interconnected homework assignments grows. There is no single line of papers; instead, there is a giant, expanding web where everyone helps verify the system's accuracy as they join, making the whole group process faster and more efficient as more students participate.
+
+## Why it matters
+
+The Tangle enables high-throughput, feeless microtransactions that are critical for the Internet of Things (IoT) and machine-to-machine economies. By removing transaction fees and mining competition, it provides a foundation for sustainable, high-volume data and value exchange that traditional blockchains often struggle to support.
+
+## How it works
+
+The Tangle utilizes a Directed Acyclic Graph where each vertex represents a transaction. When a new user issues a transaction, they must perform a small amount of Proof-of-Work to validate two prior, non-conflicting transactions. These validations create 'edges' in the graph, linking the new transaction to the existing structure. Consensus is reached cumulatively as more transactions reference existing ones, increasing the 'weight' or confirmation confidence of older transactions over time.
+
+## Real-world example
+
+The IOTA Foundation utilizes the Tangle architecture to facilitate secure data and value transfers for industrial IoT applications, such as managing supply chain transparency or energy grid monitoring in smart cities.
+
+## Advantages
+
+- Highly scalable throughput
+- Zero transaction fees
+- Energy efficient design
+- Supports microtransactions
+
+## Limitations
+
+- Requires a central coordinator for security
+- Complex consensus finality
+- Potential for network partitioning
+- Vulnerable to Sybil attacks
+
+## Common misconceptions
+
+- The Tangle is identical to a blockchain, but it is actually a Directed Acyclic Graph.
+- The Tangle is fully decentralized without any oversight, though it currently relies on a Coordinator for finality.
+## Related knowledge
+
+- [Consensus Mechanism](/generated/v2/glossary/consensus-mechanism) — term
+- [Directed Acyclic Graph](/generated/v2/glossary/directed-acyclic-graph) — term
+- [Proof of Work](/generated/v2/glossary/proof-of-work) — term
+- [Scalability](/generated/v2/glossary/scalability) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:tangle`

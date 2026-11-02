@@ -1,0 +1,60 @@
+---
+title: "Propagation"
+description: "Propagation refers to the process of disseminating transaction data or block updates throughout a peer-to-peer network. In a decentralized blockchain, nodes continuously communicate to synchronize their local ledger copies. When a new transaction is initiated or a block is mined,"
+---
+
+# Propagation
+
+Propagation refers to the process of disseminating transaction data or block updates throughout a peer-to-peer network. In a decentralized blockchain, nodes continuously communicate to synchronize their local ledger copies. When a new transaction is initiated or a block is mined, the originating node broadcasts this information to its connected peers, who validate the data before further propagating it across the network. This gossip protocol ensures that all participants converge on the same state, maintaining the network's consensus and integrity over time.
+
+## Definition
+
+Propagation refers to the process of disseminating transaction data or block updates throughout a peer-to-peer network. In a decentralized blockchain, nodes continuously communicate to synchronize their local ledger copies. When a new transaction is initiated or a block is mined, the originating node broadcasts this information to its connected peers, who validate the data before further propagating it across the network. This gossip protocol ensures that all participants converge on the same state, maintaining the network's consensus and integrity over time.
+
+## Simple explanation
+
+Imagine you are in a crowded room and want to share a secret. You tell three friends, who then each tell three more friends. Eventually, everyone in the room knows the secret. Propagation is how computers in a blockchain talk to each other to make sure everyone has the same information about new transactions as quickly as possible.
+
+## Why it matters
+
+Efficient propagation is vital for network health because it dictates how fast a blockchain achieves consensus and confirms transactions. Slow propagation can lead to network forks or security vulnerabilities where outdated information causes different parts of the network to diverge.
+
+## How it works
+
+When a node receives new information, it checks the data for validity based on network rules. If the data is valid, the node updates its internal ledger. It then forwards the information to its immediate neighboring peers, who repeat this validation and forwarding process until the data reaches the entire network.
+
+## Real-world example
+
+Bitcoin nodes use a 'gossip protocol' to propagate blocks across the globe, ensuring that even remote mining pools receive the latest block data to start mining on top of the correct chain tip.
+
+## Advantages
+
+- Ensures network-wide synchronization of ledger state
+- Enables decentralized consensus without a central server
+- Increases network resilience through redundancy
+
+## Limitations
+
+- High latency in globally distributed networks
+- Potential for bandwidth congestion during peak activity
+- Vulnerability to eclipse attacks if propagation is manipulated
+
+## Common misconceptions
+
+- Many believe propagation happens instantly across all nodes simultaneously.
+- People often assume that all nodes receive information directly from the source.
+## Related knowledge
+
+- [Block Time](/generated/v2/glossary/block-time) — term
+- [Consensus Mechanism](/generated/v2/glossary/consensus-mechanism) — term
+- [Gossip Protocol](/generated/v2/glossary/gossip-protocol) — term
+- [Latency](/generated/v2/glossary/latency) — term
+- [Peer-to-Peer](/generated/v2/glossary/peer-to-peer) — term
+- [Web3 in 2026: UX, Scaling, and The Breakout Year for Mass Adoption](/generated/v2/topics/web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption) — article
+- [Web3 in 2026: UX, Scaling, and The Breakout Year for Mass Adoption](/generated/v2/topics/web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption) — related-article
+- [Why Most Blockchain Applications Feel Slower Than They Should](/generated/v2/topics/why-most-blockchain-applications-feel-slower-than-they-should) — article
+- [Why Most Blockchain Applications Feel Slower Than They Should](/generated/v2/topics/why-most-blockchain-applications-feel-slower-than-they-should) — related-article
+
+---
+
+**Canonical knowledge ID:** `glossary:propagation`

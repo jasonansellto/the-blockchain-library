@@ -1,0 +1,59 @@
+---
+title: "Transaction Signing"
+description: "Transaction signing is the cryptographic process by which a user proves ownership of the private key associated with a specific blockchain address to authorize the transfer of assets or execution of smart contract functions. By applying a digital signature—generated using ellipti"
+---
+
+# Transaction Signing
+
+Transaction signing is the cryptographic process by which a user proves ownership of the private key associated with a specific blockchain address to authorize the transfer of assets or execution of smart contract functions. By applying a digital signature—generated using elliptic curve cryptography—the sender creates a non-forgeable proof that the transaction data, including recipient address and amount, has been approved by the legitimate asset controller. This process ensures the integrity of the data while preventing unauthorized parties from altering the instruction set before it is broadcast to the network nodes for validation.
+
+## Definition
+
+Transaction signing is the cryptographic process by which a user proves ownership of the private key associated with a specific blockchain address to authorize the transfer of assets or execution of smart contract functions. By applying a digital signature—generated using elliptic curve cryptography—the sender creates a non-forgeable proof that the transaction data, including recipient address and amount, has been approved by the legitimate asset controller. This process ensures the integrity of the data while preventing unauthorized parties from altering the instruction set before it is broadcast to the network nodes for validation.
+
+## Simple explanation
+
+Imagine you are sending a letter inside a locked box. To prove you are the one sending it, you use a special stamp that only you possess. In the digital world, transaction signing is that unique stamp. When you click 'send' on a crypto wallet, you are using your secret digital key to 'stamp' the transaction. This proves to the whole network that you truly own the coins and have given permission to move them, ensuring nobody else can pretend to be you.
+
+## Why it matters
+
+Transaction signing is the fundamental security layer of decentralized finance, ensuring that only the rightful owner of an asset can move it. Without this cryptographic verification, there would be no way to prevent malicious actors from authorizing unauthorized transfers from your wallet.
+
+## How it works
+
+When a user initiates a transaction, their wallet software combines the transaction details with their private key using a cryptographic algorithm, typically ECDSA or EdDSA. This process generates a unique signature string that accompanies the transaction data. Network nodes then use the sender's public key to verify that the signature is mathematically valid for that specific data, confirming authorization without ever exposing the private key itself.
+
+## Real-world example
+
+When a user swaps tokens on a platform like Uniswap or sends ETH via MetaMask, the wallet interface prompts the user to review the details and confirm the action, which triggers the backend to sign the transaction data before it is broadcast to the Ethereum blockchain.
+
+## Advantages
+
+- Ensures non-repudiation of asset transfers
+- Prevents unauthorized modification of transaction data
+- Protects private keys from being exposed to the network
+- Enables secure decentralized asset management
+
+## Limitations
+
+- Irreversible if signed for malicious contracts
+- Susceptible to blind signing attacks
+- Requires complex key management for users
+- Risk of loss if the signing device is compromised
+
+## Common misconceptions
+
+- Many believe that signing a transaction is the same as just clicking a button, when in reality it is a complex cryptographic computation.
+- People often mistakenly think that signing a message reveals their private key to the receiving party or the network.
+## Related knowledge
+
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Elliptic Curve Cryptography](/generated/v2/glossary/elliptic-curve-cryptography) — term
+- [Nonce](/generated/v2/glossary/nonce) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+- [Public Key](/generated/v2/glossary/public-key) — term
+- [Wallet](/generated/v2/glossary/wallet) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:transaction-signing`

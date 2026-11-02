@@ -7358,6 +7358,270 @@
     "text": "Network Layer The network layer in a blockchain architecture, often referred to as the peer-to-peer (P2P) layer, serves as the fundamental communication backbone that enables nodes to discover one another, propagate transactions, and broadcast block information across a distributed system. It operates independently of the consensus mechanism, utilizing gossip protocols to ensure that all participating nodes maintain a consistent view of the ledger's state. By facilitating the seamless dissemination of data packets, the network layer ensures high availability, censorship resistance, and robust connectivity across a globally decentralized ecosystem. Network Layer — Definition & Explanation | The Blockchain Library Explore the blockchain network layer: the essential P2P infrastructure enabling node communication, transaction propagation, and data synchronization in Web3."
   },
   {
+    "id": "glossary:propagation",
+    "type": "glossary",
+    "title": "Propagation",
+    "aliases": [],
+    "summary": "Propagation refers to the process of disseminating transaction data or block updates throughout a peer-to-peer network. In a decentralized blockchain, nodes continuously communicate to synchronize their local ledger copies. When a new transaction is initiated or a block is mined, the originating node broadcasts this information to its connected peers, who validate the data before further propagating it across the network. This gossip protocol ensures that all participants converge on the same state, maintaining the network's consensus and integrity over time.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/propagation",
+    "text": "Propagation Propagation refers to the process of disseminating transaction data or block updates throughout a peer-to-peer network. In a decentralized blockchain, nodes continuously communicate to synchronize their local ledger copies. When a new transaction is initiated or a block is mined, the originating node broadcasts this information to its connected peers, who validate the data before further propagating it across the network. This gossip protocol ensures that all participants converge on the same state, maintaining the network's consensus and integrity over time. Propagation — Definition & Explanation | The Blockchain Library Learn how blockchain propagation works. Discover how peer-to-peer gossip protocols enable decentralized networks to synchronize transaction data across the globe."
+  },
+  {
+    "id": "glossary:blue-chip",
+    "type": "glossary",
+    "title": "Blue Chip",
+    "aliases": [],
+    "summary": "In the context of cryptocurrency, a 'blue chip' asset refers to a high-market-capitalization project that is considered stable, reliable, and fundamentally sound. These assets are generally perceived as having a long track record, significant institutional adoption, and high liquidity. Unlike speculative, low-cap 'altcoins,' blue chip cryptocurrencies are often viewed as foundational pillars of the digital asset market, serving as stores of value or necessary infrastructure components that are less prone to catastrophic total failure, though they remain subject to market volatility.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/blue-chip",
+    "text": "Blue Chip In the context of cryptocurrency, a 'blue chip' asset refers to a high-market-capitalization project that is considered stable, reliable, and fundamentally sound. These assets are generally perceived as having a long track record, significant institutional adoption, and high liquidity. Unlike speculative, low-cap 'altcoins,' blue chip cryptocurrencies are often viewed as foundational pillars of the digital asset market, serving as stores of value or necessary infrastructure components that are less prone to catastrophic total failure, though they remain subject to market volatility. Blue Chip — Definition & Explanation | The Blockchain Library Discover what blue chip cryptocurrencies are. Learn why assets like Bitcoin and Ethereum are considered the reliable pillars of the digital asset market."
+  },
+  {
+    "id": "glossary:open-source",
+    "type": "glossary",
+    "title": "Open Source",
+    "aliases": [],
+    "summary": "Open source refers to software with source code that is publicly available for anyone to inspect, modify, and enhance. In blockchain, this is a fundamental design principle, ensuring transparency and auditability. Because the code is accessible, the global developer community can verify security, suggest improvements, and build upon existing protocols without needing permission. This collaborative approach fosters trust, as users do not have to rely solely on the claims of a development team, but can instead verify the network's underlying logic themselves.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/open-source",
+    "text": "Open Source Open source refers to software with source code that is publicly available for anyone to inspect, modify, and enhance. In blockchain, this is a fundamental design principle, ensuring transparency and auditability. Because the code is accessible, the global developer community can verify security, suggest improvements, and build upon existing protocols without needing permission. This collaborative approach fosters trust, as users do not have to rely solely on the claims of a development team, but can instead verify the network's underlying logic themselves. Open Source — Definition & Explanation | The Blockchain Library Understand the role of open source in blockchain. Learn how transparent, public code fosters trust, security, and innovation in the Web3 ecosystem."
+  },
+  {
+    "id": "glossary:pseudonymity",
+    "type": "glossary",
+    "title": "Pseudonymity",
+    "aliases": [],
+    "summary": "Pseudonymity in blockchain refers to a state where participants interact with the network using alphanumeric strings, known as public addresses or keys, rather than their real-world legal identities. While these addresses are publicly visible on a distributed ledger and their transaction history is transparent, they are not inherently linked to the user's offline identity. Pseudonymity allows for verifiable activity without requiring direct personal attribution, occupying a middle ground between total anonymity, where no history is traceable, and identity-linked systems.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/pseudonymity",
+    "text": "Pseudonymity Pseudonymity in blockchain refers to a state where participants interact with the network using alphanumeric strings, known as public addresses or keys, rather than their real-world legal identities. While these addresses are publicly visible on a distributed ledger and their transaction history is transparent, they are not inherently linked to the user's offline identity. Pseudonymity allows for verifiable activity without requiring direct personal attribution, occupying a middle ground between total anonymity, where no history is traceable, and identity-linked systems. Pseudonymity — Definition & Explanation | The Blockchain Library Learn about pseudonymity in blockchain: understand how public keys function as aliases to provide privacy while maintaining ledger transparency in Web3 ecosystems."
+  },
+  {
+    "id": "glossary:secondary-market",
+    "type": "glossary",
+    "title": "Secondary Market",
+    "aliases": [],
+    "summary": "A secondary market in the context of Non-Fungible Tokens (NFTs) refers to any decentralized or centralized platform where digital assets are traded between users after their initial sale or minting from the original project creator. Unlike the primary market, where the issuer sells the asset directly to the buyer, the secondary market facilitates peer-to-peer exchanges. These platforms rely on smart contracts to execute trades, ensuring transparent ownership transfer and the automatic distribution of secondary sale royalties back to the original creators when programmed into the token's metadata.",
+    "categoryId": "6a4e39d110805a52385d8fcb",
+    "tags": [],
+    "canonicalUrl": "/glossary/secondary-market",
+    "text": "Secondary Market A secondary market in the context of Non-Fungible Tokens (NFTs) refers to any decentralized or centralized platform where digital assets are traded between users after their initial sale or minting from the original project creator. Unlike the primary market, where the issuer sells the asset directly to the buyer, the secondary market facilitates peer-to-peer exchanges. These platforms rely on smart contracts to execute trades, ensuring transparent ownership transfer and the automatic distribution of secondary sale royalties back to the original creators when programmed into the token's metadata. Secondary Market — Definition & Explanation | The Blockchain Library Learn about NFT secondary markets: the platforms where digital assets are traded after their initial sale. Discover how royalties and liquidity work in Web3."
+  },
+  {
+    "id": "glossary:decentralized-application",
+    "type": "glossary",
+    "title": "Decentralized Application",
+    "aliases": [],
+    "summary": "A Decentralized Application (dApp) is a software program that runs on a distributed computing network, typically a blockchain, rather than on a single centralized server. These applications utilize smart contracts to execute logic, ensuring that the backend code is immutable, transparent, and censorship-resistant. Because they operate on a peer-to-peer infrastructure, dApps allow users to interact with digital services—such as finance, gaming, or content platforms—without the need for intermediaries or centralized authorities, shifting control of data and assets to the individual user.",
+    "categoryId": "6a4e39d110805a52385d8fcb",
+    "tags": [],
+    "canonicalUrl": "/glossary/decentralized-application",
+    "text": "Decentralized Application A Decentralized Application (dApp) is a software program that runs on a distributed computing network, typically a blockchain, rather than on a single centralized server. These applications utilize smart contracts to execute logic, ensuring that the backend code is immutable, transparent, and censorship-resistant. Because they operate on a peer-to-peer infrastructure, dApps allow users to interact with digital services—such as finance, gaming, or content platforms—without the need for intermediaries or centralized authorities, shifting control of data and assets to the individual user. Decentralized Application — Definition & Explanation | The Blockchain Library Understand what a Decentralized Application (dApp) is. Learn how these blockchain-based apps provide transparent, censorship-resistant services without middlemen."
+  },
+  {
+    "id": "glossary:central-bank-digital-currency",
+    "type": "glossary",
+    "title": "Central Bank Digital Currency",
+    "aliases": [],
+    "summary": "A Central Bank Digital Currency (CBDC) is a digital form of a country's sovereign currency that is issued and regulated by the nation's central bank. Unlike commercial bank money, which represents a liability of a private institution, a CBDC serves as a direct digital liability of the central bank. While it utilizes cryptographic ledger technology to facilitate secure, instantaneous peer-to-peer transfers, it remains centralized, distinct from decentralized cryptocurrencies, and operates within the parameters of national monetary policy and government oversight.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/central-bank-digital-currency",
+    "text": "Central Bank Digital Currency A Central Bank Digital Currency (CBDC) is a digital form of a country's sovereign currency that is issued and regulated by the nation's central bank. Unlike commercial bank money, which represents a liability of a private institution, a CBDC serves as a direct digital liability of the central bank. While it utilizes cryptographic ledger technology to facilitate secure, instantaneous peer-to-peer transfers, it remains centralized, distinct from decentralized cryptocurrencies, and operates within the parameters of national monetary policy and government oversight. Central Bank Digital Currency — Definition & Explanation | The Blockchain Library Learn what a Central Bank Digital Currency (CBDC) is. Explore how government-issued digital money works, its benefits, and its impact on the global financial system."
+  },
+  {
+    "id": "glossary:legal-tender",
+    "type": "glossary",
+    "title": "Legal Tender",
+    "aliases": [],
+    "summary": "Legal tender is a form of currency or payment instrument that must be accepted by law for the discharge of debts, public charges, taxes, and other financial obligations within a specific jurisdiction. The status of legal tender is granted by government legislation, compelling creditors to accept the designated currency at its face value. In the context of blockchain, the designation of a cryptocurrency as legal tender represents a formal state recognition of the asset as a valid medium of exchange, equal to the national fiat currency.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/legal-tender",
+    "text": "Legal Tender Legal tender is a form of currency or payment instrument that must be accepted by law for the discharge of debts, public charges, taxes, and other financial obligations within a specific jurisdiction. The status of legal tender is granted by government legislation, compelling creditors to accept the designated currency at its face value. In the context of blockchain, the designation of a cryptocurrency as legal tender represents a formal state recognition of the asset as a valid medium of exchange, equal to the national fiat currency. Legal Tender — Definition & Explanation | The Blockchain Library Understand the meaning of legal tender in finance and crypto. Discover how government recognition of digital assets impacts commerce and regulatory frameworks."
+  },
+  {
+    "id": "glossary:price-discovery",
+    "type": "glossary",
+    "title": "Price Discovery",
+    "aliases": [],
+    "summary": "Price discovery is the process through which the market determines the equilibrium price of an asset based on the interaction of buyers and sellers. It is driven by the flow of information, including market sentiment, supply-demand dynamics, and economic data. In decentralized markets, this process occurs through automated protocols like order books or Automated Market Makers (AMMs), which aggregate dispersed liquidity and investor intent to reach a clearing price that reflects the asset's current valuation.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/price-discovery",
+    "text": "Price Discovery Price discovery is the process through which the market determines the equilibrium price of an asset based on the interaction of buyers and sellers. It is driven by the flow of information, including market sentiment, supply-demand dynamics, and economic data. In decentralized markets, this process occurs through automated protocols like order books or Automated Market Makers (AMMs), which aggregate dispersed liquidity and investor intent to reach a clearing price that reflects the asset's current valuation. Price Discovery — Definition & Explanation | The Blockchain Library Learn how price discovery works in crypto markets. Explore the mechanics of supply and demand, order books, and AMMs in determining the fair value of assets."
+  },
+  {
+    "id": "glossary:network-latency",
+    "type": "glossary",
+    "title": "Network Latency",
+    "aliases": [],
+    "summary": "Network latency refers to the time delay experienced during data transmission across a distributed network, specifically measuring the interval between a signal being sent from one node and its receipt by another. In the context of the Vector Smart Chain and similar distributed ledger technologies, this metric encompasses the duration required for transaction propagation, consensus validation, and state synchronization across geographically dispersed nodes. High latency can exacerbate synchronization issues, delay block finality, and potentially increase the probability of network forks if communication intervals exceed block production speeds.",
+    "categoryId": "6a4e39d110805a52385d8fd6",
+    "tags": [],
+    "canonicalUrl": "/glossary/network-latency",
+    "text": "Network Latency Network latency refers to the time delay experienced during data transmission across a distributed network, specifically measuring the interval between a signal being sent from one node and its receipt by another. In the context of the Vector Smart Chain and similar distributed ledger technologies, this metric encompasses the duration required for transaction propagation, consensus validation, and state synchronization across geographically dispersed nodes. High latency can exacerbate synchronization issues, delay block finality, and potentially increase the probability of network forks if communication intervals exceed block production speeds. Network Latency — Definition & Explanation | The Blockchain Library Learn about network latency in blockchain, its impact on transaction speed, consensus, and why it remains a critical factor for Vector Smart Chain scalability."
+  },
+  {
+    "id": "glossary:parachain",
+    "type": "glossary",
+    "title": "Parachain",
+    "aliases": [],
+    "summary": "A Parachain is a custom, project-specific blockchain that runs in parallel within the Polkadot or Kusama relay chain ecosystem. Unlike standalone blockchains that must manage their own security and validator sets, parachains benefit from the shared security and interoperability provided by the central Relay Chain. Parachains are heterogeneous, meaning they can be architected for specific use cases, such as DeFi, identity, or gaming, while maintaining the ability to pass arbitrary data or tokens across other chains within the network.",
+    "categoryId": "6a4e39d110805a52385d8fd0",
+    "tags": [],
+    "canonicalUrl": "/glossary/parachain",
+    "text": "Parachain A Parachain is a custom, project-specific blockchain that runs in parallel within the Polkadot or Kusama relay chain ecosystem. Unlike standalone blockchains that must manage their own security and validator sets, parachains benefit from the shared security and interoperability provided by the central Relay Chain. Parachains are heterogeneous, meaning they can be architected for specific use cases, such as DeFi, identity, or gaming, while maintaining the ability to pass arbitrary data or tokens across other chains within the network. Parachain — Definition & Explanation | The Blockchain Library Learn what a Parachain is in blockchain technology. Understand how Polkadot parachains provide shared security, scalability, and cross-chain interoperability."
+  },
+  {
+    "id": "glossary:privacy-preserving-computation",
+    "type": "glossary",
+    "title": "Privacy-Preserving Computation",
+    "aliases": [],
+    "summary": "Privacy-preserving computation refers to a set of cryptographic and algorithmic techniques that allow data to be processed or analyzed without revealing the underlying raw information to the party performing the computation. In the context of blockchain and AI, it enables decentralized nodes to execute smart contracts or train machine learning models on encrypted datasets. By ensuring data remains private throughout its lifecycle, this field reconciles the tension between the transparency requirements of public ledgers and the stringent data privacy mandates required for sensitive information processing.",
+    "categoryId": "6a4e39d110805a52385d8fd1",
+    "tags": [],
+    "canonicalUrl": "/glossary/privacy-preserving-computation",
+    "text": "Privacy-Preserving Computation Privacy-preserving computation refers to a set of cryptographic and algorithmic techniques that allow data to be processed or analyzed without revealing the underlying raw information to the party performing the computation. In the context of blockchain and AI, it enables decentralized nodes to execute smart contracts or train machine learning models on encrypted datasets. By ensuring data remains private throughout its lifecycle, this field reconciles the tension between the transparency requirements of public ledgers and the stringent data privacy mandates required for sensitive information processing. Privacy-Preserving Computation — Definition & Explanation | The Blockchain Library Learn about privacy-preserving computation in blockchain. Understand how cryptographic techniques allow AI to process data without compromising user confidentiality."
+  },
+  {
+    "id": "glossary:regulatory-compliance",
+    "type": "glossary",
+    "title": "Regulatory Compliance",
+    "aliases": [],
+    "summary": "Regulatory compliance in the context of stablecoins refers to the adherence of issuers, exchanges, and custodians to the legal frameworks, financial regulations, and oversight standards mandated by governmental authorities. This involves robust Anti-Money Laundering (AML) protocols, Know Your Customer (KYC) identity verification, regular independent audits of underlying collateral reserves, and transparent public reporting. As stablecoins function as digital equivalents of sovereign currencies, compliance ensures these assets meet the stability, capital requirement, and consumer protection standards necessary to maintain systemic financial integrity and prevent illicit financial activities.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/regulatory-compliance",
+    "text": "Regulatory Compliance Regulatory compliance in the context of stablecoins refers to the adherence of issuers, exchanges, and custodians to the legal frameworks, financial regulations, and oversight standards mandated by governmental authorities. This involves robust Anti-Money Laundering (AML) protocols, Know Your Customer (KYC) identity verification, regular independent audits of underlying collateral reserves, and transparent public reporting. As stablecoins function as digital equivalents of sovereign currencies, compliance ensures these assets meet the stability, capital requirement, and consumer protection standards necessary to maintain systemic financial integrity and prevent illicit financial activities. Regulatory Compliance — Definition & Explanation | The Blockchain Library Learn what regulatory compliance means for stablecoins. Understand how audits, KYC, and AML practices protect users and drive mainstream adoption in Web3 finance."
+  },
+  {
+    "id": "glossary:self-sovereignty",
+    "type": "glossary",
+    "title": "Self-Sovereignty",
+    "aliases": [],
+    "summary": "Self-sovereignty in the context of digital identity refers to the principle that individuals should have complete ownership, control, and portability over their own identity credentials, data, and digital assets. Unlike traditional identity management systems where centralized authorities issue and hold user information, self-sovereign identity (SSI) leverages decentralized ledger technology, cryptographic proofs, and decentralized identifiers (DIDs) to allow users to generate, manage, and present their verifiable credentials without relying on third-party intermediaries to act as the ultimate arbiter of their identity.",
+    "categoryId": "6a4e39d110805a52385d8fcf",
+    "tags": [],
+    "canonicalUrl": "/glossary/self-sovereignty",
+    "text": "Self-Sovereignty Self-sovereignty in the context of digital identity refers to the principle that individuals should have complete ownership, control, and portability over their own identity credentials, data, and digital assets. Unlike traditional identity management systems where centralized authorities issue and hold user information, self-sovereign identity (SSI) leverages decentralized ledger technology, cryptographic proofs, and decentralized identifiers (DIDs) to allow users to generate, manage, and present their verifiable credentials without relying on third-party intermediaries to act as the ultimate arbiter of their identity. Self-Sovereignty — Definition & Explanation | The Blockchain Library Learn about self-sovereignty in blockchain, the foundational concept of owning and controlling your digital identity and personal data without central authorities."
+  },
+  {
+    "id": "glossary:simplified-payment-verification",
+    "type": "glossary",
+    "title": "Simplified Payment Verification",
+    "aliases": [],
+    "summary": "Simplified Payment Verification (SPV) is a mechanism defined in the original Bitcoin whitepaper that allows a blockchain client to verify the inclusion of a specific transaction in a block without downloading the entire blockchain. By downloading only the block headers and using Merkle proofs, the SPV client confirms that a transaction exists within a block that has been sufficiently buried under PoW. This process significantly reduces storage and bandwidth requirements, enabling resource-constrained devices like mobile wallets to interact with decentralized networks securely while maintaining cryptographic integrity.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/simplified-payment-verification",
+    "text": "Simplified Payment Verification Simplified Payment Verification (SPV) is a mechanism defined in the original Bitcoin whitepaper that allows a blockchain client to verify the inclusion of a specific transaction in a block without downloading the entire blockchain. By downloading only the block headers and using Merkle proofs, the SPV client confirms that a transaction exists within a block that has been sufficiently buried under PoW. This process significantly reduces storage and bandwidth requirements, enabling resource-constrained devices like mobile wallets to interact with decentralized networks securely while maintaining cryptographic integrity. Simplified Payment Verification — Definition & Explanation | The Blockchain Library Learn about Simplified Payment Verification (SPV), the technology that allows lightweight wallets to verify transactions without downloading the entire blockchain."
+  },
+  {
+    "id": "glossary:tps",
+    "type": "glossary",
+    "title": "TPS",
+    "aliases": [],
+    "summary": "TPS stands for Transactions Per Second, a performance metric used to measure the throughput of a blockchain network. It represents the number of valid transactions a network can process and record to its ledger within a single second. Because blockchain throughput is influenced by block size, block time, and consensus mechanisms, TPS serves as a primary benchmark for comparing the scalability of different distributed ledger technologies and evaluating their suitability for high-frequency or global-scale applications.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/tps",
+    "text": "TPS TPS stands for Transactions Per Second, a performance metric used to measure the throughput of a blockchain network. It represents the number of valid transactions a network can process and record to its ledger within a single second. Because blockchain throughput is influenced by block size, block time, and consensus mechanisms, TPS serves as a primary benchmark for comparing the scalability of different distributed ledger technologies and evaluating their suitability for high-frequency or global-scale applications. TPS — Definition & Explanation | The Blockchain Library Discover what TPS (Transactions Per Second) means in blockchain, why it is a key metric for scalability, and how it impacts network performance and speed."
+  },
+  {
+    "id": "glossary:transaction-id",
+    "type": "glossary",
+    "title": "Transaction ID",
+    "aliases": [],
+    "summary": "A Transaction ID (TXID), also known as a transaction hash, is a unique string of alphanumeric characters generated by applying a cryptographic hash function to the data of a specific transaction. It serves as a permanent, immutable digital fingerprint used to identify, track, and locate a transaction within a blockchain ledger. Once a transaction is broadcasted and confirmed, its TXID acts as the definitive proof of the transaction's existence and specific details, such as the sender, receiver, amount, and timestamp.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/transaction-id",
+    "text": "Transaction ID A Transaction ID (TXID), also known as a transaction hash, is a unique string of alphanumeric characters generated by applying a cryptographic hash function to the data of a specific transaction. It serves as a permanent, immutable digital fingerprint used to identify, track, and locate a transaction within a blockchain ledger. Once a transaction is broadcasted and confirmed, its TXID acts as the definitive proof of the transaction's existence and specific details, such as the sender, receiver, amount, and timestamp. Transaction ID — Definition & Explanation | The Blockchain Library What is a Transaction ID (TXID)? Learn how this unique cryptographic hash tracks your crypto transfers on the blockchain ledger and verifies your funds."
+  },
+  {
+    "id": "glossary:ssl-tls",
+    "type": "glossary",
+    "title": "SSL/TLS",
+    "aliases": [],
+    "summary": "Secure Sockets Layer (SSL) and its successor Transport Layer Security (TLS) are cryptographic protocols designed to provide secure communications over a computer network. They employ a combination of symmetric and asymmetric cryptography to ensure data integrity, confidentiality, and authentication between a client and a server. By establishing an encrypted tunnel, SSL/TLS protects sensitive data from eavesdropping and tampering. Although SSL is deprecated, the terms are often used interchangeably to describe the standard mechanism for securing web traffic via HTTPS and other secure internet protocols.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/ssl-tls",
+    "text": "SSL/TLS Secure Sockets Layer (SSL) and its successor Transport Layer Security (TLS) are cryptographic protocols designed to provide secure communications over a computer network. They employ a combination of symmetric and asymmetric cryptography to ensure data integrity, confidentiality, and authentication between a client and a server. By establishing an encrypted tunnel, SSL/TLS protects sensitive data from eavesdropping and tampering. Although SSL is deprecated, the terms are often used interchangeably to describe the standard mechanism for securing web traffic via HTTPS and other secure internet protocols. SSL/TLS — Definition & Explanation | The Blockchain Library Learn about SSL/TLS protocols, the cryptographic foundations securing web communications, data integrity, and authentication in the modern Web3 ecosystem."
+  },
+  {
+    "id": "glossary:tls",
+    "type": "glossary",
+    "title": "TLS",
+    "aliases": [],
+    "summary": "Transport Layer Security (TLS) is the current industry-standard cryptographic protocol designed to facilitate secure communications over the internet. It evolves from the now-obsolete SSL, providing updated cryptographic algorithms to protect against modern attack vectors. TLS functions by providing privacy and data integrity between two communicating applications. It is the primary security mechanism for HTTPS, allowing users to safely connect to financial services, blockchain nodes, and dApps by ensuring that data packets cannot be intercepted or modified by malicious third parties.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/tls",
+    "text": "TLS Transport Layer Security (TLS) is the current industry-standard cryptographic protocol designed to facilitate secure communications over the internet. It evolves from the now-obsolete SSL, providing updated cryptographic algorithms to protect against modern attack vectors. TLS functions by providing privacy and data integrity between two communicating applications. It is the primary security mechanism for HTTPS, allowing users to safely connect to financial services, blockchain nodes, and dApps by ensuring that data packets cannot be intercepted or modified by malicious third parties. TLS — Definition & Explanation | The Blockchain Library Discover how the TLS protocol secures internet communications, protects dApp data transmission, and serves as a vital component in modern Web3 security."
+  },
+  {
+    "id": "glossary:two-factor-authentication",
+    "type": "glossary",
+    "title": "Two-Factor Authentication",
+    "aliases": [],
+    "summary": "Two-Factor Authentication (2FA) is a security process that requires users to provide two different authentication factors to verify their identity before gaining access to an account or system. These factors typically include something the user knows (password), something the user has (hardware token or mobile app), or something the user is (biometrics). In the context of cybersecurity and blockchain, 2FA acts as a critical secondary layer of defense, ensuring that even if a primary password is compromised, the account remains protected against unauthorized access.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/two-factor-authentication",
+    "text": "Two-Factor Authentication Two-Factor Authentication (2FA) is a security process that requires users to provide two different authentication factors to verify their identity before gaining access to an account or system. These factors typically include something the user knows (password), something the user has (hardware token or mobile app), or something the user is (biometrics). In the context of cybersecurity and blockchain, 2FA acts as a critical secondary layer of defense, ensuring that even if a primary password is compromised, the account remains protected against unauthorized access. Two-Factor Authentication — Definition & Explanation | The Blockchain Library Learn about Two-Factor Authentication (2FA) and its role in protecting crypto exchange accounts from unauthorized access and potential digital asset theft."
+  },
+  {
+    "id": "glossary:supply-and-demand",
+    "type": "glossary",
+    "title": "Supply and Demand",
+    "aliases": [],
+    "summary": "In the context of tokenomics, supply and demand refers to the economic relationship between the circulating availability of a crypto asset and the market appetite for acquiring it. Supply is determined by a protocol’s emission schedule, burning mechanisms, and total issuance limits, while demand is driven by utility, speculative interest, network activity, and macro-economic factors. The interplay between these two forces dictates market liquidity and price discovery, serving as the fundamental engine for valuing decentralized digital assets within an open market.",
+    "categoryId": "6a4e39d110805a52385d8fce",
+    "tags": [],
+    "canonicalUrl": "/glossary/supply-and-demand",
+    "text": "Supply and Demand In the context of tokenomics, supply and demand refers to the economic relationship between the circulating availability of a crypto asset and the market appetite for acquiring it. Supply is determined by a protocol’s emission schedule, burning mechanisms, and total issuance limits, while demand is driven by utility, speculative interest, network activity, and macro-economic factors. The interplay between these two forces dictates market liquidity and price discovery, serving as the fundamental engine for valuing decentralized digital assets within an open market. Supply and Demand — Definition & Explanation | The Blockchain Library Learn how supply and demand drive cryptocurrency tokenomics. Understand the balance between coin issuance and market interest in this comprehensive blockchain guide."
+  },
+  {
+    "id": "glossary:supply-chain-management",
+    "type": "glossary",
+    "title": "Supply Chain Management",
+    "aliases": [],
+    "summary": "Supply chain management (SCM) in the context of blockchain refers to the integration of distributed ledger technology to track the provenance, movement, and ownership of goods from raw material sourcing through manufacturing to final delivery. By creating an immutable, cryptographically verifiable record of each stage, SCM on a blockchain provides unparalleled transparency, reduces administrative friction, prevents counterfeiting, and ensures accountability across complex, multi-party global supply networks. It replaces fragmented, siloed information systems with a single version of truth accessible to all permissioned stakeholders.",
+    "categoryId": "6a4e39d110805a52385d8fd6",
+    "tags": [],
+    "canonicalUrl": "/glossary/supply-chain-management",
+    "text": "Supply Chain Management Supply chain management (SCM) in the context of blockchain refers to the integration of distributed ledger technology to track the provenance, movement, and ownership of goods from raw material sourcing through manufacturing to final delivery. By creating an immutable, cryptographically verifiable record of each stage, SCM on a blockchain provides unparalleled transparency, reduces administrative friction, prevents counterfeiting, and ensures accountability across complex, multi-party global supply networks. It replaces fragmented, siloed information systems with a single version of truth accessible to all permissioned stakeholders. Supply Chain Management — Definition & Explanation | The Blockchain Library Learn how blockchain-based supply chain management improves transparency, ensures product provenance, and reduces fraud across complex global logistics networks."
+  },
+  {
+    "id": "glossary:tangle",
+    "type": "glossary",
+    "title": "Tangle",
+    "aliases": [],
+    "summary": "The Tangle is a Directed Acyclic Graph (DAG) based data structure used primarily by the IOTA network to achieve decentralized consensus without traditional blockchain blocks or miners. Instead of linear chaining, every new transaction must validate two previous transactions to be included in the network. This asynchronous, non-sequential architecture allows for massive scalability and feeless transactions by eliminating the competitive mining process, distributing the validation burden across all participating users rather than a centralized set of block producers.",
+    "categoryId": "6a4e39d110805a52385d8fd5",
+    "tags": [],
+    "canonicalUrl": "/glossary/tangle",
+    "text": "Tangle The Tangle is a Directed Acyclic Graph (DAG) based data structure used primarily by the IOTA network to achieve decentralized consensus without traditional blockchain blocks or miners. Instead of linear chaining, every new transaction must validate two previous transactions to be included in the network. This asynchronous, non-sequential architecture allows for massive scalability and feeless transactions by eliminating the competitive mining process, distributing the validation burden across all participating users rather than a centralized set of block producers. Tangle — Definition & Explanation | The Blockchain Library Learn about the Tangle, a Directed Acyclic Graph (DAG) consensus mechanism used by IOTA. Discover how this feeless, scalable architecture powers the IoT economy."
+  },
+  {
+    "id": "glossary:transaction-signing",
+    "type": "glossary",
+    "title": "Transaction Signing",
+    "aliases": [],
+    "summary": "Transaction signing is the cryptographic process by which a user proves ownership of the private key associated with a specific blockchain address to authorize the transfer of assets or execution of smart contract functions. By applying a digital signature—generated using elliptic curve cryptography—the sender creates a non-forgeable proof that the transaction data, including recipient address and amount, has been approved by the legitimate asset controller. This process ensures the integrity of the data while preventing unauthorized parties from altering the instruction set before it is broadcast to the network nodes for validation.",
+    "categoryId": "6a4e39d110805a52385d8fc6",
+    "tags": [],
+    "canonicalUrl": "/glossary/transaction-signing",
+    "text": "Transaction Signing Transaction signing is the cryptographic process by which a user proves ownership of the private key associated with a specific blockchain address to authorize the transfer of assets or execution of smart contract functions. By applying a digital signature—generated using elliptic curve cryptography—the sender creates a non-forgeable proof that the transaction data, including recipient address and amount, has been approved by the legitimate asset controller. This process ensures the integrity of the data while preventing unauthorized parties from altering the instruction set before it is broadcast to the network nodes for validation. Transaction Signing — Definition & Explanation | The Blockchain Library Learn how transaction signing works in blockchain. Understand the cryptographic process behind authorizing crypto transfers and securing your digital assets safely."
+  },
+  {
     "id": "topic:what-crypto-looks-like-after-memecoins",
     "type": "topic",
     "title": "What Crypto Looks Like After Memecoins",
@@ -22158,6 +22422,22 @@
     ],
     "canonicalUrl": "/topics/health-ai-appeal-path-accuracy-score",
     "text": "Health AI Needs an Appeal Path, Not Just an Accuracy Score Canada’s privacy regulators have set a useful health-AI test: people need a practical way to challenge consequential outputs and reach qualified human review. Why Health AI Requires a Formal Appeal Path Learn why health AI systems need a formal appeal path to challenge outputs, and how privacy regulators are shaping requirements for clinical oversight. Artificial Intelligence Health AI Privacy Canada"
+  },
+  {
+    "id": "topic:tokenized-money-convertibility-test",
+    "type": "topic",
+    "title": "Tokenized Money Needs a Convertibility Test",
+    "aliases": [],
+    "summary": "Atomic settlement is not enough. Tokenized money must also remain convertible at par when liquidity, participants or networks fail.",
+    "categoryId": "6a4cfe7ce8ddbcb85df987d0",
+    "tags": [
+      "Tokenized money",
+      "Payment infrastructure",
+      "Central bank money",
+      "Canada"
+    ],
+    "canonicalUrl": "/topics/tokenized-money-convertibility-test",
+    "text": "Tokenized Money Needs a Convertibility Test Atomic settlement is not enough. Tokenized money must also remain convertible at par when liquidity, participants or networks fail. Why Tokenized Money Needs a Robust Convertibility Test Learn why atomic settlement is insufficient for tokenized money and why robust convertibility testing is essential for financial stability in Web3. Tokenized money Payment infrastructure Central bank money Canada"
   },
   {
     "id": "book:the-quiet-rebuild-of-the-internet",
@@ -127769,6 +128049,1194 @@
     "text": "Solana’s reward records leave stakers with a gap in validator fee data DeFi NFT Web3"
   },
   {
+    "id": "news:ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+    "type": "news",
+    "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+    "text": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:the-key-races-to-watch-for-the-2026-election",
+    "type": "news",
+    "title": "The key races to watch for the 2026 election",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/the-key-races-to-watch-for-the-2026-election",
+    "text": "The key races to watch for the 2026 election Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
+    "type": "news",
+    "title": "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
+    "text": "Crypto card startups are racking up losses just to buy your loyalty with big rewards Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+    "type": "news",
+    "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+    "text": "Crypto PACs made big Republican push in final weeks before November 3 election Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:sherrod-browns-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
+    "type": "news",
+    "title": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/sherrod-browns-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
+    "text": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:deepseek-developing-ai-agent-requiring-less-human-input-report",
+    "type": "news",
+    "title": "DeepSeek developing AI agent requiring less human input: Report",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/deepseek-developing-ai-agent-requiring-less-human-input-report",
+    "text": "DeepSeek developing AI agent requiring less human input: Report Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:onekey-founder-warns-blackrocks-bitcoin-etf-could-be-a-north-korean-target",
+    "type": "news",
+    "title": "OneKey founder warns BlackRock’s Bitcoin ETF could be a North Korean target",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/onekey-founder-warns-blackrocks-bitcoin-etf-could-be-a-north-korean-target",
+    "text": "OneKey founder warns BlackRock’s Bitcoin ETF could be a North Korean target DeFi NFT Web3"
+  },
+  {
+    "id": "news:japans-central-bank-will-sell-etfs-2-6-times-faster-and-could-still-take-43-years-to-exit",
+    "type": "news",
+    "title": "Japan’s central bank will sell ETFs 2.6 times faster and could still take 43 years to exit",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/japans-central-bank-will-sell-etfs-2-6-times-faster-and-could-still-take-43-years-to-exit",
+    "text": "Japan’s central bank will sell ETFs 2.6 times faster and could still take 43 years to exit DeFi NFT Web3"
+  },
+  {
+    "id": "news:ethereum-validators-pocket-30-million-windfall-as-binance-hackers-lose-119-million-in-rushed-trades",
+    "type": "news",
+    "title": "Ethereum validators pocket $30 million windfall as Binance hackers lose $119 million in rushed trades",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/ethereum-validators-pocket-30-million-windfall-as-binance-hackers-lose-119-million-in-rushed-trades",
+    "text": "Ethereum validators pocket $30 million windfall as Binance hackers lose $119 million in rushed trades DeFi NFT Web3"
+  },
+  {
+    "id": "news:zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g",
+    "type": "news",
+    "title": "Zero-token withdrawals let a hacker drain 97 million CORE from Bitcoin staking platform b14g",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g",
+    "text": "Zero-token withdrawals let a hacker drain 97 million CORE from Bitcoin staking platform b14g DeFi NFT Web3"
+  },
+  {
+    "id": "news:fbi-blames-north-korea-for-6-billion-binance-hack-urges-thorchain-to-block-stolen-funds",
+    "type": "news",
+    "title": "FBI blames North Korea for $6 billion Binance hack, urges THORChain to block stolen funds",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/fbi-blames-north-korea-for-6-billion-binance-hack-urges-thorchain-to-block-stolen-funds",
+    "text": "FBI blames North Korea for $6 billion Binance hack, urges THORChain to block stolen funds DeFi NFT Web3"
+  },
+  {
+    "id": "news:ai-wants-bitcoin-miners-8217-power-but-the-contracts-reveal-who-really-gets-paid",
+    "type": "news",
+    "title": "AI wants Bitcoin miners&#8217; power, but the contracts reveal who really gets paid",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/ai-wants-bitcoin-miners-8217-power-but-the-contracts-reveal-who-really-gets-paid",
+    "text": "AI wants Bitcoin miners&#8217; power, but the contracts reveal who really gets paid DeFi NFT Web3"
+  },
+  {
+    "id": "news:the-crypto-readers-guide-to-the-2026-midterm-election-state-of-crypto",
+    "type": "news",
+    "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/the-crypto-readers-guide-to-the-2026-midterm-election-state-of-crypto",
+    "text": "The crypto reader's guide to the 2026 midterm election: State of Crypto Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:htx-ends-uk-activity-as-fca-secures-court-undertakings-on-crypto-promotions",
+    "type": "news",
+    "title": "HTX Ends UK Activity as FCA Secures Court Undertakings on Crypto Promotions",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/htx-ends-uk-activity-as-fca-secures-court-undertakings-on-crypto-promotions",
+    "text": "HTX Ends UK Activity as FCA Secures Court Undertakings on Crypto Promotions Trading Markets"
+  },
+  {
+    "id": "news:sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme",
+    "type": "news",
+    "title": "SEC Charges BG Wealth and DSJ Exchange Over Alleged $130M Crypto Scheme",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme",
+    "text": "SEC Charges BG Wealth and DSJ Exchange Over Alleged $130M Crypto Scheme Trading Markets"
+  },
+  {
+    "id": "news:strategy-reports-848-517-bitcoin-as-q3-gains-put-cash-coverage-in-focus",
+    "type": "news",
+    "title": "Strategy Reports 848,517 Bitcoin as Q3 Gains Put Cash Coverage in Focus",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/strategy-reports-848-517-bitcoin-as-q3-gains-put-cash-coverage-in-focus",
+    "text": "Strategy Reports 848,517 Bitcoin as Q3 Gains Put Cash Coverage in Focus Trading Markets"
+  },
+  {
+    "id": "news:next-technology-authorizes-sale-or-pledge-of-5-833-bitcoin-after-risk-review",
+    "type": "news",
+    "title": "Next Technology Authorizes Sale or Pledge of 5,833 Bitcoin After Risk Review",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/next-technology-authorizes-sale-or-pledge-of-5-833-bitcoin-after-risk-review",
+    "text": "Next Technology Authorizes Sale or Pledge of 5,833 Bitcoin After Risk Review Trading Markets"
+  },
+  {
+    "id": "news:binance-sets-phased-withdrawal-restart-as-asset-replenishment-reaches-95",
+    "type": "news",
+    "title": "Binance Sets Phased Withdrawal Restart as Asset Replenishment Reaches 95%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/binance-sets-phased-withdrawal-restart-as-asset-replenishment-reaches-95",
+    "text": "Binance Sets Phased Withdrawal Restart as Asset Replenishment Reaches 95% Trading Markets"
+  },
+  {
+    "id": "news:tracked-binance-wallets-record-2-5-billion-in-outflows-as-withdrawals-reopen-after-hack",
+    "type": "news",
+    "title": "Tracked Binance wallets record $2.5 billion in outflows as withdrawals reopen after hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/tracked-binance-wallets-record-2-5-billion-in-outflows-as-withdrawals-reopen-after-hack",
+    "text": "Tracked Binance wallets record $2.5 billion in outflows as withdrawals reopen after hack DeFi NFT Web3"
+  },
+  {
+    "id": "news:crypto-scammers-used-sec-8217-s-website-to-lure-investors-into-alleged-130-million-fraud",
+    "type": "news",
+    "title": "Crypto scammers used SEC&#8217;s website to lure investors into alleged $130 million fraud",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/crypto-scammers-used-sec-8217-s-website-to-lure-investors-into-alleged-130-million-fraud",
+    "text": "Crypto scammers used SEC&#8217;s website to lure investors into alleged $130 million fraud DeFi NFT Web3"
+  },
+  {
+    "id": "news:cursor-urges-credential-resets-after-malicious-claude-code-marketplace-update",
+    "type": "news",
+    "title": "Cursor urges credential resets after malicious Claude Code marketplace update",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/cursor-urges-credential-resets-after-malicious-claude-code-marketplace-update",
+    "text": "Cursor urges credential resets after malicious Claude Code marketplace update DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-redemption-freeze-puts-136-million-aave-market-under-scrutiny",
+    "type": "news",
+    "title": "Bitcoin redemption freeze puts $136 million Aave market under scrutiny",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-redemption-freeze-puts-136-million-aave-market-under-scrutiny",
+    "text": "Bitcoin redemption freeze puts $136 million Aave market under scrutiny DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-claws-back-toward-79-000-as-markets-shake-off-cryptos-biggest-hack",
+    "type": "news",
+    "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-claws-back-toward-79-000-as-markets-shake-off-cryptos-biggest-hack",
+    "text": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+    "type": "news",
+    "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+    "text": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bank-of-korea-probes-financial-firms-exposure-to-crypto-risks",
+    "type": "news",
+    "title": "Bank of Korea probes financial firms’ exposure to crypto risks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bank-of-korea-probes-financial-firms-exposure-to-crypto-risks",
+    "text": "Bank of Korea probes financial firms’ exposure to crypto risks Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers",
+    "type": "news",
+    "title": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers",
+    "text": "THORChain halts swaps after block reorg bug, slowing Binance hackers Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-net-outflows-surge-to-5-8b-as-withdrawals-resume-after-record-hack",
+    "type": "news",
+    "title": "Binance net outflows surge to $5.8B as withdrawals resume after record hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-net-outflows-surge-to-5-8b-as-withdrawals-resume-after-record-hack",
+    "text": "Binance net outflows surge to $5.8B as withdrawals resume after record hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:thorchain-founder-rejects-freeze-request-cz-thanks-secret-service-hodlers-digest",
+    "type": "news",
+    "title": "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler’s Digest",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/thorchain-founder-rejects-freeze-request-cz-thanks-secret-service-hodlers-digest",
+    "text": "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler’s Digest Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ambire-ice-puts-safe-owner-changes-and-approval-thresholds-on-the-signing-screen",
+    "type": "news",
+    "title": "Ambire Ice Puts Safe Owner Changes and Approval Thresholds on the Signing Screen",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ambire-ice-puts-safe-owner-changes-and-approval-thresholds-on-the-signing-screen",
+    "text": "Ambire Ice Puts Safe Owner Changes and Approval Thresholds on the Signing Screen Trading Markets"
+  },
+  {
+    "id": "news:ecb-picks-digital-euro-network-providers-as-pilot-infrastructure-takes-shape",
+    "type": "news",
+    "title": "ECB Picks Digital Euro Network Providers as Pilot Infrastructure Takes Shape",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ecb-picks-digital-euro-network-providers-as-pilot-infrastructure-takes-shape",
+    "text": "ECB Picks Digital Euro Network Providers as Pilot Infrastructure Takes Shape Trading Markets"
+  },
+  {
+    "id": "news:bitcoin-core-32-1-arrives-with-privacy-fixes-and-new-compatibility-checks",
+    "type": "news",
+    "title": "Bitcoin Core 32.1 Arrives With Privacy Fixes and New Compatibility Checks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitcoin-core-32-1-arrives-with-privacy-fixes-and-new-compatibility-checks",
+    "text": "Bitcoin Core 32.1 Arrives With Privacy Fixes and New Compatibility Checks Trading Markets"
+  },
+  {
+    "id": "news:mercado-bitcoin-plans-sui-asset-access-in-brazil-with-lending-and-tokenization-links",
+    "type": "news",
+    "title": "Mercado Bitcoin Plans Sui Asset Access in Brazil With Lending and Tokenization Links",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/mercado-bitcoin-plans-sui-asset-access-in-brazil-with-lending-and-tokenization-links",
+    "text": "Mercado Bitcoin Plans Sui Asset Access in Brazil With Lending and Tokenization Links Trading Markets"
+  },
+  {
+    "id": "news:xrp-ledger-reviews-two-token-authorization-fixes-ahead-of-any-validator-vote",
+    "type": "news",
+    "title": "XRP Ledger Reviews Two Token-Authorization Fixes Ahead of Any Validator Vote",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/xrp-ledger-reviews-two-token-authorization-fixes-ahead-of-any-validator-vote",
+    "text": "XRP Ledger Reviews Two Token-Authorization Fixes Ahead of Any Validator Vote Trading Markets"
+  },
+  {
+    "id": "news:polymarket-sets-3-9m-refund-plan-after-third-party-script-compromise",
+    "type": "news",
+    "title": "Polymarket Sets $3.9M Refund Plan After Third-Party Script Compromise",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/polymarket-sets-3-9m-refund-plan-after-third-party-script-compromise",
+    "text": "Polymarket Sets $3.9M Refund Plan After Third-Party Script Compromise Trading Markets"
+  },
+  {
+    "id": "news:kucoin-announces-russia-and-belarus-exit-with-individual-account-deadlines",
+    "type": "news",
+    "title": "KuCoin Announces Russia and Belarus Exit With Individual Account Deadlines",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/kucoin-announces-russia-and-belarus-exit-with-individual-account-deadlines",
+    "text": "KuCoin Announces Russia and Belarus Exit With Individual Account Deadlines Trading Markets"
+  },
+  {
+    "id": "news:metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany",
+    "type": "news",
+    "title": "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany",
+    "text": "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+    "type": "news",
+    "title": "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+    "text": "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:live-updates-binance-records-6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
+    "type": "news",
+    "title": "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/live-updates-binance-records-6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
+    "text": "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:chinas-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain",
+    "type": "news",
+    "title": "China’s Communist Party calls for a crackdown on corruption that uses crypto and blockchain",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/chinas-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain",
+    "text": "China’s Communist Party calls for a crackdown on corruption that uses crypto and blockchain Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:why-stealing-billions-from-a-crypto-exchange-can-be-harder-to-stop-than-a-bank-theft",
+    "type": "news",
+    "title": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/why-stealing-billions-from-a-crypto-exchange-can-be-harder-to-stop-than-a-bank-theft",
+    "text": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-etfs-lost-643-million-in-outflows-friday-and-2026-is-barely-green-now",
+    "type": "news",
+    "title": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-etfs-lost-643-million-in-outflows-friday-and-2026-is-barely-green-now",
+    "text": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
+    "type": "news",
+    "title": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
+    "text": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:trezor-lifts-password-ceiling-after-coldcards-100m-wallet-thefts",
+    "type": "news",
+    "title": "Trezor lifts password ceiling after Coldcard’s $100M wallet thefts",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/trezor-lifts-password-ceiling-after-coldcards-100m-wallet-thefts",
+    "text": "Trezor lifts password ceiling after Coldcard’s $100M wallet thefts Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:hong-kong-takes-tokenized-settlement-to-24-7-plans-stablecoin-trials",
+    "type": "news",
+    "title": "Hong Kong takes tokenized settlement to 24/7, plans stablecoin trials",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/hong-kong-takes-tokenized-settlement-to-24-7-plans-stablecoin-trials",
+    "text": "Hong Kong takes tokenized settlement to 24/7, plans stablecoin trials Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:btc-heads-into-us-midterm-showdown-three-things-to-know-in-bitcoin-this-week",
+    "type": "news",
+    "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/btc-heads-into-us-midterm-showdown-three-things-to-know-in-bitcoin-this-week",
+    "text": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:okx-draws-445m-in-net-inflows-as-binance-outflows-exceed-7b",
+    "type": "news",
+    "title": "OKX draws $445M in net inflows as Binance outflows exceed $7B",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/okx-draws-445m-in-net-inflows-as-binance-outflows-exceed-7b",
+    "text": "OKX draws $445M in net inflows as Binance outflows exceed $7B Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-etfs-sink-into-october-outflows-with-643m-exit-after-binance-hack",
+    "type": "news",
+    "title": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-etfs-sink-into-october-outflows-with-643m-exit-after-binance-hack",
+    "text": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:btcpay-server-warns-of-hot-wallet-thefts-running-on-outdated-software",
+    "type": "news",
+    "title": "BTCPay Server warns of hot wallet thefts running on outdated software",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/btcpay-server-warns-of-hot-wallet-thefts-running-on-outdated-software",
+    "text": "BTCPay Server warns of hot wallet thefts running on outdated software Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-white-paper-turns-18-with-payment-verification-still-at-its-core",
+    "type": "news",
+    "title": "Bitcoin White Paper Turns 18 With Payment Verification Still at Its Core",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitcoin-white-paper-turns-18-with-payment-verification-still-at-its-core",
+    "text": "Bitcoin White Paper Turns 18 With Payment Verification Still at Its Core Trading Markets"
+  },
+  {
+    "id": "news:one-paper-infinite-markets-mexc-marks-18-years-of-the-bitcoin-whitepaper-by-looking-beyond-bitcoin",
+    "type": "news",
+    "title": "One Paper, Infinite Markets: MEXC Marks 18 Years of the Bitcoin Whitepaper by Looking Beyond Bitcoin",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/one-paper-infinite-markets-mexc-marks-18-years-of-the-bitcoin-whitepaper-by-looking-beyond-bitcoin",
+    "text": "One Paper, Infinite Markets: MEXC Marks 18 Years of the Bitcoin Whitepaper by Looking Beyond Bitcoin Trading Markets"
+  },
+  {
+    "id": "news:tokeninsight-q3-report-mexc-ranks-no-2-in-commodity-perpetuals-with-17-43-market-share",
+    "type": "news",
+    "title": "TokenInsight Q3 Report: MEXC Ranks No. 2 in Commodity Perpetuals with 17.43% Market Share",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/tokeninsight-q3-report-mexc-ranks-no-2-in-commodity-perpetuals-with-17-43-market-share",
+    "text": "TokenInsight Q3 Report: MEXC Ranks No. 2 in Commodity Perpetuals with 17.43% Market Share Trading Markets"
+  },
+  {
+    "id": "news:sui-puts-enforced-spending-limits-at-the-center-of-its-ai-agent-design",
+    "type": "news",
+    "title": "Sui Puts Enforced Spending Limits at the Center of Its AI-Agent Design",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/sui-puts-enforced-spending-limits-at-the-center-of-its-ai-agent-design",
+    "text": "Sui Puts Enforced Spending Limits at the Center of Its AI-Agent Design Trading Markets"
+  },
+  {
+    "id": "news:near-enters-bitwise-large-cap-indexes-in-october-rebalance",
+    "type": "news",
+    "title": "NEAR Enters Bitwise Large-Cap Indexes in October Rebalance",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/near-enters-bitwise-large-cap-indexes-in-october-rebalance",
+    "text": "NEAR Enters Bitwise Large-Cap Indexes in October Rebalance Trading Markets"
+  },
+  {
+    "id": "news:ethena-pay-adds-earn-through-aave-v4-lending-on-avalanche",
+    "type": "news",
+    "title": "Ethena Pay Adds Earn+ Through Aave V4 Lending on Avalanche",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ethena-pay-adds-earn-through-aave-v4-lending-on-avalanche",
+    "text": "Ethena Pay Adds Earn+ Through Aave V4 Lending on Avalanche Trading Markets"
+  },
+  {
+    "id": "news:circle-asks-sec-to-clarify-cash-treatment-for-qualifying-payment-stablecoins",
+    "type": "news",
+    "title": "Circle Asks SEC to Clarify Cash Treatment for Qualifying Payment Stablecoins",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/circle-asks-sec-to-clarify-cash-treatment-for-qualifying-payment-stablecoins",
+    "text": "Circle Asks SEC to Clarify Cash Treatment for Qualifying Payment Stablecoins Trading Markets"
+  },
+  {
+    "id": "news:cosmos-prepares-atom-tokenomics-review-with-separate-governance-proposals",
+    "type": "news",
+    "title": "Cosmos Prepares ATOM Tokenomics Review With Separate Governance Proposals",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/cosmos-prepares-atom-tokenomics-review-with-separate-governance-proposals",
+    "text": "Cosmos Prepares ATOM Tokenomics Review With Separate Governance Proposals Trading Markets"
+  },
+  {
+    "id": "news:nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-to-tokenized-stocks",
+    "type": "news",
+    "title": "NYSE taps Wall Street giant Broadridge to bring shareholder voting to tokenized stocks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-to-tokenized-stocks",
+    "text": "NYSE taps Wall Street giant Broadridge to bring shareholder voting to tokenized stocks Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:brazils-mercado-bitcoin-halts-withdrawals-after-40-million-drained-across-10-chains",
+    "type": "news",
+    "title": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/brazils-mercado-bitcoin-halts-withdrawals-after-40-million-drained-across-10-chains",
+    "text": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
+    "type": "news",
+    "title": "Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans",
+    "text": "Nvidia, Costco and Nike join pushback against OKX–ICE tokenized stock plans Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
+    "type": "news",
+    "title": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo",
+    "text": "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients",
+    "type": "news",
+    "title": "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients",
+    "text": "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:cryptos-washington-playbook-is-working-dont-abandon-it-now",
+    "type": "news",
+    "title": "Crypto's Washington playbook is working. Don't abandon it now.",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/cryptos-washington-playbook-is-working-dont-abandon-it-now",
+    "text": "Crypto's Washington playbook is working. Don't abandon it now. Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:coinbase-downgraded-at-morgan-stanley-price-target-slashed-53-on-weak-earnings-outlook",
+    "type": "news",
+    "title": "Coinbase downgraded at Morgan Stanley; price target slashed 53% on weak earnings outlook",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/coinbase-downgraded-at-morgan-stanley-price-target-slashed-53-on-weak-earnings-outlook",
+    "text": "Coinbase downgraded at Morgan Stanley; price target slashed 53% on weak earnings outlook Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:tokenization-firm-tzero-plans-to-go-public-in-350-million-spac-deal",
+    "type": "news",
+    "title": "Tokenization firm tZERO plans to go public in $350 million SPAC deal",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/tokenization-firm-tzero-plans-to-go-public-in-350-million-spac-deal",
+    "text": "Tokenization firm tZERO plans to go public in $350 million SPAC deal Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:xrp-ledger-set-to-fix-flaw-that-could-have-let-stablecoin-partners-print-new-tokens",
+    "type": "news",
+    "title": "XRP Ledger set to fix flaw that could have let stablecoin partners print new tokens",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/xrp-ledger-set-to-fix-flaw-that-could-have-let-stablecoin-partners-print-new-tokens",
+    "text": "XRP Ledger set to fix flaw that could have let stablecoin partners print new tokens Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoins-volatility-curve-has-a-midterm-bump",
+    "type": "news",
+    "title": "Bitcoin's 'volatility curve' has a midterm bump",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoins-volatility-curve-has-a-midterm-bump",
+    "text": "Bitcoin's 'volatility curve' has a midterm bump Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds",
+    "type": "news",
+    "title": "No proof of AI in North Korean hackers move of stolen Binance funds",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds",
+    "text": "No proof of AI in North Korean hackers move of stolen Binance funds Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-eases-to-77-900-as-binance-customers-pull-3-6-billion-after-withdrawals-reopen",
+    "type": "news",
+    "title": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-eases-to-77-900-as-binance-customers-pull-3-6-billion-after-withdrawals-reopen",
+    "text": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:strategy-spends-triple-its-weekly-bitcoin-outlay-on-strc-buybacks",
+    "type": "news",
+    "title": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/strategy-spends-triple-its-weekly-bitcoin-outlay-on-strc-buybacks",
+    "text": "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ai-agent-disputes-head-to-internet-court-and-a-jury-of-ai-agents",
+    "type": "news",
+    "title": "AI agent disputes head to ‘Internet Court’ — and a jury of AI agents",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/ai-agent-disputes-head-to-internet-court-and-a-jury-of-ai-agents",
+    "text": "AI agent disputes head to ‘Internet Court’ — and a jury of AI agents Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-taps-half-its-safu-bitcoin-holdings-releases-reserve-proof",
+    "type": "news",
+    "title": "Binance taps half its SAFU Bitcoin holdings, releases reserve proof",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-taps-half-its-safu-bitcoin-holdings-releases-reserve-proof",
+    "text": "Binance taps half its SAFU Bitcoin holdings, releases reserve proof Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:fatf-targets-crypto-hubs-in-review-of-money-laundering-controls",
+    "type": "news",
+    "title": "FATF targets crypto hubs in review of money laundering controls",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/fatf-targets-crypto-hubs-in-review-of-money-laundering-controls",
+    "text": "FATF targets crypto hubs in review of money laundering controls Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-hackers-begin-swapping-stolen-solana-tokens-for-bitcoin-chainalysis",
+    "type": "news",
+    "title": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-hackers-begin-swapping-stolen-solana-tokens-for-bitcoin-chainalysis",
+    "text": "Binance hackers begin swapping stolen Solana tokens for Bitcoin: Chainalysis Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:from-uptober-to-hacktober-are-bitcoins-seasonal-patterns-becoming-obsolete",
+    "type": "news",
+    "title": "From Uptober to Hacktober: Are Bitcoin’s seasonal patterns becoming obsolete?",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/from-uptober-to-hacktober-are-bitcoins-seasonal-patterns-becoming-obsolete",
+    "text": "From Uptober to Hacktober: Are Bitcoin’s seasonal patterns becoming obsolete? Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps",
+    "type": "news",
+    "title": "Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps",
+    "text": "Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps Trading Markets"
+  },
+  {
+    "id": "news:anchorpoint-plans-native-hkdap-on-solana-as-hong-kong-dollar-access-expands",
+    "type": "news",
+    "title": "Anchorpoint Plans Native HKDAP on Solana as Hong Kong Dollar Access Expands",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/anchorpoint-plans-native-hkdap-on-solana-as-hong-kong-dollar-access-expands",
+    "text": "Anchorpoint Plans Native HKDAP on Solana as Hong Kong Dollar Access Expands Trading Markets"
+  },
+  {
+    "id": "news:animoca-announces-adgm-fund-management-permission-for-institutional-expansion",
+    "type": "news",
+    "title": "Animoca Announces ADGM Fund-Management Permission for Institutional Expansion",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/animoca-announces-adgm-fund-management-permission-for-institutional-expansion",
+    "text": "Animoca Announces ADGM Fund-Management Permission for Institutional Expansion Trading Markets"
+  },
+  {
+    "id": "news:bitbase-launches-bitbase-2-0-moving-from-trading-platform-to-value-platform",
+    "type": "news",
+    "title": "Bitbase Launches Bitbase 2.0, Moving from Trading Platform to Value Platform",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitbase-launches-bitbase-2-0-moving-from-trading-platform-to-value-platform",
+    "text": "Bitbase Launches Bitbase 2.0, Moving from Trading Platform to Value Platform Trading Markets"
+  },
+  {
+    "id": "news:hong-kong-advances-ensembletx-to-24-7-settlement-and-plans-stablecoin-trials",
+    "type": "news",
+    "title": "Hong Kong Advances EnsembleTX to 24/7 Settlement and Plans Stablecoin Trials",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/hong-kong-advances-ensembletx-to-24-7-settlement-and-plans-stablecoin-trials",
+    "text": "Hong Kong Advances EnsembleTX to 24/7 Settlement and Plans Stablecoin Trials Trading Markets"
+  },
+  {
+    "id": "news:kraken-prop-adds-commodity-signals-with-lower-non-crypto-commissions",
+    "type": "news",
+    "title": "Kraken Prop Adds Commodity Signals With Lower Non-Crypto Commissions",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/kraken-prop-adds-commodity-signals-with-lower-non-crypto-commissions",
+    "text": "Kraken Prop Adds Commodity Signals With Lower Non-Crypto Commissions Trading Markets"
+  },
+  {
+    "id": "news:noble-usdc-holders-face-new-migration-phase-as-cctp-limits-start-winding-down",
+    "type": "news",
+    "title": "Noble USDC Holders Face New Migration Phase as CCTP Limits Start Winding Down",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/noble-usdc-holders-face-new-migration-phase-as-cctp-limits-start-winding-down",
+    "text": "Noble USDC Holders Face New Migration Phase as CCTP Limits Start Winding Down Trading Markets"
+  },
+  {
     "id": "newsletter:issue-1-blockchain-foundations",
     "type": "newsletter",
     "title": "The Blockchain Library Weekly — Issue #1",
@@ -128099,5 +129567,21 @@
     ],
     "canonicalUrl": "/newsletter/the-blockchain-library-weekly-navigating-the-new-infrastructure-standards-21",
     "text": "The Blockchain Library Weekly: Navigating The New Infrastructure Standards Welcome to this week's edition of The Blockchain Library, where we analyze the shifting landscape of Web3 and AI infrastructure. This week’s curation explores the critical balance between innovation, governance, and the technical standards required to scale these industries securely. weekly blockchain crypto web3"
+  },
+  {
+    "id": "newsletter:the-blockchain-library-weekly-insights-on-digital-governance-and-web3-infrastruc",
+    "type": "newsletter",
+    "title": "The Blockchain Library: Weekly Insights on Digital Governance and Web3 Infrastructure",
+    "aliases": [],
+    "summary": "Welcome to this week's edition of The Blockchain Library, where we unpack the critical intersection of decentralized finance, AI security, and emerging regulatory frameworks. As technology scales, we are focusing on the essential guardrails—from tokenized convertibility to AI oversight—that ensure a robust and trustworthy digital future.",
+    "categoryId": null,
+    "tags": [
+      "weekly",
+      "blockchain",
+      "crypto",
+      "web3"
+    ],
+    "canonicalUrl": "/newsletter/the-blockchain-library-weekly-insights-on-digital-governance-and-web3-infrastruc",
+    "text": "The Blockchain Library: Weekly Insights on Digital Governance and Web3 Infrastructure Welcome to this week's edition of The Blockchain Library, where we unpack the critical intersection of decentralized finance, AI security, and emerging regulatory frameworks. As technology scales, we are focusing on the essential guardrails—from tokenized convertibility to AI oversight—that ensure a robust and trustworthy digital future. weekly blockchain crypto web3"
   }
 ]

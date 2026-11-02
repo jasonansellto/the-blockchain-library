@@ -1,0 +1,56 @@
+---
+title: "Simplified Payment Verification"
+description: "Simplified Payment Verification (SPV) is a mechanism defined in the original Bitcoin whitepaper that allows a blockchain client to verify the inclusion of a specific transaction in a block without downloading the entire blockchain. By downloading only the block headers and using "
+---
+
+# Simplified Payment Verification
+
+Simplified Payment Verification (SPV) is a mechanism defined in the original Bitcoin whitepaper that allows a blockchain client to verify the inclusion of a specific transaction in a block without downloading the entire blockchain. By downloading only the block headers and using Merkle proofs, the SPV client confirms that a transaction exists within a block that has been sufficiently buried under PoW. This process significantly reduces storage and bandwidth requirements, enabling resource-constrained devices like mobile wallets to interact with decentralized networks securely while maintaining cryptographic integrity.
+
+## Definition
+
+Simplified Payment Verification (SPV) is a mechanism defined in the original Bitcoin whitepaper that allows a blockchain client to verify the inclusion of a specific transaction in a block without downloading the entire blockchain. By downloading only the block headers and using Merkle proofs, the SPV client confirms that a transaction exists within a block that has been sufficiently buried under PoW. This process significantly reduces storage and bandwidth requirements, enabling resource-constrained devices like mobile wallets to interact with decentralized networks securely while maintaining cryptographic integrity.
+
+## Simple explanation
+
+Imagine the blockchain is a massive phone book with millions of names. Instead of carrying the whole book, SPV lets you just carry a small summary page. If you need to prove your transaction happened, you use a special mathematical receipt—a Merkle proof—to confirm it is in the official records without needing to read every single page ever written.
+
+## Why it matters
+
+SPV is crucial for mass adoption because it enables mobile and lightweight hardware to participate in blockchain networks without needing terabytes of storage. It bridges the gap between high security and user accessibility by allowing anyone to verify their own payments independently.
+
+## How it works
+
+An SPV client stores only the block headers of the blockchain rather than the full transaction history. When a user needs to verify a transaction, the client requests a Merkle branch proof from a full node. This proof allows the client to mathematically link the specific transaction to the root hash stored in a valid block header, confirming its inclusion in the chain.
+
+## Real-world example
+
+Most mobile-first cryptocurrency wallets, such as Electrum or BlueWallet, utilize SPV to verify incoming payments quickly without forcing the user to download the full Bitcoin ledger.
+
+## Advantages
+
+- Enables mobile and resource-constrained wallet usage
+- Significantly lower storage and bandwidth requirements
+- Maintains high levels of cryptographic security
+
+## Limitations
+
+- Does not allow for full network validation
+- Reliance on honest full nodes for proof provision
+- Cannot verify the total supply of the currency
+
+## Common misconceptions
+
+- Many people believe SPV nodes are as secure as full nodes, but they are technically less secure as they trust the longest chain proof rather than validating all consensus rules.
+- It is often assumed that SPV nodes store nothing, whereas they actually store all block headers.
+## Related knowledge
+
+- [Block Header](/generated/v2/glossary/block-header) — term
+- [Full Node](/generated/v2/glossary/full-node) — term
+- [Light Client](/generated/v2/glossary/light-client) — term
+- [Merkle Tree](/generated/v2/glossary/merkle-tree) — term
+- [Proof of Work](/generated/v2/glossary/proof-of-work) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:simplified-payment-verification`

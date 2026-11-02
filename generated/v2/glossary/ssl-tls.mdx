@@ -1,0 +1,56 @@
+---
+title: "SSL/TLS"
+description: "Secure Sockets Layer (SSL) and its successor Transport Layer Security (TLS) are cryptographic protocols designed to provide secure communications over a computer network. They employ a combination of symmetric and asymmetric cryptography to ensure data integrity, confidentiality,"
+---
+
+# SSL/TLS
+
+Secure Sockets Layer (SSL) and its successor Transport Layer Security (TLS) are cryptographic protocols designed to provide secure communications over a computer network. They employ a combination of symmetric and asymmetric cryptography to ensure data integrity, confidentiality, and authentication between a client and a server. By establishing an encrypted tunnel, SSL/TLS protects sensitive data from eavesdropping and tampering. Although SSL is deprecated, the terms are often used interchangeably to describe the standard mechanism for securing web traffic via HTTPS and other secure internet protocols.
+
+## Definition
+
+Secure Sockets Layer (SSL) and its successor Transport Layer Security (TLS) are cryptographic protocols designed to provide secure communications over a computer network. They employ a combination of symmetric and asymmetric cryptography to ensure data integrity, confidentiality, and authentication between a client and a server. By establishing an encrypted tunnel, SSL/TLS protects sensitive data from eavesdropping and tampering. Although SSL is deprecated, the terms are often used interchangeably to describe the standard mechanism for securing web traffic via HTTPS and other secure internet protocols.
+
+## Simple explanation
+
+Think of SSL/TLS as a secret envelope for your digital mail. When you send information over the internet, like a password or credit card number, SSL/TLS scrambles that data so that even if a hacker intercepts it, they only see a jumbled mess. It’s like having a special code that only you and the website you are visiting know, ensuring that your private messages stay private while traveling across the open web.
+
+## Why it matters
+
+In the blockchain ecosystem, SSL/TLS is essential for securing the interfaces of web-based wallets and decentralized exchange frontends. Without this encryption, users would be vulnerable to man-in-the-middle attacks where malicious actors could capture private keys or login credentials in transit.
+
+## How it works
+
+The process begins with a 'handshake' where the client and server agree on an encryption algorithm and exchange digital certificates to verify identity. Once trust is established, they derive a shared symmetric session key. All subsequent data transmitted between the parties is encrypted using this session key, ensuring that only the authorized participants can decrypt and read the information.
+
+## Real-world example
+
+Every legitimate decentralized application (dApp) frontend, such as Uniswap or Aave, uses TLS certificates provided by Certificate Authorities (CAs) to ensure users are interacting with the genuine platform rather than a phishing site.
+
+## Advantages
+
+- Provides end-to-end encryption for data in transit
+- Ensures authentication of the server to the client
+- Guarantees data integrity preventing tampering during transmission
+
+## Limitations
+
+- Vulnerable to compromised Certificate Authorities
+- Does not protect data stored on the end device
+- Increases server-side computational overhead slightly
+
+## Common misconceptions
+
+- People often think SSL is still the current standard, but it has been officially deprecated in favor of TLS.
+- Users frequently assume that an HTTPS site is automatically safe, but it only confirms the connection is encrypted, not that the site itself is trustworthy.
+## Related knowledge
+
+- [Asymmetric Cryptography](/generated/v2/glossary/asymmetric-cryptography) — term
+- [Data Integrity](/generated/v2/glossary/data-integrity) — term
+- [Digital Certificate](/generated/v2/glossary/digital-certificate) — term
+- [Encryption](/generated/v2/glossary/encryption) — term
+- [Public Key Infrastructure](/generated/v2/glossary/public-key-infrastructure) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:ssl-tls`

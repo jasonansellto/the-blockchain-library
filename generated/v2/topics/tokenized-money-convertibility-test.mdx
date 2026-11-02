@@ -1,0 +1,95 @@
+---
+title: "Tokenized Money Needs a Convertibility Test"
+description: "Atomic settlement is not enough. Tokenized money must also remain convertible at par when liquidity, participants or networks fail."
+---
+
+# Tokenized Money Needs a Convertibility Test
+
+Atomic settlement is not enough. Tokenized money must also remain convertible at par when liquidity, participants or networks fail.
+
+<p><strong>Analysis.</strong> <strong>Thesis:</strong> A tokenized payment system should not be judged only by whether two assets settle atomically. It should also prove that tokenized deposits, stablecoins and conventional bank money can be exchanged at par when liquidity is tight, a participant is unavailable or the ledger itself is impaired. Convertibility is the harder test because it measures whether the system preserves one money, not merely whether software completes a transaction.</p>
+
+<p>The Bank for International Settlements’ Committee on Payments and Market Infrastructures made that distinction more important on October 29, 2026. Its new report on <a href="https://www.bis.org/publications/roles-central-banks-and-central-bank-money-evolving-payment-system" target="_blank" rel="noopener noreferrer">central banks and central bank money in the evolving payment system</a> argues that central bank money remains the safest and most liquid settlement asset for systemically important arrangements. It also describes central bank money as an anchor for convertibility at par among different means of payment.</p>
+
+<p>That is not an argument against private money or programmable infrastructure. The report explicitly considers tokenized deposits, stablecoins, fast-payment systems and programmable platforms, while recognizing their potential to improve efficiency and competition. Its warning is that new arrangements also create credit, liquidity, operational and cyber dependencies. The relevant question for builders is therefore not whether tokenization can move value. It is whether the promises attached to each form of value still hold when the easy path stops working.</p>
+
+<h2>Atomic settlement solves only one boundary</h2>
+
+<p>Atomic delivery-versus-payment can reduce principal risk by ensuring that an asset and its payment leg either both move or neither moves. That is valuable. But a completed transfer does not prove that the received token can be redeemed promptly for a bank deposit, used across another network or converted without a discount. Finality inside one ledger and convertibility across monetary forms are separate system properties.</p>
+
+<p>This extends the argument in my earlier analysis of <a href="https://jasonansell.ca/article/swift-tokenised-payments-availability-settlement">tokenized payments’ two clocks</a>. That piece separated legal settlement from service availability. The new BIS work adds another boundary: even a final, continuously available system can fragment money if its instruments do not remain interchangeable at par.</p>
+
+<h2>A practical convertibility test</h2>
+
+<p>Product teams should turn “one token equals one dollar” from a marketing statement into an operational test plan. At minimum, the test should measure six conditions:</p>
+
+<ul>
+  <li><strong>Normal redemption:</strong> Can a holder convert at par, within a published time and fee schedule, without relying on a privileged counterparty?</li>
+  <li><strong>Liquidity stress:</strong> What happens when many holders redeem at once? Queues, haircuts, throttles and operating-hour limits should be visible before launch.</li>
+  <li><strong>Participant failure:</strong> Can the system complete or unwind conversions if an issuing bank, custodian, market maker or settlement participant is unavailable?</li>
+  <li><strong>Network interruption:</strong> Is there a tested fallback when the token ledger, bridge, oracle or identity layer is impaired?</li>
+  <li><strong>Reconciliation failure:</strong> How are discrepancies between the token record and the issuer’s authoritative books detected, frozen and resolved?</li>
+  <li><strong>Loss allocation:</strong> Who bears costs when conversion is delayed or impossible, and what legal claim does the holder actually possess?</li>
+</ul>
+
+<p>Those tests expose design choices that a fast demo can hide. A token may settle in seconds while redemption is limited to business hours. A reserve may be described as high quality while the issuer lacks intraday liquidity. A bridge may automate transfer while concentrating operational risk in one administrator. The correct metrics are not just throughput and confirmation time, but also redemption completion, time at par, peak queue length, fallback recovery and reconciliation accuracy.</p>
+
+<h2>Canada already has useful evidence—and clear limits</h2>
+
+<p>Canada’s Project Samara offers a concrete reference point, although it should not be overstated. On March 5, 2026, the Bank of Canada and participating institutions reported a real-world experiment involving one C$100-million Export Development Canada bond, a closed investor group, distributed-ledger settlement and wholesale central bank deposits. The accompanying <a href="https://www.bankofcanada.ca/2026/03/staff-analytical-paper-2026-8/" target="_blank" rel="noopener noreferrer">research paper</a> found workflow and data-integrity benefits, while also identifying complexity, liquidity costs, governance, auditability and fallback considerations.</p>
+
+<p>Samara demonstrates that tokenized assets and central bank settlement can be joined in a controlled institutional workflow. It does not prove open-network convertibility, retail-scale redemption or resilience across multiple issuers. One short-duration bond in a closed group is useful field evidence, not a universal production benchmark.</p>
+
+<p>OSFI’s September 10 <a href="https://www.osfi-bsif.gc.ca/en/news/statement-tokenized-other-digitally-represented-deposits" target="_blank" rel="noopener noreferrer">statement on tokenized deposits</a> supplies another important constraint. The regulator says tokenized and other digitally represented deposits are not legally distinct from traditional deposits simply because the recording technology changes. For federally regulated institutions, that technology-neutral view makes the operational promise more demanding: the token representation should not weaken the institution’s existing obligations, resilience controls or third-party risk management.</p>
+
+<h2>What builders and buyers should require</h2>
+
+<p>Before integrating tokenized money, buyers should ask for a conversion map that names every issuer, reserve or settlement asset, operating window, fee, queue, dependency and fallback. Builders should publish which record is authoritative, how exceptions are reconciled and what happens when a conversion crosses networks or legal entities. A pilot should include deliberately induced outages and liquidity pressure, with results reported in business terms rather than only technical telemetry.</p>
+
+<p>The limitation is that the BIS report is policy analysis, not a technical certification standard, and the Canadian evidence comes from a bounded wholesale experiment. My assessment would become more optimistic if issuers published repeatable stress results showing prompt at-par conversion during participant and network failures, with clear legal claims and loss allocation. It would become more cautious if conversions depend on discretionary market makers, opaque bridges or untested manual procedures.</p>
+
+<p>Atomic settlement can make a tokenized transaction safer. Convertibility determines whether the token remains money when the system is under pressure. The second test is the one that deserves to become a launch gate.</p>
+
+<p><em>Disclosure: Jason Ansell is associated with Vector Smart Chain and writes books about blockchain and digital infrastructure. Vector Smart Chain was not a source for this analysis. This article does not recommend a token, vendor or investment.</em></p>
+
+<h2>Sources</h2>
+
+<ul>
+  <li><a href="https://www.bis.org/publications/roles-central-banks-and-central-bank-money-evolving-payment-system" target="_blank" rel="noopener noreferrer">BIS CPMI, “The roles of central banks and central bank money in the evolving payment system,” October 29, 2026</a></li>
+  <li><a href="https://www.bis.org/media-releases/20261029-cpmi-publishes-analysis-how-central-banks-support-payment-system-safety-and-efficiency-and" target="_blank" rel="noopener noreferrer">BIS CPMI media release, October 29, 2026</a></li>
+  <li><a href="https://www.bankofcanada.ca/2026/03/staff-analytical-paper-2026-8/" target="_blank" rel="noopener noreferrer">Bank of Canada, “Project Samara Research Paper,” March 2026</a></li>
+  <li><a href="https://www.osfi-bsif.gc.ca/en/news/statement-tokenized-other-digitally-represented-deposits" target="_blank" rel="noopener noreferrer">OSFI, “Statement on Tokenized and Other Digitally Represented Deposits,” September 10, 2026</a></li>
+</ul>
+
+## Key takeaways
+
+- Atomic settlement does not guarantee that tokenized assets will maintain their value during periods of market stress.
+- True financial stability requires that tokenized money remains convertible at par even if infrastructure or participants fail.
+- Product teams should move beyond speed metrics to prioritize operational tests like redemption liquidity and fallback recovery.
+- Regulatory frameworks view tokenized deposits as identical to traditional deposits, requiring the same legal obligations and promises.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/tokenized-money-convertibility-test)
+## Related knowledge
+
+- [Canada’s Stablecoin Framework Has Three Compliance Layers](/generated/v2/topics/canada-stablecoin-framework-three-compliance-layers) — article
+- [Canada’s Stablecoin Framework Has Three Compliance Layers](/generated/v2/topics/canada-stablecoin-framework-three-compliance-layers) — related-article
+- [Committee](/generated/v2/glossary/committee) — glossary
+- [Committee](/generated/v2/glossary/committee) — related-glossary
+- [Health AI Needs an Appeal Path, Not Just an Accuracy Score](/generated/v2/topics/health-ai-appeal-path-accuracy-score) — article
+- [Health AI Needs an Appeal Path, Not Just an Accuracy Score](/generated/v2/topics/health-ai-appeal-path-accuracy-score) — related-article
+- [Ledger](/generated/v2/glossary/ledger) — glossary
+- [Ledger](/generated/v2/glossary/ledger) — related-glossary
+- [Liquidity](/generated/v2/glossary/liquidity) — glossary
+- [Liquidity](/generated/v2/glossary/liquidity) — related-glossary
+- [Market Maker](/generated/v2/glossary/market-maker) — glossary
+- [Market Maker](/generated/v2/glossary/market-maker) — related-glossary
+- [Redemption](/generated/v2/glossary/redemption) — glossary
+- [Redemption](/generated/v2/glossary/redemption) — related-glossary
+- [Settlement](/generated/v2/glossary/settlement) — glossary
+- [Settlement](/generated/v2/glossary/settlement) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:tokenized-money-convertibility-test`

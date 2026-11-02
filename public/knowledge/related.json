@@ -533,6 +533,14 @@
       "canonicalUrl": "/glossary/scalability",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "glossary:simplified-payment-verification",
+      "type": "glossary",
+      "title": "Simplified Payment Verification",
+      "canonicalUrl": "/glossary/simplified-payment-verification",
+      "relationship": "term",
+      "strength": 1
     }
   ],
   "glossary:token": [
@@ -2110,6 +2118,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:transaction-id",
+      "type": "glossary",
+      "title": "Transaction ID",
+      "canonicalUrl": "/glossary/transaction-id",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:web3-infrastructure-the-hidden-backbone-of-decentralization",
       "type": "topic",
       "title": "Web3 Infrastructure: The Hidden Backbone of Decentralization",
@@ -2416,6 +2432,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:price-discovery",
+      "type": "glossary",
+      "title": "Price Discovery",
+      "canonicalUrl": "/glossary/price-discovery",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:volatility",
       "type": "glossary",
       "title": "Volatility",
@@ -2512,6 +2536,14 @@
       "type": "glossary",
       "title": "KYC",
       "canonicalUrl": "/glossary/kyc",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:regulatory-compliance",
+      "type": "glossary",
+      "title": "Regulatory Compliance",
+      "canonicalUrl": "/glossary/regulatory-compliance",
       "relationship": "term",
       "strength": 1
     },
@@ -4123,6 +4155,14 @@
       "title": "Quantum Computing and its Potential Impact on Blockchain Security",
       "canonicalUrl": "/topics/quantum-computing-and-its-potential-impact-on-blockchain-security",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:ssl-tls",
+      "type": "glossary",
+      "title": "SSL/TLS",
+      "canonicalUrl": "/glossary/ssl-tls",
+      "relationship": "term",
       "strength": 1
     }
   ],
@@ -7440,6 +7480,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:secondary-market",
+      "type": "glossary",
+      "title": "Secondary Market",
+      "canonicalUrl": "/glossary/secondary-market",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:the-future-of-token-gated-communities",
       "type": "topic",
       "title": "The Future of Token-Gated Communities",
@@ -7890,6 +7938,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:secondary-market",
+      "type": "glossary",
+      "title": "Secondary Market",
+      "canonicalUrl": "/glossary/secondary-market",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:smart-contract",
       "type": "glossary",
       "title": "Smart Contract",
@@ -8230,6 +8286,14 @@
       "canonicalUrl": "/categories/security",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "glossary:two-factor-authentication",
+      "type": "glossary",
+      "title": "Two-Factor Authentication",
+      "canonicalUrl": "/glossary/two-factor-authentication",
+      "relationship": "term",
+      "strength": 1
     }
   ],
   "glossary:pki": [
@@ -8270,6 +8334,14 @@
       "type": "glossary",
       "title": "Encryption",
       "canonicalUrl": "/glossary/encryption",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:tls",
+      "type": "glossary",
+      "title": "TLS",
+      "canonicalUrl": "/glossary/tls",
       "relationship": "term",
       "strength": 1
     }
@@ -10158,6 +10230,14 @@
       "canonicalUrl": "/glossary/scalability",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "glossary:simplified-payment-verification",
+      "type": "glossary",
+      "title": "Simplified Payment Verification",
+      "canonicalUrl": "/glossary/simplified-payment-verification",
+      "relationship": "term",
+      "strength": 1
     }
   ],
   "glossary:browser-wallet": [
@@ -10460,6 +10540,14 @@
       "type": "glossary",
       "title": "Seed Phrase",
       "canonicalUrl": "/glossary/seed-phrase",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:transaction-signing",
+      "type": "glossary",
+      "title": "Transaction Signing",
+      "canonicalUrl": "/glossary/transaction-signing",
       "relationship": "term",
       "strength": 1
     },
@@ -13250,6 +13338,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:propagation",
+      "type": "glossary",
+      "title": "Propagation",
+      "canonicalUrl": "/glossary/propagation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:transaction",
       "type": "glossary",
       "title": "Transaction",
@@ -13856,6 +13952,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:propagation",
+      "type": "glossary",
+      "title": "Propagation",
+      "canonicalUrl": "/glossary/propagation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:protocol",
       "type": "glossary",
       "title": "Protocol",
@@ -13934,6 +14038,14 @@
       "type": "category",
       "title": "Governance",
       "canonicalUrl": "/categories/governance",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:open-source",
+      "type": "glossary",
+      "title": "Open Source",
+      "canonicalUrl": "/glossary/open-source",
       "relationship": "term",
       "strength": 1
     },
@@ -15610,6 +15722,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:supply-and-demand",
+      "type": "glossary",
+      "title": "Supply and Demand",
+      "canonicalUrl": "/glossary/supply-and-demand",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "category:tokenomics",
       "type": "category",
       "title": "Tokenomics",
@@ -16201,6 +16321,14 @@
       "title": "The Rise of Real-World Assets (RWAs) in Personal Portfolios",
       "canonicalUrl": "/topics/the-rise-of-real-world-assets-rwas-in-personal-portfolios",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:transaction-id",
+      "type": "glossary",
+      "title": "Transaction ID",
+      "canonicalUrl": "/glossary/transaction-id",
+      "relationship": "term",
       "strength": 1
     },
     {
@@ -17779,6 +17907,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:parachain",
+      "type": "glossary",
+      "title": "Parachain",
+      "canonicalUrl": "/glossary/parachain",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:private-vs-public-blockchains-which-will-win-in-enterprise",
       "type": "topic",
       "title": "Private vs. Public Blockchains: Which Will Win in Enterprise?",
@@ -18795,6 +18931,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:tangle",
+      "type": "glossary",
+      "title": "Tangle",
+      "canonicalUrl": "/glossary/tangle",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:top-10-underrated-crypto-projects-you-havent-heard-of-yet",
       "type": "topic",
       "title": "Top 10 Underrated Crypto Projects You Haven’t Heard Of Yet",
@@ -19432,6 +19576,14 @@
       "title": "How Blockchain is Transforming AI: The Future of Decentralized Intelligence",
       "canonicalUrl": "/topics/how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:privacy-preserving-computation",
+      "type": "glossary",
+      "title": "Privacy-Preserving Computation",
+      "canonicalUrl": "/glossary/privacy-preserving-computation",
+      "relationship": "term",
       "strength": 1
     },
     {
@@ -22233,6 +22385,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:supply-and-demand",
+      "type": "glossary",
+      "title": "Supply and Demand",
+      "canonicalUrl": "/glossary/supply-and-demand",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "category:tokenomics",
       "type": "category",
       "title": "Tokenomics",
@@ -22813,6 +22973,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:network-latency",
+      "type": "glossary",
+      "title": "Network Latency",
+      "canonicalUrl": "/glossary/network-latency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "book:proof-of-stake",
       "type": "book",
       "title": "Proof of Stake",
@@ -22935,6 +23103,14 @@
       "type": "category",
       "title": "Oracles",
       "canonicalUrl": "/categories/oracles",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:supply-chain-management",
+      "type": "glossary",
+      "title": "Supply Chain Management",
+      "canonicalUrl": "/glossary/supply-chain-management",
       "relationship": "term",
       "strength": 1
     },
@@ -23630,6 +23806,14 @@
       "title": "The Role of Quantum Computing in the Future of Blockchain Security",
       "canonicalUrl": "/topics/the-role-of-quantum-computing-in-the-future-of-blockchain-security",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:two-factor-authentication",
+      "type": "glossary",
+      "title": "Two-Factor Authentication",
+      "canonicalUrl": "/glossary/two-factor-authentication",
+      "relationship": "term",
       "strength": 1
     },
     {
@@ -39355,6 +39539,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:tps",
+      "type": "glossary",
+      "title": "TPS",
+      "canonicalUrl": "/glossary/tps",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:zero-knowledge-proofs-explained-privacy-meets-scalability",
       "type": "topic",
       "title": "Zero-Knowledge Proofs Explained: Privacy Meets Scalability",
@@ -39893,6 +40085,14 @@
       "type": "glossary",
       "title": "Immutability",
       "canonicalUrl": "/glossary/immutability",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:pseudonymity",
+      "type": "glossary",
+      "title": "Pseudonymity",
+      "canonicalUrl": "/glossary/pseudonymity",
       "relationship": "term",
       "strength": 1
     },
@@ -40793,6 +40993,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:supply-chain-management",
+      "type": "glossary",
+      "title": "Supply Chain Management",
+      "canonicalUrl": "/glossary/supply-chain-management",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:the-convergence-of-web3-and-the-internet-of-things-iot-building-a-smarter-decentralized-future",
       "type": "topic",
       "title": "The Convergence of Web3 and the Internet of Things (IoT): Building a Smarter, Decentralized Future",
@@ -41157,6 +41365,14 @@
       "canonicalUrl": "/glossary/throughput",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "glossary:tps",
+      "type": "glossary",
+      "title": "TPS",
+      "canonicalUrl": "/glossary/tps",
+      "relationship": "term",
+      "strength": 1
     }
   ],
   "glossary:qr-code": [
@@ -41246,6 +41462,14 @@
       "title": "The Role of Blockchain in Supply Chain Resilience: Lessons from 2025",
       "canonicalUrl": "/topics/the-role-of-blockchain-in-supply-chain-resilience-lessons-from-2025",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:transaction-signing",
+      "type": "glossary",
+      "title": "Transaction Signing",
+      "canonicalUrl": "/glossary/transaction-signing",
+      "relationship": "term",
       "strength": 1
     },
     {
@@ -41434,6 +41658,14 @@
       "title": "Cross-Chain Solutions in 2025: Are We Finally Interoperable?",
       "canonicalUrl": "/topics/cross-chain-solutions-in-2025-are-we-finally-interoperable",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:decentralized-application",
+      "type": "glossary",
+      "title": "Decentralized Application",
+      "canonicalUrl": "/glossary/decentralized-application",
+      "relationship": "term",
       "strength": 1
     },
     {
@@ -42187,6 +42419,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:open-source",
+      "type": "glossary",
+      "title": "Open Source",
+      "canonicalUrl": "/glossary/open-source",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:permissioned-ledger",
       "type": "glossary",
       "title": "Permissioned Ledger",
@@ -42199,6 +42439,14 @@
       "type": "glossary",
       "title": "Protocol",
       "canonicalUrl": "/glossary/protocol",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:pseudonymity",
+      "type": "glossary",
+      "title": "Pseudonymity",
+      "canonicalUrl": "/glossary/pseudonymity",
       "relationship": "term",
       "strength": 1
     },
@@ -42353,6 +42601,14 @@
       "type": "glossary",
       "title": "Provenance",
       "canonicalUrl": "/glossary/provenance",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:regulatory-compliance",
+      "type": "glossary",
+      "title": "Regulatory Compliance",
+      "canonicalUrl": "/glossary/regulatory-compliance",
       "relationship": "term",
       "strength": 1
     },
@@ -42865,6 +43121,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:self-sovereignty",
+      "type": "glossary",
+      "title": "Self-Sovereignty",
+      "canonicalUrl": "/glossary/self-sovereignty",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:the-best-investment-apps-for-2025-crypto-stocks-and-alternative-assets",
       "type": "topic",
       "title": "The Best Investment Apps for 2025: Crypto, Stocks, and Alternative Assets",
@@ -43103,6 +43367,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:tls",
+      "type": "glossary",
+      "title": "TLS",
+      "canonicalUrl": "/glossary/tls",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:trustless",
       "type": "glossary",
       "title": "Trustless",
@@ -43215,6 +43487,14 @@
       "type": "glossary",
       "title": "Permissionless",
       "canonicalUrl": "/glossary/permissionless",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:self-sovereignty",
+      "type": "glossary",
+      "title": "Self-Sovereignty",
+      "canonicalUrl": "/glossary/self-sovereignty",
       "relationship": "term",
       "strength": 1
     },
@@ -44057,6 +44337,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:tangle",
+      "type": "glossary",
+      "title": "Tangle",
+      "canonicalUrl": "/glossary/tangle",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:top-10-underrated-crypto-projects-you-havent-heard-of-yet",
       "type": "topic",
       "title": "Top 10 Underrated Crypto Projects You Haven’t Heard Of Yet",
@@ -44074,6 +44362,14 @@
     }
   ],
   "glossary:fiat-currency": [
+    {
+      "uid": "glossary:central-bank-digital-currency",
+      "type": "glossary",
+      "title": "Central Bank Digital Currency",
+      "canonicalUrl": "/glossary/central-bank-digital-currency",
+      "relationship": "term",
+      "strength": 1
+    },
     {
       "uid": "topic:crypto-taxes-made-simple-a-beginners-guide-to-filing-in-2025",
       "type": "topic",
@@ -44112,6 +44408,14 @@
       "title": "Is Crypto the Same as Money?",
       "canonicalUrl": "/topics/is-crypto-the-same-as-money",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:legal-tender",
+      "type": "glossary",
+      "title": "Legal Tender",
+      "canonicalUrl": "/glossary/legal-tender",
+      "relationship": "term",
       "strength": 1
     },
     {
@@ -44691,6 +44995,14 @@
       "type": "glossary",
       "title": "DID Document",
       "canonicalUrl": "/glossary/did-document",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:privacy-preserving-computation",
+      "type": "glossary",
+      "title": "Privacy-Preserving Computation",
+      "canonicalUrl": "/glossary/privacy-preserving-computation",
       "relationship": "term",
       "strength": 1
     },
@@ -46191,6 +46503,14 @@
       "canonicalUrl": "/glossary/layer-1",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "glossary:parachain",
+      "type": "glossary",
+      "title": "Parachain",
+      "canonicalUrl": "/glossary/parachain",
+      "relationship": "term",
+      "strength": 1
     }
   ],
   "glossary:public-key-infrastructure": [
@@ -46255,6 +46575,14 @@
       "type": "glossary",
       "title": "Public Key",
       "canonicalUrl": "/glossary/public-key",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:ssl-tls",
+      "type": "glossary",
+      "title": "SSL/TLS",
+      "canonicalUrl": "/glossary/ssl-tls",
       "relationship": "term",
       "strength": 1
     }
@@ -46395,6 +46723,14 @@
       "type": "glossary",
       "title": "API",
       "canonicalUrl": "/glossary/api",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:decentralized-application",
+      "type": "glossary",
+      "title": "Decentralized Application",
+      "canonicalUrl": "/glossary/decentralized-application",
       "relationship": "term",
       "strength": 1
     },
@@ -46545,6 +46881,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:network-latency",
+      "type": "glossary",
+      "title": "Network Latency",
+      "canonicalUrl": "/glossary/network-latency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:node",
       "type": "glossary",
       "title": "Node",
@@ -46648,6 +46992,14 @@
       "title": "Blockchain Without Speculation: Pure Utility Chains Explained",
       "canonicalUrl": "/topics/blockchain-without-speculation-pure-utility-chains-explained",
       "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:blue-chip",
+      "type": "glossary",
+      "title": "Blue Chip",
+      "canonicalUrl": "/glossary/blue-chip",
+      "relationship": "term",
       "strength": 1
     },
     {
@@ -47001,6 +47353,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:price-discovery",
+      "type": "glossary",
+      "title": "Price Discovery",
+      "canonicalUrl": "/glossary/price-discovery",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:risks-and-rewards-understanding-cryptocurrency-as-an-investment",
       "type": "topic",
       "title": "Risks and Rewards: Understanding Cryptocurrency as an Investment",
@@ -47083,10 +47443,26 @@
   ],
   "glossary:fiat": [
     {
+      "uid": "glossary:central-bank-digital-currency",
+      "type": "glossary",
+      "title": "Central Bank Digital Currency",
+      "canonicalUrl": "/glossary/central-bank-digital-currency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:inflation",
       "type": "glossary",
       "title": "Inflation",
       "canonicalUrl": "/glossary/inflation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:legal-tender",
+      "type": "glossary",
+      "title": "Legal Tender",
+      "canonicalUrl": "/glossary/legal-tender",
       "relationship": "term",
       "strength": 1
     },
@@ -47100,6 +47476,14 @@
     }
   ],
   "glossary:market-capitalization": [
+    {
+      "uid": "glossary:blue-chip",
+      "type": "glossary",
+      "title": "Blue Chip",
+      "canonicalUrl": "/glossary/blue-chip",
+      "relationship": "term",
+      "strength": 1
+    },
     {
       "uid": "glossary:circulating-supply",
       "type": "glossary",
@@ -47153,6 +47537,14 @@
       "type": "glossary",
       "title": "Liquidity",
       "canonicalUrl": "/glossary/liquidity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:secondary-market",
+      "type": "glossary",
+      "title": "Secondary Market",
+      "canonicalUrl": "/glossary/secondary-market",
       "relationship": "term",
       "strength": 1
     },
@@ -47329,6 +47721,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:propagation",
+      "type": "glossary",
+      "title": "Propagation",
+      "canonicalUrl": "/glossary/propagation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:the-hidden-fragility-of-always-on-digital-systems",
       "type": "topic",
       "title": "The Hidden Fragility of “Always-On” Digital Systems",
@@ -47358,6 +47758,1430 @@
       "title": "The Privacy Comeback: How ZK and Mixnets Are Saving Decentralization",
       "canonicalUrl": "/topics/the-privacy-comeback-how-zk-and-mixnets-are-saving-decentralization",
       "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:propagation": [
+    {
+      "uid": "glossary:block-time",
+      "type": "glossary",
+      "title": "Block Time",
+      "canonicalUrl": "/glossary/block-time",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:consensus-mechanism",
+      "type": "glossary",
+      "title": "Consensus Mechanism",
+      "canonicalUrl": "/glossary/consensus-mechanism",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:gossip-protocol",
+      "type": "glossary",
+      "title": "Gossip Protocol",
+      "canonicalUrl": "/glossary/gossip-protocol",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:latency",
+      "type": "glossary",
+      "title": "Latency",
+      "canonicalUrl": "/glossary/latency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:peer-to-peer",
+      "type": "glossary",
+      "title": "Peer-to-Peer",
+      "canonicalUrl": "/glossary/peer-to-peer",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption",
+      "type": "topic",
+      "title": "Web3 in 2026: UX, Scaling, and The Breakout Year for Mass Adoption",
+      "canonicalUrl": "/topics/web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption",
+      "type": "topic",
+      "title": "Web3 in 2026: UX, Scaling, and The Breakout Year for Mass Adoption",
+      "canonicalUrl": "/topics/web3-in-2026-ux-scaling-and-the-breakout-year-for-mass-adoption",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-most-blockchain-applications-feel-slower-than-they-should",
+      "type": "topic",
+      "title": "Why Most Blockchain Applications Feel Slower Than They Should",
+      "canonicalUrl": "/topics/why-most-blockchain-applications-feel-slower-than-they-should",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-most-blockchain-applications-feel-slower-than-they-should",
+      "type": "topic",
+      "title": "Why Most Blockchain Applications Feel Slower Than They Should",
+      "canonicalUrl": "/topics/why-most-blockchain-applications-feel-slower-than-they-should",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:blue-chip": [
+    {
+      "uid": "topic:how-to-survive-a-crypto-bear-market-expert-strategies-for-long-term-gains",
+      "type": "topic",
+      "title": "How to Survive a Crypto Bear Market: Expert Strategies for Long-Term Gains",
+      "canonicalUrl": "/topics/how-to-survive-a-crypto-bear-market-expert-strategies-for-long-term-gains",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-to-survive-a-crypto-bear-market-expert-strategies-for-long-term-gains",
+      "type": "topic",
+      "title": "How to Survive a Crypto Bear Market: Expert Strategies for Long-Term Gains",
+      "canonicalUrl": "/topics/how-to-survive-a-crypto-bear-market-expert-strategies-for-long-term-gains",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "title": "Liquidity",
+      "canonicalUrl": "/glossary/liquidity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:market-capitalization",
+      "type": "glossary",
+      "title": "Market Capitalization",
+      "canonicalUrl": "/glossary/market-capitalization",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-20-tokens-that-surprised-everyone-in-2025",
+      "type": "topic",
+      "title": "Top 20 Tokens That Surprised Everyone in 2025",
+      "canonicalUrl": "/topics/top-20-tokens-that-surprised-everyone-in-2025",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-20-tokens-that-surprised-everyone-in-2025",
+      "type": "topic",
+      "title": "Top 20 Tokens That Surprised Everyone in 2025",
+      "canonicalUrl": "/topics/top-20-tokens-that-surprised-everyone-in-2025",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:volatility",
+      "type": "glossary",
+      "title": "Volatility",
+      "canonicalUrl": "/glossary/volatility",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:open-source": [
+    {
+      "uid": "glossary:auditability",
+      "type": "glossary",
+      "title": "Auditability",
+      "canonicalUrl": "/glossary/auditability",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:decentralization",
+      "type": "glossary",
+      "title": "Decentralization",
+      "canonicalUrl": "/glossary/decentralization",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:permissionless",
+      "type": "glossary",
+      "title": "Permissionless",
+      "canonicalUrl": "/glossary/permissionless",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:smart-contracts",
+      "type": "category",
+      "title": "Smart Contracts",
+      "canonicalUrl": "/categories/smart-contracts",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-ai-hardware-race-whos-powering-the-next-generation-of-intelligence",
+      "type": "topic",
+      "title": "The AI Hardware Race: Who’s Powering the Next Generation of Intelligence?",
+      "canonicalUrl": "/topics/the-ai-hardware-race-whos-powering-the-next-generation-of-intelligence",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-ai-hardware-race-whos-powering-the-next-generation-of-intelligence",
+      "type": "topic",
+      "title": "The AI Hardware Race: Who’s Powering the Next Generation of Intelligence?",
+      "canonicalUrl": "/topics/the-ai-hardware-race-whos-powering-the-next-generation-of-intelligence",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:pseudonymity": [
+    {
+      "uid": "glossary:blockchain-analytics",
+      "type": "glossary",
+      "title": "Blockchain Analytics",
+      "canonicalUrl": "/glossary/blockchain-analytics",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:kyc",
+      "type": "glossary",
+      "title": "KYC",
+      "canonicalUrl": "/glossary/kyc",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:private-key",
+      "type": "glossary",
+      "title": "Private Key",
+      "canonicalUrl": "/glossary/private-key",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:public-key",
+      "type": "glossary",
+      "title": "Public Key",
+      "canonicalUrl": "/glossary/public-key",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:wallet",
+      "type": "glossary",
+      "title": "Wallet",
+      "canonicalUrl": "/glossary/wallet",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-does-crypto-mean",
+      "type": "topic",
+      "title": "What Does Crypto Mean?",
+      "canonicalUrl": "/topics/what-does-crypto-mean",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-does-crypto-mean",
+      "type": "topic",
+      "title": "What Does Crypto Mean?",
+      "canonicalUrl": "/topics/what-does-crypto-mean",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:secondary-market": [
+    {
+      "uid": "category:blockchain",
+      "type": "category",
+      "title": "Blockchain",
+      "canonicalUrl": "/categories/blockchain",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:blockchain-in-enterprise-how-major-corporations-are-adopting-web3-in-2025",
+      "type": "topic",
+      "title": "Blockchain in Enterprise: How Major Corporations are Adopting Web3 in 2025",
+      "canonicalUrl": "/topics/blockchain-in-enterprise-how-major-corporations-are-adopting-web3-in-2025",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:blockchain-in-enterprise-how-major-corporations-are-adopting-web3-in-2025",
+      "type": "topic",
+      "title": "Blockchain in Enterprise: How Major Corporations are Adopting Web3 in 2025",
+      "canonicalUrl": "/topics/blockchain-in-enterprise-how-major-corporations-are-adopting-web3-in-2025",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:floor-price",
+      "type": "glossary",
+      "title": "Floor Price",
+      "canonicalUrl": "/glossary/floor-price",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
+      "type": "topic",
+      "title": "Gaming in Web3: How Play-to-Earn Models Are Redefining Entertainment",
+      "canonicalUrl": "/topics/gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
+      "type": "topic",
+      "title": "Gaming in Web3: How Play-to-Earn Models Are Redefining Entertainment",
+      "canonicalUrl": "/topics/gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "title": "Liquidity",
+      "canonicalUrl": "/glossary/liquidity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:minting",
+      "type": "glossary",
+      "title": "Minting",
+      "canonicalUrl": "/glossary/minting",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:peer-to-peer",
+      "type": "glossary",
+      "title": "Peer-to-Peer",
+      "canonicalUrl": "/glossary/peer-to-peer",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:smart-contract",
+      "type": "glossary",
+      "title": "Smart Contract",
+      "canonicalUrl": "/glossary/smart-contract",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "type": "topic",
+      "title": "The Rise of Tokenized Real-World Assets: Opportunities for Investors",
+      "canonicalUrl": "/topics/the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "type": "topic",
+      "title": "The Rise of Tokenized Real-World Assets: Opportunities for Investors",
+      "canonicalUrl": "/topics/the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:tokenized-real-world-assets-the-next-big-thing-in-crypto",
+      "type": "topic",
+      "title": "Tokenized Real-World Assets: The Next Big Thing in Crypto",
+      "canonicalUrl": "/topics/tokenized-real-world-assets-the-next-big-thing-in-crypto",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:tokenized-real-world-assets-the-next-big-thing-in-crypto",
+      "type": "topic",
+      "title": "Tokenized Real-World Assets: The Next Big Thing in Crypto",
+      "canonicalUrl": "/topics/tokenized-real-world-assets-the-next-big-thing-in-crypto",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:tokenizing-digital-art-the-nft-boom-and-the-future-of-web3-creators",
+      "type": "topic",
+      "title": "Tokenizing Digital Art: The NFT Boom and the Future of Web3 Creators",
+      "canonicalUrl": "/topics/tokenizing-digital-art-the-nft-boom-and-the-future-of-web3-creators",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:tokenizing-digital-art-the-nft-boom-and-the-future-of-web3-creators",
+      "type": "topic",
+      "title": "Tokenizing Digital Art: The NFT Boom and the Future of Web3 Creators",
+      "canonicalUrl": "/topics/tokenizing-digital-art-the-nft-boom-and-the-future-of-web3-creators",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:decentralized-application": [
+    {
+      "uid": "category:blockchain",
+      "type": "category",
+      "title": "Blockchain",
+      "canonicalUrl": "/categories/blockchain",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:consensus-mechanism",
+      "type": "glossary",
+      "title": "Consensus Mechanism",
+      "canonicalUrl": "/glossary/consensus-mechanism",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:decentralized-finance",
+      "type": "glossary",
+      "title": "Decentralized Finance",
+      "canonicalUrl": "/glossary/decentralized-finance",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:does-web-3-0-exist-yet",
+      "type": "topic",
+      "title": "Does Web 3.0 Exist Yet?",
+      "canonicalUrl": "/topics/does-web-3-0-exist-yet",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:does-web-3-0-exist-yet",
+      "type": "topic",
+      "title": "Does Web 3.0 Exist Yet?",
+      "canonicalUrl": "/topics/does-web-3-0-exist-yet",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "category:ethereum",
+      "type": "category",
+      "title": "Ethereum",
+      "canonicalUrl": "/categories/ethereum",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-ethereum-a-block-chain",
+      "type": "topic",
+      "title": "Is Ethereum a block chain?",
+      "canonicalUrl": "/topics/is-ethereum-a-block-chain",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-ethereum-a-block-chain",
+      "type": "topic",
+      "title": "Is Ethereum a block chain?",
+      "canonicalUrl": "/topics/is-ethereum-a-block-chain",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:node",
+      "type": "glossary",
+      "title": "Node",
+      "canonicalUrl": "/glossary/node",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:smart-contract",
+      "type": "glossary",
+      "title": "Smart Contract",
+      "canonicalUrl": "/glossary/smart-contract",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:smart-contracts-the-backbone-of-decentralized-applications",
+      "type": "topic",
+      "title": "Smart Contracts: The Backbone of Decentralized Applications",
+      "canonicalUrl": "/topics/smart-contracts-the-backbone-of-decentralized-applications",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:smart-contracts-the-backbone-of-decentralized-applications",
+      "type": "topic",
+      "title": "Smart Contracts: The Backbone of Decentralized Applications",
+      "canonicalUrl": "/topics/smart-contracts-the-backbone-of-decentralized-applications",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "type": "topic",
+      "title": "Top 10 Altcoins to Watch in 2025: Investment Strategies for the Next Bull Run",
+      "canonicalUrl": "/topics/top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "type": "topic",
+      "title": "Top 10 Altcoins to Watch in 2025: Investment Strategies for the Next Bull Run",
+      "canonicalUrl": "/topics/top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:wallet",
+      "type": "glossary",
+      "title": "Wallet",
+      "canonicalUrl": "/glossary/wallet",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:web3",
+      "type": "category",
+      "title": "Web3",
+      "canonicalUrl": "/categories/web3",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-is-web-3-0-in-your-own-words",
+      "type": "topic",
+      "title": "What is Web 3.0 in Your Own Words?",
+      "canonicalUrl": "/topics/what-is-web-3-0-in-your-own-words",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-is-web-3-0-in-your-own-words",
+      "type": "topic",
+      "title": "What is Web 3.0 in Your Own Words?",
+      "canonicalUrl": "/topics/what-is-web-3-0-in-your-own-words",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:central-bank-digital-currency": [
+    {
+      "uid": "glossary:distributed-ledger-technology",
+      "type": "glossary",
+      "title": "Distributed Ledger Technology",
+      "canonicalUrl": "/glossary/distributed-ledger-technology",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:fiat-currency",
+      "type": "glossary",
+      "title": "Fiat Currency",
+      "canonicalUrl": "/glossary/fiat-currency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-central-bank-digital-currencies-cbdcs-could-reshape-the-crypto-market",
+      "type": "topic",
+      "title": "How Central Bank Digital Currencies (CBDCs) Could Reshape the Crypto Market",
+      "canonicalUrl": "/topics/how-central-bank-digital-currencies-cbdcs-could-reshape-the-crypto-market",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-central-bank-digital-currencies-cbdcs-could-reshape-the-crypto-market",
+      "type": "topic",
+      "title": "How Central Bank Digital Currencies (CBDCs) Could Reshape the Crypto Market",
+      "canonicalUrl": "/topics/how-central-bank-digital-currencies-cbdcs-could-reshape-the-crypto-market",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "type": "topic",
+      "title": "Navigating the Legal Maze: How Global Regulations are Shaping the Future of Blockchain and Crypto",
+      "canonicalUrl": "/topics/navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "type": "topic",
+      "title": "Navigating the Legal Maze: How Global Regulations are Shaping the Future of Blockchain and Crypto",
+      "canonicalUrl": "/topics/navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "category:stablecoins",
+      "type": "category",
+      "title": "Stablecoins",
+      "canonicalUrl": "/categories/stablecoins",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:tokenization",
+      "type": "glossary",
+      "title": "Tokenization",
+      "canonicalUrl": "/glossary/tokenization",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:legal-tender": [
+    {
+      "uid": "glossary:fiat-currency",
+      "type": "glossary",
+      "title": "Fiat Currency",
+      "canonicalUrl": "/glossary/fiat-currency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-crypto-the-same-as-money",
+      "type": "topic",
+      "title": "Is Crypto the Same as Money?",
+      "canonicalUrl": "/topics/is-crypto-the-same-as-money",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:is-crypto-the-same-as-money",
+      "type": "topic",
+      "title": "Is Crypto the Same as Money?",
+      "canonicalUrl": "/topics/is-crypto-the-same-as-money",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "type": "topic",
+      "title": "Navigating the Legal Maze: How Global Regulations are Shaping the Future of Blockchain and Crypto",
+      "canonicalUrl": "/topics/navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "type": "topic",
+      "title": "Navigating the Legal Maze: How Global Regulations are Shaping the Future of Blockchain and Crypto",
+      "canonicalUrl": "/topics/navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "category:regulation",
+      "type": "category",
+      "title": "Regulation",
+      "canonicalUrl": "/categories/regulation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:settlement",
+      "type": "glossary",
+      "title": "Settlement",
+      "canonicalUrl": "/glossary/settlement",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "type": "topic",
+      "title": "Top 5 Cryptocurrencies to Watch in 2025: Trends and Predictions",
+      "canonicalUrl": "/topics/top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "type": "topic",
+      "title": "Top 5 Cryptocurrencies to Watch in 2025: Trends and Predictions",
+      "canonicalUrl": "/topics/top-5-cryptocurrencies-to-watch-in-2025-trends-and-predictions",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-are-four-types-of-money",
+      "type": "topic",
+      "title": "What Are Four Types of Money?",
+      "canonicalUrl": "/topics/what-are-four-types-of-money",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-are-four-types-of-money",
+      "type": "topic",
+      "title": "What Are Four Types of Money?",
+      "canonicalUrl": "/topics/what-are-four-types-of-money",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-makes-money-money",
+      "type": "topic",
+      "title": "What Makes Money Money?",
+      "canonicalUrl": "/topics/what-makes-money-money",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-makes-money-money",
+      "type": "topic",
+      "title": "What Makes Money Money?",
+      "canonicalUrl": "/topics/what-makes-money-money",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:price-discovery": [
+    {
+      "uid": "glossary:arbitrage",
+      "type": "glossary",
+      "title": "Arbitrage",
+      "canonicalUrl": "/glossary/arbitrage",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:blockchain-without-speculation-pure-utility-chains-explained",
+      "type": "topic",
+      "title": "Blockchain Without Speculation: Pure Utility Chains Explained",
+      "canonicalUrl": "/topics/blockchain-without-speculation-pure-utility-chains-explained",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:blockchain-without-speculation-pure-utility-chains-explained",
+      "type": "topic",
+      "title": "Blockchain Without Speculation: Pure Utility Chains Explained",
+      "canonicalUrl": "/topics/blockchain-without-speculation-pure-utility-chains-explained",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "title": "Liquidity",
+      "canonicalUrl": "/glossary/liquidity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:market-maker",
+      "type": "glossary",
+      "title": "Market Maker",
+      "canonicalUrl": "/glossary/market-maker",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:order-book",
+      "type": "glossary",
+      "title": "Order Book",
+      "canonicalUrl": "/glossary/order-book",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:slippage",
+      "type": "glossary",
+      "title": "Slippage",
+      "canonicalUrl": "/glossary/slippage",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "type": "topic",
+      "title": "The Rise of Tokenized Real-World Assets: Opportunities for Investors",
+      "canonicalUrl": "/topics/the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "type": "topic",
+      "title": "The Rise of Tokenized Real-World Assets: Opportunities for Investors",
+      "canonicalUrl": "/topics/the-rise-of-tokenized-real-world-assets-opportunities-for-investors",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:volatility",
+      "type": "glossary",
+      "title": "Volatility",
+      "canonicalUrl": "/glossary/volatility",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "topic",
+      "title": "Why Liquidity Is Becoming More Important Than Market Cap",
+      "canonicalUrl": "/topics/why-liquidity-is-becoming-more-important-than-market-cap",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "topic",
+      "title": "Why Liquidity Is Becoming More Important Than Market Cap",
+      "canonicalUrl": "/topics/why-liquidity-is-becoming-more-important-than-market-cap",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-web3-failed-early-and-why-its-working-now",
+      "type": "topic",
+      "title": "Why Web3 Failed Early — And Why It’s Working Now",
+      "canonicalUrl": "/topics/why-web3-failed-early-and-why-its-working-now",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-web3-failed-early-and-why-its-working-now",
+      "type": "topic",
+      "title": "Why Web3 Failed Early — And Why It’s Working Now",
+      "canonicalUrl": "/topics/why-web3-failed-early-and-why-its-working-now",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:network-latency": [
+    {
+      "uid": "glossary:consensus-mechanism",
+      "type": "glossary",
+      "title": "Consensus Mechanism",
+      "canonicalUrl": "/glossary/consensus-mechanism",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:from-throughput-to-reliability-the-new-metrics-that-matter",
+      "type": "topic",
+      "title": "From Throughput to Reliability: The New Metrics That Matter",
+      "canonicalUrl": "/topics/from-throughput-to-reliability-the-new-metrics-that-matter",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:from-throughput-to-reliability-the-new-metrics-that-matter",
+      "type": "topic",
+      "title": "From Throughput to Reliability: The New Metrics That Matter",
+      "canonicalUrl": "/topics/from-throughput-to-reliability-the-new-metrics-that-matter",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:gossip-protocol",
+      "type": "glossary",
+      "title": "Gossip Protocol",
+      "canonicalUrl": "/glossary/gossip-protocol",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:sharding",
+      "type": "glossary",
+      "title": "Sharding",
+      "canonicalUrl": "/glossary/sharding",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:throughput",
+      "type": "glossary",
+      "title": "Throughput",
+      "canonicalUrl": "/glossary/throughput",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:parachain": [
+    {
+      "uid": "topic:blockchain-interoperability-the-key-to-a-multi-chain-future",
+      "type": "topic",
+      "title": "Blockchain Interoperability: The Key to a Multi-Chain Future",
+      "canonicalUrl": "/topics/blockchain-interoperability-the-key-to-a-multi-chain-future",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:blockchain-interoperability-the-key-to-a-multi-chain-future",
+      "type": "topic",
+      "title": "Blockchain Interoperability: The Key to a Multi-Chain Future",
+      "canonicalUrl": "/topics/blockchain-interoperability-the-key-to-a-multi-chain-future",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "category:interoperability",
+      "type": "category",
+      "title": "Interoperability",
+      "canonicalUrl": "/categories/interoperability",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "resource:polkadot",
+      "type": "resource",
+      "title": "Polkadot",
+      "canonicalUrl": "/developers/resources/polkadot",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "type": "topic",
+      "title": "Scaling DeFi: What’s Next for Decentralized Finance in 2025?",
+      "canonicalUrl": "/topics/scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "type": "topic",
+      "title": "Scaling DeFi: What’s Next for Decentralized Finance in 2025?",
+      "canonicalUrl": "/topics/scaling-defi-whats-next-for-decentralized-finance-in-2025",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-interoperability-race-polkadot-cosmos-vector-smart-chain-and-layer-1-bridges-in-2025",
+      "type": "topic",
+      "title": "The Interoperability Race: Polkadot, Cosmos, Vector Smart Chain, and Layer-1 Bridges in 2025",
+      "canonicalUrl": "/topics/the-interoperability-race-polkadot-cosmos-vector-smart-chain-and-layer-1-bridges-in-2025",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-interoperability-race-polkadot-cosmos-vector-smart-chain-and-layer-1-bridges-in-2025",
+      "type": "topic",
+      "title": "The Interoperability Race: Polkadot, Cosmos, Vector Smart Chain, and Layer-1 Bridges in 2025",
+      "canonicalUrl": "/topics/the-interoperability-race-polkadot-cosmos-vector-smart-chain-and-layer-1-bridges-in-2025",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "type": "topic",
+      "title": "Top 10 Altcoins to Watch in 2025: Investment Strategies for the Next Bull Run",
+      "canonicalUrl": "/topics/top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "type": "topic",
+      "title": "Top 10 Altcoins to Watch in 2025: Investment Strategies for the Next Bull Run",
+      "canonicalUrl": "/topics/top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:which-crypto-will-boom-in-2024",
+      "type": "topic",
+      "title": "Which Crypto Will Boom in 2024?",
+      "canonicalUrl": "/topics/which-crypto-will-boom-in-2024",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:which-crypto-will-boom-in-2024",
+      "type": "topic",
+      "title": "Which Crypto Will Boom in 2024?",
+      "canonicalUrl": "/topics/which-crypto-will-boom-in-2024",
+      "relationship": "related-article",
+      "strength": 1
+    }
+  ],
+  "glossary:privacy-preserving-computation": [
+    {
+      "uid": "glossary:decentralized-identity",
+      "type": "glossary",
+      "title": "Decentralized Identity",
+      "canonicalUrl": "/glossary/decentralized-identity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:zero-knowledge-proofs",
+      "type": "category",
+      "title": "Zero-Knowledge Proofs",
+      "canonicalUrl": "/categories/zero-knowledge-proofs",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:regulatory-compliance": [
+    {
+      "uid": "glossary:anti-money-laundering",
+      "type": "glossary",
+      "title": "Anti-Money Laundering",
+      "canonicalUrl": "/glossary/anti-money-laundering",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:central-bank-digital-currency",
+      "type": "glossary",
+      "title": "Central Bank Digital Currency",
+      "canonicalUrl": "/glossary/central-bank-digital-currency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:know-your-customer",
+      "type": "glossary",
+      "title": "Know Your Customer",
+      "canonicalUrl": "/glossary/know-your-customer",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:self-sovereignty": [
+    {
+      "uid": "category:cryptography",
+      "type": "category",
+      "title": "Cryptography",
+      "canonicalUrl": "/categories/cryptography",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:decentralized-identifier",
+      "type": "glossary",
+      "title": "Decentralized Identifier",
+      "canonicalUrl": "/glossary/decentralized-identifier",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:public-key-infrastructure",
+      "type": "glossary",
+      "title": "Public Key Infrastructure",
+      "canonicalUrl": "/glossary/public-key-infrastructure",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "resource:verifiable-credentials",
+      "type": "resource",
+      "title": "Verifiable Credentials",
+      "canonicalUrl": "/developers/resources/verifiable-credentials",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:zero-knowledge-proof",
+      "type": "glossary",
+      "title": "Zero-Knowledge Proof",
+      "canonicalUrl": "/glossary/zero-knowledge-proof",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:simplified-payment-verification": [
+    {
+      "uid": "glossary:block-header",
+      "type": "glossary",
+      "title": "Block Header",
+      "canonicalUrl": "/glossary/block-header",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:full-node",
+      "type": "glossary",
+      "title": "Full Node",
+      "canonicalUrl": "/glossary/full-node",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:light-client",
+      "type": "glossary",
+      "title": "Light Client",
+      "canonicalUrl": "/glossary/light-client",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:merkle-tree",
+      "type": "glossary",
+      "title": "Merkle Tree",
+      "canonicalUrl": "/glossary/merkle-tree",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:proof-of-work",
+      "type": "glossary",
+      "title": "Proof of Work",
+      "canonicalUrl": "/glossary/proof-of-work",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:tps": [
+    {
+      "uid": "glossary:block-time",
+      "type": "glossary",
+      "title": "Block Time",
+      "canonicalUrl": "/glossary/block-time",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:finality",
+      "type": "glossary",
+      "title": "Finality",
+      "canonicalUrl": "/glossary/finality",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:latency",
+      "type": "glossary",
+      "title": "Latency",
+      "canonicalUrl": "/glossary/latency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:layer-2",
+      "type": "category",
+      "title": "Layer 2",
+      "canonicalUrl": "/categories/layer-2",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:scalability",
+      "type": "glossary",
+      "title": "Scalability",
+      "canonicalUrl": "/glossary/scalability",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:throughput",
+      "type": "glossary",
+      "title": "Throughput",
+      "canonicalUrl": "/glossary/throughput",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:transaction-id": [
+    {
+      "uid": "glossary:block-explorer",
+      "type": "glossary",
+      "title": "Block Explorer",
+      "canonicalUrl": "/glossary/block-explorer",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:hash-function",
+      "type": "glossary",
+      "title": "Hash Function",
+      "canonicalUrl": "/glossary/hash-function",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:public-ledger",
+      "type": "glossary",
+      "title": "Public Ledger",
+      "canonicalUrl": "/glossary/public-ledger",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:sha-256",
+      "type": "glossary",
+      "title": "SHA-256",
+      "canonicalUrl": "/glossary/sha-256",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:ssl-tls": [
+    {
+      "uid": "glossary:asymmetric-cryptography",
+      "type": "glossary",
+      "title": "Asymmetric Cryptography",
+      "canonicalUrl": "/glossary/asymmetric-cryptography",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:data-integrity",
+      "type": "glossary",
+      "title": "Data Integrity",
+      "canonicalUrl": "/glossary/data-integrity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:digital-certificate",
+      "type": "glossary",
+      "title": "Digital Certificate",
+      "canonicalUrl": "/glossary/digital-certificate",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:encryption",
+      "type": "glossary",
+      "title": "Encryption",
+      "canonicalUrl": "/glossary/encryption",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:public-key-infrastructure",
+      "type": "glossary",
+      "title": "Public Key Infrastructure",
+      "canonicalUrl": "/glossary/public-key-infrastructure",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:tls": [
+    {
+      "uid": "glossary:public-key-infrastructure",
+      "type": "glossary",
+      "title": "Public Key Infrastructure",
+      "canonicalUrl": "/glossary/public-key-infrastructure",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:two-factor-authentication": [
+    {
+      "uid": "category:cybersecurity",
+      "type": "category",
+      "title": "Cybersecurity",
+      "canonicalUrl": "/categories/cybersecurity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:phishing",
+      "type": "glossary",
+      "title": "Phishing",
+      "canonicalUrl": "/glossary/phishing",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:supply-and-demand": [
+    {
+      "uid": "glossary:circulating-supply",
+      "type": "glossary",
+      "title": "Circulating Supply",
+      "canonicalUrl": "/glossary/circulating-supply",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:deflationary",
+      "type": "glossary",
+      "title": "Deflationary",
+      "canonicalUrl": "/glossary/deflationary",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:emission-schedule",
+      "type": "glossary",
+      "title": "Emission Schedule",
+      "canonicalUrl": "/glossary/emission-schedule",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "title": "Liquidity",
+      "canonicalUrl": "/glossary/liquidity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:market-capitalization",
+      "type": "glossary",
+      "title": "Market Capitalization",
+      "canonicalUrl": "/glossary/market-capitalization",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:tokenomics",
+      "type": "category",
+      "title": "Tokenomics",
+      "canonicalUrl": "/categories/tokenomics",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:supply-chain-management": [
+    {
+      "uid": "glossary:distributed-ledger-technology",
+      "type": "glossary",
+      "title": "Distributed Ledger Technology",
+      "canonicalUrl": "/glossary/distributed-ledger-technology",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:oracle",
+      "type": "glossary",
+      "title": "Oracle",
+      "canonicalUrl": "/glossary/oracle",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:permissioned-ledger",
+      "type": "glossary",
+      "title": "Permissioned Ledger",
+      "canonicalUrl": "/glossary/permissioned-ledger",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:provenance",
+      "type": "glossary",
+      "title": "Provenance",
+      "canonicalUrl": "/glossary/provenance",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:smart-contracts",
+      "type": "category",
+      "title": "Smart Contracts",
+      "canonicalUrl": "/categories/smart-contracts",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:tokenization",
+      "type": "glossary",
+      "title": "Tokenization",
+      "canonicalUrl": "/glossary/tokenization",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:traceability",
+      "type": "glossary",
+      "title": "Traceability",
+      "canonicalUrl": "/glossary/traceability",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:tangle": [
+    {
+      "uid": "glossary:consensus-mechanism",
+      "type": "glossary",
+      "title": "Consensus Mechanism",
+      "canonicalUrl": "/glossary/consensus-mechanism",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:directed-acyclic-graph",
+      "type": "glossary",
+      "title": "Directed Acyclic Graph",
+      "canonicalUrl": "/glossary/directed-acyclic-graph",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:proof-of-work",
+      "type": "glossary",
+      "title": "Proof of Work",
+      "canonicalUrl": "/glossary/proof-of-work",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:scalability",
+      "type": "glossary",
+      "title": "Scalability",
+      "canonicalUrl": "/glossary/scalability",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:transaction-signing": [
+    {
+      "uid": "glossary:digital-signature",
+      "type": "glossary",
+      "title": "Digital Signature",
+      "canonicalUrl": "/glossary/digital-signature",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:elliptic-curve-cryptography",
+      "type": "glossary",
+      "title": "Elliptic Curve Cryptography",
+      "canonicalUrl": "/glossary/elliptic-curve-cryptography",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:nonce",
+      "type": "glossary",
+      "title": "Nonce",
+      "canonicalUrl": "/glossary/nonce",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:private-key",
+      "type": "glossary",
+      "title": "Private Key",
+      "canonicalUrl": "/glossary/private-key",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:public-key",
+      "type": "glossary",
+      "title": "Public Key",
+      "canonicalUrl": "/glossary/public-key",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:wallet",
+      "type": "glossary",
+      "title": "Wallet",
+      "canonicalUrl": "/glossary/wallet",
+      "relationship": "term",
       "strength": 1
     }
   ],
@@ -147905,6 +149729,176 @@
       "strength": 0.5
     }
   ],
+  "topic:tokenized-money-convertibility-test": [
+    {
+      "uid": "topic:canada-stablecoin-framework-three-compliance-layers",
+      "type": "topic",
+      "title": "Canada’s Stablecoin Framework Has Three Compliance Layers",
+      "canonicalUrl": "/topics/canada-stablecoin-framework-three-compliance-layers",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:canada-stablecoin-framework-three-compliance-layers",
+      "type": "topic",
+      "title": "Canada’s Stablecoin Framework Has Three Compliance Layers",
+      "canonicalUrl": "/topics/canada-stablecoin-framework-three-compliance-layers",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:committee",
+      "type": "glossary",
+      "title": "Committee",
+      "canonicalUrl": "/glossary/committee",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:committee",
+      "type": "glossary",
+      "title": "Committee",
+      "canonicalUrl": "/glossary/committee",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "topic:health-ai-appeal-path-accuracy-score",
+      "type": "topic",
+      "title": "Health AI Needs an Appeal Path, Not Just an Accuracy Score",
+      "canonicalUrl": "/topics/health-ai-appeal-path-accuracy-score",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:health-ai-appeal-path-accuracy-score",
+      "type": "topic",
+      "title": "Health AI Needs an Appeal Path, Not Just an Accuracy Score",
+      "canonicalUrl": "/topics/health-ai-appeal-path-accuracy-score",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:ledger",
+      "type": "glossary",
+      "title": "Ledger",
+      "canonicalUrl": "/glossary/ledger",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:ledger",
+      "type": "glossary",
+      "title": "Ledger",
+      "canonicalUrl": "/glossary/ledger",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "title": "Liquidity",
+      "canonicalUrl": "/glossary/liquidity",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "title": "Liquidity",
+      "canonicalUrl": "/glossary/liquidity",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:market-maker",
+      "type": "glossary",
+      "title": "Market Maker",
+      "canonicalUrl": "/glossary/market-maker",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:market-maker",
+      "type": "glossary",
+      "title": "Market Maker",
+      "canonicalUrl": "/glossary/market-maker",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:redemption",
+      "type": "glossary",
+      "title": "Redemption",
+      "canonicalUrl": "/glossary/redemption",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:redemption",
+      "type": "glossary",
+      "title": "Redemption",
+      "canonicalUrl": "/glossary/redemption",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:settlement",
+      "type": "glossary",
+      "title": "Settlement",
+      "canonicalUrl": "/glossary/settlement",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:settlement",
+      "type": "glossary",
+      "title": "Settlement",
+      "canonicalUrl": "/glossary/settlement",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "topic:swift-tokenised-payments-availability-settlement",
+      "type": "topic",
+      "title": "Swift’s Tokenised Payments Need Two Clocks: Availability and Settlement",
+      "canonicalUrl": "/topics/swift-tokenised-payments-availability-settlement",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:swift-tokenised-payments-availability-settlement",
+      "type": "topic",
+      "title": "Swift’s Tokenised Payments Need Two Clocks: Availability and Settlement",
+      "canonicalUrl": "/topics/swift-tokenised-payments-availability-settlement",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-future-of-central-bank-digital-currencies-are-we-near-global-adoption",
+      "type": "topic",
+      "title": "The Future of Central Bank Digital Currencies: Are We Near Global Adoption?",
+      "canonicalUrl": "/topics/the-future-of-central-bank-digital-currencies-are-we-near-global-adoption",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-future-of-central-bank-digital-currencies-are-we-near-global-adoption",
+      "type": "topic",
+      "title": "The Future of Central Bank Digital Currencies: Are We Near Global Adoption?",
+      "canonicalUrl": "/topics/the-future-of-central-bank-digital-currencies-are-we-near-global-adoption",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "author:jason-ansell",
+      "type": "author",
+      "title": "Jason Ansell",
+      "canonicalUrl": "/authors/jason-ansell",
+      "relationship": "reference",
+      "strength": 0.5
+    }
+  ],
   "book:the-quiet-rebuild-of-the-internet": [],
   "book:the-dark-side-of-web3": [],
   "book:wtf-is-crypto": [],
@@ -211508,6 +213502,87 @@
   "news:curve-launches-first-native-non-evm-stableswap-deployment-on-stellar": [],
   "news:ondo-brings-seven-tokenized-investment-portfolios-to-solana": [],
   "news:solanas-reward-records-leave-stakers-with-a-gap-in-validator-fee-data": [],
+  "news:ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test": [],
+  "news:the-key-races-to-watch-for-the-2026-election": [],
+  "news:crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards": [],
+  "news:crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election": [],
+  "news:sherrod-browns-ohio-edge-threatens-a-rough-go-for-crypto-next-year": [],
+  "news:deepseek-developing-ai-agent-requiring-less-human-input-report": [],
+  "news:onekey-founder-warns-blackrocks-bitcoin-etf-could-be-a-north-korean-target": [],
+  "news:japans-central-bank-will-sell-etfs-2-6-times-faster-and-could-still-take-43-years-to-exit": [],
+  "news:ethereum-validators-pocket-30-million-windfall-as-binance-hackers-lose-119-million-in-rushed-trades": [],
+  "news:zero-token-withdrawals-let-a-hacker-drain-97-million-core-from-bitcoin-staking-platform-b14g": [],
+  "news:fbi-blames-north-korea-for-6-billion-binance-hack-urges-thorchain-to-block-stolen-funds": [],
+  "news:ai-wants-bitcoin-miners-8217-power-but-the-contracts-reveal-who-really-gets-paid": [],
+  "news:the-crypto-readers-guide-to-the-2026-midterm-election-state-of-crypto": [],
+  "news:htx-ends-uk-activity-as-fca-secures-court-undertakings-on-crypto-promotions": [],
+  "news:sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme": [],
+  "news:strategy-reports-848-517-bitcoin-as-q3-gains-put-cash-coverage-in-focus": [],
+  "news:next-technology-authorizes-sale-or-pledge-of-5-833-bitcoin-after-risk-review": [],
+  "news:binance-sets-phased-withdrawal-restart-as-asset-replenishment-reaches-95": [],
+  "news:tracked-binance-wallets-record-2-5-billion-in-outflows-as-withdrawals-reopen-after-hack": [],
+  "news:crypto-scammers-used-sec-8217-s-website-to-lure-investors-into-alleged-130-million-fraud": [],
+  "news:cursor-urges-credential-resets-after-malicious-claude-code-marketplace-update": [],
+  "news:bitcoin-redemption-freeze-puts-136-million-aave-market-under-scrutiny": [],
+  "news:bitcoin-claws-back-toward-79-000-as-markets-shake-off-cryptos-biggest-hack": [],
+  "news:btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets": [],
+  "news:bank-of-korea-probes-financial-firms-exposure-to-crypto-risks": [],
+  "news:thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers": [],
+  "news:binance-net-outflows-surge-to-5-8b-as-withdrawals-resume-after-record-hack": [],
+  "news:thorchain-founder-rejects-freeze-request-cz-thanks-secret-service-hodlers-digest": [],
+  "news:ambire-ice-puts-safe-owner-changes-and-approval-thresholds-on-the-signing-screen": [],
+  "news:ecb-picks-digital-euro-network-providers-as-pilot-infrastructure-takes-shape": [],
+  "news:bitcoin-core-32-1-arrives-with-privacy-fixes-and-new-compatibility-checks": [],
+  "news:mercado-bitcoin-plans-sui-asset-access-in-brazil-with-lending-and-tokenization-links": [],
+  "news:xrp-ledger-reviews-two-token-authorization-fixes-ahead-of-any-validator-vote": [],
+  "news:polymarket-sets-3-9m-refund-plan-after-third-party-script-compromise": [],
+  "news:kucoin-announces-russia-and-belarus-exit-with-individual-account-deadlines": [],
+  "news:metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany": [],
+  "news:binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead": [],
+  "news:live-updates-binance-records-6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings": [],
+  "news:chinas-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain": [],
+  "news:why-stealing-billions-from-a-crypto-exchange-can-be-harder-to-stop-than-a-bank-theft": [],
+  "news:bitcoin-etfs-lost-643-million-in-outflows-friday-and-2026-is-barely-green-now": [],
+  "news:strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time": [],
+  "news:trezor-lifts-password-ceiling-after-coldcards-100m-wallet-thefts": [],
+  "news:hong-kong-takes-tokenized-settlement-to-24-7-plans-stablecoin-trials": [],
+  "news:btc-heads-into-us-midterm-showdown-three-things-to-know-in-bitcoin-this-week": [],
+  "news:okx-draws-445m-in-net-inflows-as-binance-outflows-exceed-7b": [],
+  "news:bitcoin-etfs-sink-into-october-outflows-with-643m-exit-after-binance-hack": [],
+  "news:btcpay-server-warns-of-hot-wallet-thefts-running-on-outdated-software": [],
+  "news:bitcoin-white-paper-turns-18-with-payment-verification-still-at-its-core": [],
+  "news:one-paper-infinite-markets-mexc-marks-18-years-of-the-bitcoin-whitepaper-by-looking-beyond-bitcoin": [],
+  "news:tokeninsight-q3-report-mexc-ranks-no-2-in-commodity-perpetuals-with-17-43-market-share": [],
+  "news:sui-puts-enforced-spending-limits-at-the-center-of-its-ai-agent-design": [],
+  "news:near-enters-bitwise-large-cap-indexes-in-october-rebalance": [],
+  "news:ethena-pay-adds-earn-through-aave-v4-lending-on-avalanche": [],
+  "news:circle-asks-sec-to-clarify-cash-treatment-for-qualifying-payment-stablecoins": [],
+  "news:cosmos-prepares-atom-tokenomics-review-with-separate-governance-proposals": [],
+  "news:nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-to-tokenized-stocks": [],
+  "news:brazils-mercado-bitcoin-halts-withdrawals-after-40-million-drained-across-10-chains": [],
+  "news:nvidia-costco-and-nike-join-pushback-against-okx-ice-tokenized-stock-plans": [],
+  "news:anthropic-swings-to-third-quarter-operating-loss-as-compute-costs-surge-ahead-of-ipo": [],
+  "news:standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients": [],
+  "news:cryptos-washington-playbook-is-working-dont-abandon-it-now": [],
+  "news:coinbase-downgraded-at-morgan-stanley-price-target-slashed-53-on-weak-earnings-outlook": [],
+  "news:tokenization-firm-tzero-plans-to-go-public-in-350-million-spac-deal": [],
+  "news:xrp-ledger-set-to-fix-flaw-that-could-have-let-stablecoin-partners-print-new-tokens": [],
+  "news:bitcoins-volatility-curve-has-a-midterm-bump": [],
+  "news:no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds": [],
+  "news:bitcoin-eases-to-77-900-as-binance-customers-pull-3-6-billion-after-withdrawals-reopen": [],
+  "news:strategy-spends-triple-its-weekly-bitcoin-outlay-on-strc-buybacks": [],
+  "news:ai-agent-disputes-head-to-internet-court-and-a-jury-of-ai-agents": [],
+  "news:binance-taps-half-its-safu-bitcoin-holdings-releases-reserve-proof": [],
+  "news:fatf-targets-crypto-hubs-in-review-of-money-laundering-controls": [],
+  "news:binance-hackers-begin-swapping-stolen-solana-tokens-for-bitcoin-chainalysis": [],
+  "news:from-uptober-to-hacktober-are-bitcoins-seasonal-patterns-becoming-obsolete": [],
+  "news:onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps": [],
+  "news:anchorpoint-plans-native-hkdap-on-solana-as-hong-kong-dollar-access-expands": [],
+  "news:animoca-announces-adgm-fund-management-permission-for-institutional-expansion": [],
+  "news:bitbase-launches-bitbase-2-0-moving-from-trading-platform-to-value-platform": [],
+  "news:hong-kong-advances-ensembletx-to-24-7-settlement-and-plans-stablecoin-trials": [],
+  "news:kraken-prop-adds-commodity-signals-with-lower-non-crypto-commissions": [],
+  "news:noble-usdc-holders-face-new-migration-phase-as-cctp-limits-start-winding-down": [],
   "newsletter:issue-1-blockchain-foundations": [],
   "newsletter:issue-2-smart-contracts-defi": [],
   "newsletter:issue-3-web3-decentralized-internet": [],
@@ -211528,5 +213603,6 @@
   "newsletter:the-blockchain-library-weekly-the-dawn-of-autonomous-economies-18": [],
   "newsletter:the-blockchain-library-weekly-the-dawn-of-autonomous-economies-19": [],
   "newsletter:the-blockchain-library-weekly-the-dawn-of-autonomous-infrastructure-20": [],
-  "newsletter:the-blockchain-library-weekly-navigating-the-new-infrastructure-standards-21": []
+  "newsletter:the-blockchain-library-weekly-navigating-the-new-infrastructure-standards-21": [],
+  "newsletter:the-blockchain-library-weekly-insights-on-digital-governance-and-web3-infrastruc": []
 }
