@@ -1,0 +1,57 @@
+---
+title: "TOTP"
+description: "Time-based One-Time Password (TOTP) is a computer algorithm that generates a temporary numeric or alphanumeric password used for authentication. It combines a shared secret key and the current time as a seed to generate a unique code, typically valid for 30 to 60 seconds. Because"
+---
+
+# TOTP
+
+Time-based One-Time Password (TOTP) is a computer algorithm that generates a temporary numeric or alphanumeric password used for authentication. It combines a shared secret key and the current time as a seed to generate a unique code, typically valid for 30 to 60 seconds. Because the code is time-dependent and changes frequently, it provides a robust layer of multi-factor authentication (MFA) that mitigates risks associated with static password theft or replay attacks in sensitive digital environments.
+
+## Definition
+
+Time-based One-Time Password (TOTP) is a computer algorithm that generates a temporary numeric or alphanumeric password used for authentication. It combines a shared secret key and the current time as a seed to generate a unique code, typically valid for 30 to 60 seconds. Because the code is time-dependent and changes frequently, it provides a robust layer of multi-factor authentication (MFA) that mitigates risks associated with static password theft or replay attacks in sensitive digital environments.
+
+## Simple explanation
+
+Think of TOTP like a secret agent's codebook that updates every minute. You and the website both have the same secret key. Every 60 seconds, you both use the current time to calculate the exact same 6-digit number. When you type in your code, the website checks if its calculated number matches yours to prove it is really you.
+
+## Why it matters
+
+TOTP is the standard security requirement for securing centralized cryptocurrency exchange accounts and wallet management interfaces. It prevents account takeovers by ensuring that an attacker needs physical access to the user's mobile device to authorize a withdrawal or change security settings.
+
+## How it works
+
+The TOTP algorithm follows the HMAC-based One-Time Password (HOTP) standard, but replaces the counter with the current Unix time. The shared secret key is stored on the user's device (e.g., in an authenticator app) and the service provider's server. By hashing the secret key with the current time window, both sides generate a synchronized one-time passcode that expires shortly after generation.
+
+## Real-world example
+
+Most hardware and software wallets, such as those used by Binance or Google Authenticator users, rely on TOTP to protect user accounts from unauthorized login attempts even if the attacker has obtained the account password.
+
+## Advantages
+
+- Protects against static password theft
+- Works without cellular data connection
+- High security via temporary codes
+- Widely supported by most platforms
+
+## Limitations
+
+- Device loss creates account access issues
+- Vulnerable to sophisticated real-time phishing
+- Requires time synchronization between devices
+
+## Common misconceptions
+
+- People often mistake SMS-based 2FA as being as secure as TOTP, despite SIM swapping risks.
+- Many believe the codes are sent from the server, when in reality, they are generated locally on the user's device.
+## Related knowledge
+
+- [Authentication](/generated/v2/glossary/authentication) — term
+- [HMAC](/generated/v2/glossary/hmac) — term
+- [Security Token](/generated/v2/glossary/security-token) — term
+- [Seed Phrase](/generated/v2/glossary/seed-phrase) — term
+- [Two-Factor Authentication](/generated/v2/glossary/two-factor-authentication) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:totp`

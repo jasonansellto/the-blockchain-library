@@ -2,7 +2,7 @@
   {
     "key": "gas-fees",
     "label": "Gas Fees",
-    "count": 10,
+    "count": 11,
     "relationshipTypes": [
       "term"
     ],
@@ -534,98 +534,6 @@
     ]
   },
   {
-    "key": "https",
-    "label": "HTTPS",
-    "count": 3,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae211777f42048c47b9d348",
-          "slug": "certificate-authority",
-          "title": "Certificate Authority"
-        },
-        "target": {
-          "id": "HTTPS",
-          "label": "HTTPS"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a0",
-          "slug": "ssl-tls",
-          "title": "SSL/TLS"
-        },
-        "target": {
-          "id": "HTTPS",
-          "label": "HTTPS"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a1",
-          "slug": "tls",
-          "title": "TLS"
-        },
-        "target": {
-          "id": "HTTPS",
-          "label": "HTTPS"
-        }
-      }
-    ]
-  },
-  {
-    "key": "monetary-policy",
-    "label": "Monetary Policy",
-    "count": 3,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae3636adbdab768f18ef2a3",
-          "slug": "fiat-currency",
-          "title": "Fiat Currency"
-        },
-        "target": {
-          "id": "Monetary Policy",
-          "label": "Monetary Policy"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae7655fe87c28165cee4a64",
-          "slug": "central-bank-digital-currency",
-          "title": "Central Bank Digital Currency"
-        },
-        "target": {
-          "id": "Monetary Policy",
-          "label": "Monetary Policy"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae7655fe87c28165cee4a65",
-          "slug": "legal-tender",
-          "title": "Legal Tender"
-        },
-        "target": {
-          "id": "Monetary Policy",
-          "label": "Monetary Policy"
-        }
-      }
-    ]
-  },
-  {
     "key": "6a4cfeff5c3d7803fb3fe20d",
     "label": "6a4cfeff5c3d7803fb3fe20d",
     "count": 2,
@@ -660,8 +568,8 @@
     ]
   },
   {
-    "key": "asynchronous-byzantine-fault-tolerance",
-    "label": "Asynchronous Byzantine Fault Tolerance",
+    "key": "collateralization-ratio",
+    "label": "Collateralization Ratio",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -670,32 +578,32 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ae211af02999c71d40b05ed",
-          "slug": "dag",
-          "title": "DAG"
+          "id": "6a4e3a63043258f78e08e481",
+          "slug": "overcollateralized-stablecoin",
+          "title": "Overcollateralized Stablecoin"
         },
         "target": {
-          "id": "Asynchronous Byzantine Fault Tolerance",
-          "label": "Asynchronous Byzantine Fault Tolerance"
+          "id": "Collateralization Ratio",
+          "label": "Collateralization Ratio"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae8b7ac374f752ff0d295ac",
-          "slug": "tangle",
-          "title": "Tangle"
+          "id": "6aea0923a62c98542b1fea64",
+          "slug": "monetary-policy",
+          "title": "Monetary Policy"
         },
         "target": {
-          "id": "Asynchronous Byzantine Fault Tolerance",
-          "label": "Asynchronous Byzantine Fault Tolerance"
+          "id": "Collateralization Ratio",
+          "label": "Collateralization Ratio"
         }
       }
     ]
   },
   {
-    "key": "cryptographic-hash",
-    "label": "Cryptographic Hash",
+    "key": "collision-resistance",
+    "label": "Collision Resistance",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -704,25 +612,25 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ade7dd37784af5baf399c32",
-          "slug": "transparency",
-          "title": "Transparency"
+          "id": "6a4e3b15089cdb130fd95f12",
+          "slug": "hash-function",
+          "title": "Hash Function"
         },
         "target": {
-          "id": "Cryptographic Hash",
-          "label": "Cryptographic Hash"
+          "id": "Collision Resistance",
+          "label": "Collision Resistance"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a1",
-          "slug": "tls",
-          "title": "TLS"
+          "id": "6aea09318a8197087fe2f6a0",
+          "slug": "cryptographic-hash",
+          "title": "Cryptographic Hash"
         },
         "target": {
-          "id": "Cryptographic Hash",
-          "label": "Cryptographic Hash"
+          "id": "Collision Resistance",
+          "label": "Collision Resistance"
         }
       }
     ]
@@ -762,8 +670,8 @@
     ]
   },
   {
-    "key": "digital-assets",
-    "label": "Digital Assets",
+    "key": "handshake-protocol",
+    "label": "Handshake Protocol",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -772,32 +680,32 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ade7dd37784af5baf399c33",
-          "slug": "custody",
-          "title": "Custody"
+          "id": "6ae8b79ef5a3c14b86d426a1",
+          "slug": "tls",
+          "title": "TLS"
         },
         "target": {
-          "id": "Digital Assets",
-          "label": "Digital Assets"
+          "id": "Handshake Protocol",
+          "label": "Handshake Protocol"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae7655fe87c28165cee4a65",
-          "slug": "legal-tender",
-          "title": "Legal Tender"
+          "id": "6aea091e8ac341a1b41606c1",
+          "slug": "ssl",
+          "title": "SSL"
         },
         "target": {
-          "id": "Digital Assets",
-          "label": "Digital Assets"
+          "id": "Handshake Protocol",
+          "label": "Handshake Protocol"
         }
       }
     ]
   },
   {
-    "key": "microtransactions",
-    "label": "Microtransactions",
+    "key": "man-in-the-middle-attack",
+    "label": "Man-in-the-Middle Attack",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -806,25 +714,59 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ae211af02999c71d40b05ed",
-          "slug": "dag",
-          "title": "DAG"
+          "id": "6ae8b79ef5a3c14b86d426a0",
+          "slug": "ssl-tls",
+          "title": "SSL/TLS"
         },
         "target": {
-          "id": "Microtransactions",
-          "label": "Microtransactions"
+          "id": "Man-in-the-Middle Attack",
+          "label": "Man-in-the-Middle Attack"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6ae8b7ac374f752ff0d295ac",
-          "slug": "tangle",
-          "title": "Tangle"
+          "id": "6aea091e8ac341a1b41606c0",
+          "slug": "https",
+          "title": "HTTPS"
         },
         "target": {
-          "id": "Microtransactions",
-          "label": "Microtransactions"
+          "id": "Man-in-the-Middle Attack",
+          "label": "Man-in-the-Middle Attack"
+        }
+      }
+    ]
+  },
+  {
+    "key": "mfa",
+    "label": "MFA",
+    "count": 2,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6ae8b79ef5a3c14b86d426a2",
+          "slug": "two-factor-authentication",
+          "title": "Two-Factor Authentication"
+        },
+        "target": {
+          "id": "MFA",
+          "label": "MFA"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea091e8ac341a1b41606c2",
+          "slug": "totp",
+          "title": "TOTP"
+        },
+        "target": {
+          "id": "MFA",
+          "label": "MFA"
         }
       }
     ]
@@ -864,74 +806,6 @@
     ]
   },
   {
-    "key": "propagation-delay",
-    "label": "Propagation Delay",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae6066ccbfa7eae1b25cf09",
-          "slug": "broadcast",
-          "title": "Broadcast"
-        },
-        "target": {
-          "id": "Propagation Delay",
-          "label": "Propagation Delay"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae765631add74e9004a085d",
-          "slug": "network-latency",
-          "title": "Network Latency"
-        },
-        "target": {
-          "id": "Propagation Delay",
-          "label": "Propagation Delay"
-        }
-      }
-    ]
-  },
-  {
-    "key": "relay-chain",
-    "label": "Relay Chain",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae4b4a19a94466bc73fd596",
-          "slug": "layer-0",
-          "title": "Layer 0"
-        },
-        "target": {
-          "id": "Relay Chain",
-          "label": "Relay Chain"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae76568fc83d03c330300a0",
-          "slug": "parachain",
-          "title": "Parachain"
-        },
-        "target": {
-          "id": "Relay Chain",
-          "label": "Relay Chain"
-        }
-      }
-    ]
-  },
-  {
     "key": "rollups",
     "label": "Rollups",
     "count": 2,
@@ -966,9 +840,9 @@
     ]
   },
   {
-    "key": "ssl",
-    "label": "SSL",
-    "count": 2,
+    "key": "2fa",
+    "label": "2FA",
+    "count": 1,
     "relationshipTypes": [
       "term"
     ],
@@ -976,127 +850,13 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3a9280e20b9e1f48da83",
-          "slug": "pki",
-          "title": "PKI"
+          "id": "6aea091e8ac341a1b41606c2",
+          "slug": "totp",
+          "title": "TOTP"
         },
         "target": {
-          "id": "SSL",
-          "label": "SSL"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a1",
-          "slug": "tls",
-          "title": "TLS"
-        },
-        "target": {
-          "id": "SSL",
-          "label": "SSL"
-        }
-      }
-    ]
-  },
-  {
-    "key": "totp",
-    "label": "TOTP",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a9280e20b9e1f48da82",
-          "slug": "one-time-password",
-          "title": "One-Time Password"
-        },
-        "target": {
-          "id": "TOTP",
-          "label": "TOTP"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a2",
-          "slug": "two-factor-authentication",
-          "title": "Two-Factor Authentication"
-        },
-        "target": {
-          "id": "TOTP",
-          "label": "TOTP"
-        }
-      }
-    ]
-  },
-  {
-    "key": "utility-token",
-    "label": "Utility Token",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a37a90720a2ef889ba9",
-          "slug": "altcoin",
-          "title": "Altcoin"
-        },
-        "target": {
-          "id": "Utility Token",
-          "label": "Utility Token"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b8abbcadb0068f64aaf",
-          "slug": "token",
-          "title": "Token"
-        },
-        "target": {
-          "id": "Utility Token",
-          "label": "Utility Token"
-        }
-      }
-    ]
-  },
-  {
-    "key": "valuation",
-    "label": "Valuation",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8fa90b360663850c38",
-          "slug": "floor-price",
-          "title": "Floor Price"
-        },
-        "target": {
-          "id": "Valuation",
-          "label": "Valuation"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae60683c8476f72f4a5e38f",
-          "slug": "market-capitalization",
-          "title": "Market Capitalization"
-        },
-        "target": {
-          "id": "Valuation",
-          "label": "Valuation"
+          "id": "2FA",
+          "label": "2FA"
         }
       }
     ]
@@ -2290,28 +2050,6 @@
     ]
   },
   {
-    "key": "collateralization-ratio",
-    "label": "Collateralization Ratio",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a63043258f78e08e481",
-          "slug": "overcollateralized-stablecoin",
-          "title": "Overcollateralized Stablecoin"
-        },
-        "target": {
-          "id": "Collateralization Ratio",
-          "label": "Collateralization Ratio"
-        }
-      }
-    ]
-  },
-  {
     "key": "collator",
     "label": "Collator",
     "count": 1,
@@ -2329,28 +2067,6 @@
         "target": {
           "id": "Collator",
           "label": "Collator"
-        }
-      }
-    ]
-  },
-  {
-    "key": "collision-resistance",
-    "label": "Collision Resistance",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b15089cdb130fd95f12",
-          "slug": "hash-function",
-          "title": "Hash Function"
-        },
-        "target": {
-          "id": "Collision Resistance",
-          "label": "Collision Resistance"
         }
       }
     ]
@@ -4600,28 +4316,6 @@
     ]
   },
   {
-    "key": "handshake-protocol",
-    "label": "Handshake Protocol",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a1",
-          "slug": "tls",
-          "title": "TLS"
-        },
-        "target": {
-          "id": "Handshake Protocol",
-          "label": "Handshake Protocol"
-        }
-      }
-    ]
-  },
-  {
     "key": "hard-cap",
     "label": "Hard Cap",
     "count": 1,
@@ -4881,6 +4575,28 @@
         "target": {
           "id": "HTLC",
           "label": "HTLC"
+        }
+      }
+    ]
+  },
+  {
+    "key": "http",
+    "label": "HTTP",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea091e8ac341a1b41606c0",
+          "slug": "https",
+          "title": "HTTPS"
+        },
+        "target": {
+          "id": "HTTP",
+          "label": "HTTP"
         }
       }
     ]
@@ -5414,28 +5130,6 @@
     ]
   },
   {
-    "key": "man-in-the-middle-attack",
-    "label": "Man-in-the-Middle Attack",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a0",
-          "slug": "ssl-tls",
-          "title": "SSL/TLS"
-        },
-        "target": {
-          "id": "Man-in-the-Middle Attack",
-          "label": "Man-in-the-Middle Attack"
-        }
-      }
-    ]
-  },
-  {
     "key": "mapping",
     "label": "Mapping",
     "count": 1,
@@ -5524,6 +5218,28 @@
     ]
   },
   {
+    "key": "marketplace",
+    "label": "Marketplace",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea093faa8b7d1771c2fcfb",
+          "slug": "valuation",
+          "title": "Valuation"
+        },
+        "target": {
+          "id": "Marketplace",
+          "label": "Marketplace"
+        }
+      }
+    ]
+  },
+  {
     "key": "master-key",
     "label": "Master Key",
     "count": 1,
@@ -5585,28 +5301,6 @@
         "target": {
           "id": "Memory",
           "label": "Memory"
-        }
-      }
-    ]
-  },
-  {
-    "key": "mfa",
-    "label": "MFA",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a2",
-          "slug": "two-factor-authentication",
-          "title": "Two-Factor Authentication"
-        },
-        "target": {
-          "id": "MFA",
-          "label": "MFA"
         }
       }
     ]
@@ -5871,6 +5565,50 @@
         "target": {
           "id": "Network Effect",
           "label": "Network Effect"
+        }
+      }
+    ]
+  },
+  {
+    "key": "network-fork",
+    "label": "Network Fork",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea09318a8197087fe2f6a2",
+          "slug": "propagation-delay",
+          "title": "Propagation Delay"
+        },
+        "target": {
+          "id": "Network Fork",
+          "label": "Network Fork"
+        }
+      }
+    ]
+  },
+  {
+    "key": "network-partition",
+    "label": "Network Partition",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea092a2f6492116737b816",
+          "slug": "asynchronous-byzantine-fault-tolerance",
+          "title": "Asynchronous Byzantine Fault Tolerance"
+        },
+        "target": {
+          "id": "Network Partition",
+          "label": "Network Partition"
         }
       }
     ]
@@ -6228,6 +5966,28 @@
     ]
   },
   {
+    "key": "orphan-block",
+    "label": "Orphan Block",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea09318a8197087fe2f6a2",
+          "slug": "propagation-delay",
+          "title": "Propagation Delay"
+        },
+        "target": {
+          "id": "Orphan Block",
+          "label": "Orphan Block"
+        }
+      }
+    ]
+  },
+  {
     "key": "over-collateralization",
     "label": "Over-collateralization",
     "count": 1,
@@ -6289,6 +6049,28 @@
         "target": {
           "id": "P2P Protocol",
           "label": "P2P Protocol"
+        }
+      }
+    ]
+  },
+  {
+    "key": "payment-channels",
+    "label": "Payment Channels",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea092a2f6492116737b817",
+          "slug": "microtransactions",
+          "title": "Microtransactions"
+        },
+        "target": {
+          "id": "Payment Channels",
+          "label": "Payment Channels"
         }
       }
     ]
@@ -7328,6 +7110,28 @@
     ]
   },
   {
+    "key": "shared-security",
+    "label": "Shared Security",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea093a164ec493e31a3274",
+          "slug": "relay-chain",
+          "title": "Relay Chain"
+        },
+        "target": {
+          "id": "Shared Security",
+          "label": "Shared Security"
+        }
+      }
+    ]
+  },
+  {
     "key": "shors-algorithm",
     "label": "Shor's Algorithm",
     "count": 1,
@@ -7785,6 +7589,28 @@
         "target": {
           "id": "State Channels",
           "label": "State Channels"
+        }
+      }
+    ]
+  },
+  {
+    "key": "state-machine-replication",
+    "label": "State Machine Replication",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea092a2f6492116737b816",
+          "slug": "asynchronous-byzantine-fault-tolerance",
+          "title": "Asynchronous Byzantine Fault Tolerance"
+        },
+        "target": {
+          "id": "State Machine Replication",
+          "label": "State Machine Replication"
         }
       }
     ]
@@ -8890,6 +8716,28 @@
     ]
   },
   {
+    "key": "wash-trading",
+    "label": "Wash Trading",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea093faa8b7d1771c2fcfb",
+          "slug": "valuation",
+          "title": "Valuation"
+        },
+        "target": {
+          "id": "Wash Trading",
+          "label": "Wash Trading"
+        }
+      }
+    ]
+  },
+  {
     "key": "web3-authentication",
     "label": "Web3 Authentication",
     "count": 1,
@@ -8907,6 +8755,28 @@
         "target": {
           "id": "Web3 Authentication",
           "label": "Web3 Authentication"
+        }
+      }
+    ]
+  },
+  {
+    "key": "web3-monetization",
+    "label": "Web3 Monetization",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aea092a2f6492116737b817",
+          "slug": "microtransactions",
+          "title": "Microtransactions"
+        },
+        "target": {
+          "id": "Web3 Monetization",
+          "label": "Web3 Monetization"
         }
       }
     ]

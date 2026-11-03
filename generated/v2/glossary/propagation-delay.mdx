@@ -1,0 +1,56 @@
+---
+title: "Propagation Delay"
+description: "Propagation delay in a blockchain network refers to the time elapsed between the generation of a block or transaction and its successful distribution to all nodes in the decentralized network. In a peer-to-peer network, this latency is influenced by physical distance, network con"
+---
+
+# Propagation Delay
+
+Propagation delay in a blockchain network refers to the time elapsed between the generation of a block or transaction and its successful distribution to all nodes in the decentralized network. In a peer-to-peer network, this latency is influenced by physical distance, network congestion, and the number of hops required to reach the majority of nodes. High propagation delay increases the probability of network forks, as different parts of the network may operate on conflicting data states simultaneously before synchronizing.
+
+## Definition
+
+Propagation delay in a blockchain network refers to the time elapsed between the generation of a block or transaction and its successful distribution to all nodes in the decentralized network. In a peer-to-peer network, this latency is influenced by physical distance, network congestion, and the number of hops required to reach the majority of nodes. High propagation delay increases the probability of network forks, as different parts of the network may operate on conflicting data states simultaneously before synchronizing.
+
+## Simple explanation
+
+Think of propagation delay as the time it takes for a message to travel across the globe. In a blockchain, if one miner finds a new block, they have to shout it to everyone else. The time it takes for every computer in the world to hear that shout and update their own records is propagation delay.
+
+## Why it matters
+
+Low propagation delay is vital for maintaining a single, unified version of the truth across a distributed network. High delays can lead to orphaned blocks and network instability, reducing the overall security and speed of the blockchain.
+
+## How it works
+
+When a node broadcasts a transaction, the packet travels across nodes in a gossip protocol. Each node receives, validates, and re-broadcasts the transaction to its peers. As the data passes through these layers, latency accumulates until the entire network reaches state consistency.
+
+## Real-world example
+
+The Bitcoin network constantly works to minimize propagation delay through specialized software like the Falcon network or FIBRE to ensure miners stay synced.
+
+## Advantages
+
+- Encourages optimization of network topology
+- Drives innovation in block propagation protocols
+- Highlights the importance of decentralization
+
+## Limitations
+
+- Leads to increased network forking risk
+- Can reduce transaction finality speed
+- Forces trade-offs between security and throughput
+
+## Common misconceptions
+
+- It is often wrongly assumed that propagation delay is only caused by internet speeds, when it is also heavily affected by block size.
+- Users frequently think that increasing throughput does not impact network synchronization, but it can actually increase propagation delay.
+## Related knowledge
+
+- [Block Time](/generated/v2/glossary/block-time) — term
+- [Gossip Protocol](/generated/v2/glossary/gossip-protocol) — term
+- [Latency](/generated/v2/glossary/latency) — term
+- [Peer-to-Peer](/generated/v2/glossary/peer-to-peer) — term
+- [Throughput](/generated/v2/glossary/throughput) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:propagation-delay`

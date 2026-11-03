@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T17:03:24.636Z",
-  "buildId": "772660369e08615b",
+  "generatedAt": "2026-11-03T17:01:31.284Z",
+  "buildId": "cac46997cb4c06da",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -6229,6 +6229,114 @@
       "sourceCanonicalUrl": "/glossary/transaction-signing",
       "sourceSlug": "transaction-signing",
       "routeSlug": "transaction-signing"
+    },
+    {
+      "uid": "glossary:https",
+      "type": "glossary",
+      "title": "HTTPS",
+      "path": "generated/v2/glossary/https",
+      "sourceCanonicalUrl": "/glossary/https",
+      "sourceSlug": "https",
+      "routeSlug": "https"
+    },
+    {
+      "uid": "glossary:ssl",
+      "type": "glossary",
+      "title": "SSL",
+      "path": "generated/v2/glossary/ssl",
+      "sourceCanonicalUrl": "/glossary/ssl",
+      "sourceSlug": "ssl",
+      "routeSlug": "ssl"
+    },
+    {
+      "uid": "glossary:totp",
+      "type": "glossary",
+      "title": "TOTP",
+      "path": "generated/v2/glossary/totp",
+      "sourceCanonicalUrl": "/glossary/totp",
+      "sourceSlug": "totp",
+      "routeSlug": "totp"
+    },
+    {
+      "uid": "glossary:monetary-policy",
+      "type": "glossary",
+      "title": "Monetary Policy",
+      "path": "generated/v2/glossary/monetary-policy",
+      "sourceCanonicalUrl": "/glossary/monetary-policy",
+      "sourceSlug": "monetary-policy",
+      "routeSlug": "monetary-policy"
+    },
+    {
+      "uid": "glossary:asynchronous-byzantine-fault-tolerance",
+      "type": "glossary",
+      "title": "Asynchronous Byzantine Fault Tolerance",
+      "path": "generated/v2/glossary/asynchronous-byzantine-fault-tolerance",
+      "sourceCanonicalUrl": "/glossary/asynchronous-byzantine-fault-tolerance",
+      "sourceSlug": "asynchronous-byzantine-fault-tolerance",
+      "routeSlug": "asynchronous-byzantine-fault-tolerance"
+    },
+    {
+      "uid": "glossary:microtransactions",
+      "type": "glossary",
+      "title": "Microtransactions",
+      "path": "generated/v2/glossary/microtransactions",
+      "sourceCanonicalUrl": "/glossary/microtransactions",
+      "sourceSlug": "microtransactions",
+      "routeSlug": "microtransactions"
+    },
+    {
+      "uid": "glossary:cryptographic-hash",
+      "type": "glossary",
+      "title": "Cryptographic Hash",
+      "path": "generated/v2/glossary/cryptographic-hash",
+      "sourceCanonicalUrl": "/glossary/cryptographic-hash",
+      "sourceSlug": "cryptographic-hash",
+      "routeSlug": "cryptographic-hash"
+    },
+    {
+      "uid": "glossary:digital-assets",
+      "type": "glossary",
+      "title": "Digital Assets",
+      "path": "generated/v2/glossary/digital-assets",
+      "sourceCanonicalUrl": "/glossary/digital-assets",
+      "sourceSlug": "digital-assets",
+      "routeSlug": "digital-assets"
+    },
+    {
+      "uid": "glossary:propagation-delay",
+      "type": "glossary",
+      "title": "Propagation Delay",
+      "path": "generated/v2/glossary/propagation-delay",
+      "sourceCanonicalUrl": "/glossary/propagation-delay",
+      "sourceSlug": "propagation-delay",
+      "routeSlug": "propagation-delay"
+    },
+    {
+      "uid": "glossary:utility-token",
+      "type": "glossary",
+      "title": "Utility Token",
+      "path": "generated/v2/glossary/utility-token",
+      "sourceCanonicalUrl": "/glossary/utility-token",
+      "sourceSlug": "utility-token",
+      "routeSlug": "utility-token"
+    },
+    {
+      "uid": "glossary:relay-chain",
+      "type": "glossary",
+      "title": "Relay Chain",
+      "path": "generated/v2/glossary/relay-chain",
+      "sourceCanonicalUrl": "/glossary/relay-chain",
+      "sourceSlug": "relay-chain",
+      "routeSlug": "relay-chain"
+    },
+    {
+      "uid": "glossary:valuation",
+      "type": "glossary",
+      "title": "Valuation",
+      "path": "generated/v2/glossary/valuation",
+      "sourceCanonicalUrl": "/glossary/valuation",
+      "sourceSlug": "valuation",
+      "routeSlug": "valuation"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",

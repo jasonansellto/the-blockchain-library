@@ -1,0 +1,57 @@
+---
+title: "Cryptographic Hash"
+description: "A cryptographic hash is a mathematical algorithm that maps data of arbitrary size to a fixed-size bit string. It acts as a digital fingerprint for information, ensuring integrity and security. A critical property of a secure hash function is that it is computationally infeasible "
+---
+
+# Cryptographic Hash
+
+A cryptographic hash is a mathematical algorithm that maps data of arbitrary size to a fixed-size bit string. It acts as a digital fingerprint for information, ensuring integrity and security. A critical property of a secure hash function is that it is computationally infeasible to reverse (one-way), meaning the input cannot be derived from the output. Additionally, it must be collision-resistant, such that two distinct inputs cannot produce the same hash value, providing a reliable method for verifying that data has not been tampered with or corrupted.
+
+## Definition
+
+A cryptographic hash is a mathematical algorithm that maps data of arbitrary size to a fixed-size bit string. It acts as a digital fingerprint for information, ensuring integrity and security. A critical property of a secure hash function is that it is computationally infeasible to reverse (one-way), meaning the input cannot be derived from the output. Additionally, it must be collision-resistant, such that two distinct inputs cannot produce the same hash value, providing a reliable method for verifying that data has not been tampered with or corrupted.
+
+## Simple explanation
+
+Imagine putting a thick book into a machine that produces a unique, short code based on every word in that book. If you change even a single comma in the book and run it through the machine again, the code will look completely different. This code is the 'fingerprint' of the data, allowing you to prove exactly what the original file was without needing to look at the whole file every time.
+
+## Why it matters
+
+Hashing is the foundation of blockchain security and data integrity. It allows blocks to be linked together permanently, creating an immutable record where any attempt to change historical data is immediately detectable.
+
+## How it works
+
+Data is processed through an algorithm like SHA-256, which performs a series of complex logical operations on the bits. The function breaks the input into blocks, mixes them with constants, and iteratively processes them through rounds. The final result is a fixed-length string of hexadecimal characters that represents the unique input state.
+
+## Real-world example
+
+Bitcoin uses the SHA-256 hashing algorithm to link blocks together and to secure the proof-of-work mining process.
+
+## Advantages
+
+- Ensures data integrity and authenticity
+- Computationally efficient for verification
+- Fixed-length output regardless of input size
+
+## Limitations
+
+- Vulnerable to collision attacks if flawed
+- Susceptible to brute-force attacks on weak inputs
+- Irreversible nature prevents data recovery
+
+## Common misconceptions
+
+- People often mistake hashing for encryption, but hashing is one-way and cannot be decrypted.
+- It is incorrectly believed that two different inputs can never produce the same hash, although collisions are mathematically rare.
+## Related knowledge
+
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Immutable](/generated/v2/glossary/immutable) — term
+- [Merkle Tree](/generated/v2/glossary/merkle-tree) — term
+- [Nonce](/generated/v2/glossary/nonce) — term
+- [Proof of Work](/generated/v2/glossary/proof-of-work) — term
+- [SHA-256](/generated/v2/glossary/sha-256) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:cryptographic-hash`

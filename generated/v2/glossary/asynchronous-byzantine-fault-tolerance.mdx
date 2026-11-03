@@ -1,0 +1,57 @@
+---
+title: "Asynchronous Byzantine Fault Tolerance"
+description: "Asynchronous Byzantine Fault Tolerance (aBFT) is a sophisticated consensus mechanism designed to achieve agreement in distributed networks even when messages are delayed, dropped, or reordered by the network environment. Unlike synchronous protocols that rely on fixed timeouts, a"
+---
+
+# Asynchronous Byzantine Fault Tolerance
+
+Asynchronous Byzantine Fault Tolerance (aBFT) is a sophisticated consensus mechanism designed to achieve agreement in distributed networks even when messages are delayed, dropped, or reordered by the network environment. Unlike synchronous protocols that rely on fixed timeouts, aBFT protocols guarantee safety and liveness without making assumptions about message delivery latency. This makes them highly resilient to adversarial conditions, including network partitions or coordinated malicious attacks, ensuring the integrity and consistency of the shared ledger state in decentralized, trustless environments.
+
+## Definition
+
+Asynchronous Byzantine Fault Tolerance (aBFT) is a sophisticated consensus mechanism designed to achieve agreement in distributed networks even when messages are delayed, dropped, or reordered by the network environment. Unlike synchronous protocols that rely on fixed timeouts, aBFT protocols guarantee safety and liveness without making assumptions about message delivery latency. This makes them highly resilient to adversarial conditions, including network partitions or coordinated malicious attacks, ensuring the integrity and consistency of the shared ledger state in decentralized, trustless environments.
+
+## Simple explanation
+
+Imagine a group of friends trying to decide where to eat, but they are all in different countries and their mail is constantly getting lost or taking different amounts of time to arrive. aBFT is like a super-smart rulebook that allows the friends to reach a final decision anyway, as long as a majority of them are honest, even though they can't predict when any specific message will show up.
+
+## Why it matters
+
+aBFT is crucial for the security and reliability of modern blockchain infrastructure as it provides maximum resilience against network manipulation. By removing reliance on timing, it enables blockchains to maintain consensus even during severe network instability or sophisticated denial-of-service attacks.
+
+## How it works
+
+The protocol uses complex cryptographic voting rounds where nodes verify and broadcast their views of the network state. Instead of waiting for a specific time window to close, the network progresses as soon as a sufficient quorum of messages is received. This asynchronous design prevents attackers from stalling the chain by deliberately delaying specific messages, ensuring consistent finality.
+
+## Real-world example
+
+The Hedera Hashgraph network and the Fantom Opera mainnet both utilize aBFT-derived consensus mechanisms to achieve high throughput while maintaining strong security guarantees.
+
+## Advantages
+
+- Highly resistant to network timing attacks
+- Deterministic finality without relying on probabilistic timeouts
+- Exceptional performance under heavy load
+- Robust security against malicious partitioning
+
+## Limitations
+
+- Increased complexity in implementation and auditing
+- Higher communication overhead between validator nodes
+- Technically challenging to scale to thousands of nodes
+
+## Common misconceptions
+
+- People often think aBFT implies that all network nodes must be online at the exact same time.
+- It is wrongly assumed that aBFT protocols are inherently slower than synchronous ones due to their complexity.
+## Related knowledge
+
+- [Byzantine Fault Tolerance](/generated/v2/glossary/byzantine-fault-tolerance) — term
+- [Consensus Mechanism](/generated/v2/glossary/consensus-mechanism) — term
+- [Distributed Systems](/generated/v2/glossary/distributed-systems) — term
+- [Finality](/generated/v2/glossary/finality) — term
+- [Quorum](/generated/v2/glossary/quorum) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:asynchronous-byzantine-fault-tolerance`

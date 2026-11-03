@@ -1,0 +1,57 @@
+---
+title: "Relay Chain"
+description: "A relay chain is a central blockchain architecture that serves as the primary coordination and security hub for a multi-chain network. It functions as the root ledger where state transitions from connected secondary chains, known as parachains or shards, are validated and finaliz"
+---
+
+# Relay Chain
+
+A relay chain is a central blockchain architecture that serves as the primary coordination and security hub for a multi-chain network. It functions as the root ledger where state transitions from connected secondary chains, known as parachains or shards, are validated and finalized. By providing shared security, the relay chain allows independent blockchains to communicate and transfer assets without requiring their own independent validator sets, thereby fostering interoperability and scalability within a unified ecosystem while maintaining consistent consensus across all connected participants.
+
+## Definition
+
+A relay chain is a central blockchain architecture that serves as the primary coordination and security hub for a multi-chain network. It functions as the root ledger where state transitions from connected secondary chains, known as parachains or shards, are validated and finalized. By providing shared security, the relay chain allows independent blockchains to communicate and transfer assets without requiring their own independent validator sets, thereby fostering interoperability and scalability within a unified ecosystem while maintaining consistent consensus across all connected participants.
+
+## Simple explanation
+
+Imagine the relay chain as the central hub of an airport, and the other blockchains are the individual airplanes. Each airplane doesn't need its own air traffic control tower because they all follow the rules set by the central airport hub. The hub makes sure everyone stays safe, follows the same rules, and can safely land or take off in an organized way, keeping the whole system moving smoothly without crashing.
+
+## Why it matters
+
+Relay chains solve the fragmentation problem in blockchain by allowing different networks to share security and talk to each other seamlessly. This architecture enables developers to build specialized blockchains that benefit from the robust, centralized security of the parent chain, effectively scaling the entire ecosystem.
+
+## How it works
+
+The relay chain manages the consensus process by collecting and validating blocks produced by connected parachains. It uses a set of dedicated validators to process proofs of validity from these chains and anchors their state to its own ledger. Once confirmed by the relay chain, the transactions on the individual parachains are considered final and tamper-proof.
+
+## Real-world example
+
+The Polkadot network is the most prominent example of a relay chain, which connects multiple independent parachains into a single, cohesive, and interoperable ecosystem.
+
+## Advantages
+
+- Shared security across all connected chains
+- Seamless interoperability between distinct blockchains
+- High scalability through parallel transaction processing
+
+## Limitations
+
+- Limited number of slots available for connection
+- Complexity in governing and updating the hub
+- Potential single point of systemic congestion
+
+## Common misconceptions
+
+- Many believe the relay chain executes all smart contracts itself, when it actually delegates work to parachains.
+- People often assume that all relay chains are identical, but they vary significantly in their consensus mechanisms and governance models.
+## Related knowledge
+
+- [Consensus Mechanism](/generated/v2/glossary/consensus-mechanism) — term
+- [Interoperability](/categories/interoperability) — term
+- [Parachain](/generated/v2/glossary/parachain) — term
+- [Polkadot](/generated/v2/resources/polkadot) — term
+- [Sharding](/generated/v2/glossary/sharding) — term
+- [Validator](/generated/v2/glossary/validator) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:relay-chain`

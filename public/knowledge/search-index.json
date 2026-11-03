@@ -7622,6 +7622,138 @@
     "text": "Transaction Signing Transaction signing is the cryptographic process by which a user proves ownership of the private key associated with a specific blockchain address to authorize the transfer of assets or execution of smart contract functions. By applying a digital signature—generated using elliptic curve cryptography—the sender creates a non-forgeable proof that the transaction data, including recipient address and amount, has been approved by the legitimate asset controller. This process ensures the integrity of the data while preventing unauthorized parties from altering the instruction set before it is broadcast to the network nodes for validation. Transaction Signing — Definition & Explanation | The Blockchain Library Learn how transaction signing works in blockchain. Understand the cryptographic process behind authorizing crypto transfers and securing your digital assets safely."
   },
   {
+    "id": "glossary:https",
+    "type": "glossary",
+    "title": "HTTPS",
+    "aliases": [],
+    "summary": "Hypertext Transfer Protocol Secure (HTTPS) is the secure version of HTTP, the primary protocol used to send data between a web browser and a website. HTTPS encrypts the communication between the client and the server using Transport Layer Security (TLS) or its predecessor, Secure Sockets Layer (SSL). This ensures that data, such as login credentials, personal information, or transaction details, cannot be intercepted, read, or modified by unauthorized third parties during transit, thereby establishing a secure and authenticated connection for web interactions.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/https",
+    "text": "HTTPS Hypertext Transfer Protocol Secure (HTTPS) is the secure version of HTTP, the primary protocol used to send data between a web browser and a website. HTTPS encrypts the communication between the client and the server using Transport Layer Security (TLS) or its predecessor, Secure Sockets Layer (SSL). This ensures that data, such as login credentials, personal information, or transaction details, cannot be intercepted, read, or modified by unauthorized third parties during transit, thereby establishing a secure and authenticated connection for web interactions. HTTPS — Definition & Explanation | The Blockchain Library Learn about HTTPS, the secure protocol essential for protecting web data. Understand how it ensures privacy and authentication for blockchain and Web3 users."
+  },
+  {
+    "id": "glossary:ssl",
+    "type": "glossary",
+    "title": "SSL",
+    "aliases": [],
+    "summary": "Secure Sockets Layer (SSL) is a cryptographic protocol designed to provide security for communications over a computer network. Although officially deprecated in favor of Transport Layer Security (TLS), the term remains in common parlance. SSL operates by establishing an encrypted link between a server and a client—typically a web server and a browser—ensuring that all data passed between them remains private and integral. It utilizes public-key cryptography to verify the identity of the server and establish a secure session.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/ssl",
+    "text": "SSL Secure Sockets Layer (SSL) is a cryptographic protocol designed to provide security for communications over a computer network. Although officially deprecated in favor of Transport Layer Security (TLS), the term remains in common parlance. SSL operates by establishing an encrypted link between a server and a client—typically a web server and a browser—ensuring that all data passed between them remains private and integral. It utilizes public-key cryptography to verify the identity of the server and establish a secure session. SSL — Definition & Explanation | The Blockchain Library Discover the role of SSL in internet security. Learn how this foundational protocol provides encrypted connections to keep your Web3 transactions safe."
+  },
+  {
+    "id": "glossary:totp",
+    "type": "glossary",
+    "title": "TOTP",
+    "aliases": [],
+    "summary": "Time-based One-Time Password (TOTP) is a computer algorithm that generates a temporary numeric or alphanumeric password used for authentication. It combines a shared secret key and the current time as a seed to generate a unique code, typically valid for 30 to 60 seconds. Because the code is time-dependent and changes frequently, it provides a robust layer of multi-factor authentication (MFA) that mitigates risks associated with static password theft or replay attacks in sensitive digital environments.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/totp",
+    "text": "TOTP Time-based One-Time Password (TOTP) is a computer algorithm that generates a temporary numeric or alphanumeric password used for authentication. It combines a shared secret key and the current time as a seed to generate a unique code, typically valid for 30 to 60 seconds. Because the code is time-dependent and changes frequently, it provides a robust layer of multi-factor authentication (MFA) that mitigates risks associated with static password theft or replay attacks in sensitive digital environments. TOTP — Definition & Explanation | The Blockchain Library Understand how TOTP provides secure multi-factor authentication for crypto accounts. Learn how time-based passwords protect your digital assets today."
+  },
+  {
+    "id": "glossary:monetary-policy",
+    "type": "glossary",
+    "title": "Monetary Policy",
+    "aliases": [],
+    "summary": "Monetary policy refers to the set of mechanisms, rules, or algorithmic constraints used by an issuer or decentralized protocol to manage the supply, circulation, and value of a digital currency. In the context of stablecoins and decentralized finance, monetary policy governs how assets are issued, collateralized, or burned to maintain a target peg, usually to a fiat currency. By adjusting parameters such as interest rates, collateral ratios, or supply issuance, protocols attempt to balance market demand and liquidity to ensure price stability and network health.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/monetary-policy",
+    "text": "Monetary Policy Monetary policy refers to the set of mechanisms, rules, or algorithmic constraints used by an issuer or decentralized protocol to manage the supply, circulation, and value of a digital currency. In the context of stablecoins and decentralized finance, monetary policy governs how assets are issued, collateralized, or burned to maintain a target peg, usually to a fiat currency. By adjusting parameters such as interest rates, collateral ratios, or supply issuance, protocols attempt to balance market demand and liquidity to ensure price stability and network health. Monetary Policy — Definition & Explanation | The Blockchain Library Learn what monetary policy means in the context of stablecoins and blockchain. Understand how algorithmic rules maintain currency pegs in decentralized finance."
+  },
+  {
+    "id": "glossary:asynchronous-byzantine-fault-tolerance",
+    "type": "glossary",
+    "title": "Asynchronous Byzantine Fault Tolerance",
+    "aliases": [],
+    "summary": "Asynchronous Byzantine Fault Tolerance (aBFT) is a sophisticated consensus mechanism designed to achieve agreement in distributed networks even when messages are delayed, dropped, or reordered by the network environment. Unlike synchronous protocols that rely on fixed timeouts, aBFT protocols guarantee safety and liveness without making assumptions about message delivery latency. This makes them highly resilient to adversarial conditions, including network partitions or coordinated malicious attacks, ensuring the integrity and consistency of the shared ledger state in decentralized, trustless environments.",
+    "categoryId": "6a4e39d110805a52385d8fd5",
+    "tags": [],
+    "canonicalUrl": "/glossary/asynchronous-byzantine-fault-tolerance",
+    "text": "Asynchronous Byzantine Fault Tolerance Asynchronous Byzantine Fault Tolerance (aBFT) is a sophisticated consensus mechanism designed to achieve agreement in distributed networks even when messages are delayed, dropped, or reordered by the network environment. Unlike synchronous protocols that rely on fixed timeouts, aBFT protocols guarantee safety and liveness without making assumptions about message delivery latency. This makes them highly resilient to adversarial conditions, including network partitions or coordinated malicious attacks, ensuring the integrity and consistency of the shared ledger state in decentralized, trustless environments. Asynchronous Byzantine Fault Tolerance — Definition & Explanation | The Blockchain Library Learn about Asynchronous Byzantine Fault Tolerance (aBFT), a robust consensus model ensuring blockchain security even when network communication is unreliable."
+  },
+  {
+    "id": "glossary:microtransactions",
+    "type": "glossary",
+    "title": "Microtransactions",
+    "aliases": [],
+    "summary": "Microtransactions refer to the processing of extremely small value transfers on a blockchain network, often involving fractions of a cent. While traditional financial systems struggle with the high overhead of such transactions due to fixed processing fees, blockchain technology aims to enable them through high-throughput architectures, layer-two scaling solutions, or payment channels. These transfers facilitate new economic models, such as pay-per-click content consumption, granular service billing, and programmatic machine-to-machine payments, which were previously economically unfeasible due to legacy banking friction.",
+    "categoryId": "6a4e39d110805a52385d8fd5",
+    "tags": [],
+    "canonicalUrl": "/glossary/microtransactions",
+    "text": "Microtransactions Microtransactions refer to the processing of extremely small value transfers on a blockchain network, often involving fractions of a cent. While traditional financial systems struggle with the high overhead of such transactions due to fixed processing fees, blockchain technology aims to enable them through high-throughput architectures, layer-two scaling solutions, or payment channels. These transfers facilitate new economic models, such as pay-per-click content consumption, granular service billing, and programmatic machine-to-machine payments, which were previously economically unfeasible due to legacy banking friction. Microtransactions — Definition & Explanation | The Blockchain Library Explore how blockchain microtransactions enable near-zero cost transfers for granular services, powering new Web3 economies and machine-to-machine payments."
+  },
+  {
+    "id": "glossary:cryptographic-hash",
+    "type": "glossary",
+    "title": "Cryptographic Hash",
+    "aliases": [],
+    "summary": "A cryptographic hash is a mathematical algorithm that maps data of arbitrary size to a fixed-size bit string. It acts as a digital fingerprint for information, ensuring integrity and security. A critical property of a secure hash function is that it is computationally infeasible to reverse (one-way), meaning the input cannot be derived from the output. Additionally, it must be collision-resistant, such that two distinct inputs cannot produce the same hash value, providing a reliable method for verifying that data has not been tampered with or corrupted.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/cryptographic-hash",
+    "text": "Cryptographic Hash A cryptographic hash is a mathematical algorithm that maps data of arbitrary size to a fixed-size bit string. It acts as a digital fingerprint for information, ensuring integrity and security. A critical property of a secure hash function is that it is computationally infeasible to reverse (one-way), meaning the input cannot be derived from the output. Additionally, it must be collision-resistant, such that two distinct inputs cannot produce the same hash value, providing a reliable method for verifying that data has not been tampered with or corrupted. Cryptographic Hash — Definition & Explanation | The Blockchain Library Learn about cryptographic hashes, the digital fingerprints of blockchain. Understand how hashing secures data, ensures integrity, and enables immutable records."
+  },
+  {
+    "id": "glossary:digital-assets",
+    "type": "glossary",
+    "title": "Digital Assets",
+    "aliases": [],
+    "summary": "A digital asset is any intangible resource that exists in a digital format and comes with a right of use. In the context of blockchain, these assets are typically represented by tokens on a distributed ledger, granting ownership or utility rights through cryptographic proof. These assets can include cryptocurrencies, stablecoins, non-fungible tokens (NFTs), and tokenized real-world assets. Their value is derived from their scarcity, utility, and the consensus mechanisms of the underlying blockchain network that governs their transferability and ownership.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/digital-assets",
+    "text": "Digital Assets A digital asset is any intangible resource that exists in a digital format and comes with a right of use. In the context of blockchain, these assets are typically represented by tokens on a distributed ledger, granting ownership or utility rights through cryptographic proof. These assets can include cryptocurrencies, stablecoins, non-fungible tokens (NFTs), and tokenized real-world assets. Their value is derived from their scarcity, utility, and the consensus mechanisms of the underlying blockchain network that governs their transferability and ownership. Digital Assets — Definition & Explanation | The Blockchain Library Discover what digital assets are in the world of blockchain. Learn how tokens, cryptocurrencies, and NFTs represent ownership in a decentralized economy."
+  },
+  {
+    "id": "glossary:propagation-delay",
+    "type": "glossary",
+    "title": "Propagation Delay",
+    "aliases": [],
+    "summary": "Propagation delay in a blockchain network refers to the time elapsed between the generation of a block or transaction and its successful distribution to all nodes in the decentralized network. In a peer-to-peer network, this latency is influenced by physical distance, network congestion, and the number of hops required to reach the majority of nodes. High propagation delay increases the probability of network forks, as different parts of the network may operate on conflicting data states simultaneously before synchronizing.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/propagation-delay",
+    "text": "Propagation Delay Propagation delay in a blockchain network refers to the time elapsed between the generation of a block or transaction and its successful distribution to all nodes in the decentralized network. In a peer-to-peer network, this latency is influenced by physical distance, network congestion, and the number of hops required to reach the majority of nodes. High propagation delay increases the probability of network forks, as different parts of the network may operate on conflicting data states simultaneously before synchronizing. Propagation Delay — Definition & Explanation | The Blockchain Library Understand propagation delay in blockchain networks. Learn how network latency affects synchronization, security, and the risk of forks in distributed systems."
+  },
+  {
+    "id": "glossary:utility-token",
+    "type": "glossary",
+    "title": "Utility Token",
+    "aliases": [],
+    "summary": "A utility token is a type of cryptographic asset designed to provide users with access to a specific product or service within a blockchain ecosystem. Unlike security tokens, which represent an investment contract or ownership stake, utility tokens are functional tools used to facilitate transactions, access decentralized applications, or govern protocol parameters. They serve as the internal medium of exchange within a network, incentivizing participation and usage rather than promising financial returns or equity-like dividends from the underlying project.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/utility-token",
+    "text": "Utility Token A utility token is a type of cryptographic asset designed to provide users with access to a specific product or service within a blockchain ecosystem. Unlike security tokens, which represent an investment contract or ownership stake, utility tokens are functional tools used to facilitate transactions, access decentralized applications, or govern protocol parameters. They serve as the internal medium of exchange within a network, incentivizing participation and usage rather than promising financial returns or equity-like dividends from the underlying project. Utility Token — Definition & Explanation | The Blockchain Library Learn what a utility token is. Discover how these functional cryptographic assets provide access to blockchain services, power decentralized apps, and drive Web3 usage."
+  },
+  {
+    "id": "glossary:relay-chain",
+    "type": "glossary",
+    "title": "Relay Chain",
+    "aliases": [],
+    "summary": "A relay chain is a central blockchain architecture that serves as the primary coordination and security hub for a multi-chain network. It functions as the root ledger where state transitions from connected secondary chains, known as parachains or shards, are validated and finalized. By providing shared security, the relay chain allows independent blockchains to communicate and transfer assets without requiring their own independent validator sets, thereby fostering interoperability and scalability within a unified ecosystem while maintaining consistent consensus across all connected participants.",
+    "categoryId": "6a4e39d110805a52385d8fd0",
+    "tags": [],
+    "canonicalUrl": "/glossary/relay-chain",
+    "text": "Relay Chain A relay chain is a central blockchain architecture that serves as the primary coordination and security hub for a multi-chain network. It functions as the root ledger where state transitions from connected secondary chains, known as parachains or shards, are validated and finalized. By providing shared security, the relay chain allows independent blockchains to communicate and transfer assets without requiring their own independent validator sets, thereby fostering interoperability and scalability within a unified ecosystem while maintaining consistent consensus across all connected participants. Relay Chain — Definition & Explanation | The Blockchain Library Learn about relay chains in blockchain. Discover how these central hubs provide shared security and interoperability to connect independent networks in Web3."
+  },
+  {
+    "id": "glossary:valuation",
+    "type": "glossary",
+    "title": "Valuation",
+    "aliases": [],
+    "summary": "Valuation in the context of Non-Fungible Tokens (NFTs) refers to the process of determining the fair market value of a unique digital asset recorded on a blockchain. Unlike fungible tokens, NFTs lack price history and liquidity uniformity, necessitating complex methodologies such as floor price analysis, historical trade data, rarity scoring, and comparative market assessment. Because NFTs possess unique metadata, extrinsic value is often derived from subjective factors like artistic provenance, utility, community sentiment, and scarcity, making them notoriously difficult to appraise accurately in a volatile, decentralized marketplace.",
+    "categoryId": "6a4e39d110805a52385d8fcb",
+    "tags": [],
+    "canonicalUrl": "/glossary/valuation",
+    "text": "Valuation Valuation in the context of Non-Fungible Tokens (NFTs) refers to the process of determining the fair market value of a unique digital asset recorded on a blockchain. Unlike fungible tokens, NFTs lack price history and liquidity uniformity, necessitating complex methodologies such as floor price analysis, historical trade data, rarity scoring, and comparative market assessment. Because NFTs possess unique metadata, extrinsic value is often derived from subjective factors like artistic provenance, utility, community sentiment, and scarcity, making them notoriously difficult to appraise accurately in a volatile, decentralized marketplace. Valuation — Definition & Explanation | The Blockchain Library Learn how NFT valuation works in the Web3 ecosystem. Explore methodologies like floor pricing, rarity scoring, and market analysis for digital asset appraisal."
+  },
+  {
     "id": "topic:what-crypto-looks-like-after-memecoins",
     "type": "topic",
     "title": "What Crypto Looks Like After Memecoins",
@@ -129235,6 +129367,1336 @@
     ],
     "canonicalUrl": "/news/noble-usdc-holders-face-new-migration-phase-as-cctp-limits-start-winding-down",
     "text": "Noble USDC Holders Face New Migration Phase as CCTP Limits Start Winding Down Trading Markets"
+  },
+  {
+    "id": "news:big-crypto-wants-the-one-thing-it-cant-buy-your-vote",
+    "type": "news",
+    "title": "Big crypto wants the one thing it can’t buy: your vote",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/big-crypto-wants-the-one-thing-it-cant-buy-your-vote",
+    "text": "Big crypto wants the one thing it can’t buy: your vote Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+    "type": "news",
+    "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+    "text": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:eu-entity-suspected-of-losing-106-million-from-crypto-exchange-accounts-zachxbt-says",
+    "type": "news",
+    "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/eu-entity-suspected-of-losing-106-million-from-crypto-exchange-accounts-zachxbt-says",
+    "text": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:new-jersey-drops-coinbase-staking-order-ahead-of-cryptos-midterm-test",
+    "type": "news",
+    "title": "New Jersey drops Coinbase staking order ahead of crypto’s midterm test",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/new-jersey-drops-coinbase-staking-order-ahead-of-cryptos-midterm-test",
+    "text": "New Jersey drops Coinbase staking order ahead of crypto’s midterm test Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ai-poses-greater-threat-to-bitcoin-than-quantum-computing-swan-founder-says",
+    "type": "news",
+    "title": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/ai-poses-greater-threat-to-bitcoin-than-quantum-computing-swan-founder-says",
+    "text": "AI poses greater threat to Bitcoin than quantum computing, Swan founder says Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:crypto-investigators-flag-suspected-106m-theft-786k-solana-bot-drain",
+    "type": "news",
+    "title": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/crypto-investigators-flag-suspected-106m-theft-786k-solana-bot-drain",
+    "text": "Crypto investigators flag suspected $106M theft, $786K Solana bot drain Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:coinbase-hit-with-50-price-target-cut-as-post-earnings-rout-deepens",
+    "type": "news",
+    "title": "Coinbase hit with 50% price target cut as post-earnings rout deepens",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/coinbase-hit-with-50-price-target-cut-as-post-earnings-rout-deepens",
+    "text": "Coinbase hit with 50% price target cut as post-earnings rout deepens Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-risks-drop-below-76k-as-7-oil-slide-fails-to-spark-btc-price-rally",
+    "type": "news",
+    "title": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-risks-drop-below-76k-as-7-oil-slide-fails-to-spark-btc-price-rally",
+    "text": "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:mercado-bitcoin-wallets-show-post-hack-transfers-after-46m-theft",
+    "type": "news",
+    "title": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/mercado-bitcoin-wallets-show-post-hack-transfers-after-46m-theft",
+    "text": "Mercado Bitcoin wallets show post-hack transfers after $46M theft Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:animoca-brands-clears-final-hurdle-for-abu-dhabi-fund-management",
+    "type": "news",
+    "title": "Animoca Brands clears final hurdle for Abu Dhabi fund management",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/animoca-brands-clears-final-hurdle-for-abu-dhabi-fund-management",
+    "text": "Animoca Brands clears final hurdle for Abu Dhabi fund management Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:walletconnect-adds-stellar-payments-as-bermuda-ticketing-rollout-targets-2027",
+    "type": "news",
+    "title": "WalletConnect Adds Stellar Payments as Bermuda Ticketing Rollout Targets 2027",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/walletconnect-adds-stellar-payments-as-bermuda-ticketing-rollout-targets-2027",
+    "text": "WalletConnect Adds Stellar Payments as Bermuda Ticketing Rollout Targets 2027 Trading Markets"
+  },
+  {
+    "id": "news:hashdex-adds-jane-street-to-crypto-index-etf-authorized-participants",
+    "type": "news",
+    "title": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/hashdex-adds-jane-street-to-crypto-index-etf-authorized-participants",
+    "text": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants Trading Markets"
+  },
+  {
+    "id": "news:solmate-discloses-1-26m-sol-custody-positions-and-says-it-has-no-binance-exposure",
+    "type": "news",
+    "title": "Solmate Discloses 1.26M SOL Custody Positions and Says It Has No Binance Exposure",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/solmate-discloses-1-26m-sol-custody-positions-and-says-it-has-no-binance-exposure",
+    "text": "Solmate Discloses 1.26M SOL Custody Positions and Says It Has No Binance Exposure Trading Markets"
+  },
+  {
+    "id": "news:devcon-opens-in-mumbai-this-week-with-ethereum-builders-facing-a-delivery-test",
+    "type": "news",
+    "title": "Devcon Opens in Mumbai This Week With Ethereum Builders Facing a Delivery Test",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/devcon-opens-in-mumbai-this-week-with-ethereum-builders-facing-a-delivery-test",
+    "text": "Devcon Opens in Mumbai This Week With Ethereum Builders Facing a Delivery Test Trading Markets"
+  },
+  {
+    "id": "news:horizen-holders-face-november-4-bridge-cutoff-before-l3-wind-down",
+    "type": "news",
+    "title": "Horizen Holders Face November 4 Bridge Cutoff Before L3 Wind-Down",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/horizen-holders-face-november-4-bridge-cutoff-before-l3-wind-down",
+    "text": "Horizen Holders Face November 4 Bridge Cutoff Before L3 Wind-Down Trading Markets"
+  },
+  {
+    "id": "news:base-sets-november-5-denim-activation-as-apps-prepare-for-native-200ms-blocks",
+    "type": "news",
+    "title": "Base Sets November 5 Denim Activation as Apps Prepare for Native 200ms Blocks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/base-sets-november-5-denim-activation-as-apps-prepare-for-native-200ms-blocks",
+    "text": "Base Sets November 5 Denim Activation as Apps Prepare for Native 200ms Blocks Trading Markets"
+  },
+  {
+    "id": "news:tether-freezes-4-5-million-as-mercado-bitcoin-hacker-holds-46-million-in-crypto",
+    "type": "news",
+    "title": "Tether freezes $4.5 million as Mercado Bitcoin hacker holds $46 million in crypto",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/tether-freezes-4-5-million-as-mercado-bitcoin-hacker-holds-46-million-in-crypto",
+    "text": "Tether freezes $4.5 million as Mercado Bitcoin hacker holds $46 million in crypto DeFi NFT Web3"
+  },
+  {
+    "id": "news:strategys-deployable-cash-falls-45-as-buybacks-outpace-bitcoin-purchases",
+    "type": "news",
+    "title": "Strategy’s deployable cash falls 45% as buybacks outpace Bitcoin purchases",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/strategys-deployable-cash-falls-45-as-buybacks-outpace-bitcoin-purchases",
+    "text": "Strategy’s deployable cash falls 45% as buybacks outpace Bitcoin purchases DeFi NFT Web3"
+  },
+  {
+    "id": "news:vitalik-is-making-private-ethereum-payments-without-a-crypto-website",
+    "type": "news",
+    "title": "Vitalik is making private Ethereum payments without a crypto website",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/vitalik-is-making-private-ethereum-payments-without-a-crypto-website",
+    "text": "Vitalik is making private Ethereum payments without a crypto website DeFi NFT Web3"
+  },
+  {
+    "id": "news:arthur-hayes-wants-to-hedge-ai-compute-bills-but-flop-token-swings-could-change-the-cost",
+    "type": "news",
+    "title": "Arthur Hayes wants to hedge AI compute bills, but FLOP token swings could change the cost",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/arthur-hayes-wants-to-hedge-ai-compute-bills-but-flop-token-swings-could-change-the-cost",
+    "text": "Arthur Hayes wants to hedge AI compute bills, but FLOP token swings could change the cost DeFi NFT Web3"
+  },
+  {
+    "id": "news:treasury-holds-1-trillion-as-bitcoin-faces-a-key-liquidity-test-this-week",
+    "type": "news",
+    "title": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/treasury-holds-1-trillion-as-bitcoin-faces-a-key-liquidity-test-this-week",
+    "text": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week DeFi NFT Web3"
+  },
+  {
+    "id": "news:bnbs-99-million-etf-inflows-came-almost-entirely-before-binances-hack",
+    "type": "news",
+    "title": "BNB’s $99 million ETF inflows came almost entirely before Binance’s hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bnbs-99-million-etf-inflows-came-almost-entirely-before-binances-hack",
+    "text": "BNB’s $99 million ETF inflows came almost entirely before Binance’s hack DeFi NFT Web3"
+  },
+  {
+    "id": "news:eclair-tightens-bitcoin-funding-rules-after-unconfirmed-inputs-put-lightning-payments-at-risk",
+    "type": "news",
+    "title": "Eclair tightens Bitcoin funding rules after unconfirmed inputs put Lightning payments at risk",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/eclair-tightens-bitcoin-funding-rules-after-unconfirmed-inputs-put-lightning-payments-at-risk",
+    "text": "Eclair tightens Bitcoin funding rules after unconfirmed inputs put Lightning payments at risk DeFi NFT Web3"
+  },
+  {
+    "id": "news:eth-vaults-lagged-staking-while-dollar-strategies-beat-treasuries-glassnode-finds",
+    "type": "news",
+    "title": "ETH vaults lagged staking while dollar strategies beat Treasuries, Glassnode finds",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/eth-vaults-lagged-staking-while-dollar-strategies-beat-treasuries-glassnode-finds",
+    "text": "ETH vaults lagged staking while dollar strategies beat Treasuries, Glassnode finds DeFi NFT Web3"
+  },
+  {
+    "id": "news:core-lightning-nodes-can-keep-crashing-after-an-upgrade-until-a-stored-trigger-is-removed",
+    "type": "news",
+    "title": "Core Lightning nodes can keep crashing after an upgrade until a stored trigger is removed",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/core-lightning-nodes-can-keep-crashing-after-an-upgrade-until-a-stored-trigger-is-removed",
+    "text": "Core Lightning nodes can keep crashing after an upgrade until a stored trigger is removed DeFi NFT Web3"
+  },
+  {
+    "id": "news:ethereum-added-361-000-eth-to-active-stake-while-its-total-staking-balance-shrank",
+    "type": "news",
+    "title": "Ethereum added 361,000 ETH to active stake while its total staking balance shrank",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/ethereum-added-361-000-eth-to-active-stake-while-its-total-staking-balance-shrank",
+    "text": "Ethereum added 361,000 ETH to active stake while its total staking balance shrank DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-drops-below-77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
+    "type": "news",
+    "title": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-drops-below-77-000-as-chip-rout-deepens-ahead-of-u-s-midterm-vote",
+    "text": "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:australia-lifts-rates-to-18-year-high-as-ai-boom-energy-costs-fuel-inflation",
+    "type": "news",
+    "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/australia-lifts-rates-to-18-year-high-as-ai-boom-energy-costs-fuel-inflation",
+    "text": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-begins-second-withdrawal-phase-exchange-outflows-slow",
+    "type": "news",
+    "title": "Binance begins second withdrawal phase, exchange outflows slow",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-begins-second-withdrawal-phase-exchange-outflows-slow",
+    "text": "Binance begins second withdrawal phase, exchange outflows slow Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack",
+    "type": "news",
+    "title": "South Korea urges exchanges to boost cold storage after Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/south-korea-urges-exchanges-to-boost-cold-storage-after-binance-hack",
+    "text": "South Korea urges exchanges to boost cold storage after Binance hack Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:north-korea-denies-role-in-6-3b-binance-hack-points-finger-at-us",
+    "type": "news",
+    "title": "North Korea denies role in $6.3B Binance hack, points finger at US",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/north-korea-denies-role-in-6-3b-binance-hack-points-finger-at-us",
+    "text": "North Korea denies role in $6.3B Binance hack, points finger at US Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:sat-japan-adds-usdt-and-usdc-payments-with-dollar-settlement-through-triple-a",
+    "type": "news",
+    "title": "SAT Japan Adds USDT and USDC Payments With Dollar Settlement Through Triple-A",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/sat-japan-adds-usdt-and-usdc-payments-with-dollar-settlement-through-triple-a",
+    "text": "SAT Japan Adds USDT and USDC Payments With Dollar Settlement Through Triple-A Trading Markets"
+  },
+  {
+    "id": "news:ripple-and-water-org-expand-stablecoin-work-as-aid-payments-move-faster",
+    "type": "news",
+    "title": "Ripple and Water.org Expand Stablecoin Work as Aid Payments Move Faster",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ripple-and-water-org-expand-stablecoin-work-as-aid-payments-move-faster",
+    "text": "Ripple and Water.org Expand Stablecoin Work as Aid Payments Move Faster Trading Markets"
+  },
+  {
+    "id": "news:taurus-adds-stellar-smart-contract-assets-to-institutional-custody-and-issuance",
+    "type": "news",
+    "title": "Taurus Adds Stellar Smart-Contract Assets to Institutional Custody and Issuance",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/taurus-adds-stellar-smart-contract-assets-to-institutional-custody-and-issuance",
+    "text": "Taurus Adds Stellar Smart-Contract Assets to Institutional Custody and Issuance Trading Markets"
+  },
+  {
+    "id": "news:airtm-and-bvnk-plan-wallet-payments-for-merchants-in-emerging-markets",
+    "type": "news",
+    "title": "Airtm and BVNK Plan Wallet Payments for Merchants in Emerging Markets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/airtm-and-bvnk-plan-wallet-payments-for-merchants-in-emerging-markets",
+    "text": "Airtm and BVNK Plan Wallet Payments for Merchants in Emerging Markets Trading Markets"
+  },
+  {
+    "id": "news:ethenas-trading-team-can-approve-borrowers-of-assets-backing-usde-under-new-rules",
+    "type": "news",
+    "title": "Ethena’s trading team can approve borrowers of assets backing USDe under new rules",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/ethenas-trading-team-can-approve-borrowers-of-assets-backing-usde-under-new-rules",
+    "text": "Ethena’s trading team can approve borrowers of assets backing USDe under new rules DeFi NFT Web3"
+  },
+  {
+    "id": "news:kinetics-24-million-xrp-linked-lending-market-showed-a-0-04-base-rate-before-rewards",
+    "type": "news",
+    "title": "Kinetic’s $24 million XRP-linked lending market showed a 0.04% base rate before rewards",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/kinetics-24-million-xrp-linked-lending-market-showed-a-0-04-base-rate-before-rewards",
+    "text": "Kinetic’s $24 million XRP-linked lending market showed a 0.04% base rate before rewards DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-can-cut-a-winning-bitcoin-hedge-even-when-customer-assets-are-backed",
+    "type": "news",
+    "title": "Binance can cut a winning Bitcoin hedge even when customer assets are backed",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-can-cut-a-winning-bitcoin-hedge-even-when-customer-assets-are-backed",
+    "text": "Binance can cut a winning Bitcoin hedge even when customer assets are backed DeFi NFT Web3"
+  },
+  {
+    "id": "news:tom-lee-calls-ethereums-4-post-hack-fall-bullish",
+    "type": "news",
+    "title": "Tom Lee calls Ethereum’s 4% post-hack fall bullish",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/tom-lee-calls-ethereums-4-post-hack-fall-bullish",
+    "text": "Tom Lee calls Ethereum’s 4% post-hack fall bullish DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-warns-of-second-wave-of-crypto-theft-as-6-3-billion-hack-recovery-continues",
+    "type": "news",
+    "title": "Binance warns of second wave of crypto theft as $6.3 billion hack recovery continues",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-warns-of-second-wave-of-crypto-theft-as-6-3-billion-hack-recovery-continues",
+    "text": "Binance warns of second wave of crypto theft as $6.3 billion hack recovery continues DeFi NFT Web3"
+  },
+  {
+    "id": "news:tether-holds-150-000-bitcoin-worth-11-5-billion-ceo-paolo-ardoino-says",
+    "type": "news",
+    "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/tether-holds-150-000-bitcoin-worth-11-5-billion-ceo-paolo-ardoino-says",
+    "text": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-elections-weigh-on-markets",
+    "type": "news",
+    "title": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/live-news-bitcoin-faces-fifth-weekly-loss-as-midterm-elections-weigh-on-markets",
+    "text": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:north-korea-denies-role-in-6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
+    "type": "news",
+    "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/north-korea-denies-role-in-6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
+    "text": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-40-million-hack",
+    "type": "news",
+    "title": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/mercado-bitcoin-pledges-to-cover-all-user-losses-after-near-40-million-hack",
+    "text": "Mercado Bitcoin pledges to cover all user losses after near $40 million hack Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoins-latest-chart-signal-looks-a-lot-like-the-ones-before-its-big-crashes",
+    "type": "news",
+    "title": "Bitcoin’s latest chart signal looks a lot like the ones before its big crashes",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoins-latest-chart-signal-looks-a-lot-like-the-ones-before-its-big-crashes",
+    "text": "Bitcoin’s latest chart signal looks a lot like the ones before its big crashes Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-has-spent-half-its-safu-bitcoin-about-580-million-worth-data-shows",
+    "type": "news",
+    "title": "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-has-spent-half-its-safu-bitcoin-about-580-million-worth-data-shows",
+    "text": "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-miner-cipher-posts-31-million-profit-as-ai-pivot-begins",
+    "type": "news",
+    "title": "Bitcoin miner Cipher posts $31 million profit as AI pivot begins",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-miner-cipher-posts-31-million-profit-as-ai-pivot-begins",
+    "text": "Bitcoin miner Cipher posts $31 million profit as AI pivot begins Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:arbitrums-council-moved-30-million-of-binance-hack-funds-without-the-hackers-key",
+    "type": "news",
+    "title": "Arbitrum’s council moved $30 million of Binance hack funds without the hacker’s key",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/arbitrums-council-moved-30-million-of-binance-hack-funds-without-the-hackers-key",
+    "text": "Arbitrum’s council moved $30 million of Binance hack funds without the hacker’s key Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:france-postpones-2027-budget-vote-crypto-exit-tax-proposals-scrapped",
+    "type": "news",
+    "title": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/france-postpones-2027-budget-vote-crypto-exit-tax-proposals-scrapped",
+    "text": "France postpones 2027 budget vote, crypto exit-tax proposals scrapped Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-price-threatens-77-7k-support-loss-with-recent-buyers-underwater",
+    "type": "news",
+    "title": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-threatens-77-7k-support-loss-with-recent-buyers-underwater",
+    "text": "Bitcoin price threatens $77.7K support loss with recent buyers underwater Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ark-buys-17m-in-coinbase-circle-shares-while-trimming-bullish",
+    "type": "news",
+    "title": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/ark-buys-17m-in-coinbase-circle-shares-while-trimming-bullish",
+    "text": "ARK buys $17M in Coinbase, Circle shares while trimming Bullish Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:suspected-eu-crypto-theft-estimate-rises-to-133m-zachxbt",
+    "type": "news",
+    "title": "Suspected EU crypto theft estimate rises to $133M: ZachXBT",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/suspected-eu-crypto-theft-estimate-rises-to-133m-zachxbt",
+    "text": "Suspected EU crypto theft estimate rises to $133M: ZachXBT Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:blackrocks-ibit-sees-biggest-bitcoin-etf-outflows-since-june",
+    "type": "news",
+    "title": "BlackRock’s IBIT sees biggest Bitcoin ETF outflows since June",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/blackrocks-ibit-sees-biggest-bitcoin-etf-outflows-since-june",
+    "text": "BlackRock’s IBIT sees biggest Bitcoin ETF outflows since June Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:crypto-com-to-withdraw-hong-kong-consumer-app-citing-regulatory-changes",
+    "type": "news",
+    "title": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/crypto-com-to-withdraw-hong-kong-consumer-app-citing-regulatory-changes",
+    "text": "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:uk-warns-ai-ransomware-attack-on-infrastructure-highly-likely-by-2028",
+    "type": "news",
+    "title": "UK warns AI ransomware attack on infrastructure ‘highly likely’ by 2028",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/uk-warns-ai-ransomware-attack-on-infrastructure-highly-likely-by-2028",
+    "text": "UK warns AI ransomware attack on infrastructure ‘highly likely’ by 2028 Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin",
+    "type": "news",
+    "title": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin",
+    "text": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin Trading Markets"
+  },
+  {
+    "id": "news:tria-lets-ai-agents-trade-perpetuals-with-restricted-keys",
+    "type": "news",
+    "title": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/tria-lets-ai-agents-trade-perpetuals-with-restricted-keys",
+    "text": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys Trading Markets"
+  },
+  {
+    "id": "news:dmg-says-client-assets-are-secure-and-highlights-layered-transaction-controls",
+    "type": "news",
+    "title": "DMG Says Client Assets Are Secure and Highlights Layered Transaction Controls",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/dmg-says-client-assets-are-secure-and-highlights-layered-transaction-controls",
+    "text": "DMG Says Client Assets Are Secure and Highlights Layered Transaction Controls Trading Markets"
+  },
+  {
+    "id": "news:kraken-adds-native-usdg-transfers-on-arbitrum-one",
+    "type": "news",
+    "title": "Kraken Adds Native USDG Transfers on Arbitrum One",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/kraken-adds-native-usdg-transfers-on-arbitrum-one",
+    "text": "Kraken Adds Native USDG Transfers on Arbitrum One Trading Markets"
+  },
+  {
+    "id": "news:bitcoin-faces-a-u-s-jobs-data-week-with-november-6-payrolls-in-focus",
+    "type": "news",
+    "title": "Bitcoin Faces a U.S. Jobs Data Week With November 6 Payrolls in Focus",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitcoin-faces-a-u-s-jobs-data-week-with-november-6-payrolls-in-focus",
+    "text": "Bitcoin Faces a U.S. Jobs Data Week With November 6 Payrolls in Focus Trading Markets"
+  },
+  {
+    "id": "news:circles-november-4-results-will-put-usdc-growth-and-reserve-economics-in-focus",
+    "type": "news",
+    "title": "Circle’s November 4 Results Will Put USDC Growth and Reserve Economics in Focus",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/circles-november-4-results-will-put-usdc-growth-and-reserve-economics-in-focus",
+    "text": "Circle’s November 4 Results Will Put USDC Growth and Reserve Economics in Focus Trading Markets"
+  },
+  {
+    "id": "news:spiko-reports-2-38b-in-safo-as-tokenized-cash-funds-reach-business-treasuries",
+    "type": "news",
+    "title": "Spiko Reports $2.38B in SAFO as Tokenized Cash Funds Reach Business Treasuries",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/spiko-reports-2-38b-in-safo-as-tokenized-cash-funds-reach-business-treasuries",
+    "text": "Spiko Reports $2.38B in SAFO as Tokenized Cash Funds Reach Business Treasuries Trading Markets"
+  },
+  {
+    "id": "news:bybit-and-bitget-see-crypto-deposits-surge-following-binance-8217-s-6-3-billion-hack",
+    "type": "news",
+    "title": "Bybit and Bitget see crypto deposits surge following Binance&#8217;s $6.3 billion hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bybit-and-bitget-see-crypto-deposits-surge-following-binance-8217-s-6-3-billion-hack",
+    "text": "Bybit and Bitget see crypto deposits surge following Binance&#8217;s $6.3 billion hack DeFi NFT Web3"
+  },
+  {
+    "id": "news:btcpay-urges-bitcoin-merchants-to-replace-wallets-after-hackers-steal-an-estimated-1-6-million",
+    "type": "news",
+    "title": "BTCPay urges Bitcoin merchants to replace wallets after hackers steal an estimated $1.6 million",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/btcpay-urges-bitcoin-merchants-to-replace-wallets-after-hackers-steal-an-estimated-1-6-million",
+    "text": "BTCPay urges Bitcoin merchants to replace wallets after hackers steal an estimated $1.6 million DeFi NFT Web3"
+  },
+  {
+    "id": "news:dollar-stablecoin-use-stayed-elevated-after-capital-controls-ended-new-research-suggests",
+    "type": "news",
+    "title": "Dollar stablecoin use stayed elevated after capital controls ended, new research suggests",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/dollar-stablecoin-use-stayed-elevated-after-capital-controls-ended-new-research-suggests",
+    "text": "Dollar stablecoin use stayed elevated after capital controls ended, new research suggests DeFi NFT Web3"
+  },
+  {
+    "id": "news:solana-study-finds-wider-spreads-outside-aggregators-at-five-of-six-sampled-pools",
+    "type": "news",
+    "title": "Solana study finds wider spreads outside aggregators at five of six sampled pools",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/solana-study-finds-wider-spreads-outside-aggregators-at-five-of-six-sampled-pools",
+    "text": "Solana study finds wider spreads outside aggregators at five of six sampled pools DeFi NFT Web3"
+  },
+  {
+    "id": "news:aave-horizon-taps-perpetual-futures-to-price-stock-collateral-on-weekends-chainlink-says",
+    "type": "news",
+    "title": "Aave Horizon taps perpetual futures to price stock collateral on weekends, Chainlink says",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/aave-horizon-taps-perpetual-futures-to-price-stock-collateral-on-weekends-chainlink-says",
+    "text": "Aave Horizon taps perpetual futures to price stock collateral on weekends, Chainlink says DeFi NFT Web3"
+  },
+  {
+    "id": "news:south-koreas-president-says-country-needs-a-cybersecurity-czar-following-6-3-billion-binance-hack",
+    "type": "news",
+    "title": "South Korea's president says country needs a ‘cybersecurity czar’ following $6.3 billion Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/south-koreas-president-says-country-needs-a-cybersecurity-czar-following-6-3-billion-binance-hack",
+    "text": "South Korea's president says country needs a ‘cybersecurity czar’ following $6.3 billion Binance hack Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+    "type": "news",
+    "title": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/amazon-tesla-and-spacex-join-okx-ice-tokenized-stock-objections-as-deadline-looms",
+    "text": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
+    "type": "news",
+    "title": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/stablecoin-governance-group-behind-ousd-sets-out-management-fee-offers-equity-earning-pool",
+    "text": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+    "type": "news",
+    "title": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/cftc-clears-perpetual-futures-on-stocks-bringing-crypto-trading-model-to-wall-street",
+    "text": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binances-6-3-billion-hack-began-with-a-fake-job-interview-and-a-campaign-built-over-many-months",
+    "type": "news",
+    "title": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binances-6-3-billion-hack-began-with-a-fake-job-interview-and-a-campaign-built-over-many-months",
+    "text": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months' Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
+    "type": "news",
+    "title": "South Korea asks its biggest banks how a major crypto hack would hit them",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/south-korea-asks-its-biggest-banks-how-a-major-crypto-hack-would-hit-them",
+    "text": "South Korea asks its biggest banks how a major crypto hack would hit them Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:cz-warns-of-more-ai-driven-hacks-following-binances-historic-6-3-billion-heist",
+    "type": "news",
+    "title": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/cz-warns-of-more-ai-driven-hacks-following-binances-historic-6-3-billion-heist",
+    "text": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:lo-tech-raises-12-million-to-expand-crypto-trading-into-u-s-and-asia",
+    "type": "news",
+    "title": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/lo-tech-raises-12-million-to-expand-crypto-trading-into-u-s-and-asia",
+    "text": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:binance-net-outflows-reach-5-3-billion-after-record-hack-ceo-says-recovery-underway",
+    "type": "news",
+    "title": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/binance-net-outflows-reach-5-3-billion-after-record-hack-ceo-says-recovery-underway",
+    "text": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
+    "type": "news",
+    "title": "Bitcoin is breaking a midterm election pattern going back to 2014",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014",
+    "text": "Bitcoin is breaking a midterm election pattern going back to 2014 Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:ethgas-wants-to-bring-wall-street-to-public-ethereum-by-selling-advance-block-reservations",
+    "type": "news",
+    "title": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/ethgas-wants-to-bring-wall-street-to-public-ethereum-by-selling-advance-block-reservations",
+    "text": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-steadies-after-dip-to-76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+    "type": "news",
+    "title": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-steadies-after-dip-to-76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+    "text": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:liquids-bitcoin-ious-are-fully-backed-again-after-a-320-million-exploit",
+    "type": "news",
+    "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/liquids-bitcoin-ious-are-fully-backed-again-after-a-320-million-exploit",
+    "text": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:wall-street-killed-bitcoins-wild-rallies-10xs-markus-thielen",
+    "type": "news",
+    "title": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/wall-street-killed-bitcoins-wild-rallies-10xs-markus-thielen",
+    "text": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-traces-6-3b-hack-to-fake-job-interviews-compromised-ai-tool",
+    "type": "news",
+    "title": "Binance traces $6.3B hack to fake job interviews, compromised AI tool",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-traces-6-3b-hack-to-fake-job-interviews-compromised-ai-tool",
+    "text": "Binance traces $6.3B hack to fake job interviews, compromised AI tool Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-price-defends-76k-lows-as-analysts-see-stocks-pricing-in-political-gridlock",
+    "type": "news",
+    "title": "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-defends-76k-lows-as-analysts-see-stocks-pricing-in-political-gridlock",
+    "text": "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’ Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:whats-at-stake-for-crypto-as-the-us-votes-in-the-2026-midterms",
+    "type": "news",
+    "title": "What’s at stake for crypto as the US votes in the 2026 midterms?",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/whats-at-stake-for-crypto-as-the-us-votes-in-the-2026-midterms",
+    "text": "What’s at stake for crypto as the US votes in the 2026 midterms? Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:moscow-exchange-to-launch-bitcoin-ether-and-usdt-trading-in-december",
+    "type": "news",
+    "title": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/moscow-exchange-to-launch-bitcoin-ether-and-usdt-trading-in-december",
+    "text": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:near-token-sinks-7-as-proposal-to-cut-annual-token-issuance-passes",
+    "type": "news",
+    "title": "NEAR token sinks 7% as proposal to cut annual token issuance passes",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/near-token-sinks-7-as-proposal-to-cut-annual-token-issuance-passes",
+    "text": "NEAR token sinks 7% as proposal to cut annual token issuance passes Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binances-net-inflows-turn-positive-at-2-3b-as-withdrawals-expand",
+    "type": "news",
+    "title": "Binance’s net inflows turn positive at $2.3B as withdrawals expand",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binances-net-inflows-turn-positive-at-2-3b-as-withdrawals-expand",
+    "text": "Binance’s net inflows turn positive at $2.3B as withdrawals expand Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ether-etfs-shed-139-7m-on-november-2-extending-a-difficult-run-for-fund-flows",
+    "type": "news",
+    "title": "Ether ETFs Shed $139.7M on November 2, Extending a Difficult Run for Fund Flows",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ether-etfs-shed-139-7m-on-november-2-extending-a-difficult-run-for-fund-flows",
+    "text": "Ether ETFs Shed $139.7M on November 2, Extending a Difficult Run for Fund Flows Trading Markets"
+  },
+  {
+    "id": "news:bitcoin-etf-outflows-hit-398-6m-on-november-2-as-blackrock-leads-redemptions",
+    "type": "news",
+    "title": "Bitcoin ETF Outflows Hit $398.6M on November 2 as BlackRock Leads Redemptions",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitcoin-etf-outflows-hit-398-6m-on-november-2-as-blackrock-leads-redemptions",
+    "text": "Bitcoin ETF Outflows Hit $398.6M on November 2 as BlackRock Leads Redemptions Trading Markets"
+  },
+  {
+    "id": "news:mexc-upgrades-futures-earn-to-empower-retail-traders-with-a-clearer-more-intuitive-experience",
+    "type": "news",
+    "title": "MEXC Upgrades Futures Earn to Empower Retail Traders With a Clearer, More Intuitive Experience",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/mexc-upgrades-futures-earn-to-empower-retail-traders-with-a-clearer-more-intuitive-experience",
+    "text": "MEXC Upgrades Futures Earn to Empower Retail Traders With a Clearer, More Intuitive Experience Trading Markets"
   },
   {
     "id": "newsletter:issue-1-blockchain-foundations",
