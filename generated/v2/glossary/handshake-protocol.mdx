@@ -1,0 +1,55 @@
+---
+title: "Handshake Protocol"
+description: "A Handshake Protocol is a set of cryptographic procedures that allows two parties to establish a secure, authenticated connection over an insecure channel. It involves exchanging identity information, negotiating cryptographic algorithms, and generating shared session keys. This "
+---
+
+# Handshake Protocol
+
+A Handshake Protocol is a set of cryptographic procedures that allows two parties to establish a secure, authenticated connection over an insecure channel. It involves exchanging identity information, negotiating cryptographic algorithms, and generating shared session keys. This process ensures that both the client and server can verify each other's integrity and protect subsequent data transmission from eavesdropping or tampering. In blockchain networking, it serves as the foundational step for peer-to-peer communication and secure RPC calls between wallets and nodes.
+
+## Definition
+
+A Handshake Protocol is a set of cryptographic procedures that allows two parties to establish a secure, authenticated connection over an insecure channel. It involves exchanging identity information, negotiating cryptographic algorithms, and generating shared session keys. This process ensures that both the client and server can verify each other's integrity and protect subsequent data transmission from eavesdropping or tampering. In blockchain networking, it serves as the foundational step for peer-to-peer communication and secure RPC calls between wallets and nodes.
+
+## Simple explanation
+
+Think of a handshake like two secret agents meeting in a park. Before they exchange any secrets, they use a special code to prove they are who they say they are. Once they agree on a secret language, they can talk freely without anyone else understanding them. The handshake is just the 'getting to know you' phase that sets the rules for the conversation.
+
+## Why it matters
+
+In blockchain, this protocol ensures that a user's wallet is actually communicating with the correct node and not an imposter. It prevents malicious actors from intercepting sensitive transaction data as it travels across the internet.
+
+## How it works
+
+The process begins with a 'Hello' message to announce capabilities and supported encryption methods. The server responds with its digital certificate to prove its identity to the client. After verifying the certificate, they exchange public keys to generate a unique session key for that specific interaction. Once the keys are synced, they switch to encrypted communication for the remainder of the session.
+
+## Real-world example
+
+The Transport Layer Security (TLS) handshake, which secures HTTPS traffic between your browser and a decentralized application (dApp) interface.
+
+## Advantages
+
+- Ensures data confidentiality during transit
+- Verifies server and client identities
+- Establishes secure encryption parameters
+
+## Limitations
+
+- Susceptible to man-in-the-middle if certificates are invalid
+- Increases latency for initial connection setup
+- Complexity in maintaining certificate authorities
+
+## Common misconceptions
+
+- People often think a handshake is the same as the entire data transfer session, but it is actually just the initial setup phase. Many believe handshakes make a connection 100% immune to all attacks, when they only solve specific authentication and key exchange problems.
+## Related knowledge
+
+- [Asymmetric Encryption](/generated/v2/glossary/asymmetric-encryption) — term
+- [Certificate Authority](/generated/v2/glossary/certificate-authority) — term
+- [Node](/generated/v2/glossary/node) — term
+- [Public Key Infrastructure](/generated/v2/glossary/public-key-infrastructure) — term
+- [TLS](/generated/v2/glossary/tls) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:handshake-protocol`

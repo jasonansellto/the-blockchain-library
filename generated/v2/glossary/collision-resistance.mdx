@@ -1,0 +1,54 @@
+---
+title: "Collision Resistance"
+description: "Collision resistance is a property of cryptographic hash functions that makes it computationally infeasible to find two distinct inputs, x and y, such that the output of the hash function for both inputs is identical—that is, H(x) = H(y). In a secure hash function, the output spa"
+---
+
+# Collision Resistance
+
+Collision resistance is a property of cryptographic hash functions that makes it computationally infeasible to find two distinct inputs, x and y, such that the output of the hash function for both inputs is identical—that is, H(x) = H(y). In a secure hash function, the output space is vast enough that the probability of randomly generating a collision is negligible. This property ensures that digital fingerprints remain unique and authentic, serving as a foundational security guarantee for data integrity and identity verification within decentralized systems.
+
+## Definition
+
+Collision resistance is a property of cryptographic hash functions that makes it computationally infeasible to find two distinct inputs, x and y, such that the output of the hash function for both inputs is identical—that is, H(x) = H(y). In a secure hash function, the output space is vast enough that the probability of randomly generating a collision is negligible. This property ensures that digital fingerprints remain unique and authentic, serving as a foundational security guarantee for data integrity and identity verification within decentralized systems.
+
+## Simple explanation
+
+Imagine you have a machine that turns any file or document into a unique, short ID code. Collision resistance means it is impossible to find two different files that produce the exact same ID code. Think of it like a perfect digital thumbprint; if the thumbprints match, you are guaranteed that the files are identical. If someone could create two different files with the same ID, they could trick a system into accepting a fake document as the real one.
+
+## Why it matters
+
+Collision resistance is vital for the integrity of blockchains, as it prevents malicious actors from replacing legitimate transaction data with forged entries that produce the same hash. Without this property, digital signatures and transaction records could be easily compromised, rendering the entire blockchain ledger unreliable and insecure.
+
+## How it works
+
+A cryptographic hash function maps arbitrary input data to a fixed-size string of characters. Collision resistance relies on the mathematical complexity of the algorithm, where the number of possible outputs is astronomically large, often 2^256 in modern systems like SHA-256. Because the output space is so vast, an attacker would need to perform an impossible number of operations, known as a birthday attack, to have a reasonable probability of finding a collision. Thus, for all practical purposes, every input corresponds to a unique and permanent output.
+
+## Real-world example
+
+The Bitcoin protocol uses the SHA-256 algorithm to hash transaction data and create block headers. Because SHA-256 is collision-resistant, a miner cannot manipulate a block's transaction list while keeping the original block header hash, ensuring that once a transaction is included in a block, it is effectively immutable.
+
+## Advantages
+
+- Ensures data integrity and authenticity
+- Prevents forgery of digital signatures
+- Enables immutable transaction history
+
+## Limitations
+
+- Vulnerable if the underlying algorithm is mathematically broken
+- Requires significant computational power for brute-force attacks
+- Susceptible to potential threats from quantum computing advancements
+
+## Common misconceptions
+
+- Many believe that collisions are impossible, when in reality they are merely computationally infeasible.
+- People often think a collision means the original data is revealed, but it actually only refers to identical hash outputs.
+## Related knowledge
+
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Merkle Tree](/generated/v2/glossary/merkle-tree) — term
+- [SHA-256](/generated/v2/glossary/sha-256) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:collision-resistance`

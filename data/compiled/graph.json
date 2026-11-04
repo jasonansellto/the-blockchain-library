@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "cac46997cb4c06da",
+  "buildId": "1b22aff768aa416e",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -5633,6 +5633,46 @@
       "canonicalUrl": "/glossary/valuation",
       "categoryId": "6a4e39d110805a52385d8fcb",
       "difficulty": "intermediate"
+    },
+    {
+      "id": "glossary:collateralization-ratio",
+      "type": "glossary",
+      "label": "Collateralization Ratio",
+      "canonicalUrl": "/glossary/collateralization-ratio",
+      "categoryId": "6a4e39d110805a52385d8fca",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "glossary:collision-resistance",
+      "type": "glossary",
+      "label": "Collision Resistance",
+      "canonicalUrl": "/glossary/collision-resistance",
+      "categoryId": "6a4e39d110805a52385d8fc4",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "glossary:handshake-protocol",
+      "type": "glossary",
+      "label": "Handshake Protocol",
+      "canonicalUrl": "/glossary/handshake-protocol",
+      "categoryId": "6a4e39d110805a52385d8fc5",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "glossary:man-in-the-middle-attack",
+      "type": "glossary",
+      "label": "Man-in-the-Middle Attack",
+      "canonicalUrl": "/glossary/man-in-the-middle-attack",
+      "categoryId": "6a4e39d110805a52385d8fc5",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "glossary:mfa",
+      "type": "glossary",
+      "label": "MFA",
+      "canonicalUrl": "/glossary/mfa",
+      "categoryId": "6a4e39d110805a52385d8fc5",
+      "difficulty": "beginner"
     },
     {
       "id": "topic:what-crypto-looks-like-after-memecoins",
@@ -11464,6 +11504,14 @@
       "label": "Tokenized Money Needs a Convertibility Test",
       "canonicalUrl": "/topics/tokenized-money-convertibility-test",
       "categoryId": "6a4cfe7ce8ddbcb85df987d0",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "type": "topic",
+      "label": "Bank AI Risk Tiers Should Measure Agency, Not Intelligence",
+      "canonicalUrl": "/topics/bank-ai-risk-tiers-agency-not-intelligence",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d3",
       "difficulty": "intermediate"
     },
     {
@@ -69723,6 +69771,782 @@
       "difficulty": null
     },
     {
+      "id": "news:what-happens-if-north-korea-steals-wall-streets-tokenized-assets-next",
+      "type": "news",
+      "label": "What happens if North Korea steals Wall Street's tokenized assets next",
+      "canonicalUrl": "/news/what-happens-if-north-korea-steals-wall-streets-tokenized-assets-next",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+      "type": "news",
+      "label": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+      "canonicalUrl": "/news/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
+      "type": "news",
+      "label": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
+      "canonicalUrl": "/news/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:spacex-blocks-tokenized-stock-listing-on-okxice-despite-offshore-trading-boom",
+      "type": "news",
+      "label": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
+      "canonicalUrl": "/news/spacex-blocks-tokenized-stock-listing-on-okxice-despite-offshore-trading-boom",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cftc-clears-stock-perpetual-futures-for-trading-on-us-exchanges",
+      "type": "news",
+      "label": "CFTC clears stock perpetual futures for trading on US exchanges",
+      "canonicalUrl": "/news/cftc-clears-stock-perpetual-futures-for-trading-on-us-exchanges",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-midterms-prediction-markets-favor-democrats-in-key-crypto-races",
+      "type": "news",
+      "label": "US midterms: Prediction markets favor Democrats in key crypto races",
+      "canonicalUrl": "/news/us-midterms-prediction-markets-favor-democrats-in-key-crypto-races",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:eth-btc-ratio-nears-0-03-as-ethereum-gains-on-bitcoin",
+      "type": "news",
+      "label": "ETH/BTC Ratio Nears 0.03 as Ethereum Gains on Bitcoin",
+      "canonicalUrl": "/news/eth-btc-ratio-nears-0-03-as-ethereum-gains-on-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-flips-a-12-year-midterm-pattern-can-it-hold-through-friday",
+      "type": "news",
+      "label": "Bitcoin Flips a 12-Year Midterm Pattern. Can It Hold Through Friday?",
+      "canonicalUrl": "/news/bitcoin-flips-a-12-year-midterm-pattern-can-it-hold-through-friday",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:north-korea-denies-involvement-in-binance-hack-questions-the-us",
+      "type": "news",
+      "label": "North Korea Denies Involvement In Binance Hack-Questions the US",
+      "canonicalUrl": "/news/north-korea-denies-involvement-in-binance-hack-questions-the-us",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-risks-drop-below-76k-as-oil-prices-slide-7",
+      "type": "news",
+      "label": "Bitcoin Price Risks Drop Below $76K as Oil Prices Slide 7%",
+      "canonicalUrl": "/news/bitcoin-price-risks-drop-below-76k-as-oil-prices-slide-7",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kraken-restricts-accounts-after-suspected-133m-crypto-theft",
+      "type": "news",
+      "label": "Kraken Restricts Accounts After Suspected $133M Crypto Theft",
+      "canonicalUrl": "/news/kraken-restricts-accounts-after-suspected-133m-crypto-theft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:near-price-drops-7-as-token-issuance-cut-proposal-passes",
+      "type": "news",
+      "label": "NEAR Price Drops 7% as Token Issuance Cut Proposal Passes",
+      "canonicalUrl": "/news/near-price-drops-7-as-token-issuance-cut-proposal-passes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-faces-fifth-weekly-loss-as-us-midterms-weigh-in",
+      "type": "news",
+      "label": "Bitcoin Faces Fifth Weekly Loss as US Midterms Weigh In",
+      "canonicalUrl": "/news/bitcoin-faces-fifth-weekly-loss-as-us-midterms-weigh-in",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:liquid-network-restores-bitcoin-backing-after-major-hack",
+      "type": "news",
+      "label": "Liquid Network Restores Bitcoin Backing After Major Hack",
+      "canonicalUrl": "/news/liquid-network-restores-bitcoin-backing-after-major-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aave-freezes-new-tbtc-supply-and-borrowing-after-mint-and-redeem-pause",
+      "type": "news",
+      "label": "Aave Freezes New tBTC Supply and Borrowing After Mint-and-Redeem Pause",
+      "canonicalUrl": "/news/aave-freezes-new-tbtc-supply-and-borrowing-after-mint-and-redeem-pause",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitmine-reports-6-06m-eth-holdings-with-more-than-5-22m-staked",
+      "type": "news",
+      "label": "BitMine Reports 6.06M ETH Holdings, With More Than 5.22M Staked",
+      "canonicalUrl": "/news/bitmine-reports-6-06m-eth-holdings-with-more-than-5-22m-staked",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strategy-adds-811-bitcoin-and-repurchases-208-2m-of-strc-shares",
+      "type": "news",
+      "label": "Strategy Adds 811 Bitcoin and Repurchases $208.2M of STRC Shares",
+      "canonicalUrl": "/news/strategy-adds-811-bitcoin-and-repurchases-208-2m-of-strc-shares",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tether-says-it-froze-more-than-1-5b-linked-to-the-binance-theft",
+      "type": "news",
+      "label": "Tether Says It Froze More Than $1.5B Linked to the Binance Theft",
+      "canonicalUrl": "/news/tether-says-it-froze-more-than-1-5b-linked-to-the-binance-theft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fbi-attributes-binance-heist-to-tradertraitor-and-urges-crypto-infrastructure-vigilance",
+      "type": "news",
+      "label": "FBI Attributes Binance Heist to TraderTraitor and Urges Crypto Infrastructure Vigilance",
+      "canonicalUrl": "/news/fbi-attributes-binance-heist-to-tradertraitor-and-urges-crypto-infrastructure-vigilance",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-publishes-new-proof-of-reserves-snapshot-following-october-attack",
+      "type": "news",
+      "label": "Binance Publishes New Proof-of-Reserves Snapshot Following October Attack",
+      "canonicalUrl": "/news/binance-publishes-new-proof-of-reserves-snapshot-following-october-attack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-adds-more-withdrawal-routes-on-november-3-after-security-checks",
+      "type": "news",
+      "label": "Binance Adds More Withdrawal Routes on November 3 After Security Checks",
+      "canonicalUrl": "/news/binance-adds-more-withdrawal-routes-on-november-3-after-security-checks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:democrats-surge-toward-senate-house-majorities-with-crypto-braced-for-new-direction",
+      "type": "news",
+      "label": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
+      "canonicalUrl": "/news/democrats-surge-toward-senate-house-majorities-with-crypto-braced-for-new-direction",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-briefly-sinks-to-75-700-as-bets-on-a-democratic-sweep-rattle-markets",
+      "type": "news",
+      "label": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
+      "canonicalUrl": "/news/bitcoin-briefly-sinks-to-75-700-as-bets-on-a-democratic-sweep-rattle-markets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-cryptos-big-election-gamble-faces-voters-as-democrats-gain-ground",
+      "type": "news",
+      "label": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
+      "canonicalUrl": "/news/live-updates-cryptos-big-election-gamble-faces-voters-as-democrats-gain-ground",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:what-voters-said-about-their-views-on-crypto",
+      "type": "news",
+      "label": "What voters said about their views on crypto",
+      "canonicalUrl": "/news/what-voters-said-about-their-views-on-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-midterms-election-2026-live-democrats-win-us-senate-majority",
+      "type": "news",
+      "label": "US midterms election 2026 live: Democrats win US Senate majority",
+      "canonicalUrl": "/news/us-midterms-election-2026-live-democrats-win-us-senate-majority",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:democrats-claim-control-of-the-us-senate",
+      "type": "news",
+      "label": "Democrats claim control of the US Senate",
+      "canonicalUrl": "/news/democrats-claim-control-of-the-us-senate",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zachxbt-identifies-french-bank-as-alleged-victim-of-133m-crypto-theft",
+      "type": "news",
+      "label": "ZachXBT identifies French bank as alleged victim of $133M crypto theft",
+      "canonicalUrl": "/news/zachxbt-identifies-french-bank-as-alleged-victim-of-133m-crypto-theft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold",
+      "type": "news",
+      "label": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
+      "canonicalUrl": "/news/1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:rune-rallies-15-as-thorchain-restarts-most-swaps-after-halt",
+      "type": "news",
+      "label": "RUNE rallies 15% as THORChain restarts most swaps after halt",
+      "canonicalUrl": "/news/rune-rallies-15-as-thorchain-restarts-most-swaps-after-halt",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident",
+      "type": "news",
+      "label": "Chainalysis Describes Recovery Efforts After Mercado Bitcoin Security Incident",
+      "canonicalUrl": "/news/chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-explains-multi-user-architecture-as-crypto-accounts-become-more-complex",
+      "type": "news",
+      "label": "Coinbase Explains Multi-User Architecture as Crypto Accounts Become More Complex",
+      "canonicalUrl": "/news/coinbase-explains-multi-user-architecture-as-crypto-accounts-become-more-complex",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hong-kong-launches-post-quantum-preparation-toolkit-for-banks",
+      "type": "news",
+      "label": "Hong Kong Launches Post-Quantum Preparation Toolkit for Banks",
+      "canonicalUrl": "/news/hong-kong-launches-post-quantum-preparation-toolkit-for-banks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nyse-adds-four-transfer-agents-to-planned-tokenized-securities-venue",
+      "type": "news",
+      "label": "NYSE Adds Four Transfer Agents to Planned Tokenized Securities Venue",
+      "canonicalUrl": "/news/nyse-adds-four-transfer-agents-to-planned-tokenized-securities-venue",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btcpay-server-2-4-7-security-release-adds-urgency-for-self-hosted-merchants",
+      "type": "news",
+      "label": "BTCPay Server 2.4.7 Security Release Adds Urgency for Self-Hosted Merchants",
+      "canonicalUrl": "/news/btcpay-server-2-4-7-security-release-adds-urgency-for-self-hosted-merchants",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:justin-sun-demands-court-sanctions-over-trump-linked-world-liberty-financial-8217-s-hidden-uae-owners",
+      "type": "news",
+      "label": "Justin Sun demands court sanctions over Trump-linked World Liberty Financial&#8217;s hidden UAE owners",
+      "canonicalUrl": "/news/justin-sun-demands-court-sanctions-over-trump-linked-world-liberty-financial-8217-s-hidden-uae-owners",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-stopped-57-north-korean-cyber-threats-but-fell-for-a-fake-job-interview",
+      "type": "news",
+      "label": "Binance stopped 57 North Korean cyber threats but fell for a fake job interview",
+      "canonicalUrl": "/news/binance-stopped-57-north-korean-cyber-threats-but-fell-for-a-fake-job-interview",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-xrp-looked-cheap-on-nov-2-despite-identical-market-value",
+      "type": "news",
+      "label": "Coinbase XRP looked cheap on Nov. 2 despite identical market value",
+      "canonicalUrl": "/news/coinbase-xrp-looked-cheap-on-nov-2-despite-identical-market-value",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-relied-on-ai-to-fight-fraud-before-hackers-exploited-internal-tool-in-6-billion-theft",
+      "type": "news",
+      "label": "Binance relied on AI to fight fraud before hackers exploited internal tool in $6 billion theft",
+      "canonicalUrl": "/news/binance-relied-on-ai-to-fight-fraud-before-hackers-exploited-internal-tool-in-6-billion-theft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-investors-could-pay-the-price-as-the-federal-reserve-tightens-bank-lending-rules",
+      "type": "news",
+      "label": "Bitcoin investors could pay the price as the Federal Reserve tightens bank lending rules",
+      "canonicalUrl": "/news/bitcoin-investors-could-pay-the-price-as-the-federal-reserve-tightens-bank-lending-rules",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-says-thinly-traded-tokens-are-delaying-full-replacement-of-stolen-assets",
+      "type": "news",
+      "label": "Binance says thinly traded tokens are delaying full replacement of stolen assets",
+      "canonicalUrl": "/news/binance-says-thinly-traded-tokens-are-delaying-full-replacement-of-stolen-assets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-spent-55-million-defending-a-senator-who-already-backed-clarity",
+      "type": "news",
+      "label": "Crypto spent $55 million defending a senator who already backed CLARITY",
+      "canonicalUrl": "/news/crypto-spent-55-million-defending-a-senator-who-already-backed-clarity",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:north-korea-denies-role-in-6-billion-binance-hack-after-fbi-accusation",
+      "type": "news",
+      "label": "North Korea denies role in $6 billion Binance hack after FBI accusation",
+      "canonicalUrl": "/news/north-korea-denies-role-in-6-billion-binance-hack-after-fbi-accusation",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hong-kong-bank-pilot-opens-24-7-cash-settlement-for-tokenized-fund-deals",
+      "type": "news",
+      "label": "Hong Kong bank pilot opens 24/7 cash settlement for tokenized fund deals",
+      "canonicalUrl": "/news/hong-kong-bank-pilot-opens-24-7-cash-settlement-for-tokenized-fund-deals",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-and-treasury-yields-fall-together-in-rare-divergence-as-80-000-recovery-fails",
+      "type": "news",
+      "label": "Bitcoin and Treasury yields fall together in rare divergence as $80,000 recovery fails",
+      "canonicalUrl": "/news/bitcoin-and-treasury-yields-fall-together-in-rare-divergence-as-80-000-recovery-fails",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zachxbt-names-french-bank-cre-dit-mutuel-arke-a-as-suspected-victim-of-133-million-crypto-theft",
+      "type": "news",
+      "label": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+      "canonicalUrl": "/news/zachxbt-names-french-bank-cre-dit-mutuel-arke-a-as-suspected-victim-of-133-million-crypto-theft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
+      "type": "news",
+      "label": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+      "canonicalUrl": "/news/elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:morgan-stanley-says-it-is-among-the-first-banks-to-tokenize-real-world-assets",
+      "type": "news",
+      "label": "Morgan Stanley says it is among the first banks to tokenize real world assets",
+      "canonicalUrl": "/news/morgan-stanley-says-it-is-among-the-first-banks-to-tokenize-real-world-assets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcash-grants-committee-drops-plan-to-redirect-98-000-zec-to-future-mining-rewards",
+      "type": "news",
+      "label": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards",
+      "canonicalUrl": "/news/zcash-grants-committee-drops-plan-to-redirect-98-000-zec-to-future-mining-rewards",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-surges-to-78-300-in-v-shaped-comeback-as-midterm-election-uncertainty-fades",
+      "type": "news",
+      "label": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades",
+      "canonicalUrl": "/news/bitcoin-surges-to-78-300-in-v-shaped-comeback-as-midterm-election-uncertainty-fades",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jack-dorseys-block-faces-764-million-doj-settlement-as-bitcoin-profit-plunges-50",
+      "type": "news",
+      "label": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
+      "canonicalUrl": "/news/jack-dorseys-block-faces-764-million-doj-settlement-as-bitcoin-profit-plunges-50",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tethers-usdt-in-december",
+      "type": "news",
+      "label": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+      "canonicalUrl": "/news/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tethers-usdt-in-december",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-koreas-ruling-party-wants-to-delay-its-crypto-tax-again",
+      "type": "news",
+      "label": "South Korea's ruling party wants to delay its crypto tax again",
+      "canonicalUrl": "/news/south-koreas-ruling-party-wants-to-delay-its-crypto-tax-again",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:justin-sun-seeks-264k-sanctions-over-world-libertys-uae-disclosure",
+      "type": "news",
+      "label": "Justin Sun seeks $264K sanctions over World Liberty’s UAE disclosure",
+      "canonicalUrl": "/news/justin-sun-seeks-264k-sanctions-over-world-libertys-uae-disclosure",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-lose-1-16b-as-bitwise-calls-selling-short-term",
+      "type": "news",
+      "label": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
+      "canonicalUrl": "/news/bitcoin-etfs-lose-1-16b-as-bitwise-calls-selling-short-term",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hackers-move-81-of-stolen-solana-route-funds-via-thorchain",
+      "type": "news",
+      "label": "Binance hackers move 81% of stolen Solana, route funds via THORChain",
+      "canonicalUrl": "/news/binance-hackers-move-81-of-stolen-solana-route-funds-via-thorchain",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:democrats-win-us-house-to-secure-control-of-congress-in-midterms",
+      "type": "news",
+      "label": "Democrats win US House to secure control of Congress in midterms",
+      "canonicalUrl": "/news/democrats-win-us-house-to-secure-control-of-congress-in-midterms",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-bounces-from-7-week-low-under-76k-as-democrats-sweep-congress",
+      "type": "news",
+      "label": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
+      "canonicalUrl": "/news/bitcoin-bounces-from-7-week-low-under-76k-as-democrats-sweep-congress",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-dev-targets-2028-for-quantum-resistance-a-year-early",
+      "type": "news",
+      "label": "Ethereum dev targets 2028 for quantum resistance, a year early",
+      "canonicalUrl": "/news/ethereum-dev-targets-2028-for-quantum-resistance-a-year-early",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-regulation-after-the-176m-us-midterms",
+      "type": "news",
+      "label": "Crypto Regulation After the $176M US Midterms",
+      "canonicalUrl": "/news/crypto-regulation-after-the-176m-us-midterms",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-analysis-can-btc-reach-80k",
+      "type": "news",
+      "label": "Bitcoin Price Analysis: Can BTC Reach $80K?",
+      "canonicalUrl": "/news/bitcoin-price-analysis-can-btc-reach-80k",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-midterm-elections-shake-markets-could-bitcoin-be-ready-for-a-comeback",
+      "type": "news",
+      "label": "US Midterm Elections Shake Markets: Could Bitcoin Be Ready for a Comeback?",
+      "canonicalUrl": "/news/us-midterm-elections-shake-markets-could-bitcoin-be-ready-for-a-comeback",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
+      "type": "news",
+      "label": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
+      "canonicalUrl": "/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations",
+      "type": "news",
+      "label": "Solana Microscope Offers Open-Source Monitoring for Complex On-Chain Operations",
+      "canonicalUrl": "/news/solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules",
+      "type": "news",
+      "label": "SEC Updates Crypto-Asset FAQs as Firms Seek Clarity on Federal Securities Rules",
+      "canonicalUrl": "/news/sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ecb-links-europes-t-1-securities-transition-to-a-broader-settlement-overhaul",
+      "type": "news",
+      "label": "ECB Links Europe’s T+1 Securities Transition to a Broader Settlement Overhaul",
+      "canonicalUrl": "/news/ecb-links-europes-t-1-securities-transition-to-a-broader-settlement-overhaul",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainalysis-discloses-separate-october-30-security-incident-involving-user-data",
+      "type": "news",
+      "label": "Chainalysis Discloses Separate October 30 Security Incident Involving User Data",
+      "canonicalUrl": "/news/chainalysis-discloses-separate-october-30-security-incident-involving-user-data",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:sec-ruling-lifts-canton-coin-6-as-a16z-sees-pathway-out-of-securities-laws",
+      "type": "news",
+      "label": "SEC ruling lifts Canton Coin 6% as a16z sees pathway out of securities laws",
+      "canonicalUrl": "/news/sec-ruling-lifts-canton-coin-6-as-a16z-sees-pathway-out-of-securities-laws",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-korea-orders-massive-crypto-wallet-lockdown-following-the-binance-hack",
+      "type": "news",
+      "label": "South Korea orders massive crypto wallet lockdown following the Binance hack",
+      "canonicalUrl": "/news/south-korea-orders-massive-crypto-wallet-lockdown-following-the-binance-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:liquid-restores-1-1-bitcoin-backing-but-wallet-refills-remain-manual",
+      "type": "news",
+      "label": "Liquid restores 1:1 Bitcoin backing, but wallet refills remain manual",
+      "canonicalUrl": "/news/liquid-restores-1-1-bitcoin-backing-but-wallet-refills-remain-manual",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-acts-coffin",
+      "type": "news",
+      "label": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
+      "canonicalUrl": "/news/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-acts-coffin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wall-street-rethinks-ai-data-center-boom-as-texas-election-raises-new-risks",
+      "type": "news",
+      "label": "Wall Street rethinks AI data center boom as Texas election raises new risks",
+      "canonicalUrl": "/news/wall-street-rethinks-ai-data-center-boom-as-texas-election-raises-new-risks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-long-short-ice-is-betting-on-retails-appetite-for-quick-outcomes",
+      "type": "news",
+      "label": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
+      "canonicalUrl": "/news/crypto-long-short-ice-is-betting-on-retails-appetite-for-quick-outcomes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-election-changes-washington-the-work-on-crypto-continues",
+      "type": "news",
+      "label": "The election changes Washington. The work on crypto continues",
+      "canonicalUrl": "/news/the-election-changes-washington-the-work-on-crypto-continues",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoin-and-stocks-post-big-gains-reversing-overnight-plunge-following-blue-wave-landslide",
+      "type": "news",
+      "label": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
+      "canonicalUrl": "/news/live-updates-bitcoin-and-stocks-post-big-gains-reversing-overnight-plunge-following-blue-wave-landslide",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+      "type": "news",
+      "label": "Global asset manager Schroders brings emerging market bond fund to Solana",
+      "canonicalUrl": "/news/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:thorchains-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+      "type": "news",
+      "label": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
+      "canonicalUrl": "/news/thorchains-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:circle-beats-earnings-expectations-on-strong-revenue-but-cuts-5-of-its-workforce",
+      "type": "news",
+      "label": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
+      "canonicalUrl": "/news/circle-beats-earnings-expectations-on-strong-revenue-but-cuts-5-of-its-workforce",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:heres-how-analysts-are-reacting-to-the-new-blue-congress",
+      "type": "news",
+      "label": "Here's how analysts are reacting to the new blue Congress",
+      "canonicalUrl": "/news/heres-how-analysts-are-reacting-to-the-new-blue-congress",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+      "type": "news",
+      "label": "Bitcoin rebounds from midterm dip as DeFi leads gains",
+      "canonicalUrl": "/news/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-hits-80-5k-as-us-stocks-rally-on-midterm-election-results",
+      "type": "news",
+      "label": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+      "canonicalUrl": "/news/bitcoin-hits-80-5k-as-us-stocks-rally-on-midterm-election-results",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:france-backs-reporting-for-self-custodied-crypto-worth-100k-euros-or-more",
+      "type": "news",
+      "label": "France backs reporting for self-custodied crypto worth 100K euros or more",
+      "canonicalUrl": "/news/france-backs-reporting-for-self-custodied-crypto-worth-100k-euros-or-more",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cantons-cc-rises-4-as-sec-staff-view-it-as-digital-commodity",
+      "type": "news",
+      "label": "Canton’s CC rises 4% as SEC staff view it as ‘digital commodity’",
+      "canonicalUrl": "/news/cantons-cc-rises-4-as-sec-staff-view-it-as-digital-commodity",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hack-may-be-temporary-setback-for-crypto-grayscales-pandl-says",
+      "type": "news",
+      "label": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
+      "canonicalUrl": "/news/binance-hack-may-be-temporary-setback-for-crypto-grayscales-pandl-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-defies-selling-pressure-as-75k-holds-the-line",
+      "type": "news",
+      "label": "Bitcoin Defies Selling Pressure as $75K Holds the Line",
+      "canonicalUrl": "/news/bitcoin-defies-selling-pressure-as-75k-holds-the-line",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:canton-coin-rises-after-sec-classifies-it-as-a-digital-commodity",
+      "type": "news",
+      "label": "Canton Coin Rises After SEC Classifies It as a Digital Commodity",
+      "canonicalUrl": "/news/canton-coin-rises-after-sec-classifies-it-as-a-digital-commodity",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-bounces-back-as-markets-digest-midterms",
+      "type": "news",
+      "label": "Bitcoin Bounces Back as Markets Digest Midterms",
+      "canonicalUrl": "/news/bitcoin-bounces-back-as-markets-digest-midterms",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:elon-musk-ai-plans-face-new-us-political-reality",
+      "type": "news",
+      "label": "Elon Musk AI Plans Face New US Political Reality",
+      "canonicalUrl": "/news/elon-musk-ai-plans-face-new-us-political-reality",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-outlook-falling-oil-fuels-recovery-hopes",
+      "type": "news",
+      "label": "Bitcoin Price Outlook: Falling Oil Fuels Recovery Hopes",
+      "canonicalUrl": "/news/bitcoin-price-outlook-falling-oil-fuels-recovery-hopes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitbase-launches-origin-a-points-season-that-rewards-consistency",
+      "type": "news",
+      "label": "Bitbase Launches ORIGIN, a Points Season That Rewards Consistency",
+      "canonicalUrl": "/news/bitbase-launches-origin-a-points-season-that-rewards-consistency",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitbase-launches-origin-distributing-1m-points-every-week",
+      "type": "news",
+      "label": "Bitbase launches ORIGIN, distributing 1M points every week",
+      "canonicalUrl": "/news/bitbase-launches-origin-distributing-1m-points-every-week",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miners-daily-revenue-per-unit-of-computing-power-falls-8-7",
+      "type": "news",
+      "label": "Bitcoin miners’ daily revenue per unit of computing power falls 8.7%",
+      "canonicalUrl": "/news/bitcoin-miners-daily-revenue-per-unit-of-computing-power-falls-8-7",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:evernorths-xrp-funding-plan-could-raise-18-million-less-at-lower-share-price",
+      "type": "news",
+      "label": "Evernorth’s XRP funding plan could raise $18 million less at lower share price",
+      "canonicalUrl": "/news/evernorths-xrp-funding-plan-could-raise-18-million-less-at-lower-share-price",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:polkadot-lost-1-38-million-after-hacker-exploited-security-flaw-fixed-four-months-earlier",
+      "type": "news",
+      "label": "Polkadot lost $1.38 million after hacker exploited security flaw fixed four months earlier",
+      "canonicalUrl": "/news/polkadot-lost-1-38-million-after-hacker-exploited-security-flaw-fixed-four-months-earlier",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:why-rising-xrp-whale-counts-are-a-fake-bullish-signal",
+      "type": "news",
+      "label": "Why rising XRP whale counts are a fake bullish signal",
+      "canonicalUrl": "/news/why-rising-xrp-whale-counts-are-a-fake-bullish-signal",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-rebounds-after-democratic-sweep-despite-three-days-of-etf-outflows",
+      "type": "news",
+      "label": "Bitcoin rebounds after Democratic sweep despite three days of ETF outflows",
+      "canonicalUrl": "/news/bitcoin-rebounds-after-democratic-sweep-despite-three-days-of-etf-outflows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-reports-11-billion-withdrawn-in-46-hours-as-zhao-says-few-funds-went-to-rivals",
+      "type": "news",
+      "label": "Binance reports $11 billion withdrawn in 46 hours as Zhao says few funds went to rivals",
+      "canonicalUrl": "/news/binance-reports-11-billion-withdrawn-in-46-hours-as-zhao-says-few-funds-went-to-rivals",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -70325,6 +71149,14 @@
       "category": "articles"
     },
     {
+      "from": "topic:building-multiple-income-streams-in-the-age-of-automation",
+      "to": "glossary:digital-assets",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
       "from": "topic:building-an-affiliate-business-around-expertise-instead-of-traffic",
       "to": "topic:why-most-affiliate-websites-fail-within-two-years",
       "type": "article",
@@ -70872,6 +71704,14 @@
       "from": "topic:the-new-rules-of-wealth-building-in-a-digital-economy",
       "to": "book:the-ai-money-revolution",
       "type": "book",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:the-new-rules-of-wealth-building-in-a-digital-economy",
+      "to": "glossary:digital-assets",
+      "type": "glossary",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -112814,6 +113654,14 @@
     },
     {
       "from": "topic:why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
+      "to": "glossary:utility-token",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
       "to": "research:tokenomics-and-blockchain-tokens-a-design-oriented-analysis",
       "type": "research",
       "source": "base44",
@@ -119677,6 +120525,70 @@
       "category": "articles"
     },
     {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:ai-auditors-right-to-publish-not-just-look",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:health-ai-appeal-path-accuracy-score",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "glossary:governance",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "glossary:provenance",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "glossary:circuit",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
+      "category": "articles"
+    },
+    {
       "from": "book:the-ai-money-revolution",
       "to": "glossary:ai-agent",
       "type": "glossary",
@@ -120575,6 +121487,14 @@
     {
       "from": "glossary:fiat-backed-stablecoin",
       "to": "category:web3",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:overcollateralized-stablecoin",
+      "to": "glossary:collateralization-ratio",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -126216,6 +127136,14 @@
       "from": "glossary:hash-function",
       "to": "topic:from-hype-to-reality-the-rise-of-quantum-resistant-cryptography",
       "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:hash-function",
+      "to": "glossary:collision-resistance",
+      "type": "term",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -156030,6 +156958,14 @@
     },
     {
       "from": "glossary:ssl-tls",
+      "to": "glossary:man-in-the-middle-attack",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:ssl-tls",
       "to": "glossary:public-key-infrastructure",
       "type": "term",
       "source": "base44",
@@ -156047,6 +156983,14 @@
     {
       "from": "glossary:tls",
       "to": "glossary:https",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:tls",
+      "to": "glossary:handshake-protocol",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -156111,6 +157055,14 @@
     {
       "from": "glossary:two-factor-authentication",
       "to": "category:cybersecurity",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:two-factor-authentication",
+      "to": "glossary:mfa",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -156462,6 +157414,38 @@
     },
     {
       "from": "glossary:https",
+      "to": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:https",
+      "to": "topic:invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:https",
+      "to": "topic:seo-strategies-for-affiliate-marketing-how-to-drive-organic-traffic-2",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:https",
+      "to": "topic:why-users-dont-care-about-decentralization-but-benefit-anyway",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:https",
       "to": "glossary:digital-certificate",
       "type": "term",
       "source": "base44",
@@ -156471,6 +157455,14 @@
     {
       "from": "glossary:https",
       "to": "glossary:encryption",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:https",
+      "to": "glossary:man-in-the-middle-attack",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -156526,6 +157518,14 @@
     },
     {
       "from": "glossary:ssl",
+      "to": "glossary:handshake-protocol",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:ssl",
       "to": "glossary:public-key-infrastructure",
       "type": "term",
       "source": "base44",
@@ -156566,6 +157566,14 @@
     },
     {
       "from": "glossary:totp",
+      "to": "glossary:mfa",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:totp",
       "to": "glossary:security-token",
       "type": "term",
       "source": "base44",
@@ -156583,6 +157591,54 @@
     {
       "from": "glossary:totp",
       "to": "glossary:two-factor-authentication",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:is-crypto-the-same-as-money",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:the-role-of-cbdcs-how-central-bank-digital-currencies-are-changing-finance",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:investing-in-a-high-interest-world-2026-predictions-for-rates-and-inflation",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:the-future-of-central-bank-digital-currencies-are-we-near-global-adoption",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "glossary:collateralization-ratio",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -156686,6 +157742,46 @@
     },
     {
       "from": "glossary:microtransactions",
+      "to": "topic:the-rise-of-machine-to-machine-economies",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:layer-3-the-next-frontier-in-blockchain-scalability",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:the-evolution-of-web3-social-media-platforms-privacy-and-ownership-in-2025",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:socialfi-2-0-are-decentralized-social-networks-ready-for-the-masses",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:microtransactions",
       "to": "category:layer-2",
       "type": "term",
       "source": "base44",
@@ -156719,6 +157815,22 @@
     {
       "from": "glossary:microtransactions",
       "to": "category:tokenomics",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:cryptographic-hash",
+      "to": "topic:a-beginners-guide-to-blockchain-technology-how-it-works-and-why-it-matters",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:cryptographic-hash",
+      "to": "glossary:collision-resistance",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -156768,6 +157880,46 @@
       "from": "glossary:cryptographic-hash",
       "to": "glossary:sha-256",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:building-passive-income-streams-from-dividends-to-digital-assets",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:passive-income-in-2025-from-dividends-to-digital-assets",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:building-passive-income-streams-from-dividends-to-digital-assets-2",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:passive-income-in-2026-digital-assets-staking-ai-tools-more",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -156870,6 +158022,38 @@
     },
     {
       "from": "glossary:utility-token",
+      "to": "topic:top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:utility-token",
+      "to": "topic:memecoins-vs-utility-tokens-which-crypto-trend-will-dominate-in-2025",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:utility-token",
+      "to": "topic:ai-tokens-and-the-next-hype-cycle-are-they-the-new-defi",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:utility-token",
+      "to": "topic:why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:utility-token",
       "to": "glossary:decentralized-application",
       "type": "term",
       "source": "base44",
@@ -156912,6 +158096,30 @@
       "from": "glossary:utility-token",
       "to": "category:tokenomics",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:relay-chain",
+      "to": "topic:blockchain-interoperability-the-key-to-a-multi-chain-future",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:relay-chain",
+      "to": "topic:interoperability-in-blockchain-connecting-networks-for-a-multi-chain-future",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:relay-chain",
+      "to": "topic:the-interoperability-race-polkadot-cosmos-vector-smart-chain-and-layer-1-bridges-in-2025",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -156966,6 +158174,46 @@
     },
     {
       "from": "glossary:valuation",
+      "to": "topic:what-crypto-looks-like-after-memecoins",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:the-next-crypto-bull-market-will-look-different-than-the-last-one",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:tokenized-real-world-assets-the-next-big-thing-in-crypto",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:why-cash-flow-matters-more-than-net-worth-right-now",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:valuation",
       "to": "glossary:floor-price",
       "type": "term",
       "source": "base44",
@@ -156999,6 +158247,166 @@
     {
       "from": "glossary:valuation",
       "to": "glossary:scarcity",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization-ratio",
+      "to": "category:defi",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization-ratio",
+      "to": "glossary:liquidation",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization-ratio",
+      "to": "glossary:oracle",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization-ratio",
+      "to": "glossary:smart-contract",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization-ratio",
+      "to": "glossary:stablecoin",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collision-resistance",
+      "to": "glossary:digital-signature",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collision-resistance",
+      "to": "glossary:merkle-tree",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collision-resistance",
+      "to": "glossary:sha-256",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:handshake-protocol",
+      "to": "glossary:asymmetric-encryption",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:handshake-protocol",
+      "to": "glossary:certificate-authority",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:handshake-protocol",
+      "to": "glossary:node",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:handshake-protocol",
+      "to": "glossary:public-key-infrastructure",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:handshake-protocol",
+      "to": "glossary:tls",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:man-in-the-middle-attack",
+      "to": "category:cybersecurity",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:man-in-the-middle-attack",
+      "to": "glossary:encryption",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:man-in-the-middle-attack",
+      "to": "glossary:phishing",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:mfa",
+      "to": "category:cybersecurity",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:mfa",
+      "to": "glossary:phishing",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:mfa",
+      "to": "glossary:totp",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:mfa",
+      "to": "glossary:two-factor-authentication",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -193859,6 +195267,198 @@
       "source": "embedded"
     },
     {
+      "from": "glossary:https",
+      "to": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:https",
+      "to": "topic:invisible-web3-why-users-wont-even-know-theyre-on-chain",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:https",
+      "to": "topic:seo-strategies-for-affiliate-marketing-how-to-drive-organic-traffic-2",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:https",
+      "to": "topic:why-users-dont-care-about-decentralization-but-benefit-anyway",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:the-role-of-cbdcs-how-central-bank-digital-currencies-are-changing-finance",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:is-crypto-the-same-as-money",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:navigating-the-legal-maze-how-global-regulations-are-shaping-the-future-of-blockchain-and-crypto",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:investing-in-a-high-interest-world-2026-predictions-for-rates-and-inflation",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:monetary-policy",
+      "to": "topic:the-future-of-central-bank-digital-currencies-are-we-near-global-adoption",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:the-rise-of-machine-to-machine-economies",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:layer-3-the-next-frontier-in-blockchain-scalability",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:the-evolution-of-web3-social-media-platforms-privacy-and-ownership-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:layer-3-in-blockchain-the-next-big-thing-for-crypto-scalability",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:microtransactions",
+      "to": "topic:socialfi-2-0-are-decentralized-social-networks-ready-for-the-masses",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:cryptographic-hash",
+      "to": "topic:a-beginners-guide-to-blockchain-technology-how-it-works-and-why-it-matters",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:building-passive-income-streams-from-dividends-to-digital-assets",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:passive-income-in-2025-from-dividends-to-digital-assets",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:building-passive-income-streams-from-dividends-to-digital-assets-2",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:digital-assets",
+      "to": "topic:passive-income-in-2026-digital-assets-staking-ai-tools-more",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:utility-token",
+      "to": "topic:why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:utility-token",
+      "to": "topic:memecoins-vs-utility-tokens-which-crypto-trend-will-dominate-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:utility-token",
+      "to": "topic:top-10-altcoins-to-watch-in-2025-investment-strategies-for-the-next-bull-run",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:utility-token",
+      "to": "topic:ai-tokens-and-the-next-hype-cycle-are-they-the-new-defi",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:relay-chain",
+      "to": "topic:blockchain-interoperability-the-key-to-a-multi-chain-future",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:relay-chain",
+      "to": "topic:the-interoperability-race-polkadot-cosmos-vector-smart-chain-and-layer-1-bridges-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:relay-chain",
+      "to": "topic:interoperability-in-blockchain-connecting-networks-for-a-multi-chain-future",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:why-liquidity-is-becoming-more-important-than-market-cap",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:why-cash-flow-matters-more-than-net-worth-right-now",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:what-crypto-looks-like-after-memecoins",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:the-next-crypto-bull-market-will-look-different-than-the-last-one",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:valuation",
+      "to": "topic:tokenized-real-world-assets-the-next-big-thing-in-crypto",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
       "from": "topic:what-crypto-looks-like-after-memecoins",
       "to": "glossary:stablecoin",
       "type": "related-glossary",
@@ -194132,6 +195732,12 @@
       "from": "topic:the-next-evolution-of-software-is-autonomous-systems",
       "to": "research:chainlink-2-0-next-steps-in-the-evolution-of-decentralized-oracle-networks",
       "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:building-multiple-income-streams-in-the-age-of-automation",
+      "to": "glossary:digital-assets",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -194552,6 +196158,12 @@
       "from": "topic:the-rise-of-ai-assisted-affiliate-businesses",
       "to": "topic:building-multiple-income-streams-in-the-age-of-automation",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:the-new-rules-of-wealth-building-in-a-digital-economy",
+      "to": "glossary:digital-assets",
+      "type": "related-glossary",
       "source": "embedded"
     },
     {
@@ -226020,6 +227632,12 @@
     },
     {
       "from": "topic:why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
+      "to": "glossary:utility-token",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:why-utility-tokens-are-making-a-comeback-and-memes-are-evolving",
       "to": "topic:what-crypto-looks-like-after-memecoins",
       "type": "related-article",
       "source": "embedded"
@@ -230965,6 +232583,48 @@
     {
       "from": "topic:tokenized-money-convertibility-test",
       "to": "topic:the-future-of-central-bank-digital-currencies-are-we-near-global-adoption",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "glossary:circuit",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "glossary:provenance",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "glossary:governance",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:ai-auditors-right-to-publish-not-just-look",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:health-ai-appeal-path-accuracy-score",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "topic:how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence",
       "type": "related-article",
       "source": "embedded"
     },

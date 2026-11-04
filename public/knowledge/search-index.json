@@ -7754,6 +7754,61 @@
     "text": "Valuation Valuation in the context of Non-Fungible Tokens (NFTs) refers to the process of determining the fair market value of a unique digital asset recorded on a blockchain. Unlike fungible tokens, NFTs lack price history and liquidity uniformity, necessitating complex methodologies such as floor price analysis, historical trade data, rarity scoring, and comparative market assessment. Because NFTs possess unique metadata, extrinsic value is often derived from subjective factors like artistic provenance, utility, community sentiment, and scarcity, making them notoriously difficult to appraise accurately in a volatile, decentralized marketplace. Valuation — Definition & Explanation | The Blockchain Library Learn how NFT valuation works in the Web3 ecosystem. Explore methodologies like floor pricing, rarity scoring, and market analysis for digital asset appraisal."
   },
   {
+    "id": "glossary:collateralization-ratio",
+    "type": "glossary",
+    "title": "Collateralization Ratio",
+    "aliases": [],
+    "summary": "The collateralization ratio is a critical financial metric in decentralized finance representing the value of assets locked in a smart contract as collateral relative to the value of the debt or stablecoins issued against it. Expressed as a percentage, it serves as a safety buffer to ensure solvency. If the market value of the collateral drops below a predefined threshold, the protocol may trigger automated liquidations to protect the integrity of the system and ensure the issued stablecoins remain adequately backed.",
+    "categoryId": "6a4e39d110805a52385d8fca",
+    "tags": [],
+    "canonicalUrl": "/glossary/collateralization-ratio",
+    "text": "Collateralization Ratio The collateralization ratio is a critical financial metric in decentralized finance representing the value of assets locked in a smart contract as collateral relative to the value of the debt or stablecoins issued against it. Expressed as a percentage, it serves as a safety buffer to ensure solvency. If the market value of the collateral drops below a predefined threshold, the protocol may trigger automated liquidations to protect the integrity of the system and ensure the issued stablecoins remain adequately backed. Collateralization Ratio — Definition & Explanation | The Blockchain Library Learn about the collateralization ratio in DeFi. Discover how this essential metric ensures the stability and solvency of crypto-backed stablecoins in Web3."
+  },
+  {
+    "id": "glossary:collision-resistance",
+    "type": "glossary",
+    "title": "Collision Resistance",
+    "aliases": [],
+    "summary": "Collision resistance is a property of cryptographic hash functions that makes it computationally infeasible to find two distinct inputs, x and y, such that the output of the hash function for both inputs is identical—that is, H(x) = H(y). In a secure hash function, the output space is vast enough that the probability of randomly generating a collision is negligible. This property ensures that digital fingerprints remain unique and authentic, serving as a foundational security guarantee for data integrity and identity verification within decentralized systems.",
+    "categoryId": "6a4e39d110805a52385d8fc4",
+    "tags": [],
+    "canonicalUrl": "/glossary/collision-resistance",
+    "text": "Collision Resistance Collision resistance is a property of cryptographic hash functions that makes it computationally infeasible to find two distinct inputs, x and y, such that the output of the hash function for both inputs is identical—that is, H(x) = H(y). In a secure hash function, the output space is vast enough that the probability of randomly generating a collision is negligible. This property ensures that digital fingerprints remain unique and authentic, serving as a foundational security guarantee for data integrity and identity verification within decentralized systems. Collision Resistance — Definition & Explanation | The Blockchain Library Learn about collision resistance in blockchain. Discover how this essential cryptographic property ensures data integrity, prevents forgery, and secures ledgers."
+  },
+  {
+    "id": "glossary:handshake-protocol",
+    "type": "glossary",
+    "title": "Handshake Protocol",
+    "aliases": [],
+    "summary": "A Handshake Protocol is a set of cryptographic procedures that allows two parties to establish a secure, authenticated connection over an insecure channel. It involves exchanging identity information, negotiating cryptographic algorithms, and generating shared session keys. This process ensures that both the client and server can verify each other's integrity and protect subsequent data transmission from eavesdropping or tampering. In blockchain networking, it serves as the foundational step for peer-to-peer communication and secure RPC calls between wallets and nodes.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/handshake-protocol",
+    "text": "Handshake Protocol A Handshake Protocol is a set of cryptographic procedures that allows two parties to establish a secure, authenticated connection over an insecure channel. It involves exchanging identity information, negotiating cryptographic algorithms, and generating shared session keys. This process ensures that both the client and server can verify each other's integrity and protect subsequent data transmission from eavesdropping or tampering. In blockchain networking, it serves as the foundational step for peer-to-peer communication and secure RPC calls between wallets and nodes. Handshake Protocol — Definition & Explanation | The Blockchain Library Learn about the Handshake Protocol, the cryptographic process that secures connections between users and blockchain nodes. Essential for Web3 privacy and security."
+  },
+  {
+    "id": "glossary:man-in-the-middle-attack",
+    "type": "glossary",
+    "title": "Man-in-the-Middle Attack",
+    "aliases": [],
+    "summary": "A Man-in-the-Middle (MitM) attack is a cybersecurity threat where an adversary secretly intercepts and relays messages between two parties who believe they are communicating directly with each other. The attacker gains the ability to monitor, inject, or alter the transmitted data without the victims' knowledge. In the context of blockchain, this often occurs through malicious proxy servers, compromised routers, or spoofed DApp front-ends designed to redirect transaction data for unauthorized manipulation.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/man-in-the-middle-attack",
+    "text": "Man-in-the-Middle Attack A Man-in-the-Middle (MitM) attack is a cybersecurity threat where an adversary secretly intercepts and relays messages between two parties who believe they are communicating directly with each other. The attacker gains the ability to monitor, inject, or alter the transmitted data without the victims' knowledge. In the context of blockchain, this often occurs through malicious proxy servers, compromised routers, or spoofed DApp front-ends designed to redirect transaction data for unauthorized manipulation. Man-in-the-Middle Attack — Definition & Explanation | The Blockchain Library Understand the Man-in-the-Middle attack, a dangerous cyber threat in crypto where attackers intercept and alter communications between users and applications."
+  },
+  {
+    "id": "glossary:mfa",
+    "type": "glossary",
+    "title": "MFA",
+    "aliases": [],
+    "summary": "Multi-Factor Authentication (MFA) is a security mechanism that requires users to provide two or more verification factors to gain access to a resource, such as a cryptocurrency exchange account. These factors typically include something the user knows (password), something the user has (hardware token or smartphone app), and something the user is (biometrics). MFA adds a critical layer of defense, ensuring that even if a password is stolen, the account remains protected from unauthorized access.",
+    "categoryId": "6a4e39d110805a52385d8fc5",
+    "tags": [],
+    "canonicalUrl": "/glossary/mfa",
+    "text": "MFA Multi-Factor Authentication (MFA) is a security mechanism that requires users to provide two or more verification factors to gain access to a resource, such as a cryptocurrency exchange account. These factors typically include something the user knows (password), something the user has (hardware token or smartphone app), and something the user is (biometrics). MFA adds a critical layer of defense, ensuring that even if a password is stolen, the account remains protected from unauthorized access. MFA — Definition & Explanation | The Blockchain Library Discover how Multi-Factor Authentication (MFA) protects your crypto assets by requiring multiple verification steps for secure account access."
+  },
+  {
     "id": "topic:what-crypto-looks-like-after-memecoins",
     "type": "topic",
     "title": "What Crypto Looks Like After Memecoins",
@@ -22570,6 +22625,23 @@
     ],
     "canonicalUrl": "/topics/tokenized-money-convertibility-test",
     "text": "Tokenized Money Needs a Convertibility Test Atomic settlement is not enough. Tokenized money must also remain convertible at par when liquidity, participants or networks fail. Why Tokenized Money Needs a Robust Convertibility Test Learn why atomic settlement is insufficient for tokenized money and why robust convertibility testing is essential for financial stability in Web3. Tokenized money Payment infrastructure Central bank money Canada"
+  },
+  {
+    "id": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+    "type": "topic",
+    "title": "Bank AI Risk Tiers Should Measure Agency, Not Intelligence",
+    "aliases": [],
+    "summary": "A new OCC examiner framework and Canada’s OSFI guidance point to the same practical rule: tier AI controls by consequences, delegated authority and reversibility.",
+    "categoryId": "6a4cfe7ce8ddbcb85df987d3",
+    "tags": [
+      "AI governance",
+      "financial services",
+      "model risk",
+      "banking",
+      "Canada"
+    ],
+    "canonicalUrl": "/topics/bank-ai-risk-tiers-agency-not-intelligence",
+    "text": "Bank AI Risk Tiers Should Measure Agency, Not Intelligence A new OCC examiner framework and Canada’s OSFI guidance point to the same practical rule: tier AI controls by consequences, delegated authority and reversibility. Measuring AI Risk in Banking Through Agency and Impact Explore why bank AI risk tiers should focus on agency, reversibility, and consequences rather than technical model capabilities to ensure effective safety. AI governance financial services model risk banking Canada"
   },
   {
     "id": "book:the-quiet-rebuild-of-the-internet",
@@ -130697,6 +130769,1426 @@
     ],
     "canonicalUrl": "/news/mexc-upgrades-futures-earn-to-empower-retail-traders-with-a-clearer-more-intuitive-experience",
     "text": "MEXC Upgrades Futures Earn to Empower Retail Traders With a Clearer, More Intuitive Experience Trading Markets"
+  },
+  {
+    "id": "news:what-happens-if-north-korea-steals-wall-streets-tokenized-assets-next",
+    "type": "news",
+    "title": "What happens if North Korea steals Wall Street's tokenized assets next",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/what-happens-if-north-korea-steals-wall-streets-tokenized-assets-next",
+    "text": "What happens if North Korea steals Wall Street's tokenized assets next Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+    "type": "news",
+    "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+    "text": "CFTC gets into legal clash over stock perps after having cleared path for crypto version Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
+    "type": "news",
+    "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
+    "text": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:spacex-blocks-tokenized-stock-listing-on-okxice-despite-offshore-trading-boom",
+    "type": "news",
+    "title": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/spacex-blocks-tokenized-stock-listing-on-okxice-despite-offshore-trading-boom",
+    "text": "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:cftc-clears-stock-perpetual-futures-for-trading-on-us-exchanges",
+    "type": "news",
+    "title": "CFTC clears stock perpetual futures for trading on US exchanges",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/cftc-clears-stock-perpetual-futures-for-trading-on-us-exchanges",
+    "text": "CFTC clears stock perpetual futures for trading on US exchanges Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:us-midterms-prediction-markets-favor-democrats-in-key-crypto-races",
+    "type": "news",
+    "title": "US midterms: Prediction markets favor Democrats in key crypto races",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/us-midterms-prediction-markets-favor-democrats-in-key-crypto-races",
+    "text": "US midterms: Prediction markets favor Democrats in key crypto races Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:eth-btc-ratio-nears-0-03-as-ethereum-gains-on-bitcoin",
+    "type": "news",
+    "title": "ETH/BTC Ratio Nears 0.03 as Ethereum Gains on Bitcoin",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/eth-btc-ratio-nears-0-03-as-ethereum-gains-on-bitcoin",
+    "text": "ETH/BTC Ratio Nears 0.03 as Ethereum Gains on Bitcoin Bitcoin Mining"
+  },
+  {
+    "id": "news:bitcoin-flips-a-12-year-midterm-pattern-can-it-hold-through-friday",
+    "type": "news",
+    "title": "Bitcoin Flips a 12-Year Midterm Pattern. Can It Hold Through Friday?",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/bitcoin-flips-a-12-year-midterm-pattern-can-it-hold-through-friday",
+    "text": "Bitcoin Flips a 12-Year Midterm Pattern. Can It Hold Through Friday? Bitcoin Mining"
+  },
+  {
+    "id": "news:north-korea-denies-involvement-in-binance-hack-questions-the-us",
+    "type": "news",
+    "title": "North Korea Denies Involvement In Binance Hack-Questions the US",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/north-korea-denies-involvement-in-binance-hack-questions-the-us",
+    "text": "North Korea Denies Involvement In Binance Hack-Questions the US Bitcoin Mining"
+  },
+  {
+    "id": "news:bitcoin-price-risks-drop-below-76k-as-oil-prices-slide-7",
+    "type": "news",
+    "title": "Bitcoin Price Risks Drop Below $76K as Oil Prices Slide 7%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-risks-drop-below-76k-as-oil-prices-slide-7",
+    "text": "Bitcoin Price Risks Drop Below $76K as Oil Prices Slide 7% Bitcoin Mining"
+  },
+  {
+    "id": "news:kraken-restricts-accounts-after-suspected-133m-crypto-theft",
+    "type": "news",
+    "title": "Kraken Restricts Accounts After Suspected $133M Crypto Theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/kraken-restricts-accounts-after-suspected-133m-crypto-theft",
+    "text": "Kraken Restricts Accounts After Suspected $133M Crypto Theft Bitcoin Mining"
+  },
+  {
+    "id": "news:near-price-drops-7-as-token-issuance-cut-proposal-passes",
+    "type": "news",
+    "title": "NEAR Price Drops 7% as Token Issuance Cut Proposal Passes",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/near-price-drops-7-as-token-issuance-cut-proposal-passes",
+    "text": "NEAR Price Drops 7% as Token Issuance Cut Proposal Passes Bitcoin Mining"
+  },
+  {
+    "id": "news:bitcoin-faces-fifth-weekly-loss-as-us-midterms-weigh-in",
+    "type": "news",
+    "title": "Bitcoin Faces Fifth Weekly Loss as US Midterms Weigh In",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/bitcoin-faces-fifth-weekly-loss-as-us-midterms-weigh-in",
+    "text": "Bitcoin Faces Fifth Weekly Loss as US Midterms Weigh In Bitcoin Mining"
+  },
+  {
+    "id": "news:liquid-network-restores-bitcoin-backing-after-major-hack",
+    "type": "news",
+    "title": "Liquid Network Restores Bitcoin Backing After Major Hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/liquid-network-restores-bitcoin-backing-after-major-hack",
+    "text": "Liquid Network Restores Bitcoin Backing After Major Hack Bitcoin Mining"
+  },
+  {
+    "id": "news:aave-freezes-new-tbtc-supply-and-borrowing-after-mint-and-redeem-pause",
+    "type": "news",
+    "title": "Aave Freezes New tBTC Supply and Borrowing After Mint-and-Redeem Pause",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/aave-freezes-new-tbtc-supply-and-borrowing-after-mint-and-redeem-pause",
+    "text": "Aave Freezes New tBTC Supply and Borrowing After Mint-and-Redeem Pause Trading Markets"
+  },
+  {
+    "id": "news:bitmine-reports-6-06m-eth-holdings-with-more-than-5-22m-staked",
+    "type": "news",
+    "title": "BitMine Reports 6.06M ETH Holdings, With More Than 5.22M Staked",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitmine-reports-6-06m-eth-holdings-with-more-than-5-22m-staked",
+    "text": "BitMine Reports 6.06M ETH Holdings, With More Than 5.22M Staked Trading Markets"
+  },
+  {
+    "id": "news:strategy-adds-811-bitcoin-and-repurchases-208-2m-of-strc-shares",
+    "type": "news",
+    "title": "Strategy Adds 811 Bitcoin and Repurchases $208.2M of STRC Shares",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/strategy-adds-811-bitcoin-and-repurchases-208-2m-of-strc-shares",
+    "text": "Strategy Adds 811 Bitcoin and Repurchases $208.2M of STRC Shares Trading Markets"
+  },
+  {
+    "id": "news:tether-says-it-froze-more-than-1-5b-linked-to-the-binance-theft",
+    "type": "news",
+    "title": "Tether Says It Froze More Than $1.5B Linked to the Binance Theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/tether-says-it-froze-more-than-1-5b-linked-to-the-binance-theft",
+    "text": "Tether Says It Froze More Than $1.5B Linked to the Binance Theft Trading Markets"
+  },
+  {
+    "id": "news:fbi-attributes-binance-heist-to-tradertraitor-and-urges-crypto-infrastructure-vigilance",
+    "type": "news",
+    "title": "FBI Attributes Binance Heist to TraderTraitor and Urges Crypto Infrastructure Vigilance",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/fbi-attributes-binance-heist-to-tradertraitor-and-urges-crypto-infrastructure-vigilance",
+    "text": "FBI Attributes Binance Heist to TraderTraitor and Urges Crypto Infrastructure Vigilance Trading Markets"
+  },
+  {
+    "id": "news:binance-publishes-new-proof-of-reserves-snapshot-following-october-attack",
+    "type": "news",
+    "title": "Binance Publishes New Proof-of-Reserves Snapshot Following October Attack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/binance-publishes-new-proof-of-reserves-snapshot-following-october-attack",
+    "text": "Binance Publishes New Proof-of-Reserves Snapshot Following October Attack Trading Markets"
+  },
+  {
+    "id": "news:binance-adds-more-withdrawal-routes-on-november-3-after-security-checks",
+    "type": "news",
+    "title": "Binance Adds More Withdrawal Routes on November 3 After Security Checks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/binance-adds-more-withdrawal-routes-on-november-3-after-security-checks",
+    "text": "Binance Adds More Withdrawal Routes on November 3 After Security Checks Trading Markets"
+  },
+  {
+    "id": "news:democrats-surge-toward-senate-house-majorities-with-crypto-braced-for-new-direction",
+    "type": "news",
+    "title": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/democrats-surge-toward-senate-house-majorities-with-crypto-braced-for-new-direction",
+    "text": "Democrats surge toward Senate, House majorities, with crypto braced for new direction Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-briefly-sinks-to-75-700-as-bets-on-a-democratic-sweep-rattle-markets",
+    "type": "news",
+    "title": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-briefly-sinks-to-75-700-as-bets-on-a-democratic-sweep-rattle-markets",
+    "text": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:live-updates-cryptos-big-election-gamble-faces-voters-as-democrats-gain-ground",
+    "type": "news",
+    "title": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/live-updates-cryptos-big-election-gamble-faces-voters-as-democrats-gain-ground",
+    "text": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:what-voters-said-about-their-views-on-crypto",
+    "type": "news",
+    "title": "What voters said about their views on crypto",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/what-voters-said-about-their-views-on-crypto",
+    "text": "What voters said about their views on crypto Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:us-midterms-election-2026-live-democrats-win-us-senate-majority",
+    "type": "news",
+    "title": "US midterms election 2026 live: Democrats win US Senate majority",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/us-midterms-election-2026-live-democrats-win-us-senate-majority",
+    "text": "US midterms election 2026 live: Democrats win US Senate majority Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:democrats-claim-control-of-the-us-senate",
+    "type": "news",
+    "title": "Democrats claim control of the US Senate",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/democrats-claim-control-of-the-us-senate",
+    "text": "Democrats claim control of the US Senate Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:zachxbt-identifies-french-bank-as-alleged-victim-of-133m-crypto-theft",
+    "type": "news",
+    "title": "ZachXBT identifies French bank as alleged victim of $133M crypto theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/zachxbt-identifies-french-bank-as-alleged-victim-of-133m-crypto-theft",
+    "text": "ZachXBT identifies French bank as alleged victim of $133M crypto theft Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold",
+    "type": "news",
+    "title": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/1inch-lawyer-sees-agencies-driving-us-crypto-regulation-as-midterms-unfold",
+    "text": "1inch lawyer sees agencies driving US crypto regulation as midterms unfold Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:rune-rallies-15-as-thorchain-restarts-most-swaps-after-halt",
+    "type": "news",
+    "title": "RUNE rallies 15% as THORChain restarts most swaps after halt",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/rune-rallies-15-as-thorchain-restarts-most-swaps-after-halt",
+    "text": "RUNE rallies 15% as THORChain restarts most swaps after halt Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident",
+    "type": "news",
+    "title": "Chainalysis Describes Recovery Efforts After Mercado Bitcoin Security Incident",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident",
+    "text": "Chainalysis Describes Recovery Efforts After Mercado Bitcoin Security Incident Trading Markets"
+  },
+  {
+    "id": "news:coinbase-explains-multi-user-architecture-as-crypto-accounts-become-more-complex",
+    "type": "news",
+    "title": "Coinbase Explains Multi-User Architecture as Crypto Accounts Become More Complex",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/coinbase-explains-multi-user-architecture-as-crypto-accounts-become-more-complex",
+    "text": "Coinbase Explains Multi-User Architecture as Crypto Accounts Become More Complex Trading Markets"
+  },
+  {
+    "id": "news:hong-kong-launches-post-quantum-preparation-toolkit-for-banks",
+    "type": "news",
+    "title": "Hong Kong Launches Post-Quantum Preparation Toolkit for Banks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/hong-kong-launches-post-quantum-preparation-toolkit-for-banks",
+    "text": "Hong Kong Launches Post-Quantum Preparation Toolkit for Banks Trading Markets"
+  },
+  {
+    "id": "news:nyse-adds-four-transfer-agents-to-planned-tokenized-securities-venue",
+    "type": "news",
+    "title": "NYSE Adds Four Transfer Agents to Planned Tokenized Securities Venue",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/nyse-adds-four-transfer-agents-to-planned-tokenized-securities-venue",
+    "text": "NYSE Adds Four Transfer Agents to Planned Tokenized Securities Venue Trading Markets"
+  },
+  {
+    "id": "news:btcpay-server-2-4-7-security-release-adds-urgency-for-self-hosted-merchants",
+    "type": "news",
+    "title": "BTCPay Server 2.4.7 Security Release Adds Urgency for Self-Hosted Merchants",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/btcpay-server-2-4-7-security-release-adds-urgency-for-self-hosted-merchants",
+    "text": "BTCPay Server 2.4.7 Security Release Adds Urgency for Self-Hosted Merchants Trading Markets"
+  },
+  {
+    "id": "news:justin-sun-demands-court-sanctions-over-trump-linked-world-liberty-financial-8217-s-hidden-uae-owners",
+    "type": "news",
+    "title": "Justin Sun demands court sanctions over Trump-linked World Liberty Financial&#8217;s hidden UAE owners",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/justin-sun-demands-court-sanctions-over-trump-linked-world-liberty-financial-8217-s-hidden-uae-owners",
+    "text": "Justin Sun demands court sanctions over Trump-linked World Liberty Financial&#8217;s hidden UAE owners DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-stopped-57-north-korean-cyber-threats-but-fell-for-a-fake-job-interview",
+    "type": "news",
+    "title": "Binance stopped 57 North Korean cyber threats but fell for a fake job interview",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-stopped-57-north-korean-cyber-threats-but-fell-for-a-fake-job-interview",
+    "text": "Binance stopped 57 North Korean cyber threats but fell for a fake job interview DeFi NFT Web3"
+  },
+  {
+    "id": "news:coinbase-xrp-looked-cheap-on-nov-2-despite-identical-market-value",
+    "type": "news",
+    "title": "Coinbase XRP looked cheap on Nov. 2 despite identical market value",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/coinbase-xrp-looked-cheap-on-nov-2-despite-identical-market-value",
+    "text": "Coinbase XRP looked cheap on Nov. 2 despite identical market value DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-relied-on-ai-to-fight-fraud-before-hackers-exploited-internal-tool-in-6-billion-theft",
+    "type": "news",
+    "title": "Binance relied on AI to fight fraud before hackers exploited internal tool in $6 billion theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-relied-on-ai-to-fight-fraud-before-hackers-exploited-internal-tool-in-6-billion-theft",
+    "text": "Binance relied on AI to fight fraud before hackers exploited internal tool in $6 billion theft DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-investors-could-pay-the-price-as-the-federal-reserve-tightens-bank-lending-rules",
+    "type": "news",
+    "title": "Bitcoin investors could pay the price as the Federal Reserve tightens bank lending rules",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-investors-could-pay-the-price-as-the-federal-reserve-tightens-bank-lending-rules",
+    "text": "Bitcoin investors could pay the price as the Federal Reserve tightens bank lending rules DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-says-thinly-traded-tokens-are-delaying-full-replacement-of-stolen-assets",
+    "type": "news",
+    "title": "Binance says thinly traded tokens are delaying full replacement of stolen assets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-says-thinly-traded-tokens-are-delaying-full-replacement-of-stolen-assets",
+    "text": "Binance says thinly traded tokens are delaying full replacement of stolen assets DeFi NFT Web3"
+  },
+  {
+    "id": "news:crypto-spent-55-million-defending-a-senator-who-already-backed-clarity",
+    "type": "news",
+    "title": "Crypto spent $55 million defending a senator who already backed CLARITY",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/crypto-spent-55-million-defending-a-senator-who-already-backed-clarity",
+    "text": "Crypto spent $55 million defending a senator who already backed CLARITY DeFi NFT Web3"
+  },
+  {
+    "id": "news:north-korea-denies-role-in-6-billion-binance-hack-after-fbi-accusation",
+    "type": "news",
+    "title": "North Korea denies role in $6 billion Binance hack after FBI accusation",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/north-korea-denies-role-in-6-billion-binance-hack-after-fbi-accusation",
+    "text": "North Korea denies role in $6 billion Binance hack after FBI accusation DeFi NFT Web3"
+  },
+  {
+    "id": "news:hong-kong-bank-pilot-opens-24-7-cash-settlement-for-tokenized-fund-deals",
+    "type": "news",
+    "title": "Hong Kong bank pilot opens 24/7 cash settlement for tokenized fund deals",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/hong-kong-bank-pilot-opens-24-7-cash-settlement-for-tokenized-fund-deals",
+    "text": "Hong Kong bank pilot opens 24/7 cash settlement for tokenized fund deals DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-and-treasury-yields-fall-together-in-rare-divergence-as-80-000-recovery-fails",
+    "type": "news",
+    "title": "Bitcoin and Treasury yields fall together in rare divergence as $80,000 recovery fails",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-and-treasury-yields-fall-together-in-rare-divergence-as-80-000-recovery-fails",
+    "text": "Bitcoin and Treasury yields fall together in rare divergence as $80,000 recovery fails DeFi NFT Web3"
+  },
+  {
+    "id": "news:zachxbt-names-french-bank-cre-dit-mutuel-arke-a-as-suspected-victim-of-133-million-crypto-theft",
+    "type": "news",
+    "title": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/zachxbt-names-french-bank-cre-dit-mutuel-arke-a-as-suspected-victim-of-133-million-crypto-theft",
+    "text": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
+    "type": "news",
+    "title": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/elon-musk-floats-space-data-centers-as-democratic-sweep-puts-pressure-on-ai-trade",
+    "text": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:morgan-stanley-says-it-is-among-the-first-banks-to-tokenize-real-world-assets",
+    "type": "news",
+    "title": "Morgan Stanley says it is among the first banks to tokenize real world assets",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/morgan-stanley-says-it-is-among-the-first-banks-to-tokenize-real-world-assets",
+    "text": "Morgan Stanley says it is among the first banks to tokenize real world assets Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:zcash-grants-committee-drops-plan-to-redirect-98-000-zec-to-future-mining-rewards",
+    "type": "news",
+    "title": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/zcash-grants-committee-drops-plan-to-redirect-98-000-zec-to-future-mining-rewards",
+    "text": "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-surges-to-78-300-in-v-shaped-comeback-as-midterm-election-uncertainty-fades",
+    "type": "news",
+    "title": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-surges-to-78-300-in-v-shaped-comeback-as-midterm-election-uncertainty-fades",
+    "text": "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:jack-dorseys-block-faces-764-million-doj-settlement-as-bitcoin-profit-plunges-50",
+    "type": "news",
+    "title": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/jack-dorseys-block-faces-764-million-doj-settlement-as-bitcoin-profit-plunges-50",
+    "text": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50% Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tethers-usdt-in-december",
+    "type": "news",
+    "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tethers-usdt-in-december",
+    "text": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:south-koreas-ruling-party-wants-to-delay-its-crypto-tax-again",
+    "type": "news",
+    "title": "South Korea's ruling party wants to delay its crypto tax again",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/south-koreas-ruling-party-wants-to-delay-its-crypto-tax-again",
+    "text": "South Korea's ruling party wants to delay its crypto tax again Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:justin-sun-seeks-264k-sanctions-over-world-libertys-uae-disclosure",
+    "type": "news",
+    "title": "Justin Sun seeks $264K sanctions over World Liberty’s UAE disclosure",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/justin-sun-seeks-264k-sanctions-over-world-libertys-uae-disclosure",
+    "text": "Justin Sun seeks $264K sanctions over World Liberty’s UAE disclosure Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-etfs-lose-1-16b-as-bitwise-calls-selling-short-term",
+    "type": "news",
+    "title": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-etfs-lose-1-16b-as-bitwise-calls-selling-short-term",
+    "text": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’ Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-hackers-move-81-of-stolen-solana-route-funds-via-thorchain",
+    "type": "news",
+    "title": "Binance hackers move 81% of stolen Solana, route funds via THORChain",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-hackers-move-81-of-stolen-solana-route-funds-via-thorchain",
+    "text": "Binance hackers move 81% of stolen Solana, route funds via THORChain Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:democrats-win-us-house-to-secure-control-of-congress-in-midterms",
+    "type": "news",
+    "title": "Democrats win US House to secure control of Congress in midterms",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/democrats-win-us-house-to-secure-control-of-congress-in-midterms",
+    "text": "Democrats win US House to secure control of Congress in midterms Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-bounces-from-7-week-low-under-76k-as-democrats-sweep-congress",
+    "type": "news",
+    "title": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-bounces-from-7-week-low-under-76k-as-democrats-sweep-congress",
+    "text": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:ethereum-dev-targets-2028-for-quantum-resistance-a-year-early",
+    "type": "news",
+    "title": "Ethereum dev targets 2028 for quantum resistance, a year early",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/ethereum-dev-targets-2028-for-quantum-resistance-a-year-early",
+    "text": "Ethereum dev targets 2028 for quantum resistance, a year early Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:crypto-regulation-after-the-176m-us-midterms",
+    "type": "news",
+    "title": "Crypto Regulation After the $176M US Midterms",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/crypto-regulation-after-the-176m-us-midterms",
+    "text": "Crypto Regulation After the $176M US Midterms Bitcoin Mining"
+  },
+  {
+    "id": "news:bitcoin-price-analysis-can-btc-reach-80k",
+    "type": "news",
+    "title": "Bitcoin Price Analysis: Can BTC Reach $80K?",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-analysis-can-btc-reach-80k",
+    "text": "Bitcoin Price Analysis: Can BTC Reach $80K? Bitcoin Mining"
+  },
+  {
+    "id": "news:us-midterm-elections-shake-markets-could-bitcoin-be-ready-for-a-comeback",
+    "type": "news",
+    "title": "US Midterm Elections Shake Markets: Could Bitcoin Be Ready for a Comeback?",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/us-midterm-elections-shake-markets-could-bitcoin-be-ready-for-a-comeback",
+    "text": "US Midterm Elections Shake Markets: Could Bitcoin Be Ready for a Comeback? Bitcoin Mining"
+  },
+  {
+    "id": "news:mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
+    "type": "news",
+    "title": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b",
+    "text": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B Trading Markets"
+  },
+  {
+    "id": "news:solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations",
+    "type": "news",
+    "title": "Solana Microscope Offers Open-Source Monitoring for Complex On-Chain Operations",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations",
+    "text": "Solana Microscope Offers Open-Source Monitoring for Complex On-Chain Operations Trading Markets"
+  },
+  {
+    "id": "news:sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules",
+    "type": "news",
+    "title": "SEC Updates Crypto-Asset FAQs as Firms Seek Clarity on Federal Securities Rules",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules",
+    "text": "SEC Updates Crypto-Asset FAQs as Firms Seek Clarity on Federal Securities Rules Trading Markets"
+  },
+  {
+    "id": "news:ecb-links-europes-t-1-securities-transition-to-a-broader-settlement-overhaul",
+    "type": "news",
+    "title": "ECB Links Europe’s T+1 Securities Transition to a Broader Settlement Overhaul",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/ecb-links-europes-t-1-securities-transition-to-a-broader-settlement-overhaul",
+    "text": "ECB Links Europe’s T+1 Securities Transition to a Broader Settlement Overhaul Trading Markets"
+  },
+  {
+    "id": "news:chainalysis-discloses-separate-october-30-security-incident-involving-user-data",
+    "type": "news",
+    "title": "Chainalysis Discloses Separate October 30 Security Incident Involving User Data",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/chainalysis-discloses-separate-october-30-security-incident-involving-user-data",
+    "text": "Chainalysis Discloses Separate October 30 Security Incident Involving User Data Trading Markets"
+  },
+  {
+    "id": "news:sec-ruling-lifts-canton-coin-6-as-a16z-sees-pathway-out-of-securities-laws",
+    "type": "news",
+    "title": "SEC ruling lifts Canton Coin 6% as a16z sees pathway out of securities laws",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/sec-ruling-lifts-canton-coin-6-as-a16z-sees-pathway-out-of-securities-laws",
+    "text": "SEC ruling lifts Canton Coin 6% as a16z sees pathway out of securities laws DeFi NFT Web3"
+  },
+  {
+    "id": "news:south-korea-orders-massive-crypto-wallet-lockdown-following-the-binance-hack",
+    "type": "news",
+    "title": "South Korea orders massive crypto wallet lockdown following the Binance hack",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/south-korea-orders-massive-crypto-wallet-lockdown-following-the-binance-hack",
+    "text": "South Korea orders massive crypto wallet lockdown following the Binance hack DeFi NFT Web3"
+  },
+  {
+    "id": "news:liquid-restores-1-1-bitcoin-backing-but-wallet-refills-remain-manual",
+    "type": "news",
+    "title": "Liquid restores 1:1 Bitcoin backing, but wallet refills remain manual",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/liquid-restores-1-1-bitcoin-backing-but-wallet-refills-remain-manual",
+    "text": "Liquid restores 1:1 Bitcoin backing, but wallet refills remain manual DeFi NFT Web3"
+  },
+  {
+    "id": "news:u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-acts-coffin",
+    "type": "news",
+    "title": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-acts-coffin",
+    "text": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’ Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:wall-street-rethinks-ai-data-center-boom-as-texas-election-raises-new-risks",
+    "type": "news",
+    "title": "Wall Street rethinks AI data center boom as Texas election raises new risks",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/wall-street-rethinks-ai-data-center-boom-as-texas-election-raises-new-risks",
+    "text": "Wall Street rethinks AI data center boom as Texas election raises new risks Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:crypto-long-short-ice-is-betting-on-retails-appetite-for-quick-outcomes",
+    "type": "news",
+    "title": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/crypto-long-short-ice-is-betting-on-retails-appetite-for-quick-outcomes",
+    "text": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:the-election-changes-washington-the-work-on-crypto-continues",
+    "type": "news",
+    "title": "The election changes Washington. The work on crypto continues",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/the-election-changes-washington-the-work-on-crypto-continues",
+    "text": "The election changes Washington. The work on crypto continues Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:live-updates-bitcoin-and-stocks-post-big-gains-reversing-overnight-plunge-following-blue-wave-landslide",
+    "type": "news",
+    "title": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/live-updates-bitcoin-and-stocks-post-big-gains-reversing-overnight-plunge-following-blue-wave-landslide",
+    "text": "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+    "type": "news",
+    "title": "Global asset manager Schroders brings emerging market bond fund to Solana",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+    "text": "Global asset manager Schroders brings emerging market bond fund to Solana Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:thorchains-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+    "type": "news",
+    "title": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/thorchains-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+    "text": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:circle-beats-earnings-expectations-on-strong-revenue-but-cuts-5-of-its-workforce",
+    "type": "news",
+    "title": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/circle-beats-earnings-expectations-on-strong-revenue-but-cuts-5-of-its-workforce",
+    "text": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:heres-how-analysts-are-reacting-to-the-new-blue-congress",
+    "type": "news",
+    "title": "Here's how analysts are reacting to the new blue Congress",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/heres-how-analysts-are-reacting-to-the-new-blue-congress",
+    "text": "Here's how analysts are reacting to the new blue Congress Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+    "type": "news",
+    "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "canonicalUrl": "/news/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+    "text": "Bitcoin rebounds from midterm dip as DeFi leads gains Bitcoin Markets DeFi"
+  },
+  {
+    "id": "news:bitcoin-hits-80-5k-as-us-stocks-rally-on-midterm-election-results",
+    "type": "news",
+    "title": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/bitcoin-hits-80-5k-as-us-stocks-rally-on-midterm-election-results",
+    "text": "Bitcoin hits $80.5K as US stocks rally on midterm election results Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:france-backs-reporting-for-self-custodied-crypto-worth-100k-euros-or-more",
+    "type": "news",
+    "title": "France backs reporting for self-custodied crypto worth 100K euros or more",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/france-backs-reporting-for-self-custodied-crypto-worth-100k-euros-or-more",
+    "text": "France backs reporting for self-custodied crypto worth 100K euros or more Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:cantons-cc-rises-4-as-sec-staff-view-it-as-digital-commodity",
+    "type": "news",
+    "title": "Canton’s CC rises 4% as SEC staff view it as ‘digital commodity’",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/cantons-cc-rises-4-as-sec-staff-view-it-as-digital-commodity",
+    "text": "Canton’s CC rises 4% as SEC staff view it as ‘digital commodity’ Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:binance-hack-may-be-temporary-setback-for-crypto-grayscales-pandl-says",
+    "type": "news",
+    "title": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "canonicalUrl": "/news/binance-hack-may-be-temporary-setback-for-crypto-grayscales-pandl-says",
+    "text": "Binance hack may be ‘temporary setback’ for crypto, Grayscale’s Pandl says Altcoins Blockchain Regulation"
+  },
+  {
+    "id": "news:bitcoin-defies-selling-pressure-as-75k-holds-the-line",
+    "type": "news",
+    "title": "Bitcoin Defies Selling Pressure as $75K Holds the Line",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/bitcoin-defies-selling-pressure-as-75k-holds-the-line",
+    "text": "Bitcoin Defies Selling Pressure as $75K Holds the Line Bitcoin Mining"
+  },
+  {
+    "id": "news:canton-coin-rises-after-sec-classifies-it-as-a-digital-commodity",
+    "type": "news",
+    "title": "Canton Coin Rises After SEC Classifies It as a Digital Commodity",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/canton-coin-rises-after-sec-classifies-it-as-a-digital-commodity",
+    "text": "Canton Coin Rises After SEC Classifies It as a Digital Commodity Bitcoin Mining"
+  },
+  {
+    "id": "news:bitcoin-bounces-back-as-markets-digest-midterms",
+    "type": "news",
+    "title": "Bitcoin Bounces Back as Markets Digest Midterms",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/bitcoin-bounces-back-as-markets-digest-midterms",
+    "text": "Bitcoin Bounces Back as Markets Digest Midterms Bitcoin Mining"
+  },
+  {
+    "id": "news:elon-musk-ai-plans-face-new-us-political-reality",
+    "type": "news",
+    "title": "Elon Musk AI Plans Face New US Political Reality",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/elon-musk-ai-plans-face-new-us-political-reality",
+    "text": "Elon Musk AI Plans Face New US Political Reality Bitcoin Mining"
+  },
+  {
+    "id": "news:bitcoin-price-outlook-falling-oil-fuels-recovery-hopes",
+    "type": "news",
+    "title": "Bitcoin Price Outlook: Falling Oil Fuels Recovery Hopes",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "canonicalUrl": "/news/bitcoin-price-outlook-falling-oil-fuels-recovery-hopes",
+    "text": "Bitcoin Price Outlook: Falling Oil Fuels Recovery Hopes Bitcoin Mining"
+  },
+  {
+    "id": "news:bitbase-launches-origin-a-points-season-that-rewards-consistency",
+    "type": "news",
+    "title": "Bitbase Launches ORIGIN, a Points Season That Rewards Consistency",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitbase-launches-origin-a-points-season-that-rewards-consistency",
+    "text": "Bitbase Launches ORIGIN, a Points Season That Rewards Consistency Trading Markets"
+  },
+  {
+    "id": "news:bitbase-launches-origin-distributing-1m-points-every-week",
+    "type": "news",
+    "title": "Bitbase launches ORIGIN, distributing 1M points every week",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "canonicalUrl": "/news/bitbase-launches-origin-distributing-1m-points-every-week",
+    "text": "Bitbase launches ORIGIN, distributing 1M points every week Trading Markets"
+  },
+  {
+    "id": "news:bitcoin-miners-daily-revenue-per-unit-of-computing-power-falls-8-7",
+    "type": "news",
+    "title": "Bitcoin miners’ daily revenue per unit of computing power falls 8.7%",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-miners-daily-revenue-per-unit-of-computing-power-falls-8-7",
+    "text": "Bitcoin miners’ daily revenue per unit of computing power falls 8.7% DeFi NFT Web3"
+  },
+  {
+    "id": "news:evernorths-xrp-funding-plan-could-raise-18-million-less-at-lower-share-price",
+    "type": "news",
+    "title": "Evernorth’s XRP funding plan could raise $18 million less at lower share price",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/evernorths-xrp-funding-plan-could-raise-18-million-less-at-lower-share-price",
+    "text": "Evernorth’s XRP funding plan could raise $18 million less at lower share price DeFi NFT Web3"
+  },
+  {
+    "id": "news:polkadot-lost-1-38-million-after-hacker-exploited-security-flaw-fixed-four-months-earlier",
+    "type": "news",
+    "title": "Polkadot lost $1.38 million after hacker exploited security flaw fixed four months earlier",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/polkadot-lost-1-38-million-after-hacker-exploited-security-flaw-fixed-four-months-earlier",
+    "text": "Polkadot lost $1.38 million after hacker exploited security flaw fixed four months earlier DeFi NFT Web3"
+  },
+  {
+    "id": "news:why-rising-xrp-whale-counts-are-a-fake-bullish-signal",
+    "type": "news",
+    "title": "Why rising XRP whale counts are a fake bullish signal",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/why-rising-xrp-whale-counts-are-a-fake-bullish-signal",
+    "text": "Why rising XRP whale counts are a fake bullish signal DeFi NFT Web3"
+  },
+  {
+    "id": "news:bitcoin-rebounds-after-democratic-sweep-despite-three-days-of-etf-outflows",
+    "type": "news",
+    "title": "Bitcoin rebounds after Democratic sweep despite three days of ETF outflows",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/bitcoin-rebounds-after-democratic-sweep-despite-three-days-of-etf-outflows",
+    "text": "Bitcoin rebounds after Democratic sweep despite three days of ETF outflows DeFi NFT Web3"
+  },
+  {
+    "id": "news:binance-reports-11-billion-withdrawn-in-46-hours-as-zhao-says-few-funds-went-to-rivals",
+    "type": "news",
+    "title": "Binance reports $11 billion withdrawn in 46 hours as Zhao says few funds went to rivals",
+    "aliases": [],
+    "summary": "",
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "canonicalUrl": "/news/binance-reports-11-billion-withdrawn-in-46-hours-as-zhao-says-few-funds-went-to-rivals",
+    "text": "Binance reports $11 billion withdrawn in 46 hours as Zhao says few funds went to rivals DeFi NFT Web3"
   },
   {
     "id": "newsletter:issue-1-blockchain-foundations",

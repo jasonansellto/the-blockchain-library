@@ -1,0 +1,51 @@
+---
+title: "Man-in-the-Middle Attack"
+description: "A Man-in-the-Middle (MitM) attack is a cybersecurity threat where an adversary secretly intercepts and relays messages between two parties who believe they are communicating directly with each other. The attacker gains the ability to monitor, inject, or alter the transmitted data"
+---
+
+# Man-in-the-Middle Attack
+
+A Man-in-the-Middle (MitM) attack is a cybersecurity threat where an adversary secretly intercepts and relays messages between two parties who believe they are communicating directly with each other. The attacker gains the ability to monitor, inject, or alter the transmitted data without the victims' knowledge. In the context of blockchain, this often occurs through malicious proxy servers, compromised routers, or spoofed DApp front-ends designed to redirect transaction data for unauthorized manipulation.
+
+## Definition
+
+A Man-in-the-Middle (MitM) attack is a cybersecurity threat where an adversary secretly intercepts and relays messages between two parties who believe they are communicating directly with each other. The attacker gains the ability to monitor, inject, or alter the transmitted data without the victims' knowledge. In the context of blockchain, this often occurs through malicious proxy servers, compromised routers, or spoofed DApp front-ends designed to redirect transaction data for unauthorized manipulation.
+
+## Simple explanation
+
+Imagine you are writing a letter to a friend, but someone intercepts it, reads what you wrote, changes your instructions, and then hands it to your friend. Your friend thinks the letter came directly from you, but the information has been tampered with. The 'man in the middle' is that sneaky person sitting between you both.
+
+## Why it matters
+
+MitM attacks can lead to massive losses in crypto by swapping recipient addresses in transaction requests. It undermines the trustless nature of decentralized systems by creating an illusion of direct peer-to-peer communication.
+
+## How it works
+
+The attacker positions themselves on the network path between the victim and the target. They perform ARP spoofing or use malicious Wi-Fi hotspots to redirect traffic through their own device. By presenting a fake digital certificate to the victim, they trick the victim into initiating an encrypted session with the attacker instead of the legitimate server.
+
+## Real-world example
+
+The 2022 compromise of various DApp front-ends where DNS hijacking allowed hackers to inject malicious code to drain user wallets.
+
+## Advantages
+
+- None, this is exclusively a malicious exploit technique
+
+## Limitations
+
+- Requires access to the network path
+- Detection possible with robust certificate pinning
+- Effective encryption renders intercepted data useless
+
+## Common misconceptions
+
+- It is a myth that using HTTPS fully prevents all MitM attacks, as attackers can bypass validation via compromised certificates. Many users wrongly believe that being on a private network guarantees they are safe from such interception.
+## Related knowledge
+
+- [Cybersecurity](/categories/cybersecurity) — term
+- [Encryption](/generated/v2/glossary/encryption) — term
+- [Phishing](/generated/v2/glossary/phishing) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:man-in-the-middle-attack`

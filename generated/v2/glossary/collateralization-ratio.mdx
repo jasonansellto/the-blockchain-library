@@ -1,0 +1,58 @@
+---
+title: "Collateralization Ratio"
+description: "The collateralization ratio is a critical financial metric in decentralized finance representing the value of assets locked in a smart contract as collateral relative to the value of the debt or stablecoins issued against it. Expressed as a percentage, it serves as a safety buffe"
+---
+
+# Collateralization Ratio
+
+The collateralization ratio is a critical financial metric in decentralized finance representing the value of assets locked in a smart contract as collateral relative to the value of the debt or stablecoins issued against it. Expressed as a percentage, it serves as a safety buffer to ensure solvency. If the market value of the collateral drops below a predefined threshold, the protocol may trigger automated liquidations to protect the integrity of the system and ensure the issued stablecoins remain adequately backed.
+
+## Definition
+
+The collateralization ratio is a critical financial metric in decentralized finance representing the value of assets locked in a smart contract as collateral relative to the value of the debt or stablecoins issued against it. Expressed as a percentage, it serves as a safety buffer to ensure solvency. If the market value of the collateral drops below a predefined threshold, the protocol may trigger automated liquidations to protect the integrity of the system and ensure the issued stablecoins remain adequately backed.
+
+## Simple explanation
+
+Imagine you want to borrow money from a bank. The bank tells you that for every 100 dollars you borrow, you must leave 150 dollars worth of gold with them. This extra gold acts as a safety cushion. If the price of gold suddenly drops or you fail to pay, the bank still has enough value to cover the loan. In crypto, the collateralization ratio is just that cushion, ensuring that there is always more value 'locked' in the system than the digital money being created.
+
+## Why it matters
+
+The collateralization ratio is the bedrock of trust for over-collateralized stablecoins, ensuring they maintain their peg to a target asset like the US Dollar. It prevents systemic collapse by providing a liquid buffer that allows protocols to absorb market volatility and bad debt effectively.
+
+## How it works
+
+A user deposits crypto assets into a smart contract vault, which acts as collateral for minting a stablecoin. The protocol calculates the ratio by dividing the total value of the locked collateral by the total value of the stablecoins minted. If the ratio falls below the protocol's required 'Minimum Collateralization Ratio,' the smart contract automatically sells the collateral to cover the debt, maintaining system solvency.
+
+## Real-world example
+
+In the MakerDAO protocol, users deposit ETH or other assets into Vaults to mint the DAI stablecoin; if the collateral value drops significantly, the protocol automatically liquidates the vault to ensure the total supply of DAI remains fully backed.
+
+## Advantages
+
+- Ensures long-term solvency of the protocol
+- Provides security against market volatility
+- Increases trust in decentralized stablecoins
+- Enables automated risk management without intermediaries
+
+## Limitations
+
+- Inefficient use of capital for the borrower
+- Risk of cascading liquidations during flash crashes
+- Oracle dependency for accurate price feeds
+- Complex to manage during extreme market conditions
+
+## Common misconceptions
+
+- Many believe that all stablecoins must be over-collateralized, but algorithmic stablecoins do not use this mechanism.
+- People often assume a 100 percent ratio is sufficient, but protocols require higher percentages to account for sudden asset price drops.
+## Related knowledge
+
+- [DeFi](/categories/defi) — term
+- [Liquidation](/generated/v2/glossary/liquidation) — term
+- [Oracle](/generated/v2/glossary/oracle) — term
+- [Smart Contract](/generated/v2/glossary/smart-contract) — term
+- [Stablecoin](/generated/v2/glossary/stablecoin) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:collateralization-ratio`

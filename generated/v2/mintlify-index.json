@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T17:01:31.284Z",
-  "buildId": "cac46997cb4c06da",
+  "generatedAt": "2026-11-04T17:04:21.557Z",
+  "buildId": "1b22aff768aa416e",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -6337,6 +6337,51 @@
       "sourceCanonicalUrl": "/glossary/valuation",
       "sourceSlug": "valuation",
       "routeSlug": "valuation"
+    },
+    {
+      "uid": "glossary:collateralization-ratio",
+      "type": "glossary",
+      "title": "Collateralization Ratio",
+      "path": "generated/v2/glossary/collateralization-ratio",
+      "sourceCanonicalUrl": "/glossary/collateralization-ratio",
+      "sourceSlug": "collateralization-ratio",
+      "routeSlug": "collateralization-ratio"
+    },
+    {
+      "uid": "glossary:collision-resistance",
+      "type": "glossary",
+      "title": "Collision Resistance",
+      "path": "generated/v2/glossary/collision-resistance",
+      "sourceCanonicalUrl": "/glossary/collision-resistance",
+      "sourceSlug": "collision-resistance",
+      "routeSlug": "collision-resistance"
+    },
+    {
+      "uid": "glossary:handshake-protocol",
+      "type": "glossary",
+      "title": "Handshake Protocol",
+      "path": "generated/v2/glossary/handshake-protocol",
+      "sourceCanonicalUrl": "/glossary/handshake-protocol",
+      "sourceSlug": "handshake-protocol",
+      "routeSlug": "handshake-protocol"
+    },
+    {
+      "uid": "glossary:man-in-the-middle-attack",
+      "type": "glossary",
+      "title": "Man-in-the-Middle Attack",
+      "path": "generated/v2/glossary/man-in-the-middle-attack",
+      "sourceCanonicalUrl": "/glossary/man-in-the-middle-attack",
+      "sourceSlug": "man-in-the-middle-attack",
+      "routeSlug": "man-in-the-middle-attack"
+    },
+    {
+      "uid": "glossary:mfa",
+      "type": "glossary",
+      "title": "MFA",
+      "path": "generated/v2/glossary/mfa",
+      "sourceCanonicalUrl": "/glossary/mfa",
+      "sourceSlug": "mfa",
+      "routeSlug": "mfa"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",
@@ -12898,6 +12943,15 @@
       "sourceCanonicalUrl": "/topics/tokenized-money-convertibility-test",
       "sourceSlug": "tokenized-money-convertibility-test",
       "routeSlug": "tokenized-money-convertibility-test"
+    },
+    {
+      "uid": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "type": "topic",
+      "title": "Bank AI Risk Tiers Should Measure Agency, Not Intelligence",
+      "path": "generated/v2/topics/bank-ai-risk-tiers-agency-not-intelligence",
+      "sourceCanonicalUrl": "/topics/bank-ai-risk-tiers-agency-not-intelligence",
+      "sourceSlug": "bank-ai-risk-tiers-agency-not-intelligence",
+      "routeSlug": "bank-ai-risk-tiers-agency-not-intelligence"
     },
     {
       "uid": "book:the-quiet-rebuild-of-the-internet",

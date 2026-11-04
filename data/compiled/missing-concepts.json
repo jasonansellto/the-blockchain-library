@@ -568,8 +568,8 @@
     ]
   },
   {
-    "key": "collateralization-ratio",
-    "label": "Collateralization Ratio",
+    "key": "biometrics",
+    "label": "Biometrics",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -578,59 +578,25 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3a63043258f78e08e481",
-          "slug": "overcollateralized-stablecoin",
-          "title": "Overcollateralized Stablecoin"
+          "id": "6ae8b79ef5a3c14b86d426a2",
+          "slug": "two-factor-authentication",
+          "title": "Two-Factor Authentication"
         },
         "target": {
-          "id": "Collateralization Ratio",
-          "label": "Collateralization Ratio"
+          "id": "Biometrics",
+          "label": "Biometrics"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6aea0923a62c98542b1fea64",
-          "slug": "monetary-policy",
-          "title": "Monetary Policy"
+          "id": "6aeb59bbcc47fc9ecb617ecf",
+          "slug": "mfa",
+          "title": "MFA"
         },
         "target": {
-          "id": "Collateralization Ratio",
-          "label": "Collateralization Ratio"
-        }
-      }
-    ]
-  },
-  {
-    "key": "collision-resistance",
-    "label": "Collision Resistance",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3b15089cdb130fd95f12",
-          "slug": "hash-function",
-          "title": "Hash Function"
-        },
-        "target": {
-          "id": "Collision Resistance",
-          "label": "Collision Resistance"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6aea09318a8197087fe2f6a0",
-          "slug": "cryptographic-hash",
-          "title": "Cryptographic Hash"
-        },
-        "target": {
-          "id": "Collision Resistance",
-          "label": "Collision Resistance"
+          "id": "Biometrics",
+          "label": "Biometrics"
         }
       }
     ]
@@ -670,8 +636,8 @@
     ]
   },
   {
-    "key": "handshake-protocol",
-    "label": "Handshake Protocol",
+    "key": "hardware-security-module",
+    "label": "Hardware Security Module",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -680,32 +646,32 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a1",
-          "slug": "tls",
-          "title": "TLS"
+          "id": "6a4e3bc2330bb088fbfa2032",
+          "slug": "wallet-security",
+          "title": "Wallet Security"
         },
         "target": {
-          "id": "Handshake Protocol",
-          "label": "Handshake Protocol"
+          "id": "Hardware Security Module",
+          "label": "Hardware Security Module"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6aea091e8ac341a1b41606c1",
-          "slug": "ssl",
-          "title": "SSL"
+          "id": "6aeb59bbcc47fc9ecb617ecf",
+          "slug": "mfa",
+          "title": "MFA"
         },
         "target": {
-          "id": "Handshake Protocol",
-          "label": "Handshake Protocol"
+          "id": "Hardware Security Module",
+          "label": "Hardware Security Module"
         }
       }
     ]
   },
   {
-    "key": "man-in-the-middle-attack",
-    "label": "Man-in-the-Middle Attack",
+    "key": "over-collateralization",
+    "label": "Over-collateralization",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -714,32 +680,32 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a0",
-          "slug": "ssl-tls",
-          "title": "SSL/TLS"
+          "id": "6ae4b48392e8abad3a3d645f",
+          "slug": "ltv-ratio",
+          "title": "LTV Ratio"
         },
         "target": {
-          "id": "Man-in-the-Middle Attack",
-          "label": "Man-in-the-Middle Attack"
+          "id": "Over-collateralization",
+          "label": "Over-collateralization"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6aea091e8ac341a1b41606c0",
-          "slug": "https",
-          "title": "HTTPS"
+          "id": "6aeb59b0a0fa2ac94ccae1c1",
+          "slug": "collateralization-ratio",
+          "title": "Collateralization Ratio"
         },
         "target": {
-          "id": "Man-in-the-Middle Attack",
-          "label": "Man-in-the-Middle Attack"
+          "id": "Over-collateralization",
+          "label": "Over-collateralization"
         }
       }
     ]
   },
   {
-    "key": "mfa",
-    "label": "MFA",
+    "key": "p2p-networking",
+    "label": "P2P networking",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -748,25 +714,25 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a2",
-          "slug": "two-factor-authentication",
-          "title": "Two-Factor Authentication"
+          "id": "6ae4b47a63dc426a15cc2671",
+          "slug": "gossip-protocol",
+          "title": "Gossip Protocol"
         },
         "target": {
-          "id": "MFA",
-          "label": "MFA"
+          "id": "P2P networking",
+          "label": "P2P networking"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6aea091e8ac341a1b41606c2",
-          "slug": "totp",
-          "title": "TOTP"
+          "id": "6aeb59bbcc47fc9ecb617ecd",
+          "slug": "handshake-protocol",
+          "title": "Handshake Protocol"
         },
         "target": {
-          "id": "MFA",
-          "label": "MFA"
+          "id": "P2P Networking",
+          "label": "P2P Networking"
         }
       }
     ]
@@ -1434,8 +1400,8 @@
     ]
   },
   {
-    "key": "biometrics",
-    "label": "Biometrics",
+    "key": "birthday-attack",
+    "label": "Birthday Attack",
     "count": 1,
     "relationshipTypes": [
       "term"
@@ -1444,13 +1410,13 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6ae8b79ef5a3c14b86d426a2",
-          "slug": "two-factor-authentication",
-          "title": "Two-Factor Authentication"
+          "id": "6aeb59b43a11d509f3af5bac",
+          "slug": "collision-resistance",
+          "title": "Collision Resistance"
         },
         "target": {
-          "id": "Biometrics",
-          "label": "Biometrics"
+          "id": "Birthday Attack",
+          "label": "Birthday Attack"
         }
       }
     ]
@@ -2490,6 +2456,28 @@
     ]
   },
   {
+    "key": "cryptographic-hash-function",
+    "label": "Cryptographic Hash Function",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59b43a11d509f3af5bac",
+          "slug": "collision-resistance",
+          "title": "Collision Resistance"
+        },
+        "target": {
+          "id": "Cryptographic Hash Function",
+          "label": "Cryptographic Hash Function"
+        }
+      }
+    ]
+  },
+  {
     "key": "cryptographic-protocol",
     "label": "Cryptographic Protocol",
     "count": 1,
@@ -3040,6 +3028,28 @@
     ]
   },
   {
+    "key": "digital-certificates",
+    "label": "Digital Certificates",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59bbcc47fc9ecb617ece",
+          "slug": "man-in-the-middle-attack",
+          "title": "Man-in-the-Middle Attack"
+        },
+        "target": {
+          "id": "Digital Certificates",
+          "label": "Digital Certificates"
+        }
+      }
+    ]
+  },
+  {
     "key": "digital-collectibles",
     "label": "Digital Collectibles",
     "count": 1,
@@ -3321,6 +3331,28 @@
         "target": {
           "id": "DLT",
           "label": "DLT"
+        }
+      }
+    ]
+  },
+  {
+    "key": "dns-hijacking",
+    "label": "DNS Hijacking",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59bbcc47fc9ecb617ece",
+          "slug": "man-in-the-middle-attack",
+          "title": "Man-in-the-Middle Attack"
+        },
+        "target": {
+          "id": "DNS Hijacking",
+          "label": "DNS Hijacking"
         }
       }
     ]
@@ -4360,28 +4392,6 @@
     ]
   },
   {
-    "key": "hardware-security-module",
-    "label": "Hardware Security Module",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3bc2330bb088fbfa2032",
-          "slug": "wallet-security",
-          "title": "Wallet Security"
-        },
-        "target": {
-          "id": "Hardware Security Module",
-          "label": "Hardware Security Module"
-        }
-      }
-    ]
-  },
-  {
     "key": "hd-wallets",
     "label": "HD Wallets",
     "count": 1,
@@ -4685,6 +4695,28 @@
         "target": {
           "id": "Identity Verification",
           "label": "Identity Verification"
+        }
+      }
+    ]
+  },
+  {
+    "key": "immutable-ledger",
+    "label": "Immutable Ledger",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59b43a11d509f3af5bac",
+          "slug": "collision-resistance",
+          "title": "Collision Resistance"
+        },
+        "target": {
+          "id": "Immutable Ledger",
+          "label": "Immutable Ledger"
         }
       }
     ]
@@ -5125,6 +5157,28 @@
         "target": {
           "id": "M2M Communication",
           "label": "M2M Communication"
+        }
+      }
+    ]
+  },
+  {
+    "key": "makerdao",
+    "label": "MakerDAO",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59b0a0fa2ac94ccae1c1",
+          "slug": "collateralization-ratio",
+          "title": "Collateralization Ratio"
+        },
+        "target": {
+          "id": "MakerDAO",
+          "label": "MakerDAO"
         }
       }
     ]
@@ -5988,50 +6042,6 @@
     ]
   },
   {
-    "key": "over-collateralization",
-    "label": "Over-collateralization",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae4b48392e8abad3a3d645f",
-          "slug": "ltv-ratio",
-          "title": "LTV Ratio"
-        },
-        "target": {
-          "id": "Over-collateralization",
-          "label": "Over-collateralization"
-        }
-      }
-    ]
-  },
-  {
-    "key": "p2p-networking",
-    "label": "P2P networking",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae4b47a63dc426a15cc2671",
-          "slug": "gossip-protocol",
-          "title": "Gossip Protocol"
-        },
-        "target": {
-          "id": "P2P networking",
-          "label": "P2P networking"
-        }
-      }
-    ]
-  },
-  {
     "key": "p2p-protocol",
     "label": "P2P Protocol",
     "count": 1,
@@ -6049,6 +6059,50 @@
         "target": {
           "id": "P2P Protocol",
           "label": "P2P Protocol"
+        }
+      }
+    ]
+  },
+  {
+    "key": "packet-sniffing",
+    "label": "Packet Sniffing",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59bbcc47fc9ecb617ece",
+          "slug": "man-in-the-middle-attack",
+          "title": "Man-in-the-Middle Attack"
+        },
+        "target": {
+          "id": "Packet Sniffing",
+          "label": "Packet Sniffing"
+        }
+      }
+    ]
+  },
+  {
+    "key": "password-security",
+    "label": "Password Security",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59bbcc47fc9ecb617ecf",
+          "slug": "mfa",
+          "title": "MFA"
+        },
+        "target": {
+          "id": "Password Security",
+          "label": "Password Security"
         }
       }
     ]
@@ -6291,6 +6345,28 @@
         "target": {
           "id": "Post-Quantum Cryptography",
           "label": "Post-Quantum Cryptography"
+        }
+      }
+    ]
+  },
+  {
+    "key": "pre-image-resistance",
+    "label": "Pre-image Resistance",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59b43a11d509f3af5bac",
+          "slug": "collision-resistance",
+          "title": "Collision Resistance"
+        },
+        "target": {
+          "id": "Pre-image Resistance",
+          "label": "Pre-image Resistance"
         }
       }
     ]
@@ -7088,6 +7164,28 @@
     ]
   },
   {
+    "key": "session-keys",
+    "label": "Session Keys",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59bbcc47fc9ecb617ecd",
+          "slug": "handshake-protocol",
+          "title": "Handshake Protocol"
+        },
+        "target": {
+          "id": "Session Keys",
+          "label": "Session Keys"
+        }
+      }
+    ]
+  },
+  {
     "key": "shard",
     "label": "Shard",
     "count": 1,
@@ -7501,6 +7599,28 @@
         "target": {
           "id": "Source Code",
           "label": "Source Code"
+        }
+      }
+    ]
+  },
+  {
+    "key": "spoofing",
+    "label": "Spoofing",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aeb59bbcc47fc9ecb617ece",
+          "slug": "man-in-the-middle-attack",
+          "title": "Man-in-the-Middle Attack"
+        },
+        "target": {
+          "id": "Spoofing",
+          "label": "Spoofing"
         }
       }
     ]

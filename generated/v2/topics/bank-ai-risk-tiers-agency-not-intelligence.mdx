@@ -1,0 +1,89 @@
+---
+title: "Bank AI Risk Tiers Should Measure Agency, Not Intelligence"
+description: "A new OCC examiner framework and Canada’s OSFI guidance point to the same practical rule: tier AI controls by consequences, delegated authority and reversibility."
+---
+
+# Bank AI Risk Tiers Should Measure Agency, Not Intelligence
+
+A new OCC examiner framework and Canada’s OSFI guidance point to the same practical rule: tier AI controls by consequences, delegated authority and reversibility.
+
+<p><strong>Analysis.</strong> <strong>Thesis:</strong> Banks and financial-technology builders should tier AI risk by what a system can do, how hard its actions are to reverse, and whether a human can meaningfully stop it—not by the model’s technical sophistication or its vendor label.</p>
+
+<p>On November 4, 2026, the U.S. Office of the Comptroller of the Currency issued an <a href="https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html" rel="noopener noreferrer">examiner framework for bank use of “super intelligence”</a>. The name is attention-grabbing, but the useful part is more disciplined. The OCC says examiners should not treat the technology as a separate risk category. Instead, control intensity can rise with the consequences of failure or misuse, the transfer of agency, and the degree of human oversight.</p>
+
+<p>The framework is explicitly not a new rule or a set of enforceable expectations for banks. It is an examiner resource and a living document. That limitation matters. Still, it offers a strong design principle: a simple rules-based agent authorized to initiate transactions may be riskier than a sophisticated model confined to internal drafting.</p>
+
+<h2>The model is not the use case</h2>
+
+<p>Teams often begin AI governance with a model inventory: provider, version, benchmark scores, hosting arrangement and data policy. Those facts are necessary, but they do not reveal the operational blast radius. The same model can summarize a policy document, recommend a credit action, or execute a payment. Those are three different systems from a risk perspective, even if the underlying model is identical.</p>
+
+<p>The OCC’s <a href="https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-97a.pdf" rel="noopener noreferrer">22-page framework</a> groups its controls around purpose, risk, control, oversight, resilience and assurance. Its risk-classification section highlights consequences, reversibility, customer and financial impact, autonomy, sensitive data, permission scope and interdependencies. That is a better starting point for builders than a generic “high-capability model” label.</p>
+
+<h2>A practical consequence-based scorecard</h2>
+
+<p>A useful internal tiering method can be built from four questions:</p>
+
+<ul>
+<li><strong>What outcome can change?</strong> Separate informational outputs from decisions that affect eligibility, pricing, account access, money movement or regulatory reporting.</li>
+<li><strong>Can the action be reversed?</strong> A draft can be discarded. A customer message can sometimes be corrected. A released payment, blocked account or missed filing may require expensive remediation.</li>
+<li><strong>How much authority is delegated?</strong> Record data access, tools, accounts, transaction limits, operating duration and whether the system can create downstream tasks. Permissions belong in the risk record, not only in an identity-management console.</li>
+<li><strong>Can oversight work at operating speed?</strong> “Human in the loop” is not meaningful if one reviewer must approve hundreds of opaque actions or cannot pause the system. Review capacity, intervention time and override authority should be tested.</li>
+</ul>
+
+<p>This approach produces clearer engineering requirements. A low-consequence drafting assistant may need approved data sources, logging and sampling. A customer-facing recommendation system may add explanation, complaint and escalation paths. A transaction-capable agent may need deterministic policy checks, least privilege, velocity limits, dual approval, a circuit breaker, tested rollback and a customer-remediation plan.</p>
+
+<p>It also changes vendor reviews. A provider update that expands tool access or changes retention can be a material risk change even when the model name stays the same. That connects directly to the supply-chain problem discussed in <a href="https://jasonansell.ca/article/agent-skills-supply-chain-rules-neutral-home">Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home</a>: portable capability needs portable provenance, permissions and revocation.</p>
+
+<h2>Why this matters in Canada</h2>
+
+<p>The cross-border lesson is not that Canadian institutions should adopt an American examiner document. It is that the consequence-based logic aligns with Canada’s direction. OSFI’s <a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027" rel="noopener noreferrer">Guideline E-23</a>, effective May 1, 2027, says model risk ratings should reflect vulnerabilities and the materiality of impacts. Its factors include operational, security and financial effects, business purpose, autonomy, customer impact and regulatory risk. Governance intensity, monitoring, approval authority and use constraints should follow the rating.</p>
+
+<p>OSFI also <a href="https://www.osfi-bsif.gc.ca/en/news/osfi-statement-financial-stability-boards-publication-sound-practices-responsible-adoption" rel="noopener noreferrer">endorsed the Financial Stability Board’s AI sound practices on October 15</a>, emphasizing accountability, human oversight, data governance and controls proportionate to each use case’s materiality and risk. For Canadian banks, insurers and vendors selling into them, the practical move is to make the use-case inventory executable: connect each tier to permission templates, test suites, monitoring thresholds, approval gates and incident playbooks.</p>
+
+<h2>What would change this assessment</h2>
+
+<p>There are important limits. The OCC framework is supervisory guidance for examiners, not a binding standard, and its “super intelligence” terminology is new enough to create classification noise. OSFI’s E-23 is principles-based, so implementation will vary by institution. A consequence score can also understate shared-provider concentration, correlated failures or slow harms that do not look dramatic in a single transaction.</p>
+
+<p>I would revise this assessment if regulators move toward model-class rules that override use-case materiality, or if evidence shows consequence-based tiers cannot be applied consistently across business units. Until then, the most defensible operating rule is simple: govern the authority and outcome first, then add model-specific controls.</p>
+
+<p><em>Disclosure: Jason Ansell is associated with Vector Smart Chain and writes books about blockchain and emerging technology. Neither is involved in the OCC or OSFI materials discussed here. This analysis is not legal, compliance or investment advice.</em></p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-54.html" rel="noopener noreferrer">Office of the Comptroller of the Currency, Bulletin 2026-54, November 4, 2026</a></li>
+<li><a href="https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-97a.pdf" rel="noopener noreferrer">OCC Supervisory Framework for Bank Use of Super Intelligence, November 4, 2026</a></li>
+<li><a href="https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/guideline-e-23-model-risk-management-2027" rel="noopener noreferrer">OSFI Guideline E-23 — Model Risk Management, published September 11, 2025; effective May 1, 2027</a></li>
+<li><a href="https://www.osfi-bsif.gc.ca/en/news/osfi-statement-financial-stability-boards-publication-sound-practices-responsible-adoption" rel="noopener noreferrer">OSFI statement on responsible AI adoption, October 15, 2026</a></li>
+</ul>
+
+## Key takeaways
+
+- Bank AI risk should be measured by consequences, autonomy, and reversibility rather than technical model sophistication.
+- The same AI model carries different risk levels depending on whether it informs, recommends, or executes actions.
+- A practical risk scorecard evaluates output impact, delegated authority, reversal difficulty, and human intervention speed.
+- Regulatory guidance in the US and Canada emphasizes aligning control intensity with the materiality of specific AI use cases.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/bank-ai-risk-tiers-agency-not-intelligence)
+## Related knowledge
+
+- [AI Auditors Need the Right to Publish, Not Just the Right to Look](/generated/v2/topics/ai-auditors-right-to-publish-not-just-look) — article
+- [AI Auditors Need the Right to Publish, Not Just the Right to Look](/generated/v2/topics/ai-auditors-right-to-publish-not-just-look) — related-article
+- [Canada’s New Privacy Guidance Turns AI Vendor Selection into an Architecture Decision](/generated/v2/topics/canada-ai-vendor-privacy-guidance-architecture-checklist) — article
+- [Canada’s New Privacy Guidance Turns AI Vendor Selection into an Architecture Decision](/generated/v2/topics/canada-ai-vendor-privacy-guidance-architecture-checklist) — related-article
+- [Circuit](/generated/v2/glossary/circuit) — glossary
+- [Circuit](/generated/v2/glossary/circuit) — related-glossary
+- [Governance](/generated/v2/glossary/governance) — glossary
+- [Governance](/generated/v2/glossary/governance) — related-glossary
+- [Health AI Needs an Appeal Path, Not Just an Accuracy Score](/generated/v2/topics/health-ai-appeal-path-accuracy-score) — article
+- [Health AI Needs an Appeal Path, Not Just an Accuracy Score](/generated/v2/topics/health-ai-appeal-path-accuracy-score) — related-article
+- [How Blockchain is Transforming AI: The Future of Decentralized Intelligence](/generated/v2/topics/how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence) — article
+- [How Blockchain is Transforming AI: The Future of Decentralized Intelligence](/generated/v2/topics/how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence) — related-article
+- [Provenance](/generated/v2/glossary/provenance) — glossary
+- [Provenance](/generated/v2/glossary/provenance) — related-glossary
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:bank-ai-risk-tiers-agency-not-intelligence`
