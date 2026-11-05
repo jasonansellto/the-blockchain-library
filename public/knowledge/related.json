@@ -23841,6 +23841,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:hardware-security-module",
+      "type": "glossary",
+      "title": "Hardware Security Module",
+      "canonicalUrl": "/glossary/hardware-security-module",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:phishing",
       "type": "glossary",
       "title": "Phishing",
@@ -45739,6 +45747,14 @@
       "canonicalUrl": "/developers/resources/libp2p",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "glossary:p2p-networking",
+      "type": "glossary",
+      "title": "P2P networking",
+      "canonicalUrl": "/glossary/p2p-networking",
+      "relationship": "term",
+      "strength": 1
     }
   ],
   "glossary:hashgraph": [
@@ -45935,6 +45951,14 @@
       "type": "category",
       "title": "Oracles",
       "canonicalUrl": "/categories/oracles",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:over-collateralization",
+      "type": "glossary",
+      "title": "Over-collateralization",
+      "canonicalUrl": "/glossary/over-collateralization",
       "relationship": "term",
       "strength": 1
     }
@@ -49417,6 +49441,14 @@
   ],
   "glossary:two-factor-authentication": [
     {
+      "uid": "glossary:biometrics",
+      "type": "glossary",
+      "title": "Biometrics",
+      "canonicalUrl": "/glossary/biometrics",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "topic:crypto-security-essentials-protecting-your-digital-assets-in-2025",
       "type": "topic",
       "title": "Crypto Security Essentials: Protecting Your Digital Assets in 2025",
@@ -51139,6 +51171,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:over-collateralization",
+      "type": "glossary",
+      "title": "Over-collateralization",
+      "canonicalUrl": "/glossary/over-collateralization",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:smart-contract",
       "type": "glossary",
       "title": "Smart Contract",
@@ -51207,6 +51247,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:p2p-networking",
+      "type": "glossary",
+      "title": "P2P networking",
+      "canonicalUrl": "/glossary/p2p-networking",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:public-key-infrastructure",
       "type": "glossary",
       "title": "Public Key Infrastructure",
@@ -51247,14 +51295,46 @@
       "canonicalUrl": "/glossary/phishing",
       "relationship": "term",
       "strength": 1
+    },
+    {
+      "uid": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "topic",
+      "title": "Security Best Practices for DeFi and Web3 Developers",
+      "canonicalUrl": "/topics/security-best-practices-for-defi-and-web3-developers",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:security-best-practices-for-defi-and-web3-developers",
+      "type": "topic",
+      "title": "Security Best Practices for DeFi and Web3 Developers",
+      "canonicalUrl": "/topics/security-best-practices-for-defi-and-web3-developers",
+      "relationship": "related-article",
+      "strength": 1
     }
   ],
   "glossary:mfa": [
+    {
+      "uid": "glossary:biometrics",
+      "type": "glossary",
+      "title": "Biometrics",
+      "canonicalUrl": "/glossary/biometrics",
+      "relationship": "term",
+      "strength": 1
+    },
     {
       "uid": "category:cybersecurity",
       "type": "category",
       "title": "Cybersecurity",
       "canonicalUrl": "/categories/cybersecurity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:hardware-security-module",
+      "type": "glossary",
+      "title": "Hardware Security Module",
+      "canonicalUrl": "/glossary/hardware-security-module",
       "relationship": "term",
       "strength": 1
     },
@@ -51279,6 +51359,206 @@
       "type": "glossary",
       "title": "Two-Factor Authentication",
       "canonicalUrl": "/glossary/two-factor-authentication",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:biometrics": [
+    {
+      "uid": "category:digital-identity",
+      "type": "category",
+      "title": "Digital Identity",
+      "canonicalUrl": "/categories/digital-identity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:hardware-security-module",
+      "type": "glossary",
+      "title": "Hardware Security Module",
+      "canonicalUrl": "/glossary/hardware-security-module",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:public-key-infrastructure",
+      "type": "glossary",
+      "title": "Public Key Infrastructure",
+      "canonicalUrl": "/glossary/public-key-infrastructure",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:seed-phrase",
+      "type": "glossary",
+      "title": "Seed Phrase",
+      "canonicalUrl": "/glossary/seed-phrase",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:self-sovereign-identity",
+      "type": "glossary",
+      "title": "Self-Sovereign Identity",
+      "canonicalUrl": "/glossary/self-sovereign-identity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:zero-knowledge-proofs",
+      "type": "category",
+      "title": "Zero-Knowledge Proofs",
+      "canonicalUrl": "/categories/zero-knowledge-proofs",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:hardware-security-module": [
+    {
+      "uid": "glossary:cold-storage",
+      "type": "glossary",
+      "title": "Cold Storage",
+      "canonicalUrl": "/glossary/cold-storage",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:cryptography",
+      "type": "category",
+      "title": "Cryptography",
+      "canonicalUrl": "/categories/cryptography",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:custody",
+      "type": "glossary",
+      "title": "Custody",
+      "canonicalUrl": "/glossary/custody",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:digital-signature",
+      "type": "glossary",
+      "title": "Digital Signature",
+      "canonicalUrl": "/glossary/digital-signature",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:multi-party-computation",
+      "type": "glossary",
+      "title": "Multi-Party Computation",
+      "canonicalUrl": "/glossary/multi-party-computation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:private-key",
+      "type": "glossary",
+      "title": "Private Key",
+      "canonicalUrl": "/glossary/private-key",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:over-collateralization": [
+    {
+      "uid": "glossary:collateralization-ratio",
+      "type": "glossary",
+      "title": "Collateralization Ratio",
+      "canonicalUrl": "/glossary/collateralization-ratio",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:defi",
+      "type": "category",
+      "title": "DeFi",
+      "canonicalUrl": "/categories/defi",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidation",
+      "type": "glossary",
+      "title": "Liquidation",
+      "canonicalUrl": "/glossary/liquidation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:smart-contracts",
+      "type": "category",
+      "title": "Smart Contracts",
+      "canonicalUrl": "/categories/smart-contracts",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:stablecoins",
+      "type": "category",
+      "title": "Stablecoins",
+      "canonicalUrl": "/categories/stablecoins",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:p2p-networking": [
+    {
+      "uid": "glossary:consensus-mechanism",
+      "type": "glossary",
+      "title": "Consensus Mechanism",
+      "canonicalUrl": "/glossary/consensus-mechanism",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:decentralization",
+      "type": "glossary",
+      "title": "Decentralization",
+      "canonicalUrl": "/glossary/decentralization",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:distributed-ledger-technology",
+      "type": "glossary",
+      "title": "Distributed Ledger Technology",
+      "canonicalUrl": "/glossary/distributed-ledger-technology",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:gossip-protocol",
+      "type": "glossary",
+      "title": "Gossip Protocol",
+      "canonicalUrl": "/glossary/gossip-protocol",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:node",
+      "type": "glossary",
+      "title": "Node",
+      "canonicalUrl": "/glossary/node",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:public-key-infrastructure",
+      "type": "glossary",
+      "title": "Public Key Infrastructure",
+      "canonicalUrl": "/glossary/public-key-infrastructure",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:sybil-attack",
+      "type": "glossary",
+      "title": "Sybil Attack",
+      "canonicalUrl": "/glossary/sybil-attack",
       "relationship": "term",
       "strength": 1
     }
@@ -216038,6 +216318,75 @@
   "news:why-rising-xrp-whale-counts-are-a-fake-bullish-signal": [],
   "news:bitcoin-rebounds-after-democratic-sweep-despite-three-days-of-etf-outflows": [],
   "news:binance-reports-11-billion-withdrawn-in-46-hours-as-zhao-says-few-funds-went-to-rivals": [],
+  "news:tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty": [],
+  "news:cryptos-washington-hopes-fade-but-grayscale-and-blackrock-see-growth-ahead": [],
+  "news:cryptos-powerhouse-super-pac-suffers-costly-setback-as-democrats-sweep-congress": [],
+  "news:bitmart-founder-says-security-team-severely-understaffed-after-new-hack": [],
+  "news:crypto-pacs-eye-2028-new-map-as-democrats-take-congress": [],
+  "news:how-aussie-bitcoiners-can-avoid-2027s-shock-cgt-hike-part-1": [],
+  "news:trump-linked-tokens-lead-crypto-losses-after-democrats-sweep-in-the-us-midterms": [],
+  "news:riot-shares-surge-on-28b-ai-lease-as-hut-8-sinks-on-revenue-miss": [],
+  "news:circles-arc-token-sale-lifts-earnings-as-lower-yields-weigh-on-usdc-income": [],
+  "news:crypto-market-bounces-back-as-investors-weigh-election-risks": [],
+  "news:crypto-regulation-outlook-shifts-after-democrats-win-congress": [],
+  "news:nvidia-stock-tokens-show-price-spreads-but-slippage-crushes-the-arbitrage": [],
+  "news:pro-crypto-candidates-sweep-241-seats-as-congress-shifts-power": [],
+  "news:aave-and-lido-lose-1-7b-in-massive-defi-capital-drop-after-the-binance-hack": [],
+  "news:kamino-links-most-of-ceos-kmno-vesting-to-valuation-while-holders-have-no-foundation-revenue-claim": [],
+  "news:bitcoin-rockets-above-80-000-for-first-time-since-binance-hack-despite-democrats-sweep-but-a-historical-crash-looms": [],
+  "news:us-stock-perpetuals-win-clearance-but-stock-market-halts-can-still-block-exits": [],
+  "news:trump-media-moves-342-million-in-bitcoin-to-crypto-com-blockchain-data-show": [],
+  "news:lawyer-up-democrats-target-trump-big-tech-after-midterm-sweep": [],
+  "news:india-warns-ai-powered-hackers-targeting-crypto-exchanges-at-machine-speed": [],
+  "news:mercado-bitcoin-says-phased-reopening-to-begin-monday-will-cover-losses": [],
+  "news:hong-kong-forces-crypto-providers-to-track-customer-trades": [],
+  "news:french-bank-resumes-transfers-after-133-million-attack-but-leaves-crypto-loss-unconfirmed": [],
+  "news:weekend-stock-tokens-predict-monday-open-but-guessing-up-scores-55": [],
+  "news:live-updates-bitcoin-steady-around-80-000-as-markets-rally-after-democratic-sweep": [],
+  "news:mercado-bitcoin-hack-continued-hours-after-exchange-said-attack-was-contained-report-finds": [],
+  "news:bitcoin-miner-riot-could-pay-anthropic-12-interest-under-28-billion-ai-deal": [],
+  "news:hong-kong-passes-law-requiring-crypto-exchanges-to-report-customer-transactions-to-tax-authorities": [],
+  "news:openai-says-its-ai-can-break-into-linux-at-scale-heres-what-it-means-for-crypto": [],
+  "news:zcash-is-about-to-freeze-16-million-in-its-oldest-privacy-pool": [],
+  "news:the-pile-of-lawsuits-against-kalshi-just-grew-by-one": [],
+  "news:xrp-ledger-fixes-a-disclosed-bug-that-could-have-led-to-the-creation-of-new-tokens": [],
+  "news:bitcoin-holds-above-80-000-as-zcash-jumps-12-in-post-election-crypto-rebound": [],
+  "news:bitcoin-win-rate-vs-s-p-500-recovers-as-post-midterm-history-favors-stocks": [],
+  "news:south-korea-seeks-4th-crypto-tax-delay-targets-2029-start": [],
+  "news:france-budget-rejection-sidelines-stablecoin-tax-wallet-reporting": [],
+  "news:bitcoin-ether-etfs-draw-128m-as-crypto-rebounds-after-midterms": [],
+  "news:cre-dit-mutuel-arke-a-resumes-operations-after-attack-assesses-losses": [],
+  "news:binance-polymarket-seek-polygon-hard-fork-to-recover-6-8m-in-stolen-crypto": [],
+  "news:crypto-legislation-a-new-opportunity-for-bitcoin": [],
+  "news:bitcoin-price-breakout-faces-a-crucial-test-can-btc-confirm-a-bullish-reversal": [],
+  "news:bitcoin-price-recovery-btc-reclaims-80k-as-election-uncertainty-fades-is-85k-next": [],
+  "news:bitcoin-and-gold-surge-after-us-elections-but-378-million-short-squeeze-casts-doubt-on-debasement-trade": [],
+  "news:ripple-backed-evernorth-faces-73-7-million-share-selling-overhang-after-brutal-stock-market-debut": [],
+  "news:altcoin-profit-share-sinks-to-12-as-short-term-traders-take-losses": [],
+  "news:what-is-tradertraitor-the-hacking-squad-behind-the-6-3-billion-binance-heist": [],
+  "news:standard-chartered-and-sbi-back-crypto-insurer-soter-as-funding-reaches-23-5-million": [],
+  "news:crypto-for-advisors-where-investors-stake-crypto-shapes-how-much-of-the-reward-they-keep": [],
+  "news:gate-ceo-says-crypto-exchanges-must-prove-they-can-survive-a-hack-like-binances": [],
+  "news:kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push": [],
+  "news:google-could-take-stake-in-bitcoin-miner-terawulfs-19-billion-ai-project-if-anthropic-defaults": [],
+  "news:binance-cuts-signalplus-access-after-security-warning-urges-users-to-check-accounts": [],
+  "news:ukraines-central-bank-opposes-crypto-bill-citing-monetary-sovereignty-concerns": [],
+  "news:bitcoin-is-resilient-but-leverage-is-missing-and-demand-still-tepid": [],
+  "news:bitcoin-miners-are-oversold-following-35-october-rout-vaneck-says": [],
+  "news:trump-linked-american-bitcoin-swings-to-126-million-profit-but-misses-revenue-estimates": [],
+  "news:bitcoin-holds-above-80-000-after-wednesdays-jump-as-injective-rallies-on-staked-etf-listing": [],
+  "news:bitcoin-crashes-6-to-7-week-low-as-us-stocks-erase-election-gains": [],
+  "news:blockchain-is-perfect-solution-for-ai-agent-trust-vechain-ceo-says": [],
+  "news:can-decentralized-phone-networks-power-the-ai-revolution": [],
+  "news:trumps-memecoin-ventures-derailed-clarity-act-scaramucci-says": [],
+  "news:thailand-to-block-bitget-in-december-over-unlicensed-crypto-trading": [],
+  "news:thailand-8217-s-sec-moves-to-block-bitget-as-it-files-criminal-complaint": [],
+  "news:bitcoin-mining-stocks-plunge-35-as-vaneck-sees-oversold-opportunity": [],
+  "news:crypto-8217-s-biggest-political-pac-fairshake-faces-stunning-election-setback": [],
+  "news:ripple-backed-evernorth-shares-face-massive-selling-threat": [],
+  "news:south-korea-crypto-tax-delay-could-boost-bitcoin-adoption-until-2029": [],
+  "news:bitcoin-adoption-expands-as-moscow-exchange-prepares-december-trading-launch": [],
+  "news:htx-earn-winter-campaign-enjoy-apy-boosts-on-7-assets-with-a-quota-limit-of-up-to-14-million-per-user": [],
   "newsletter:issue-1-blockchain-foundations": [],
   "newsletter:issue-2-smart-contracts-defi": [],
   "newsletter:issue-3-web3-decentralized-internet": [],

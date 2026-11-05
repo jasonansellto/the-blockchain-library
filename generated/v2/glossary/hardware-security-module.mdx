@@ -1,0 +1,59 @@
+---
+title: "Hardware Security Module"
+description: "A Hardware Security Module (HSM) is a specialized, tamper-resistant physical computing device designed to provide high-assurance cryptographic security for digital assets and sensitive data. HSMs manage the entire lifecycle of cryptographic keys, including generation, storage, us"
+---
+
+# Hardware Security Module
+
+A Hardware Security Module (HSM) is a specialized, tamper-resistant physical computing device designed to provide high-assurance cryptographic security for digital assets and sensitive data. HSMs manage the entire lifecycle of cryptographic keys, including generation, storage, usage, and destruction, within a secure, isolated environment. By enforcing strict access controls and preventing the extraction of private keys from the hardware, HSMs ensure that sensitive operations, such as transaction signing, occur without exposing the underlying cryptographic material to the host operating system or external networks.
+
+## Definition
+
+A Hardware Security Module (HSM) is a specialized, tamper-resistant physical computing device designed to provide high-assurance cryptographic security for digital assets and sensitive data. HSMs manage the entire lifecycle of cryptographic keys, including generation, storage, usage, and destruction, within a secure, isolated environment. By enforcing strict access controls and preventing the extraction of private keys from the hardware, HSMs ensure that sensitive operations, such as transaction signing, occur without exposing the underlying cryptographic material to the host operating system or external networks.
+
+## Simple explanation
+
+Think of an HSM as an incredibly secure, fire-proof, and digital-proof vault for your secret passwords. Even if a hacker breaks into your computer or gains control of your server, they cannot reach inside the vault to steal your keys because the vault is physically locked and won't let anyone copy what is inside. It only performs the math tasks it is told to do, like signing a digital document, without ever showing you the secret code itself.
+
+## Why it matters
+
+In blockchain ecosystems, HSMs are the gold standard for institutional-grade asset security, protecting billions of dollars in crypto-assets. They eliminate single points of failure by ensuring that private keys never exist in an unencrypted state on a vulnerable network-connected server.
+
+## How it works
+
+An HSM acts as a dedicated cryptographic processor that performs operations inside an isolated, tamper-evident hardware boundary. When a transaction request is sent to the device, the HSM performs the digital signature internally using its securely stored key. The private key remains within the device's volatile memory or secure storage, ensuring it can never be exported or accessed by the external host.
+
+## Real-world example
+
+Custodial cryptocurrency exchanges like Coinbase and institutional providers like Fireblocks utilize FIPS 140-2 Level 3 certified HSMs from vendors such as Thales or Ledger Enterprise to manage their cold-storage key infrastructure.
+
+## Advantages
+
+- Eliminates risk of private key exfiltration
+- Provides high-level physical tamper resistance
+- Supports automated regulatory compliance auditing
+- Enables secure high-speed cryptographic signing
+
+## Limitations
+
+- Expensive to purchase and maintain
+- Complex to integrate into existing infrastructure
+- Physical hardware can be a single point of failure
+- Rigid hardware lacks software-level flexibility
+
+## Common misconceptions
+
+- It is a common mistake to believe that an HSM is just a standard encrypted hard drive. In reality, it is a specialized processor that performs complex cryptographic operations rather than just storing files.
+- People often think HSMs are immune to all forms of hacking, but they are only secure if the surrounding operational security protocols are also correctly managed.
+## Related knowledge
+
+- [Cold Storage](/generated/v2/glossary/cold-storage) — term
+- [Cryptography](/categories/cryptography) — term
+- [Custody](/generated/v2/glossary/custody) — term
+- [Digital Signature](/generated/v2/glossary/digital-signature) — term
+- [Multi-Party Computation](/generated/v2/glossary/multi-party-computation) — term
+- [Private Key](/generated/v2/glossary/private-key) — term
+
+---
+
+**Canonical knowledge ID:** `glossary:hardware-security-module`

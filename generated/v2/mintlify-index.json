@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T17:04:21.557Z",
-  "buildId": "1b22aff768aa416e",
+  "generatedAt": "2026-11-05T17:05:45.936Z",
+  "buildId": "7565238b23ceded2",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -6382,6 +6382,42 @@
       "sourceCanonicalUrl": "/glossary/mfa",
       "sourceSlug": "mfa",
       "routeSlug": "mfa"
+    },
+    {
+      "uid": "glossary:biometrics",
+      "type": "glossary",
+      "title": "Biometrics",
+      "path": "generated/v2/glossary/biometrics",
+      "sourceCanonicalUrl": "/glossary/biometrics",
+      "sourceSlug": "biometrics",
+      "routeSlug": "biometrics"
+    },
+    {
+      "uid": "glossary:hardware-security-module",
+      "type": "glossary",
+      "title": "Hardware Security Module",
+      "path": "generated/v2/glossary/hardware-security-module",
+      "sourceCanonicalUrl": "/glossary/hardware-security-module",
+      "sourceSlug": "hardware-security-module",
+      "routeSlug": "hardware-security-module"
+    },
+    {
+      "uid": "glossary:over-collateralization",
+      "type": "glossary",
+      "title": "Over-collateralization",
+      "path": "generated/v2/glossary/over-collateralization",
+      "sourceCanonicalUrl": "/glossary/over-collateralization",
+      "sourceSlug": "over-collateralization",
+      "routeSlug": "over-collateralization"
+    },
+    {
+      "uid": "glossary:p2p-networking",
+      "type": "glossary",
+      "title": "P2P networking",
+      "path": "generated/v2/glossary/p2p-networking",
+      "sourceCanonicalUrl": "/glossary/p2p-networking",
+      "sourceSlug": "p2p-networking",
+      "routeSlug": "p2p-networking"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",

@@ -1,7 +1,7 @@
 {
-  "buildId": "1b22aff768aa416e",
+  "buildId": "7565238b23ceded2",
   "sourceCounts": {
-    "glossary": 726,
+    "glossary": 730,
     "articles": 730,
     "books": 98,
     "research": 294,
@@ -11,11 +11,11 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 6580,
+    "news": 6649,
     "newsletters": 22
   },
   "canonicalCounts": {
-    "glossary": 709,
+    "glossary": 713,
     "articles": 730,
     "books": 98,
     "research": 294,
@@ -25,22 +25,22 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 6550,
+    "news": 6619,
     "newsletters": 22
   },
   "quality": {
-    "rawObjects": 8889,
-    "canonicalObjects": 8840,
+    "rawObjects": 8962,
+    "canonicalObjects": 8913,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 49,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25670,
-    "unresolvedRelationships": 442,
-    "uniqueMissingConcepts": 396,
+    "totalEdges": 25704,
+    "unresolvedRelationships": 439,
+    "uniqueMissingConcepts": 395,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 6733,
-    "missingTags": 994,
+    "missingSeoDescription": 6802,
+    "missingTags": 998,
     "uncategorized": 427
   },
   "exactDuplicateRows": [],
@@ -3985,20 +3985,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6a4e3bc2330bb088fbfa2032",
-        "slug": "wallet-security",
-        "title": "Wallet Security"
-      },
-      "target": {
-        "id": "Hardware Security Module",
-        "label": "Hardware Security Module"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6a4e3bd31feed140df9fcc47",
         "slug": "yield-farming",
         "title": "Yield Farming"
@@ -5231,20 +5217,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6ae4b47a63dc426a15cc2671",
-        "slug": "gossip-protocol",
-        "title": "Gossip Protocol"
-      },
-      "target": {
-        "id": "P2P networking",
-        "label": "P2P networking"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6ae4b47a63dc426a15cc2672",
         "slug": "hashgraph",
         "title": "Hashgraph"
@@ -5308,20 +5280,6 @@
       "target": {
         "id": "Margin Call",
         "label": "Margin Call"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6ae4b48392e8abad3a3d645f",
-        "slug": "ltv-ratio",
-        "title": "LTV Ratio"
-      },
-      "target": {
-        "id": "Over-collateralization",
-        "label": "Over-collateralization"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -6272,20 +6230,6 @@
         "title": "Two-Factor Authentication"
       },
       "target": {
-        "id": "Biometrics",
-        "label": "Biometrics"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6ae8b79ef5a3c14b86d426a2",
-        "slug": "two-factor-authentication",
-        "title": "Two-Factor Authentication"
-      },
-      "target": {
         "id": "Hardware Security Key",
         "label": "Hardware Security Key"
       },
@@ -6547,20 +6491,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6aeb59b0a0fa2ac94ccae1c1",
-        "slug": "collateralization-ratio",
-        "title": "Collateralization Ratio"
-      },
-      "target": {
-        "id": "Over-collateralization",
-        "label": "Over-collateralization"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6aeb59b43a11d509f3af5bac",
         "slug": "collision-resistance",
         "title": "Collision Resistance"
@@ -6610,20 +6540,6 @@
       "target": {
         "id": "Pre-image Resistance",
         "label": "Pre-image Resistance"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6aeb59bbcc47fc9ecb617ecd",
-        "slug": "handshake-protocol",
-        "title": "Handshake Protocol"
-      },
-      "target": {
-        "id": "P2P Networking",
-        "label": "P2P Networking"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -6706,36 +6622,78 @@
         "title": "MFA"
       },
       "target": {
-        "id": "Biometrics",
-        "label": "Biometrics"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6aeb59bbcc47fc9ecb617ecf",
-        "slug": "mfa",
-        "title": "MFA"
-      },
-      "target": {
-        "id": "Hardware Security Module",
-        "label": "Hardware Security Module"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6aeb59bbcc47fc9ecb617ecf",
-        "slug": "mfa",
-        "title": "MFA"
-      },
-      "target": {
         "id": "Password Security",
         "label": "Password Security"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aecab3795df42c9722fae2c",
+        "slug": "biometrics",
+        "title": "Biometrics"
+      },
+      "target": {
+        "id": "Multi-Factor Authentication",
+        "label": "Multi-Factor Authentication"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aecab3ca2f5942a7e1c4441",
+        "slug": "hardware-security-module",
+        "title": "Hardware Security Module"
+      },
+      "target": {
+        "id": "FIPS 140-2",
+        "label": "FIPS 140-2"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aecab40631ad052d51557d7",
+        "slug": "over-collateralization",
+        "title": "Over-collateralization"
+      },
+      "target": {
+        "id": "Capital Efficiency",
+        "label": "Capital Efficiency"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aecab40631ad052d51557d7",
+        "slug": "over-collateralization",
+        "title": "Over-collateralization"
+      },
+      "target": {
+        "id": "Lending Protocols",
+        "label": "Lending Protocols"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aecab40631ad052d51557d7",
+        "slug": "over-collateralization",
+        "title": "Over-collateralization"
+      },
+      "target": {
+        "id": "MakerDAO",
+        "label": "MakerDAO"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -7339,8 +7297,8 @@
       ]
     },
     {
-      "key": "biometrics",
-      "label": "Biometrics",
+      "key": "capital-efficiency",
+      "label": "Capital Efficiency",
       "count": 2,
       "relationshipTypes": [
         "term"
@@ -7349,25 +7307,25 @@
         {
           "source": {
             "type": "glossary",
-            "id": "6ae8b79ef5a3c14b86d426a2",
-            "slug": "two-factor-authentication",
-            "title": "Two-Factor Authentication"
+            "id": "6a4e3a63043258f78e08e483",
+            "slug": "synthetic-dollar",
+            "title": "Synthetic Dollar"
           },
           "target": {
-            "id": "Biometrics",
-            "label": "Biometrics"
+            "id": "Capital Efficiency",
+            "label": "Capital Efficiency"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6aeb59bbcc47fc9ecb617ecf",
-            "slug": "mfa",
-            "title": "MFA"
+            "id": "6aecab40631ad052d51557d7",
+            "slug": "over-collateralization",
+            "title": "Over-collateralization"
           },
           "target": {
-            "id": "Biometrics",
-            "label": "Biometrics"
+            "id": "Capital Efficiency",
+            "label": "Capital Efficiency"
           }
         }
       ]
@@ -7407,59 +7365,13 @@
       ]
     },
     {
-      "key": "hardware-security-module",
-      "label": "Hardware Security Module",
+      "key": "makerdao",
+      "label": "MakerDAO",
       "count": 2,
       "relationshipTypes": [
         "term"
       ],
       "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3bc2330bb088fbfa2032",
-            "slug": "wallet-security",
-            "title": "Wallet Security"
-          },
-          "target": {
-            "id": "Hardware Security Module",
-            "label": "Hardware Security Module"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6aeb59bbcc47fc9ecb617ecf",
-            "slug": "mfa",
-            "title": "MFA"
-          },
-          "target": {
-            "id": "Hardware Security Module",
-            "label": "Hardware Security Module"
-          }
-        }
-      ]
-    },
-    {
-      "key": "over-collateralization",
-      "label": "Over-collateralization",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ae4b48392e8abad3a3d645f",
-            "slug": "ltv-ratio",
-            "title": "LTV Ratio"
-          },
-          "target": {
-            "id": "Over-collateralization",
-            "label": "Over-collateralization"
-          }
-        },
         {
           "source": {
             "type": "glossary",
@@ -7468,42 +7380,20 @@
             "title": "Collateralization Ratio"
           },
           "target": {
-            "id": "Over-collateralization",
-            "label": "Over-collateralization"
-          }
-        }
-      ]
-    },
-    {
-      "key": "p2p-networking",
-      "label": "P2P networking",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ae4b47a63dc426a15cc2671",
-            "slug": "gossip-protocol",
-            "title": "Gossip Protocol"
-          },
-          "target": {
-            "id": "P2P networking",
-            "label": "P2P networking"
+            "id": "MakerDAO",
+            "label": "MakerDAO"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6aeb59bbcc47fc9ecb617ecd",
-            "slug": "handshake-protocol",
-            "title": "Handshake Protocol"
+            "id": "6aecab40631ad052d51557d7",
+            "slug": "over-collateralization",
+            "title": "Over-collateralization"
           },
           "target": {
-            "id": "P2P Networking",
-            "label": "P2P Networking"
+            "id": "MakerDAO",
+            "label": "MakerDAO"
           }
         }
       ]
@@ -8567,28 +8457,6 @@
       ]
     },
     {
-      "key": "capital-efficiency",
-      "label": "Capital Efficiency",
-      "count": 1,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a63043258f78e08e483",
-            "slug": "synthetic-dollar",
-            "title": "Synthetic Dollar"
-          },
-          "target": {
-            "id": "Capital Efficiency",
-            "label": "Capital Efficiency"
-          }
-        }
-      ]
-    },
-    {
       "key": "capital-utilization",
       "label": "Capital Utilization",
       "count": 1,
@@ -9398,6 +9266,72 @@
           "target": {
             "id": "Data Pipelines",
             "label": "Data Pipelines"
+          }
+        }
+      ]
+    },
+    {
+      "key": "data-privacy",
+      "label": "Data Privacy",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3a66ffc74e4f58a3cf02",
+            "slug": "aes-encryption",
+            "title": "AES Encryption"
+          },
+          "target": {
+            "id": "Data Privacy",
+            "label": "Data Privacy"
+          }
+        }
+      ]
+    },
+    {
+      "key": "data-sovereignty",
+      "label": "Data Sovereignty",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3b8cd23140898a0f02dc",
+            "slug": "federated-learning",
+            "title": "Federated Learning"
+          },
+          "target": {
+            "id": "Data Sovereignty",
+            "label": "Data Sovereignty"
+          }
+        }
+      ]
+    },
+    {
+      "key": "data-structure",
+      "label": "Data Structure",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3b15089cdb130fd95f19",
+            "slug": "merkle-tree",
+            "title": "Merkle Tree"
+          },
+          "target": {
+            "id": "Data Structure",
+            "label": "Data Structure"
           }
         }
       ]
