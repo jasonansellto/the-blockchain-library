@@ -1,7 +1,7 @@
 {
-  "buildId": "7565238b23ceded2",
+  "buildId": "0e2327dcfb0f12ab",
   "sourceCounts": {
-    "glossary": 730,
+    "glossary": 732,
     "articles": 730,
     "books": 98,
     "research": 294,
@@ -11,11 +11,11 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 6649,
+    "news": 6691,
     "newsletters": 22
   },
   "canonicalCounts": {
-    "glossary": 713,
+    "glossary": 715,
     "articles": 730,
     "books": 98,
     "research": 294,
@@ -25,22 +25,22 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 6619,
+    "news": 6661,
     "newsletters": 22
   },
   "quality": {
-    "rawObjects": 8962,
-    "canonicalObjects": 8913,
+    "rawObjects": 9006,
+    "canonicalObjects": 8957,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 49,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25704,
+    "totalEdges": 25730,
     "unresolvedRelationships": 439,
     "uniqueMissingConcepts": 395,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 6802,
-    "missingTags": 998,
+    "missingSeoDescription": 6844,
+    "missingTags": 1000,
     "uncategorized": 427
   },
   "exactDuplicateRows": [],
@@ -1080,20 +1080,6 @@
       "target": {
         "id": "Basis Trade",
         "label": "Basis Trade"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a63043258f78e08e483",
-        "slug": "synthetic-dollar",
-        "title": "Synthetic Dollar"
-      },
-      "target": {
-        "id": "Capital Efficiency",
-        "label": "Capital Efficiency"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -6477,20 +6463,6 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6aeb59b0a0fa2ac94ccae1c1",
-        "slug": "collateralization-ratio",
-        "title": "Collateralization Ratio"
-      },
-      "target": {
-        "id": "MakerDAO",
-        "label": "MakerDAO"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
         "id": "6aeb59b43a11d509f3af5bac",
         "slug": "collision-resistance",
         "title": "Collision Resistance"
@@ -6664,20 +6636,6 @@
         "title": "Over-collateralization"
       },
       "target": {
-        "id": "Capital Efficiency",
-        "label": "Capital Efficiency"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6aecab40631ad052d51557d7",
-        "slug": "over-collateralization",
-        "title": "Over-collateralization"
-      },
-      "target": {
         "id": "Lending Protocols",
         "label": "Lending Protocols"
       },
@@ -6687,13 +6645,55 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6aecab40631ad052d51557d7",
-        "slug": "over-collateralization",
-        "title": "Over-collateralization"
+        "id": "6aedfca51597309923f0651c",
+        "slug": "capital-efficiency",
+        "title": "Capital Efficiency"
       },
       "target": {
-        "id": "MakerDAO",
-        "label": "MakerDAO"
+        "id": "Collateralization",
+        "label": "Collateralization"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aedfca51597309923f0651c",
+        "slug": "capital-efficiency",
+        "title": "Capital Efficiency"
+      },
+      "target": {
+        "id": "Total Value Locked",
+        "label": "Total Value Locked"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aedfca51597309923f0651d",
+        "slug": "makerdao",
+        "title": "MakerDAO"
+      },
+      "target": {
+        "id": "DAI",
+        "label": "DAI"
+      },
+      "relationshipType": "term",
+      "missing": "target"
+    },
+    {
+      "source": {
+        "type": "glossary",
+        "id": "6aedfca51597309923f0651d",
+        "slug": "makerdao",
+        "title": "MakerDAO"
+      },
+      "target": {
+        "id": "MKR",
+        "label": "MKR"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -7297,8 +7297,8 @@
       ]
     },
     {
-      "key": "capital-efficiency",
-      "label": "Capital Efficiency",
+      "key": "collateralization",
+      "label": "Collateralization",
       "count": 2,
       "relationshipTypes": [
         "term"
@@ -7307,25 +7307,59 @@
         {
           "source": {
             "type": "glossary",
-            "id": "6a4e3a63043258f78e08e483",
-            "slug": "synthetic-dollar",
-            "title": "Synthetic Dollar"
+            "id": "6ae3636e1ea012f539d4fdce",
+            "slug": "derivatives",
+            "title": "Derivatives"
           },
           "target": {
-            "id": "Capital Efficiency",
-            "label": "Capital Efficiency"
+            "id": "Collateralization",
+            "label": "Collateralization"
           }
         },
         {
           "source": {
             "type": "glossary",
-            "id": "6aecab40631ad052d51557d7",
-            "slug": "over-collateralization",
-            "title": "Over-collateralization"
+            "id": "6aedfca51597309923f0651c",
+            "slug": "capital-efficiency",
+            "title": "Capital Efficiency"
           },
           "target": {
-            "id": "Capital Efficiency",
-            "label": "Capital Efficiency"
+            "id": "Collateralization",
+            "label": "Collateralization"
+          }
+        }
+      ]
+    },
+    {
+      "key": "dai",
+      "label": "DAI",
+      "count": 2,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3a8ea74addcc8ec97b26",
+            "slug": "stablecoin",
+            "title": "Stablecoin"
+          },
+          "target": {
+            "id": "DAI",
+            "label": "DAI"
+          }
+        },
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6aedfca51597309923f0651d",
+            "slug": "makerdao",
+            "title": "MakerDAO"
+          },
+          "target": {
+            "id": "DAI",
+            "label": "DAI"
           }
         }
       ]
@@ -7360,40 +7394,6 @@
           "target": {
             "id": "Decentralized Identifiers",
             "label": "Decentralized Identifiers"
-          }
-        }
-      ]
-    },
-    {
-      "key": "makerdao",
-      "label": "MakerDAO",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6aeb59b0a0fa2ac94ccae1c1",
-            "slug": "collateralization-ratio",
-            "title": "Collateralization Ratio"
-          },
-          "target": {
-            "id": "MakerDAO",
-            "label": "MakerDAO"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6aecab40631ad052d51557d7",
-            "slug": "over-collateralization",
-            "title": "Over-collateralization"
-          },
-          "target": {
-            "id": "MakerDAO",
-            "label": "MakerDAO"
           }
         }
       ]
@@ -8633,28 +8633,6 @@
       ]
     },
     {
-      "key": "collateralization",
-      "label": "Collateralization",
-      "count": 1,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ae3636e1ea012f539d4fdce",
-            "slug": "derivatives",
-            "title": "Derivatives"
-          },
-          "target": {
-            "id": "Collateralization",
-            "label": "Collateralization"
-          }
-        }
-      ]
-    },
-    {
       "key": "collator",
       "label": "Collator",
       "count": 1,
@@ -9183,28 +9161,6 @@
       ]
     },
     {
-      "key": "dai",
-      "label": "DAI",
-      "count": 1,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a8ea74addcc8ec97b26",
-            "slug": "stablecoin",
-            "title": "Stablecoin"
-          },
-          "target": {
-            "id": "DAI",
-            "label": "DAI"
-          }
-        }
-      ]
-    },
-    {
       "key": "data-feed",
       "label": "Data Feed",
       "count": 1,
@@ -9332,6 +9288,50 @@
           "target": {
             "id": "Data Structure",
             "label": "Data Structure"
+          }
+        }
+      ]
+    },
+    {
+      "key": "de-pegging",
+      "label": "De-pegging",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3a63043258f78e08e482",
+            "slug": "stablecoin-peg",
+            "title": "Stablecoin Peg"
+          },
+          "target": {
+            "id": "De-pegging",
+            "label": "De-pegging"
+          }
+        }
+      ]
+    },
+    {
+      "key": "debt-markets",
+      "label": "Debt Markets",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6a4e3ba5819dd9b9d3e0d183",
+            "slug": "tokenized-bonds",
+            "title": "Tokenized Bonds"
+          },
+          "target": {
+            "id": "Debt Markets",
+            "label": "Debt Markets"
           }
         }
       ]

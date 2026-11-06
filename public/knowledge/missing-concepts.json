@@ -568,8 +568,8 @@
     ]
   },
   {
-    "key": "capital-efficiency",
-    "label": "Capital Efficiency",
+    "key": "collateralization",
+    "label": "Collateralization",
     "count": 2,
     "relationshipTypes": [
       "term"
@@ -578,25 +578,59 @@
       {
         "source": {
           "type": "glossary",
-          "id": "6a4e3a63043258f78e08e483",
-          "slug": "synthetic-dollar",
-          "title": "Synthetic Dollar"
+          "id": "6ae3636e1ea012f539d4fdce",
+          "slug": "derivatives",
+          "title": "Derivatives"
         },
         "target": {
-          "id": "Capital Efficiency",
-          "label": "Capital Efficiency"
+          "id": "Collateralization",
+          "label": "Collateralization"
         }
       },
       {
         "source": {
           "type": "glossary",
-          "id": "6aecab40631ad052d51557d7",
-          "slug": "over-collateralization",
-          "title": "Over-collateralization"
+          "id": "6aedfca51597309923f0651c",
+          "slug": "capital-efficiency",
+          "title": "Capital Efficiency"
         },
         "target": {
-          "id": "Capital Efficiency",
-          "label": "Capital Efficiency"
+          "id": "Collateralization",
+          "label": "Collateralization"
+        }
+      }
+    ]
+  },
+  {
+    "key": "dai",
+    "label": "DAI",
+    "count": 2,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6a4e3a8ea74addcc8ec97b26",
+          "slug": "stablecoin",
+          "title": "Stablecoin"
+        },
+        "target": {
+          "id": "DAI",
+          "label": "DAI"
+        }
+      },
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aedfca51597309923f0651d",
+          "slug": "makerdao",
+          "title": "MakerDAO"
+        },
+        "target": {
+          "id": "DAI",
+          "label": "DAI"
         }
       }
     ]
@@ -631,40 +665,6 @@
         "target": {
           "id": "Decentralized Identifiers",
           "label": "Decentralized Identifiers"
-        }
-      }
-    ]
-  },
-  {
-    "key": "makerdao",
-    "label": "MakerDAO",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6aeb59b0a0fa2ac94ccae1c1",
-          "slug": "collateralization-ratio",
-          "title": "Collateralization Ratio"
-        },
-        "target": {
-          "id": "MakerDAO",
-          "label": "MakerDAO"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6aecab40631ad052d51557d7",
-          "slug": "over-collateralization",
-          "title": "Over-collateralization"
-        },
-        "target": {
-          "id": "MakerDAO",
-          "label": "MakerDAO"
         }
       }
     ]
@@ -1904,28 +1904,6 @@
     ]
   },
   {
-    "key": "collateralization",
-    "label": "Collateralization",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae3636e1ea012f539d4fdce",
-          "slug": "derivatives",
-          "title": "Derivatives"
-        },
-        "target": {
-          "id": "Collateralization",
-          "label": "Collateralization"
-        }
-      }
-    ]
-  },
-  {
     "key": "collator",
     "label": "Collator",
     "count": 1,
@@ -2449,28 +2427,6 @@
         "target": {
           "id": "Custodian",
           "label": "Custodian"
-        }
-      }
-    ]
-  },
-  {
-    "key": "dai",
-    "label": "DAI",
-    "count": 1,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8ea74addcc8ec97b26",
-          "slug": "stablecoin",
-          "title": "Stablecoin"
-        },
-        "target": {
-          "id": "DAI",
-          "label": "DAI"
         }
       }
     ]
@@ -5402,6 +5358,28 @@
     ]
   },
   {
+    "key": "mkr",
+    "label": "MKR",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aedfca51597309923f0651d",
+          "slug": "makerdao",
+          "title": "MakerDAO"
+        },
+        "target": {
+          "id": "MKR",
+          "label": "MKR"
+        }
+      }
+    ]
+  },
+  {
     "key": "modularity",
     "label": "Modularity",
     "count": 1,
@@ -8103,6 +8081,28 @@
         "target": {
           "id": "Token-gated",
           "label": "Token-gated"
+        }
+      }
+    ]
+  },
+  {
+    "key": "total-value-locked",
+    "label": "Total Value Locked",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aedfca51597309923f0651c",
+          "slug": "capital-efficiency",
+          "title": "Capital Efficiency"
+        },
+        "target": {
+          "id": "Total Value Locked",
+          "label": "Total Value Locked"
         }
       }
     ]

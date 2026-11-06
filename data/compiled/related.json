@@ -2482,6 +2482,14 @@
   ],
   "glossary:synthetic-dollar": [
     {
+      "uid": "glossary:capital-efficiency",
+      "type": "glossary",
+      "title": "Capital Efficiency",
+      "canonicalUrl": "/glossary/capital-efficiency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "category:defi",
       "type": "category",
       "title": "DeFi",
@@ -51163,6 +51171,14 @@
       "strength": 1
     },
     {
+      "uid": "glossary:makerdao",
+      "type": "glossary",
+      "title": "MakerDAO",
+      "canonicalUrl": "/glossary/makerdao",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:oracle",
       "type": "glossary",
       "title": "Oracle",
@@ -51365,11 +51381,43 @@
   ],
   "glossary:biometrics": [
     {
+      "uid": "topic:building-the-user-friendly-web3-bridging-ux-and-decentralization",
+      "type": "topic",
+      "title": "Building the User-Friendly Web3: Bridging UX and Decentralization",
+      "canonicalUrl": "/topics/building-the-user-friendly-web3-bridging-ux-and-decentralization",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:building-the-user-friendly-web3-bridging-ux-and-decentralization",
+      "type": "topic",
+      "title": "Building the User-Friendly Web3: Bridging UX and Decentralization",
+      "canonicalUrl": "/topics/building-the-user-friendly-web3-bridging-ux-and-decentralization",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "category:digital-identity",
       "type": "category",
       "title": "Digital Identity",
       "canonicalUrl": "/categories/digital-identity",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:digital-identity-in-2026-the-end-of-passwords-and-the-rise-of-ssi",
+      "type": "topic",
+      "title": "Digital Identity in 2026: The End of Passwords and the Rise of SSI",
+      "canonicalUrl": "/topics/digital-identity-in-2026-the-end-of-passwords-and-the-rise-of-ssi",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:digital-identity-in-2026-the-end-of-passwords-and-the-rise-of-ssi",
+      "type": "topic",
+      "title": "Digital Identity in 2026: The End of Passwords and the Rise of SSI",
+      "canonicalUrl": "/topics/digital-identity-in-2026-the-end-of-passwords-and-the-rise-of-ssi",
+      "relationship": "related-article",
       "strength": 1
     },
     {
@@ -51402,6 +51450,38 @@
       "title": "Self-Sovereign Identity",
       "canonicalUrl": "/glossary/self-sovereign-identity",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:web3-wallets-explained-how-to-choose-the-right-one-for-your-needs",
+      "type": "topic",
+      "title": "Web3 Wallets Explained: How to Choose the Right One for Your Needs",
+      "canonicalUrl": "/topics/web3-wallets-explained-how-to-choose-the-right-one-for-your-needs",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:web3-wallets-explained-how-to-choose-the-right-one-for-your-needs",
+      "type": "topic",
+      "title": "Web3 Wallets Explained: How to Choose the Right One for Your Needs",
+      "canonicalUrl": "/topics/web3-wallets-explained-how-to-choose-the-right-one-for-your-needs",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-web3-looks-like-when-wallets-become-invisible",
+      "type": "topic",
+      "title": "What Web3 Looks Like When Wallets Become Invisible",
+      "canonicalUrl": "/topics/what-web3-looks-like-when-wallets-become-invisible",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:what-web3-looks-like-when-wallets-become-invisible",
+      "type": "topic",
+      "title": "What Web3 Looks Like When Wallets Become Invisible",
+      "canonicalUrl": "/topics/what-web3-looks-like-when-wallets-become-invisible",
+      "relationship": "related-article",
       "strength": 1
     },
     {
@@ -51465,6 +51545,14 @@
   ],
   "glossary:over-collateralization": [
     {
+      "uid": "glossary:capital-efficiency",
+      "type": "glossary",
+      "title": "Capital Efficiency",
+      "canonicalUrl": "/glossary/capital-efficiency",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
       "uid": "glossary:collateralization-ratio",
       "type": "glossary",
       "title": "Collateralization Ratio",
@@ -51481,10 +51569,34 @@
       "strength": 1
     },
     {
+      "uid": "topic:how-to-earn-passive-income-with-crypto-in-2025-staking-lending-and-yield-farming",
+      "type": "topic",
+      "title": "How to Earn Passive Income with Crypto in 2025: Staking, Lending, and Yield Farming",
+      "canonicalUrl": "/topics/how-to-earn-passive-income-with-crypto-in-2025-staking-lending-and-yield-farming",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-to-earn-passive-income-with-crypto-in-2025-staking-lending-and-yield-farming",
+      "type": "topic",
+      "title": "How to Earn Passive Income with Crypto in 2025: Staking, Lending, and Yield Farming",
+      "canonicalUrl": "/topics/how-to-earn-passive-income-with-crypto-in-2025-staking-lending-and-yield-farming",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:liquidation",
       "type": "glossary",
       "title": "Liquidation",
       "canonicalUrl": "/glossary/liquidation",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:makerdao",
+      "type": "glossary",
+      "title": "MakerDAO",
+      "canonicalUrl": "/glossary/makerdao",
       "relationship": "term",
       "strength": 1
     },
@@ -51502,6 +51614,22 @@
       "title": "Stablecoins",
       "canonicalUrl": "/categories/stablecoins",
       "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-future-of-stablecoins-key-trends-and-risks-in-2025",
+      "type": "topic",
+      "title": "The Future of Stablecoins: Key Trends and Risks in 2025",
+      "canonicalUrl": "/topics/the-future-of-stablecoins-key-trends-and-risks-in-2025",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:the-future-of-stablecoins-key-trends-and-risks-in-2025",
+      "type": "topic",
+      "title": "The Future of Stablecoins: Key Trends and Risks in 2025",
+      "canonicalUrl": "/topics/the-future-of-stablecoins-key-trends-and-risks-in-2025",
+      "relationship": "related-article",
       "strength": 1
     }
   ],
@@ -51559,6 +51687,90 @@
       "type": "glossary",
       "title": "Sybil Attack",
       "canonicalUrl": "/glossary/sybil-attack",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:capital-efficiency": [
+    {
+      "uid": "glossary:automated-market-maker",
+      "type": "glossary",
+      "title": "Automated Market Maker",
+      "canonicalUrl": "/glossary/automated-market-maker",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:defi",
+      "type": "category",
+      "title": "DeFi",
+      "canonicalUrl": "/categories/defi",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:impermanent-loss",
+      "type": "glossary",
+      "title": "Impermanent Loss",
+      "canonicalUrl": "/glossary/impermanent-loss",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:liquidity",
+      "type": "glossary",
+      "title": "Liquidity",
+      "canonicalUrl": "/glossary/liquidity",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:yield-farming",
+      "type": "glossary",
+      "title": "Yield Farming",
+      "canonicalUrl": "/glossary/yield-farming",
+      "relationship": "term",
+      "strength": 1
+    }
+  ],
+  "glossary:makerdao": [
+    {
+      "uid": "category:defi",
+      "type": "category",
+      "title": "DeFi",
+      "canonicalUrl": "/categories/defi",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:governance-token",
+      "type": "glossary",
+      "title": "Governance Token",
+      "canonicalUrl": "/glossary/governance-token",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:over-collateralization",
+      "type": "glossary",
+      "title": "Over-collateralization",
+      "canonicalUrl": "/glossary/over-collateralization",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "category:smart-contracts",
+      "type": "category",
+      "title": "Smart Contracts",
+      "canonicalUrl": "/categories/smart-contracts",
+      "relationship": "term",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:stablecoin",
+      "type": "glossary",
+      "title": "Stablecoin",
+      "canonicalUrl": "/glossary/stablecoin",
       "relationship": "term",
       "strength": 1
     }
@@ -216387,6 +216599,48 @@
   "news:south-korea-crypto-tax-delay-could-boost-bitcoin-adoption-until-2029": [],
   "news:bitcoin-adoption-expands-as-moscow-exchange-prepares-december-trading-launch": [],
   "news:htx-earn-winter-campaign-enjoy-apy-boosts-on-7-assets-with-a-quota-limit-of-up-to-14-million-per-user": [],
+  "news:u-s-justice-department-assembles-force-to-shield-against-foreign-ai-threats": [],
+  "news:bitcion-tumbles-to-76-000-as-collapsing-ai-trade-drags-stocks-sharply-lower": [],
+  "news:american-bitcoins-126m-profit-masks-mining-pressure-as-rivals-turn-to-ai": [],
+  "news:asian-crypto-exchanges-batten-down-the-hatches-as-hacks-surge-asia-express": [],
+  "news:crypto-ally-french-hill-wins-reelection-but-set-to-lose-house-chair": [],
+  "news:binance-deribit-revoke-signalplus-api-keys-after-fake-teams-invite-attack": [],
+  "news:fed-occ-check-us-banks-after-binance-hack-as-experts-flag-security-risks": [],
+  "news:europes-largest-asset-manager-amundi-tokenizes-equity-index-fund-on-ethereum": [],
+  "news:paraguay-president-resigns-after-collapse-of-ueno-digital-bank": [],
+  "news:trump-crypto-tokens-crash-as-democrats-take-control-of-congress": [],
+  "news:gate-pioneers-proof-of-security-posec-achieving-104-58-cold-storage-coverage-to-solidify-asset-security": [],
+  "news:solana-developers-propose-major-overhaul-to-address-hidden-risk-that-could-disrupt-its-network": [],
+  "news:bitcoin-traders-face-friday-8217-s-2-7-billion-options-expiry-with-a-dangerous-five-hour-blind-spot": [],
+  "news:south-korea-wants-to-delay-its-22-crypto-tax-again-and-give-investors-a-new-break-on-losses": [],
+  "news:bitcoin-crashes-below-76-000-as-ai-bubble-fears-wipe-2-5-trillion-from-wall-street": [],
+  "news:strategys-100-strc-comeback-could-turn-a-cash-drain-into-fresh-bitcoin-buying-power": [],
+  "news:india-warns-ai-assisted-hackers-are-stealing-crypto-wallet-keys": [],
+  "news:circle-8217-s-182-million-crypto-token-sale-masks-revenue-decline-as-usdc-business-weakens": [],
+  "news:treasurys-cash-plan-points-to-a-possible-december-liquidity-window-for-bitcoin": [],
+  "news:bitcoin-etfs-take-in-75-million-as-fidelity-inflows-outweigh-blackrock-withdrawals": [],
+  "news:riot-8217-s-28-billion-ai-lease-gives-anthropic-a-veto-on-voluntary-power-cuts": [],
+  "news:hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform": [],
+  "news:bitcoin-developer-proposes-landmines-to-make-quantum-thieves-lose-their-own-btc": [],
+  "news:core-scientific-to-quit-bitcoin-mining-by-year-end-as-ai-business-surges": [],
+  "news:unpatched-bitcoin-lightning-nodes-face-channel-draining-bug": [],
+  "news:optimism-new-proposal-weakens-council-power-over-standalone-chains": [],
+  "news:gate-boasts-104-cold-reserve-coverage-but-separate-snapshot-dates-raise-red-flags": [],
+  "news:treasury-bought-back-6b-in-bonds-but-dealers-say-bigger-isn-8217-t-enough": [],
+  "news:bitcoin-recovers-76-000-level-as-etfs-shed-430-million-after-tech-rout": [],
+  "news:greece-approves-10-tax-on-crypto-gains-and-15-levy-on-defi-income": [],
+  "news:trump-backed-world-liberty-financial-plans-token-buyback-after-66-year-to-date-slide": [],
+  "news:zcashs-landmark-nu7-upgrade-goes-live-speeding-up-private-payments": [],
+  "news:gopax-halts-crypto-trading-withdrawals-to-move-all-assets-to-cold-storage": [],
+  "news:binances-6-3b-hack-leaves-questions-over-hot-wallet-safeguards": [],
+  "news:zcash-nu7-upgrade-goes-live-leaves-12-224-zec-stranded-in-sprout-pool": [],
+  "news:hyperliquid-strategies-seeks-futures-registration-for-perps": [],
+  "news:bitcoin-ether-etfs-post-530m-outflows-as-election-gains-evaporate": [],
+  "news:chainalysis-says-breach-exposed-password-hashes-and-live-tokens": [],
+  "news:crypto-exchanges-tout-cold-storage-ratios-after-binance-attack": [],
+  "news:jpmorgan-8217-s-blockchain-push-could-be-good-news-for-bitcoin": [],
+  "news:bitcoin-price-recovery-why-btc-could-rally-again-soon": [],
+  "news:stockfi-connecting-u-s-stock-with-the-on-chain-ecosystem-to-reshape-asset-circulation": [],
   "newsletter:issue-1-blockchain-foundations": [],
   "newsletter:issue-2-smart-contracts-defi": [],
   "newsletter:issue-3-web3-decentralized-internet": [],
