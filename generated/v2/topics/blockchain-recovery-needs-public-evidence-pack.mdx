@@ -1,0 +1,75 @@
+---
+title: "Blockchain Recovery Needs a Public Evidence Pack, Not a Victory Lap"
+description: "Liquid’s recovery shows why reserve proof, exit status, patch scope, audit scope and governance changes should be published as separate evidence."
+---
+
+# Blockchain Recovery Needs a Public Evidence Pack, Not a Victory Lap
+
+Liquid’s recovery shows why reserve proof, exit status, patch scope, audit scope and governance changes should be published as separate evidence.
+
+<p><strong>Opinion.</strong> <strong>Thesis:</strong> when a blockchain network says it has recovered from a serious security incident, the standard should be a public evidence pack—not a victory lap. Builders, businesses and users need to see reserve status, exit functionality, patch scope, audit scope and governance changes as separate, verifiable facts.</p>
+
+<p>That distinction matters after the Liquid Network’s September 6 incident. Blockstream’s <a href="https://blog.blockstream.com/liquid-network-security-incident-assessment/">September 23 technical assessment</a> says an attacker exploited a flaw in Elements’ rangeproof verification cache, created roughly 4,000 unbacked LBTC and used the peg-out process to withdraw about 4,000 BTC. The report says about 3,400 BTC was returned the next day, while approximately 602 BTC remained outstanding at the time. This was not a cosmetic outage. It broke the central promise that each LBTC was backed one-for-one by bitcoin.</p>
+
+<h2>Recovery is several claims, not one</h2>
+
+<p>On November 5, Blockstream said the Liquid peg and one-to-one backing had been restored as of November 2, following new security measures and an independent external audit. Its <a href="https://blog.blockstream.com/blockstream-quarterly-update-q3-2026/">quarterly update</a> also points to the October 20 resumption of BTC–LBTC swaps and says work now spans stronger testing, peg-out safeguards and operational controls.</p>
+
+<p>Those are meaningful milestones. They are not interchangeable. A replenished reserve answers “is the backing whole now?” A patched release answers “was the known code path changed?” An audit answers only the questions and versions inside its scope. A working swap answers whether one route is available; it does not necessarily establish that every normal exit path, limit and authorization flow is operating again.</p>
+
+<p>The sequence illustrates the problem. The Liquid Federation’s <a href="https://blog.liquid.net/liquid-network-staged-recovery-update/">October 20 recovery update</a> said semi-automated swaps were returning while direct Federation peg-outs remained restricted. Independent reporting on November 3 said reserves appeared restored, but noted that the announcement did not clarify whether all remaining exit restrictions had been lifted. The public <a href="https://github.com/ElementsProject/elements/releases/tag/elements-23.3.4">Elements 23.3.4 release</a> shows the hardening change to rangeproof cache keys, yet a code release alone cannot prove the operational configuration of federation members.</p>
+
+<h2>What a recovery evidence pack should contain</h2>
+
+<p>Networks that intermediate valuable assets should publish one durable page with five sections.</p>
+
+<ol>
+<li><strong>Reserve proof:</strong> the relevant addresses, liabilities, measurement time and method for reconciling the two. A dashboard is useful, but the calculation should be reproducible by an independent operator.</li>
+<li><strong>Exit matrix:</strong> every normal route out of the system, its current status, limits, dependencies and last successful test. “Swaps are available” should not be allowed to blur into “all exits are normal.”</li>
+<li><strong>Patch record:</strong> affected versions, fixed versions, signed artifacts, upgrade thresholds and the tests added for both the original exploit and adjacent failure modes. Liquid’s incident report is unusually detailed here, including the difference between the initially reported bug and a second byte-boundary vulnerability.</li>
+<li><strong>Audit record:</strong> auditor identity, exact scope, code commit, configuration assumptions, testing dates, exclusions and a publishable summary. Saying an independent audit occurred is better than silence, but it gives integrators little to evaluate if the report and scope are unavailable.</li>
+<li><strong>Governance changes:</strong> who can pause bridges, alter peg-out controls, replenish reserves and declare recovery complete—and what evidence each decision requires.</li>
+</ol>
+
+<p>This is not disclosure theatre. It changes how a wallet, exchange or treasury decides whether to re-enable deposits, withdrawals and automated routing. A business can map each claim to a control: wait for a specific software version, require multiple exit paths, cap exposure until an audit summary appears, or reconcile reserves independently. It also gives incident responders a shared definition of “recovered” before commercial pressure starts compressing the stages.</p>
+
+<h2>The builder lesson is to design the receipts before the incident</h2>
+
+<p>Most teams cannot assemble credible evidence during a crisis if they did not design for it beforehand. Reserve and liability snapshots need stable schemas. Exit tests need safe, repeatable transactions. Release artifacts need signatures and version provenance. Operators need an agreed incident state machine: contained, patched, partially available, backed, fully exit-capable and post-incident verified.</p>
+
+<p>That model complements a broader recovery principle I covered in <a href="https://jasonansell.ca/article/crypto-custody-rules-recovery-not-key-control">Crypto Custody Rules Should Test Recovery, Not Just Key Control</a>. Control over keys or reserves is necessary, but users experience recovery through access, settlement and exits. A system can pass one test while failing another.</p>
+
+<h2>Limits and what would change my view</h2>
+
+<p>My assessment is based on public materials available through November 5. Blockstream and the Liquid Federation are parties to the recovery, so their statements are primary sources for actions and timelines, not independent proof of every conclusion. I have not seen a public copy of the external audit referenced in Blockstream’s update, and I have not independently operated a Liquid node or tested each peg route.</p>
+
+<p>I would become more comfortable with a shorter recovery disclosure if the audit scope and findings were published, reserve reconciliation were independently reproducible, all ordinary exits had a clear live status, and promised governance changes were documented with owners and deadlines. Until then, “backed again” is an important result, but it should be read as one line in a recovery ledger—not the ledger’s final page.</p>
+
+<p><strong>Disclosure:</strong> Jason Ansell is associated with Vector Smart Chain and writes books about blockchain and crypto. This article is an editorial opinion about security operations and disclosure standards; it is not investment advice. No personal holdings or firsthand testing are claimed.</p>
+
+<h2>Sources</h2>
+<ul>
+<li>Blockstream, <a href="https://blog.blockstream.com/blockstream-quarterly-update-q3-2026/">“Blockstream Quarterly Update — Q3 2026”</a>, November 5, 2026.</li>
+<li>Blockstream, <a href="https://blog.blockstream.com/liquid-network-security-incident-assessment/">“Liquid Network Security Incident Assessment”</a>, September 23, 2026.</li>
+<li>Liquid Federation, <a href="https://blog.liquid.net/liquid-network-staged-recovery-update/">“Liquid Network Staged Recovery Update”</a>, October 20, 2026.</li>
+<li>Elements Project, <a href="https://github.com/ElementsProject/elements/releases/tag/elements-23.3.4">Elements 23.3.4 release</a>, September 9, 2026.</li>
+<li>The Block, <a href="https://www.theblock.co/news/ecosystems/2026-11-03-liquid-network-restores-full-bitcoin-backing-following-exploit-432387">“Liquid Network restores full bitcoin backing following exploit”</a>, November 3, 2026.</li>
+</ul>
+
+## Key takeaways
+
+- Blockchain networks should provide specific, verifiable evidence packs after security incidents instead of broad recovery announcements.
+- A standard recovery evidence pack includes reserve proofs, exit matrices, patch records, audit summaries, and governance updates.
+- Claims regarding system recovery, such as reserves being whole versus exit paths being restored, must be evaluated separately.
+- Designing for incident disclosure requires stable data schemas and repeatable testing protocols established before a crisis occurs.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/blockchain-recovery-needs-public-evidence-pack)
+## Related knowledge
+
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:blockchain-recovery-needs-public-evidence-pack`

@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "0e2327dcfb0f12ab",
+  "buildId": "67cdef9cf5825f0a",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -11560,6 +11560,14 @@
       "label": "Bank AI Risk Tiers Should Measure Agency, Not Intelligence",
       "canonicalUrl": "/topics/bank-ai-risk-tiers-agency-not-intelligence",
       "categoryId": "6a4cfe7ce8ddbcb85df987d3",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "type": "topic",
+      "label": "Blockchain Recovery Needs a Public Evidence Pack, Not a Victory Lap",
+      "canonicalUrl": "/topics/blockchain-recovery-needs-public-evidence-pack",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
       "difficulty": "intermediate"
     },
     {
@@ -71483,6 +71491,406 @@
       "difficulty": null
     },
     {
+      "id": "news:the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
+      "type": "news",
+      "label": "The crypto industry has found new ways to grow. Making money from them is another story",
+      "canonicalUrl": "/news/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:thailand-moves-to-block-bitget-as-crypto-exchanges-local-acquisition-faces-uncertainty",
+      "type": "news",
+      "label": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+      "canonicalUrl": "/news/thailand-moves-to-block-bitget-as-crypto-exchanges-local-acquisition-faces-uncertainty",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
+      "type": "news",
+      "label": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+      "canonicalUrl": "/news/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:over-1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+      "type": "news",
+      "label": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "canonicalUrl": "/news/over-1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoin-holds-in-narrow-range-stocks-bounce-after-strong-october-jobs-report",
+      "type": "news",
+      "label": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
+      "canonicalUrl": "/news/live-updates-bitcoin-holds-in-narrow-range-stocks-bounce-after-strong-october-jobs-report",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-steadies-after-ai-led-selloff-as-eyes-turn-to-latest-u-s-jobs-figures",
+      "type": "news",
+      "label": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
+      "canonicalUrl": "/news/bitcoin-steadies-after-ai-led-selloff-as-eyes-turn-to-latest-u-s-jobs-figures",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:what-democrats-us-midterm-sweep-means-for-the-clarity-act",
+      "type": "news",
+      "label": "What Democrats’ US midterm sweep means for the CLARITY Act",
+      "canonicalUrl": "/news/what-democrats-us-midterm-sweep-means-for-the-clarity-act",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nigeria-sets-new-crypto-licensing-rules-bans-algorithmic-stablecoins",
+      "type": "news",
+      "label": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
+      "canonicalUrl": "/news/nigeria-sets-new-crypto-licensing-rules-bans-algorithmic-stablecoins",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-devs-wont-fork-glamsterdam-on-hoodi-until-smart-contract-risks-resolved",
+      "type": "news",
+      "label": "Ethereum devs won’t fork Glamsterdam on Hoodi until smart contract risks resolved",
+      "canonicalUrl": "/news/ethereum-devs-wont-fork-glamsterdam-on-hoodi-until-smart-contract-risks-resolved",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solanas-shanghai-event-halted-over-unauthorized-promotion-report",
+      "type": "news",
+      "label": "Solana’s Shanghai event halted over unauthorized promotion: Report",
+      "canonicalUrl": "/news/solanas-shanghai-event-halted-over-unauthorized-promotion-report",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hackers-had-8-weeks-of-access-before-6-3b-exploit-security-alliance-estimates",
+      "type": "news",
+      "label": "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates",
+      "canonicalUrl": "/news/binance-hackers-had-8-weeks-of-access-before-6-3b-exploit-security-alliance-estimates",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-holds-75k-as-ai-regulation-fears-see-kospi-halted-after-8-crash",
+      "type": "news",
+      "label": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
+      "canonicalUrl": "/news/bitcoin-holds-75k-as-ai-regulation-fears-see-kospi-halted-after-8-crash",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:greece-approves-10-tax-on-crypto-gains-starting-in-2027",
+      "type": "news",
+      "label": "Greece approves 10% tax on crypto gains starting in 2027",
+      "canonicalUrl": "/news/greece-approves-10-tax-on-crypto-gains-starting-in-2027",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:greece-approves-10-crypto-tax-starting-in-2027",
+      "type": "news",
+      "label": "Greece Approves 10% Crypto Tax Starting in 2027",
+      "canonicalUrl": "/news/greece-approves-10-crypto-tax-starting-in-2027",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-finds-opportunity-as-1-1b-in-long-positions-disappear",
+      "type": "news",
+      "label": "Bitcoin Finds Opportunity as $1.1B in Long Positions Disappear",
+      "canonicalUrl": "/news/bitcoin-finds-opportunity-as-1-1b-in-long-positions-disappear",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ueno-digital-bank-crisis-leaves-3-million-customers-locked-out",
+      "type": "news",
+      "label": "Ueno Digital Bank Crisis Leaves 3 Million Customers Locked Out",
+      "canonicalUrl": "/news/ueno-digital-bank-crisis-leaves-3-million-customers-locked-out",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-could-play-a-bigger-role-in-global-finance-by-2029",
+      "type": "news",
+      "label": "Ethereum Could Play a Bigger Role in Global Finance by 2029",
+      "canonicalUrl": "/news/ethereum-could-play-a-bigger-role-in-global-finance-by-2029",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-holds-critical-76k-level-as-ai-sell-off-triggers-market-wide-panic",
+      "type": "news",
+      "label": "Bitcoin Holds Critical $76K Level as AI Sell-Off Triggers Market-Wide Panic",
+      "canonicalUrl": "/news/bitcoin-holds-critical-76k-level-as-ai-sell-off-triggers-market-wide-panic",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wlfi-price-analysis-can-token-buybacks-reverse-the-downtrend",
+      "type": "news",
+      "label": "WLFI Price Analysis: Can Token Buybacks Reverse the Downtrend?",
+      "canonicalUrl": "/news/wlfi-price-analysis-can-token-buybacks-reverse-the-downtrend",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:dsas-adrian-wall-and-former-cftc-chair-chris-giancarlo-discuss-future-of-u-s-crypto-regulation-at-strobe-summit",
+      "type": "news",
+      "label": "DSA’s Adrian Wall and Former CFTC Chair Chris Giancarlo Discuss Future of U.S. Crypto Regulation at Strobe Summit",
+      "canonicalUrl": "/news/dsas-adrian-wall-and-former-cftc-chair-chris-giancarlo-discuss-future-of-u-s-crypto-regulation-at-strobe-summit",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+      "type": "news",
+      "label": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+      "canonicalUrl": "/news/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+      "type": "news",
+      "label": "U.S. prediction markets regulator issues demand that clashes directly with courts",
+      "canonicalUrl": "/news/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-treasury-cuts-off-mexc-over-alleged-16b-in-illicit-transactions",
+      "type": "news",
+      "label": "US Treasury cuts off MEXC over alleged $16B in illicit transactions",
+      "canonicalUrl": "/news/us-treasury-cuts-off-mexc-over-alleged-16b-in-illicit-transactions",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:gnosis-pay-breach-exposes-card-details-personal-data-and-crypto-wallet-information",
+      "type": "news",
+      "label": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
+      "canonicalUrl": "/news/gnosis-pay-breach-exposes-card-details-personal-data-and-crypto-wallet-information",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hack-is-cyber-war-trm-labs-executive-says",
+      "type": "news",
+      "label": "Binance hack is ‘cyber war,’ TRM Labs executive says",
+      "canonicalUrl": "/news/binance-hack-is-cyber-war-trm-labs-executive-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-401-k-proposal-leaves-door-open-to-altcoins-but-hurdles-remain",
+      "type": "news",
+      "label": "US 401(k) proposal leaves door open to altcoins, but hurdles remain",
+      "canonicalUrl": "/news/us-401-k-proposal-leaves-door-open-to-altcoins-but-hurdles-remain",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:russia-finalizes-crypto-trading-rules-ahead-of-nov-17-rollout",
+      "type": "news",
+      "label": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
+      "canonicalUrl": "/news/russia-finalizes-crypto-trading-rules-ahead-of-nov-17-rollout",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strive-buys-15-124-bitcoin-in-october-closes-in-on-top-treasury-holders",
+      "type": "news",
+      "label": "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders",
+      "canonicalUrl": "/news/strive-buys-15-124-bitcoin-in-october-closes-in-on-top-treasury-holders",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-dips-under-75k-as-crypto-markets-miss-tech-stock-rebound",
+      "type": "news",
+      "label": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
+      "canonicalUrl": "/news/bitcoin-price-dips-under-75k-as-crypto-markets-miss-tech-stock-rebound",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcash-activates-nu7-upgrade-as-private-payments-become-3x-faster",
+      "type": "news",
+      "label": "Zcash Activates NU7 Upgrade as Private Payments Become 3x Faster",
+      "canonicalUrl": "/news/zcash-activates-nu7-upgrade-as-private-payments-become-3x-faster",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ardoinos-24-7-asset-plan-depends-on-buyers-willing-to-wait-for-cash",
+      "type": "news",
+      "label": "Ardoino’s 24/7 asset plan depends on buyers willing to wait for cash",
+      "canonicalUrl": "/news/ardoinos-24-7-asset-plan-depends-on-buyers-willing-to-wait-for-cash",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ai-watchdog-report-indicates-we-may-have-less-than-6-months-before-ai-super-intelligence-arrives",
+      "type": "news",
+      "label": "AI watchdog report indicates we may have less than 6 months before AI super intelligence arrives",
+      "canonicalUrl": "/news/ai-watchdog-report-indicates-we-may-have-less-than-6-months-before-ai-super-intelligence-arrives",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:greece-ends-years-of-crypto-tax-uncertainty-with-new-10-levy-on-bitcoin-profits",
+      "type": "news",
+      "label": "Greece ends years of crypto tax uncertainty with new 10% levy on Bitcoin profits",
+      "canonicalUrl": "/news/greece-ends-years-of-crypto-tax-uncertainty-with-new-10-levy-on-bitcoin-profits",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks",
+      "type": "news",
+      "label": "Ethereum software bug triggers emergency fixes across major layer-2 networks",
+      "canonicalUrl": "/news/ethereum-software-bug-triggers-emergency-fixes-across-major-layer-2-networks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miner-irens-ai-revenue-milestone-slips-into-2027-as-expansion-seeks-6-billion",
+      "type": "news",
+      "label": "Bitcoin miner IREN’s AI revenue milestone slips into 2027 as expansion seeks $6 billion",
+      "canonicalUrl": "/news/bitcoin-miner-irens-ai-revenue-milestone-slips-into-2027-as-expansion-seeks-6-billion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-cuts-off-trading-platform-signalplus-after-hackers-break-in-with-a-fake-teams-invite",
+      "type": "news",
+      "label": "Binance cuts off trading platform SignalPlus after hackers break in with a fake Teams invite",
+      "canonicalUrl": "/news/binance-cuts-off-trading-platform-signalplus-after-hackers-break-in-with-a-fake-teams-invite",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-bought-nearly-twice-what-miners-produced-in-q3-but-430-million-left-on-thursday",
+      "type": "news",
+      "label": "Bitcoin ETFs bought nearly twice what miners produced in Q3—but $430 million left on Thursday",
+      "canonicalUrl": "/news/bitcoin-etfs-bought-nearly-twice-what-miners-produced-in-q3-but-430-million-left-on-thursday",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bank-of-england-raises-rates-to-4-as-it-forecasts-inflation-near-5-next-year",
+      "type": "news",
+      "label": "Bank of England raises rates to 4% as it forecasts inflation near 5% next year",
+      "canonicalUrl": "/news/bank-of-england-raises-rates-to-4-as-it-forecasts-inflation-near-5-next-year",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cheap-online-services-routed-web-traffic-through-a-white-house-linked-network-researchers-say",
+      "type": "news",
+      "label": "Cheap online services routed web traffic through a White House-linked network, researchers say",
+      "canonicalUrl": "/news/cheap-online-services-routed-web-traffic-through-a-white-house-linked-network-researchers-say",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nyse-backed-crypto-venture-faces-90-stock-rejection-as-92-liquidity-problem-threatens-tokenization-dream",
+      "type": "news",
+      "label": "NYSE-backed crypto venture faces 90% stock rejection as $92 liquidity problem threatens tokenization dream",
+      "canonicalUrl": "/news/nyse-backed-crypto-venture-faces-90-stock-rejection-as-92-liquidity-problem-threatens-tokenization-dream",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:moscow-exchange-sets-dec-1-to-launch-bitcoin-and-ethereum-trading",
+      "type": "news",
+      "label": "Moscow Exchange sets Dec. 1 to launch Bitcoin and Ethereum trading",
+      "canonicalUrl": "/news/moscow-exchange-sets-dec-1-to-launch-bitcoin-and-ethereum-trading",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zero-click-ios-exploits-drain-4m-usdt-from-active-tron-wallets",
+      "type": "news",
+      "label": "Zero-click iOS exploits drain $4M USDT from active TRON wallets",
+      "canonicalUrl": "/news/zero-click-ios-exploits-drain-4m-usdt-from-active-tron-wallets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:samsung-teams-with-stripe-to-bring-usdc-to-82m-phones",
+      "type": "news",
+      "label": "Samsung teams with Stripe to bring USDC to 82M phones",
+      "canonicalUrl": "/news/samsung-teams-with-stripe-to-bring-usdc-to-82m-phones",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-faces-70-000-risk-as-investors-realize-2-billion-in-losses-and-us-jobs-shock-deepens-pressure",
+      "type": "news",
+      "label": "Bitcoin faces $70,000 risk as investors realize $2 billion in losses and US jobs shock deepens pressure",
+      "canonicalUrl": "/news/bitcoin-faces-70-000-risk-as-investors-realize-2-billion-in-losses-and-us-jobs-shock-deepens-pressure",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis",
+      "type": "news",
+      "label": "Bitcoin and USDT attract modest premiums in Paraguay as millions face banking crisis",
+      "canonicalUrl": "/news/bitcoin-and-usdt-attract-modest-premiums-in-paraguay-as-millions-face-banking-crisis",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:suspicious-prediction-market-activity-seen-before-election-poll-release-nyt",
+      "type": "news",
+      "label": "Suspicious prediction market activity seen before election poll release: NYT",
+      "canonicalUrl": "/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-may-face-a-more-hostile-post-election-washington-report",
+      "type": "news",
+      "label": "Nvidia may face a more hostile post-election Washington: Report",
+      "canonicalUrl": "/news/nvidia-may-face-a-more-hostile-post-election-washington-report",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:apple-and-meta-push-back-against-okx-ice-stock-plans",
+      "type": "news",
+      "label": "Apple and Meta Push Back Against OKX–ICE Stock Plans",
+      "canonicalUrl": "/news/apple-and-meta-push-back-against-okx-ice-stock-plans",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:moscow-exchange-sets-december-launch-for-bitcoin-ethereum-trading",
+      "type": "news",
+      "label": "Moscow Exchange Sets December Launch for Bitcoin, Ethereum Trading",
+      "canonicalUrl": "/news/moscow-exchange-sets-december-launch-for-bitcoin-ethereum-trading",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-treasury-slams-mexc-with-financial-system-block-over-alleged-illicit-flows",
+      "type": "news",
+      "label": "US Treasury Slams MEXC With Financial-System Block Over Alleged Illicit Flows",
+      "canonicalUrl": "/news/us-treasury-slams-mexc-with-financial-system-block-over-alleged-illicit-flows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -121518,6 +121926,14 @@
     },
     {
       "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
       "to": "author:jason-ansell",
       "type": "reference",
       "source": "base44",
