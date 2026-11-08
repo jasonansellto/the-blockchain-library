@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T14:24:08.216Z",
-  "buildId": "67cdef9cf5825f0a",
+  "generatedAt": "2026-11-08T15:51:21.072Z",
+  "buildId": "b4b07f4ee9e0f4ca",
   "pages": [
     {
       "uid": "glossary:blockchain",
@@ -6436,6 +6436,24 @@
       "sourceCanonicalUrl": "/glossary/makerdao",
       "sourceSlug": "makerdao",
       "routeSlug": "makerdao"
+    },
+    {
+      "uid": "glossary:collateralization",
+      "type": "glossary",
+      "title": "Collateralization",
+      "path": "generated/v2/glossary/collateralization",
+      "sourceCanonicalUrl": "/glossary/collateralization",
+      "sourceSlug": "collateralization",
+      "routeSlug": "collateralization"
+    },
+    {
+      "uid": "glossary:dai",
+      "type": "glossary",
+      "title": "DAI",
+      "path": "generated/v2/glossary/dai",
+      "sourceCanonicalUrl": "/glossary/dai",
+      "sourceSlug": "dai",
+      "routeSlug": "dai"
     },
     {
       "uid": "topic:what-crypto-looks-like-after-memecoins",

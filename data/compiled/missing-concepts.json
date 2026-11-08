@@ -568,74 +568,6 @@
     ]
   },
   {
-    "key": "collateralization",
-    "label": "Collateralization",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6ae3636e1ea012f539d4fdce",
-          "slug": "derivatives",
-          "title": "Derivatives"
-        },
-        "target": {
-          "id": "Collateralization",
-          "label": "Collateralization"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6aedfca51597309923f0651c",
-          "slug": "capital-efficiency",
-          "title": "Capital Efficiency"
-        },
-        "target": {
-          "id": "Collateralization",
-          "label": "Collateralization"
-        }
-      }
-    ]
-  },
-  {
-    "key": "dai",
-    "label": "DAI",
-    "count": 2,
-    "relationshipTypes": [
-      "term"
-    ],
-    "examples": [
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6a4e3a8ea74addcc8ec97b26",
-          "slug": "stablecoin",
-          "title": "Stablecoin"
-        },
-        "target": {
-          "id": "DAI",
-          "label": "DAI"
-        }
-      },
-      {
-        "source": {
-          "type": "glossary",
-          "id": "6aedfca51597309923f0651d",
-          "slug": "makerdao",
-          "title": "MakerDAO"
-        },
-        "target": {
-          "id": "DAI",
-          "label": "DAI"
-        }
-      }
-    ]
-  },
-  {
     "key": "decentralized-identifiers",
     "label": "Decentralized Identifiers",
     "count": 2,
@@ -5001,6 +4933,28 @@
         "target": {
           "id": "Liquidity Pools",
           "label": "Liquidity Pools"
+        }
+      }
+    ]
+  },
+  {
+    "key": "loan-to-value-ratio",
+    "label": "Loan-to-Value Ratio",
+    "count": 1,
+    "relationshipTypes": [
+      "term"
+    ],
+    "examples": [
+      {
+        "source": {
+          "type": "glossary",
+          "id": "6aef4e2b6f81e1444b1c4533",
+          "slug": "collateralization",
+          "title": "Collateralization"
+        },
+        "target": {
+          "id": "Loan-to-Value Ratio",
+          "label": "Loan-to-Value Ratio"
         }
       }
     ]

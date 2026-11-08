@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "67cdef9cf5825f0a",
+  "buildId": "b4b07f4ee9e0f4ca",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -5721,6 +5721,22 @@
       "canonicalUrl": "/glossary/makerdao",
       "categoryId": "6a4e39d110805a52385d8fca",
       "difficulty": "advanced"
+    },
+    {
+      "id": "glossary:collateralization",
+      "type": "glossary",
+      "label": "Collateralization",
+      "canonicalUrl": "/glossary/collateralization",
+      "categoryId": "6a4e39d110805a52385d8fca",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "glossary:dai",
+      "type": "glossary",
+      "label": "DAI",
+      "canonicalUrl": "/glossary/dai",
+      "categoryId": "6a4e39d110805a52385d8fc9",
+      "difficulty": "intermediate"
     },
     {
       "id": "topic:what-crypto-looks-like-after-memecoins",
@@ -71891,6 +71907,374 @@
       "difficulty": null
     },
     {
+      "id": "news:gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
+      "type": "news",
+      "label": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
+      "canonicalUrl": "/news/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ex-fbi-counterintelligence-agent-stole-almost-2-5m-in-crypto",
+      "type": "news",
+      "label": "Ex-FBI counterintelligence agent stole almost $2.5M in crypto",
+      "canonicalUrl": "/news/ex-fbi-counterintelligence-agent-stole-almost-2-5m-in-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-holders-have-received-ecash-what-can-you-do-with-it",
+      "type": "news",
+      "label": "Bitcoin holders have received eCash — What can you do with it?",
+      "canonicalUrl": "/news/bitcoin-holders-have-received-ecash-what-can-you-do-with-it",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-sanctions-canadian-money-exchange-firms-over-iran-ties",
+      "type": "news",
+      "label": "US sanctions Canadian money-exchange firms over Iran ties",
+      "canonicalUrl": "/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ai-ipo-dilution-could-fuel-crypto-8217-s-next-rally-analyst-warns",
+      "type": "news",
+      "label": "AI IPO Dilution Could Fuel Crypto&#8217;s Next Rally, Analyst Warns",
+      "canonicalUrl": "/news/ai-ipo-dilution-could-fuel-crypto-8217-s-next-rally-analyst-warns",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-is-repeating-the-2023-setup-that-sparked-its-last-major-rally-analyst-says",
+      "type": "news",
+      "label": "Bitcoin Is Repeating The 2023 Setup That Sparked Its Last Major Rally, Analyst Says",
+      "canonicalUrl": "/news/bitcoin-is-repeating-the-2023-setup-that-sparked-its-last-major-rally-analyst-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcash-price-repeats-setup-behind-its-250-rally-analyst-says",
+      "type": "news",
+      "label": "Zcash Price Repeats Setup Behind Its 250% Rally, Analyst Says",
+      "canonicalUrl": "/news/zcash-price-repeats-setup-behind-its-250-rally-analyst-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-steadies-above-76-000-but-wall-street-isn-8217-t-buying-the-dip-yet",
+      "type": "news",
+      "label": "Bitcoin Steadies Above $76,000, But Wall Street Isn&#8217;t Buying The Dip Yet",
+      "canonicalUrl": "/news/bitcoin-steadies-above-76-000-but-wall-street-isn-8217-t-buying-the-dip-yet",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-delays-glamsterdam-testnet-step-over-gas-accounting-risks",
+      "type": "news",
+      "label": "Ethereum Delays Glamsterdam Testnet Step Over Gas-Accounting Risks",
+      "canonicalUrl": "/news/ethereum-delays-glamsterdam-testnet-step-over-gas-accounting-risks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitfufu-8217-s-october-bitcoin-mining-output-falls-despite-steady-hashrate",
+      "type": "news",
+      "label": "BitFuFu&#8217;s October Bitcoin Mining Output Falls Despite Steady Hashrate",
+      "canonicalUrl": "/news/bitfufu-8217-s-october-bitcoin-mining-output-falls-despite-steady-hashrate",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strive-reports-509m-quarterly-profit-as-bitcoin-buying-accelerates",
+      "type": "news",
+      "label": "Strive Reports $509M Quarterly Profit as Bitcoin Buying Accelerates",
+      "canonicalUrl": "/news/strive-reports-509m-quarterly-profit-as-bitcoin-buying-accelerates",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ether-etfs-face-another-99-9m-outflow-as-demand-stays-uneven",
+      "type": "news",
+      "label": "Ether ETFs Face Another $99.9M Outflow as Demand Stays Uneven",
+      "canonicalUrl": "/news/ether-etfs-face-another-99-9m-outflow-as-demand-stays-uneven",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-lose-411-9m-on-friday-as-blackrock-drives-the-selling",
+      "type": "news",
+      "label": "Bitcoin ETFs Lose $411.9M on Friday as BlackRock Drives the Selling",
+      "canonicalUrl": "/news/bitcoin-etfs-lose-411-9m-on-friday-as-blackrock-drives-the-selling",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wall-street-can-stop-a-tokenized-share-but-can-it-stop-a-stock-perp",
+      "type": "news",
+      "label": "Wall Street can stop a tokenized share, but can it stop a stock perp?",
+      "canonicalUrl": "/news/wall-street-can-stop-a-tokenized-share-but-can-it-stop-a-stock-perp",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:mexc-sees-126-million-outflows-as-us-targets-exchange-over-16-7-billion-in-suspected-illicit-transactions",
+      "type": "news",
+      "label": "MEXC sees $126 million outflows as US targets exchange over $16.7 billion in suspected illicit transactions",
+      "canonicalUrl": "/news/mexc-sees-126-million-outflows-as-us-targets-exchange-over-16-7-billion-in-suspected-illicit-transactions",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:stablecoin-contraction-forces-bitcoin-drop-despite-fed-reserve-gains",
+      "type": "news",
+      "label": "Stablecoin contraction forces Bitcoin drop despite Fed reserve gains",
+      "canonicalUrl": "/news/stablecoin-contraction-forces-bitcoin-drop-despite-fed-reserve-gains",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp",
+      "type": "news",
+      "label": "Morpho loan stress exposes cbXRP, but spares native XRP",
+      "canonicalUrl": "/news/morpho-loan-stress-exposes-cbxrp-but-spares-native-xrp",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:millions-watched-kalshi-8217-s-election-odds-without-betting-a-dollar",
+      "type": "news",
+      "label": "Millions watched Kalshi&#8217;s election odds without betting a dollar",
+      "canonicalUrl": "/news/millions-watched-kalshi-8217-s-election-odds-without-betting-a-dollar",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:eip-8037-state-gas-rules-force-ethereum-dapps-to-rewrite-billing",
+      "type": "news",
+      "label": "EIP-8037 state-gas rules force Ethereum dApps to rewrite billing",
+      "canonicalUrl": "/news/eip-8037-state-gas-rules-force-ethereum-dapps-to-rewrite-billing",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+      "type": "news",
+      "label": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+      "canonicalUrl": "/news/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-16-billion-in-alleged-illicit-flows",
+      "type": "news",
+      "label": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
+      "canonicalUrl": "/news/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-16-billion-in-alleged-illicit-flows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcash-activates-nu7-with-25-second-block-target-and-new-fee-reserve",
+      "type": "news",
+      "label": "Zcash Activates NU7 With 25-Second Block Target and New Fee Reserve",
+      "canonicalUrl": "/news/zcash-activates-nu7-with-25-second-block-target-and-new-fee-reserve",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nigeria-sets-new-stablecoin-licensing-rules-and-capital-requirements",
+      "type": "news",
+      "label": "Nigeria Sets New Stablecoin Licensing Rules and Capital Requirements",
+      "canonicalUrl": "/news/nigeria-sets-new-stablecoin-licensing-rules-and-capital-requirements",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed",
+      "type": "news",
+      "label": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+      "canonicalUrl": "/news/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:iren-8217-s-bitcoin-mining-revenue-falls-as-ai-cloud-sales-nearly-triple",
+      "type": "news",
+      "label": "IREN&#8217;s Bitcoin Mining Revenue Falls as AI Cloud Sales Nearly Triple",
+      "canonicalUrl": "/news/iren-8217-s-bitcoin-mining-revenue-falls-as-ai-cloud-sales-nearly-triple",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:terawulf-says-ai-leasing-now-generates-83-of-revenue-as-bitcoin-mining-recedes",
+      "type": "news",
+      "label": "TeraWulf Says AI Leasing Now Generates 83% of Revenue as Bitcoin Mining Recedes",
+      "canonicalUrl": "/news/terawulf-says-ai-leasing-now-generates-83-of-revenue-as-bitcoin-mining-recedes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-8217-s-october-upgrade-review-puts-200ms-slots-and-5b-in-tokenized-assets-in-focus",
+      "type": "news",
+      "label": "Solana&#8217;s October Upgrade Review Puts 200ms Slots and $5B in Tokenized Assets in Focus",
+      "canonicalUrl": "/news/solana-8217-s-october-upgrade-review-puts-200ms-slots-and-5b-in-tokenized-assets-in-focus",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:samsung-wallet-8217-s-usdc-on-solana-is-live-here-8217-s-what-the-rollout-actually-covers",
+      "type": "news",
+      "label": "Samsung Wallet&#8217;s USDC on Solana Is Live — Here&#8217;s What the Rollout Actually Covers",
+      "canonicalUrl": "/news/samsung-wallet-8217-s-usdc-on-solana-is-live-here-8217-s-what-the-rollout-actually-covers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:thailand-is-cutting-off-bitget-users-have-until-december-5-to-prepare",
+      "type": "news",
+      "label": "Thailand is cutting off Bitget. Users have until December 5 to prepare",
+      "canonicalUrl": "/news/thailand-is-cutting-off-bitget-users-have-until-december-5-to-prepare",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-sanctions-hit-41-companies-accused-of-keeping-prince-groups-scam-network-running",
+      "type": "news",
+      "label": "US sanctions hit 41 companies accused of keeping Prince Group’s scam network running",
+      "canonicalUrl": "/news/us-sanctions-hit-41-companies-accused-of-keeping-prince-groups-scam-network-running",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcashs-new-security-fund-is-99-7-old-money",
+      "type": "news",
+      "label": "Zcash’s new security fund is 99.7% old money",
+      "canonicalUrl": "/news/zcashs-new-security-fund-is-99-7-old-money",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:higher-wages-dont-have-to-mean-higher-inflation-that-could-matter-for-bitcoin",
+      "type": "news",
+      "label": "Higher wages don’t have to mean higher inflation. That could matter for Bitcoin",
+      "canonicalUrl": "/news/higher-wages-dont-have-to-mean-higher-inflation-that-could-matter-for-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell",
+      "type": "news",
+      "label": "Bitcoin traders could mistake this Binance data change for a rush to sell",
+      "canonicalUrl": "/news/bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain",
+      "type": "news",
+      "label": "Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain",
+      "canonicalUrl": "/news/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds",
+      "type": "news",
+      "label": "Elliptic Traces $124M in Bitcoin Swaps From Binance Hack Funds",
+      "canonicalUrl": "/news/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-pitches-a-full-token-lifecycle-service-from-public-sales-to-custody",
+      "type": "news",
+      "label": "Coinbase Pitches a Full Token Lifecycle Service, From Public Sales to Custody",
+      "canonicalUrl": "/news/coinbase-pitches-a-full-token-lifecycle-service-from-public-sales-to-custody",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:amundi-puts-a-european-equity-fund-share-class-on-ethereum",
+      "type": "news",
+      "label": "Amundi Puts a European Equity Fund Share Class on Ethereum",
+      "canonicalUrl": "/news/amundi-puts-a-european-equity-fund-share-class-on-ethereum",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nasdaq-lists-canary-8217-s-staked-inj-etf-adding-another-route-to-altcoin-exposure",
+      "type": "news",
+      "label": "Nasdaq Lists Canary&#8217;s Staked INJ ETF, Adding Another Route to Altcoin Exposure",
+      "canonicalUrl": "/news/nasdaq-lists-canary-8217-s-staked-inj-etf-adding-another-route-to-altcoin-exposure",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainalysis-begins-restoring-screening-services-after-disclosing-exposed-password-hashes",
+      "type": "news",
+      "label": "Chainalysis Begins Restoring Screening Services After Disclosing Exposed Password Hashes",
+      "canonicalUrl": "/news/chainalysis-begins-restoring-screening-services-after-disclosing-exposed-password-hashes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:amsterdam-protesters-break-into-microsoft-data-center-construction-site-report",
+      "type": "news",
+      "label": "Amsterdam protesters break into Microsoft data center construction site: Report",
+      "canonicalUrl": "/news/amsterdam-protesters-break-into-microsoft-data-center-construction-site-report",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binances-finance-chief-kaiser-ng-to-leave-company-report-says",
+      "type": "news",
+      "label": "Binance’s  finance chief Kaiser Ng to leave company, report says",
+      "canonicalUrl": "/news/binances-finance-chief-kaiser-ng-to-leave-company-report-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-price-set-to-catch-up-after-record-october-rsi-signals-reversal",
+      "type": "news",
+      "label": "Solana Price Set To Catch Up After Record October, RSI Signals Reversal",
+      "canonicalUrl": "/news/solana-price-set-to-catch-up-after-record-october-rsi-signals-reversal",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-technical-analysis-bullish-checkmate-setup-near-76k",
+      "type": "news",
+      "label": "Bitcoin Technical Analysis: Bullish Checkmate Setup Near $76K",
+      "canonicalUrl": "/news/bitcoin-technical-analysis-bullish-checkmate-setup-near-76k",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-price-repeats-2025-fractal-as-whales-buy-the-dip",
+      "type": "news",
+      "label": "Ethereum Price Repeats 2025 Fractal As Whales Buy The Dip",
+      "canonicalUrl": "/news/ethereum-price-repeats-2025-fractal-as-whales-buy-the-dip",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kraken-parent-payward-takes-aave-stake-as-institutions-look-deeper-into-defi",
+      "type": "news",
+      "label": "Kraken Parent Payward Takes AAVE Stake as Institutions Look Deeper Into DeFi",
+      "canonicalUrl": "/news/kraken-parent-payward-takes-aave-stake-as-institutions-look-deeper-into-defi",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto",
+      "type": "news",
+      "label": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
+      "canonicalUrl": "/news/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -121934,10 +122318,98 @@
     },
     {
       "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:why-most-users-dont-care-about-transaction-finality-but-should",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:the-next-big-blockchain-innovations-what-to-expect-from-web4",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:enterprise-blockchain-adoption-which-industries-are-moving-on-chain",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:the-impact-of-ai-on-blockchain-development-smarter-smart-contracts",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:governance",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:ledger",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:provenance",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:state-machine",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:custody",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:snapshot",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
       "to": "author:jason-ansell",
       "type": "reference",
       "source": "base44",
       "strength": 0.5,
+      "category": "articles"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "research:blockchain-technology-predictions-2024-transformations-in-healthcare-patient-identity-and-public-health",
+      "type": "research",
+      "source": "base44",
+      "strength": 1,
       "category": "articles"
     },
     {
@@ -126487,6 +126959,14 @@
     {
       "from": "glossary:stablecoin",
       "to": "glossary:collateral",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:stablecoin",
+      "to": "glossary:dai",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -155118,6 +155598,14 @@
     },
     {
       "from": "glossary:derivatives",
+      "to": "glossary:collateralization",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:derivatives",
       "to": "glossary:hedging",
       "type": "term",
       "source": "base44",
@@ -160110,7 +160598,31 @@
     },
     {
       "from": "glossary:capital-efficiency",
+      "to": "topic:the-future-of-decentralized-exchanges-trends-to-watch-in-2025",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:capital-efficiency",
+      "to": "topic:restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:capital-efficiency",
       "to": "glossary:automated-market-maker",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:capital-efficiency",
+      "to": "glossary:collateralization",
       "type": "term",
       "source": "base44",
       "strength": 1,
@@ -160150,6 +160662,54 @@
     },
     {
       "from": "glossary:makerdao",
+      "to": "topic:what-is-an-example-of-web3",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:how-decentralized-autonomous-organizations-daos-are-changing-the-way-we-work",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:what-is-web3-the-evolution-of-the-internet-explained",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:how-daos-are-transforming-online-communities-and-business-models",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:understanding-stablecoins-risks-and-use-cases",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "glossary:dai",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:makerdao",
       "to": "category:defi",
       "type": "term",
       "source": "base44",
@@ -160182,6 +160742,166 @@
     },
     {
       "from": "glossary:makerdao",
+      "to": "glossary:stablecoin",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "topic:how-to-mitigate-flash-loan-attacks",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "topic:the-future-of-stablecoins-key-trends-and-risks-in-2025",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "category:defi",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "glossary:liquidation",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "category:oracles",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "glossary:over-collateralization",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "category:smart-contracts",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "category:stablecoins",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:what-is-an-example-of-web3",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:defi-vs-traditional-finance-which-offers-better-returns",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:understanding-stablecoins-risks-and-use-cases",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:the-rise-of-stablecoins-in-2025-key-players-and-use-cases",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:the-future-of-savings-are-stablecoins-the-new-bank-accounts",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "category:defi",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "category:ethereum",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "glossary:liquidation",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "glossary:makerdao",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "glossary:over-collateralization",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "category:smart-contracts",
+      "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:dai",
       "to": "glossary:stablecoin",
       "type": "term",
       "source": "base44",
@@ -197273,6 +197993,90 @@
     {
       "from": "glossary:over-collateralization",
       "to": "topic:how-to-earn-passive-income-with-crypto-in-2025-staking-lending-and-yield-farming",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:capital-efficiency",
+      "to": "topic:the-future-of-decentralized-exchanges-trends-to-watch-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:capital-efficiency",
+      "to": "topic:restaking-and-lrts-how-ethereums-new-narrative-is-reshaping-defi",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:what-is-an-example-of-web3",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:understanding-stablecoins-risks-and-use-cases",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:how-decentralized-autonomous-organizations-daos-are-changing-the-way-we-work",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:what-is-web3-the-evolution-of-the-internet-explained",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:makerdao",
+      "to": "topic:how-daos-are-transforming-online-communities-and-business-models",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "topic:how-to-mitigate-flash-loan-attacks",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:collateralization",
+      "to": "topic:the-future-of-stablecoins-key-trends-and-risks-in-2025",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:understanding-stablecoins-risks-and-use-cases",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:what-is-an-example-of-web3",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:the-rise-of-stablecoins-in-2025-key-players-and-use-cases",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:the-future-of-savings-are-stablecoins-the-new-bank-accounts",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "glossary:dai",
+      "to": "topic:defi-vs-traditional-finance-which-offers-better-returns",
       "type": "related-article",
       "source": "embedded"
     },
@@ -234444,6 +235248,72 @@
       "from": "topic:bank-ai-risk-tiers-agency-not-intelligence",
       "to": "topic:how-blockchain-is-transforming-ai-the-future-of-decentralized-intelligence",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:state-machine",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:snapshot",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:governance",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:custody",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:ledger",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "glossary:provenance",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:the-next-big-blockchain-innovations-what-to-expect-from-web4",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:enterprise-blockchain-adoption-which-industries-are-moving-on-chain",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:the-impact-of-ai-on-blockchain-development-smarter-smart-contracts",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "topic:why-most-users-dont-care-about-transaction-finality-but-should",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:blockchain-recovery-needs-public-evidence-pack",
+      "to": "research:blockchain-technology-predictions-2024-transformations-in-healthcare-patient-identity-and-public-health",
+      "type": "related-research",
       "source": "embedded"
     },
     {

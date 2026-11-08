@@ -1,7 +1,7 @@
 {
-  "buildId": "67cdef9cf5825f0a",
+  "buildId": "b4b07f4ee9e0f4ca",
   "sourceCounts": {
-    "glossary": 732,
+    "glossary": 734,
     "articles": 731,
     "books": 98,
     "research": 294,
@@ -11,11 +11,11 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 6741,
+    "news": 6787,
     "newsletters": 22
   },
   "canonicalCounts": {
-    "glossary": 715,
+    "glossary": 717,
     "articles": 731,
     "books": 98,
     "research": 294,
@@ -25,22 +25,22 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 6711,
+    "news": 6757,
     "newsletters": 22
   },
   "quality": {
-    "rawObjects": 9057,
-    "canonicalObjects": 9008,
+    "rawObjects": 9105,
+    "canonicalObjects": 9056,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 49,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25731,
-    "unresolvedRelationships": 439,
-    "uniqueMissingConcepts": 395,
+    "totalEdges": 25798,
+    "unresolvedRelationships": 436,
+    "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 6894,
-    "missingTags": 1000,
+    "missingSeoDescription": 6940,
+    "missingTags": 1002,
     "uncategorized": 427
   },
   "exactDuplicateRows": [],
@@ -1318,20 +1318,6 @@
       "target": {
         "id": "Trade Execution",
         "label": "Trade Execution"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6a4e3a8ea74addcc8ec97b26",
-        "slug": "stablecoin",
-        "title": "Stablecoin"
-      },
-      "target": {
-        "id": "DAI",
-        "label": "DAI"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -4872,20 +4858,6 @@
         "title": "Derivatives"
       },
       "target": {
-        "id": "Collateralization",
-        "label": "Collateralization"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6ae3636e1ea012f539d4fdce",
-        "slug": "derivatives",
-        "title": "Derivatives"
-      },
-      "target": {
         "id": "Leverage",
         "label": "Leverage"
       },
@@ -6650,20 +6622,6 @@
         "title": "Capital Efficiency"
       },
       "target": {
-        "id": "Collateralization",
-        "label": "Collateralization"
-      },
-      "relationshipType": "term",
-      "missing": "target"
-    },
-    {
-      "source": {
-        "type": "glossary",
-        "id": "6aedfca51597309923f0651c",
-        "slug": "capital-efficiency",
-        "title": "Capital Efficiency"
-      },
-      "target": {
         "id": "Total Value Locked",
         "label": "Total Value Locked"
       },
@@ -6678,8 +6636,8 @@
         "title": "MakerDAO"
       },
       "target": {
-        "id": "DAI",
-        "label": "DAI"
+        "id": "MKR",
+        "label": "MKR"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -6687,13 +6645,13 @@
     {
       "source": {
         "type": "glossary",
-        "id": "6aedfca51597309923f0651d",
-        "slug": "makerdao",
-        "title": "MakerDAO"
+        "id": "6aef4e2b6f81e1444b1c4533",
+        "slug": "collateralization",
+        "title": "Collateralization"
       },
       "target": {
-        "id": "MKR",
-        "label": "MKR"
+        "id": "Loan-to-Value Ratio",
+        "label": "Loan-to-Value Ratio"
       },
       "relationshipType": "term",
       "missing": "target"
@@ -7292,74 +7250,6 @@
           "target": {
             "id": "6a4cfeff5c3d7803fb3fe20d",
             "label": "6a4cfeff5c3d7803fb3fe20d"
-          }
-        }
-      ]
-    },
-    {
-      "key": "collateralization",
-      "label": "Collateralization",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6ae3636e1ea012f539d4fdce",
-            "slug": "derivatives",
-            "title": "Derivatives"
-          },
-          "target": {
-            "id": "Collateralization",
-            "label": "Collateralization"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6aedfca51597309923f0651c",
-            "slug": "capital-efficiency",
-            "title": "Capital Efficiency"
-          },
-          "target": {
-            "id": "Collateralization",
-            "label": "Collateralization"
-          }
-        }
-      ]
-    },
-    {
-      "key": "dai",
-      "label": "DAI",
-      "count": 2,
-      "relationshipTypes": [
-        "term"
-      ],
-      "examples": [
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6a4e3a8ea74addcc8ec97b26",
-            "slug": "stablecoin",
-            "title": "Stablecoin"
-          },
-          "target": {
-            "id": "DAI",
-            "label": "DAI"
-          }
-        },
-        {
-          "source": {
-            "type": "glossary",
-            "id": "6aedfca51597309923f0651d",
-            "slug": "makerdao",
-            "title": "MakerDAO"
-          },
-          "target": {
-            "id": "DAI",
-            "label": "DAI"
           }
         }
       ]
@@ -9332,6 +9222,50 @@
           "target": {
             "id": "Debt Markets",
             "label": "Debt Markets"
+          }
+        }
+      ]
+    },
+    {
+      "key": "debugger",
+      "label": "Debugger",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae211915e96210392e6e2e1",
+            "slug": "compiler",
+            "title": "Compiler"
+          },
+          "target": {
+            "id": "Debugger",
+            "label": "Debugger"
+          }
+        }
+      ]
+    },
+    {
+      "key": "decentralized-autonomous-organization",
+      "label": "Decentralized Autonomous Organization",
+      "count": 1,
+      "relationshipTypes": [
+        "term"
+      ],
+      "examples": [
+        {
+          "source": {
+            "type": "glossary",
+            "id": "6ae8b78d1cd012cd5c0438fa",
+            "slug": "self-sovereignty",
+            "title": "Self-Sovereignty"
+          },
+          "target": {
+            "id": "Decentralized Autonomous Organization",
+            "label": "Decentralized Autonomous Organization"
           }
         }
       ]
