@@ -1,0 +1,74 @@
+---
+title: "Agent-Scale Git Moves the Bottleneck to Merge Policy"
+description: "GitHub’s new storage architecture can absorb thousands of agent pushes. The harder problem is deciding which changes should be allowed to meet, merge and ship."
+---
+
+# Agent-Scale Git Moves the Bottleneck to Merge Policy
+
+GitHub’s new storage architecture can absorb thousands of agent pushes. The harder problem is deciding which changes should be allowed to meet, merge and ship.
+
+<p><strong>Analysis.</strong> GitHub’s new agent-scale storage architecture is an important infrastructure step, but it does not make parallel AI coding safe by itself. The practical bottleneck now moves upward: from accepting pushes to coordinating intent, verifying combinations and controlling what reaches production.</p>
+<h2>What GitHub actually announced</h2>
+<p>On November 5, GitHub described <a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">Project Rubicon, its new Git storage architecture</a>. The company says internal testing supported 5,000 concurrent agents and 7,200 pushes per second to one repository while maintaining low-latency reads. Those are GitHub’s test results, not an independently reproduced production benchmark. The architecture is in limited private preview, with a broader rollout planned for early 2027.</p>
+<p>The design makes a sensible distinction. Git objects are immutable and named by content, so many writers can store them without coordinating. Reference updates—the small pointers that say where a branch or tag now ends—do need agreement. Rubicon separates those concerns: blob storage holds pack data, disposable virtual replicas serve reads and writes, and a dedicated compare-and-swap log called Ref-CAS orders reference changes. Background workers compact packs without competing with request-serving machines.</p>
+<p>That can remove a real platform constraint. It also exposes a different one. A repository can accept two changes at the same time and still have no idea whether they represent compatible decisions.</p>
+<h2>Byte-level correctness is not intent-level coordination</h2>
+<p>Git can detect some textual collisions. It cannot reliably detect that one agent changed an API contract while another wrote a client against the old contract, or that two individually passing migrations produce the wrong combined data model. Faster writes make these situations arrive faster; they do not resolve them.</p>
+<p>An independent July 2026 preprint, <a href="https://arxiv.org/abs/2607.04697">AI Agent Pull Requests on GitHub</a>, studied 33,596 agent-authored pull requests across 2,807 repositories. Under exact temporal overlap, 40.2% of repositories had co-active agent pull-request pairs, and 79.4% of agent pull requests overlapped with another agent-authored pull request. In a sampled merge replay, textual conflicts appeared in 19.8% of same-agent pairs and 41.7% of cross-agent pairs.</p>
+<p>Those numbers should not be treated as a universal forecast. The study covers identifiable agent-authored pull requests in a historical dataset, samples one pair per repository for merge replay, and measures textual conflicts rather than semantic defects. Its useful result is narrower: concurrency is already common, and a clean merge is only a lower bound on compatibility.</p>
+<h2>The operating model builders need</h2>
+<p>Teams adopting parallel coding agents should treat repository throughput as capacity, not permission. Four controls matter.</p>
+<ol>
+<li><strong>Assign scope before execution.</strong> Give each task an owner, a bounded set of files or interfaces, and explicit invariants. A lightweight claim on an API, schema or subsystem is more useful than discovering overlap after both agents finish.</li>
+<li><strong>Test the combination, not only each branch.</strong> GitHub’s <a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue">merge queue documentation</a> explains how required checks can run against the latest target branch plus changes already ahead in the queue. The <code>merge_group</code> event matters: a pull-request check alone does not prove that the queued combination works.</li>
+<li><strong>Put a budget on concurrency.</strong> The correct limit is not the maximum number of pushes the host can accept. It is the number of changes reviewers, CI systems and deployment controls can evaluate without a growing queue or declining signal. Track review time, queue ejections, repeated CI work, reverts and escaped defects per merged change.</li>
+<li><strong>Preserve provenance and authority.</strong> Record which agent, prompt context, tool permissions and human approver produced a change. Restrict agents from rewriting protected history or bypassing required checks. A high-throughput repository still needs a clear answer to who was allowed to change what.</li>
+</ol>
+<p>This complements an earlier point about <a href="https://jasonansell.ca/article/ai-agent-benchmarks-sandboxes-live-websites">testing AI agents in controlled sandboxes</a>: evaluation must include the shared system, not just the agent’s isolated task result.</p>
+<h2>What businesses should measure</h2>
+<p>For most companies, 7,200 pushes per second is not the target. The target is a shorter, safer path from an approved requirement to a working release. A pilot should compare agent concurrency levels against end-to-end lead time, CI cost, reviewer load, rollback frequency and production incidents. If adding agents increases branch throughput but stretches review or causes more integration churn, the system has moved work rather than removed it.</p>
+<p>The same test applies to vendors. Ask whether an agent platform coordinates task ownership, validates combined changes and exposes an audit trail. A dashboard showing generated lines or completed tasks is incomplete without integration outcomes.</p>
+<h2>Limits and what would change this assessment</h2>
+<p>Rubicon is a platform architecture announcement backed by GitHub’s internal tests; the private preview does not yet provide broad independent production evidence. The conflict study is a preprint and does not measure review effort, CI cost or post-merge defects. Better evidence would include production cohorts showing that higher agent concurrency reduces total delivery time without increasing queue time, rework or escaped defects. Reliable semantic verification that catches incompatible but textually clean changes would also weaken the case for strict pre-execution coordination.</p>
+<p>Until then, the sensible conclusion is not to run fewer agents forever. It is to scale coordination and verification before storage throughput makes uncoordinated work cheap to create.</p>
+<h2>Disclosure</h2>
+<p>Jason Ansell is Co-Founder of Vector Smart Chain and an author who covers AI and software infrastructure. Neither Vector Smart Chain nor his books are evidence for this analysis, and no commercial relationship with GitHub is implied.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">GitHub Engineering: Inside GitHub’s new Git storage architecture</a>, November 5, 2026.</li>
+<li><a href="https://arxiv.org/abs/2607.04697">Xu, Subramanian and Karthik: AI Agent Pull Requests on GitHub</a>, submitted July 6, 2026; revised July 7, 2026.</li>
+<li><a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue">GitHub Docs: Managing a merge queue</a>, accessed November 9, 2026.</li>
+</ul>
+
+## Key takeaways
+
+- GitHub's Project Rubicon optimizes storage to handle massive, concurrent push volumes from AI agents.
+- Higher storage capacity does not solve the underlying challenge of semantic compatibility between different AI-generated code.
+- Teams must move from branch-level testing to validating the integration of all queued changes.
+- Effective agent governance requires tracking lead times, review load, and integration churn rather than just output volume.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/agent-scale-git-bottleneck-merge-policy)
+## Related knowledge
+
+- [AI Agent](/generated/v2/glossary/ai-agent) — glossary
+- [AI Agent](/generated/v2/glossary/ai-agent) — related-glossary
+- [API](/generated/v2/glossary/api) — glossary
+- [API](/generated/v2/glossary/api) — related-glossary
+- [Invariant](/generated/v2/glossary/invariant) — glossary
+- [Invariant](/generated/v2/glossary/invariant) — related-glossary
+- [Revert](/generated/v2/glossary/revert) — glossary
+- [Revert](/generated/v2/glossary/revert) — related-glossary
+- [Storage](/generated/v2/glossary/storage) — glossary
+- [Storage](/generated/v2/glossary/storage) — related-glossary
+- [The Real Bottleneck in AI Isn’t Models—It’s Integration](/generated/v2/topics/the-real-bottleneck-in-ai-isnt-models-its-integration) — article
+- [The Real Bottleneck in AI Isn’t Models—It’s Integration](/generated/v2/topics/the-real-bottleneck-in-ai-isnt-models-its-integration) — related-article
+- [The Shift From Software Products to Continuous Systems](/generated/v2/topics/the-shift-from-software-products-to-continuous-systems) — article
+- [The Shift From Software Products to Continuous Systems](/generated/v2/topics/the-shift-from-software-products-to-continuous-systems) — related-article
+- [Throughput](/generated/v2/glossary/throughput) — glossary
+- [Throughput](/generated/v2/glossary/throughput) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:agent-scale-git-bottleneck-merge-policy`

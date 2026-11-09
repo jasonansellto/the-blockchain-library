@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "b4b07f4ee9e0f4ca",
+  "buildId": "e0e7cc9bee534f70",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -11584,6 +11584,14 @@
       "label": "Blockchain Recovery Needs a Public Evidence Pack, Not a Victory Lap",
       "canonicalUrl": "/topics/blockchain-recovery-needs-public-evidence-pack",
       "categoryId": "6a4cfe7ce8ddbcb85df987d0",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:agent-scale-git-bottleneck-merge-policy",
+      "type": "topic",
+      "label": "Agent-Scale Git Moves the Bottleneck to Merge Policy",
+      "canonicalUrl": "/topics/agent-scale-git-bottleneck-merge-policy",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d4",
       "difficulty": "intermediate"
     },
     {
@@ -72275,6 +72283,710 @@
       "difficulty": null
     },
     {
+      "id": "news:these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-70-000",
+      "type": "news",
+      "label": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+      "canonicalUrl": "/news/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-70-000",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31",
+      "type": "news",
+      "label": "Binance France emails announce closure of its users’ accounts on Dec. 31",
+      "canonicalUrl": "/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:former-fbi-agent-admits-to-2-47-million-crypto-theft",
+      "type": "news",
+      "label": "Former FBI Agent Admits to $2.47 Million Crypto Theft",
+      "canonicalUrl": "/news/former-fbi-agent-admits-to-2-47-million-crypto-theft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-administration-inches-closer-to-opening-401-k-s-to-crypto",
+      "type": "news",
+      "label": "Trump Administration Inches Closer to Opening 401(k)s to Crypto",
+      "canonicalUrl": "/news/trump-administration-inches-closer-to-opening-401-k-s-to-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidias-ceo-an-alleged-romance-and-a-suspected-chinese-spy-congress-wants-answers",
+      "type": "news",
+      "label": "Nvidia’s CEO, an alleged romance and a suspected Chinese spy: Congress wants answers",
+      "canonicalUrl": "/news/nvidias-ceo-an-alleged-romance-and-a-suspected-chinese-spy-congress-wants-answers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:a-single-ai-forecast-inflates-us-power-auctions-by-5-7b",
+      "type": "news",
+      "label": "A single AI forecast inflates US power auctions by $5.7B",
+      "canonicalUrl": "/news/a-single-ai-forecast-inflates-us-power-auctions-by-5-7b",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:gold-is-still-25-below-its-peak-even-as-demand-reaches-188b-in-q3",
+      "type": "news",
+      "label": "Gold is still 25% below its peak even as demand reaches $188B in Q3",
+      "canonicalUrl": "/news/gold-is-still-25-below-its-peak-even-as-demand-reaches-188b-in-q3",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:what-the-election-results-mean-for-crypto-state-of-crypto",
+      "type": "news",
+      "label": "What the election results mean for crypto: State of Crypto",
+      "canonicalUrl": "/news/what-the-election-results-mean-for-crypto-state-of-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:stablecoin-growth-has-stalled-the-payments-boom-hasnt",
+      "type": "news",
+      "label": "Stablecoin growth has stalled. The payments boom hasn't",
+      "canonicalUrl": "/news/stablecoin-growth-has-stalled-the-payments-boom-hasnt",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miners-help-heat-homes-across-finland",
+      "type": "news",
+      "label": "Bitcoin Miners Help Heat Homes Across Finland",
+      "canonicalUrl": "/news/bitcoin-miners-help-heat-homes-across-finland",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:circle-says-it-froze-1-1b-in-usdc-linked-to-binance-hack-investigation",
+      "type": "news",
+      "label": "Circle Says It Froze $1.1B in USDC Linked to Binance Hack Investigation",
+      "canonicalUrl": "/news/circle-says-it-froze-1-1b-in-usdc-linked-to-binance-hack-investigation",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fincen-withdraws-proposed-crypto-travel-rule-expansion-in-separate-november-move",
+      "type": "news",
+      "label": "FinCEN Withdraws Proposed Crypto Travel Rule Expansion in Separate November Move",
+      "canonicalUrl": "/news/fincen-withdraws-proposed-crypto-travel-rule-expansion-in-separate-november-move",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fincen-moves-to-cut-mexc-global-off-from-us-banks-over-alleged-16b-illicit-flows",
+      "type": "news",
+      "label": "FinCEN Moves to Cut MEXC Global Off From US Banks Over Alleged $16B Illicit Flows",
+      "canonicalUrl": "/news/fincen-moves-to-cut-mexc-global-off-from-us-banks-over-alleged-16b-illicit-flows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binances-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
+      "type": "news",
+      "label": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
+      "canonicalUrl": "/news/binances-bitcoin-mining-pool-finds-just-one-block-in-a-week-as-shutdown-nears",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+      "type": "news",
+      "label": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
+      "canonicalUrl": "/news/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tbtc-bridge-partially-resumes-as-120m-aave-reserve-remains-frozen",
+      "type": "news",
+      "label": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
+      "canonicalUrl": "/news/tbtc-bridge-partially-resumes-as-120m-aave-reserve-remains-frozen",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:vitalik-pivots-eth-to-store-of-value-crypto-suffers-after-us-midterms-hodlers-digest",
+      "type": "news",
+      "label": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
+      "canonicalUrl": "/news/vitalik-pivots-eth-to-store-of-value-crypto-suffers-after-us-midterms-hodlers-digest",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bvnk-opens-ousd-minting-and-payments-across-four-blockchains",
+      "type": "news",
+      "label": "BVNK Opens OUSD Minting and Payments Across Four Blockchains",
+      "canonicalUrl": "/news/bvnk-opens-ousd-minting-and-payments-across-four-blockchains",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:circle-8217-s-usdc-transaction-volume-rises-49-even-as-reserve-income-faces-pressure",
+      "type": "news",
+      "label": "Circle&#8217;s USDC Transaction Volume Rises 49% Even as Reserve Income Faces Pressure",
+      "canonicalUrl": "/news/circle-8217-s-usdc-transaction-volume-rises-49-even-as-reserve-income-faces-pressure",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cipher-digital-starts-booking-hpc-lease-revenue-as-9-1b-contract-takes-shape",
+      "type": "news",
+      "label": "Cipher Digital Starts Booking HPC Lease Revenue as $9.1B Contract Takes Shape",
+      "canonicalUrl": "/news/cipher-digital-starts-booking-hpc-lease-revenue-as-9-1b-contract-takes-shape",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:core-scientific-8217-s-ai-colocation-revenue-jumps-to-215m-as-mining-role-shrinks",
+      "type": "news",
+      "label": "Core Scientific&#8217;s AI Colocation Revenue Jumps to $215M as Mining Role Shrinks",
+      "canonicalUrl": "/news/core-scientific-8217-s-ai-colocation-revenue-jumps-to-215m-as-mining-role-shrinks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hut-8-expands-ai-campus-commitments-while-funding-buybacks-with-bitcoin-sales",
+      "type": "news",
+      "label": "Hut 8 Expands AI Campus Commitments While Funding Buybacks With Bitcoin Sales",
+      "canonicalUrl": "/news/hut-8-expands-ai-campus-commitments-while-funding-buybacks-with-bitcoin-sales",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:riot-sells-more-than-20-000-bitcoin-as-ai-data-centre-contracts-reach-38b",
+      "type": "news",
+      "label": "Riot Sells More Than 20,000 Bitcoin as AI Data-Centre Contracts Reach $38B",
+      "canonicalUrl": "/news/riot-sells-more-than-20-000-bitcoin-as-ai-data-centre-contracts-reach-38b",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-explains-cold-storage-defences-after-binance-breach-shakes-crypto-industry",
+      "type": "news",
+      "label": "Coinbase Explains Cold-Storage Defences After Binance Breach Shakes Crypto Industry",
+      "canonicalUrl": "/news/coinbase-explains-cold-storage-defences-after-binance-breach-shakes-crypto-industry",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-could-double-while-this-yield-strategy-leaves-you-far-behind",
+      "type": "news",
+      "label": "XRP could double while this yield strategy leaves you far behind",
+      "canonicalUrl": "/news/xrp-could-double-while-this-yield-strategy-leaves-you-far-behind",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:who-gets-to-block-your-kalshi-bets-washington-just-escalated-the-fight",
+      "type": "news",
+      "label": "Who gets to block your Kalshi bets? Washington just escalated the fight",
+      "canonicalUrl": "/news/who-gets-to-block-your-kalshi-bets-washington-just-escalated-the-fight",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-catch-in-recovering-a-hacked-crypto-wallet-the-thief-may-still-have-a-key",
+      "type": "news",
+      "label": "The catch in recovering a hacked crypto wallet: the thief may still have a key",
+      "canonicalUrl": "/news/the-catch-in-recovering-a-hacked-crypto-wallet-the-thief-may-still-have-a-key",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-diesel-problem-that-could-spoil-bitcoins-hopes-for-cheaper-money",
+      "type": "news",
+      "label": "The diesel problem that could spoil Bitcoin’s hopes for cheaper money",
+      "canonicalUrl": "/news/the-diesel-problem-that-could-spoil-bitcoins-hopes-for-cheaper-money",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:one-blackrock-fund-dominates-bitcoins-billion-dollar-etf-exodus",
+      "type": "news",
+      "label": "One BlackRock fund dominates Bitcoin’s billion-dollar ETF exodus",
+      "canonicalUrl": "/news/one-blackrock-fund-dominates-bitcoins-billion-dollar-etf-exodus",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
+      "type": "news",
+      "label": "Live news: Nvidia slides on CEO allegations as bitcoin hovers just above its 200-day average",
+      "canonicalUrl": "/news/live-news-nvidia-slides-on-ceo-allegations-as-bitcoin-hovers-just-above-its-200-day-average",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator",
+      "type": "news",
+      "label": "Coinbase gets full U.S. trust charter from federal banking regulator",
+      "canonicalUrl": "/news/coinbase-gets-full-u-s-trust-charter-from-federal-banking-regulator",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-inflation-corporate-earnings-crypto-week-ahead",
+      "type": "news",
+      "label": "U.S. inflation, corporate earnings: Crypto Week Ahead",
+      "canonicalUrl": "/news/u-s-inflation-corporate-earnings-crypto-week-ahead",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:spacex-proposes-a-24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile",
+      "type": "news",
+      "label": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+      "canonicalUrl": "/news/spacex-proposes-a-24-billion-texas-supercomputer-worth-17-times-its-bitcoin-pile",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-moves-to-scrap-the-transaction-feature-used-in-the-270-million-drift-hack",
+      "type": "news",
+      "label": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+      "canonicalUrl": "/news/solana-moves-to-scrap-the-transaction-feature-used-in-the-270-million-drift-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts",
+      "type": "news",
+      "label": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
+      "canonicalUrl": "/news/two-rival-ethereum-proposals-aim-to-stop-glamsterdam-breaking-old-contracts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btc-price-eyes-73k-amid-nvidia-volatility-three-things-to-know-in-bitcoin-this-week",
+      "type": "news",
+      "label": "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week",
+      "canonicalUrl": "/news/btc-price-eyes-73k-amid-nvidia-volatility-three-things-to-know-in-bitcoin-this-week",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-tether-and-trump-crypto-firms-face-senate-records-deadline",
+      "type": "news",
+      "label": "Binance, Tether and Trump crypto firms face Senate records deadline",
+      "canonicalUrl": "/news/binance-tether-and-trump-crypto-firms-face-senate-records-deadline",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-shed-1-3b-in-biggest-weekly-outflow-since-late-june",
+      "type": "news",
+      "label": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
+      "canonicalUrl": "/news/bitcoin-etfs-shed-1-3b-in-biggest-weekly-outflow-since-late-june",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcash-devs-propose-another-block-time-cut-days-after-nu7-upgrade",
+      "type": "news",
+      "label": "Zcash devs propose another block time cut days after NU7 upgrade",
+      "canonicalUrl": "/news/zcash-devs-propose-another-block-time-cut-days-after-nu7-upgrade",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-political-support-is-growing-across-us-parties",
+      "type": "news",
+      "label": "Bitcoin Political Support Is Growing Across US Parties",
+      "canonicalUrl": "/news/bitcoin-political-support-is-growing-across-us-parties",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-eyes-recovery-as-analyst-identifies-key-level-for-next-rally",
+      "type": "news",
+      "label": "Bitcoin Price Eyes Recovery As Analyst Identifies Key Level For Next Rally",
+      "canonicalUrl": "/news/bitcoin-price-eyes-recovery-as-analyst-identifies-key-level-for-next-rally",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-foundation-highlights-bhutan-digital-id-and-privacy-focused-aid-experiments",
+      "type": "news",
+      "label": "Ethereum Foundation Highlights Bhutan Digital ID and Privacy-Focused Aid Experiments",
+      "canonicalUrl": "/news/ethereum-foundation-highlights-bhutan-digital-id-and-privacy-focused-aid-experiments",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:uk-regulator-opens-crypto-permissions-route-for-wholesale-banks-ahead-of-2027-rules",
+      "type": "news",
+      "label": "UK Regulator Opens Crypto Permissions Route for Wholesale Banks Ahead of 2027 Rules",
+      "canonicalUrl": "/news/uk-regulator-opens-crypto-permissions-route-for-wholesale-banks-ahead-of-2027-rules",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ecb-says-digital-euro-pilot-will-bring-36-payment-providers-into-2027-testing",
+      "type": "news",
+      "label": "ECB Says Digital Euro Pilot Will Bring 36 Payment Providers Into 2027 Testing",
+      "canonicalUrl": "/news/ecb-says-digital-euro-pilot-will-bring-36-payment-providers-into-2027-testing",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cftc-says-us-regulated-exchanges-can-begin-trading-individual-stock-perpetual-futures",
+      "type": "news",
+      "label": "CFTC Says US-Regulated Exchanges Can Begin Trading Individual-Stock Perpetual Futures",
+      "canonicalUrl": "/news/cftc-says-us-regulated-exchanges-can-begin-trading-individual-stock-perpetual-futures",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:sec-publishes-new-kalshi-security-futures-filing-as-perpetual-contracts-advance",
+      "type": "news",
+      "label": "SEC Publishes New Kalshi Security-Futures Filing as Perpetual Contracts Advance",
+      "canonicalUrl": "/news/sec-publishes-new-kalshi-security-futures-filing-as-perpetual-contracts-advance",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitget-launches-open-custody-network-to-separate-institutional-trading-from-asset-storage",
+      "type": "news",
+      "label": "Bitget Launches Open Custody Network to Separate Institutional Trading From Asset Storage",
+      "canonicalUrl": "/news/bitget-launches-open-custody-network-to-separate-institutional-trading-from-asset-storage",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:why-wall-street-can-use-ethereum-without-betting-on-eth",
+      "type": "news",
+      "label": "Why Wall Street can use Ethereum without betting on ETH",
+      "canonicalUrl": "/news/why-wall-street-can-use-ethereum-without-betting-on-eth",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:polygon-wants-to-move-70-million-pol-without-the-wallet-holders-signatures",
+      "type": "news",
+      "label": "Polygon wants to move 70 million POL without the wallet holders’ signatures",
+      "canonicalUrl": "/news/polygon-wants-to-move-70-million-pol-without-the-wallet-holders-signatures",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-180-in-fees",
+      "type": "news",
+      "label": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
+      "canonicalUrl": "/news/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-180-in-fees",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:googles-ai-chip-push-adds-more-pressure-on-nvidia",
+      "type": "news",
+      "label": "Google’s AI chip push adds more pressure on Nvidia",
+      "canonicalUrl": "/news/googles-ai-chip-push-adds-more-pressure-on-nvidia",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:north-korean-hackers-are-creating-memecoins-to-wash-loot-from-6-3-billion-binance-hack",
+      "type": "news",
+      "label": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+      "canonicalUrl": "/news/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-6-3-billion-binance-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-streets-blockchain-race",
+      "type": "news",
+      "label": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+      "canonicalUrl": "/news/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-streets-blockchain-race",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-set-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+      "type": "news",
+      "label": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+      "canonicalUrl": "/news/solana-set-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-says-he-knows-nothing-about-world-libertys-uae-ties-as-justin-sun-challenges-filings",
+      "type": "news",
+      "label": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+      "canonicalUrl": "/news/trump-says-he-knows-nothing-about-world-libertys-uae-ties-as-justin-sun-challenges-filings",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-bulls-cant-rely-on-etf-flows",
+      "type": "news",
+      "label": "Bitcoin bulls can't rely on ETF flows",
+      "canonicalUrl": "/news/bitcoin-bulls-cant-rely-on-etf-flows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-led-tech-selloff-weighs-on-crypto-majors",
+      "type": "news",
+      "label": "Nvidia-led tech selloff weighs on crypto majors",
+      "canonicalUrl": "/news/nvidia-led-tech-selloff-weighs-on-crypto-majors",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcash-developers-want-20-second-blocks-just-days-after-major-speed-upgrade",
+      "type": "news",
+      "label": "Zcash developers want 20-second blocks just days after major speed upgrade",
+      "canonicalUrl": "/news/zcash-developers-want-20-second-blocks-just-days-after-major-speed-upgrade",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:analysts-see-no-broader-contagion-from-6-3b-binance-hack",
+      "type": "news",
+      "label": "Analysts see no broader ‘contagion’ from $6.3B Binance hack",
+      "canonicalUrl": "/news/analysts-see-no-broader-contagion-from-6-3b-binance-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-2-85b-binance-hackers-lost-shows-why-the-uk-needs-stablecoin-freeze-rules",
+      "type": "news",
+      "label": "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules",
+      "canonicalUrl": "/news/the-2-85b-binance-hackers-lost-shows-why-the-uk-needs-stablecoin-freeze-rules",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strategy-buys-1-036-bitcoin-as-btc-holdings-climb-to-850-364",
+      "type": "news",
+      "label": "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364",
+      "canonicalUrl": "/news/strategy-buys-1-036-bitcoin-as-btc-holdings-climb-to-850-364",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:eu-taps-industry-to-set-standards-for-tokenized-securities",
+      "type": "news",
+      "label": "EU taps industry to set standards for tokenized securities",
+      "canonicalUrl": "/news/eu-taps-industry-to-set-standards-for-tokenized-securities",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbases-us-national-trust-bank-charter-takes-effect",
+      "type": "news",
+      "label": "Coinbase’s US national trust bank charter takes effect",
+      "canonicalUrl": "/news/coinbases-us-national-trust-bank-charter-takes-effect",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:robinhood-opens-access-to-us-ipos-for-uk-retail-investors",
+      "type": "news",
+      "label": "Robinhood opens access to US IPOs for UK retail investors",
+      "canonicalUrl": "/news/robinhood-opens-access-to-us-ipos-for-uk-retail-investors",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-see-1-3-billion-weekly-outflows-largest-since-june",
+      "type": "news",
+      "label": "Bitcoin ETFs See $1.3 Billion Weekly Outflows, Largest Since June",
+      "canonicalUrl": "/news/bitcoin-etfs-see-1-3-billion-weekly-outflows-largest-since-june",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-secures-occ-approval-for-national-trust-charter",
+      "type": "news",
+      "label": "Coinbase Secures OCC Approval for National Trust Charter",
+      "canonicalUrl": "/news/coinbase-secures-occ-approval-for-national-trust-charter",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tradingview-glitch-sends-bitcoin-dominance-below-25",
+      "type": "news",
+      "label": "TradingView Glitch Sends Bitcoin Dominance Below 25%",
+      "canonicalUrl": "/news/tradingview-glitch-sends-bitcoin-dominance-below-25",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btc-drops-then-rebounds-near-74k-as-nvidia-scandal-sparks-1b-liquidations",
+      "type": "news",
+      "label": "BTC Drops Then Rebounds Near $74K as Nvidia Scandal Sparks $1B Liquidations",
+      "canonicalUrl": "/news/btc-drops-then-rebounds-near-74k-as-nvidia-scandal-sparks-1b-liquidations",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:arkham-crypto-fund-holdings-reach-3-billion",
+      "type": "news",
+      "label": "Arkham Crypto Fund Holdings Reach $3 Billion",
+      "canonicalUrl": "/news/arkham-crypto-fund-holdings-reach-3-billion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-money-printing-pompliano-predicts-gains",
+      "type": "news",
+      "label": "Bitcoin Money Printing: Pompliano Predicts Gains",
+      "canonicalUrl": "/news/bitcoin-money-printing-pompliano-predicts-gains",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-price-recovery-analyst-eyes-1-30",
+      "type": "news",
+      "label": "XRP Price Recovery: Analyst Eyes $1.30",
+      "canonicalUrl": "/news/xrp-price-recovery-analyst-eyes-1-30",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations",
+      "type": "news",
+      "label": "US Sanctions Eight Canadian Money Services Firms Over Iranian Crypto Transfer Allegations",
+      "canonicalUrl": "/news/us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:stellar-foundation-backs-marketnode-to-expand-tokenized-funds-across-asia-pacific",
+      "type": "news",
+      "label": "Stellar Foundation Backs Marketnode to Expand Tokenized Funds Across Asia-Pacific",
+      "canonicalUrl": "/news/stellar-foundation-backs-marketnode-to-expand-tokenized-funds-across-asia-pacific",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:polymarket-expands-chainlink-powered-15-minute-markets-to-gold-and-silver",
+      "type": "news",
+      "label": "Polymarket Expands Chainlink-Powered 15-Minute Markets to Gold and Silver",
+      "canonicalUrl": "/news/polymarket-expands-chainlink-powered-15-minute-markets-to-gold-and-silver",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:block-discloses-proposed-764m-doj-payment-in-anti-money-laundering-resolution",
+      "type": "news",
+      "label": "Block Discloses Proposed $764M DOJ Payment in Anti-Money-Laundering Resolution",
+      "canonicalUrl": "/news/block-discloses-proposed-764m-doj-payment-in-anti-money-laundering-resolution",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tron-network-integrates-with-backpack-wallet-expanding-access-to-its-multichain-ecosystem",
+      "type": "news",
+      "label": "TRON Network Integrates with Backpack Wallet, Expanding Access to Its Multichain Ecosystem",
+      "canonicalUrl": "/news/tron-network-integrates-with-backpack-wallet-expanding-access-to-its-multichain-ecosystem",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trade-tokenized-us-stocks-on-htx-htx-launches-tokenized-us-stocks-for-spot-trading-with-zero-fees-to-kick-off-the-trading-carnival",
+      "type": "news",
+      "label": "Trade Tokenized US Stocks on HTX! HTX Launches Tokenized US Stocks for Spot Trading, with Zero Fees to Kick Off the Trading Carnival",
+      "canonicalUrl": "/news/trade-tokenized-us-stocks-on-htx-htx-launches-tokenized-us-stocks-for-spot-trading-with-zero-fees-to-kick-off-the-trading-carnival",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:world-liberty-financial-proposes-wlfi-buybacks-as-governance-token-comes-under-pressure",
+      "type": "news",
+      "label": "World Liberty Financial Proposes WLFI Buybacks as Governance Token Comes Under Pressure",
+      "canonicalUrl": "/news/world-liberty-financial-proposes-wlfi-buybacks-as-governance-token-comes-under-pressure",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cardano-8217-s-leios-scaling-work-advances-but-november-update-signals-no-mainnet-launch",
+      "type": "news",
+      "label": "Cardano&#8217;s Leios Scaling Work Advances, but November Update Signals No Mainnet Launch",
+      "canonicalUrl": "/news/cardano-8217-s-leios-scaling-work-advances-but-november-update-signals-no-mainnet-launch",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-lightnings-security-update-shuts-one-door-a-critical-linux-flaw-remains",
+      "type": "news",
+      "label": "Bitcoin Lightning’s security update shuts one door. A critical Linux flaw remains",
+      "canonicalUrl": "/news/bitcoin-lightnings-security-update-shuts-one-door-a-critical-linux-flaw-remains",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer",
+      "type": "news",
+      "label": "US drops a proposed crypto rule. Europe can still hold up your $500 transfer",
+      "canonicalUrl": "/news/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nigeria-tells-dollar-stablecoin-issuers-go-local-or-lose-retail-access",
+      "type": "news",
+      "label": "Nigeria tells dollar-stablecoin issuers: go local or lose retail access",
+      "canonicalUrl": "/news/nigeria-tells-dollar-stablecoin-issuers-go-local-or-lose-retail-access",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbases-blockchain-got-faster-some-apps-can-still-connect-but-get-no-data",
+      "type": "news",
+      "label": "Coinbase’s blockchain got faster. Some apps can still connect but get no data",
+      "canonicalUrl": "/news/coinbases-blockchain-got-faster-some-apps-can-still-connect-but-get-no-data",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-traders-face-an-eight-hour-blind-spot-as-deribit-prepares-to-delay-key-market-data",
+      "type": "news",
+      "label": "Bitcoin traders face an eight-hour blind spot as Deribit prepares to delay key market data",
+      "canonicalUrl": "/news/bitcoin-traders-face-an-eight-hour-blind-spot-as-deribit-prepares-to-delay-key-market-data",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jitos-solana-data-feed-puts-a-price-on-seeing-trades-early",
+      "type": "news",
+      "label": "Jito’s Solana data feed puts a price on seeing trades early",
+      "canonicalUrl": "/news/jitos-solana-data-feed-puts-a-price-on-seeing-trades-early",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tokenized-gold-can-now-back-a-coinbase-loan-the-price-feed-takes-weekends-off",
+      "type": "news",
+      "label": "Tokenized gold can now back a Coinbase loan. The price feed takes weekends off",
+      "canonicalUrl": "/news/tokenized-gold-can-now-back-a-coinbase-loan-the-price-feed-takes-weekends-off",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cryptos-crime-tracking-giant-restores-its-main-tools-after-hackers-exposed-every-users-login-data",
+      "type": "news",
+      "label": "Crypto’s crime-tracking giant restores its main tools after hackers exposed every user’s login data",
+      "canonicalUrl": "/news/cryptos-crime-tracking-giant-restores-its-main-tools-after-hackers-exposed-every-users-login-data",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:your-crypto-can-survive-a-blockchain-shutdown-your-way-out-might-not",
+      "type": "news",
+      "label": "Your crypto can survive a blockchain shutdown. Your way out might not",
+      "canonicalUrl": "/news/your-crypto-can-survive-a-blockchain-shutdown-your-way-out-might-not",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -72447,6 +73159,14 @@
       "type": "newsletter",
       "label": "The Blockchain Library: Weekly Insights on Digital Governance and Web3 Infrastructure",
       "canonicalUrl": "/newsletter/the-blockchain-library-weekly-insights-on-digital-governance-and-web3-infrastruc",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "newsletter:the-blockchain-library-weekly-navigating-governance-ai-and-infrastructure-23",
+      "type": "newsletter",
+      "label": "The Blockchain Library Weekly: Navigating Governance, AI, and Infrastructure",
+      "canonicalUrl": "/newsletter/the-blockchain-library-weekly-navigating-governance-ai-and-infrastructure-23",
       "categoryId": null,
       "difficulty": null
     }
@@ -122410,6 +123130,78 @@
       "type": "research",
       "source": "base44",
       "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "topic:the-real-bottleneck-in-ai-isnt-models-its-integration",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "topic:the-shift-from-software-products-to-continuous-systems",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:storage",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:api",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:ai-agent",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:throughput",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:revert",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:invariant",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
       "category": "articles"
     },
     {
@@ -235314,6 +236106,54 @@
       "from": "topic:blockchain-recovery-needs-public-evidence-pack",
       "to": "research:blockchain-technology-predictions-2024-transformations-in-healthcare-patient-identity-and-public-health",
       "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:storage",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:invariant",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:throughput",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:ai-agent",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:revert",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "glossary:api",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "topic:the-shift-from-software-products-to-continuous-systems",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:agent-scale-git-bottleneck-merge-policy",
+      "to": "topic:the-real-bottleneck-in-ai-isnt-models-its-integration",
+      "type": "related-article",
       "source": "embedded"
     },
     {
