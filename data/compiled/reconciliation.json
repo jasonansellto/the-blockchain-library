@@ -1,5 +1,5 @@
 {
-  "buildId": "b06c7775b467772b",
+  "buildId": "1f98ec89e0c294c7",
   "sourceCounts": {
     "glossary": 734,
     "articles": 733,
@@ -11,7 +11,7 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 7119,
+    "news": 7201,
     "newsletters": 23
   },
   "canonicalCounts": {
@@ -25,21 +25,21 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 7089,
+    "news": 7170,
     "newsletters": 23
   },
   "quality": {
-    "rawObjects": 9440,
-    "canonicalObjects": 9391,
+    "rawObjects": 9522,
+    "canonicalObjects": 9472,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
-    "canonicalMergeExcessRows": 49,
+    "canonicalMergeExcessRows": 50,
     "duplicateCanonicalUids": 0,
     "totalEdges": 25836,
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 7273,
+    "missingSeoDescription": 7354,
     "missingTags": 1002,
     "uncategorized": 427
   },
@@ -283,9 +283,10 @@
         "6a984888b5cafb34cca937ee",
         "6ab2fa93d9603b4779c2b96d",
         "6ac9b962ca8f8af5934e0372",
-        "6ae2c55628a2281aa620cc99"
+        "6ae2c55628a2281aa620cc99",
+        "6af645e4963ab4bbd767483f"
       ],
-      "mergedRecords": 7,
+      "mergedRecords": 8,
       "sourceTypes": [
         "news"
       ]
