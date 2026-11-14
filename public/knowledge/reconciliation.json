@@ -1,8 +1,8 @@
 {
-  "buildId": "1f98ec89e0c294c7",
+  "buildId": "5cfc2f5bce9e32c1",
   "sourceCounts": {
     "glossary": 734,
-    "articles": 733,
+    "articles": 734,
     "books": 98,
     "research": 294,
     "learning-paths": 12,
@@ -11,12 +11,12 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 7201,
+    "news": 7228,
     "newsletters": 23
   },
   "canonicalCounts": {
     "glossary": 717,
-    "articles": 733,
+    "articles": 734,
     "books": 98,
     "research": 294,
     "learning-paths": 12,
@@ -25,21 +25,21 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 7170,
+    "news": 7197,
     "newsletters": 23
   },
   "quality": {
-    "rawObjects": 9522,
-    "canonicalObjects": 9472,
+    "rawObjects": 9550,
+    "canonicalObjects": 9500,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 50,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25836,
+    "totalEdges": 25849,
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 7354,
+    "missingSeoDescription": 7381,
     "missingTags": 1002,
     "uncategorized": 427
   },

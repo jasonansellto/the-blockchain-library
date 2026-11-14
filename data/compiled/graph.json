@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "1f98ec89e0c294c7",
+  "buildId": "5cfc2f5bce9e32c1",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -11600,6 +11600,14 @@
       "label": "Canada’s Bank Stablecoin Proposal Separates Brand From Liability",
       "canonicalUrl": "/topics/canada-bank-stablecoin-proposal-brand-liability",
       "categoryId": "6a4cfe7ce8ddbcb85df987d1",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "type": "topic",
+      "label": "AI Shutdown Controls Need a Revocation Path, Not a Panic Button",
+      "canonicalUrl": "/topics/ai-shutdown-controls-revocation-path-not-panic-button",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d3",
       "difficulty": "intermediate"
     },
     {
@@ -75595,6 +75603,222 @@
       "difficulty": null
     },
     {
+      "id": "news:bitcoin-plunges-to-68-000-as-anthropic-ipo-frenzy-adds-to-market-jitters",
+      "type": "news",
+      "label": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "canonicalUrl": "/news/bitcoin-plunges-to-68-000-as-anthropic-ipo-frenzy-adds-to-market-jitters",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "type": "news",
+      "label": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "canonicalUrl": "/news/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:openai-launches-ai-payments-in-chatgpt-with-visa-mastercard-and-amex",
+      "type": "news",
+      "label": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+      "canonicalUrl": "/news/openai-launches-ai-payments-in-chatgpt-with-visa-mastercard-and-amex",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:adam-back-makes-case-for-simpler-security-as-blockstream-launches-bitcoin-custody-system",
+      "type": "news",
+      "label": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+      "canonicalUrl": "/news/adam-back-makes-case-for-simpler-security-as-blockstream-launches-bitcoin-custody-system",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kraken-parent-payward-gains-market-share-as-slower-trading-weighs-on-earnings",
+      "type": "news",
+      "label": "Kraken parent Payward gains market share as slower trading weighs on earnings",
+      "canonicalUrl": "/news/kraken-parent-payward-gains-market-share-as-slower-trading-weighs-on-earnings",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-regulators-move-ahead-on-crypto-trust-charters-as-senate-scrutiny-grows",
+      "type": "news",
+      "label": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+      "canonicalUrl": "/news/us-regulators-move-ahead-on-crypto-trust-charters-as-senate-scrutiny-grows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:metaplanet-swings-to-170m-loss-as-bitcoin-sale-hits-earnings",
+      "type": "news",
+      "label": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
+      "canonicalUrl": "/news/metaplanet-swings-to-170m-loss-as-bitcoin-sale-hits-earnings",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers",
+      "type": "news",
+      "label": "Unocoin Suspends Withdrawals After Suspicious BitGo Wallet Transfers",
+      "canonicalUrl": "/news/unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:western-europe-8217-s-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131",
+      "type": "news",
+      "label": "Western Europe&#8217;s Crypto Economy Reaches $2.08T as Stablecoin Holdings Surge 131%",
+      "canonicalUrl": "/news/western-europe-8217-s-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:doj-targets-1-2b-in-crypto-stolen-from-binance",
+      "type": "news",
+      "label": "DOJ Targets $1.2B in Crypto Stolen From Binance",
+      "canonicalUrl": "/news/doj-targets-1-2b-in-crypto-stolen-from-binance",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hyperscalers-list-gpus-at-nearly-2-the-gpu-cloud-price-fluence-research-finds",
+      "type": "news",
+      "label": "Hyperscalers List GPUs at Nearly 2× the GPU-Cloud Price, Fluence Research Finds",
+      "canonicalUrl": "/news/hyperscalers-list-gpus-at-nearly-2-the-gpu-cloud-price-fluence-research-finds",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:satoshi-era-wallet-served-in-a-260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "type": "news",
+      "label": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "canonicalUrl": "/news/satoshi-era-wallet-served-in-a-260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miners-pay-paraguay-350-million-a-year-but-ai-is-pushing-them-out",
+      "type": "news",
+      "label": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "canonicalUrl": "/news/bitcoin-miners-pay-paraguay-350-million-a-year-but-ai-is-pushing-them-out",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open",
+      "type": "news",
+      "label": "Coinbase AI trading tool pauses bots, but leaves orders open",
+      "canonicalUrl": "/news/coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze",
+      "type": "news",
+      "label": "Unocoin halts all services after hackers bypass BitGo freeze",
+      "canonicalUrl": "/news/unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-courts-target-1-2b-in-stolen-binance-funds-yet-victims-face-a-new-hurdle",
+      "type": "news",
+      "label": "US courts target $1.2B in stolen Binance funds, yet victims face a new hurdle",
+      "canonicalUrl": "/news/us-courts-target-1-2b-in-stolen-binance-funds-yet-victims-face-a-new-hurdle",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze",
+      "type": "news",
+      "label": "Diesel prices plunge 8%, yet Bitcoin traders face a squeeze",
+      "canonicalUrl": "/news/diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk",
+      "type": "news",
+      "label": "XRP loans trigger 883 liquidations, and $53M remains at risk",
+      "canonicalUrl": "/news/xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fbi-warns-active-400m-crypto-scam-targets-your-friends-by-replacing-your-face-in-videos",
+      "type": "news",
+      "label": "FBI warns active $400M crypto scam targets your friends by replacing your face in videos",
+      "canonicalUrl": "/news/fbi-warns-active-400m-crypto-scam-targets-your-friends-by-replacing-your-face-in-videos",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aave-plan-could-cut-some-lenders-share-of-interest-by-60",
+      "type": "news",
+      "label": "Aave plan could cut some lenders’ share of interest by 60%",
+      "canonicalUrl": "/news/aave-plan-could-cut-some-lenders-share-of-interest-by-60",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:amazon-says-no-human-wrote-or-reviewed-the-code-for-its-new-cloud-testing-tool",
+      "type": "news",
+      "label": "Amazon says no human wrote or reviewed the code for its new cloud testing tool",
+      "canonicalUrl": "/news/amazon-says-no-human-wrote-or-reviewed-the-code-for-its-new-cloud-testing-tool",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:microsoft-confirms-global-outage-resolved-rules-out-cyberattack",
+      "type": "news",
+      "label": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "canonicalUrl": "/news/microsoft-confirms-global-outage-resolved-rules-out-cyberattack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:megaeth-parent-cuts-20-of-staff-amid-restructuring-ai-push",
+      "type": "news",
+      "label": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "canonicalUrl": "/news/megaeth-parent-cuts-20-of-staff-amid-restructuring-ai-push",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-shed-2-35b-in-2-weeks-blackrocks-losing-streak-hits-11",
+      "type": "news",
+      "label": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+      "canonicalUrl": "/news/bitcoin-etfs-shed-2-35b-in-2-weeks-blackrocks-losing-streak-hits-11",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-dips-to-68-000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window",
+      "type": "news",
+      "label": "Bitcoin Dips To $68,000 As Anthropic IPO Pulls Cash, But History Points To A Buying Window",
+      "canonicalUrl": "/news/bitcoin-dips-to-68-000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:vienna-8217-s-satoshi-statue-vanishes-when-you-look-at-it-and-that-8217-s-the-point",
+      "type": "news",
+      "label": "Vienna&#8217;s Satoshi Statue Vanishes When You Look At It, And That&#8217;s The Point",
+      "canonicalUrl": "/news/vienna-8217-s-satoshi-statue-vanishes-when-you-look-at-it-and-that-8217-s-the-point",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:elizabeth-warren-could-reopen-cryptos-banking-fight-without-changing-a-single-law",
+      "type": "news",
+      "label": "Elizabeth Warren could reopen crypto’s banking fight without changing a single law",
+      "canonicalUrl": "/news/elizabeth-warren-could-reopen-cryptos-banking-fight-without-changing-a-single-law",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -125898,6 +126122,62 @@
       "type": "research",
       "source": "base44",
       "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:agent-skills-supply-chain-rules-neutral-home",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:ai-agent-benchmarks-sandboxes-live-websites",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:always-on-ai-agents-operating-contract",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "glossary:safety",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "glossary:network-layer",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
       "category": "articles"
     },
     {
@@ -238910,6 +239190,42 @@
       "from": "topic:canada-bank-stablecoin-proposal-brand-liability",
       "to": "research:stablecoin-innovation-in-the-united-states",
       "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "glossary:safety",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "glossary:network-layer",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:always-on-ai-agents-operating-contract",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:agent-skills-supply-chain-rules-neutral-home",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:ai-agent-benchmarks-sandboxes-live-websites",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+      "to": "topic:ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "type": "related-article",
       "source": "embedded"
     },
     {

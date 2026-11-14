@@ -153517,6 +153517,112 @@
       "strength": 0.5
     }
   ],
+  "topic:ai-shutdown-controls-revocation-path-not-panic-button": [
+    {
+      "uid": "topic:agent-skills-supply-chain-rules-neutral-home",
+      "type": "topic",
+      "title": "Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home",
+      "canonicalUrl": "/topics/agent-skills-supply-chain-rules-neutral-home",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:agent-skills-supply-chain-rules-neutral-home",
+      "type": "topic",
+      "title": "Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home",
+      "canonicalUrl": "/topics/agent-skills-supply-chain-rules-neutral-home",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:ai-agent-benchmarks-sandboxes-live-websites",
+      "type": "topic",
+      "title": "AI Agent Benchmarks Need Sandboxes, Not Live Websites",
+      "canonicalUrl": "/topics/ai-agent-benchmarks-sandboxes-live-websites",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:ai-agent-benchmarks-sandboxes-live-websites",
+      "type": "topic",
+      "title": "AI Agent Benchmarks Need Sandboxes, Not Live Websites",
+      "canonicalUrl": "/topics/ai-agent-benchmarks-sandboxes-live-websites",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "type": "topic",
+      "title": "AI Agents Need Clear Permissions Before They Get More Responsibility",
+      "canonicalUrl": "/topics/ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "type": "topic",
+      "title": "AI Agents Need Clear Permissions Before They Get More Responsibility",
+      "canonicalUrl": "/topics/ai-agents-clear-permissions-openai-misalignment-disclosures",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:always-on-ai-agents-operating-contract",
+      "type": "topic",
+      "title": "Always-On AI Agents Need an Operating Contract, Not Just a Prompt",
+      "canonicalUrl": "/topics/always-on-ai-agents-operating-contract",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:always-on-ai-agents-operating-contract",
+      "type": "topic",
+      "title": "Always-On AI Agents Need an Operating Contract, Not Just a Prompt",
+      "canonicalUrl": "/topics/always-on-ai-agents-operating-contract",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:network-layer",
+      "type": "glossary",
+      "title": "Network Layer",
+      "canonicalUrl": "/glossary/network-layer",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:network-layer",
+      "type": "glossary",
+      "title": "Network Layer",
+      "canonicalUrl": "/glossary/network-layer",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:safety",
+      "type": "glossary",
+      "title": "Safety",
+      "canonicalUrl": "/glossary/safety",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:safety",
+      "type": "glossary",
+      "title": "Safety",
+      "canonicalUrl": "/glossary/safety",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "author:jason-ansell",
+      "type": "author",
+      "title": "Jason Ansell",
+      "canonicalUrl": "/authors/jason-ansell",
+      "relationship": "reference",
+      "strength": 0.5
+    }
+  ],
   "book:the-quiet-rebuild-of-the-internet": [],
   "book:the-dark-side-of-web3": [],
   "book:wtf-is-crypto": [],
@@ -218008,6 +218114,33 @@
   "news:the-catch-in-cryptos-anthropic-ipo-rush-lock-up-your-money-and-you-could-still-miss-out": [],
   "news:bitcoin-falls-below-70-000-as-870-million-in-bullish-bets-are-liquidated": [],
   "news:ai-helped-find-66-security-flaws-with-no-fixes-planned-for-some-older-devices": [],
+  "news:bitcoin-plunges-to-68-000-as-anthropic-ipo-frenzy-adds-to-market-jitters": [],
+  "news:u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations": [],
+  "news:openai-launches-ai-payments-in-chatgpt-with-visa-mastercard-and-amex": [],
+  "news:adam-back-makes-case-for-simpler-security-as-blockstream-launches-bitcoin-custody-system": [],
+  "news:kraken-parent-payward-gains-market-share-as-slower-trading-weighs-on-earnings": [],
+  "news:us-regulators-move-ahead-on-crypto-trust-charters-as-senate-scrutiny-grows": [],
+  "news:metaplanet-swings-to-170m-loss-as-bitcoin-sale-hits-earnings": [],
+  "news:unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers": [],
+  "news:western-europe-8217-s-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131": [],
+  "news:doj-targets-1-2b-in-crypto-stolen-from-binance": [],
+  "news:hyperscalers-list-gpus-at-nearly-2-the-gpu-cloud-price-fluence-research-finds": [],
+  "news:satoshi-era-wallet-served-in-a-260-billion-lawsuit-moves-75-btc-it-held-since-2011": [],
+  "news:bitcoin-miners-pay-paraguay-350-million-a-year-but-ai-is-pushing-them-out": [],
+  "news:coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open": [],
+  "news:unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze": [],
+  "news:us-courts-target-1-2b-in-stolen-binance-funds-yet-victims-face-a-new-hurdle": [],
+  "news:diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze": [],
+  "news:xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk": [],
+  "news:fbi-warns-active-400m-crypto-scam-targets-your-friends-by-replacing-your-face-in-videos": [],
+  "news:aave-plan-could-cut-some-lenders-share-of-interest-by-60": [],
+  "news:amazon-says-no-human-wrote-or-reviewed-the-code-for-its-new-cloud-testing-tool": [],
+  "news:microsoft-confirms-global-outage-resolved-rules-out-cyberattack": [],
+  "news:megaeth-parent-cuts-20-of-staff-amid-restructuring-ai-push": [],
+  "news:bitcoin-etfs-shed-2-35b-in-2-weeks-blackrocks-losing-streak-hits-11": [],
+  "news:bitcoin-dips-to-68-000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window": [],
+  "news:vienna-8217-s-satoshi-statue-vanishes-when-you-look-at-it-and-that-8217-s-the-point": [],
+  "news:elizabeth-warren-could-reopen-cryptos-banking-fight-without-changing-a-single-law": [],
   "newsletter:issue-1-blockchain-foundations": [],
   "newsletter:issue-2-smart-contracts-defi": [],
   "newsletter:issue-3-web3-decentralized-internet": [],

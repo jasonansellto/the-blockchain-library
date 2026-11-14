@@ -139480,6 +139480,119 @@
     }
   },
   {
+    "uid": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
+    "id": "ai-shutdown-controls-revocation-path-not-panic-button",
+    "type": "topic",
+    "sourceType": "articles",
+    "sourceId": "6af86a4c1cca342153ed77e4",
+    "sourceIds": [
+      "6af86a4c1cca342153ed77e4"
+    ],
+    "title": "AI Shutdown Controls Need a Revocation Path, Not a Panic Button",
+    "aliases": [],
+    "slug": "ai-shutdown-controls-revocation-path-not-panic-button",
+    "canonicalUrl": "/topics/ai-shutdown-controls-revocation-path-not-panic-button",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": "intermediate",
+    "categoryId": "6a4cfe7ce8ddbcb85df987d3",
+    "tags": [
+      "AI safety",
+      "AI agents",
+      "shutdown controls",
+      "incident response"
+    ],
+    "summary": "Canada’s new AI safety declaration points in the right direction: stopping unsafe AI requires enforced revocation at the systems that actually grant authority.",
+    "seoTitle": "Effective AI Shutdown Controls and Revocation Methods",
+    "seoDescription": "Learn why AI shutdown controls require technical revocation paths at the infrastructure level to ensure safety and prevent unauthorized agent actions.",
+    "data": {
+      "title": "AI Shutdown Controls Need a Revocation Path, Not a Panic Button",
+      "slug": "ai-shutdown-controls-revocation-path-not-panic-button",
+      "summary": "Canada’s new AI safety declaration points in the right direction: stopping unsafe AI requires enforced revocation at the systems that actually grant authority.",
+      "featured_image": "https://base44.app/api/apps/6aa184855ed6b34685f2f7e8/files/mp/public/6aa184855ed6b34685f2f7e8/9d4612744_ai-shutdown-controls-revocation-path-not-panic-button.jpg",
+      "body": "<p><strong>Opinion.</strong> <strong>Thesis:</strong> an AI shutdown control should not be designed as a dramatic red button. It should be a tested revocation path that can withdraw a workload’s authority at the compute, model, tool and network layers—even when the workload itself is buggy, compromised or unwilling to cooperate.</p>\n\n<p>That is the practical lesson inside the <a href=\"https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security\">Paris call for AI safety and security</a>, published by the Prime Minister of Canada on November 9. Canada, five other governments, ten AI companies and three civil-society organizations committed to common evaluation work, incident reporting and fail-safe mechanisms for model operations within a developer’s control. The declaration is a political commitment, not a binding Canadian technical standard, but its wording matters: restrictions, pauses and shutdowns are treated as lifecycle controls, not emergency theatre.</p>\n\n<h2>The button is the least important part</h2>\n\n<p>A human can click “stop” while an agent still holds valid API keys, open browser sessions, queued tool calls or access to a separate inference endpoint. A training process can exit while child jobs keep running. A vendor can suspend its own hosted model while an exported open-weight copy continues elsewhere. The visible control is only credible if authority disappears at every path the workload can still use.</p>\n\n<p>OpenAI’s <a href=\"https://openai.com/index/control-room/\">Control Room disclosure</a>, also published November 9, offers a useful architectural example. OpenAI says each research workload receives a job identifier, and its inference engines check that identifier before producing more output. The company reports that a stopped job can no longer sample tokens, that the control fails closed if the authorization service goes down, and that output stops within 35 seconds of an intervention decision. OpenAI also says the mechanism is placed in the more centralized inference layer rather than relying on frequently changing workload code.</p>\n\n<p>Those are company claims about an internal system, not an independent assurance report. Still, the architecture captures a principle other operators can use: enforce revocation at a shared dependency the risky process cannot bypass. The equivalent might be an inference gateway, a workload identity service, a tool broker, an egress proxy or a cloud account boundary. A stop command that asks the agent to stop is a preference. A denied authorization is a control.</p>\n\n<h2>Detection and revocation are separate systems</h2>\n\n<p>A shutdown path also needs a trustworthy trigger. Anthropic’s <a href=\"https://safeguards.anthropic.com/2026/automated-red-teaming/\">November 12 report on Anvil</a> says its internal automated red-teaming system found stronger jailbreaks than the human red-teamers used for comparison and did so faster across biological, cybersecurity and anti-distillation safeguards. Anthropic explicitly notes that the system benefits from privileged access to frontier models and internal classifier scores, and that several outcome metrics are company evaluations.</p>\n\n<p>The result should not be read as “automation solved red-teaming.” It shows why detection quality will keep moving. A monitor can miss a novel failure, overreact to harmless behaviour or be targeted itself. The revocation path therefore needs multiple authorized triggers: automated thresholds for narrow high-confidence events, named human incident commanders for ambiguous cases, and independent escalation routes when the operating team has a conflict. Every trigger should leave an audit record describing who acted, what authority was removed and what evidence is required before restoration.</p>\n\n<h2>A practical shutdown-control test</h2>\n\n<p>Builders and businesses do not need frontier-scale infrastructure to adopt the pattern. They need an honest inventory of what their AI workload can do and four verifiable answers:</p>\n\n<ol>\n<li><strong>Identity:</strong> does every long-running agent, evaluation or automation have a unique workload identity tied to an approved owner, purpose and expiry?</li>\n<li><strong>Enforcement:</strong> can the operator revoke model access, tool credentials, network egress and queued actions outside the agent’s own process?</li>\n<li><strong>Observation:</strong> do monitors cover both model output and real effects such as code merges, payments, messages, records changed and data exported?</li>\n<li><strong>Recovery:</strong> are restart criteria written in advance, with credential rotation, scope review and evidence that the initiating failure was contained?</li>\n</ol>\n\n<p>The test is whether a team can demonstrate those answers during a drill. Measure time from the decision to intervene until the last permitted model output and the last external side effect. Confirm that a failed control service denies risky operations rather than silently allowing them. Search for unregistered endpoints and orphaned credentials. Then test restoration separately; an emergency stop that cannot produce a safe, reviewable restart will be bypassed under commercial pressure.</p>\n\n<p>This extends the operating-contract approach I described in <a href=\"https://jasonansell.ca/article/always-on-ai-agents-operating-contract\">Always-On AI Agents Need an Operating Contract, Not Just a Prompt</a>. Stop conditions belong in the contract, but the new policy signal is stronger: the conditions must map to technical enforcement points. It also complements <a href=\"https://jasonansell.ca/article/bank-ai-risk-tiers-agency-not-intelligence\">Bank AI Risk Tiers Should Measure Agency, Not Intelligence</a>; the more consequential and irreversible the authority, the more independent and granular its revocation should be.</p>\n\n<h2>Limits and what would change my view</h2>\n\n<p>Public disclosures cannot establish how reliably these controls work in production. I have not tested OpenAI’s or Anthropic’s internal systems, and neither company’s November material is an independent audit. The Paris declaration does not define response-time targets, minimum control layers, test frequency or consequences for a failed shutdown. Open-weight systems also limit what an original developer can revoke after distribution, so responsibility must follow the infrastructure, credentials and tools each operator actually controls.</p>\n\n<p>I would be more comfortable with a simpler “kill switch” requirement if independent testing showed that one control reliably covered all material execution paths, including degraded and adversarial conditions. Until then, regulation and procurement should specify outcomes: identifiable workloads, external enforcement, measured stop latency, tamper-resistant logs and governed restart criteria. A button is an interface. Revocation is the safety mechanism.</p>\n\n<p><strong>Disclosure:</strong> Jason Ansell is associated with Vector Smart Chain and writes books about blockchain, crypto and emerging technology. This article is an editorial opinion about AI operations and governance; it is not investment advice. No personal holdings, interviews or firsthand testing are claimed.</p>\n\n<h2>Sources</h2>\n<ul>\n<li>Prime Minister of Canada, <a href=\"https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security\">“Joint declaration on Paris call for AI safety and security”</a>, November 9, 2026.</li>\n<li>OpenAI, <a href=\"https://openai.com/index/control-room/\">“Control Room”</a>, November 9, 2026.</li>\n<li>Anthropic, <a href=\"https://safeguards.anthropic.com/2026/automated-red-teaming/\">“Strengthening our safeguards with frontier automated red-teaming”</a>, November 12, 2026.</li>\n<li>OpenAI, <a href=\"https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf\">“Recommendations under Sept. 18, 2026 Executive Order”</a>, October 20, 2026.</li>\n</ul>",
+      "toc": [],
+      "difficulty": "intermediate",
+      "reading_time": null,
+      "author_id": "6a4d2b0cf56d2579d02a65b0",
+      "author_ids": [
+        "6a4d2b0cf56d2579d02a65b0"
+      ],
+      "category_id": "6a4cfe7ce8ddbcb85df987d3",
+      "subcategory_id": null,
+      "tags": [
+        "AI safety",
+        "AI agents",
+        "shutdown controls",
+        "incident response"
+      ],
+      "status": "published",
+      "access_level": "public",
+      "is_featured": false,
+      "key_takeaways": [
+        "AI shutdown controls must function as enforced technical revocation paths rather than simple manual kill switches.",
+        "Effective security requires removing authority at infrastructure layers like inference gateways, proxies, and identity services.",
+        "Revocation systems must be independent of the AI workload to ensure they remain functional during system errors.",
+        "Testing for AI safety involves verifying that an agent's access to tools and networks is completely terminated."
+      ],
+      "faq": [
+        {
+          "question": "Why is a physical shutdown button insufficient for AI safety?",
+          "answer": "A manual stop button often fails because an AI agent may still hold valid API keys, active browser sessions, or access to separate network endpoints. True safety requires revoking authority at the infrastructure level rather than relying on the software to comply with a stop command."
+        },
+        {
+          "question": "What is the principle of revocation in AI security?",
+          "answer": "Revocation involves cutting off an AI workload's access to resources like model inference, tools, or network egress at a centralized point the agent cannot bypass. This approach ensures that even if an AI system is compromised or malfunctioning, its ability to execute further actions is effectively neutralized."
+        },
+        {
+          "question": "How should organizations test their AI shutdown controls?",
+          "answer": "Organizations should conduct drills that measure the time from an intervention decision to the complete cessation of all model outputs and external side effects. A successful test verifies that authorization is denied when the control service fails and identifies any orphaned credentials or unauthorized endpoints."
+        },
+        {
+          "question": "What role do automated triggers play in AI safety?",
+          "answer": "Automated triggers, such as those used in red-teaming, help identify risks faster than human operators by monitoring internal metrics and classifier scores. However, they should be paired with human incident commanders and independent escalation routes to handle ambiguous cases or potential system failures."
+        }
+      ],
+      "references": [],
+      "related_articles": [
+        "6ade6a07e8b6e2e8978fc696",
+        "6ade6a07e8b6e2e8978fc68c",
+        "6ade6a07e8b6e2e8978fc691",
+        "6ade6a07e8b6e2e8978fc69b"
+      ],
+      "related_glossary": [
+        "6a6377411740e0025055f8b3",
+        "6ae6069ad29b544660f6504b"
+      ],
+      "related_books": [],
+      "related_research": [],
+      "related_external": [],
+      "seo_title": "Effective AI Shutdown Controls and Revocation Methods",
+      "seo_description": "Learn why AI shutdown controls require technical revocation paths at the infrastructure level to ensure safety and prevent unauthorized agent actions.",
+      "published_date": "2026-11-13",
+      "internal_id": "ja-ai-shutdown-controls-revocation-path-not-panic-button",
+      "og_image": null,
+      "last_reviewed": null,
+      "language": "en",
+      "visibility": "public",
+      "schema_type": null,
+      "source_links": [
+        {
+          "title": "Jason Ansell",
+          "url": "https://jasonansell.ca/article/ai-shutdown-controls-revocation-path-not-panic-button"
+        }
+      ],
+      "citation": null,
+      "health_score": 0,
+      "geo_score": 0
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 52
+    }
+  },
+  {
     "uid": "book:the-quiet-rebuild-of-the-internet",
     "id": "the-quiet-rebuild-of-the-internet",
     "type": "book",
@@ -504116,6 +504229,1155 @@
     "reconciliation": {
       "mergedRecords": 1,
       "canonicalSelectionScore": 11.79
+    }
+  },
+  {
+    "uid": "news:bitcoin-plunges-to-68-000-as-anthropic-ipo-frenzy-adds-to-market-jitters",
+    "id": "bitcoin-plunges-to-68-000-as-anthropic-ipo-frenzy-adds-to-market-jitters",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b013",
+    "sourceIds": [
+      "6af79742d3a3f4556861b013"
+    ],
+    "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+    "aliases": [],
+    "slug": "bitcoin-plunges-to-68-000-as-anthropic-ipo-frenzy-adds-to-market-jitters",
+    "canonicalUrl": "/news/bitcoin-plunges-to-68-000-as-anthropic-ipo-frenzy-adds-to-market-jitters",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-13T18:39:58.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/8d2811403b51a25a1655a9792efd3652f2a4b825-6000x4000.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+    "id": "u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b014",
+    "sourceIds": [
+      "6af79742d3a3f4556861b014"
+    ],
+    "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+    "aliases": [],
+    "slug": "u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+    "canonicalUrl": "/news/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "link": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-13T17:05:43.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/6d6f178b9823ada860129fe771c32694011310c3-3524x1982.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:openai-launches-ai-payments-in-chatgpt-with-visa-mastercard-and-amex",
+    "id": "openai-launches-ai-payments-in-chatgpt-with-visa-mastercard-and-amex",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b015",
+    "sourceIds": [
+      "6af79742d3a3f4556861b015"
+    ],
+    "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+    "aliases": [],
+    "slug": "openai-launches-ai-payments-in-chatgpt-with-visa-mastercard-and-amex",
+    "canonicalUrl": "/news/openai-launches-ai-payments-in-chatgpt-with-visa-mastercard-and-amex",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+      "link": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-13T22:01:03.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7BD90N5TZ75ZZMC6V10AW2D/hi-what-is-elon-musk-and-openai.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.97
+    }
+  },
+  {
+    "uid": "news:adam-back-makes-case-for-simpler-security-as-blockstream-launches-bitcoin-custody-system",
+    "id": "adam-back-makes-case-for-simpler-security-as-blockstream-launches-bitcoin-custody-system",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b016",
+    "sourceIds": [
+      "6af79742d3a3f4556861b016"
+    ],
+    "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+    "aliases": [],
+    "slug": "adam-back-makes-case-for-simpler-security-as-blockstream-launches-bitcoin-custody-system",
+    "canonicalUrl": "/news/adam-back-makes-case-for-simpler-security-as-blockstream-launches-bitcoin-custody-system",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+      "link": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-13T21:49:27.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7BCCR5CYZHHWDA4BH24H4DA/portraitadam-back.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12
+    }
+  },
+  {
+    "uid": "news:kraken-parent-payward-gains-market-share-as-slower-trading-weighs-on-earnings",
+    "id": "kraken-parent-payward-gains-market-share-as-slower-trading-weighs-on-earnings",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b017",
+    "sourceIds": [
+      "6af79742d3a3f4556861b017"
+    ],
+    "title": "Kraken parent Payward gains market share as slower trading weighs on earnings",
+    "aliases": [],
+    "slug": "kraken-parent-payward-gains-market-share-as-slower-trading-weighs-on-earnings",
+    "canonicalUrl": "/news/kraken-parent-payward-gains-market-share-as-slower-trading-weighs-on-earnings",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Kraken parent Payward gains market share as slower trading weighs on earnings",
+      "link": "https://cointelegraph.com/news/kraken-parent-payward-gains-market-share-slower-trading-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-13T21:01:39.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7BB5D5YR6N43P941FXA2NG0/hi-kraken-ipo-2.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:us-regulators-move-ahead-on-crypto-trust-charters-as-senate-scrutiny-grows",
+    "id": "us-regulators-move-ahead-on-crypto-trust-charters-as-senate-scrutiny-grows",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b018",
+    "sourceIds": [
+      "6af79742d3a3f4556861b018"
+    ],
+    "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+    "aliases": [],
+    "slug": "us-regulators-move-ahead-on-crypto-trust-charters-as-senate-scrutiny-grows",
+    "canonicalUrl": "/news/us-regulators-move-ahead-on-crypto-trust-charters-as-senate-scrutiny-grows",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "US regulators move ahead on crypto trust charters as Senate scrutiny grows",
+      "link": "https://cointelegraph.com/news/us-regulators-crypto-trust-charters-senate-scrutiny-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-13T20:53:20.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2EYQFNBQWHSKS9XVTDG9HXS/regulation-papers.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:metaplanet-swings-to-170m-loss-as-bitcoin-sale-hits-earnings",
+    "id": "metaplanet-swings-to-170m-loss-as-bitcoin-sale-hits-earnings",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b019",
+    "sourceIds": [
+      "6af79742d3a3f4556861b019"
+    ],
+    "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
+    "aliases": [],
+    "slug": "metaplanet-swings-to-170m-loss-as-bitcoin-sale-hits-earnings",
+    "canonicalUrl": "/news/metaplanet-swings-to-170m-loss-as-bitcoin-sale-hits-earnings",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
+      "link": "https://cointelegraph.com/news/metaplanet-swings-170m-loss-bitcoin-sale-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-13T18:28:29.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7AWR4AB715ADV7EW9WZVKDA/hi-how-a-small-crypto-trader-turned-k-into-m-using-a-high-risk-high-precision-strategy-metaplanet.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.08
+    }
+  },
+  {
+    "uid": "news:unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers",
+    "id": "unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b01a",
+    "sourceIds": [
+      "6af79742d3a3f4556861b01a"
+    ],
+    "title": "Unocoin Suspends Withdrawals After Suspicious BitGo Wallet Transfers",
+    "aliases": [],
+    "slug": "unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers",
+    "canonicalUrl": "/news/unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Unocoin Suspends Withdrawals After Suspicious BitGo Wallet Transfers",
+      "link": "https://bitcoinist.com/unocoin-suspends-withdrawals-after-suspicious-bitgo-wallet-transfers/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-13T21:01:02.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Unocoin-Withdrawal-Suspension-Alert-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:western-europe-8217-s-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131",
+    "id": "western-europe-8217-s-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b01b",
+    "sourceIds": [
+      "6af79742d3a3f4556861b01b"
+    ],
+    "title": "Western Europe&#8217;s Crypto Economy Reaches $2.08T as Stablecoin Holdings Surge 131%",
+    "aliases": [],
+    "slug": "western-europe-8217-s-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131",
+    "canonicalUrl": "/news/western-europe-8217-s-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Western Europe&#8217;s Crypto Economy Reaches $2.08T as Stablecoin Holdings Surge 131%",
+      "link": "https://bitcoinist.com/western-europes-crypto-economy-reaches-2-08t-as-stablecoin-holdings-surge-131/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-13T17:13:57.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/European-Stablecoins-and-Market-Growth-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.82
+    }
+  },
+  {
+    "uid": "news:doj-targets-1-2b-in-crypto-stolen-from-binance",
+    "id": "doj-targets-1-2b-in-crypto-stolen-from-binance",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b01c",
+    "sourceIds": [
+      "6af79742d3a3f4556861b01c"
+    ],
+    "title": "DOJ Targets $1.2B in Crypto Stolen From Binance",
+    "aliases": [],
+    "slug": "doj-targets-1-2b-in-crypto-stolen-from-binance",
+    "canonicalUrl": "/news/doj-targets-1-2b-in-crypto-stolen-from-binance",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "DOJ Targets $1.2B in Crypto Stolen From Binance",
+      "link": "https://bitcoinist.com/doj-targets-1-2b-in-crypto-stolen-from-binance/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-13T17:04:37.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Bitcoin-Seizure-and-Justice-Briefing-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.68
+    }
+  },
+  {
+    "uid": "news:hyperscalers-list-gpus-at-nearly-2-the-gpu-cloud-price-fluence-research-finds",
+    "id": "hyperscalers-list-gpus-at-nearly-2-the-gpu-cloud-price-fluence-research-finds",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af79742d3a3f4556861b01d",
+    "sourceIds": [
+      "6af79742d3a3f4556861b01d"
+    ],
+    "title": "Hyperscalers List GPUs at Nearly 2× the GPU-Cloud Price, Fluence Research Finds",
+    "aliases": [],
+    "slug": "hyperscalers-list-gpus-at-nearly-2-the-gpu-cloud-price-fluence-research-finds",
+    "canonicalUrl": "/news/hyperscalers-list-gpus-at-nearly-2-the-gpu-cloud-price-fluence-research-finds",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Hyperscalers List GPUs at Nearly 2× the GPU-Cloud Price, Fluence Research Finds",
+      "link": "https://www.newsbtc.com/news/hyperscalers-list-gpus-at-nearly-2x-the-gpu-cloud-price-fluence-research-finds/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-13T17:24:08.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/e5ec01a1cb8d423798ce2b9edc9d1cd7-3-750x394.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.81
+    }
+  },
+  {
+    "uid": "news:satoshi-era-wallet-served-in-a-260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+    "id": "satoshi-era-wallet-served-in-a-260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f4412f",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f4412f"
+    ],
+    "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+    "aliases": [],
+    "slug": "satoshi-era-wallet-served-in-a-260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+    "canonicalUrl": "/news/satoshi-era-wallet-served-in-a-260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-14T04:30:00.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/1015dde522ef326b0be42591a52370d74f450a3f-6070x4047.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.01
+    }
+  },
+  {
+    "uid": "news:bitcoin-miners-pay-paraguay-350-million-a-year-but-ai-is-pushing-them-out",
+    "id": "bitcoin-miners-pay-paraguay-350-million-a-year-but-ai-is-pushing-them-out",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44130",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44130"
+    ],
+    "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+    "aliases": [],
+    "slug": "bitcoin-miners-pay-paraguay-350-million-a-year-but-ai-is-pushing-them-out",
+    "canonicalUrl": "/news/bitcoin-miners-pay-paraguay-350-million-a-year-but-ai-is-pushing-them-out",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-13T23:30:00.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/e48e3a851a85964cf01b2cf00f38b3063685e0e8-800x508.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.97
+    }
+  },
+  {
+    "uid": "news:coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open",
+    "id": "coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44131",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44131"
+    ],
+    "title": "Coinbase AI trading tool pauses bots, but leaves orders open",
+    "aliases": [],
+    "slug": "coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open",
+    "canonicalUrl": "/news/coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Coinbase AI trading tool pauses bots, but leaves orders open",
+      "link": "https://cryptoslate.com/coinbase-ai-trading-tool-pauses-bots-but-leaves-orders-open/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-14T04:30:03.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/coinbase-01-mechanical-order-feed.jpg",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.72
+    }
+  },
+  {
+    "uid": "news:unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze",
+    "id": "unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44132",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44132"
+    ],
+    "title": "Unocoin halts all services after hackers bypass BitGo freeze",
+    "aliases": [],
+    "slug": "unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze",
+    "canonicalUrl": "/news/unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Unocoin halts all services after hackers bypass BitGo freeze",
+      "link": "https://cryptoslate.com/unocoin-halts-all-services-after-hackers-bypass-bitgo-freeze/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-14T02:10:17.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/shutter-branded.jpg",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.68
+    }
+  },
+  {
+    "uid": "news:us-courts-target-1-2b-in-stolen-binance-funds-yet-victims-face-a-new-hurdle",
+    "id": "us-courts-target-1-2b-in-stolen-binance-funds-yet-victims-face-a-new-hurdle",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44133",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44133"
+    ],
+    "title": "US courts target $1.2B in stolen Binance funds, yet victims face a new hurdle",
+    "aliases": [],
+    "slug": "us-courts-target-1-2b-in-stolen-binance-funds-yet-victims-face-a-new-hurdle",
+    "canonicalUrl": "/news/us-courts-target-1-2b-in-stolen-binance-funds-yet-victims-face-a-new-hurdle",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "US courts target $1.2B in stolen Binance funds, yet victims face a new hurdle",
+      "link": "https://cryptoslate.com/binance-funds-theft-us-court-orders-cover-over-1-2-billion-with-return-unresolved/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-13T23:40:49.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/binance-frozen-inventory.jpg",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.78
+    }
+  },
+  {
+    "uid": "news:diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze",
+    "id": "diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44134",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44134"
+    ],
+    "title": "Diesel prices plunge 8%, yet Bitcoin traders face a squeeze",
+    "aliases": [],
+    "slug": "diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze",
+    "canonicalUrl": "/news/diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Diesel prices plunge 8%, yet Bitcoin traders face a squeeze",
+      "link": "https://cryptoslate.com/diesel-prices-plunge-8-yet-bitcoin-traders-face-a-squeeze/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-13T22:20:46.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/truck-stop-strap.jpg",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.68
+    }
+  },
+  {
+    "uid": "news:xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk",
+    "id": "xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44135",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44135"
+    ],
+    "title": "XRP loans trigger 883 liquidations, and $53M remains at risk",
+    "aliases": [],
+    "slug": "xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk",
+    "canonicalUrl": "/news/xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "XRP loans trigger 883 liquidations, and $53M remains at risk",
+      "link": "https://cryptoslate.com/xrp-loans-trigger-883-liquidations-and-53m-remains-at-risk/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-13T20:50:08.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/station.jpg",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.66
+    }
+  },
+  {
+    "uid": "news:fbi-warns-active-400m-crypto-scam-targets-your-friends-by-replacing-your-face-in-videos",
+    "id": "fbi-warns-active-400m-crypto-scam-targets-your-friends-by-replacing-your-face-in-videos",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44136",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44136"
+    ],
+    "title": "FBI warns active $400M crypto scam targets your friends by replacing your face in videos",
+    "aliases": [],
+    "slug": "fbi-warns-active-400m-crypto-scam-targets-your-friends-by-replacing-your-face-in-videos",
+    "canonicalUrl": "/news/fbi-warns-active-400m-crypto-scam-targets-your-friends-by-replacing-your-face-in-videos",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "FBI warns active $400M crypto scam targets your friends by replacing your face in videos",
+      "link": "https://cryptoslate.com/fbi-warns-facestealer-turns-crypto-victims-into-bait-for-the-next-attack/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-13T19:30:01.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/facestealer-recorded-identity-loop.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.8
+    }
+  },
+  {
+    "uid": "news:aave-plan-could-cut-some-lenders-share-of-interest-by-60",
+    "id": "aave-plan-could-cut-some-lenders-share-of-interest-by-60",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44137",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44137"
+    ],
+    "title": "Aave plan could cut some lenders’ share of interest by 60%",
+    "aliases": [],
+    "slug": "aave-plan-could-cut-some-lenders-share-of-interest-by-60",
+    "canonicalUrl": "/news/aave-plan-could-cut-some-lenders-share-of-interest-by-60",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Aave plan could cut some lenders’ share of interest by 60%",
+      "link": "https://cryptoslate.com/aave-lenders-interest-share-cut-proposal/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-13T18:30:35.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/aave-interest-allocation-pattern.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.67
+    }
+  },
+  {
+    "uid": "news:amazon-says-no-human-wrote-or-reviewed-the-code-for-its-new-cloud-testing-tool",
+    "id": "amazon-says-no-human-wrote-or-reviewed-the-code-for-its-new-cloud-testing-tool",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af7ebe2d758b35af6f44138",
+    "sourceIds": [
+      "6af7ebe2d758b35af6f44138"
+    ],
+    "title": "Amazon says no human wrote or reviewed the code for its new cloud testing tool",
+    "aliases": [],
+    "slug": "amazon-says-no-human-wrote-or-reviewed-the-code-for-its-new-cloud-testing-tool",
+    "canonicalUrl": "/news/amazon-says-no-human-wrote-or-reviewed-the-code-for-its-new-cloud-testing-tool",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Amazon says no human wrote or reviewed the code for its new cloud testing tool",
+      "link": "https://cryptoslate.com/amazon-ai-written-aws-emulator-code/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-13T17:30:52.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/aws-emulator-test-replica.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.69
+    }
+  },
+  {
+    "uid": "news:microsoft-confirms-global-outage-resolved-rules-out-cyberattack",
+    "id": "microsoft-confirms-global-outage-resolved-rules-out-cyberattack",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af840600551874a04dfe179",
+    "sourceIds": [
+      "6af840600551874a04dfe179"
+    ],
+    "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+    "aliases": [],
+    "slug": "microsoft-confirms-global-outage-resolved-rules-out-cyberattack",
+    "canonicalUrl": "/news/microsoft-confirms-global-outage-resolved-rules-out-cyberattack",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "link": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-14T10:34:06.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X8JFEEG972QNHB7E2TQ63J/hi-the-rise-of-major-institutions-is-inevitable-microsoft.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.01
+    }
+  },
+  {
+    "uid": "news:megaeth-parent-cuts-20-of-staff-amid-restructuring-ai-push",
+    "id": "megaeth-parent-cuts-20-of-staff-amid-restructuring-ai-push",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af840600551874a04dfe17a",
+    "sourceIds": [
+      "6af840600551874a04dfe17a"
+    ],
+    "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+    "aliases": [],
+    "slug": "megaeth-parent-cuts-20-of-staff-amid-restructuring-ai-push",
+    "canonicalUrl": "/news/megaeth-parent-cuts-20-of-staff-amid-restructuring-ai-push",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "link": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-14T08:12:30.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7CHQ8H5VMWGN9MBP9CQVNVC/layoffs-fired-human-resource-hr-leaving-quit-people-ai-2.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:bitcoin-etfs-shed-2-35b-in-2-weeks-blackrocks-losing-streak-hits-11",
+    "id": "bitcoin-etfs-shed-2-35b-in-2-weeks-blackrocks-losing-streak-hits-11",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af840600551874a04dfe17b",
+    "sourceIds": [
+      "6af840600551874a04dfe17b"
+    ],
+    "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+    "aliases": [],
+    "slug": "bitcoin-etfs-shed-2-35b-in-2-weeks-blackrocks-losing-streak-hits-11",
+    "canonicalUrl": "/news/bitcoin-etfs-shed-2-35b-in-2-weeks-blackrocks-losing-streak-hits-11",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-14T06:33:13.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4FQAANP3H5Z0XYV77PNYB10/hi-will-the-blockchain-stop-leaks-of-crypto.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:bitcoin-dips-to-68-000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window",
+    "id": "bitcoin-dips-to-68-000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af840600551874a04dfe17c",
+    "sourceIds": [
+      "6af840600551874a04dfe17c"
+    ],
+    "title": "Bitcoin Dips To $68,000 As Anthropic IPO Pulls Cash, But History Points To A Buying Window",
+    "aliases": [],
+    "slug": "bitcoin-dips-to-68-000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window",
+    "canonicalUrl": "/news/bitcoin-dips-to-68-000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin Dips To $68,000 As Anthropic IPO Pulls Cash, But History Points To A Buying Window",
+      "link": "https://bitcoinist.com/bitcoin-dips-to-68000-as-anthropic-ipo-pulls-cash-but-history-points-to-a-buying-window/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-14T09:54:44.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Bitcoin-dip-amid-Anthropic-IPO-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.84
+    }
+  },
+  {
+    "uid": "news:vienna-8217-s-satoshi-statue-vanishes-when-you-look-at-it-and-that-8217-s-the-point",
+    "id": "vienna-8217-s-satoshi-statue-vanishes-when-you-look-at-it-and-that-8217-s-the-point",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af840600551874a04dfe17d",
+    "sourceIds": [
+      "6af840600551874a04dfe17d"
+    ],
+    "title": "Vienna&#8217;s Satoshi Statue Vanishes When You Look At It, And That&#8217;s The Point",
+    "aliases": [],
+    "slug": "vienna-8217-s-satoshi-statue-vanishes-when-you-look-at-it-and-that-8217-s-the-point",
+    "canonicalUrl": "/news/vienna-8217-s-satoshi-statue-vanishes-when-you-look-at-it-and-that-8217-s-the-point",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Vienna&#8217;s Satoshi Statue Vanishes When You Look At It, And That&#8217;s The Point",
+      "link": "https://bitcoinist.com/viennas-satoshi-statue-vanishes-when-you-look-at-it-and-thats-the-point/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-14T09:45:08.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Viennas-Satoshi-Statue-in-Autumn-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.8
+    }
+  },
+  {
+    "uid": "news:elizabeth-warren-could-reopen-cryptos-banking-fight-without-changing-a-single-law",
+    "id": "elizabeth-warren-could-reopen-cryptos-banking-fight-without-changing-a-single-law",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af840600551874a04dfe17e",
+    "sourceIds": [
+      "6af840600551874a04dfe17e"
+    ],
+    "title": "Elizabeth Warren could reopen crypto’s banking fight without changing a single law",
+    "aliases": [],
+    "slug": "elizabeth-warren-could-reopen-cryptos-banking-fight-without-changing-a-single-law",
+    "canonicalUrl": "/news/elizabeth-warren-could-reopen-cryptos-banking-fight-without-changing-a-single-law",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Elizabeth Warren could reopen crypto’s banking fight without changing a single law",
+      "link": "https://cryptoslate.com/warren-could-reopen-crypto-banking-fight-without-changing-a-single-law/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-14T08:10:11.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/crypto-custody-records-labyrinth.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.78
     }
   },
   {
