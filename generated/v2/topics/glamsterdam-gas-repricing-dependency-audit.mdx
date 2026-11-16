@@ -1,0 +1,77 @@
+---
+title: "Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit"
+description: "Ethereum’s delayed Glamsterdam testnet step shows why gas repricing must be treated as a dependency migration: contract failure paths, relayers and off-chain assumptions all need evidence before activation."
+---
+
+# Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit
+
+Ethereum’s delayed Glamsterdam testnet step shows why gas repricing must be treated as a dependency migration: contract failure paths, relayers and off-chain assumptions all need evidence before activation.
+
+<p><strong>Analysis.</strong> Ethereum’s Glamsterdam upgrade has exposed a hard truth about mature blockchains: a protocol can preserve contract bytecode while changing the meaning of the assumptions around it. The practical issue is not simply that some operations may cost more. EIP-8037 and EIP-8038 can alter how gas is accounted for, how much gas remains after a failed call and whether a failure handler can finish. That turns a pricing proposal into a dependency migration for contracts and off-chain services.</p>
+
+<p>On November 6, the Ethereum Foundation said Glamsterdam testing had identified projects that could be vulnerable because the proposals break existing gas invariants. It delayed the Hoodi hard-fork step while audits and application outreach continued. A November 9 update said four reports had identified deployed contracts that could break and stressed that immutable contracts deserve time for scrutiny. The Foundation scheduled an All Core Devs Testing call for November 16 to examine audit findings, ahead of a possible next-steps discussion on November 19. At publication time, that November 16 call was still scheduled; this analysis does not assume its outcome.</p>
+
+<h2>The risk is behavioural, not just numerical</h2>
+
+<p>The easiest mistake is to read gas repricing as an estimate-maintenance task: update a constant, add a margin and move on. ChainSecurity’s analysis shows why that is incomplete. EIP-8037 introduces a separate reservoir for state-creation gas above the transaction gas cap, while EIP-8038 reprices state access. A failed call may return with a different usable gas position than contract authors previously expected. Code that records a permanent failure, consumes a nonce or disables a retry can therefore take a different branch even though its own source code has not changed.</p>
+
+<p>The Ethereum-maintained invariants repository makes the scope concrete. Under the pinned specification it compares a cold write to a new storage slot at 22,100 gas under Osaka with 110,020 across execution and state gas under Amsterdam. A CREATE or CREATE2 to an empty address rises from 32,000 to 195,600 before code deposit. Those numbers may change if the specification changes, but they are large enough to invalidate the comforting idea that ordinary estimation buffers will absorb the difference.</p>
+
+<p>More importantly, the repository lists eight old assumptions that developers should recheck. They include fixed gas budgets, measuring work from two <code>gasleft()</code> readings, treating a mined EIP-7702 authorization as proof that delegation succeeded, and assuming that a failed call leaves too little gas to do anything consequential. Several of these cross the boundary between on-chain code and relayers, wallets, indexers or automation. A contract-only audit is therefore not a complete compatibility review.</p>
+
+<h2>A practical migration checklist</h2>
+
+<p>Builders should treat this like a database or runtime migration with an explicit dependency inventory. First, map every fixed or signed gas budget in contracts, SDKs, bots and configuration. Second, identify failure paths that make irreversible state changes after an external call. A retryable failure becoming permanent is a correctness problem, not just degraded performance. Third, test first-use paths—new storage slots, new recipients and contract creation—because state creation is where the proposed cost shift is most pronounced.</p>
+
+<p>Fourth, separate evidence from inference. Static searches for <code>gas:</code>, <code>gasleft()</code>, <code>transfer</code>, <code>send</code> and unchecked creation calls are useful triage, but a match is not a vulnerability. Confirmation requires a test environment that actually implements the proposed rules, representative pre-state and the same caller-controlled gas conditions that exist in production. Finally, document whether remediation is a parameter change, an upgrade, a migration or impossible for immutable deployments. That distinction is exactly what protocol developers need when deciding whether the specification or the activation schedule should change.</p>
+
+<p>For Canadian teams building wallets, custody systems, exchanges or payment infrastructure, the immediate relevance is operational rather than regulatory: Ethereum execution assumptions often sit inside vendor SDKs and managed services. Procurement and release checklists should require dependency owners to state which Glamsterdam invariants they tested, which specification version they used and how retry safety was verified. “Our contracts compile” is not compatibility evidence.</p>
+
+<h2>What would change this assessment</h2>
+
+<p>The present evidence supports delaying activation until the audit findings and affected-deployment scope can be reviewed publicly. That assessment would change if the November 16 and November 19 discussions show that affected contracts are rare, upgradeable and protected by existing retry behaviour—or if EIP-8037 and EIP-8038 are revised so the problematic invariants no longer change. It would become more cautious if public findings reveal immutable contracts with irreversible failure paths or widely deployed off-chain software that hard-codes the old model.</p>
+
+<p>The broader lesson is the same one behind a good <a href="/article/blockchain-recovery-needs-public-evidence-pack">blockchain recovery evidence pack</a>: protocol confidence comes from reproducible checks, not reassuring labels. Teams can follow the continuing coverage in the <a href="/news-analysis">News &amp; Analysis hub</a>.</p>
+
+<p><em>Disclosure: Jason Ansell is involved with Vector Smart Chain and writes about blockchain systems. This article is independent analysis, not investment advice, and makes no claim that VSC or any project has tested the proposed Glamsterdam rules.</em></p>
+
+<h2>Sources</h2>
+<ul>
+<li><a href="https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038" rel="noopener noreferrer">Ethereum Foundation: EIP-8037/EIP-8038 Glamsterdam</a> (November 6, updated November 9, 2026)</li>
+<li><a href="https://github.com/ethereum/glamsterdam-gas-invariants" rel="noopener noreferrer">Ethereum: Glamsterdam gas invariants repository</a> (accessed November 16, 2026)</li>
+<li><a href="https://www.chainsecurity.com/blog/glamsterdam-gas/" rel="noopener noreferrer">ChainSecurity: Glamsterdam Hard Fork—When Spent Gas Comes Back</a> (October 13, 2026)</li>
+<li><a href="https://github.com/ethereum/pm/issues/2299" rel="noopener noreferrer">Ethereum PM: All Core Devs Testing #103 agenda</a> (scheduled November 16, 2026)</li>
+</ul>
+
+## Key takeaways
+
+- Glamsterdam gas repricing changes fundamental protocol assumptions, requiring developers to perform full dependency audits.
+- Proposed changes to gas invariants can cause immutable contracts to fail unexpectedly during execution or retries.
+- Testing must involve actual environments that simulate the new gas rules rather than relying on static code analysis.
+- Off-chain infrastructure like SDKs and relayers may be just as vulnerable as on-chain smart contracts.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/glamsterdam-gas-repricing-dependency-audit)
+## Related knowledge
+
+- [Bytecode](/generated/v2/glossary/bytecode) — glossary
+- [Bytecode](/generated/v2/glossary/bytecode) — related-glossary
+- [EIP-2938: Account Abstraction](/generated/v2/research/eip-2938-account-abstraction) — research
+- [EIP-2938: Account Abstraction](/generated/v2/research/eip-2938-account-abstraction) — related-research
+- [ERC-7512: On-chain Representation of Audit Reports](/generated/v2/research/erc-7512-on-chain-representation-of-audit-reports) — research
+- [ERC-7512: On-chain Representation of Audit Reports](/generated/v2/research/erc-7512-on-chain-representation-of-audit-reports) — related-research
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](/generated/v2/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform) — research
+- [Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform](/generated/v2/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform) — related-research
+- [Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant](/generated/v2/topics/ethereum-glamsterdam-gas-assumptions-test-suite) — article
+- [Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant](/generated/v2/topics/ethereum-glamsterdam-gas-assumptions-test-suite) — related-article
+- [How Deterministic Execution Changes Enterprise Blockchain Adoption](/generated/v2/topics/how-deterministic-execution-changes-enterprise-blockchain-adoption) — article
+- [How Deterministic Execution Changes Enterprise Blockchain Adoption](/generated/v2/topics/how-deterministic-execution-changes-enterprise-blockchain-adoption) — related-article
+- [Indexer](/generated/v2/glossary/indexer) — glossary
+- [Indexer](/generated/v2/glossary/indexer) — related-glossary
+- [Invariant](/generated/v2/glossary/invariant) — glossary
+- [Invariant](/generated/v2/glossary/invariant) — related-glossary
+
+---
+
+**Canonical knowledge ID:** `topic:glamsterdam-gas-repricing-dependency-audit`

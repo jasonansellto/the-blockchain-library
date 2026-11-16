@@ -4673,50 +4673,59 @@
     "seoTitle": "Bytecode — Definition & Explanation | The Blockchain Library",
     "seoDescription": "Bytecode is the low-level, machine-readable instruction set executed by the EVM. Understand how source code is compiled into blockchain-executable instructions.",
     "data": {
+      "title": "Bytecode",
+      "slug": "bytecode",
+      "definition": "Low-level machine-readable instructions produced by compiling smart-contract source code for execution by a virtual machine.",
+      "simple_explanation": "Low-level machine-readable instructions produced by compiling smart-contract source code for execution by a virtual machine.",
+      "why_it_matters": "Smart-contract concepts are essential for understanding programmable blockchain applications.",
+      "how_it_works": "A compiler takes source code and performs a series of optimizations to output a hex string. This string contains opcodes like PUSH, POP, ADD, and SSTORE. When a transaction calls a contract, the EVM loads this bytecode into its execution environment and runs these opcodes in order.",
+      "real_world_example": "When you deploy a contract to Mainnet via Etherscan or Hardhat, the resulting hex data block in the transaction receipt is the bytecode deployed to the blockchain.",
+      "advantages": [
+        "Highly efficient for machine execution",
+        "Immutable and tamper-proof",
+        "Ensures consistent behavior across different nodes"
+      ],
+      "limitations": [
+        "Difficult to read or debug",
+        "Reverse engineering is complex",
+        "Limited access to high-level logic"
+      ],
+      "common_misconceptions": [
+        "People often think bytecode is the same as the Solidity source code, but it is actually the compiled output.",
+        "Some believe bytecode is always readable by humans, but it is meant for the machine, not for developers to edit directly."
+      ],
+      "category_id": "6a4e39d110805a52385d8fc7",
+      "subcategory": "",
+      "difficulty": "intermediate",
+      "examples": [],
       "related_terms": [
         "EVM",
         "Solidity",
         "Smart Contract",
         "ABI"
       ],
+      "related_articles": [
+        "6afb0d2d10a40ff87b5c56fe"
+      ],
       "related_books": [],
-      "title": "Bytecode",
-      "real_world_example": "When you deploy a contract to Mainnet via Etherscan or Hardhat, the resulting hex data block in the transaction receipt is the bytecode deployed to the blockchain.",
-      "seo_title": "Bytecode — Definition & Explanation | The Blockchain Library",
       "related_research": [],
-      "difficulty": "intermediate",
-      "advantages": [
-        "Highly efficient for machine execution",
-        "Immutable and tamper-proof",
-        "Ensures consistent behavior across different nodes"
-      ],
-      "how_it_works": "A compiler takes source code and performs a series of optimizations to output a hex string. This string contains opcodes like PUSH, POP, ADD, and SSTORE. When a transaction calls a contract, the EVM loads this bytecode into its execution environment and runs these opcodes in order.",
-      "common_misconceptions": [
-        "People often think bytecode is the same as the Solidity source code, but it is actually the compiled output.",
-        "Some believe bytecode is always readable by humans, but it is meant for the machine, not for developers to edit directly."
-      ],
-      "category_id": "6a4e39d110805a52385d8fc7",
-      "examples": [],
-      "why_it_matters": "Smart-contract concepts are essential for understanding programmable blockchain applications.",
-      "seo_description": "Bytecode is the low-level, machine-readable instruction set executed by the EVM. Understand how source code is compiled into blockchain-executable instructions.",
-      "definition": "Low-level machine-readable instructions produced by compiling smart-contract source code for execution by a virtual machine.",
-      "related_articles": [],
-      "subcategory": "",
-      "slug": "bytecode",
-      "simple_explanation": "Low-level machine-readable instructions produced by compiling smart-contract source code for execution by a virtual machine.",
-      "limitations": [
-        "Difficult to read or debug",
-        "Reverse engineering is complex",
-        "Limited access to high-level logic"
-      ],
       "external_references": [],
+      "seo_title": "Bytecode — Definition & Explanation | The Blockchain Library",
+      "seo_description": "Bytecode is the low-level, machine-readable instruction set executed by the EVM. Understand how source code is compiled into blockchain-executable instructions.",
       "internal_id": "GLS-000262",
+      "og_image": null,
+      "last_reviewed": null,
       "language": "en",
-      "visibility": "public"
+      "visibility": "public",
+      "schema_type": null,
+      "source_links": [],
+      "author_ids": [],
+      "citation": null,
+      "estimated_reading_time": null
     },
     "reconciliation": {
       "mergedRecords": 1,
-      "canonicalSelectionScore": 32.01
+      "canonicalSelectionScore": 32.34
     }
   },
   {
@@ -139581,6 +139590,127 @@
         {
           "title": "Jason Ansell",
           "url": "https://jasonansell.ca/article/ai-shutdown-controls-revocation-path-not-panic-button"
+        }
+      ],
+      "citation": null,
+      "health_score": 0,
+      "geo_score": 0
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 52
+    }
+  },
+  {
+    "uid": "topic:glamsterdam-gas-repricing-dependency-audit",
+    "id": "glamsterdam-gas-repricing-dependency-audit",
+    "type": "topic",
+    "sourceType": "articles",
+    "sourceId": "6afb0d2d10a40ff87b5c56fe",
+    "sourceIds": [
+      "6afb0d2d10a40ff87b5c56fe"
+    ],
+    "title": "Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit",
+    "aliases": [],
+    "slug": "glamsterdam-gas-repricing-dependency-audit",
+    "canonicalUrl": "/topics/glamsterdam-gas-repricing-dependency-audit",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": "intermediate",
+    "categoryId": "6a4cfe7ce8ddbcb85df987d0",
+    "tags": [
+      "Ethereum",
+      "Smart contracts",
+      "Protocol upgrades",
+      "Developer operations"
+    ],
+    "summary": "Ethereum’s delayed Glamsterdam testnet step shows why gas repricing must be treated as a dependency migration: contract failure paths, relayers and off-chain assumptions all need evidence before activation.",
+    "seoTitle": "Understanding Ethereum Glamsterdam and Gas Repricing",
+    "seoDescription": "Learn why the Ethereum Glamsterdam upgrade acts as a dependency migration and how gas repricing risks impact smart contract correctness and security.",
+    "data": {
+      "title": "Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit",
+      "slug": "glamsterdam-gas-repricing-dependency-audit",
+      "summary": "Ethereum’s delayed Glamsterdam testnet step shows why gas repricing must be treated as a dependency migration: contract failure paths, relayers and off-chain assumptions all need evidence before activation.",
+      "featured_image": "https://base44.app/api/apps/6aa184855ed6b34685f2f7e8/files/mp/public/6aa184855ed6b34685f2f7e8/5ff9ac5e0_glamsterdam-gas-repricing-dependency-audit.jpg",
+      "body": "<p><strong>Analysis.</strong> Ethereum’s Glamsterdam upgrade has exposed a hard truth about mature blockchains: a protocol can preserve contract bytecode while changing the meaning of the assumptions around it. The practical issue is not simply that some operations may cost more. EIP-8037 and EIP-8038 can alter how gas is accounted for, how much gas remains after a failed call and whether a failure handler can finish. That turns a pricing proposal into a dependency migration for contracts and off-chain services.</p>\n\n<p>On November 6, the Ethereum Foundation said Glamsterdam testing had identified projects that could be vulnerable because the proposals break existing gas invariants. It delayed the Hoodi hard-fork step while audits and application outreach continued. A November 9 update said four reports had identified deployed contracts that could break and stressed that immutable contracts deserve time for scrutiny. The Foundation scheduled an All Core Devs Testing call for November 16 to examine audit findings, ahead of a possible next-steps discussion on November 19. At publication time, that November 16 call was still scheduled; this analysis does not assume its outcome.</p>\n\n<h2>The risk is behavioural, not just numerical</h2>\n\n<p>The easiest mistake is to read gas repricing as an estimate-maintenance task: update a constant, add a margin and move on. ChainSecurity’s analysis shows why that is incomplete. EIP-8037 introduces a separate reservoir for state-creation gas above the transaction gas cap, while EIP-8038 reprices state access. A failed call may return with a different usable gas position than contract authors previously expected. Code that records a permanent failure, consumes a nonce or disables a retry can therefore take a different branch even though its own source code has not changed.</p>\n\n<p>The Ethereum-maintained invariants repository makes the scope concrete. Under the pinned specification it compares a cold write to a new storage slot at 22,100 gas under Osaka with 110,020 across execution and state gas under Amsterdam. A CREATE or CREATE2 to an empty address rises from 32,000 to 195,600 before code deposit. Those numbers may change if the specification changes, but they are large enough to invalidate the comforting idea that ordinary estimation buffers will absorb the difference.</p>\n\n<p>More importantly, the repository lists eight old assumptions that developers should recheck. They include fixed gas budgets, measuring work from two <code>gasleft()</code> readings, treating a mined EIP-7702 authorization as proof that delegation succeeded, and assuming that a failed call leaves too little gas to do anything consequential. Several of these cross the boundary between on-chain code and relayers, wallets, indexers or automation. A contract-only audit is therefore not a complete compatibility review.</p>\n\n<h2>A practical migration checklist</h2>\n\n<p>Builders should treat this like a database or runtime migration with an explicit dependency inventory. First, map every fixed or signed gas budget in contracts, SDKs, bots and configuration. Second, identify failure paths that make irreversible state changes after an external call. A retryable failure becoming permanent is a correctness problem, not just degraded performance. Third, test first-use paths—new storage slots, new recipients and contract creation—because state creation is where the proposed cost shift is most pronounced.</p>\n\n<p>Fourth, separate evidence from inference. Static searches for <code>gas:</code>, <code>gasleft()</code>, <code>transfer</code>, <code>send</code> and unchecked creation calls are useful triage, but a match is not a vulnerability. Confirmation requires a test environment that actually implements the proposed rules, representative pre-state and the same caller-controlled gas conditions that exist in production. Finally, document whether remediation is a parameter change, an upgrade, a migration or impossible for immutable deployments. That distinction is exactly what protocol developers need when deciding whether the specification or the activation schedule should change.</p>\n\n<p>For Canadian teams building wallets, custody systems, exchanges or payment infrastructure, the immediate relevance is operational rather than regulatory: Ethereum execution assumptions often sit inside vendor SDKs and managed services. Procurement and release checklists should require dependency owners to state which Glamsterdam invariants they tested, which specification version they used and how retry safety was verified. “Our contracts compile” is not compatibility evidence.</p>\n\n<h2>What would change this assessment</h2>\n\n<p>The present evidence supports delaying activation until the audit findings and affected-deployment scope can be reviewed publicly. That assessment would change if the November 16 and November 19 discussions show that affected contracts are rare, upgradeable and protected by existing retry behaviour—or if EIP-8037 and EIP-8038 are revised so the problematic invariants no longer change. It would become more cautious if public findings reveal immutable contracts with irreversible failure paths or widely deployed off-chain software that hard-codes the old model.</p>\n\n<p>The broader lesson is the same one behind a good <a href=\"/article/blockchain-recovery-needs-public-evidence-pack\">blockchain recovery evidence pack</a>: protocol confidence comes from reproducible checks, not reassuring labels. Teams can follow the continuing coverage in the <a href=\"/news-analysis\">News &amp; Analysis hub</a>.</p>\n\n<p><em>Disclosure: Jason Ansell is involved with Vector Smart Chain and writes about blockchain systems. This article is independent analysis, not investment advice, and makes no claim that VSC or any project has tested the proposed Glamsterdam rules.</em></p>\n\n<h2>Sources</h2>\n<ul>\n<li><a href=\"https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038\" rel=\"noopener noreferrer\">Ethereum Foundation: EIP-8037/EIP-8038 Glamsterdam</a> (November 6, updated November 9, 2026)</li>\n<li><a href=\"https://github.com/ethereum/glamsterdam-gas-invariants\" rel=\"noopener noreferrer\">Ethereum: Glamsterdam gas invariants repository</a> (accessed November 16, 2026)</li>\n<li><a href=\"https://www.chainsecurity.com/blog/glamsterdam-gas/\" rel=\"noopener noreferrer\">ChainSecurity: Glamsterdam Hard Fork—When Spent Gas Comes Back</a> (October 13, 2026)</li>\n<li><a href=\"https://github.com/ethereum/pm/issues/2299\" rel=\"noopener noreferrer\">Ethereum PM: All Core Devs Testing #103 agenda</a> (scheduled November 16, 2026)</li>\n</ul>",
+      "toc": [],
+      "difficulty": "intermediate",
+      "reading_time": null,
+      "author_id": "6a4d2b0cf56d2579d02a65b0",
+      "author_ids": [
+        "6a4d2b0cf56d2579d02a65b0"
+      ],
+      "category_id": "6a4cfe7ce8ddbcb85df987d0",
+      "subcategory_id": null,
+      "tags": [
+        "Ethereum",
+        "Smart contracts",
+        "Protocol upgrades",
+        "Developer operations"
+      ],
+      "status": "published",
+      "access_level": "public",
+      "is_featured": false,
+      "key_takeaways": [
+        "Glamsterdam gas repricing changes fundamental protocol assumptions, requiring developers to perform full dependency audits.",
+        "Proposed changes to gas invariants can cause immutable contracts to fail unexpectedly during execution or retries.",
+        "Testing must involve actual environments that simulate the new gas rules rather than relying on static code analysis.",
+        "Off-chain infrastructure like SDKs and relayers may be just as vulnerable as on-chain smart contracts."
+      ],
+      "faq": [
+        {
+          "question": "Why is the Ethereum Glamsterdam upgrade considered a dependency migration rather than just a gas repricing?",
+          "answer": "While the upgrade involves changing gas costs, it also alters the fundamental assumptions contracts make about gas behavior. Changes to how gas is accounted for during failed calls or state creation can cause existing contracts to execute differently, necessitating a thorough review similar to a software dependency migration."
+        },
+        {
+          "question": "What risks do EIP-8037 and EIP-8038 pose to existing smart contracts?",
+          "answer": "These proposals change how gas is calculated for state access and creation, which can break code that relies on specific gas invariants. If a contract assumes a certain amount of gas remains after a failed call, these changes might force the contract into an unintended execution path, potentially leading to errors or permanent state issues."
+        },
+        {
+          "question": "How can developers verify their applications against the proposed Glamsterdam changes?",
+          "answer": "Developers should move beyond simple static code analysis and test their applications in environments that implement the specific Glamsterdam rules. This involves auditing fixed gas budgets, verifying failure paths, and ensuring that any off-chain services or relayers correctly handle the new gas cost realities."
+        }
+      ],
+      "references": [],
+      "related_articles": [
+        "6ade6a07e8b6e2e8978fc68e",
+        "6a4d489e84a41dd5787877fe",
+        "6a4d465156ea7b852367d400",
+        "6a4d47a3170f4bdd760ab7a5"
+      ],
+      "related_glossary": [
+        "6a6377411740e0025055f966",
+        "6a4e3b8a21982d6cf9e2b9bc",
+        "6a6377411740e0025055f8db",
+        "6a4e3b49f513543bfd2e885c",
+        "6a4e3a68cd9cbd4ed9e91f10",
+        "6a4e3b729fbb40b77381de48"
+      ],
+      "related_books": [
+        "6a4e79cb664a36ea0415e47a",
+        "6a4e7a47d5c1ca53ba8307df",
+        "6a4e7a822f410f5f2a3bdc05"
+      ],
+      "related_research": [
+        "6a727ae7c3a170117f93573a",
+        "6a7275e15e2fb9cc9ffcd873",
+        "6a4e74c95d3a10fb7598f631"
+      ],
+      "related_external": [],
+      "seo_title": "Understanding Ethereum Glamsterdam and Gas Repricing",
+      "seo_description": "Learn why the Ethereum Glamsterdam upgrade acts as a dependency migration and how gas repricing risks impact smart contract correctness and security.",
+      "published_date": "2026-11-16",
+      "internal_id": "ja-glamsterdam-gas-repricing-dependency-audit",
+      "og_image": null,
+      "last_reviewed": null,
+      "language": "en",
+      "visibility": "public",
+      "schema_type": null,
+      "source_links": [
+        {
+          "title": "Jason Ansell",
+          "url": "https://jasonansell.ca/article/glamsterdam-gas-repricing-dependency-audit"
         }
       ],
       "citation": null,
@@ -506954,6 +507084,3638 @@
     }
   },
   {
+    "uid": "news:crypto-insiders-arent-counting-on-silver-linings-in-congress-lame-duck-session",
+    "id": "crypto-insiders-arent-counting-on-silver-linings-in-congress-lame-duck-session",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010422",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010422"
+    ],
+    "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+    "aliases": [],
+    "slug": "crypto-insiders-arent-counting-on-silver-linings-in-congress-lame-duck-session",
+    "canonicalUrl": "/news/crypto-insiders-arent-counting-on-silver-linings-in-congress-lame-duck-session",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "link": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-15T14:00:00.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/fbc7e541d283d1ca139795169dd388c0890fdf2e-2854x1606.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.01
+    }
+  },
+  {
+    "uid": "news:enterprise-blockchain-is-going-to-come-back-from-the-dead",
+    "id": "enterprise-blockchain-is-going-to-come-back-from-the-dead",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010423",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010423"
+    ],
+    "title": "Enterprise blockchain is going to come back from the dead",
+    "aliases": [],
+    "slug": "enterprise-blockchain-is-going-to-come-back-from-the-dead",
+    "canonicalUrl": "/news/enterprise-blockchain-is-going-to-come-back-from-the-dead",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Enterprise blockchain is going to come back from the dead",
+      "link": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-15T14:30:00.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6ZMF6J25WASD4RQJDF0BRKT/hi-if-blockchain-is-the-door-to-the-future-of-finance-liquidity-is-the-key.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:how-10-000-in-stablecoins-would-have-gained-420-without-earning-interest",
+    "id": "how-10-000-in-stablecoins-would-have-gained-420-without-earning-interest",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010424",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010424"
+    ],
+    "title": "How $10,000 in stablecoins would have gained €420 without earning interest",
+    "aliases": [],
+    "slug": "how-10-000-in-stablecoins-would-have-gained-420-without-earning-interest",
+    "canonicalUrl": "/news/how-10-000-in-stablecoins-would-have-gained-420-without-earning-interest",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "How $10,000 in stablecoins would have gained €420 without earning interest",
+      "link": "https://cryptoslate.com/how-10000-in-stablecoins-would-have-gained-e420-without-earning-interest/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-15T16:30:56.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/usdc-euro-savings-tide.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.75
+    }
+  },
+  {
+    "uid": "news:bitcoin-now-looks-cheap-by-one-measure-after-1-billion-in-etf-outflows",
+    "id": "bitcoin-now-looks-cheap-by-one-measure-after-1-billion-in-etf-outflows",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010425",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010425"
+    ],
+    "title": "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows",
+    "aliases": [],
+    "slug": "bitcoin-now-looks-cheap-by-one-measure-after-1-billion-in-etf-outflows",
+    "canonicalUrl": "/news/bitcoin-now-looks-cheap-by-one-measure-after-1-billion-in-etf-outflows",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows",
+      "link": "https://cryptoslate.com/bitcoins-new-value-alert-still-needs-proof-that-buyers-can-absorb-supply/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-15T15:35:58.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-valuation-depths.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.75
+    }
+  },
+  {
+    "uid": "news:robots-now-run-ai-written-code-without-an-ai-calling-the-shots-succeeding-92-of-the-time",
+    "id": "robots-now-run-ai-written-code-without-an-ai-calling-the-shots-succeeding-92-of-the-time",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010426",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010426"
+    ],
+    "title": "Robots now run AI-written code without an AI calling the shots, succeeding 92% of the time",
+    "aliases": [],
+    "slug": "robots-now-run-ai-written-code-without-an-ai-calling-the-shots-succeeding-92-of-the-time",
+    "canonicalUrl": "/news/robots-now-run-ai-written-code-without-an-ai-calling-the-shots-succeeding-92-of-the-time",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Robots now run AI-written code without an AI calling the shots, succeeding 92% of the time",
+      "link": "https://cryptoslate.com/robot-code-runs-without-ai-calling-the-shots/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-15T14:40:28.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/robot-code-charger-trials.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.73
+    }
+  },
+  {
+    "uid": "news:britain-to-spend-4-billion-on-grid-bottlenecks-can-bitcoin-use-the-wasted-wind",
+    "id": "britain-to-spend-4-billion-on-grid-bottlenecks-can-bitcoin-use-the-wasted-wind",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010427",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010427"
+    ],
+    "title": "Britain to spend £4 billion on grid bottlenecks. Can Bitcoin use the wasted wind?",
+    "aliases": [],
+    "slug": "britain-to-spend-4-billion-on-grid-bottlenecks-can-bitcoin-use-the-wasted-wind",
+    "canonicalUrl": "/news/britain-to-spend-4-billion-on-grid-bottlenecks-can-bitcoin-use-the-wasted-wind",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Britain to spend £4 billion on grid bottlenecks. Can Bitcoin use the wasted wind?",
+      "link": "https://cryptoslate.com/can-bitcoin-use-britains-wasted-wind/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-15T13:45:30.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-wind-curtailment.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.7
+    }
+  },
+  {
+    "uid": "news:the-fed-could-rescue-bond-markets-and-still-make-life-harder-for-bitcoin",
+    "id": "the-fed-could-rescue-bond-markets-and-still-make-life-harder-for-bitcoin",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010428",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010428"
+    ],
+    "title": "The Fed could rescue bond markets and still make life harder for Bitcoin",
+    "aliases": [],
+    "slug": "the-fed-could-rescue-bond-markets-and-still-make-life-harder-for-bitcoin",
+    "canonicalUrl": "/news/the-fed-could-rescue-bond-markets-and-still-make-life-harder-for-bitcoin",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "The Fed could rescue bond markets and still make life harder for Bitcoin",
+      "link": "https://cryptoslate.com/fed-bond-market-rescue-could-still-hurt-bitcoin/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-15T12:50:56.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/fed-funding-bitcoin-barrier.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.71
+    }
+  },
+  {
+    "uid": "news:is-ethereum-the-8220-worst-asset-of-all-time-8221-amid-estimated-8-83-billion-bitmine-loss",
+    "id": "is-ethereum-the-8220-worst-asset-of-all-time-8221-amid-estimated-8-83-billion-bitmine-loss",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6af9e56e7e6ee3375d010429",
+    "sourceIds": [
+      "6af9e56e7e6ee3375d010429"
+    ],
+    "title": "Is Ethereum the &#8220;worst asset of all time,&#8221; amid estimated $8.83 billion BitMine loss ?",
+    "aliases": [],
+    "slug": "is-ethereum-the-8220-worst-asset-of-all-time-8221-amid-estimated-8-83-billion-bitmine-loss",
+    "canonicalUrl": "/news/is-ethereum-the-8220-worst-asset-of-all-time-8221-amid-estimated-8-83-billion-bitmine-loss",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Is Ethereum the &#8220;worst asset of all time,&#8221; amid estimated $8.83 billion BitMine loss ?",
+      "link": "https://cryptoslate.com/is-ethereum-the-worst-asset-of-all-time-amid-estimated-8-83-billion-bitmine-loss/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-15T11:55:50.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/ethereum-bitmine-mixed-dates_1024.png",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.83
+    }
+  },
+  {
+    "uid": "news:did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+    "id": "did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663ea",
+    "sourceIds": [
+      "6afa3a7948263da3a39663ea"
+    ],
+    "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+    "aliases": [],
+    "slug": "did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+    "canonicalUrl": "/news/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+      "link": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-15T19:30:00.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/ada78f5ec4fd71c667ef42b2dfcc0255712c872e-1920x1080.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.95
+    }
+  },
+  {
+    "uid": "news:us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+    "id": "us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663eb",
+    "sourceIds": [
+      "6afa3a7948263da3a39663eb"
+    ],
+    "title": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest",
+    "aliases": [],
+    "slug": "us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+    "canonicalUrl": "/news/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest",
+      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-15T22:50:59.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7GHDR0B3KQVHBYYPZ3528NV/jensen-in-flames.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market",
+    "id": "xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663ec",
+    "sourceIds": [
+      "6afa3a7948263da3a39663ec"
+    ],
+    "title": "XRP Price Crashes Below $0.90 as Shrinking Stablecoin Supply Drain Crypto Market",
+    "aliases": [],
+    "slug": "xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market",
+    "canonicalUrl": "/news/xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "XRP Price Crashes Below $0.90 as Shrinking Stablecoin Supply Drain Crypto Market",
+      "link": "https://bitcoinist.com/xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-15T20:58:20.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/XRP-Coin-Amid-Market-Crash-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.79
+    }
+  },
+  {
+    "uid": "news:bitcoin-breaks-below-63k-as-market-panic-intensifies",
+    "id": "bitcoin-breaks-below-63k-as-market-panic-intensifies",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663ed",
+    "sourceIds": [
+      "6afa3a7948263da3a39663ed"
+    ],
+    "title": "Bitcoin Breaks Below $63K as Market Panic Intensifies",
+    "aliases": [],
+    "slug": "bitcoin-breaks-below-63k-as-market-panic-intensifies",
+    "canonicalUrl": "/news/bitcoin-breaks-below-63k-as-market-panic-intensifies",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin Breaks Below $63K as Market Panic Intensifies",
+      "link": "https://bitcoinist.com/bitcoin-breaks-below-63k-as-market-panic-intensifies/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-15T20:48:44.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Bitcoin-Market-Drop-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.67
+    }
+  },
+  {
+    "uid": "news:megaeth-cuts-staff-as-ai-ambitions-complicate-its-ethereum-scaling-story",
+    "id": "megaeth-cuts-staff-as-ai-ambitions-complicate-its-ethereum-scaling-story",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663ee",
+    "sourceIds": [
+      "6afa3a7948263da3a39663ee"
+    ],
+    "title": "MegaETH Cuts Staff as AI Ambitions Complicate Its Ethereum Scaling Story",
+    "aliases": [],
+    "slug": "megaeth-cuts-staff-as-ai-ambitions-complicate-its-ethereum-scaling-story",
+    "canonicalUrl": "/news/megaeth-cuts-staff-as-ai-ambitions-complicate-its-ethereum-scaling-story",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "MegaETH Cuts Staff as AI Ambitions Complicate Its Ethereum Scaling Story",
+      "link": "https://www.newsbtc.com/ethereum-news/megaeth-staff-cuts-ai-pivot-ethereum-layer-two/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-15T23:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-07_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.75
+    }
+  },
+  {
+    "uid": "news:kava-lend-exploit-exposes-a-dangerous-gap-in-defi-collateral-accounting",
+    "id": "kava-lend-exploit-exposes-a-dangerous-gap-in-defi-collateral-accounting",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663ef",
+    "sourceIds": [
+      "6afa3a7948263da3a39663ef"
+    ],
+    "title": "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
+    "aliases": [],
+    "slug": "kava-lend-exploit-exposes-a-dangerous-gap-in-defi-collateral-accounting",
+    "canonicalUrl": "/news/kava-lend-exploit-exposes-a-dangerous-gap-in-defi-collateral-accounting",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
+      "link": "https://www.newsbtc.com/news/defi/kava-lend-exploit-collateral-busd-market-55-million/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-15T22:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-06_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.75
+    }
+  },
+  {
+    "uid": "news:ether-etfs-approach-an-unwanted-record-after-seven-weeks-of-outflows",
+    "id": "ether-etfs-approach-an-unwanted-record-after-seven-weeks-of-outflows",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663f0",
+    "sourceIds": [
+      "6afa3a7948263da3a39663f0"
+    ],
+    "title": "Ether ETFs Approach an Unwanted Record After Seven Weeks of Outflows",
+    "aliases": [],
+    "slug": "ether-etfs-approach-an-unwanted-record-after-seven-weeks-of-outflows",
+    "canonicalUrl": "/news/ether-etfs-approach-an-unwanted-record-after-seven-weeks-of-outflows",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Ether ETFs Approach an Unwanted Record After Seven Weeks of Outflows",
+      "link": "https://www.newsbtc.com/ethereum-news/ether-etfs-seventh-week-outflows-398-million-november-2026/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-15T21:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-05_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:stablecoin-supply-shrinkage-raises-a-bigger-question-about-crypto-liquidity",
+    "id": "stablecoin-supply-shrinkage-raises-a-bigger-question-about-crypto-liquidity",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663f1",
+    "sourceIds": [
+      "6afa3a7948263da3a39663f1"
+    ],
+    "title": "Stablecoin Supply Shrinkage Raises a Bigger Question About Crypto Liquidity",
+    "aliases": [],
+    "slug": "stablecoin-supply-shrinkage-raises-a-bigger-question-about-crypto-liquidity",
+    "canonicalUrl": "/news/stablecoin-supply-shrinkage-raises-a-bigger-question-about-crypto-liquidity",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Stablecoin Supply Shrinkage Raises a Bigger Question About Crypto Liquidity",
+      "link": "https://www.newsbtc.com/crypto-news/stablecoin-supply-contracts-crypto-liquidity-november-2026/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-15T20:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-04_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.77
+    }
+  },
+  {
+    "uid": "news:xrp-briefly-drops-to-0-89-as-crypto-liquidity-retreats",
+    "id": "xrp-briefly-drops-to-0-89-as-crypto-liquidity-retreats",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663f2",
+    "sourceIds": [
+      "6afa3a7948263da3a39663f2"
+    ],
+    "title": "XRP Briefly Drops to $0.89 as Crypto Liquidity Retreats",
+    "aliases": [],
+    "slug": "xrp-briefly-drops-to-0-89-as-crypto-liquidity-retreats",
+    "canonicalUrl": "/news/xrp-briefly-drops-to-0-89-as-crypto-liquidity-retreats",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "XRP Briefly Drops to $0.89 as Crypto Liquidity Retreats",
+      "link": "https://www.newsbtc.com/xrp-news/xrp-falls-089-november-2026-market-liquidity/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-15T19:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-03_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.7
+    }
+  },
+  {
+    "uid": "news:bitcoin-etfs-lose-2-35-billion-in-two-weeks-as-outflow-streak-extends",
+    "id": "bitcoin-etfs-lose-2-35-billion-in-two-weeks-as-outflow-streak-extends",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663f3",
+    "sourceIds": [
+      "6afa3a7948263da3a39663f3"
+    ],
+    "title": "Bitcoin ETFs Lose $2.35 Billion in Two Weeks as Outflow Streak Extends",
+    "aliases": [],
+    "slug": "bitcoin-etfs-lose-2-35-billion-in-two-weeks-as-outflow-streak-extends",
+    "canonicalUrl": "/news/bitcoin-etfs-lose-2-35-billion-in-two-weeks-as-outflow-streak-extends",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin ETFs Lose $2.35 Billion in Two Weeks as Outflow Streak Extends",
+      "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-etf-two-week-outflows-235-billion-november-2026/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-15T18:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-02_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:bitcoin-slides-toward-63-000-as-weekend-selling-tests-market-confidence",
+    "id": "bitcoin-slides-toward-63-000-as-weekend-selling-tests-market-confidence",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663f4",
+    "sourceIds": [
+      "6afa3a7948263da3a39663f4"
+    ],
+    "title": "Bitcoin Slides Toward $63,000 as Weekend Selling Tests Market Confidence",
+    "aliases": [],
+    "slug": "bitcoin-slides-toward-63-000-as-weekend-selling-tests-market-confidence",
+    "canonicalUrl": "/news/bitcoin-slides-toward-63-000-as-weekend-selling-tests-market-confidence",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin Slides Toward $63,000 as Weekend Selling Tests Market Confidence",
+      "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-november-weekend-selloff-63000-risk-liquidity/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-15T17:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-01_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:tether-wants-its-gold-token-to-rival-etfs",
+    "id": "tether-wants-its-gold-token-to-rival-etfs",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa3a7948263da3a39663f5",
+    "sourceIds": [
+      "6afa3a7948263da3a39663f5"
+    ],
+    "title": "Tether wants its gold token to rival ETFs",
+    "aliases": [],
+    "slug": "tether-wants-its-gold-token-to-rival-etfs",
+    "canonicalUrl": "/news/tether-wants-its-gold-token-to-rival-etfs",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Tether wants its gold token to rival ETFs",
+      "link": "https://cryptoslate.com/tether-wants-its-gold-token-to-rival-etfs/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-15T17:25:18.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/xaut-gold-dealer-redemption.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.63
+    }
+  },
+  {
+    "uid": "news:bitcoins-biggest-bet-is-now-a-drop-below-60-000-not-a-rally-above-100-000",
+    "id": "bitcoins-biggest-bet-is-now-a-drop-below-60-000-not-a-rally-above-100-000",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f119",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f119"
+    ],
+    "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+    "aliases": [],
+    "slug": "bitcoins-biggest-bet-is-now-a-drop-below-60-000-not-a-rally-above-100-000",
+    "canonicalUrl": "/news/bitcoins-biggest-bet-is-now-a-drop-below-60-000-not-a-rally-above-100-000",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T05:01:17.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/1faa0efcc61bdd97c1f9445e77972c18db9f5803-2608x903.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings",
+    "id": "asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f11a",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f11a"
+    ],
+    "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
+    "aliases": [],
+    "slug": "asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings",
+    "canonicalUrl": "/news/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
+      "link": "https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T04:42:07.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HAG95YKRDAYZ26YFMBK4VQ/stocks-1.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.9
+    }
+  },
+  {
+    "uid": "news:luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack",
+    "id": "luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f11b",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f11b"
+    ],
+    "title": "Luxor CEO warns of AI ‘dark forest’ after Bitcoin miner hijack",
+    "aliases": [],
+    "slug": "luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack",
+    "canonicalUrl": "/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Luxor CEO warns of AI ‘dark forest’ after Bitcoin miner hijack",
+      "link": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T02:33:07.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1JT29BT8ARQ99J5C2455XSJ/hi-ai-is-now-paying-bitcoin-miners-more-than-mining-1.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:jensen-huang-weighs-nvidia-comeback-days-after-shock-exit-ft",
+    "id": "jensen-huang-weighs-nvidia-comeback-days-after-shock-exit-ft",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f11c",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f11c"
+    ],
+    "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+    "aliases": [],
+    "slug": "jensen-huang-weighs-nvidia-comeback-days-after-shock-exit-ft",
+    "canonicalUrl": "/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit-ft",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+      "link": "https://cointelegraph.com/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-15T23:47:45.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7GS2G61SYB3FQX1TYFRT8TR/nvidia-knock.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.93
+    }
+  },
+  {
+    "uid": "news:metas-internal-prediction-app-uses-points-not-cash-and-that-distinction-matters",
+    "id": "metas-internal-prediction-app-uses-points-not-cash-and-that-distinction-matters",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f11d",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f11d"
+    ],
+    "title": "Meta’s Internal Prediction App Uses Points, Not Cash — and That Distinction Matters",
+    "aliases": [],
+    "slug": "metas-internal-prediction-app-uses-points-not-cash-and-that-distinction-matters",
+    "canonicalUrl": "/news/metas-internal-prediction-app-uses-points-not-cash-and-that-distinction-matters",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Meta’s Internal Prediction App Uses Points, Not Cash — and That Distinction Matters",
+      "link": "https://www.newsbtc.com/business/meta-takes-prediction-app-employee-points-trial/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T05:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-13_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:senate-hearing-could-shape-the-secs-next-chapter-for-crypto-oversight",
+    "id": "senate-hearing-could-shape-the-secs-next-chapter-for-crypto-oversight",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f11e",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f11e"
+    ],
+    "title": "Senate Hearing Could Shape the SEC’s Next Chapter for Crypto Oversight",
+    "aliases": [],
+    "slug": "senate-hearing-could-shape-the-secs-next-chapter-for-crypto-oversight",
+    "canonicalUrl": "/news/senate-hearing-could-shape-the-secs-next-chapter-for-crypto-oversight",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Senate Hearing Could Shape the SEC’s Next Chapter for Crypto Oversight",
+      "link": "https://www.newsbtc.com/regulation/us-senate-sec-nominees-november-19-hearing-crypto/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T04:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-12_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.74
+    }
+  },
+  {
+    "uid": "news:jpmorgan-filing-shows-bigger-strategy-stake-and-540-million-in-bitcoin-etf-shares",
+    "id": "jpmorgan-filing-shows-bigger-strategy-stake-and-540-million-in-bitcoin-etf-shares",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f11f",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f11f"
+    ],
+    "title": "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares",
+    "aliases": [],
+    "slug": "jpmorgan-filing-shows-bigger-strategy-stake-and-540-million-in-bitcoin-etf-shares",
+    "canonicalUrl": "/news/jpmorgan-filing-shows-bigger-strategy-stake-and-540-million-in-bitcoin-etf-shares",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares",
+      "link": "https://www.newsbtc.com/bitcoin-news/jpmorgan-13f-strategy-ibit-holdings-q3-2026/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T03:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-11_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:could-bitcoin-mining-use-scotlands-stranded-wind-power-the-debate-is-heating-up",
+    "id": "could-bitcoin-mining-use-scotlands-stranded-wind-power-the-debate-is-heating-up",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f120",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f120"
+    ],
+    "title": "Could Bitcoin Mining Use Scotland’s Stranded Wind Power? The Debate Is Heating Up",
+    "aliases": [],
+    "slug": "could-bitcoin-mining-use-scotlands-stranded-wind-power-the-debate-is-heating-up",
+    "canonicalUrl": "/news/could-bitcoin-mining-use-scotlands-stranded-wind-power-the-debate-is-heating-up",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Could Bitcoin Mining Use Scotland’s Stranded Wind Power? The Debate Is Heating Up",
+      "link": "https://www.newsbtc.com/bitcoin-mining/scottish-wind-curtailment-bitcoin-mining-policy-proposal/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T02:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-10_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.79
+    }
+  },
+  {
+    "uid": "news:three-central-banks-test-a-bridge-between-traditional-fx-and-tokenized-settlement",
+    "id": "three-central-banks-test-a-bridge-between-traditional-fx-and-tokenized-settlement",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f121",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f121"
+    ],
+    "title": "Three Central Banks Test a Bridge Between Traditional FX and Tokenized Settlement",
+    "aliases": [],
+    "slug": "three-central-banks-test-a-bridge-between-traditional-fx-and-tokenized-settlement",
+    "canonicalUrl": "/news/three-central-banks-test-a-bridge-between-traditional-fx-and-tokenized-settlement",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Three Central Banks Test a Bridge Between Traditional FX and Tokenized Settlement",
+      "link": "https://www.newsbtc.com/news/blockchain/central-banks-meridian-fx-apac-tokenized-settlement-test/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T01:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-09_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.79
+    }
+  },
+  {
+    "uid": "news:kazakhstan-targets-tokenized-government-bonds-after-22-million-note-sale",
+    "id": "kazakhstan-targets-tokenized-government-bonds-after-22-million-note-sale",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afa8e670a5bcb22b344f122",
+    "sourceIds": [
+      "6afa8e670a5bcb22b344f122"
+    ],
+    "title": "Kazakhstan Targets Tokenized Government Bonds After $22 Million Note Sale",
+    "aliases": [],
+    "slug": "kazakhstan-targets-tokenized-government-bonds-after-22-million-note-sale",
+    "canonicalUrl": "/news/kazakhstan-targets-tokenized-government-bonds-after-22-million-note-sale",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Kazakhstan Targets Tokenized Government Bonds After $22 Million Note Sale",
+      "link": "https://www.newsbtc.com/news/blockchain/kazakhstan-tokenized-government-bonds-q1-2027-notes/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T00:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-08_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:bitcoin-slips-after-rebounding-from-july-14-low-that-triggered-2-billion-of-liquidations",
+    "id": "bitcoin-slips-after-rebounding-from-july-14-low-that-triggered-2-billion-of-liquidations",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6862",
+    "sourceIds": [
+      "6afae33f28178e0388bf6862"
+    ],
+    "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
+    "aliases": [],
+    "slug": "bitcoin-slips-after-rebounding-from-july-14-low-that-triggered-2-billion-of-liquidations",
+    "canonicalUrl": "/news/bitcoin-slips-after-rebounding-from-july-14-low-that-triggered-2-billion-of-liquidations",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
+      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T11:03:14.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/99275e65a09f45a355f488dc07959ff17f416731-1920x1080.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.97
+    }
+  },
+  {
+    "uid": "news:live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+    "id": "live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6863",
+    "sourceIds": [
+      "6afae33f28178e0388bf6863"
+    ],
+    "title": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
+    "aliases": [],
+    "slug": "live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+    "canonicalUrl": "/news/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
+      "link": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T09:34:18.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/6285ca18b516e7f58992440d81dd86fe7a6f6759-1000x694.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:fomc-minutes-nvidia-earnings-russias-retail-crypto-rules-crypto-week-ahead",
+    "id": "fomc-minutes-nvidia-earnings-russias-retail-crypto-rules-crypto-week-ahead",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6864",
+    "sourceIds": [
+      "6afae33f28178e0388bf6864"
+    ],
+    "title": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
+    "aliases": [],
+    "slug": "fomc-minutes-nvidia-earnings-russias-retail-crypto-rules-crypto-week-ahead",
+    "canonicalUrl": "/news/fomc-minutes-nvidia-earnings-russias-retail-crypto-rules-crypto-week-ahead",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T09:23:07.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/abfc53cb8936b0ca235301bd25a7729a38804863-4928x3264.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:jpmorgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+    "id": "jpmorgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6865",
+    "sourceIds": [
+      "6afae33f28178e0388bf6865"
+    ],
+    "title": "JPMorgan and DBS let clients move dollars across borders on weekends",
+    "aliases": [],
+    "slug": "jpmorgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+    "canonicalUrl": "/news/jpmorgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "JPMorgan and DBS let clients move dollars across borders on weekends",
+      "link": "https://www.coindesk.com/business/2026/11/16/j-p-morgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T08:46:00.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/3733fe37d72e4e20a3f958e5caa214e522aaefb2-5184x3456.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.95
+    }
+  },
+  {
+    "uid": "news:vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+    "id": "vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6866",
+    "sourceIds": [
+      "6afae33f28178e0388bf6866"
+    ],
+    "title": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
+    "aliases": [],
+    "slug": "vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+    "canonicalUrl": "/news/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
+      "link": "https://www.coindesk.com/tech/2026/11/16/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T08:18:03.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/fc25947f1bdd54e21669cfeb4f95b3a58f436d2c-1500x919.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+    "id": "bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6867",
+    "sourceIds": [
+      "6afae33f28178e0388bf6867"
+    ],
+    "title": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
+    "aliases": [],
+    "slug": "bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+    "canonicalUrl": "/news/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
+      "link": "https://www.coindesk.com/tech/2026/11/16/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T07:51:15.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/24d3f69befbaee5d806b9369ad2fb160ee40d9e0-1900x1268.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.97
+    }
+  },
+  {
+    "uid": "news:cardano-holders-vote-down-5-million-bid-to-buy-warehouse-copper",
+    "id": "cardano-holders-vote-down-5-million-bid-to-buy-warehouse-copper",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6868",
+    "sourceIds": [
+      "6afae33f28178e0388bf6868"
+    ],
+    "title": "Cardano holders vote down $5 million bid to buy warehouse copper",
+    "aliases": [],
+    "slug": "cardano-holders-vote-down-5-million-bid-to-buy-warehouse-copper",
+    "canonicalUrl": "/news/cardano-holders-vote-down-5-million-bid-to-buy-warehouse-copper",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Cardano holders vote down $5 million bid to buy warehouse copper",
+      "link": "https://www.coindesk.com/markets/2026/11/16/cardano-holders-vote-down-usd5-million-bid-to-buy-warehouse-copper",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T06:27:42.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/a7ecc9b1c3dbe306ed510a4dfecc0218e9d5fdcb-1440x1080.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.93
+    }
+  },
+  {
+    "uid": "news:trump-administration-to-name-nvidia-openai-and-several-others-as-ai-national-champions",
+    "id": "trump-administration-to-name-nvidia-openai-and-several-others-as-ai-national-champions",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6869",
+    "sourceIds": [
+      "6afae33f28178e0388bf6869"
+    ],
+    "title": "Trump administration to name Nvidia, OpenAI and several others as AI national champions",
+    "aliases": [],
+    "slug": "trump-administration-to-name-nvidia-openai-and-several-others-as-ai-national-champions",
+    "canonicalUrl": "/news/trump-administration-to-name-nvidia-openai-and-several-others-as-ai-national-champions",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Trump administration to name Nvidia, OpenAI and several others as AI national champions",
+      "link": "https://www.coindesk.com/markets/2026/11/16/trump-administration-to-name-nvidia-openai-and-several-others-as-u-s-ai-national-champions",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T06:01:41.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/728f1c4d7d3e3ad57795074a8f7602efad6c0fb7-5636x3170.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.03
+    }
+  },
+  {
+    "uid": "news:changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+    "id": "changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf686a",
+    "sourceIds": [
+      "6afae33f28178e0388bf686a"
+    ],
+    "title": "Changing of Lagarde: How the candidates to be next ECB president view bitcoin, stablecoins and CBDCs",
+    "aliases": [],
+    "slug": "changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+    "canonicalUrl": "/news/changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Changing of Lagarde: How the candidates to be next ECB president view bitcoin, stablecoins and CBDCs",
+      "link": "https://www.coindesk.com/policy/2026/11/14/changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-15T07:00:00.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/26cccb22ec392aed75fa716d72a469596e1faf75-6048x4032.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.07
+    }
+  },
+  {
+    "uid": "news:singapore-germany-test-cross-border-fx-settlement-with-cbdcs",
+    "id": "singapore-germany-test-cross-border-fx-settlement-with-cbdcs",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf686b",
+    "sourceIds": [
+      "6afae33f28178e0388bf686b"
+    ],
+    "title": "Singapore, Germany test cross-border FX settlement with CBDCs",
+    "aliases": [],
+    "slug": "singapore-germany-test-cross-border-fx-settlement-with-cbdcs",
+    "canonicalUrl": "/news/singapore-germany-test-cross-border-fx-settlement-with-cbdcs",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Singapore, Germany test cross-border FX settlement with CBDCs",
+      "link": "https://cointelegraph.com/news/singapore-german-central-banks-settlement-cbdcs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T10:49:12.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HWN6S3QM8JYZVAE091TE12/hi-love-it-or-hate-it-cryptos-vibe-shift-is-now-imminent2.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12
+    }
+  },
+  {
+    "uid": "news:btc-price-tags-18-week-low-into-nvidia-earnings-three-things-to-know-in-bitcoin-this-week",
+    "id": "btc-price-tags-18-week-low-into-nvidia-earnings-three-things-to-know-in-bitcoin-this-week",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf686c",
+    "sourceIds": [
+      "6afae33f28178e0388bf686c"
+    ],
+    "title": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
+    "aliases": [],
+    "slug": "btc-price-tags-18-week-low-into-nvidia-earnings-three-things-to-know-in-bitcoin-this-week",
+    "canonicalUrl": "/news/btc-price-tags-18-week-low-into-nvidia-earnings-three-things-to-know-in-bitcoin-this-week",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
+      "link": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T10:39:05.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HVW7XS4YT09R4XZ0NJ36S1/article-covers-154231-bitcoin-s-drop-below-62-k-shows-btc-price-remains-on-delicate-ground-960x640.webp",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.18
+    }
+  },
+  {
+    "uid": "news:dbs-jpmorgans-kinexys-launch-24-7-transfers-of-tokenized-deposits",
+    "id": "dbs-jpmorgans-kinexys-launch-24-7-transfers-of-tokenized-deposits",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf686d",
+    "sourceIds": [
+      "6afae33f28178e0388bf686d"
+    ],
+    "title": "DBS, JPMorgan’s Kinexys launch 24/7 transfers of tokenized deposits",
+    "aliases": [],
+    "slug": "dbs-jpmorgans-kinexys-launch-24-7-transfers-of-tokenized-deposits",
+    "canonicalUrl": "/news/dbs-jpmorgans-kinexys-launch-24-7-transfers-of-tokenized-deposits",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "DBS, JPMorgan’s Kinexys launch 24/7 transfers of tokenized deposits",
+      "link": "https://cointelegraph.com/news/dbs-jpmorgans-kinexys-launch-tokenized-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T08:50:50.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HQDZG97Z39GHB9PREQ9EAS/hi-open-finance-vs-decentralized-finance-dbs-bank.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:harvard-dartmouth-keep-bitcoin-etf-stakes-steady-as-fund-gains-42-in-q3",
+    "id": "harvard-dartmouth-keep-bitcoin-etf-stakes-steady-as-fund-gains-42-in-q3",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf686e",
+    "sourceIds": [
+      "6afae33f28178e0388bf686e"
+    ],
+    "title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
+    "aliases": [],
+    "slug": "harvard-dartmouth-keep-bitcoin-etf-stakes-steady-as-fund-gains-42-in-q3",
+    "canonicalUrl": "/news/harvard-dartmouth-keep-bitcoin-etf-stakes-steady-as-fund-gains-42-in-q3",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
+      "link": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T08:27:39.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HJNRJ2VQQN7Q5P88574B90/studentbitcoin-etfwoman.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.94
+    }
+  },
+  {
+    "uid": "news:aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes",
+    "id": "aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf686f",
+    "sourceIds": [
+      "6afae33f28178e0388bf686f"
+    ],
+    "title": "Aster CEO suspects foul play after token plunges 32% in minutes",
+    "aliases": [],
+    "slug": "aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes",
+    "canonicalUrl": "/news/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Aster CEO suspects foul play after token plunges 32% in minutes",
+      "link": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T05:28:40.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HCTKP0DY9SJ6Z1XG7SGW4T/aquapark-falling-market-red.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test",
+    "id": "jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6870",
+    "sourceIds": [
+      "6afae33f28178e0388bf6870"
+    ],
+    "title": "Jensen Huang Eyes Nvidia Comeback As Bitcoin Faces A Critical Market Test",
+    "aliases": [],
+    "slug": "jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test",
+    "canonicalUrl": "/news/jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Jensen Huang Eyes Nvidia Comeback As Bitcoin Faces A Critical Market Test",
+      "link": "https://bitcoinist.com/jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T10:29:39.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Screen-Shot-2026-11-16-at-10.10.18-AM-640x359.png",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.79
+    }
+  },
+  {
+    "uid": "news:ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade",
+    "id": "ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6871",
+    "sourceIds": [
+      "6afae33f28178e0388bf6871"
+    ],
+    "title": "Ethereum Price Eyes Recovery As Vitalik Buterin Backs Major Quantum-Safe Upgrade",
+    "aliases": [],
+    "slug": "ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade",
+    "canonicalUrl": "/news/ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Ethereum Price Eyes Recovery As Vitalik Buterin Backs Major Quantum-Safe Upgrade",
+      "link": "https://bitcoinist.com/ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T09:45:13.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Screen-Shot-2026-11-16-at-10.41.40-AM-640x359.png",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.81
+    }
+  },
+  {
+    "uid": "news:michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support",
+    "id": "michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6872",
+    "sourceIds": [
+      "6afae33f28178e0388bf6872"
+    ],
+    "title": "Michael Saylor Hints At Another Bitcoin Buy As BTC Tests Key Support",
+    "aliases": [],
+    "slug": "michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support",
+    "canonicalUrl": "/news/michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Michael Saylor Hints At Another Bitcoin Buy As BTC Tests Key Support",
+      "link": "https://bitcoinist.com/michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T08:42:53.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Screen-Shot-2026-11-16-at-9.42.09-AM-640x358.png",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:us-seeks-to-seize-more-than-1-2-billion-linked-to-binance-hack",
+    "id": "us-seeks-to-seize-more-than-1-2-billion-linked-to-binance-hack",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6873",
+    "sourceIds": [
+      "6afae33f28178e0388bf6873"
+    ],
+    "title": "US Seeks to Seize More Than $1.2 Billion Linked to Binance Hack",
+    "aliases": [],
+    "slug": "us-seeks-to-seize-more-than-1-2-billion-linked-to-binance-hack",
+    "canonicalUrl": "/news/us-seeks-to-seize-more-than-1-2-billion-linked-to-binance-hack",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "US Seeks to Seize More Than $1.2 Billion Linked to Binance Hack",
+      "link": "https://www.newsbtc.com/security/doj-binance-hack-one-point-two-billion-seizure-order/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T11:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-19_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.73
+    }
+  },
+  {
+    "uid": "news:wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending",
+    "id": "wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6874",
+    "sourceIds": [
+      "6afae33f28178e0388bf6874"
+    ],
+    "title": "WBTC Expands Into Confidential DeFi, STRK Rewards and Institutional Lending",
+    "aliases": [],
+    "slug": "wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending",
+    "canonicalUrl": "/news/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "WBTC Expands Into Confidential DeFi, STRK Rewards and Institutional Lending",
+      "link": "https://www.newsbtc.com/news/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T10:54:49.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/8c158ce913164e6d93b679fb9213120a-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.79
+    }
+  },
+  {
+    "uid": "news:thailand-proposes-daily-stablecoin-transfer-cap-for-regulated-platforms",
+    "id": "thailand-proposes-daily-stablecoin-transfer-cap-for-regulated-platforms",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6875",
+    "sourceIds": [
+      "6afae33f28178e0388bf6875"
+    ],
+    "title": "Thailand Proposes Daily Stablecoin Transfer Cap for Regulated Platforms",
+    "aliases": [],
+    "slug": "thailand-proposes-daily-stablecoin-transfer-cap-for-regulated-platforms",
+    "canonicalUrl": "/news/thailand-proposes-daily-stablecoin-transfer-cap-for-regulated-platforms",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Thailand Proposes Daily Stablecoin Transfer Cap for Regulated Platforms",
+      "link": "https://www.newsbtc.com/regulation/thailand-sec-stablecoin-transfer-cap-5-million-baht/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T10:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-18_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.75
+    }
+  },
+  {
+    "uid": "news:twenty-one-capitals-1-09-billion-profit-is-mostly-a-bitcoin-accounting-story",
+    "id": "twenty-one-capitals-1-09-billion-profit-is-mostly-a-bitcoin-accounting-story",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6876",
+    "sourceIds": [
+      "6afae33f28178e0388bf6876"
+    ],
+    "title": "Twenty One Capital’s $1.09 Billion Profit Is Mostly a Bitcoin Accounting Story",
+    "aliases": [],
+    "slug": "twenty-one-capitals-1-09-billion-profit-is-mostly-a-bitcoin-accounting-story",
+    "canonicalUrl": "/news/twenty-one-capitals-1-09-billion-profit-is-mostly-a-bitcoin-accounting-story",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Twenty One Capital’s $1.09 Billion Profit Is Mostly a Bitcoin Accounting Story",
+      "link": "https://www.newsbtc.com/bitcoin-news/twenty-one-capital-q3-2026-bitcoin-paper-gains/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T09:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-17_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:kraken-parent-payward-reports-quarterly-recovery-despite-weak-year-on-year-profit",
+    "id": "kraken-parent-payward-reports-quarterly-recovery-despite-weak-year-on-year-profit",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6877",
+    "sourceIds": [
+      "6afae33f28178e0388bf6877"
+    ],
+    "title": "Kraken Parent Payward Reports Quarterly Recovery Despite Weak Year-on-Year Profit",
+    "aliases": [],
+    "slug": "kraken-parent-payward-reports-quarterly-recovery-despite-weak-year-on-year-profit",
+    "canonicalUrl": "/news/kraken-parent-payward-reports-quarterly-recovery-despite-weak-year-on-year-profit",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Kraken Parent Payward Reports Quarterly Recovery Despite Weak Year-on-Year Profit",
+      "link": "https://www.newsbtc.com/exchanges/kraken-payward-q3-2026-ebitda-trading-volume/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T08:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-16_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.75
+    }
+  },
+  {
+    "uid": "news:hyperliquid-open-interest-surges-as-perpetuals-rival-large-exchanges",
+    "id": "hyperliquid-open-interest-surges-as-perpetuals-rival-large-exchanges",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6878",
+    "sourceIds": [
+      "6afae33f28178e0388bf6878"
+    ],
+    "title": "Hyperliquid Open Interest Surges as Perpetuals Rival Large Exchanges",
+    "aliases": [],
+    "slug": "hyperliquid-open-interest-surges-as-perpetuals-rival-large-exchanges",
+    "canonicalUrl": "/news/hyperliquid-open-interest-surges-as-perpetuals-rival-large-exchanges",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Hyperliquid Open Interest Surges as Perpetuals Rival Large Exchanges",
+      "link": "https://www.newsbtc.com/news/defi/hyperliquid-q3-2026-open-interest-16-billion-perpetuals/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T07:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-15_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.75
+    }
+  },
+  {
+    "uid": "news:louisiana-and-cftc-clash-over-who-regulates-prediction-markets",
+    "id": "louisiana-and-cftc-clash-over-who-regulates-prediction-markets",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf6879",
+    "sourceIds": [
+      "6afae33f28178e0388bf6879"
+    ],
+    "title": "Louisiana and CFTC Clash Over Who Regulates Prediction Markets",
+    "aliases": [],
+    "slug": "louisiana-and-cftc-clash-over-who-regulates-prediction-markets",
+    "canonicalUrl": "/news/louisiana-and-cftc-clash-over-who-regulates-prediction-markets",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Louisiana and CFTC Clash Over Who Regulates Prediction Markets",
+      "link": "https://www.newsbtc.com/regulation/louisiana-cftc-prediction-markets-federal-lawsuit/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T06:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-14_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.73
+    }
+  },
+  {
+    "uid": "news:bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners",
+    "id": "bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf687a",
+    "sourceIds": [
+      "6afae33f28178e0388bf687a"
+    ],
+    "title": "Bitcoin’s mining difficulty falls 9%, easing pressure on miners",
+    "aliases": [],
+    "slug": "bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners",
+    "canonicalUrl": "/news/bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin’s mining difficulty falls 9%, easing pressure on miners",
+      "link": "https://cryptoslate.com/bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T10:25:08.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-mining-october-difficulty-rollback.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.74
+    }
+  },
+  {
+    "uid": "news:google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring",
+    "id": "google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf687b",
+    "sourceIds": [
+      "6afae33f28178e0388bf687b"
+    ],
+    "title": "Google opens AI rainfall tracking system that could improve global flood and drought monitoring",
+    "aliases": [],
+    "slug": "google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring",
+    "canonicalUrl": "/news/google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Google opens AI rainfall tracking system that could improve global flood and drought monitoring",
+      "link": "https://cryptoslate.com/google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T09:40:56.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/deepmind-rainfall-data-delay.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.85
+    }
+  },
+  {
+    "uid": "news:bitcoin-crashes-near-62-000-over-weekend-as-crypto-liquidations-topped-1-8-billion",
+    "id": "bitcoin-crashes-near-62-000-over-weekend-as-crypto-liquidations-topped-1-8-billion",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf687c",
+    "sourceIds": [
+      "6afae33f28178e0388bf687c"
+    ],
+    "title": "Bitcoin crashes near $62,000 over weekend as crypto liquidations topped $1.8 billion",
+    "aliases": [],
+    "slug": "bitcoin-crashes-near-62-000-over-weekend-as-crypto-liquidations-topped-1-8-billion",
+    "canonicalUrl": "/news/bitcoin-crashes-near-62-000-over-weekend-as-crypto-liquidations-topped-1-8-billion",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin crashes near $62,000 over weekend as crypto liquidations topped $1.8 billion",
+      "link": "https://cryptoslate.com/bitcoin-crashes-near-62000-over-weekend-as-crypto-liquidations-topped-1-8-billion/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T09:10:06.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-liquidation-fault-line.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.8
+    }
+  },
+  {
+    "uid": "news:bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-up-to-13-eh-s-of-computing-power",
+    "id": "bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-up-to-13-eh-s-of-computing-power",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afae33f28178e0388bf687d",
+    "sourceIds": [
+      "6afae33f28178e0388bf687d"
+    ],
+    "title": "Bitcoin mining industry rocked by AI-linked breach as hackers divert up to 13 EH/s of computing power",
+    "aliases": [],
+    "slug": "bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-up-to-13-eh-s-of-computing-power",
+    "canonicalUrl": "/news/bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-up-to-13-eh-s-of-computing-power",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin mining industry rocked by AI-linked breach as hackers divert up to 13 EH/s of computing power",
+      "link": "https://cryptoslate.com/bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-13-eh-s-of-computing-power/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T08:30:35.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-mining-reward-route.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.86
+    }
+  },
+  {
+    "uid": "news:lighter-suspends-all-withdrawals-after-10-4-million-crypto-exploit",
+    "id": "lighter-suspends-all-withdrawals-after-10-4-million-crypto-exploit",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83e5",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83e5"
+    ],
+    "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+    "aliases": [],
+    "slug": "lighter-suspends-all-withdrawals-after-10-4-million-crypto-exploit",
+    "canonicalUrl": "/news/lighter-suspends-all-withdrawals-after-10-4-million-crypto-exploit",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+      "link": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T16:41:42.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.94
+    }
+  },
+  {
+    "uid": "news:brazils-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+    "id": "brazils-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83e6",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83e6"
+    ],
+    "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
+    "aliases": [],
+    "slug": "brazils-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+    "canonicalUrl": "/news/brazils-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
+      "link": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T15:54:11.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/a010b6e8d5d9fab88360e6939414f5b12c6bf695-1920x1272.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:german-parliament-proposes-crypto-seizures-without-criminal-charges",
+    "id": "german-parliament-proposes-crypto-seizures-without-criminal-charges",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83e7",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83e7"
+    ],
+    "title": "German parliament proposes crypto seizures without criminal charges",
+    "aliases": [],
+    "slug": "german-parliament-proposes-crypto-seizures-without-criminal-charges",
+    "canonicalUrl": "/news/german-parliament-proposes-crypto-seizures-without-criminal-charges",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "German parliament proposes crypto seizures without criminal charges",
+      "link": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T15:44:59.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/21123d64d51278ef35094d798bbbf4299d8fb1f9-1920x1150.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.94
+    }
+  },
+  {
+    "uid": "news:solana-drops-beta-label-after-more-than-six-years",
+    "id": "solana-drops-beta-label-after-more-than-six-years",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83e8",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83e8"
+    ],
+    "title": "Solana drops ‘beta’ label after more than six years",
+    "aliases": [],
+    "slug": "solana-drops-beta-label-after-more-than-six-years",
+    "canonicalUrl": "/news/solana-drops-beta-label-after-more-than-six-years",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Solana drops ‘beta’ label after more than six years",
+      "link": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T13:03:16.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.87
+    }
+  },
+  {
+    "uid": "news:old-crypto-feud-reignites-why-okxs-star-xu-blames-binance-for-two-years-of-october-crashes",
+    "id": "old-crypto-feud-reignites-why-okxs-star-xu-blames-binance-for-two-years-of-october-crashes",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83e9",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83e9"
+    ],
+    "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+    "aliases": [],
+    "slug": "old-crypto-feud-reignites-why-okxs-star-xu-blames-binance-for-two-years-of-october-crashes",
+    "canonicalUrl": "/news/old-crypto-feud-reignites-why-okxs-star-xu-blames-binance-for-two-years-of-october-crashes",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T12:55:46.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/29d719a0d2a37836704e6c27126b7c3a61442f02-3000x1688.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.01
+    }
+  },
+  {
+    "uid": "news:bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-heres-why",
+    "id": "bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-heres-why",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83ea",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83ea"
+    ],
+    "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+    "aliases": [],
+    "slug": "bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-heres-why",
+    "canonicalUrl": "/news/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-heres-why",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T12:09:00.000Z",
+      "thumbnail": "",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.64
+    }
+  },
+  {
+    "uid": "news:singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+    "id": "singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83eb",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83eb"
+    ],
+    "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
+    "aliases": [],
+    "slug": "singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+    "canonicalUrl": "/news/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
+      "link": "https://www.coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-16T11:47:12.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/396fee9fa61b67f9e1e4910772815314cadeb26e-1920x1281.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:bitcoin-price-fails-to-hold-65k-as-us-stocks-drop-further-on-ai-nerves",
+    "id": "bitcoin-price-fails-to-hold-65k-as-us-stocks-drop-further-on-ai-nerves",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83ec",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83ec"
+    ],
+    "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+    "aliases": [],
+    "slug": "bitcoin-price-fails-to-hold-65k-as-us-stocks-drop-further-on-ai-nerves",
+    "canonicalUrl": "/news/bitcoin-price-fails-to-hold-65k-as-us-stocks-drop-further-on-ai-nerves",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-fails-to-hold-65k-us-stocks-drop-on-ai-nerves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T16:26:52.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7JHP4NCX2Y0XJ53GG2CQ9P5/article-covers-251323-bitcoin-market-enters-full-capitulation-price-dips-below-63k-1280x853.webp",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.12
+    }
+  },
+  {
+    "uid": "news:zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments",
+    "id": "zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83ed",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83ed"
+    ],
+    "title": "Zelle picks Solana for ZelleUSD stablecoin and international payments",
+    "aliases": [],
+    "slug": "zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments",
+    "canonicalUrl": "/news/zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Zelle picks Solana for ZelleUSD stablecoin and international payments",
+      "link": "https://cointelegraph.com/news/zelle-solana-zelleusd-stablecoin-international-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T14:55:46.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7J2PYBEKD9SZX7YQXC7QW4N/network-with-transparent-logos.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.97
+    }
+  },
+  {
+    "uid": "news:lighter-pauses-withdrawals-after-reported-10m-account-theft",
+    "id": "lighter-pauses-withdrawals-after-reported-10m-account-theft",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83ee",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83ee"
+    ],
+    "title": "Lighter pauses withdrawals after reported $10M account theft",
+    "aliases": [],
+    "slug": "lighter-pauses-withdrawals-after-reported-10m-account-theft",
+    "canonicalUrl": "/news/lighter-pauses-withdrawals-after-reported-10m-account-theft",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Lighter pauses withdrawals after reported $10M account theft",
+      "link": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T14:19:50.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7J8N3NZM3XQTBBET43XGEQG/hi-the-role-of-cryptocurrencies-in-the-rise-of-ransomware2-1.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:banks-are-banning-ai-agents-over-security-and-competition-concerns",
+    "id": "banks-are-banning-ai-agents-over-security-and-competition-concerns",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83ef",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83ef"
+    ],
+    "title": "Banks are banning AI agents over security... and competition concerns",
+    "aliases": [],
+    "slug": "banks-are-banning-ai-agents-over-security-and-competition-concerns",
+    "canonicalUrl": "/news/banks-are-banning-ai-agents-over-security-and-competition-concerns",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Banks are banning AI agents over security... and competition concerns",
+      "link": "https://cointelegraph.com/magazine/banks-are-banning-ai-agents-over-security-and-competition-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T13:30:00.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M77N5CQZH7NKG0SY1V5FFCPB/magazineai-agents-will-kill-the-web-as-we-know-it.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.04
+    }
+  },
+  {
+    "uid": "news:strategy-buys-33m-in-bitcoin-spends-228m-on-strc-buybacks",
+    "id": "strategy-buys-33m-in-bitcoin-spends-228m-on-strc-buybacks",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f0",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f0"
+    ],
+    "title": "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
+    "aliases": [],
+    "slug": "strategy-buys-33m-in-bitcoin-spends-228m-on-strc-buybacks",
+    "canonicalUrl": "/news/strategy-buys-33m-in-bitcoin-spends-228m-on-strc-buybacks",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
+      "link": "https://cointelegraph.com/news/strategy-buy-485-bitcoin-228-million-strc-buyback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T13:29:11.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7J7K9K6T0PTX9XTZ5X8P8KY/trader-trading-strategy-strategyb.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.95
+    }
+  },
+  {
+    "uid": "news:binance-pay-later-offers-credit-backed-by-bitcoin-ether-and-bnb-holdings",
+    "id": "binance-pay-later-offers-credit-backed-by-bitcoin-ether-and-bnb-holdings",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f1",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f1"
+    ],
+    "title": "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings",
+    "aliases": [],
+    "slug": "binance-pay-later-offers-credit-backed-by-bitcoin-ether-and-bnb-holdings",
+    "canonicalUrl": "/news/binance-pay-later-offers-credit-backed-by-bitcoin-ether-and-bnb-holdings",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings",
+      "link": "https://cointelegraph.com/news/binance-pay-later-crypto-backed-credit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T13:00:00.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7J07ZYWCJ0MH18HZT45S0TD/hi-which-cryptocurrency-is-the-most-usable-as-real-money-bitcoin.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:hkma-swift-explore-tokenized-deposits-for-cross-border-bank-payments",
+    "id": "hkma-swift-explore-tokenized-deposits-for-cross-border-bank-payments",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f2",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f2"
+    ],
+    "title": "HKMA, Swift explore tokenized deposits for cross-border bank payments",
+    "aliases": [],
+    "slug": "hkma-swift-explore-tokenized-deposits-for-cross-border-bank-payments",
+    "canonicalUrl": "/news/hkma-swift-explore-tokenized-deposits-for-cross-border-bank-payments",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "HKMA, Swift explore tokenized deposits for cross-border bank payments",
+      "link": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-16T12:54:51.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7J398NA409DFNBP1NFSP0YW/blockchain-technology-takes-hold-swift-1.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach",
+    "id": "bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f3",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f3"
+    ],
+    "title": "Bitcoin Miners Hijacked as Attackers Redirect BTC Through Luxor Breach",
+    "aliases": [],
+    "slug": "bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach",
+    "canonicalUrl": "/news/bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin Miners Hijacked as Attackers Redirect BTC Through Luxor Breach",
+      "link": "https://bitcoinist.com/bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T15:33:37.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Cryptocurrency-Mining-Breach-in-Neon-Light-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.79
+    }
+  },
+  {
+    "uid": "news:vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal",
+    "id": "vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f4",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f4"
+    ],
+    "title": "Vitalik Buterin Backs Faster Route to Quantum-Safe Ethereum With New Proposal",
+    "aliases": [],
+    "slug": "vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal",
+    "canonicalUrl": "/news/vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Vitalik Buterin Backs Faster Route to Quantum-Safe Ethereum With New Proposal",
+      "link": "https://bitcoinist.com/vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T15:24:16.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Ethereum-Security-Meets-Quantum-Tech-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.8
+    }
+  },
+  {
+    "uid": "news:solana-officially-exits-beta-after-six-years-with-new-network-versioning-system",
+    "id": "solana-officially-exits-beta-after-six-years-with-new-network-versioning-system",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f5",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f5"
+    ],
+    "title": "Solana Officially Exits Beta After Six Years With New Network Versioning System",
+    "aliases": [],
+    "slug": "solana-officially-exits-beta-after-six-years-with-new-network-versioning-system",
+    "canonicalUrl": "/news/solana-officially-exits-beta-after-six-years-with-new-network-versioning-system",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Solana Officially Exits Beta After Six Years With New Network Versioning System",
+      "link": "https://bitcoinist.com/solana-officially-exits-beta-after-six-years-with-new-network-versioning-system/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T15:14:30.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Solana-1.0_-Futuristic-Network-Upgrade-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.81
+    }
+  },
+  {
+    "uid": "news:kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40",
+    "id": "kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f6",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f6"
+    ],
+    "title": "Kava Lend Exploit Drains $3.8M in KAVA as Token Price Plunges Nearly 40%",
+    "aliases": [],
+    "slug": "kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40",
+    "canonicalUrl": "/news/kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Kava Lend Exploit Drains $3.8M in KAVA as Token Price Plunges Nearly 40%",
+      "link": "https://bitcoinist.com/kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T15:01:44.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Kava-Crypto-Market-Crash-640x360.webp",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.75
+    }
+  },
+  {
+    "uid": "news:bitcoin-8217-s-1-000-day-halving-pattern-returns",
+    "id": "bitcoin-8217-s-1-000-day-halving-pattern-returns",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f7",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f7"
+    ],
+    "title": "Bitcoin&#8217;s 1,000-Day Halving Pattern Returns",
+    "aliases": [],
+    "slug": "bitcoin-8217-s-1-000-day-halving-pattern-returns",
+    "canonicalUrl": "/news/bitcoin-8217-s-1-000-day-halving-pattern-returns",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin&#8217;s 1,000-Day Halving Pattern Returns",
+      "link": "https://bitcoinist.com/bitcoins-1000-day-halving-pattern-returns/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T12:44:05.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Screen-Shot-2026-11-16-at-12.03.36-PM-640x323.png",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.67
+    }
+  },
+  {
+    "uid": "news:bitcoin-8217-s-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming",
+    "id": "bitcoin-8217-s-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f8",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f8"
+    ],
+    "title": "Bitcoin&#8217;s Biggest Options Bet Just Flipped — Is a Major Price Reversal Coming?",
+    "aliases": [],
+    "slug": "bitcoin-8217-s-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming",
+    "canonicalUrl": "/news/bitcoin-8217-s-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Mining"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin&#8217;s Biggest Options Bet Just Flipped — Is a Major Price Reversal Coming?",
+      "link": "https://bitcoinist.com/bitcoins-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming/",
+      "source": "Bitcoinist",
+      "pubDate": "2026-11-16T11:47:32.000Z",
+      "thumbnail": "https://bitcoinist.com/wp-content/uploads/2026/11/Screen-Shot-2026-11-16-at-11.25.54-AM-640x319.png",
+      "tags": [
+        "Bitcoin",
+        "Mining"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.81
+    }
+  },
+  {
+    "uid": "news:clearpool-8217-s-cpool-to-clear-swap-approaches-as-exchanges-begin-transfer-restrictions",
+    "id": "clearpool-8217-s-cpool-to-clear-swap-approaches-as-exchanges-begin-transfer-restrictions",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83f9",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83f9"
+    ],
+    "title": "Clearpool&#8217;s CPOOL-to-CLEAR Swap Approaches as Exchanges Begin Transfer Restrictions",
+    "aliases": [],
+    "slug": "clearpool-8217-s-cpool-to-clear-swap-approaches-as-exchanges-begin-transfer-restrictions",
+    "canonicalUrl": "/news/clearpool-8217-s-cpool-to-clear-swap-approaches-as-exchanges-begin-transfer-restrictions",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Clearpool&#8217;s CPOOL-to-CLEAR Swap Approaches as Exchanges Begin Transfer Restrictions",
+      "link": "https://www.newsbtc.com/news/defi/clearpool-cpool-clear-swap-exchange-transfer-restrictions/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T17:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-16-N16-18_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.79
+    }
+  },
+  {
+    "uid": "news:paraguays-cheap-hydropower-is-drawing-a-new-rival-for-bitcoin-miners-ai",
+    "id": "paraguays-cheap-hydropower-is-drawing-a-new-rival-for-bitcoin-miners-ai",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83fa",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83fa"
+    ],
+    "title": "Paraguay’s Cheap Hydropower Is Drawing a New Rival for Bitcoin Miners: AI",
+    "aliases": [],
+    "slug": "paraguays-cheap-hydropower-is-drawing-a-new-rival-for-bitcoin-miners-ai",
+    "canonicalUrl": "/news/paraguays-cheap-hydropower-is-drawing-a-new-rival-for-bitcoin-miners-ai",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Paraguay’s Cheap Hydropower Is Drawing a New Rival for Bitcoin Miners: AI",
+      "link": "https://www.newsbtc.com/bitcoin-mining/paraguay-bitcoin-mining-ai-data-centers-hydropower/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-16T12:00:00.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/newsbtc-2026-11-15-N15-20_cover-750x422.jpg",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.76
+    }
+  },
+  {
+    "uid": "news:coinone-support-breach-puts-passwords-and-identity-details-at-risk",
+    "id": "coinone-support-breach-puts-passwords-and-identity-details-at-risk",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83fb",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83fb"
+    ],
+    "title": "Coinone support breach puts passwords and identity details at risk",
+    "aliases": [],
+    "slug": "coinone-support-breach-puts-passwords-and-identity-details-at-risk",
+    "canonicalUrl": "/news/coinone-support-breach-puts-passwords-and-identity-details-at-risk",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Coinone support breach puts passwords and identity details at risk",
+      "link": "https://cryptoslate.com/coinone-support-breach-puts-passwords-and-identity-details-at-risk/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T16:40:22.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/coinone-support-archive.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.72
+    }
+  },
+  {
+    "uid": "news:michael-saylor-says-banks-could-ignite-bitcoin-8217-s-next-rally-as-strategy-eyes-48-billion-credit-expansion",
+    "id": "michael-saylor-says-banks-could-ignite-bitcoin-8217-s-next-rally-as-strategy-eyes-48-billion-credit-expansion",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83fc",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83fc"
+    ],
+    "title": "Michael Saylor says banks could ignite Bitcoin&#8217;s next rally as Strategy eyes $48 billion credit expansion",
+    "aliases": [],
+    "slug": "michael-saylor-says-banks-could-ignite-bitcoin-8217-s-next-rally-as-strategy-eyes-48-billion-credit-expansion",
+    "canonicalUrl": "/news/michael-saylor-says-banks-could-ignite-bitcoin-8217-s-next-rally-as-strategy-eyes-48-billion-credit-expansion",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Michael Saylor says banks could ignite Bitcoin&#8217;s next rally as Strategy eyes $48 billion credit expansion",
+      "link": "https://cryptoslate.com/michael-saylor-says-banks-could-ignite-bitcoins-next-rally-as-strategy-eyes-48-billion-credit-expansion/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T15:40:42.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-bank-credit-bridge.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.89
+    }
+  },
+  {
+    "uid": "news:record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin",
+    "id": "record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83fd",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83fd"
+    ],
+    "title": "Record hedge-fund leverage could soon spill over into Bitcoin",
+    "aliases": [],
+    "slug": "record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin",
+    "canonicalUrl": "/news/record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Record hedge-fund leverage could soon spill over into Bitcoin",
+      "link": "https://cryptoslate.com/record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T14:30:20.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/fed-hedge-fund-leverage-bitcoin-hidden-iceberg.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.75
+    }
+  },
+  {
+    "uid": "news:japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs",
+    "id": "japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83fe",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83fe"
+    ],
+    "title": "Japan’s economy stalls, giving Bitcoin no automatic relief from yen funding costs",
+    "aliases": [],
+    "slug": "japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs",
+    "canonicalUrl": "/news/japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Japan’s economy stalls, giving Bitcoin no automatic relief from yen funding costs",
+      "link": "https://cryptoslate.com/japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T13:30:20.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/japan-gdp-bitcoin-yen-funding-burden.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.81
+    }
+  },
+  {
+    "uid": "news:ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment",
+    "id": "ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa83ff",
+    "sourceIds": [
+      "6afb374058d3fedad4aa83ff"
+    ],
+    "title": "AI agents impersonate employees and attempt to steal confidential data during safety experiment",
+    "aliases": [],
+    "slug": "ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment",
+    "canonicalUrl": "/news/ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "AI agents impersonate employees and attempt to steal confidential data during safety experiment",
+      "link": "https://cryptoslate.com/ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T12:30:35.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/epoch-ai-traffic-overload.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.84
+    }
+  },
+  {
+    "uid": "news:solanas-stablecoin-market-shrinks-919-million-as-usdc-grows",
+    "id": "solanas-stablecoin-market-shrinks-919-million-as-usdc-grows",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6afb374058d3fedad4aa8400",
+    "sourceIds": [
+      "6afb374058d3fedad4aa8400"
+    ],
+    "title": "Solana’s stablecoin market shrinks $919 million as USDC grows",
+    "aliases": [],
+    "slug": "solanas-stablecoin-market-shrinks-919-million-as-usdc-grows",
+    "canonicalUrl": "/news/solanas-stablecoin-market-shrinks-919-million-as-usdc-grows",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Solana’s stablecoin market shrinks $919 million as USDC grows",
+      "link": "https://cryptoslate.com/solanas-stablecoin-market-shrinks-919-million-as-usdc-grows/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-16T11:10:10.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/solana-usdc-stablecoin-receding-pool.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.73
+    }
+  },
+  {
     "uid": "newsletter:issue-1-blockchain-foundations",
     "id": "issue-1-blockchain-foundations",
     "type": "newsletter",
@@ -508047,6 +511809,54 @@
     "reconciliation": {
       "mergedRecords": 1,
       "canonicalSelectionScore": 22.39
+    }
+  },
+  {
+    "uid": "newsletter:the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
+    "id": "the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
+    "type": "newsletter",
+    "sourceType": "newsletters",
+    "sourceId": "6afb0db2f724f884f948c17c",
+    "sourceIds": [
+      "6afb0db2f724f884f948c17c"
+    ],
+    "title": "The Blockchain Library: Weekly Insights on Governance, AI, and Protocol Integrity",
+    "aliases": [],
+    "slug": "the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
+    "canonicalUrl": "/newsletter/the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "weekly",
+      "blockchain",
+      "crypto",
+      "web3"
+    ],
+    "summary": "Welcome to this week's edition of The Blockchain Library, where we delve into the intersection of emerging technology, regulatory frameworks, and protocol architecture. From the evolving standards of AI oversight in Canada to critical developments in Ethereum and Web3 infrastructure, this curated list explores the complexities of building resilient systems.",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "The Blockchain Library: Weekly Insights on Governance, AI, and Protocol Integrity",
+      "slug": "the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
+      "issue_number": 24,
+      "published_date": "2026-11-16",
+      "summary": "Welcome to this week's edition of The Blockchain Library, where we delve into the intersection of emerging technology, regulatory frameworks, and protocol architecture. From the evolving standards of AI oversight in Canada to critical developments in Ethereum and Web3 infrastructure, this curated list explores the complexities of building resilient systems.",
+      "body": "## Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit\nEthereum’s delayed Glamsterdam testnet highlights the necessity of treating gas repricing as a comprehensive dependency migration. Success requires rigorous verification of contract failure paths, relayers, and off-chain assumptions prior to activation.\n\n## AI Shutdown Controls Need a Revocation Path, Not a Panic Button\nCanada's recent AI safety declaration emphasizes that mitigating unsafe AI requires enforced revocation mechanisms at the source of system authority rather than simple emergency kill switches.\n\n## Canada’s Bank Stablecoin Proposal Separates Brand From Liability\nNew proposals for bank-issued stablecoins aim to firewall institutional brands, though a bank's logo does not inherently convert a token into a guaranteed deposit.\n\n## Agent-Scale Git Moves the Bottleneck to Merge Policy\nWhile new storage architectures handle massive agent-driven code contributions, the real challenge has shifted to establishing governance policies for merging and shipping autonomous changes.\n\n## Blockchain Recovery Needs a Public Evidence Pack, Not a Victory Lap\nRecovery efforts like the Liquid incident demonstrate that transparency requires publishing detailed evidence packs covering reserve proofs, patch scopes, and governance changes.\n\n## Bank AI Risk Tiers Should Measure Agency, Not Intelligence\nEmerging frameworks from the OCC and OSFI suggest that AI risk in finance should be evaluated based on the consequences of delegated authority and reversibility rather than raw intelligence.\n\n## Tokenized Money Needs a Convertibility Test\nAtomic settlement is only one piece of the puzzle; for tokenized money to succeed, it must maintain convertibility at par even during periods of network stress or liquidity failure.\n\n## Health AI Needs an Appeal Path, Not Just an Accuracy Score\nCanadian regulators are shifting the focus of Health AI toward accountability, mandating that patients have clear avenues to challenge algorithmic outputs through human review.\n\n## Canada’s Frontier-AI Cyber Direction Starts With an Asset Inventory\nAs digital threats evolve, this directive underscores a fundamental operational truth: robust security begins with precise asset inventories and strictly governed machine identities.\n\n## Browser-Mediated Credentials Change the Web3 Trust Model\nW3C’s Digital Credentials API aims to improve consent and origin binding, though the browser's role remains distinct from the service-level decisions regarding which issuers and claims to trust.\n\nExplore these topics further and join the conversation by visiting our full archive at The Blockchain Library.",
+      "cover_image": null,
+      "is_featured": false,
+      "tags": [
+        "weekly",
+        "blockchain",
+        "crypto",
+        "web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 22.78
     }
   }
 ]

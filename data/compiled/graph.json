@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "3ce8880913550e2c",
+  "buildId": "79e9ce8ac8e90285",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -11608,6 +11608,14 @@
       "label": "AI Shutdown Controls Need a Revocation Path, Not a Panic Button",
       "canonicalUrl": "/topics/ai-shutdown-controls-revocation-path-not-panic-button",
       "categoryId": "6a4cfe7ce8ddbcb85df987d3",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "type": "topic",
+      "label": "Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit",
+      "canonicalUrl": "/topics/glamsterdam-gas-repricing-dependency-audit",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
       "difficulty": "intermediate"
     },
     {
@@ -76115,6 +76123,694 @@
       "difficulty": null
     },
     {
+      "id": "news:crypto-insiders-arent-counting-on-silver-linings-in-congress-lame-duck-session",
+      "type": "news",
+      "label": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "canonicalUrl": "/news/crypto-insiders-arent-counting-on-silver-linings-in-congress-lame-duck-session",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:enterprise-blockchain-is-going-to-come-back-from-the-dead",
+      "type": "news",
+      "label": "Enterprise blockchain is going to come back from the dead",
+      "canonicalUrl": "/news/enterprise-blockchain-is-going-to-come-back-from-the-dead",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:how-10-000-in-stablecoins-would-have-gained-420-without-earning-interest",
+      "type": "news",
+      "label": "How $10,000 in stablecoins would have gained €420 without earning interest",
+      "canonicalUrl": "/news/how-10-000-in-stablecoins-would-have-gained-420-without-earning-interest",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-now-looks-cheap-by-one-measure-after-1-billion-in-etf-outflows",
+      "type": "news",
+      "label": "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows",
+      "canonicalUrl": "/news/bitcoin-now-looks-cheap-by-one-measure-after-1-billion-in-etf-outflows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:robots-now-run-ai-written-code-without-an-ai-calling-the-shots-succeeding-92-of-the-time",
+      "type": "news",
+      "label": "Robots now run AI-written code without an AI calling the shots, succeeding 92% of the time",
+      "canonicalUrl": "/news/robots-now-run-ai-written-code-without-an-ai-calling-the-shots-succeeding-92-of-the-time",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:britain-to-spend-4-billion-on-grid-bottlenecks-can-bitcoin-use-the-wasted-wind",
+      "type": "news",
+      "label": "Britain to spend £4 billion on grid bottlenecks. Can Bitcoin use the wasted wind?",
+      "canonicalUrl": "/news/britain-to-spend-4-billion-on-grid-bottlenecks-can-bitcoin-use-the-wasted-wind",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-fed-could-rescue-bond-markets-and-still-make-life-harder-for-bitcoin",
+      "type": "news",
+      "label": "The Fed could rescue bond markets and still make life harder for Bitcoin",
+      "canonicalUrl": "/news/the-fed-could-rescue-bond-markets-and-still-make-life-harder-for-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:is-ethereum-the-8220-worst-asset-of-all-time-8221-amid-estimated-8-83-billion-bitmine-loss",
+      "type": "news",
+      "label": "Is Ethereum the &#8220;worst asset of all time,&#8221; amid estimated $8.83 billion BitMine loss ?",
+      "canonicalUrl": "/news/is-ethereum-the-8220-worst-asset-of-all-time-8221-amid-estimated-8-83-billion-bitmine-loss",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "type": "news",
+      "label": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+      "canonicalUrl": "/news/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+      "type": "news",
+      "label": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest",
+      "canonicalUrl": "/news/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market",
+      "type": "news",
+      "label": "XRP Price Crashes Below $0.90 as Shrinking Stablecoin Supply Drain Crypto Market",
+      "canonicalUrl": "/news/xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-breaks-below-63k-as-market-panic-intensifies",
+      "type": "news",
+      "label": "Bitcoin Breaks Below $63K as Market Panic Intensifies",
+      "canonicalUrl": "/news/bitcoin-breaks-below-63k-as-market-panic-intensifies",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:megaeth-cuts-staff-as-ai-ambitions-complicate-its-ethereum-scaling-story",
+      "type": "news",
+      "label": "MegaETH Cuts Staff as AI Ambitions Complicate Its Ethereum Scaling Story",
+      "canonicalUrl": "/news/megaeth-cuts-staff-as-ai-ambitions-complicate-its-ethereum-scaling-story",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kava-lend-exploit-exposes-a-dangerous-gap-in-defi-collateral-accounting",
+      "type": "news",
+      "label": "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
+      "canonicalUrl": "/news/kava-lend-exploit-exposes-a-dangerous-gap-in-defi-collateral-accounting",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ether-etfs-approach-an-unwanted-record-after-seven-weeks-of-outflows",
+      "type": "news",
+      "label": "Ether ETFs Approach an Unwanted Record After Seven Weeks of Outflows",
+      "canonicalUrl": "/news/ether-etfs-approach-an-unwanted-record-after-seven-weeks-of-outflows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:stablecoin-supply-shrinkage-raises-a-bigger-question-about-crypto-liquidity",
+      "type": "news",
+      "label": "Stablecoin Supply Shrinkage Raises a Bigger Question About Crypto Liquidity",
+      "canonicalUrl": "/news/stablecoin-supply-shrinkage-raises-a-bigger-question-about-crypto-liquidity",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-briefly-drops-to-0-89-as-crypto-liquidity-retreats",
+      "type": "news",
+      "label": "XRP Briefly Drops to $0.89 as Crypto Liquidity Retreats",
+      "canonicalUrl": "/news/xrp-briefly-drops-to-0-89-as-crypto-liquidity-retreats",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-lose-2-35-billion-in-two-weeks-as-outflow-streak-extends",
+      "type": "news",
+      "label": "Bitcoin ETFs Lose $2.35 Billion in Two Weeks as Outflow Streak Extends",
+      "canonicalUrl": "/news/bitcoin-etfs-lose-2-35-billion-in-two-weeks-as-outflow-streak-extends",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-slides-toward-63-000-as-weekend-selling-tests-market-confidence",
+      "type": "news",
+      "label": "Bitcoin Slides Toward $63,000 as Weekend Selling Tests Market Confidence",
+      "canonicalUrl": "/news/bitcoin-slides-toward-63-000-as-weekend-selling-tests-market-confidence",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tether-wants-its-gold-token-to-rival-etfs",
+      "type": "news",
+      "label": "Tether wants its gold token to rival ETFs",
+      "canonicalUrl": "/news/tether-wants-its-gold-token-to-rival-etfs",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-biggest-bet-is-now-a-drop-below-60-000-not-a-rally-above-100-000",
+      "type": "news",
+      "label": "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
+      "canonicalUrl": "/news/bitcoins-biggest-bet-is-now-a-drop-below-60-000-not-a-rally-above-100-000",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings",
+      "type": "news",
+      "label": "Asian chip stocks tumble ahead of Nvidia Q3 earnings",
+      "canonicalUrl": "/news/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack",
+      "type": "news",
+      "label": "Luxor CEO warns of AI ‘dark forest’ after Bitcoin miner hijack",
+      "canonicalUrl": "/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jensen-huang-weighs-nvidia-comeback-days-after-shock-exit-ft",
+      "type": "news",
+      "label": "Jensen Huang weighs Nvidia comeback days after shock exit: FT",
+      "canonicalUrl": "/news/jensen-huang-weighs-nvidia-comeback-days-after-shock-exit-ft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:metas-internal-prediction-app-uses-points-not-cash-and-that-distinction-matters",
+      "type": "news",
+      "label": "Meta’s Internal Prediction App Uses Points, Not Cash — and That Distinction Matters",
+      "canonicalUrl": "/news/metas-internal-prediction-app-uses-points-not-cash-and-that-distinction-matters",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:senate-hearing-could-shape-the-secs-next-chapter-for-crypto-oversight",
+      "type": "news",
+      "label": "Senate Hearing Could Shape the SEC’s Next Chapter for Crypto Oversight",
+      "canonicalUrl": "/news/senate-hearing-could-shape-the-secs-next-chapter-for-crypto-oversight",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jpmorgan-filing-shows-bigger-strategy-stake-and-540-million-in-bitcoin-etf-shares",
+      "type": "news",
+      "label": "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares",
+      "canonicalUrl": "/news/jpmorgan-filing-shows-bigger-strategy-stake-and-540-million-in-bitcoin-etf-shares",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:could-bitcoin-mining-use-scotlands-stranded-wind-power-the-debate-is-heating-up",
+      "type": "news",
+      "label": "Could Bitcoin Mining Use Scotland’s Stranded Wind Power? The Debate Is Heating Up",
+      "canonicalUrl": "/news/could-bitcoin-mining-use-scotlands-stranded-wind-power-the-debate-is-heating-up",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:three-central-banks-test-a-bridge-between-traditional-fx-and-tokenized-settlement",
+      "type": "news",
+      "label": "Three Central Banks Test a Bridge Between Traditional FX and Tokenized Settlement",
+      "canonicalUrl": "/news/three-central-banks-test-a-bridge-between-traditional-fx-and-tokenized-settlement",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kazakhstan-targets-tokenized-government-bonds-after-22-million-note-sale",
+      "type": "news",
+      "label": "Kazakhstan Targets Tokenized Government Bonds After $22 Million Note Sale",
+      "canonicalUrl": "/news/kazakhstan-targets-tokenized-government-bonds-after-22-million-note-sale",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-slips-after-rebounding-from-july-14-low-that-triggered-2-billion-of-liquidations",
+      "type": "news",
+      "label": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
+      "canonicalUrl": "/news/bitcoin-slips-after-rebounding-from-july-14-low-that-triggered-2-billion-of-liquidations",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+      "type": "news",
+      "label": "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide",
+      "canonicalUrl": "/news/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fomc-minutes-nvidia-earnings-russias-retail-crypto-rules-crypto-week-ahead",
+      "type": "news",
+      "label": "FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead",
+      "canonicalUrl": "/news/fomc-minutes-nvidia-earnings-russias-retail-crypto-rules-crypto-week-ahead",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jpmorgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+      "type": "news",
+      "label": "JPMorgan and DBS let clients move dollars across borders on weekends",
+      "canonicalUrl": "/news/jpmorgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+      "type": "news",
+      "label": "Vitalik Buterin flips to ‘total bull’ on a faster route to quantum-safe Ethereum",
+      "canonicalUrl": "/news/vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+      "type": "news",
+      "label": "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
+      "canonicalUrl": "/news/bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cardano-holders-vote-down-5-million-bid-to-buy-warehouse-copper",
+      "type": "news",
+      "label": "Cardano holders vote down $5 million bid to buy warehouse copper",
+      "canonicalUrl": "/news/cardano-holders-vote-down-5-million-bid-to-buy-warehouse-copper",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-administration-to-name-nvidia-openai-and-several-others-as-ai-national-champions",
+      "type": "news",
+      "label": "Trump administration to name Nvidia, OpenAI and several others as AI national champions",
+      "canonicalUrl": "/news/trump-administration-to-name-nvidia-openai-and-several-others-as-ai-national-champions",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+      "type": "news",
+      "label": "Changing of Lagarde: How the candidates to be next ECB president view bitcoin, stablecoins and CBDCs",
+      "canonicalUrl": "/news/changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:singapore-germany-test-cross-border-fx-settlement-with-cbdcs",
+      "type": "news",
+      "label": "Singapore, Germany test cross-border FX settlement with CBDCs",
+      "canonicalUrl": "/news/singapore-germany-test-cross-border-fx-settlement-with-cbdcs",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btc-price-tags-18-week-low-into-nvidia-earnings-three-things-to-know-in-bitcoin-this-week",
+      "type": "news",
+      "label": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
+      "canonicalUrl": "/news/btc-price-tags-18-week-low-into-nvidia-earnings-three-things-to-know-in-bitcoin-this-week",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:dbs-jpmorgans-kinexys-launch-24-7-transfers-of-tokenized-deposits",
+      "type": "news",
+      "label": "DBS, JPMorgan’s Kinexys launch 24/7 transfers of tokenized deposits",
+      "canonicalUrl": "/news/dbs-jpmorgans-kinexys-launch-24-7-transfers-of-tokenized-deposits",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:harvard-dartmouth-keep-bitcoin-etf-stakes-steady-as-fund-gains-42-in-q3",
+      "type": "news",
+      "label": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
+      "canonicalUrl": "/news/harvard-dartmouth-keep-bitcoin-etf-stakes-steady-as-fund-gains-42-in-q3",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes",
+      "type": "news",
+      "label": "Aster CEO suspects foul play after token plunges 32% in minutes",
+      "canonicalUrl": "/news/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test",
+      "type": "news",
+      "label": "Jensen Huang Eyes Nvidia Comeback As Bitcoin Faces A Critical Market Test",
+      "canonicalUrl": "/news/jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade",
+      "type": "news",
+      "label": "Ethereum Price Eyes Recovery As Vitalik Buterin Backs Major Quantum-Safe Upgrade",
+      "canonicalUrl": "/news/ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support",
+      "type": "news",
+      "label": "Michael Saylor Hints At Another Bitcoin Buy As BTC Tests Key Support",
+      "canonicalUrl": "/news/michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-seeks-to-seize-more-than-1-2-billion-linked-to-binance-hack",
+      "type": "news",
+      "label": "US Seeks to Seize More Than $1.2 Billion Linked to Binance Hack",
+      "canonicalUrl": "/news/us-seeks-to-seize-more-than-1-2-billion-linked-to-binance-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending",
+      "type": "news",
+      "label": "WBTC Expands Into Confidential DeFi, STRK Rewards and Institutional Lending",
+      "canonicalUrl": "/news/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:thailand-proposes-daily-stablecoin-transfer-cap-for-regulated-platforms",
+      "type": "news",
+      "label": "Thailand Proposes Daily Stablecoin Transfer Cap for Regulated Platforms",
+      "canonicalUrl": "/news/thailand-proposes-daily-stablecoin-transfer-cap-for-regulated-platforms",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:twenty-one-capitals-1-09-billion-profit-is-mostly-a-bitcoin-accounting-story",
+      "type": "news",
+      "label": "Twenty One Capital’s $1.09 Billion Profit Is Mostly a Bitcoin Accounting Story",
+      "canonicalUrl": "/news/twenty-one-capitals-1-09-billion-profit-is-mostly-a-bitcoin-accounting-story",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kraken-parent-payward-reports-quarterly-recovery-despite-weak-year-on-year-profit",
+      "type": "news",
+      "label": "Kraken Parent Payward Reports Quarterly Recovery Despite Weak Year-on-Year Profit",
+      "canonicalUrl": "/news/kraken-parent-payward-reports-quarterly-recovery-despite-weak-year-on-year-profit",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hyperliquid-open-interest-surges-as-perpetuals-rival-large-exchanges",
+      "type": "news",
+      "label": "Hyperliquid Open Interest Surges as Perpetuals Rival Large Exchanges",
+      "canonicalUrl": "/news/hyperliquid-open-interest-surges-as-perpetuals-rival-large-exchanges",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:louisiana-and-cftc-clash-over-who-regulates-prediction-markets",
+      "type": "news",
+      "label": "Louisiana and CFTC Clash Over Who Regulates Prediction Markets",
+      "canonicalUrl": "/news/louisiana-and-cftc-clash-over-who-regulates-prediction-markets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners",
+      "type": "news",
+      "label": "Bitcoin’s mining difficulty falls 9%, easing pressure on miners",
+      "canonicalUrl": "/news/bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring",
+      "type": "news",
+      "label": "Google opens AI rainfall tracking system that could improve global flood and drought monitoring",
+      "canonicalUrl": "/news/google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-crashes-near-62-000-over-weekend-as-crypto-liquidations-topped-1-8-billion",
+      "type": "news",
+      "label": "Bitcoin crashes near $62,000 over weekend as crypto liquidations topped $1.8 billion",
+      "canonicalUrl": "/news/bitcoin-crashes-near-62-000-over-weekend-as-crypto-liquidations-topped-1-8-billion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-up-to-13-eh-s-of-computing-power",
+      "type": "news",
+      "label": "Bitcoin mining industry rocked by AI-linked breach as hackers divert up to 13 EH/s of computing power",
+      "canonicalUrl": "/news/bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-up-to-13-eh-s-of-computing-power",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:lighter-suspends-all-withdrawals-after-10-4-million-crypto-exploit",
+      "type": "news",
+      "label": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+      "canonicalUrl": "/news/lighter-suspends-all-withdrawals-after-10-4-million-crypto-exploit",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:brazils-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+      "type": "news",
+      "label": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
+      "canonicalUrl": "/news/brazils-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:german-parliament-proposes-crypto-seizures-without-criminal-charges",
+      "type": "news",
+      "label": "German parliament proposes crypto seizures without criminal charges",
+      "canonicalUrl": "/news/german-parliament-proposes-crypto-seizures-without-criminal-charges",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-drops-beta-label-after-more-than-six-years",
+      "type": "news",
+      "label": "Solana drops ‘beta’ label after more than six years",
+      "canonicalUrl": "/news/solana-drops-beta-label-after-more-than-six-years",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:old-crypto-feud-reignites-why-okxs-star-xu-blames-binance-for-two-years-of-october-crashes",
+      "type": "news",
+      "label": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+      "canonicalUrl": "/news/old-crypto-feud-reignites-why-okxs-star-xu-blames-binance-for-two-years-of-october-crashes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-heres-why",
+      "type": "news",
+      "label": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+      "canonicalUrl": "/news/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-heres-why",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+      "type": "news",
+      "label": "Singapore, Germany test cross-border payments to reduce settlement risk",
+      "canonicalUrl": "/news/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-fails-to-hold-65k-as-us-stocks-drop-further-on-ai-nerves",
+      "type": "news",
+      "label": "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+      "canonicalUrl": "/news/bitcoin-price-fails-to-hold-65k-as-us-stocks-drop-further-on-ai-nerves",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments",
+      "type": "news",
+      "label": "Zelle picks Solana for ZelleUSD stablecoin and international payments",
+      "canonicalUrl": "/news/zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:lighter-pauses-withdrawals-after-reported-10m-account-theft",
+      "type": "news",
+      "label": "Lighter pauses withdrawals after reported $10M account theft",
+      "canonicalUrl": "/news/lighter-pauses-withdrawals-after-reported-10m-account-theft",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:banks-are-banning-ai-agents-over-security-and-competition-concerns",
+      "type": "news",
+      "label": "Banks are banning AI agents over security... and competition concerns",
+      "canonicalUrl": "/news/banks-are-banning-ai-agents-over-security-and-competition-concerns",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strategy-buys-33m-in-bitcoin-spends-228m-on-strc-buybacks",
+      "type": "news",
+      "label": "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
+      "canonicalUrl": "/news/strategy-buys-33m-in-bitcoin-spends-228m-on-strc-buybacks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-pay-later-offers-credit-backed-by-bitcoin-ether-and-bnb-holdings",
+      "type": "news",
+      "label": "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings",
+      "canonicalUrl": "/news/binance-pay-later-offers-credit-backed-by-bitcoin-ether-and-bnb-holdings",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hkma-swift-explore-tokenized-deposits-for-cross-border-bank-payments",
+      "type": "news",
+      "label": "HKMA, Swift explore tokenized deposits for cross-border bank payments",
+      "canonicalUrl": "/news/hkma-swift-explore-tokenized-deposits-for-cross-border-bank-payments",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach",
+      "type": "news",
+      "label": "Bitcoin Miners Hijacked as Attackers Redirect BTC Through Luxor Breach",
+      "canonicalUrl": "/news/bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal",
+      "type": "news",
+      "label": "Vitalik Buterin Backs Faster Route to Quantum-Safe Ethereum With New Proposal",
+      "canonicalUrl": "/news/vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-officially-exits-beta-after-six-years-with-new-network-versioning-system",
+      "type": "news",
+      "label": "Solana Officially Exits Beta After Six Years With New Network Versioning System",
+      "canonicalUrl": "/news/solana-officially-exits-beta-after-six-years-with-new-network-versioning-system",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40",
+      "type": "news",
+      "label": "Kava Lend Exploit Drains $3.8M in KAVA as Token Price Plunges Nearly 40%",
+      "canonicalUrl": "/news/kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-8217-s-1-000-day-halving-pattern-returns",
+      "type": "news",
+      "label": "Bitcoin&#8217;s 1,000-Day Halving Pattern Returns",
+      "canonicalUrl": "/news/bitcoin-8217-s-1-000-day-halving-pattern-returns",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-8217-s-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming",
+      "type": "news",
+      "label": "Bitcoin&#8217;s Biggest Options Bet Just Flipped — Is a Major Price Reversal Coming?",
+      "canonicalUrl": "/news/bitcoin-8217-s-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:clearpool-8217-s-cpool-to-clear-swap-approaches-as-exchanges-begin-transfer-restrictions",
+      "type": "news",
+      "label": "Clearpool&#8217;s CPOOL-to-CLEAR Swap Approaches as Exchanges Begin Transfer Restrictions",
+      "canonicalUrl": "/news/clearpool-8217-s-cpool-to-clear-swap-approaches-as-exchanges-begin-transfer-restrictions",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:paraguays-cheap-hydropower-is-drawing-a-new-rival-for-bitcoin-miners-ai",
+      "type": "news",
+      "label": "Paraguay’s Cheap Hydropower Is Drawing a New Rival for Bitcoin Miners: AI",
+      "canonicalUrl": "/news/paraguays-cheap-hydropower-is-drawing-a-new-rival-for-bitcoin-miners-ai",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinone-support-breach-puts-passwords-and-identity-details-at-risk",
+      "type": "news",
+      "label": "Coinone support breach puts passwords and identity details at risk",
+      "canonicalUrl": "/news/coinone-support-breach-puts-passwords-and-identity-details-at-risk",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:michael-saylor-says-banks-could-ignite-bitcoin-8217-s-next-rally-as-strategy-eyes-48-billion-credit-expansion",
+      "type": "news",
+      "label": "Michael Saylor says banks could ignite Bitcoin&#8217;s next rally as Strategy eyes $48 billion credit expansion",
+      "canonicalUrl": "/news/michael-saylor-says-banks-could-ignite-bitcoin-8217-s-next-rally-as-strategy-eyes-48-billion-credit-expansion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin",
+      "type": "news",
+      "label": "Record hedge-fund leverage could soon spill over into Bitcoin",
+      "canonicalUrl": "/news/record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs",
+      "type": "news",
+      "label": "Japan’s economy stalls, giving Bitcoin no automatic relief from yen funding costs",
+      "canonicalUrl": "/news/japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment",
+      "type": "news",
+      "label": "AI agents impersonate employees and attempt to steal confidential data during safety experiment",
+      "canonicalUrl": "/news/ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solanas-stablecoin-market-shrinks-919-million-as-usdc-grows",
+      "type": "news",
+      "label": "Solana’s stablecoin market shrinks $919 million as USDC grows",
+      "canonicalUrl": "/news/solanas-stablecoin-market-shrinks-919-million-as-usdc-grows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -76295,6 +76991,14 @@
       "type": "newsletter",
       "label": "The Blockchain Library Weekly: Navigating Governance, AI, and Infrastructure",
       "canonicalUrl": "/newsletter/the-blockchain-library-weekly-navigating-governance-ai-and-infrastructure-23",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "newsletter:the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
+      "type": "newsletter",
+      "label": "The Blockchain Library: Weekly Insights on Governance, AI, and Protocol Integrity",
+      "canonicalUrl": "/newsletter/the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
       "categoryId": null,
       "difficulty": null
     }
@@ -126477,6 +127181,142 @@
       "category": "articles"
     },
     {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:why-most-layer-1-blockchains-are-solving-the-wrong-problem",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:why-gas-fees-are-a-ux-problem-not-just-a-cost-problem",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:ethereum-glamsterdam-gas-assumptions-test-suite",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "book:mastering-ethereum",
+      "type": "book",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "book:the-infinite-machine",
+      "type": "book",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "book:the-cryptopians",
+      "type": "book",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:bytecode",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:off-chain",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:indexer",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:relayer",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:storage-slot",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:invariant",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "research:ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
+      "type": "research",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "research:eip-2938-account-abstraction",
+      "type": "research",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "research:erc-7512-on-chain-representation-of-audit-reports",
+      "type": "research",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
       "from": "book:the-ai-money-revolution",
       "to": "glossary:ai-agent",
       "type": "glossary",
@@ -128912,6 +129752,14 @@
       "from": "glossary:abi",
       "to": "resource:solidity",
       "type": "term",
+      "source": "base44",
+      "strength": 1,
+      "category": "glossary"
+    },
+    {
+      "from": "glossary:bytecode",
+      "to": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "type": "article",
       "source": "base44",
       "strength": 1,
       "category": "glossary"
@@ -193787,6 +194635,12 @@
       "source": "embedded"
     },
     {
+      "from": "glossary:bytecode",
+      "to": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
       "from": "glossary:constructor",
       "to": "topic:why-smart-contract-upgrades-are-governance-decisions-not-just-code-changes",
       "type": "related-article",
@@ -239522,6 +240376,102 @@
       "from": "topic:ai-shutdown-controls-revocation-path-not-panic-button",
       "to": "topic:ai-agents-clear-permissions-openai-misalignment-disclosures",
       "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:invariant",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:relayer",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:storage-slot",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:off-chain",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:bytecode",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "glossary:indexer",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:ethereum-glamsterdam-gas-assumptions-test-suite",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:why-gas-fees-are-a-ux-problem-not-just-a-cost-problem",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:why-most-layer-1-blockchains-are-solving-the-wrong-problem",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "book:mastering-ethereum",
+      "type": "related-book",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "book:the-infinite-machine",
+      "type": "related-book",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "book:the-cryptopians",
+      "type": "related-book",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "research:erc-7512-on-chain-representation-of-audit-reports",
+      "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "research:eip-2938-account-abstraction",
+      "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "to": "research:ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
+      "type": "related-research",
       "source": "embedded"
     },
     {

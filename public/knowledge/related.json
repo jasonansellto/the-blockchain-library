@@ -4562,6 +4562,22 @@
       "strength": 1
     },
     {
+      "uid": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "type": "topic",
+      "title": "Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit",
+      "canonicalUrl": "/topics/glamsterdam-gas-repricing-dependency-audit",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:glamsterdam-gas-repricing-dependency-audit",
+      "type": "topic",
+      "title": "Glamsterdam’s Pause Turns Gas Repricing Into a Dependency Audit",
+      "canonicalUrl": "/topics/glamsterdam-gas-repricing-dependency-audit",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
       "uid": "glossary:smart-contract",
       "type": "glossary",
       "title": "Smart Contract",
@@ -153623,6 +153639,272 @@
       "strength": 0.5
     }
   ],
+  "topic:glamsterdam-gas-repricing-dependency-audit": [
+    {
+      "uid": "glossary:bytecode",
+      "type": "glossary",
+      "title": "Bytecode",
+      "canonicalUrl": "/glossary/bytecode",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:bytecode",
+      "type": "glossary",
+      "title": "Bytecode",
+      "canonicalUrl": "/glossary/bytecode",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "research:eip-2938-account-abstraction",
+      "type": "research",
+      "title": "EIP-2938: Account Abstraction",
+      "canonicalUrl": "/research/eip-2938-account-abstraction",
+      "relationship": "research",
+      "strength": 1
+    },
+    {
+      "uid": "research:eip-2938-account-abstraction",
+      "type": "research",
+      "title": "EIP-2938: Account Abstraction",
+      "canonicalUrl": "/research/eip-2938-account-abstraction",
+      "relationship": "related-research",
+      "strength": 1
+    },
+    {
+      "uid": "research:erc-7512-on-chain-representation-of-audit-reports",
+      "type": "research",
+      "title": "ERC-7512: On-chain Representation of Audit Reports",
+      "canonicalUrl": "/research/erc-7512-on-chain-representation-of-audit-reports",
+      "relationship": "research",
+      "strength": 1
+    },
+    {
+      "uid": "research:erc-7512-on-chain-representation-of-audit-reports",
+      "type": "research",
+      "title": "ERC-7512: On-chain Representation of Audit Reports",
+      "canonicalUrl": "/research/erc-7512-on-chain-representation-of-audit-reports",
+      "relationship": "related-research",
+      "strength": 1
+    },
+    {
+      "uid": "research:ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
+      "type": "research",
+      "title": "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+      "canonicalUrl": "/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
+      "relationship": "research",
+      "strength": 1
+    },
+    {
+      "uid": "research:ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
+      "type": "research",
+      "title": "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+      "canonicalUrl": "/research/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
+      "relationship": "related-research",
+      "strength": 1
+    },
+    {
+      "uid": "topic:ethereum-glamsterdam-gas-assumptions-test-suite",
+      "type": "topic",
+      "title": "Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant",
+      "canonicalUrl": "/topics/ethereum-glamsterdam-gas-assumptions-test-suite",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:ethereum-glamsterdam-gas-assumptions-test-suite",
+      "type": "topic",
+      "title": "Glamsterdam Makes Gas Assumptions a Test Suite, Not a Constant",
+      "canonicalUrl": "/topics/ethereum-glamsterdam-gas-assumptions-test-suite",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "topic",
+      "title": "How Deterministic Execution Changes Enterprise Blockchain Adoption",
+      "canonicalUrl": "/topics/how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "type": "topic",
+      "title": "How Deterministic Execution Changes Enterprise Blockchain Adoption",
+      "canonicalUrl": "/topics/how-deterministic-execution-changes-enterprise-blockchain-adoption",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:indexer",
+      "type": "glossary",
+      "title": "Indexer",
+      "canonicalUrl": "/glossary/indexer",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:indexer",
+      "type": "glossary",
+      "title": "Indexer",
+      "canonicalUrl": "/glossary/indexer",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:invariant",
+      "type": "glossary",
+      "title": "Invariant",
+      "canonicalUrl": "/glossary/invariant",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:invariant",
+      "type": "glossary",
+      "title": "Invariant",
+      "canonicalUrl": "/glossary/invariant",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "book:mastering-ethereum",
+      "type": "book",
+      "title": "Mastering Ethereum",
+      "canonicalUrl": "/books/mastering-ethereum",
+      "relationship": "book",
+      "strength": 1
+    },
+    {
+      "uid": "book:mastering-ethereum",
+      "type": "book",
+      "title": "Mastering Ethereum",
+      "canonicalUrl": "/books/mastering-ethereum",
+      "relationship": "related-book",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:off-chain",
+      "type": "glossary",
+      "title": "Off-chain",
+      "canonicalUrl": "/glossary/off-chain",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:off-chain",
+      "type": "glossary",
+      "title": "Off-chain",
+      "canonicalUrl": "/glossary/off-chain",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:relayer",
+      "type": "glossary",
+      "title": "Relayer",
+      "canonicalUrl": "/glossary/relayer",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:relayer",
+      "type": "glossary",
+      "title": "Relayer",
+      "canonicalUrl": "/glossary/relayer",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:storage-slot",
+      "type": "glossary",
+      "title": "Storage Slot",
+      "canonicalUrl": "/glossary/storage-slot",
+      "relationship": "glossary",
+      "strength": 1
+    },
+    {
+      "uid": "glossary:storage-slot",
+      "type": "glossary",
+      "title": "Storage Slot",
+      "canonicalUrl": "/glossary/storage-slot",
+      "relationship": "related-glossary",
+      "strength": 1
+    },
+    {
+      "uid": "book:the-cryptopians",
+      "type": "book",
+      "title": "The Cryptopians",
+      "canonicalUrl": "/books/the-cryptopians",
+      "relationship": "book",
+      "strength": 1
+    },
+    {
+      "uid": "book:the-cryptopians",
+      "type": "book",
+      "title": "The Cryptopians",
+      "canonicalUrl": "/books/the-cryptopians",
+      "relationship": "related-book",
+      "strength": 1
+    },
+    {
+      "uid": "book:the-infinite-machine",
+      "type": "book",
+      "title": "The Infinite Machine",
+      "canonicalUrl": "/books/the-infinite-machine",
+      "relationship": "book",
+      "strength": 1
+    },
+    {
+      "uid": "book:the-infinite-machine",
+      "type": "book",
+      "title": "The Infinite Machine",
+      "canonicalUrl": "/books/the-infinite-machine",
+      "relationship": "related-book",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-gas-fees-are-a-ux-problem-not-just-a-cost-problem",
+      "type": "topic",
+      "title": "Why Gas Fees Are a UX Problem, Not Just a Cost Problem",
+      "canonicalUrl": "/topics/why-gas-fees-are-a-ux-problem-not-just-a-cost-problem",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-gas-fees-are-a-ux-problem-not-just-a-cost-problem",
+      "type": "topic",
+      "title": "Why Gas Fees Are a UX Problem, Not Just a Cost Problem",
+      "canonicalUrl": "/topics/why-gas-fees-are-a-ux-problem-not-just-a-cost-problem",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-most-layer-1-blockchains-are-solving-the-wrong-problem",
+      "type": "topic",
+      "title": "Why Most Layer-1 Blockchains Are Solving the Wrong Problem",
+      "canonicalUrl": "/topics/why-most-layer-1-blockchains-are-solving-the-wrong-problem",
+      "relationship": "article",
+      "strength": 1
+    },
+    {
+      "uid": "topic:why-most-layer-1-blockchains-are-solving-the-wrong-problem",
+      "type": "topic",
+      "title": "Why Most Layer-1 Blockchains Are Solving the Wrong Problem",
+      "canonicalUrl": "/topics/why-most-layer-1-blockchains-are-solving-the-wrong-problem",
+      "relationship": "related-article",
+      "strength": 1
+    },
+    {
+      "uid": "author:jason-ansell",
+      "type": "author",
+      "title": "Jason Ansell",
+      "canonicalUrl": "/authors/jason-ansell",
+      "relationship": "reference",
+      "strength": 0.5
+    }
+  ],
   "book:the-quiet-rebuild-of-the-internet": [],
   "book:the-dark-side-of-web3": [],
   "book:wtf-is-crypto": [],
@@ -218178,6 +218460,92 @@
   "news:lidos-lending-plan-could-block-loan-repayments-without-stopping-interest": [],
   "news:ai-models-agreed-with-each-other-more-than-with-reality-in-a-new-test": [],
   "news:ai-helped-hackers-gain-access-at-10-unnamed-organizations-researchers-say": [],
+  "news:crypto-insiders-arent-counting-on-silver-linings-in-congress-lame-duck-session": [],
+  "news:enterprise-blockchain-is-going-to-come-back-from-the-dead": [],
+  "news:how-10-000-in-stablecoins-would-have-gained-420-without-earning-interest": [],
+  "news:bitcoin-now-looks-cheap-by-one-measure-after-1-billion-in-etf-outflows": [],
+  "news:robots-now-run-ai-written-code-without-an-ai-calling-the-shots-succeeding-92-of-the-time": [],
+  "news:britain-to-spend-4-billion-on-grid-bottlenecks-can-bitcoin-use-the-wasted-wind": [],
+  "news:the-fed-could-rescue-bond-markets-and-still-make-life-harder-for-bitcoin": [],
+  "news:is-ethereum-the-8220-worst-asset-of-all-time-8221-amid-estimated-8-83-billion-bitmine-loss": [],
+  "news:did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto": [],
+  "news:us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest": [],
+  "news:xrp-price-crashes-below-0-90-as-shrinking-stablecoin-supply-drain-crypto-market": [],
+  "news:bitcoin-breaks-below-63k-as-market-panic-intensifies": [],
+  "news:megaeth-cuts-staff-as-ai-ambitions-complicate-its-ethereum-scaling-story": [],
+  "news:kava-lend-exploit-exposes-a-dangerous-gap-in-defi-collateral-accounting": [],
+  "news:ether-etfs-approach-an-unwanted-record-after-seven-weeks-of-outflows": [],
+  "news:stablecoin-supply-shrinkage-raises-a-bigger-question-about-crypto-liquidity": [],
+  "news:xrp-briefly-drops-to-0-89-as-crypto-liquidity-retreats": [],
+  "news:bitcoin-etfs-lose-2-35-billion-in-two-weeks-as-outflow-streak-extends": [],
+  "news:bitcoin-slides-toward-63-000-as-weekend-selling-tests-market-confidence": [],
+  "news:tether-wants-its-gold-token-to-rival-etfs": [],
+  "news:bitcoins-biggest-bet-is-now-a-drop-below-60-000-not-a-rally-above-100-000": [],
+  "news:asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings": [],
+  "news:luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack": [],
+  "news:jensen-huang-weighs-nvidia-comeback-days-after-shock-exit-ft": [],
+  "news:metas-internal-prediction-app-uses-points-not-cash-and-that-distinction-matters": [],
+  "news:senate-hearing-could-shape-the-secs-next-chapter-for-crypto-oversight": [],
+  "news:jpmorgan-filing-shows-bigger-strategy-stake-and-540-million-in-bitcoin-etf-shares": [],
+  "news:could-bitcoin-mining-use-scotlands-stranded-wind-power-the-debate-is-heating-up": [],
+  "news:three-central-banks-test-a-bridge-between-traditional-fx-and-tokenized-settlement": [],
+  "news:kazakhstan-targets-tokenized-government-bonds-after-22-million-note-sale": [],
+  "news:bitcoin-slips-after-rebounding-from-july-14-low-that-triggered-2-billion-of-liquidations": [],
+  "news:live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide": [],
+  "news:fomc-minutes-nvidia-earnings-russias-retail-crypto-rules-crypto-week-ahead": [],
+  "news:jpmorgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends": [],
+  "news:vitalik-buterin-flips-to-total-bull-on-a-faster-route-to-quantum-safe-ethereum": [],
+  "news:bitcoin-miners-were-hijacked-and-their-btc-rewards-redirected-to-an-attacker": [],
+  "news:cardano-holders-vote-down-5-million-bid-to-buy-warehouse-copper": [],
+  "news:trump-administration-to-name-nvidia-openai-and-several-others-as-ai-national-champions": [],
+  "news:changing-of-lagarde-how-the-candidates-to-be-next-ecb-president-view-bitcoin-stablecoins-and-cbdcs": [],
+  "news:singapore-germany-test-cross-border-fx-settlement-with-cbdcs": [],
+  "news:btc-price-tags-18-week-low-into-nvidia-earnings-three-things-to-know-in-bitcoin-this-week": [],
+  "news:dbs-jpmorgans-kinexys-launch-24-7-transfers-of-tokenized-deposits": [],
+  "news:harvard-dartmouth-keep-bitcoin-etf-stakes-steady-as-fund-gains-42-in-q3": [],
+  "news:aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes": [],
+  "news:jensen-huang-eyes-nvidia-comeback-as-bitcoin-faces-a-critical-market-test": [],
+  "news:ethereum-price-eyes-recovery-as-vitalik-buterin-backs-major-quantum-safe-upgrade": [],
+  "news:michael-saylor-hints-at-another-bitcoin-buy-as-btc-tests-key-support": [],
+  "news:us-seeks-to-seize-more-than-1-2-billion-linked-to-binance-hack": [],
+  "news:wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending": [],
+  "news:thailand-proposes-daily-stablecoin-transfer-cap-for-regulated-platforms": [],
+  "news:twenty-one-capitals-1-09-billion-profit-is-mostly-a-bitcoin-accounting-story": [],
+  "news:kraken-parent-payward-reports-quarterly-recovery-despite-weak-year-on-year-profit": [],
+  "news:hyperliquid-open-interest-surges-as-perpetuals-rival-large-exchanges": [],
+  "news:louisiana-and-cftc-clash-over-who-regulates-prediction-markets": [],
+  "news:bitcoins-mining-difficulty-falls-9-easing-pressure-on-miners": [],
+  "news:google-opens-ai-rainfall-tracking-system-that-could-improve-global-flood-and-drought-monitoring": [],
+  "news:bitcoin-crashes-near-62-000-over-weekend-as-crypto-liquidations-topped-1-8-billion": [],
+  "news:bitcoin-mining-industry-rocked-by-ai-linked-breach-as-hackers-divert-up-to-13-eh-s-of-computing-power": [],
+  "news:lighter-suspends-all-withdrawals-after-10-4-million-crypto-exploit": [],
+  "news:brazils-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks": [],
+  "news:german-parliament-proposes-crypto-seizures-without-criminal-charges": [],
+  "news:solana-drops-beta-label-after-more-than-six-years": [],
+  "news:old-crypto-feud-reignites-why-okxs-star-xu-blames-binance-for-two-years-of-october-crashes": [],
+  "news:bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-heres-why": [],
+  "news:singapore-germany-test-cross-border-payments-to-reduce-settlement-risk": [],
+  "news:bitcoin-price-fails-to-hold-65k-as-us-stocks-drop-further-on-ai-nerves": [],
+  "news:zelle-picks-solana-for-zelleusd-stablecoin-and-international-payments": [],
+  "news:lighter-pauses-withdrawals-after-reported-10m-account-theft": [],
+  "news:banks-are-banning-ai-agents-over-security-and-competition-concerns": [],
+  "news:strategy-buys-33m-in-bitcoin-spends-228m-on-strc-buybacks": [],
+  "news:binance-pay-later-offers-credit-backed-by-bitcoin-ether-and-bnb-holdings": [],
+  "news:hkma-swift-explore-tokenized-deposits-for-cross-border-bank-payments": [],
+  "news:bitcoin-miners-hijacked-as-attackers-redirect-btc-through-luxor-breach": [],
+  "news:vitalik-buterin-backs-faster-route-to-quantum-safe-ethereum-with-new-proposal": [],
+  "news:solana-officially-exits-beta-after-six-years-with-new-network-versioning-system": [],
+  "news:kava-lend-exploit-drains-3-8m-in-kava-as-token-price-plunges-nearly-40": [],
+  "news:bitcoin-8217-s-1-000-day-halving-pattern-returns": [],
+  "news:bitcoin-8217-s-biggest-options-bet-just-flipped-is-a-major-price-reversal-coming": [],
+  "news:clearpool-8217-s-cpool-to-clear-swap-approaches-as-exchanges-begin-transfer-restrictions": [],
+  "news:paraguays-cheap-hydropower-is-drawing-a-new-rival-for-bitcoin-miners-ai": [],
+  "news:coinone-support-breach-puts-passwords-and-identity-details-at-risk": [],
+  "news:michael-saylor-says-banks-could-ignite-bitcoin-8217-s-next-rally-as-strategy-eyes-48-billion-credit-expansion": [],
+  "news:record-hedge-fund-leverage-could-soon-spill-over-into-bitcoin": [],
+  "news:japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs": [],
+  "news:ai-agents-impersonate-employees-and-attempt-to-steal-confidential-data-during-safety-experiment": [],
+  "news:solanas-stablecoin-market-shrinks-919-million-as-usdc-grows": [],
   "newsletter:issue-1-blockchain-foundations": [],
   "newsletter:issue-2-smart-contracts-defi": [],
   "newsletter:issue-3-web3-decentralized-internet": [],
@@ -218200,5 +218568,6 @@
   "newsletter:the-blockchain-library-weekly-the-dawn-of-autonomous-infrastructure-20": [],
   "newsletter:the-blockchain-library-weekly-navigating-the-new-infrastructure-standards-21": [],
   "newsletter:the-blockchain-library-weekly-insights-on-digital-governance-and-web3-infrastruc": [],
-  "newsletter:the-blockchain-library-weekly-navigating-governance-ai-and-infrastructure-23": []
+  "newsletter:the-blockchain-library-weekly-navigating-governance-ai-and-infrastructure-23": [],
+  "newsletter:the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2": []
 }
