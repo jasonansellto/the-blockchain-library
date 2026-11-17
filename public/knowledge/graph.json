@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "79e9ce8ac8e90285",
+  "buildId": "e7246080551032ca",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -76807,6 +76807,750 @@
       "type": "news",
       "label": "Solana’s stablecoin market shrinks $919 million as USDC grows",
       "canonicalUrl": "/news/solanas-stablecoin-market-shrinks-919-million-as-usdc-grows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid",
+      "type": "news",
+      "label": "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
+      "canonicalUrl": "/news/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-risks-falling-below-60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+      "type": "news",
+      "label": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "canonicalUrl": "/news/bitcoin-risks-falling-below-60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
+      "type": "news",
+      "label": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
+      "canonicalUrl": "/news/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+      "type": "news",
+      "label": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+      "canonicalUrl": "/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:german-lawmakers-back-crypto-freezes-outside-criminal-cases",
+      "type": "news",
+      "label": "German lawmakers back crypto freezes outside criminal cases",
+      "canonicalUrl": "/news/german-lawmakers-back-crypto-freezes-outside-criminal-cases",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hack-may-push-institutions-to-outside-custody-falconx-exec-says",
+      "type": "news",
+      "label": "Binance hack may push institutions to outside custody, FalconX exec says",
+      "canonicalUrl": "/news/binance-hack-may-push-institutions-to-outside-custody-falconx-exec-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitmine-edges-toward-5-of-eth-supply-as-treasuries-report-buys-amid-market-slump",
+      "type": "news",
+      "label": "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+      "canonicalUrl": "/news/bitmine-edges-toward-5-of-eth-supply-as-treasuries-report-buys-amid-market-slump",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:boris-johnson-says-uk-must-lead-blockchain-development-despite-crypto-doubts",
+      "type": "news",
+      "label": "Boris Johnson says UK must lead blockchain development despite crypto doubts",
+      "canonicalUrl": "/news/boris-johnson-says-uk-must-lead-blockchain-development-despite-crypto-doubts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinbase-and-broadridge-propose-standard-for-tokenized-stock-disclosures",
+      "type": "news",
+      "label": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
+      "canonicalUrl": "/news/coinbase-and-broadridge-propose-standard-for-tokenized-stock-disclosures",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-turmoil-tests-bitcoin-miners-ai-funding-plans",
+      "type": "news",
+      "label": "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
+      "canonicalUrl": "/news/nvidia-turmoil-tests-bitcoin-miners-ai-funding-plans",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:safe-wallet-reportedly-loses-6-5m-as-zodiac-suspects-key-compromise",
+      "type": "news",
+      "label": "Safe wallet reportedly loses $6.5M as Zodiac suspects key compromise",
+      "canonicalUrl": "/news/safe-wallet-reportedly-loses-6-5m-as-zodiac-suspects-key-compromise",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cardano-holders-reject-5m-investment-as-treasury-proposal-fails",
+      "type": "news",
+      "label": "Cardano Holders Reject $5M Investment as Treasury Proposal Fails",
+      "canonicalUrl": "/news/cardano-holders-reject-5m-investment-as-treasury-proposal-fails",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:backpack-wins-us-clearing-registration-as-separate-exchange-bid-remains-pending",
+      "type": "news",
+      "label": "Backpack Wins US Clearing Registration as Separate Exchange Bid Remains Pending",
+      "canonicalUrl": "/news/backpack-wins-us-clearing-registration-as-separate-exchange-bid-remains-pending",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:unocoin-estimates-200-000-loss-as-backup-key-finding-explains-wallet-transfers",
+      "type": "news",
+      "label": "Unocoin Estimates $200,000 Loss as Backup-Key Finding Explains Wallet Transfers",
+      "canonicalUrl": "/news/unocoin-estimates-200-000-loss-as-backup-key-finding-explains-wallet-transfers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coinshares-enters-russell-index-review-as-crypto-stocks-seek-broader-investor-access",
+      "type": "news",
+      "label": "CoinShares Enters Russell Index Review as Crypto Stocks Seek Broader Investor Access",
+      "canonicalUrl": "/news/coinshares-enters-russell-index-review-as-crypto-stocks-seek-broader-investor-access",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:singapore-and-germany-test-cbdc-settlement-without-joining-their-ledgers",
+      "type": "news",
+      "label": "Singapore and Germany Test CBDC Settlement Without Joining Their Ledgers",
+      "canonicalUrl": "/news/singapore-and-germany-test-cbdc-settlement-without-joining-their-ledgers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:dbs-and-jpmorgan-launch-24-7-tokenized-dollar-transfers-across-borders",
+      "type": "news",
+      "label": "DBS and JPMorgan Launch 24/7 Tokenized Dollar Transfers Across Borders",
+      "canonicalUrl": "/news/dbs-and-jpmorgan-launch-24-7-tokenized-dollar-transfers-across-borders",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:retail-sales-and-fed-minutes-put-bitcoins-rate-outlook-back-in-focus",
+      "type": "news",
+      "label": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
+      "canonicalUrl": "/news/retail-sales-and-fed-minutes-put-bitcoins-rate-outlook-back-in-focus",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-lightning-developers-patch-bug-that-could-make-completed-payments-disappear",
+      "type": "news",
+      "label": "Bitcoin Lightning developers patch bug that could make completed payments disappear",
+      "canonicalUrl": "/news/bitcoin-lightning-developers-patch-bug-that-could-make-completed-payments-disappear",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strategy-planned-to-slow-strc-buybacks-near-100-but-spent-another-1-4-billion-instead",
+      "type": "news",
+      "label": "Strategy planned to slow STRC buybacks near $100 but spent another $1.4 billion instead",
+      "canonicalUrl": "/news/strategy-planned-to-slow-strc-buybacks-near-100-but-spent-another-1-4-billion-instead",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:google-says-ai-rewrote-a-video-decoder-and-made-it-20-30-faster-in-tests",
+      "type": "news",
+      "label": "Google says AI rewrote a video decoder and made it 20–30% faster in tests",
+      "canonicalUrl": "/news/google-says-ai-rewrote-a-video-decoder-and-made-it-20-30-faster-in-tests",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:lighter-loses-15-5m-in-sudden-drain-and-blames-a-single-api-leak",
+      "type": "news",
+      "label": "Lighter loses $15.5M in sudden drain and blames a single API leak",
+      "canonicalUrl": "/news/lighter-loses-15-5m-in-sudden-drain-and-blames-a-single-api-leak",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrps-proposed-upgrade-could-improve-trading-without-boosting-token-demand",
+      "type": "news",
+      "label": "XRP’s proposed upgrade could improve trading without boosting token demand",
+      "canonicalUrl": "/news/xrps-proposed-upgrade-could-improve-trading-without-boosting-token-demand",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jensen-huang-has-just-14-chance-of-nvidia-return-this-year-despite-trump-backing",
+      "type": "news",
+      "label": "Jensen Huang has just 14% chance of Nvidia return this year despite Trump backing",
+      "canonicalUrl": "/news/jensen-huang-has-just-14-chance-of-nvidia-return-this-year-despite-trump-backing",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-flashes-false-recovery-warning-as-64-billion-futures-frenzy-masks-weak-demand",
+      "type": "news",
+      "label": "Bitcoin flashes false recovery warning as $64 billion futures frenzy masks weak demand",
+      "canonicalUrl": "/news/bitcoin-flashes-false-recovery-warning-as-64-billion-futures-frenzy-masks-weak-demand",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trezor-patches-crypto-wallet-spy-chips-but-warns-users-a-new-device-may-not-be-enough",
+      "type": "news",
+      "label": "Trezor patches crypto wallet spy chips but warns users a new device may not be enough",
+      "canonicalUrl": "/news/trezor-patches-crypto-wallet-spy-chips-but-warns-users-a-new-device-may-not-be-enough",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kava-moves-to-shut-down-lending-platform-after-hackers-drain-nearly-4-million",
+      "type": "news",
+      "label": "Kava moves to shut down lending platform after hackers drain nearly $4 million",
+      "canonicalUrl": "/news/kava-moves-to-shut-down-lending-platform-after-hackers-drain-nearly-4-million",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
+      "type": "news",
+      "label": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
+      "canonicalUrl": "/news/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trezor-customer-data-exposed-in-3rd-partner-breach-this-year",
+      "type": "news",
+      "label": "Trezor customer data exposed in 3rd partner breach this year",
+      "canonicalUrl": "/news/trezor-customer-data-exposed-in-3rd-partner-breach-this-year",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hackers-inject-credit-card-crypto-stealing-malware-into-178-major-websites",
+      "type": "news",
+      "label": "Hackers inject credit card, crypto-stealing malware into 178 major websites",
+      "canonicalUrl": "/news/hackers-inject-credit-card-crypto-stealing-malware-into-178-major-websites",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return",
+      "type": "news",
+      "label": "Nvidia shares fall 4% as board reportedly rules out Huang return",
+      "canonicalUrl": "/news/nvidia-shares-fall-4-as-board-reportedly-rules-out-huang-return",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:figment-to-support-staking-through-bny-8217-s-digital-asset-custody-platform",
+      "type": "news",
+      "label": "Figment to Support Staking Through BNY&#8217;s Digital Asset Custody Platform",
+      "canonicalUrl": "/news/figment-to-support-staking-through-bny-8217-s-digital-asset-custody-platform",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:invesco-bitcoin-etf-adds-bny-mellon-custody-while-keeping-coinbase-arrangement",
+      "type": "news",
+      "label": "Invesco Bitcoin ETF Adds BNY Mellon Custody While Keeping Coinbase Arrangement",
+      "canonicalUrl": "/news/invesco-bitcoin-etf-adds-bny-mellon-custody-while-keeping-coinbase-arrangement",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:powercompute-orders-600-new-bitcoin-miners-as-higher-output-meets-lower-revenue",
+      "type": "news",
+      "label": "PowerCompute Orders 600 New Bitcoin Miners as Higher Output Meets Lower Revenue",
+      "canonicalUrl": "/news/powercompute-orders-600-new-bitcoin-miners-as-higher-output-meets-lower-revenue",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-mining-difficulty-falls-9-13-giving-active-miners-some-breathing-room",
+      "type": "news",
+      "label": "Bitcoin Mining Difficulty Falls 9.13%, Giving Active Miners Some Breathing Room",
+      "canonicalUrl": "/news/bitcoin-mining-difficulty-falls-9-13-giving-active-miners-some-breathing-room",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:harvard-and-dartmouth-keep-bitcoin-etf-share-counts-steady-as-q3-values-rise",
+      "type": "news",
+      "label": "Harvard and Dartmouth Keep Bitcoin ETF Share Counts Steady as Q3 Values Rise",
+      "canonicalUrl": "/news/harvard-and-dartmouth-keep-bitcoin-etf-share-counts-steady-as-q3-values-rise",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hong-kong-reaffirms-year-end-crypto-licensing-bill-as-tokenized-funds-expand",
+      "type": "news",
+      "label": "Hong Kong Reaffirms Year-End Crypto Licensing Bill as Tokenized Funds Expand",
+      "canonicalUrl": "/news/hong-kong-reaffirms-year-end-crypto-licensing-bill-as-tokenized-funds-expand",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:uniswap-freezes-300-000-in-stranded-fees-halting-automatic-token-burns",
+      "type": "news",
+      "label": "Uniswap freezes $300,000 in stranded fees, halting automatic token burns",
+      "canonicalUrl": "/news/uniswap-freezes-300-000-in-stranded-fees-halting-automatic-token-burns",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-test-exposes-flaw-that-lets-transactions-skip-payments",
+      "type": "news",
+      "label": "Ethereum test exposes flaw that lets transactions skip payments",
+      "canonicalUrl": "/news/ethereum-test-exposes-flaw-that-lets-transactions-skip-payments",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:louisiana-blocks-prediction-markets-and-threatens-370m-in-revenue-from-exchanges",
+      "type": "news",
+      "label": "Louisiana blocks prediction markets and threatens $370M in revenue from exchanges",
+      "canonicalUrl": "/news/louisiana-blocks-prediction-markets-and-threatens-370m-in-revenue-from-exchanges",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aaves-revenue-falls-10m-in-q3-but-one-metric-tells-a-new-story",
+      "type": "news",
+      "label": "Aave’s revenue falls $10M in Q3, but one metric tells a new story",
+      "canonicalUrl": "/news/aaves-revenue-falls-10m-in-q3-but-one-metric-tells-a-new-story",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fed-governor-michael-barr-warns-ai-agents-could-trigger-bank-runs-in-minutes",
+      "type": "news",
+      "label": "Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes",
+      "canonicalUrl": "/news/fed-governor-michael-barr-warns-ai-agents-could-trigger-bank-runs-in-minutes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoin-holds-near-64-000-as-tech-slides-ahead-of-nvidia-earnings",
+      "type": "news",
+      "label": "Live updates: Bitcoin holds near $64,000 as tech slides ahead of Nvidia earnings",
+      "canonicalUrl": "/news/live-updates-bitcoin-holds-near-64-000-as-tech-slides-ahead-of-nvidia-earnings",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hackers-plant-crypto-stealing-code-on-178-major-websites-including-hsbc-and-ledger",
+      "type": "news",
+      "label": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
+      "canonicalUrl": "/news/hackers-plant-crypto-stealing-code-on-178-major-websites-including-hsbc-and-ledger",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-faces-first-earnings-test-without-jensen-huang-as-ai-stocks-slide",
+      "type": "news",
+      "label": "Nvidia faces first earnings test without Jensen Huang as AI stocks slide",
+      "canonicalUrl": "/news/nvidia-faces-first-earnings-test-without-jensen-huang-as-ai-stocks-slide",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hacker-moves-63-million-in-stolen-ether-after-2-weeks-of-silence",
+      "type": "news",
+      "label": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
+      "canonicalUrl": "/news/binance-hacker-moves-63-million-in-stolen-ether-after-2-weeks-of-silence",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-could-slide-into-the-50-000s-as-fed-rate-hike-bets-build-wintermute-says",
+      "type": "news",
+      "label": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+      "canonicalUrl": "/news/bitcoin-could-slide-into-the-50-000s-as-fed-rate-hike-bets-build-wintermute-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cardano-foundation-seeks-5-million-from-treasury-using-ada-price-33-above-market",
+      "type": "news",
+      "label": "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market",
+      "canonicalUrl": "/news/cardano-foundation-seeks-5-million-from-treasury-using-ada-price-33-above-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wells-fargos-reported-blackrock-bitcoin-etf-holdings-double-to-2-35-billion",
+      "type": "news",
+      "label": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
+      "canonicalUrl": "/news/wells-fargos-reported-blackrock-bitcoin-etf-holdings-double-to-2-35-billion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:google-says-hackers-use-ai-agents-to-find-and-exploit-software-flaws",
+      "type": "news",
+      "label": "Google says hackers use AI agents to find and exploit software flaws",
+      "canonicalUrl": "/news/google-says-hackers-use-ai-agents-to-find-and-exploit-software-flaws",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-judge-clears-brothers-in-25m-ethereum-mev-case-after-mistrial",
+      "type": "news",
+      "label": "US judge clears brothers in $25M Ethereum MEV case after mistrial",
+      "canonicalUrl": "/news/us-judge-clears-brothers-in-25m-ethereum-mev-case-after-mistrial",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:goldman-sachs-reports-1-22b-in-ether-etfs-as-etha-share-count-jumps",
+      "type": "news",
+      "label": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+      "canonicalUrl": "/news/goldman-sachs-reports-1-22b-in-ether-etfs-as-etha-share-count-jumps",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ex-robinhood-engineer-pleads-guilty-to-125k-hyperliquid-trading-scheme",
+      "type": "news",
+      "label": "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme",
+      "canonicalUrl": "/news/ex-robinhood-engineer-pleads-guilty-to-125k-hyperliquid-trading-scheme",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wall-street-stocks-enter-solana-defi-as-jupiter-unveils-new-lending-market",
+      "type": "news",
+      "label": "Wall Street Stocks Enter Solana DeFi As Jupiter Unveils New Lending Market",
+      "canonicalUrl": "/news/wall-street-stocks-enter-solana-defi-as-jupiter-unveils-new-lending-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-approves-blockchain-based-derivatives-exchange-in-major-win-for-crypto",
+      "type": "news",
+      "label": "US Approves Blockchain-Based Derivatives Exchange In Major Win For Crypto",
+      "canonicalUrl": "/news/us-approves-blockchain-based-derivatives-exchange-in-major-win-for-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wells-fargo-doubles-bitcoin-etf-holdings-to-2-35-billion-as-wall-street-expands-exposure",
+      "type": "news",
+      "label": "Wells Fargo Doubles Bitcoin ETF Holdings To $2.35 Billion As Wall Street Expands Exposure",
+      "canonicalUrl": "/news/wells-fargo-doubles-bitcoin-etf-holdings-to-2-35-billion-as-wall-street-expands-exposure",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:stusdt-begins-wind-down-as-justlend-plans-to-remove-its-wrapped-token-market",
+      "type": "news",
+      "label": "stUSDT Begins Wind-Down as JustLend Plans to Remove Its Wrapped Token Market",
+      "canonicalUrl": "/news/stusdt-begins-wind-down-as-justlend-plans-to-remove-its-wrapped-token-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:circle-expands-disparte-and-walia-roles-as-stablecoin-operations-scale",
+      "type": "news",
+      "label": "Circle Expands Disparte and Walia Roles as Stablecoin Operations Scale",
+      "canonicalUrl": "/news/circle-expands-disparte-and-walia-roles-as-stablecoin-operations-scale",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kenya-directs-crypto-providers-to-apply-for-vasp-licences",
+      "type": "news",
+      "label": "Kenya Directs Crypto Providers to Apply for VASP Licences",
+      "canonicalUrl": "/news/kenya-directs-crypto-providers-to-apply-for-vasp-licences",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:sbi-and-cambodia-plan-a-yen-stablecoin-trial-behind-everyday-remittances",
+      "type": "news",
+      "label": "SBI and Cambodia Plan a Yen Stablecoin Trial Behind Everyday Remittances",
+      "canonicalUrl": "/news/sbi-and-cambodia-plan-a-yen-stablecoin-trial-behind-everyday-remittances",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jpmorgan-and-mit-map-more-than-150-requirements-for-institutional-blockchains",
+      "type": "news",
+      "label": "JPMorgan and MIT Map More Than 150 Requirements for Institutional Blockchains",
+      "canonicalUrl": "/news/jpmorgan-and-mit-map-more-than-150-requirements-for-institutional-blockchains",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hackers-found-a-way-to-steal-crypto-without-hacking-wallets-and-ledger-was-caught-in-the-attack",
+      "type": "news",
+      "label": "Hackers found a way to steal crypto without hacking wallets, and Ledger was caught in the attack",
+      "canonicalUrl": "/news/hackers-found-a-way-to-steal-crypto-without-hacking-wallets-and-ledger-was-caught-in-the-attack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:a-25-million-mev-ruling-exposes-a-dangerous-blind-spot-in-wall-street-8217-s-tokenization-push",
+      "type": "news",
+      "label": "A $25 million MEV ruling exposes a dangerous blind spot in Wall Street&#8217;s tokenization push",
+      "canonicalUrl": "/news/a-25-million-mev-ruling-exposes-a-dangerous-blind-spot-in-wall-street-8217-s-tokenization-push",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-volume-surges-99-to-62m-yet-small-sellers-lose-out",
+      "type": "news",
+      "label": "XRP volume surges 99% to $62M, yet small sellers lose out",
+      "canonicalUrl": "/news/xrp-volume-surges-99-to-62m-yet-small-sellers-lose-out",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:anthropics-claude-builds-custom-gadget-blueprints-but-consistency-stays-hidden",
+      "type": "news",
+      "label": "Anthropic’s Claude builds custom gadget blueprints, but consistency stays hidden",
+      "canonicalUrl": "/news/anthropics-claude-builds-custom-gadget-blueprints-but-consistency-stays-hidden",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:google-ai-agents-audit-signals-code-and-one-major-flaw-stays-hidden",
+      "type": "news",
+      "label": "Google AI agents audit Signal’s code and one major flaw stays hidden",
+      "canonicalUrl": "/news/google-ai-agents-audit-signals-code-and-one-major-flaw-stays-hidden",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
+      "type": "news",
+      "label": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
+      "canonicalUrl": "/news/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
+      "type": "news",
+      "label": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
+      "canonicalUrl": "/news/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereums-glamsterdam-upgrade-risks-breaking-up-to-15-000-automated-apps",
+      "type": "news",
+      "label": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
+      "canonicalUrl": "/news/ethereums-glamsterdam-upgrade-risks-breaking-up-to-15-000-automated-apps",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:decentralized-exchange-grvt-looks-to-makes-commodity-trading-more-predictable-with-stable-funding-perps",
+      "type": "news",
+      "label": "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps",
+      "canonicalUrl": "/news/decentralized-exchange-grvt-looks-to-makes-commodity-trading-more-predictable-with-stable-funding-perps",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cryptos-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
+      "type": "news",
+      "label": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
+      "canonicalUrl": "/news/cryptos-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
+      "type": "news",
+      "label": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
+      "canonicalUrl": "/news/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-remains-penned-in-near-64-000-even-as-etf-outflow-streak-ends",
+      "type": "news",
+      "label": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
+      "canonicalUrl": "/news/bitcoin-remains-penned-in-near-64-000-even-as-etf-outflow-streak-ends",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+      "type": "news",
+      "label": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
+      "canonicalUrl": "/news/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
+      "type": "news",
+      "label": "New DeFi-yield generation targets ‘scam-like’ bank accounts that keep all the interest",
+      "canonicalUrl": "/news/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-drops-2-5-as-nvidia-stock-risks-new-5-month-lows-into-q3-earnings",
+      "type": "news",
+      "label": "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings",
+      "canonicalUrl": "/news/bitcoin-drops-2-5-as-nvidia-stock-risks-new-5-month-lows-into-q3-earnings",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-foundation-takes-majority-interest-in-crypto-data-firm-coingecko",
+      "type": "news",
+      "label": "Solana Foundation takes majority interest in crypto data firm CoinGecko",
+      "canonicalUrl": "/news/solana-foundation-takes-majority-interest-in-crypto-data-firm-coingecko",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-to-1m-by-2030-almost-certainly-not-says-dragonflys-qureshi",
+      "type": "news",
+      "label": "Bitcoin to $1M by 2030? ‘Almost certainly not,’ says Dragonfly’s Qureshi",
+      "canonicalUrl": "/news/bitcoin-to-1m-by-2030-almost-certainly-not-says-dragonflys-qureshi",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ark-sells-85m-in-nvidia-shares-ahead-of-chipmakers-q3-earnings-results",
+      "type": "news",
+      "label": "ARK sells $85M in Nvidia shares ahead of chipmaker’s Q3 earnings results",
+      "canonicalUrl": "/news/ark-sells-85m-in-nvidia-shares-ahead-of-chipmakers-q3-earnings-results",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:revolut-plans-four-blockchain-based-funds-for-private-markets-chair-says",
+      "type": "news",
+      "label": "Revolut plans four blockchain-based funds for private markets, chair says",
+      "canonicalUrl": "/news/revolut-plans-four-blockchain-based-funds-for-private-markets-chair-says",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-senators-seek-sec-answers-on-tokenized-stock-money-laundering-risks",
+      "type": "news",
+      "label": "US senators seek SEC answers on tokenized stock money laundering risks",
+      "canonicalUrl": "/news/us-senators-seek-sec-answers-on-tokenized-stock-money-laundering-risks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:blackrocks-bitcoin-etf-snaps-2-35b-outflow-streak-amid-extreme-fear",
+      "type": "news",
+      "label": "BlackRock’s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
+      "canonicalUrl": "/news/blackrocks-bitcoin-etf-snaps-2-35b-outflow-streak-amid-extreme-fear",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-realized-loss-metric-beats-june-high-as-open-interest-eyes-2-year-low",
+      "type": "news",
+      "label": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
+      "canonicalUrl": "/news/bitcoin-realized-loss-metric-beats-june-high-as-open-interest-eyes-2-year-low",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-foundation-takes-majority-stake-in-coingecko-in-major-push-into-crypto-data",
+      "type": "news",
+      "label": "Solana Foundation Takes Majority Stake in CoinGecko in Major Push Into Crypto Data",
+      "canonicalUrl": "/news/solana-foundation-takes-majority-stake-in-coingecko-in-major-push-into-crypto-data",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:blackrock-bitcoin-etf-ends-outflow-streak-as-extreme-fear-grips-crypto-market",
+      "type": "news",
+      "label": "BlackRock Bitcoin ETF Ends Outflow Streak as Extreme Fear Grips Crypto Market",
+      "canonicalUrl": "/news/blackrock-bitcoin-etf-ends-outflow-streak-as-extreme-fear-grips-crypto-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-earnings-could-tonight-8217-s-results-trigger-the-next-move-in-bitcoin",
+      "type": "news",
+      "label": "NVIDIA Earnings: Could Tonight&#8217;s Results Trigger the Next Move in Bitcoin?",
+      "canonicalUrl": "/news/nvidia-earnings-could-tonight-8217-s-results-trigger-the-next-move-in-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hackers-inject-crypto-stealing-malware-into-178-websites",
+      "type": "news",
+      "label": "Hackers Inject Crypto-Stealing Malware Into 178 Websites",
+      "canonicalUrl": "/news/hackers-inject-crypto-stealing-malware-into-178-websites",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nyse-owner-moves-into-bitcoin-backed-lending-as-wall-street-adoption-grows",
+      "type": "news",
+      "label": "NYSE Owner Moves Into Bitcoin-Backed Lending As Wall Street Adoption Grows",
+      "canonicalUrl": "/news/nyse-owner-moves-into-bitcoin-backed-lending-as-wall-street-adoption-grows",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-supreme-court-turns-down-custodia-bank-appeal-over-federal-reserve-master-account",
+      "type": "news",
+      "label": "US Supreme Court Turns Down Custodia Bank Appeal Over Federal Reserve Master Account",
+      "canonicalUrl": "/news/us-supreme-court-turns-down-custodia-bank-appeal-over-federal-reserve-master-account",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:judge-acquits-brothers-in-25-million-ethereum-mev-case-after-finding-no-proven-wire-fraud",
+      "type": "news",
+      "label": "Judge Acquits Brothers in $25 Million Ethereum MEV Case After Finding No Proven Wire Fraud",
+      "canonicalUrl": "/news/judge-acquits-brothers-in-25-million-ethereum-mev-case-after-finding-no-proven-wire-fraud",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:evernorths-xrp-treasury-carries-505-million-of-write-downs-under-an-unusual-accounting-rule",
+      "type": "news",
+      "label": "Evernorth’s XRP Treasury Carries $505 Million of Write-Downs Under an Unusual Accounting Rule",
+      "canonicalUrl": "/news/evernorths-xrp-treasury-carries-505-million-of-write-downs-under-an-unusual-accounting-rule",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:wells-fargo-reports-2-35-billion-in-blackrock-bitcoin-etf-shares-but-the-filing-needs-context",
+      "type": "news",
+      "label": "Wells Fargo Reports $2.35 Billion in BlackRock Bitcoin ETF Shares, but the Filing Needs Context",
+      "canonicalUrl": "/news/wells-fargo-reports-2-35-billion-in-blackrock-bitcoin-etf-shares-but-the-filing-needs-context",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-says-withdrawals-reopened-on-87-networks-as-recovery-moves-toward-full-access",
+      "type": "news",
+      "label": "Binance Says Withdrawals Reopened on 87 Networks as Recovery Moves Toward Full Access",
+      "canonicalUrl": "/news/binance-says-withdrawals-reopened-on-87-networks-as-recovery-moves-toward-full-access",
       "categoryId": null,
       "difficulty": null
     },
