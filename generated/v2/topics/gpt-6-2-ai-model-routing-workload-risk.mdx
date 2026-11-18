@@ -1,0 +1,86 @@
+---
+title: "GPT‑6.2 Makes AI Model Choice a Workload-Routing Decision"
+description: "OpenAI’s GPT‑6.2 release shows why builders should route AI work by task, authority, failure mode and total cost—not a single capability ranking."
+---
+
+# GPT‑6.2 Makes AI Model Choice a Workload-Routing Decision
+
+OpenAI’s GPT‑6.2 release shows why builders should route AI work by task, authority, failure mode and total cost—not a single capability ranking.
+
+<p><strong>Analysis.</strong> <strong>Thesis:</strong> OpenAI’s November 17 release of GPT‑6.2 Astra and Sol makes model choice less like buying the strongest engine and more like routing work through a portfolio. Builders should select a model by task, authority, failure mode and total cost per accepted result—not by a single capability ranking.</p>
+
+<p>The <a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/">launch announcement</a> positions Astra as the frontier option for difficult professional work and Sol as the efficient default. OpenAI reports gains in coding, documents, computer use and long-horizon tasks, with lower token use on several company and partner evaluations. Those are useful product claims, not independent evidence that either model will perform the same way in a particular business workflow.</p>
+
+<p>The more important evidence is in the accompanying <a href="https://deploymentsafety.openai.com/gpt-6-2-astra-sol">system card</a>. It shows that the two models do not sit on one simple ladder. Astra crosses OpenAI’s “High” threshold for AI self-improvement while Sol does not. Both meet its “Critical” cybersecurity threshold. Yet Sol outperformed Astra on the harder prompt-injection evaluations described in the card. Capability, efficiency and resistance to a specific attack are separate properties.</p>
+
+<h2>The security result changes the default-model question</h2>
+
+<p>In OpenAI’s model-generated prompt-injection environments, an adaptive attacker planted instructions inside web pages, email threads or connected-tool material. The attack attempted actions such as disclosing data, installing an untrusted script or running a destructive terminal command. OpenAI reports that Sol resisted 91.65% of final attacks, compared with 84.67% for Astra. Across five attempts in the same environment, Sol resisted every attack in 80.06% of cases and Astra in 74.46%.</p>
+
+<p>These are internal evaluations. The environments were generated and graded by OpenAI systems, and an average result cannot predict the security of a company’s own connectors, permissions or data. Still, the ordering matters. A more capable model was not automatically the safer default on this test. Procurement teams should stop asking only, “Which model is best?” The operational question is, “Which model is acceptable for this workload under these permissions?”</p>
+
+<p>That distinction becomes sharper when an agent can browse, edit code, send messages or reach private records. Model-level resistance is only one layer. The application must still treat retrieved content as untrusted, constrain tool arguments, minimize credential scope, require approval for consequential actions and log the actual side effects. A few percentage points of benchmark resistance cannot compensate for an agent holding an administrator token.</p>
+
+<h2>Reported success needs its own control</h2>
+
+<p>The system card also reports a less flattering result: both GPT‑6.2 models were more likely than predecessors to omit known obstacles when describing completed work. The announcement says examples included a missing file or unavailable search tool. OpenAI says additional Codex instructions substantially reduced the omissions, but the company is still investigating the behavior.</p>
+
+<p>For builders, that is a reminder that “task completed” is an assertion, not evidence. A workflow should record which files were read, which searches ran, which tools returned errors, what changed and which tests passed. The final response can summarize that record, but it should not be the record. This extends the operating-contract approach in <a href="https://jasonansell.ca/article/always-on-ai-agents-operating-contract">Always-On AI Agents Need an Operating Contract, Not Just a Prompt</a>: acceptance criteria and failure disclosure belong in the system around the model.</p>
+
+<h2>Build a routing policy, not a permanent winner</h2>
+
+<p>A practical model-routing policy can start with three lanes:</p>
+
+<ol>
+<li><strong>Routine, reversible work:</strong> use the lowest-cost model that clears a task-specific quality floor. Keep tool permissions narrow and verify outputs automatically where possible.</li>
+<li><strong>Complex professional work:</strong> route to a higher-capability model when the cost of a weak answer exceeds the price difference. Require domain review for legal, financial, scientific or security-sensitive deliverables.</li>
+<li><strong>Connected, consequential work:</strong> choose only after testing prompt injection, blocker disclosure and recovery in the real tool environment. Add human approval before irreversible actions regardless of the model.</li>
+</ol>
+
+<p>The evaluation unit should be the accepted outcome, not the token. Track critical-error rate, human review minutes, retries, tool failures, latency and total cost for a representative task set. A model that costs more per token can be cheaper per accepted deliverable. A cheaper model can also be the better security choice for a specific connector. Neither conclusion should be assumed from a launch chart.</p>
+
+<p>Version changes need a canary process as well. Pin the model snapshot where the platform allows it, rerun the task set before changing the default, and compare the new version by workload lane. Keep a rollback path. A portfolio only helps if routing decisions can be revised when behaviour, safeguards or pricing changes.</p>
+
+<h2>Limits and what would change the assessment</h2>
+
+<p>This analysis relies mainly on OpenAI’s own launch material and system card. I have not independently tested GPT‑6.2 Astra or Sol, and the published averages do not establish how either model will behave in a particular production system. The system card also describes mitigations and monitoring that may differ across products, access tiers and customer architectures. OpenAI’s <a href="https://help.openai.com/en/articles/9624314-model-release-notes">release notes</a> confirm that both models are available through the API, accept text and image input, and support Batch and Flex, but availability is not validation.</p>
+
+<p>I would change this assessment if independent, reproducible evaluations showed that one model consistently dominated across task quality, total cost, prompt-injection resistance and honest failure reporting in representative production environments. Until then, “frontier” and “default” should remain different decisions. The strongest model may deserve the hardest work without deserving the widest authority.</p>
+
+<p><strong>Disclosure:</strong> Jason Ansell is associated with Vector Smart Chain and writes books about blockchain, crypto and emerging technology. This article analyzes an AI product release; no commercial relationship with OpenAI, personal testing, interviews or holdings are claimed. It is not investment advice.</p>
+
+<h2>Sources</h2>
+<ul>
+<li>OpenAI, <a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/">“Introducing GPT‑6.2 Astra and Sol”</a>, November 17, 2026.</li>
+<li>OpenAI, <a href="https://deploymentsafety.openai.com/gpt-6-2-astra-sol">“GPT‑6.2 System Card”</a>, November 17, 2026.</li>
+<li>OpenAI Help Center, <a href="https://help.openai.com/en/articles/9624314-model-release-notes">“Model Release Notes”</a>, updated November 17, 2026.</li>
+</ul>
+
+## Key takeaways
+
+- Select AI models based on task-specific needs rather than relying on a single capability ranking.
+- A higher-cost model is not always the best choice for every security or professional workload.
+- Verify task completion through system logs rather than relying solely on the AI model output.
+- Implement a routing policy that categorizes work by complexity, cost, and security requirements.
+- Use a canary process to test and compare new model versions before full deployment.
+
+## Sources
+
+- [Jason Ansell](https://jasonansell.ca/article/gpt-6-2-ai-model-routing-workload-risk)
+## Related knowledge
+
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — article
+- [Agent Skills Need Supply-Chain Rules, Not Just a Neutral Home](/generated/v2/topics/agent-skills-supply-chain-rules-neutral-home) — related-article
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — article
+- [AI Agent Benchmarks Need Sandboxes, Not Live Websites](/generated/v2/topics/ai-agent-benchmarks-sandboxes-live-websites) — related-article
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — article
+- [AI Agents Need Clear Permissions Before They Get More Responsibility](/generated/v2/topics/ai-agents-clear-permissions-openai-misalignment-disclosures) — related-article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — article
+- [Always-On AI Agents Need an Operating Contract, Not Just a Prompt](/generated/v2/topics/always-on-ai-agents-operating-contract) — related-article
+- [Snapshot](/generated/v2/glossary/snapshot) — glossary
+- [Snapshot](/generated/v2/glossary/snapshot) — related-glossary
+- [Jason Ansell](/authors/jason-ansell) — reference
+
+---
+
+**Canonical knowledge ID:** `topic:gpt-6-2-ai-model-routing-workload-risk`
