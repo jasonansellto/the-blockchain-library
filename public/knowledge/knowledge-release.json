@@ -3,33 +3,33 @@
   "knowledgeReleaseVersion": "2.1.0",
   "compilerVersion": "2.0.1",
   "schemaVersion": "2.0",
-  "buildId": "73c34235caea1f42",
+  "buildId": "aa357533f1c831b1",
   "source": {
-    "exportDate": "2026-11-19T17:02:55.449Z",
+    "exportDate": "2026-11-20T17:03:27.734Z",
     "version": "1.0.0",
     "schemaVersion": "1.0"
   },
-  "generatedAt": "2026-11-19T17:02:55.449Z",
+  "generatedAt": "2026-11-20T17:03:27.734Z",
   "totals": {
-    "rawObjects": 9929,
-    "canonicalObjects": 9879,
-    "edges": 25895,
-    "searchableObjects": 9879
+    "rawObjects": 9994,
+    "canonicalObjects": 9944,
+    "edges": 25919,
+    "searchableObjects": 9944
   },
   "quality": {
-    "rawObjects": 9929,
-    "canonicalObjects": 9879,
+    "rawObjects": 9994,
+    "canonicalObjects": 9944,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 50,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25895,
+    "totalEdges": 25919,
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 7758,
+    "missingSeoDescription": 7821,
     "missingTags": 1002,
-    "uncategorized": 427
+    "uncategorized": 428
   },
   "distribution": {
     "website": "https://theblockchainlibrary.com",
@@ -40,27 +40,27 @@
   "publicFiles": {
     "manifest.json": {
       "path": "/knowledge/manifest.json",
-      "sha256": "fa950df46ffc175300117fd5cd9b5416e9335329f0a0249a52ba29e58d181afb"
+      "sha256": "3218d159c2f5d67413bef7b004c0163cb57c3e4d993b41137c0d569ad5c36ee5"
     },
     "catalog.json": {
       "path": "/knowledge/catalog.json",
-      "sha256": "a31f1a8fce2bde1cb0c069a0efb91f45c958deae0158bc77dd0c6d3b3727e5bc"
+      "sha256": "4ea84819fc40b23c7eed609b77cdb1f0c589e0f70d704e3e6fc45a0fd12ec1ab"
     },
     "graph.json": {
       "path": "/knowledge/graph.json",
-      "sha256": "4433ff809e9f258377dc9083835a451a0cb6d223ec5ec315fa65f2f5cb3a6bd6"
+      "sha256": "d6fe2d246335e7b62cf3ef576be8980d0215a6e0781980087d2d641540586a42"
     },
     "related.json": {
       "path": "/knowledge/related.json",
-      "sha256": "94f1f44ac639493a1d9e68f14cf407ea47373134a01cfda55bade63c90621824"
+      "sha256": "cd601c0336aad3934ed1b919da9038a6ce42595b7baea3c3a2773db9bfc1a00d"
     },
     "search-index.json": {
       "path": "/knowledge/search-index.json",
-      "sha256": "11d2ac8f4a9778890d264c9bb5892bac86b8c2a076f6fd295d25c94a9a49993a"
+      "sha256": "e51751049479a66d8a4872694bc4965b2a2ec247df6613110eb4b366b0a0053b"
     },
     "reconciliation.json": {
       "path": "/knowledge/reconciliation.json",
-      "sha256": "41f848c6bde6a7627c2d70fe123f72eefa7d1120181eaa3e853a06d3e05c6318"
+      "sha256": "d5e4bc30319a910ad18f3054aeb06bf9061e7d88517585fbcde6763cd8462f9e"
     },
     "missing-concepts.json": {
       "path": "/knowledge/missing-concepts.json",
@@ -72,7 +72,7 @@
     },
     "source-map.json": {
       "path": "/knowledge/source-map.json",
-      "sha256": "9fd6136198829ee7f2337bb6086aa026098d0dc198ff459d3731b189df850832"
+      "sha256": "2623190763562d90f91731a8d96c86ed2c72c96ba33e6261176f2509183907cf"
     }
   },
   "syncContract": {
