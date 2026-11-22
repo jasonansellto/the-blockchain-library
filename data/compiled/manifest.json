@@ -1,13 +1,13 @@
 {
   "compilerVersion": "2.0.1",
   "schemaVersion": "2.0",
-  "buildId": "b3f6c2ea27f2e374",
+  "buildId": "4a15c8e837a2e3ae",
   "source": {
-    "exportDate": "2026-11-21T11:04:18.738Z",
+    "exportDate": "2026-11-22T17:03:15.041Z",
     "version": "1.0.0",
     "schemaVersion": "1.0"
   },
-  "generatedAt": "2026-11-21T11:04:18.738Z",
+  "generatedAt": "2026-11-22T17:03:15.041Z",
   "sourceCounts": {
     "glossary": 734,
     "articles": 738,
@@ -19,18 +19,18 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 7690,
+    "news": 7720,
     "newsletters": 24
   },
   "totals": {
-    "rawObjects": 10017,
-    "canonicalObjects": 9967,
+    "rawObjects": 10047,
+    "canonicalObjects": 9997,
     "edges": 25919,
-    "searchableObjects": 9967
+    "searchableObjects": 9997
   },
   "quality": {
-    "rawObjects": 10017,
-    "canonicalObjects": 9967,
+    "rawObjects": 10047,
+    "canonicalObjects": 9997,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 44,
     "canonicalMergeExcessRows": 50,
@@ -39,7 +39,7 @@
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 7844,
+    "missingSeoDescription": 7874,
     "missingTags": 1002,
     "uncategorized": 428
   },
