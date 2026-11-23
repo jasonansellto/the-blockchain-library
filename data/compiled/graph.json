@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "4a15c8e837a2e3ae",
+  "buildId": "f339c01ef8c72749",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -79787,6 +79787,422 @@
       "difficulty": null
     },
     {
+      "id": "news:more-on-the-pending-oversight-hearings-state-of-crypto",
+      "type": "news",
+      "label": "More on the pending oversight hearings: State of Crypto",
+      "canonicalUrl": "/news/more-on-the-pending-oversight-hearings-state-of-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
+      "type": "news",
+      "label": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
+      "canonicalUrl": "/news/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest",
+      "type": "news",
+      "label": "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest",
+      "canonicalUrl": "/news/will-bitcoins-big-rebound-hold-more-tampered-ledgers-found-hodlers-digest",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:pi-network-price-bounces-11-from-record-low-as-dex-launch-nears",
+      "type": "news",
+      "label": "Pi Network Price Bounces 11% From Record Low As DEX Launch Nears",
+      "canonicalUrl": "/news/pi-network-price-bounces-11-from-record-low-as-dex-launch-nears",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+      "type": "news",
+      "label": "Market rout kills 50 basis points December Fed rate hike bets",
+      "canonicalUrl": "/news/market-rout-kills-50-basis-points-december-fed-rate-hike-bets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo",
+      "type": "news",
+      "label": "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
+      "canonicalUrl": "/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:billionaire-bill-ackman-warns-fed-will-make-a-rate-mistake-in-december",
+      "type": "news",
+      "label": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
+      "canonicalUrl": "/news/billionaire-bill-ackman-warns-fed-will-make-a-rate-mistake-in-december",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:half-of-wallets-on-trumps-dinner-list-got-tokens-from-non-us-exchanges",
+      "type": "news",
+      "label": "Half of wallets on Trump’s dinner list got tokens from non-US exchanges",
+      "canonicalUrl": "/news/half-of-wallets-on-trumps-dinner-list-got-tokens-from-non-us-exchanges",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-korea-to-expand-cryptocurrency-account-freezes-and-curb-illicit-transfers-abroad",
+      "type": "news",
+      "label": "South Korea to expand cryptocurrency account freezes and curb illicit transfers abroad",
+      "canonicalUrl": "/news/south-korea-to-expand-cryptocurrency-account-freezes-and-curb-illicit-transfers-abroad",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-breaks-a-record-streak-of-lower-highs-heres-what-it-means",
+      "type": "news",
+      "label": "Bitcoin breaks a record streak of 'lower highs.' Here's what it means",
+      "canonicalUrl": "/news/bitcoin-breaks-a-record-streak-of-lower-highs-heres-what-it-means",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-inflation-thanksgiving-trading-crypto-week-ahead",
+      "type": "news",
+      "label": "U.S. inflation, Thanksgiving trading: Crypto Week Ahead",
+      "canonicalUrl": "/news/u-s-inflation-thanksgiving-trading-crypto-week-ahead",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-thieves-are-using-online-ads-to-infect-iphones-with-a-single-tap-research-finds",
+      "type": "news",
+      "label": "Crypto thieves are using online ads to infect iPhones with a single tap, research finds",
+      "canonicalUrl": "/news/crypto-thieves-are-using-online-ads-to-infect-iphones-with-a-single-tap-research-finds",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:this-swedish-bitcoin-treasury-firm-lost-30-btc-trading-part-of-its-own-stack",
+      "type": "news",
+      "label": "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack",
+      "canonicalUrl": "/news/this-swedish-bitcoin-treasury-firm-lost-30-btc-trading-part-of-its-own-stack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cardano-holders-are-turning-down-a-4-million-request-for-running-its-flagship-event",
+      "type": "news",
+      "label": "Cardano holders are turning down a $4 million request for running its flagship event",
+      "canonicalUrl": "/news/cardano-holders-are-turning-down-a-4-million-request-for-running-its-flagship-event",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-sold-for-17-000-on-krakens-canadian-dollar-market-and-the-trades-stand",
+      "type": "news",
+      "label": "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand",
+      "canonicalUrl": "/news/bitcoin-sold-for-17-000-on-krakens-canadian-dollar-market-and-the-trades-stand",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:moldyroost-ads-can-steal-crypto-wallet-recovery-phrases-from-iphones",
+      "type": "news",
+      "label": "‘MoldyRoost’ ads can steal crypto wallet recovery phrases from iPhones",
+      "canonicalUrl": "/news/moldyroost-ads-can-steal-crypto-wallet-recovery-phrases-from-iphones",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-shed-1-8b-in-third-largest-weekly-outflow",
+      "type": "news",
+      "label": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
+      "canonicalUrl": "/news/bitcoin-etfs-shed-1-8b-in-third-largest-weekly-outflow",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-ledger-takes-another-step-toward-institutional-lending-could-this-change-xrp-8217-s-future",
+      "type": "news",
+      "label": "XRP Ledger Takes Another Step Toward Institutional Lending — Could This Change XRP&#8217;s Future?",
+      "canonicalUrl": "/news/xrp-ledger-takes-another-step-toward-institutional-lending-could-this-change-xrp-8217-s-future",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:russia-8217-s-bitcoin-trading-rules-take-effect-can-moscow-exchange-attract-new-btc-demand",
+      "type": "news",
+      "label": "Russia&#8217;s Bitcoin Trading Rules Take Effect — Can Moscow Exchange Attract New BTC Demand?",
+      "canonicalUrl": "/news/russia-8217-s-bitcoin-trading-rules-take-effect-can-moscow-exchange-attract-new-btc-demand",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-8217-s-21-million-supply-isn-8217-t-the-problem-analyst-blames-leverage-for-crypto-market-chaos",
+      "type": "news",
+      "label": "Bitcoin&#8217;s 21 Million Supply Isn&#8217;t The Problem — Analyst Blames Leverage For Crypto Market Chaos",
+      "canonicalUrl": "/news/bitcoin-8217-s-21-million-supply-isn-8217-t-the-problem-analyst-blames-leverage-for-crypto-market-chaos",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:blackrock-executive-sees-new-wave-of-wall-street-investors-entering-crypto-what-it-means-for-bitcoin",
+      "type": "news",
+      "label": "BlackRock Executive Sees New Wave Of Wall Street Investors Entering Crypto — What It Means For Bitcoin",
+      "canonicalUrl": "/news/blackrock-executive-sees-new-wave-of-wall-street-investors-entering-crypto-what-it-means-for-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:mexc-earn-plus-introduces-limited-time-promotional-apr-of-up-to-13-on-usdt",
+      "type": "news",
+      "label": "MEXC Earn Plus Introduces Limited-Time Promotional APR of Up to 13% on USDT",
+      "canonicalUrl": "/news/mexc-earn-plus-introduces-limited-time-promotional-apr-of-up-to-13-on-usdt",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-8217-s-meme-coin-dinner-exposes-a-94-collapse-in-holder-commitments",
+      "type": "news",
+      "label": "Trump&#8217;s Meme Coin Dinner Exposes a 94% Collapse in Holder Commitments",
+      "canonicalUrl": "/news/trump-8217-s-meme-coin-dinner-exposes-a-94-collapse-in-holder-commitments",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fusionist-ace-bridge-exploit-5-7m-loss-estimate-bithumb-freezes-trading",
+      "type": "news",
+      "label": "Fusionist ACE Bridge Exploit: $5.7M Loss Estimate, Bithumb Freezes Trading",
+      "canonicalUrl": "/news/fusionist-ace-bridge-exploit-5-7m-loss-estimate-bithumb-freezes-trading",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cathie-woods-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
+      "type": "news",
+      "label": "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs",
+      "canonicalUrl": "/news/cathie-woods-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hackers-push-247-million-through-transactions-designed-to-cloud-the-source",
+      "type": "news",
+      "label": "Binance hackers push $247 million through transactions designed to cloud the source",
+      "canonicalUrl": "/news/binance-hackers-push-247-million-through-transactions-designed-to-cloud-the-source",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:eric-trump-backed-american-bitcoin-secures-150-million-loan-against-its-bitcoin",
+      "type": "news",
+      "label": "Eric Trump-backed American Bitcoin secures $150 million loan against its bitcoin",
+      "canonicalUrl": "/news/eric-trump-backed-american-bitcoin-secures-150-million-loan-against-its-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-5-year-return-is-nearly-zero-great-narratives-are-fading-and-whats-left-is-the-fed",
+      "type": "news",
+      "label": "Bitcoin's 5-year return is nearly zero, great narratives are fading and what's left is the Fed",
+      "canonicalUrl": "/news/bitcoins-5-year-return-is-nearly-zero-great-narratives-are-fading-and-whats-left-is-the-fed",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-soars-as-jensen-huang-returns-to-lead-company",
+      "type": "news",
+      "label": "Nvidia soars as Jensen Huang returns to lead company",
+      "canonicalUrl": "/news/nvidia-soars-as-jensen-huang-returns-to-lead-company",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
+      "type": "news",
+      "label": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
+      "canonicalUrl": "/news/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoin-climbs-to-62-000-as-nasdaq-soars-6-on-huang-return",
+      "type": "news",
+      "label": "Live updates: Bitcoin climbs to $62,000 as Nasdaq soars 6% on Huang return",
+      "canonicalUrl": "/news/live-updates-bitcoin-climbs-to-62-000-as-nasdaq-soars-6-on-huang-return",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-losing-streak-is-second-longest-ever-and-some-observers-see-more-downside",
+      "type": "news",
+      "label": "Bitcoin's losing streak is second-longest ever, and some observers see more downside",
+      "canonicalUrl": "/news/bitcoins-losing-streak-is-second-longest-ever-and-some-observers-see-more-downside",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-wallets-holding-72-billion-eth-are-under-threat-of-a-future-quantum-attack",
+      "type": "news",
+      "label": "Ethereum wallets holding $72 billion ETH are under threat of a future quantum attack",
+      "canonicalUrl": "/news/ethereum-wallets-holding-72-billion-eth-are-under-threat-of-a-future-quantum-attack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover",
+      "type": "news",
+      "label": "Bitcoin rebounds from 2-year low as Wall Street futures recover",
+      "canonicalUrl": "/news/bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:japan-to-ramp-up-crypto-tax-audits-after-uncovering-24-5-million-in-hidden-income",
+      "type": "news",
+      "label": "Japan to ramp up crypto tax audits after uncovering $24.5 million in hidden income",
+      "canonicalUrl": "/news/japan-to-ramp-up-crypto-tax-audits-after-uncovering-24-5-million-in-hidden-income",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoin-climbs-back-above-61-000-as-stocks-rebound-from-ai-rout",
+      "type": "news",
+      "label": "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout",
+      "canonicalUrl": "/news/live-updates-bitcoin-climbs-back-above-61-000-as-stocks-rebound-from-ai-rout",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-rebounds-17-from-55k-lows-as-nvidia-rally-sparks-500m-crypto-liquidations",
+      "type": "news",
+      "label": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+      "canonicalUrl": "/news/bitcoin-rebounds-17-from-55k-lows-as-nvidia-rally-sparks-500m-crypto-liquidations",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cross-river-bank-enters-bitcoin-backed-lending-with-250k-loans",
+      "type": "news",
+      "label": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
+      "canonicalUrl": "/news/cross-river-bank-enters-bitcoin-backed-lending-with-250k-loans",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale",
+      "type": "news",
+      "label": "How market depth shapes the price of a weekend Bitcoin sale",
+      "canonicalUrl": "/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-reinstates-jensen-huang-as-ceo-amid-ongoing-intelligence-probe",
+      "type": "news",
+      "label": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
+      "canonicalUrl": "/news/nvidia-reinstates-jensen-huang-as-ceo-amid-ongoing-intelligence-probe",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:okx-ice-launch-113-tokenized-assets-despite-issuer-objections",
+      "type": "news",
+      "label": "OKX, ICE launch 113 tokenized assets despite issuer objections",
+      "canonicalUrl": "/news/okx-ice-launch-113-tokenized-assets-despite-issuer-objections",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-linked-american-bitcoin-secures-150m-credit-line-from-falconx",
+      "type": "news",
+      "label": "Trump-linked American Bitcoin secures $150M credit line from FalconX",
+      "canonicalUrl": "/news/trump-linked-american-bitcoin-secures-150m-credit-line-from-falconx",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strategy-buys-457-bitcoin-spends-212m-on-preferred-share-buybacks",
+      "type": "news",
+      "label": "Strategy buys 457 Bitcoin, spends $212M on preferred share buybacks",
+      "canonicalUrl": "/news/strategy-buys-457-bitcoin-spends-212m-on-preferred-share-buybacks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ai-agents-are-using-credit-cards-where-does-that-leave-crypto",
+      "type": "news",
+      "label": "AI agents are using credit cards. Where does that leave crypto?",
+      "canonicalUrl": "/news/ai-agents-are-using-credit-cards-where-does-that-leave-crypto",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:critics-of-netflixs-ftx-drama-point-to-obamas-producer-credit",
+      "type": "news",
+      "label": "Critics of Netflix’s FTX drama point to Obama’s producer credit",
+      "canonicalUrl": "/news/critics-of-netflixs-ftx-drama-point-to-obamas-producer-credit",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ecb-to-let-banks-pledge-more-tokenized-securities-as-collateral",
+      "type": "news",
+      "label": "ECB to let banks pledge more tokenized securities as collateral",
+      "canonicalUrl": "/news/ecb-to-let-banks-pledge-more-tokenized-securities-as-collateral",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btc-price-gains-12-from-55k-three-things-to-know-in-bitcoin-this-week",
+      "type": "news",
+      "label": "BTC price gains 12% from $55K: Three things to know in Bitcoin this week",
+      "canonicalUrl": "/news/btc-price-gains-12-from-55k-three-things-to-know-in-bitcoin-this-week",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:researchers-warn-72b-in-eth-faces-future-quantum-risk",
+      "type": "news",
+      "label": "Researchers Warn $72B in ETH Faces Future Quantum Risk",
+      "canonicalUrl": "/news/researchers-warn-72b-in-eth-faces-future-quantum-risk",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:okx-and-ice-launch-tokenized-stock-platform-despite-objections-from-67-companies",
+      "type": "news",
+      "label": "OKX and ICE Launch Tokenized Stock Platform Despite Objections From 67 Companies",
+      "canonicalUrl": "/news/okx-and-ice-launch-tokenized-stock-platform-despite-objections-from-67-companies",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-reclaims-1700-after-rebound-as-etf-outflows-weigh-on-recovery",
+      "type": "news",
+      "label": "Ethereum Reclaims $1700 After Rebound as ETF Outflows Weigh on Recovery",
+      "canonicalUrl": "/news/ethereum-reclaims-1700-after-rebound-as-etf-outflows-weigh-on-recovery",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidia-reinstates-jensen-huang-as-bitcoin-rally-sparks-372m-short-squeeze",
+      "type": "news",
+      "label": "Nvidia Reinstates Jensen Huang as Bitcoin Rally Sparks $372M Short Squeeze",
+      "canonicalUrl": "/news/nvidia-reinstates-jensen-huang-as-bitcoin-rally-sparks-372m-short-squeeze",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miners-are-turning-into-ai-giants-what-happens-to-bitcoin-next",
+      "type": "news",
+      "label": "Bitcoin Miners Are Turning Into AI Giants — What Happens To Bitcoin Next?",
+      "canonicalUrl": "/news/bitcoin-miners-are-turning-into-ai-giants-what-happens-to-bitcoin-next",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -79975,6 +80391,14 @@
       "type": "newsletter",
       "label": "The Blockchain Library: Weekly Insights on Governance, AI, and Protocol Integrity",
       "canonicalUrl": "/newsletter/the-blockchain-library-weekly-insights-on-governance-ai-and-protocol-integrity-2",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "newsletter:the-blockchain-library-weekly-navigating-infrastructure-safety-and-governance-25",
+      "type": "newsletter",
+      "label": "The Blockchain Library Weekly: Navigating Infrastructure, Safety, and Governance",
+      "canonicalUrl": "/newsletter/the-blockchain-library-weekly-navigating-infrastructure-safety-and-governance-25",
       "categoryId": null,
       "difficulty": null
     }

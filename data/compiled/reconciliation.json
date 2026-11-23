@@ -1,5 +1,5 @@
 {
-  "buildId": "4a15c8e837a2e3ae",
+  "buildId": "f339c01ef8c72749",
   "sourceCounts": {
     "glossary": 734,
     "articles": 738,
@@ -11,8 +11,8 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 7720,
-    "newsletters": 24
+    "news": 7773,
+    "newsletters": 25
   },
   "canonicalCounts": {
     "glossary": 717,
@@ -25,21 +25,21 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 7689,
-    "newsletters": 24
+    "news": 7741,
+    "newsletters": 25
   },
   "quality": {
-    "rawObjects": 10047,
-    "canonicalObjects": 9997,
+    "rawObjects": 10101,
+    "canonicalObjects": 10050,
     "exactDuplicateRowsRemoved": 0,
-    "canonicalMergeGroups": 44,
-    "canonicalMergeExcessRows": 50,
+    "canonicalMergeGroups": 45,
+    "canonicalMergeExcessRows": 51,
     "duplicateCanonicalUids": 0,
     "totalEdges": 25919,
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 7874,
+    "missingSeoDescription": 7927,
     "missingTags": 1002,
     "uncategorized": 428
   },
@@ -573,6 +573,18 @@
       "sourceIds": [
         "6ae21c6ec1e87a2ccbd036ef",
         "6ae21c6ec1e87a2ccbd036e9"
+      ],
+      "mergedRecords": 2,
+      "sourceTypes": [
+        "news"
+      ]
+    },
+    {
+      "uid": "news:more-on-the-pending-oversight-hearings-state-of-crypto",
+      "title": "More on the pending oversight hearings: State of Crypto",
+      "sourceIds": [
+        "6b04718224c12a164426a200",
+        "6b0374425fc16ea815fbb6cf"
       ],
       "mergedRecords": 2,
       "sourceTypes": [
