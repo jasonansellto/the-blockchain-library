@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "f339c01ef8c72749",
+  "buildId": "009169243a7e7e09",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -11640,6 +11640,14 @@
       "label": "When Everything Looks Like an Attack: Why I Wrote The Fear Machine",
       "canonicalUrl": "/topics/why-i-wrote-the-fear-machine",
       "categoryId": null,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:ecb-tokenized-collateral-interoperability-product",
+      "type": "topic",
+      "label": "ECB’s Tokenized Collateral Decision Makes Interoperability the Product",
+      "canonicalUrl": "/topics/ecb-tokenized-collateral-interoperability-product",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d0",
       "difficulty": "intermediate"
     },
     {
@@ -80203,6 +80211,614 @@
       "difficulty": null
     },
     {
+      "id": "news:new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
+      "type": "news",
+      "label": "New York judge declines to block Kalshi from operating in the state for now",
+      "canonicalUrl": "/news/new-york-judge-declines-to-block-kalshi-from-operating-in-the-state-for-now",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nvidias-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
+      "type": "news",
+      "label": "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO",
+      "canonicalUrl": "/news/nvidias-jensen-huang-faces-senate-scrutiny-despite-trump-backed-return-as-ceo",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bang",
+      "type": "news",
+      "label": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+      "canonicalUrl": "/news/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bang",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-seeks-to-recover-1-1b-in-crypto-stolen-in-north-korea-linked-binance-hack",
+      "type": "news",
+      "label": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
+      "canonicalUrl": "/news/us-seeks-to-recover-1-1b-in-crypto-stolen-in-north-korea-linked-binance-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kalshi-secures-temporary-win-in-new-york-gambling-law-dispute",
+      "type": "news",
+      "label": "Kalshi secures temporary win in New York gambling law dispute",
+      "canonicalUrl": "/news/kalshi-secures-temporary-win-in-new-york-gambling-law-dispute",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btcs-offloads-44m-in-eth-to-reduce-defi-debt-amid-market-downturn",
+      "type": "news",
+      "label": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
+      "canonicalUrl": "/news/btcs-offloads-44m-in-eth-to-reduce-defi-debt-amid-market-downturn",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:base-makes-quantum-security-a-2027-priority-as-regulators-warn-of-risks",
+      "type": "news",
+      "label": "Base makes quantum security a 2027 priority as regulators warn of risks",
+      "canonicalUrl": "/news/base-makes-quantum-security-a-2027-priority-as-regulators-warn-of-risks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cuomo-says-rivals-urged-companies-to-opt-out-of-okxice-tokenized-stocks",
+      "type": "news",
+      "label": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
+      "canonicalUrl": "/news/cuomo-says-rivals-urged-companies-to-opt-out-of-okxice-tokenized-stocks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-linked-american-bitcoin-secures-150m-falconx-credit-line-backed-by-btc",
+      "type": "news",
+      "label": "Trump-Linked American Bitcoin Secures $150M FalconX Credit Line Backed by BTC",
+      "canonicalUrl": "/news/trump-linked-american-bitcoin-secures-150m-falconx-credit-line-backed-by-btc",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:gpt-6-astra-and-opus-5-5-expose-a-blind-spot-in-ai-oversight",
+      "type": "news",
+      "label": "GPT-6 Astra and Opus 5.5 expose a blind spot in AI oversight",
+      "canonicalUrl": "/news/gpt-6-astra-and-opus-5-5-expose-a-blind-spot-in-ai-oversight",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-8217-s-supply-squeeze-narrative-faces-scrutiny-after-11-000-btc-moves-to-kraken",
+      "type": "news",
+      "label": "Bitcoin&#8217;s supply squeeze narrative faces scrutiny after 11,000 BTC moves to Kraken",
+      "canonicalUrl": "/news/bitcoin-8217-s-supply-squeeze-narrative-faces-scrutiny-after-11-000-btc-moves-to-kraken",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:strategy-raises-its-buyback-ceiling-to-4-billion-as-mstr-shares-sink-21",
+      "type": "news",
+      "label": "Strategy raises its buyback ceiling to $4 billion as MSTR shares sink 21%",
+      "canonicalUrl": "/news/strategy-raises-its-buyback-ceiling-to-4-billion-as-mstr-shares-sink-21",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:monad-faces-190-million-insider-token-unlock-larger-than-its-market-cap-as-mon-hits-record-low",
+      "type": "news",
+      "label": "Monad faces $190 million insider token unlock larger than its market cap as MON hits record low",
+      "canonicalUrl": "/news/monad-faces-190-million-insider-token-unlock-larger-than-its-market-cap-as-mon-hits-record-low",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:robinhood-chain-pays-ethereum-70-more-than-base-despite-collecting-64-less-in-fees",
+      "type": "news",
+      "label": "Robinhood Chain pays Ethereum 70% more than Base despite collecting 64% less in fees",
+      "canonicalUrl": "/news/robinhood-chain-pays-ethereum-70-more-than-base-despite-collecting-64-less-in-fees",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jensen-huang-8217-s-nvidia-comeback-sparks-1-trillion-rally-and-12-million-polymarket-frenzy",
+      "type": "news",
+      "label": "Jensen Huang&#8217;s NVIDIA comeback sparks $1 trillion rally and $12 million Polymarket frenzy",
+      "canonicalUrl": "/news/jensen-huang-8217-s-nvidia-comeback-sparks-1-trillion-rally-and-12-million-polymarket-frenzy",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:more-than-2-billion-rushed-out-of-sky-8217-s-stablecoin-in-a-single-day",
+      "type": "news",
+      "label": "More than $2 billion rushed out of Sky&#8217;s stablecoin in a single day",
+      "canonicalUrl": "/news/more-than-2-billion-rushed-out-of-sky-8217-s-stablecoin-in-a-single-day",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:why-bitcoin-surged-toward-64-000-before-pulling-back-as-trading-slows-54-into-thanksgiving",
+      "type": "news",
+      "label": "Why Bitcoin surged toward $64,000 before pulling back as trading slows 54% into Thanksgiving",
+      "canonicalUrl": "/news/why-bitcoin-surged-toward-64-000-before-pulling-back-as-trading-slows-54-into-thanksgiving",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-rockets-above-64-000-as-nvidia-reinstates-jensen-huang-wiping-out-372-million-in-shorts",
+      "type": "news",
+      "label": "Bitcoin rockets above $64,000 as Nvidia reinstates Jensen Huang, wiping out $372 million in shorts",
+      "canonicalUrl": "/news/bitcoin-rockets-above-64-000-as-nvidia-reinstates-jensen-huang-wiping-out-372-million-in-shorts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:openai-8217-s-gpt-6-astra-just-passed-a-major-robot-test-with-a-big-catch",
+      "type": "news",
+      "label": "OpenAI&#8217;s GPT-6 Astra just passed a major robot test, with a big catch",
+      "canonicalUrl": "/news/openai-8217-s-gpt-6-astra-just-passed-a-major-robot-test-with-a-big-catch",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+      "type": "news",
+      "label": "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes",
+      "canonicalUrl": "/news/u-s-cftc-sets-policies-on-event-contract-data-using-crypto-to-check-financial-boxes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:google-wants-to-make-you-the-star-of-your-own-ai-slop-movies",
+      "type": "news",
+      "label": "Google wants to make you the star of your own AI slop movies",
+      "canonicalUrl": "/news/google-wants-to-make-you-the-star-of-your-own-ai-slop-movies",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-foundation-doubles-protocol-security-team-ahead-of-overhaul",
+      "type": "news",
+      "label": "Ethereum Foundation doubles protocol security team ahead of overhaul",
+      "canonicalUrl": "/news/ethereum-foundation-doubles-protocol-security-team-ahead-of-overhaul",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves",
+      "type": "news",
+      "label": "CFTC staff say exchanges can count Bitcoin toward operating reserves",
+      "canonicalUrl": "/news/cftc-staff-say-exchanges-can-count-bitcoin-toward-operating-reserves",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-price-prediction-2030-is-2-000-sol-still-on-the-table-after-a-75-crash",
+      "type": "news",
+      "label": "Solana Price Prediction 2030: Is $2,000 SOL Still on the Table After a 75% Crash?",
+      "canonicalUrl": "/news/solana-price-prediction-2030-is-2-000-sol-still-on-the-table-after-a-75-crash",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btcs-sold-more-ethereum-than-it-has-left-to-repay-43-8-million-in-debt",
+      "type": "news",
+      "label": "BTCS sold more Ethereum than it has left to repay $43.8 million in debt",
+      "canonicalUrl": "/news/btcs-sold-more-ethereum-than-it-has-left-to-repay-43-8-million-in-debt",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aave-8217-s-usdc-loans-surge-36-to-2-6-billion-as-liquid-collateral-share-plunges",
+      "type": "news",
+      "label": "Aave&#8217;s USDC loans surge 36% to $2.6 billion as liquid collateral share plunges",
+      "canonicalUrl": "/news/aave-8217-s-usdc-loans-surge-36-to-2-6-billion-as-liquid-collateral-share-plunges",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-borrowers-face-a-207-500-tipping-point-as-one-vault-dominates-an-8-million-market",
+      "type": "news",
+      "label": "XRP borrowers face a $207,500 tipping point as one vault dominates an $8 million market",
+      "canonicalUrl": "/news/xrp-borrowers-face-a-207-500-tipping-point-as-one-vault-dominates-an-8-million-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:inkling-2-mini-got-20-questions-right-but-failed-4-out-of-5-tests-that-required-deeper-thinking",
+      "type": "news",
+      "label": "Inkling 2 Mini got 20 questions right but failed 4 out of 5 tests that required deeper thinking",
+      "canonicalUrl": "/news/inkling-2-mini-got-20-questions-right-but-failed-4-out-of-5-tests-that-required-deeper-thinking",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:u-s-seeks-1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving",
+      "type": "news",
+      "label": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
+      "canonicalUrl": "/news/u-s-seeks-1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:btcs-sells-more-than-half-its-ether-to-repay-43-8-million-in-aave-debt",
+      "type": "news",
+      "label": "BTCS sells more than half its ether to repay $43.8 million in Aave debt",
+      "canonicalUrl": "/news/btcs-sells-more-than-half-its-ether-to-repay-43-8-million-in-aave-debt",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-korea-regulator-backs-bank-controlled-stablecoins-after-months-of-dispute",
+      "type": "news",
+      "label": "South Korea regulator backs bank-controlled stablecoins after months of dispute",
+      "canonicalUrl": "/news/south-korea-regulator-backs-bank-controlled-stablecoins-after-months-of-dispute",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-falls-below-60-000-as-rally-on-jensen-huangs-nvidia-return-fades",
+      "type": "news",
+      "label": "Bitcoin falls below $60,000 as rally on Jensen Huang’s Nvidia return fades",
+      "canonicalUrl": "/news/bitcoin-falls-below-60-000-as-rally-on-jensen-huangs-nvidia-return-fades",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-dips-back-under-60k-as-gold-seals-worst-60-day-loss-since-1980s",
+      "type": "news",
+      "label": "Bitcoin dips back under $60K as gold seals worst 60-day loss since 1980s",
+      "canonicalUrl": "/news/bitcoin-dips-back-under-60k-as-gold-seals-worst-60-day-loss-since-1980s",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-keep-bleeding-as-blackrocks-ibit-shares-gain-nearly-5",
+      "type": "news",
+      "label": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
+      "canonicalUrl": "/news/bitcoin-etfs-keep-bleeding-as-blackrocks-ibit-shares-gain-nearly-5",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip",
+      "type": "news",
+      "label": "Why 42 Macro says it’s waiting to buy the Bitcoin dip",
+      "canonicalUrl": "/news/why-42-macro-says-its-waiting-to-buy-the-bitcoin-dip",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:avalanche-eyes-a-new-economic-model-could-avax-finally-benefit-from-network-adoption",
+      "type": "news",
+      "label": "Avalanche Eyes A New Economic Model – Could AVAX Finally Benefit From Network Adoption?",
+      "canonicalUrl": "/news/avalanche-eyes-a-new-economic-model-could-avax-finally-benefit-from-network-adoption",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:nasdaq-100-surges-6-8-as-ai-stocks-rebound-what-does-it-mean-for-bitcoin",
+      "type": "news",
+      "label": "Nasdaq 100 Surges 6.8% As AI Stocks Rebound – What Does It Mean For Bitcoin?",
+      "canonicalUrl": "/news/nasdaq-100-surges-6-8-as-ai-stocks-rebound-what-does-it-mean-for-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-korea-unveils-landmark-crypto-bill-could-asia-become-the-next-bitcoin-adoption-hub",
+      "type": "news",
+      "label": "South Korea Unveils Landmark Crypto Bill – Could Asia Become The Next Bitcoin Adoption Hub?",
+      "canonicalUrl": "/news/south-korea-unveils-landmark-crypto-bill-could-asia-become-the-next-bitcoin-adoption-hub",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-whales-place-366-million-in-buy-orders-are-large-traders-betting-on-a-recovery",
+      "type": "news",
+      "label": "Bitcoin Whales Place $366 Million In Buy Orders – Are Large Traders Betting On A Recovery?",
+      "canonicalUrl": "/news/bitcoin-whales-place-366-million-in-buy-orders-are-large-traders-betting-on-a-recovery",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-is-trading-near-60-000-but-could-thanksgiving-week-set-the-stage-for-a-supply-squeeze",
+      "type": "news",
+      "label": "Bitcoin Is Trading Near $60,000 – But Could Thanksgiving Week Set The Stage For A Supply Squeeze?",
+      "canonicalUrl": "/news/bitcoin-is-trading-near-60-000-but-could-thanksgiving-week-set-the-stage-for-a-supply-squeeze",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:mexc-releases-september-october-security-report-guardian-fund-adds-1-000-btc-reserve-ratios-exceed-100",
+      "type": "news",
+      "label": "MEXC Releases September–October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100%",
+      "canonicalUrl": "/news/mexc-releases-september-october-security-report-guardian-fund-adds-1-000-btc-reserve-ratios-exceed-100",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-hack-us-moves-to-recover-1-1-billion-but-who-gets-the-money",
+      "type": "news",
+      "label": "Binance Hack: US Moves to Recover $1.1 Billion, but Who Gets the Money?",
+      "canonicalUrl": "/news/binance-hack-us-moves-to-recover-1-1-billion-but-who-gets-the-money",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-reserves-just-found-a-new-use-on-wall-street-but-there-8217-s-a-catch",
+      "type": "news",
+      "label": "Bitcoin Reserves Just Found a New Use on Wall Street, but There&#8217;s a Catch",
+      "canonicalUrl": "/news/bitcoin-reserves-just-found-a-new-use-on-wall-street-but-there-8217-s-a-catch",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitmine-8217-s-655-million-ethereum-hit-wipes-out-nearly-three-years-of-staking-income",
+      "type": "news",
+      "label": "BitMine&#8217;s $655 million Ethereum hit wipes out nearly three years of staking income",
+      "canonicalUrl": "/news/bitmine-8217-s-655-million-ethereum-hit-wipes-out-nearly-three-years-of-staking-income",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:16-polymarket-wallets-turn-20-000-into-350-000-before-jensen-huang-8217-s-shock-nvidia-return",
+      "type": "news",
+      "label": "16 Polymarket wallets turn $20,000 into $350,000 before Jensen Huang&#8217;s shock NVIDIA return",
+      "canonicalUrl": "/news/16-polymarket-wallets-turn-20-000-into-350-000-before-jensen-huang-8217-s-shock-nvidia-return",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-8217-s-next-crash-may-come-from-holders-not-leverage-as-10-7-billion-gets-liquidated",
+      "type": "news",
+      "label": "Bitcoin&#8217;s next crash may come from holders, not leverage, as $10.7 billion gets liquidated",
+      "canonicalUrl": "/news/bitcoin-8217-s-next-crash-may-come-from-holders-not-leverage-as-10-7-billion-gets-liquidated",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ai-trade-never-died-traders-see-room-for-market-recovery-but-bitcoins-participation-is-another-story",
+      "type": "news",
+      "label": "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+      "canonicalUrl": "/news/ai-trade-never-died-traders-see-room-for-market-recovery-but-bitcoins-participation-is-another-story",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:anchorage-digital-to-unveil-new-asset-management-subsidiary",
+      "type": "news",
+      "label": "Anchorage Digital to unveil new asset-management subsidiary",
+      "canonicalUrl": "/news/anchorage-digital-to-unveil-new-asset-management-subsidiary",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-korea-proposes-ending-2017-ico-ban-to-boost-jobs-and-onshore-crypto-investment",
+      "type": "news",
+      "label": "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment",
+      "canonicalUrl": "/news/south-korea-proposes-ending-2017-ico-ban-to-boost-jobs-and-onshore-crypto-investment",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-trader-ansem-says-his-wallet-was-hacked-as-2-million-in-memecoins-were-sold",
+      "type": "news",
+      "label": "Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold",
+      "canonicalUrl": "/news/crypto-trader-ansem-says-his-wallet-was-hacked-as-2-million-in-memecoins-were-sold",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoin-pulls-back-below-60-000-stock-rally-fades-as-tariffs-re-enter-the-picture",
+      "type": "news",
+      "label": "Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture",
+      "canonicalUrl": "/news/live-updates-bitcoin-pulls-back-below-60-000-stock-rally-fades-as-tariffs-re-enter-the-picture",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-4-71-billion",
+      "type": "news",
+      "label": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+      "canonicalUrl": "/news/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-4-71-billion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:jpmorgan-hsbc-and-stonex-complete-first-digital-gold-trades-in-london",
+      "type": "news",
+      "label": "JPMorgan, HSBC and StoneX complete first digital gold trades in London",
+      "canonicalUrl": "/news/jpmorgan-hsbc-and-stonex-complete-first-digital-gold-trades-in-london",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-hands-back-mondays-nvidia-driven-gains-liquidations-triple",
+      "type": "news",
+      "label": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
+      "canonicalUrl": "/news/bitcoin-hands-back-mondays-nvidia-driven-gains-liquidations-triple",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-drop-to-55-000-left-a-record-11-6-million-btc-underwater",
+      "type": "news",
+      "label": "Bitcoin’s drop to $55,000 left a record 11.6 million BTC underwater",
+      "canonicalUrl": "/news/bitcoins-drop-to-55-000-left-a-record-11-6-million-btc-underwater",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:how-south-koreas-proposed-20-cap-could-change-who-runs-upbit",
+      "type": "news",
+      "label": "How South Korea’s proposed 20% cap could change who runs Upbit",
+      "canonicalUrl": "/news/how-south-koreas-proposed-20-cap-could-change-who-runs-upbit",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:usdt-buyers-face-22-vat-when-moscow-exchange-opens-crypto-trading",
+      "type": "news",
+      "label": "USDT buyers face 22% VAT when Moscow Exchange opens crypto trading",
+      "canonicalUrl": "/news/usdt-buyers-face-22-vat-when-moscow-exchange-opens-crypto-trading",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:swiss-central-bank-ubs-and-six-study-ledger-for-tokenized-settlement",
+      "type": "news",
+      "label": "Swiss central bank, UBS and SIX study ledger for tokenized settlement",
+      "canonicalUrl": "/news/swiss-central-bank-ubs-and-six-study-ledger-for-tokenized-settlement",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:sky-lender-proposes-buyback-of-up-to-50m-to-fund-stusds-withdrawals",
+      "type": "news",
+      "label": "Sky lender proposes buyback of up to $50M to fund stUSDS withdrawals",
+      "canonicalUrl": "/news/sky-lender-proposes-buyback-of-up-to-50m-to-fund-stusds-withdrawals",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:grayscale-calls-bitcoin-oversold-at-62k-but-warns-of-ai-risks",
+      "type": "news",
+      "label": "Grayscale calls Bitcoin ‘oversold’ at $62K but warns of AI risks",
+      "canonicalUrl": "/news/grayscale-calls-bitcoin-oversold-at-62k-but-warns-of-ai-risks",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-korea-proposes-bank-led-stablecoins-20-cap-on-crypto-exchange-stakes",
+      "type": "news",
+      "label": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
+      "canonicalUrl": "/news/south-korea-proposes-bank-led-stablecoins-20-cap-on-crypto-exchange-stakes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-dipped-on-huangs-nvidia-exit-but-jumped-5-on-his-return",
+      "type": "news",
+      "label": "Bitcoin dipped on Huang’s Nvidia exit but jumped 5% on his return",
+      "canonicalUrl": "/news/bitcoin-dipped-on-huangs-nvidia-exit-but-jumped-5-on-his-return",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-lose-4-71b-in-november-as-blackrocks-ibit-shares-rebound",
+      "type": "news",
+      "label": "Bitcoin ETFs Lose $4.71B in November as BlackRock’s IBIT Shares Rebound",
+      "canonicalUrl": "/news/bitcoin-etfs-lose-4-71b-in-november-as-blackrocks-ibit-shares-rebound",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:russia-will-impose-22-vat-on-usdt-trades-as-moscow-exchange-opens",
+      "type": "news",
+      "label": "Russia Will Impose 22% VAT on USDT Trades as Moscow Exchange Opens",
+      "canonicalUrl": "/news/russia-will-impose-22-vat-on-usdt-trades-as-moscow-exchange-opens",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:grayscale-says-bitcoin-is-oversold-but-ai-risks-could-delay-market-recovery",
+      "type": "news",
+      "label": "Grayscale Says Bitcoin Is Oversold but AI Risks Could Delay Market Recovery",
+      "canonicalUrl": "/news/grayscale-says-bitcoin-is-oversold-but-ai-risks-could-delay-market-recovery",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kalshi-wins-temporary-reprieve-as-new-york-judge-delays-potential-shutdown",
+      "type": "news",
+      "label": "Kalshi Wins Temporary Reprieve as New York Judge Delays Potential Shutdown",
+      "canonicalUrl": "/news/kalshi-wins-temporary-reprieve-as-new-york-judge-delays-potential-shutdown",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitmines-ethereum-loss-erases-nearly-three-years-of-projected-staking-revenue",
+      "type": "news",
+      "label": "BitMine’s Ethereum Loss Erases Nearly Three Years of Projected Staking Revenue",
+      "canonicalUrl": "/news/bitmines-ethereum-loss-erases-nearly-three-years-of-projected-staking-revenue",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:microsoft-8217-s-8216-code-red-8217-exposes-crypto-8217-s-own-cloud-problem",
+      "type": "news",
+      "label": "Microsoft&#8217;s &#8216;Code Red&#8217; Exposes Crypto&#8217;s Own Cloud Problem",
+      "canonicalUrl": "/news/microsoft-8217-s-8216-code-red-8217-exposes-crypto-8217-s-own-cloud-problem",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:blackrock-launches-hong-kong-tokenized-fund-with-a-hk-10-entry-point",
+      "type": "news",
+      "label": "BlackRock Launches Hong Kong Tokenized Fund With A HK$10 Entry Point",
+      "canonicalUrl": "/news/blackrock-launches-hong-kong-tokenized-fund-with-a-hk-10-entry-point",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-loses-60-000-and-gold-offers-no-protection-during-its-worst-selloff-since-1982",
+      "type": "news",
+      "label": "Bitcoin Loses $60,000 And Gold Offers No Protection During Its Worst Selloff Since 1982",
+      "canonicalUrl": "/news/bitcoin-loses-60-000-and-gold-offers-no-protection-during-its-worst-selloff-since-1982",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-moves-to-seize-1-1-billion-from-binance-hackers-without-accessing-their-wallets",
+      "type": "news",
+      "label": "US moves to seize $1.1 billion from Binance hackers without accessing their wallets",
+      "canonicalUrl": "/news/us-moves-to-seize-1-1-billion-from-binance-hackers-without-accessing-their-wallets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-5-000-price-swing-and-anthropics-ipo-decline-expose-cracks-in-ai-driven-market-rally",
+      "type": "news",
+      "label": "Bitcoin’s $5,000 price swing and Anthropic’s IPO decline expose cracks in AI-driven market rally",
+      "canonicalUrl": "/news/bitcoins-5-000-price-swing-and-anthropics-ipo-decline-expose-cracks-in-ai-driven-market-rally",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:blackrock-drives-bitcoin-etfs-to-worst-month-on-record-as-crypto-fund-withdrawals-near-6-billion",
+      "type": "news",
+      "label": "BlackRock drives Bitcoin ETFs to worst month on record as crypto fund withdrawals near $6 billion",
+      "canonicalUrl": "/news/blackrock-drives-bitcoin-etfs-to-worst-month-on-record-as-crypto-fund-withdrawals-near-6-billion",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bisq-2-desktop-users-must-update-to-keep-trading-bitcoin",
+      "type": "news",
+      "label": "Bisq 2 desktop users must update to keep trading Bitcoin",
+      "canonicalUrl": "/news/bisq-2-desktop-users-must-update-to-keep-trading-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:what-the-junk-bond-market-can-tell-bitcoin-traders-after-mondays-rebound",
+      "type": "news",
+      "label": "What the junk bond market can tell Bitcoin traders after Monday’s rebound",
+      "canonicalUrl": "/news/what-the-junk-bond-market-can-tell-bitcoin-traders-after-mondays-rebound",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-developers-propose-fix-for-transaction-verification-gap-affecting-lightning-wallets",
+      "type": "news",
+      "label": "Bitcoin developers propose fix for transaction verification gap affecting Lightning wallets",
+      "canonicalUrl": "/news/bitcoin-developers-propose-fix-for-transaction-verification-gap-affecting-lightning-wallets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -130863,6 +131479,102 @@
     {
       "from": "topic:why-i-wrote-the-fear-machine",
       "to": "research:blockchain-artificial-intelligence-the-battlefield-of-things",
+      "type": "research",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:how-blockchain-fits-into-existing-business-infrastructure-without-replacing-it",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:cross-chain-solutions-in-2025-are-we-finally-interoperable",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:layer-1-wars-are-over-heres-what-actually-wins-in-2026",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:why-software-is-shifting-from-products-to-protocols",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:collateral",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:proposal",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:finality",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:interoperability",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:custody",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:settlement",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
+      "category": "articles"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "research:blockchain-for-supply-chain-management-a-literature-review-and-open-challenges",
       "type": "research",
       "source": "base44",
       "strength": 1,
@@ -244119,6 +244831,72 @@
     {
       "from": "topic:why-i-wrote-the-fear-machine",
       "to": "research:blockchain-artificial-intelligence-the-battlefield-of-things",
+      "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:collateral",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:finality",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:custody",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:interoperability",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:settlement",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "glossary:proposal",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:how-blockchain-fits-into-existing-business-infrastructure-without-replacing-it",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:cross-chain-solutions-in-2025-are-we-finally-interoperable",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:layer-1-wars-are-over-heres-what-actually-wins-in-2026",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "topic:why-software-is-shifting-from-products-to-protocols",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:ecb-tokenized-collateral-interoperability-product",
+      "to": "research:blockchain-for-supply-chain-management-a-literature-review-and-open-challenges",
       "type": "related-research",
       "source": "embedded"
     },
