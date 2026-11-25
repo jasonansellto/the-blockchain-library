@@ -140178,6 +140178,122 @@
     }
   },
   {
+    "uid": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+    "id": "healthcare-ai-configurations-validate-workflow-not-model",
+    "type": "topic",
+    "sourceType": "articles",
+    "sourceId": "6b06ea7bce58ff19086d8280",
+    "sourceIds": [
+      "6b06ea7bce58ff19086d8280"
+    ],
+    "title": "Healthcare AI Configurations Shift Validation From Model to Workflow",
+    "aliases": [],
+    "slug": "healthcare-ai-configurations-validate-workflow-not-model",
+    "canonicalUrl": "/topics/healthcare-ai-configurations-validate-workflow-not-model",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": "intermediate",
+    "categoryId": "6a4cfe7ce8ddbcb85df987d3",
+    "tags": [
+      "Artificial Intelligence",
+      "Healthcare AI",
+      "Clinical Evidence",
+      "AI Governance",
+      "Canada"
+    ],
+    "summary": "OpenAI’s healthcare-specific API configurations make the evidence layer part of the system builders must validate, not a substitute for workflow testing.",
+    "seoTitle": "Healthcare AI: Validating Models in Clinical Workflows",
+    "seoDescription": "Learn how healthcare AI configurations shift validation from base models to workflows and why clinical evidence trails are vital for medical software.",
+    "data": {
+      "title": "Healthcare AI Configurations Shift Validation From Model to Workflow",
+      "slug": "healthcare-ai-configurations-validate-workflow-not-model",
+      "summary": "OpenAI’s healthcare-specific API configurations make the evidence layer part of the system builders must validate, not a substitute for workflow testing.",
+      "featured_image": "https://base44.app/api/apps/6aa184855ed6b34685f2f7e8/files/mp/public/6aa184855ed6b34685f2f7e8/047de015ce342cbc43105317297fcdde_healthcare-ai-configurations-validate-workflow-not-model.jpg",
+      "body": "<p><strong>Analysis.</strong> <strong>Thesis:</strong> Healthcare-specific AI configurations can improve how a model finds and presents medical evidence, but they also move the validation target beyond the base model. Builders must test the full workflow: source retrieval, citation integrity, data handling, intended use, human review and what happens when the system is wrong.</p>\n\n<p>OpenAI released healthcare model configurations for its API on November 24. The configurations pair selected models with healthcare-specific instructions and a dedicated clinical search index when web search is enabled. They are available through the Responses API, and OpenAI says developers can use them to answer clinical questions, compare studies and summarize evidence with citations.</p>\n\n<p>That sounds like a model feature. Operationally, it is closer to a configured evidence system. The answer depends not only on the underlying model, but also on which index is searched, how sources are ranked, what instructions shape the response, whether citations support the claims, and how the application routes uncertainty to a qualified person.</p>\n\n<h2>The configuration becomes part of the product</h2>\n\n<p>A general model benchmark cannot establish that a healthcare application is safe or useful in a specific workflow. A team might use the same configured model for literature review, clinician support, patient education, coding assistance or a feature that influences diagnosis. Those uses have different users, consequences and evidence requirements.</p>\n\n<p>OpenAI reports that its healthcare-configured GPT‑6.2 Astra performed better and faster than comparison systems on its HealthBench Professional evaluation. That is relevant vendor evidence, not proof of clinical effectiveness in a buyer’s environment. Benchmark tasks do not reproduce every local population, policy, record system, time pressure or failure path.</p>\n\n<p>The release therefore changes the practical question from “Which model should we use?” to “Which configured workflow are we willing to validate?” My earlier analysis of <a href=\"https://jasonansell.ca/article/health-ai-appeal-path-accuracy-score\">why health AI needs an appeal path</a> focused on recourse after a consequential output. This release adds an upstream requirement: preserve enough evidence to reconstruct how the system found and used medical information in the first place.</p>\n\n<h2>Five artifacts a healthcare AI pilot should produce</h2>\n\n<p>Before expanding beyond a controlled pilot, builders and buyers should be able to produce five reviewable artifacts:</p>\n\n<ol>\n  <li><strong>A use-case boundary.</strong> State the intended user, clinical or administrative purpose, permitted inputs, prohibited uses and the consequence of an incorrect answer. “Healthcare assistant” is too broad to validate.</li>\n  <li><strong>A retrieval record.</strong> Preserve the query, sources returned, publication dates, ranking or selection decisions and the model or configuration version. A citation list without the retrieval context is not a reproducible evidence trail.</li>\n  <li><strong>A citation audit.</strong> Test whether each material claim is actually supported by the linked source, whether the source applies to the relevant population and jurisdiction, and whether newer guidance changes the answer.</li>\n  <li><strong>A failure and escalation path.</strong> Define when the system should abstain, when a qualified human must review, what evidence that reviewer receives, and how corrections reach downstream records or decisions.</li>\n  <li><strong>A change-control record.</strong> Track model aliases, configuration updates, search behaviour and application prompts. A system can change even when the product interface and model family name appear stable.</li>\n</ol>\n\n<p>These artifacts turn “human oversight” from a policy phrase into an observable operating process. They also help teams separate a retrieval failure from a reasoning failure, a source-quality problem from a citation problem, and a model error from an application-design error.</p>\n\n<h2>Canadian teams cannot import a U.S. privacy shortcut</h2>\n\n<p>OpenAI’s documentation says access to a healthcare configuration does not itself authorize processing protected health information. For U.S. HIPAA workflows, an applicable Business Associate Agreement and eligible account and tool settings are required. Canadian organizations should not treat that U.S. requirement as a substitute for the federal, provincial, professional and institutional rules that apply to their own data and use case.</p>\n\n<p>Canada’s federal, provincial and territorial privacy regulators have called for health AI to be privacy-protective, valid and reliable, safe, human-rights affirming, transparent and accountable across its full life cycle. Their recommendations include data minimization, audit capabilities, routine real-world testing, ongoing risk assessment and human-in-the-loop oversight.</p>\n\n<p>Health Canada’s April guidance adds another important distinction. Machine-learning software is regulated as a medical device when it uses ML to achieve an intended medical purpose under the applicable law. The guidance asks manufacturers to describe the intended user, patient population, environment, software inputs and outputs, workflow fit and degree of autonomy. The label attached to a model configuration does not decide that classification; intended purpose and implementation matter.</p>\n\n<p>A low-impact evidence-summarization tool and a system used to support diagnosis may share technical components while facing very different validation and regulatory expectations. Product teams should decide that boundary before marketing copy, workflow integration or user habits silently decide it for them.</p>\n\n<h2>What this release does not prove</h2>\n\n<p>The new configurations do not prove that every cited answer is correct, that the dedicated index is complete, that a product is compliant in Canada, or that a benchmark gain will improve patient outcomes. OpenAI explicitly says users should review answers and cited sources and that the configurations do not replace professional medical judgment.</p>\n\n<p>I would become more confident in this approach if independent evaluations reproduce the reported gains across Canadian populations, specialties and bilingual evidence; if buyers can inspect retrieval and configuration changes; and if real-world studies show that cited evidence improves decisions without creating automation bias. I would become less confident if configuration updates are difficult to audit, citations routinely fail to support claims, or organizations deploy the tools without clear intended-use and escalation boundaries.</p>\n\n<p>The durable lesson is simple: specialization does not reduce the need for validation. It changes what must be validated. In healthcare AI, the product is the model, the evidence layer, the application controls and the people responsible for the final decision.</p>\n\n<p><strong>Disclosure:</strong> Jason Ansell is associated with Vector Smart Chain and writes books about AI, blockchain and digital infrastructure. Those interests are not involved in this release, and this analysis makes no vendor, medical or investment recommendation.</p>\n\n<h2>Sources</h2>\n\n<ul>\n  <li><a href=\"https://help.openai.com/en/articles/20001656-healthcare-model-configurations-in-the-openai-api\">OpenAI — Healthcare model configurations in the OpenAI API</a>, updated November 24, 2026.</li>\n  <li><a href=\"https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/\">OpenAI — More ways to move care forward with ChatGPT for Healthcare</a>, November 24, 2026.</li>\n  <li><a href=\"https://www.priv.gc.ca/en/about-the-opc/what-we-do/provincial-and-territorial-collaboration/joint-resolutions-with-provinces-and-territories/res_20260915_aihealth\">Office of the Privacy Commissioner of Canada — Responsible use of artificial intelligence in health and health research</a>, adopted September 15 and published October 29, 2026.</li>\n  <li><a href=\"https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/pre-market-guidance-machine-learning-enabled-medical-devices.html\">Health Canada — Pre-market guidance for machine learning-enabled medical devices</a>, April 1, 2026.</li>\n</ul>",
+      "toc": [],
+      "difficulty": "intermediate",
+      "reading_time": null,
+      "author_id": "6a4d2b0cf56d2579d02a65b0",
+      "author_ids": [
+        "6a4d2b0cf56d2579d02a65b0"
+      ],
+      "category_id": "6a4cfe7ce8ddbcb85df987d3",
+      "subcategory_id": null,
+      "tags": [
+        "Artificial Intelligence",
+        "Healthcare AI",
+        "Clinical Evidence",
+        "AI Governance",
+        "Canada"
+      ],
+      "status": "published",
+      "access_level": "public",
+      "is_featured": false,
+      "key_takeaways": [
+        "Healthcare AI configurations shift validation requirements from the base model to the entire operational workflow.",
+        "Developers must create an evidence trail, including retrieval records and citation audits, for all clinical outputs.",
+        "General AI performance benchmarks do not replace the need for local validation and real-world clinical testing.",
+        "Regulatory compliance is determined by a system's intended purpose and implementation, not by model configuration labels."
+      ],
+      "faq": [
+        {
+          "question": "How do healthcare-specific AI configurations change the validation process?",
+          "answer": "These configurations shift the focus from merely validating the underlying AI model to evaluating the entire integrated workflow. Builders must now test how information is retrieved, cited, and managed within the specific clinical system rather than relying solely on base model performance."
+        },
+        {
+          "question": "Why are general AI benchmarks insufficient for healthcare applications?",
+          "answer": "General benchmarks cannot account for the unique variables in a specific medical environment, such as local patient populations, internal record systems, or institutional policies. Because the same model can be used for vastly different tasks, developers must conduct localized validation relevant to their specific clinical use case."
+        },
+        {
+          "question": "What documentation should a healthcare AI pilot produce for safety?",
+          "answer": "A pilot should produce five key artifacts: a defined use-case boundary, a detailed retrieval record, a citation audit, a documented failure and escalation path, and a change-control record. These materials provide a transparent audit trail necessary for clinical accountability and reliability."
+        },
+        {
+          "question": "Do healthcare AI model configurations automatically comply with data privacy laws?",
+          "answer": "No, access to a healthcare configuration does not equate to regulatory compliance. Organizations must still adhere to local privacy laws, such as HIPAA in the U.S. or relevant provincial and federal regulations in Canada, which require specific data handling and governance practices."
+        }
+      ],
+      "references": [],
+      "related_articles": [
+        "6ade6a07e8b6e2e8978fc68f",
+        "6ade6a07e8b6e2e8978fc699",
+        "6ae495974538b28e820a4c45",
+        "6aeb3b7f03b2fad9e0f3156a"
+      ],
+      "related_glossary": [
+        "6a4e3b729fbb40b77381de43"
+      ],
+      "related_books": [],
+      "related_research": [
+        "6a72790a88eb6a1d82cda6d3"
+      ],
+      "related_external": [],
+      "seo_title": "Healthcare AI: Validating Models in Clinical Workflows",
+      "seo_description": "Learn how healthcare AI configurations shift validation from base models to workflows and why clinical evidence trails are vital for medical software.",
+      "published_date": "2026-11-25",
+      "internal_id": "ja-healthcare-ai-configurations-validate-workflow-not-model",
+      "og_image": null,
+      "last_reviewed": null,
+      "language": "en",
+      "visibility": "public",
+      "schema_type": null,
+      "source_links": [
+        {
+          "title": "Jason Ansell",
+          "url": "https://jasonansell.ca/article/healthcare-ai-configurations-validate-workflow-not-model"
+        }
+      ],
+      "citation": null,
+      "health_score": 0,
+      "geo_score": 0
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 53
+    }
+  },
+  {
     "uid": "book:the-quiet-rebuild-of-the-internet",
     "id": "the-quiet-rebuild-of-the-internet",
     "type": "book",
@@ -532278,6 +532394,2193 @@
     "reconciliation": {
       "mergedRecords": 1,
       "canonicalSelectionScore": 11.83
+    }
+  },
+  {
+    "uid": "news:utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+    "id": "utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8071",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8071"
+    ],
+    "title": "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
+    "aliases": [],
+    "slug": "utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+    "canonicalUrl": "/news/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
+      "link": "https://www.coindesk.com/policy/2026/11/24/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-24T17:50:08.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/6d84d85eddfea0214122fb8436cd96c91a7a922e-2880x1620.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12
+    }
+  },
+  {
+    "uid": "news:europol-follows-28-5m-crypto-trail-in-streaming-piracy-crackdown",
+    "id": "europol-follows-28-5m-crypto-trail-in-streaming-piracy-crackdown",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8072",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8072"
+    ],
+    "title": "Europol follows $28.5M crypto trail in streaming piracy crackdown",
+    "aliases": [],
+    "slug": "europol-follows-28-5m-crypto-trail-in-streaming-piracy-crackdown",
+    "canonicalUrl": "/news/europol-follows-28-5m-crypto-trail-in-streaming-piracy-crackdown",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Europol follows $28.5M crypto trail in streaming piracy crackdown",
+      "link": "https://cointelegraph.com/news/europol-crypto-trail-streaming-piracy-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T21:50:25.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M87NDASB12J5RE5T6ERAE76K/detective-coin-2.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.92
+    }
+  },
+  {
+    "uid": "news:utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt",
+    "id": "utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8073",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8073"
+    ],
+    "title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+    "aliases": [],
+    "slug": "utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt",
+    "canonicalUrl": "/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+      "link": "https://cointelegraph.com/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T20:48:27.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M87J6N3Z9XVM655E8KKXZ6HP/court-vs-kalshi.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:bitcoin-sell-off-driven-by-weak-demand-forced-liquidations-21shares",
+    "id": "bitcoin-sell-off-driven-by-weak-demand-forced-liquidations-21shares",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8074",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8074"
+    ],
+    "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+    "aliases": [],
+    "slug": "bitcoin-sell-off-driven-by-weak-demand-forced-liquidations-21shares",
+    "canonicalUrl": "/news/bitcoin-sell-off-driven-by-weak-demand-forced-liquidations-21shares",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+      "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T19:44:23.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M51V1P8ZQ063ADC4P2T050NT/market-red-graph-falling-danger-stones-bitcoin-4.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.01
+    }
+  },
+  {
+    "uid": "news:coldcard-reveals-how-bitcoin-wallet-flaw-went-undetected-for-over-5-years",
+    "id": "coldcard-reveals-how-bitcoin-wallet-flaw-went-undetected-for-over-5-years",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8075",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8075"
+    ],
+    "title": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+    "aliases": [],
+    "slug": "coldcard-reveals-how-bitcoin-wallet-flaw-went-undetected-for-over-5-years",
+    "canonicalUrl": "/news/coldcard-reveals-how-bitcoin-wallet-flaw-went-undetected-for-over-5-years",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+      "link": "https://cointelegraph.com/news/coldcard-how-security-reviews-missed-bitcoin-wallet-flaw-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T19:04:26.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M87AWRBC8FGN1Y9J8122FYZF/thief-bitcoin-1280x854.webp",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:cftc-sets-new-prediction-market-rules-as-more-firms-seek-us-entry",
+    "id": "cftc-sets-new-prediction-market-rules-as-more-firms-seek-us-entry",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8076",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8076"
+    ],
+    "title": "CFTC sets new prediction market rules as more firms seek US entry",
+    "aliases": [],
+    "slug": "cftc-sets-new-prediction-market-rules-as-more-firms-seek-us-entry",
+    "canonicalUrl": "/news/cftc-sets-new-prediction-market-rules-as-more-firms-seek-us-entry",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "CFTC sets new prediction market rules as more firms seek US entry",
+      "link": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T18:31:42.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2TJB7047S01XKJY4FWVJGEK/judge-hammer-regulation-cftc-2.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:blackrock-launches-tokenized-money-market-fund-accepting-stablecoins-in-hong-kong",
+    "id": "blackrock-launches-tokenized-money-market-fund-accepting-stablecoins-in-hong-kong",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8077",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8077"
+    ],
+    "title": "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong",
+    "aliases": [],
+    "slug": "blackrock-launches-tokenized-money-market-fund-accepting-stablecoins-in-hong-kong",
+    "canonicalUrl": "/news/blackrock-launches-tokenized-money-market-fund-accepting-stablecoins-in-hong-kong",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong",
+      "link": "https://cointelegraph.com/news/blackrock-launches-tokenized-money-market-fund-stablecoins-hong-kong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T18:07:22.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M875NJM2XF6AM2XW3HR7BBSV/hi-usdt-vs-usdc-whats-the-difference-hong-kong.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.06
+    }
+  },
+  {
+    "uid": "news:bitcoin-slides-amid-us-tariff-nerves-as-anthropic-falls-below-ipo-price",
+    "id": "bitcoin-slides-amid-us-tariff-nerves-as-anthropic-falls-below-ipo-price",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8078",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8078"
+    ],
+    "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
+    "aliases": [],
+    "slug": "bitcoin-slides-amid-us-tariff-nerves-as-anthropic-falls-below-ipo-price",
+    "canonicalUrl": "/news/bitcoin-slides-amid-us-tariff-nerves-as-anthropic-falls-below-ipo-price",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
+      "link": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T17:09:11.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M875FNTK5A5N7SWKXH8E8RC9/article-covers-143614-the-bitcoin-bottom-is-not-in-btc-traders-set-price-targets-in-low-40k-range-1280x853.webp",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.14
+    }
+  },
+  {
+    "uid": "news:prop-firm-payouts-near-2-billion-10-best-prop-firms-in-2026",
+    "id": "prop-firm-payouts-near-2-billion-10-best-prop-firms-in-2026",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b061766d9ba62efdf4f8079",
+    "sourceIds": [
+      "6b061766d9ba62efdf4f8079"
+    ],
+    "title": "Prop Firm Payouts Near $2 Billion: 10 Best Prop Firms In 2026",
+    "aliases": [],
+    "slug": "prop-firm-payouts-near-2-billion-10-best-prop-firms-in-2026",
+    "canonicalUrl": "/news/prop-firm-payouts-near-2-billion-10-best-prop-firms-in-2026",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Prop Firm Payouts Near $2 Billion: 10 Best Prop Firms In 2026",
+      "link": "https://www.newsbtc.com/trade/best-prop-firms/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-24T20:05:15.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/2B-Trading-Milestone-at-Dusk-750x422.png",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.64
+    }
+  },
+  {
+    "uid": "news:crypto-traders-can-now-hedge-nvidia-anthropic-and-oil-bets-on-derive",
+    "id": "crypto-traders-can-now-hedge-nvidia-anthropic-and-oil-bets-on-derive",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b066c6882fc07187aff1c67",
+    "sourceIds": [
+      "6b066c6882fc07187aff1c67"
+    ],
+    "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+    "aliases": [],
+    "slug": "crypto-traders-can-now-hedge-nvidia-anthropic-and-oil-bets-on-derive",
+    "canonicalUrl": "/news/crypto-traders-can-now-hedge-nvidia-anthropic-and-oil-bets-on-derive",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+      "link": "https://www.coindesk.com/markets/2026/11/25/crypto-traders-can-now-hedge-nvidia-and-oil-bets-on-derive",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T04:57:22.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/536d7d5e6cfaca6de1f092a21de7b4cf4d742687-1500x750.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.93
+    }
+  },
+  {
+    "uid": "news:a-year-after-buying-bitcoin-czech-central-bank-wont-say-what-its-worth",
+    "id": "a-year-after-buying-bitcoin-czech-central-bank-wont-say-what-its-worth",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b066c6882fc07187aff1c68",
+    "sourceIds": [
+      "6b066c6882fc07187aff1c68"
+    ],
+    "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+    "aliases": [],
+    "slug": "a-year-after-buying-bitcoin-czech-central-bank-wont-say-what-its-worth",
+    "canonicalUrl": "/news/a-year-after-buying-bitcoin-czech-central-bank-wont-say-what-its-worth",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+      "link": "https://www.coindesk.com/markets/2026/11/23/a-year-after-buying-bitcoin-czech-central-bank-won-t-say-what-it-s-worth",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T04:50:08.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/3343bd5e049a9fa2bb623680733a41f6c44169f7-2048x1330.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:trump-says-hes-willing-to-give-nvidias-huang-a-pardon-doesnt-think-he-needs-one",
+    "id": "trump-says-hes-willing-to-give-nvidias-huang-a-pardon-doesnt-think-he-needs-one",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b066c6882fc07187aff1c69",
+    "sourceIds": [
+      "6b066c6882fc07187aff1c69"
+    ],
+    "title": "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
+    "aliases": [],
+    "slug": "trump-says-hes-willing-to-give-nvidias-huang-a-pardon-doesnt-think-he-needs-one",
+    "canonicalUrl": "/news/trump-says-hes-willing-to-give-nvidias-huang-a-pardon-doesnt-think-he-needs-one",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
+      "link": "https://www.coindesk.com/policy/2026/11/24/trump-says-he-s-willing-to-give-nvidia-s-huang-a-pardon-doesn-t-think-he-needs-one",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T03:35:20.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/1d2e34daee89ee05f5d2eb9b96b2bba1f8c8b370-3799x2633.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12
+    }
+  },
+  {
+    "uid": "news:trump-willing-to-pardon-jensen-huang-says-it-wont-be-necessary",
+    "id": "trump-willing-to-pardon-jensen-huang-says-it-wont-be-necessary",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b066c6882fc07187aff1c6a",
+    "sourceIds": [
+      "6b066c6882fc07187aff1c6a"
+    ],
+    "title": "Trump willing to pardon Jensen Huang, says it won’t be necessary",
+    "aliases": [],
+    "slug": "trump-willing-to-pardon-jensen-huang-says-it-wont-be-necessary",
+    "canonicalUrl": "/news/trump-willing-to-pardon-jensen-huang-says-it-wont-be-necessary",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Trump willing to pardon Jensen Huang, says it won’t be necessary",
+      "link": "https://cointelegraph.com/news/trump-willing-to-pardon-jensen-huang-but-says-it-wont-be-necessary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T04:14:42.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M88E9VB55FV73DKVAAMJZFV1/hi-trump-speak-loud.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books",
+    "id": "cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b066c6882fc07187aff1c6b",
+    "sourceIds": [
+      "6b066c6882fc07187aff1c6b"
+    ],
+    "title": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
+    "aliases": [],
+    "slug": "cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books",
+    "canonicalUrl": "/news/cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
+      "link": "https://cointelegraph.com/news/cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T01:40:59.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M885KKJ586HHXXT0SHDZ35QT/hi-ai-is-now-paying-bitcoin-miners-more-than-mining-cleanspark-2.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.07
+    }
+  },
+  {
+    "uid": "news:hackers-breach-cia-intelligence-network-in-latest-us-cyberattack",
+    "id": "hackers-breach-cia-intelligence-network-in-latest-us-cyberattack",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b066c6882fc07187aff1c6c",
+    "sourceIds": [
+      "6b066c6882fc07187aff1c6c"
+    ],
+    "title": "Hackers breach CIA intelligence network in latest US cyberattack",
+    "aliases": [],
+    "slug": "hackers-breach-cia-intelligence-network-in-latest-us-cyberattack",
+    "canonicalUrl": "/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Hackers breach CIA intelligence network in latest US cyberattack",
+      "link": "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-24T23:48:16.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M87XQMEWNSBKEFPD9X7V49QK/hacker-stealing-spying.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.97
+    }
+  },
+  {
+    "uid": "news:global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation",
+    "id": "global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b066c6882fc07187aff1c6d",
+    "sourceIds": [
+      "6b066c6882fc07187aff1c6d"
+    ],
+    "title": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
+    "aliases": [],
+    "slug": "global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation",
+    "canonicalUrl": "/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
+      "link": "https://www.newsbtc.com/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-25T04:48:15.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/Screenshot-2026-11-25-at-11.48.39.png",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11
+    }
+  },
+  {
+    "uid": "news:eu-proposes-54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
+    "id": "eu-proposes-54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004c9",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004c9"
+    ],
+    "title": "EU proposes $54.7 billion fund for AI, quantum startups alongside post-quantum security push",
+    "aliases": [],
+    "slug": "eu-proposes-54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
+    "canonicalUrl": "/news/eu-proposes-54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "EU proposes $54.7 billion fund for AI, quantum startups alongside post-quantum security push",
+      "link": "https://www.coindesk.com/business/2026/11/25/eu-proposes-usd54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T11:00:27.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/93b4a24ab8cd182d2a26f8854f31074af465939c-3956x2220.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.05
+    }
+  },
+  {
+    "uid": "news:live-updates-bitcoin-slips-back-under-60-000-as-hype-leads-altcoins-lower",
+    "id": "live-updates-bitcoin-slips-back-under-60-000-as-hype-leads-altcoins-lower",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004ca",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004ca"
+    ],
+    "title": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
+    "aliases": [],
+    "slug": "live-updates-bitcoin-slips-back-under-60-000-as-hype-leads-altcoins-lower",
+    "canonicalUrl": "/news/live-updates-bitcoin-slips-back-under-60-000-as-hype-leads-altcoins-lower",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
+      "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T08:35:47.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/57b92207ca31fecb15a5a37f66c0dfebcd585fa4-1502x846.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+    "id": "solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004cb",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004cb"
+    ],
+    "title": "Solana developers move to stop validators finishing work on blocks that already lost",
+    "aliases": [],
+    "slug": "solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+    "canonicalUrl": "/news/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Solana developers move to stop validators finishing work on blocks that already lost",
+      "link": "https://www.coindesk.com/tech/2026/11/25/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T06:33:10.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12
+    }
+  },
+  {
+    "uid": "news:just-10-accounts-drove-all-of-the-xrp-ledgers-trading-growth-last-quarter",
+    "id": "just-10-accounts-drove-all-of-the-xrp-ledgers-trading-growth-last-quarter",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004cc",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004cc"
+    ],
+    "title": "Just 10 accounts drove all of the XRP Ledger's trading growth last quarter",
+    "aliases": [],
+    "slug": "just-10-accounts-drove-all-of-the-xrp-ledgers-trading-growth-last-quarter",
+    "canonicalUrl": "/news/just-10-accounts-drove-all-of-the-xrp-ledgers-trading-growth-last-quarter",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Just 10 accounts drove all of the XRP Ledger's trading growth last quarter",
+      "link": "https://www.coindesk.com/markets/2026/11/25/ten-accounts-drove-all-of-the-xrp-ledger-s-trading-growth-last-quarter",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T06:15:08.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/2422f4cb8addf51ff9749bd06180d8af713edf6b-3000x2001.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.96
+    }
+  },
+  {
+    "uid": "news:hype-drops-8-as-trump-bump-gives-way-to-40-slide-from-peak",
+    "id": "hype-drops-8-as-trump-bump-gives-way-to-40-slide-from-peak",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004cd",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004cd"
+    ],
+    "title": "HYPE drops 8% as Trump bump gives way to 40% slide from peak",
+    "aliases": [],
+    "slug": "hype-drops-8-as-trump-bump-gives-way-to-40-slide-from-peak",
+    "canonicalUrl": "/news/hype-drops-8-as-trump-bump-gives-way-to-40-slide-from-peak",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "HYPE drops 8% as Trump bump gives way to 40% slide from peak",
+      "link": "https://cointelegraph.com/markets/hyperliquid-hype-price-falls-abraxas-capital-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T10:57:52.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3AEQ9Y8JV78QH3H8M1G3403/analitycs2021-hype-1.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.94
+    }
+  },
+  {
+    "uid": "news:french-senate-rejects-100k-euro-crypto-wallet-disclosure-requirement",
+    "id": "french-senate-rejects-100k-euro-crypto-wallet-disclosure-requirement",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004ce",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004ce"
+    ],
+    "title": "French Senate rejects 100K euro crypto wallet disclosure requirement",
+    "aliases": [],
+    "slug": "french-senate-rejects-100k-euro-crypto-wallet-disclosure-requirement",
+    "canonicalUrl": "/news/french-senate-rejects-100k-euro-crypto-wallet-disclosure-requirement",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "French Senate rejects 100K euro crypto wallet disclosure requirement",
+      "link": "https://cointelegraph.com/news/french-senate-rejects-disclosing-self-custodied-crypto-wallets-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T09:58:12.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M88YZH1Y4T5PBK7RDG4Q0MK6/hi-france-aml-law-kicks-in.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:stablecoin-redemptions-hit-12b-in-30-days-echoing-2022-bear-market",
+    "id": "stablecoin-redemptions-hit-12b-in-30-days-echoing-2022-bear-market",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004cf",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004cf"
+    ],
+    "title": "Stablecoin redemptions hit $12B in 30 days, echoing 2022 bear market",
+    "aliases": [],
+    "slug": "stablecoin-redemptions-hit-12b-in-30-days-echoing-2022-bear-market",
+    "canonicalUrl": "/news/stablecoin-redemptions-hit-12b-in-30-days-echoing-2022-bear-market",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Stablecoin redemptions hit $12B in 30 days, echoing 2022 bear market",
+      "link": "https://cointelegraph.com/markets/stablecoin-cash-out-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T09:52:22.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M88S65ZHJZ9ADXV7410RFRPP/vortex11111.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.9
+    }
+  },
+  {
+    "uid": "news:eu-seeks-up-to-55b-for-ai-and-quantum-computing-fund-report",
+    "id": "eu-seeks-up-to-55b-for-ai-and-quantum-computing-fund-report",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d0",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d0"
+    ],
+    "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
+    "aliases": [],
+    "slug": "eu-seeks-up-to-55b-for-ai-and-quantum-computing-fund-report",
+    "canonicalUrl": "/news/eu-seeks-up-to-55b-for-ai-and-quantum-computing-fund-report",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
+      "link": "https://cointelegraph.com/news/eu-55-billion-ai-quantum-computing-investment-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T08:40:28.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M88WT0WPRVQ4457VHKSH5XGT/ai-quantum-tech-eu.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.92
+    }
+  },
+  {
+    "uid": "news:south-koreas-crypto-bill-could-move-stablecoin-race-beyond-token-issuance",
+    "id": "south-koreas-crypto-bill-could-move-stablecoin-race-beyond-token-issuance",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d1",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d1"
+    ],
+    "title": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
+    "aliases": [],
+    "slug": "south-koreas-crypto-bill-could-move-stablecoin-race-beyond-token-issuance",
+    "canonicalUrl": "/news/south-koreas-crypto-bill-could-move-stablecoin-race-beyond-token-issuance",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
+      "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T06:54:59.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M88MV8SJQRM9ZKY589WVJW4G/digital-bank-south-korea-1.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.98
+    }
+  },
+  {
+    "uid": "news:solana-dex-velocity-halts-trading-over-bug-just-months-after-relaunch",
+    "id": "solana-dex-velocity-halts-trading-over-bug-just-months-after-relaunch",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d2",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d2"
+    ],
+    "title": "Solana DEX Velocity halts trading over bug just months after relaunch",
+    "aliases": [],
+    "slug": "solana-dex-velocity-halts-trading-over-bug-just-months-after-relaunch",
+    "canonicalUrl": "/news/solana-dex-velocity-halts-trading-over-bug-just-months-after-relaunch",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Solana DEX Velocity halts trading over bug just months after relaunch",
+      "link": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T05:32:55.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M88JSSX9DYE28AA0D8E6126E/stop-hand-logo-laptop-sensor-switch.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.03
+    }
+  },
+  {
+    "uid": "news:bitcoin-etfs-gained-191-institutional-holders-but-just-25-drove-all-the-growth",
+    "id": "bitcoin-etfs-gained-191-institutional-holders-but-just-25-drove-all-the-growth",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d3",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d3"
+    ],
+    "title": "Bitcoin ETFs gained 191 institutional holders but just 25 drove all the growth",
+    "aliases": [],
+    "slug": "bitcoin-etfs-gained-191-institutional-holders-but-just-25-drove-all-the-growth",
+    "canonicalUrl": "/news/bitcoin-etfs-gained-191-institutional-holders-but-just-25-drove-all-the-growth",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin ETFs gained 191 institutional holders but just 25 drove all the growth",
+      "link": "https://cryptoslate.com/bitcoin-etfs-gained-191-institutional-holders-but-just-25-drove-all-the-growth/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T10:50:46.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-fund-holder-stacks.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.78
+    }
+  },
+  {
+    "uid": "news:aaves-6-million-tokenized-bond-market-exposes-a-mismatch-between-defi-and-traditional-finance",
+    "id": "aaves-6-million-tokenized-bond-market-exposes-a-mismatch-between-defi-and-traditional-finance",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d4",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d4"
+    ],
+    "title": "Aave’s $6 million tokenized bond market exposes a mismatch between DeFi and traditional finance",
+    "aliases": [],
+    "slug": "aaves-6-million-tokenized-bond-market-exposes-a-mismatch-between-defi-and-traditional-finance",
+    "canonicalUrl": "/news/aaves-6-million-tokenized-bond-market-exposes-a-mismatch-between-defi-and-traditional-finance",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Aave’s $6 million tokenized bond market exposes a mismatch between DeFi and traditional finance",
+      "link": "https://cryptoslate.com/aaves-6-million-tokenized-bond-market-exposes-a-mismatch-between-defi-and-traditional-finance/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T09:30:56.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/hinc-stablecoin-borrowing-counter.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.86
+    }
+  },
+  {
+    "uid": "news:okxs-24-7-stock-trading-launch-saw-just-7-of-first-day-volume-come-from-customers",
+    "id": "okxs-24-7-stock-trading-launch-saw-just-7-of-first-day-volume-come-from-customers",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d5",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d5"
+    ],
+    "title": "OKX’s 24/7 stock trading launch saw just 7% of first-day volume come from customers",
+    "aliases": [],
+    "slug": "okxs-24-7-stock-trading-launch-saw-just-7-of-first-day-volume-come-from-customers",
+    "canonicalUrl": "/news/okxs-24-7-stock-trading-launch-saw-just-7-of-first-day-volume-come-from-customers",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "OKX’s 24/7 stock trading launch saw just 7% of first-day volume come from customers",
+      "link": "https://cryptoslate.com/okxs-24-7-stock-trading-launch-saw-just-7-of-first-day-volume-come-from-customers/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T08:10:42.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/okx-stock-night-window.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.79
+    }
+  },
+  {
+    "uid": "news:chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem",
+    "id": "chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d6",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d6"
+    ],
+    "title": "Chainflip’s post-hack refunds leave liquidity providers facing a second financial problem",
+    "aliases": [],
+    "slug": "chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem",
+    "canonicalUrl": "/news/chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Chainflip’s post-hack refunds leave liquidity providers facing a second financial problem",
+      "link": "https://cryptoslate.com/chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T06:50:47.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/chainflip-refund-detachable-slip.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.83
+    }
+  },
+  {
+    "uid": "news:researchers-find-a-way-to-make-bitcoin-bridges-dramatically-cheaper-to-test",
+    "id": "researchers-find-a-way-to-make-bitcoin-bridges-dramatically-cheaper-to-test",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d7",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d7"
+    ],
+    "title": "Researchers find a way to make Bitcoin bridges dramatically cheaper to test",
+    "aliases": [],
+    "slug": "researchers-find-a-way-to-make-bitcoin-bridges-dramatically-cheaper-to-test",
+    "canonicalUrl": "/news/researchers-find-a-way-to-make-bitcoin-bridges-dramatically-cheaper-to-test",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Researchers find a way to make Bitcoin bridges dramatically cheaper to test",
+      "link": "https://cryptoslate.com/researchers-find-a-way-to-make-bitcoin-bridges-dramatically-cheaper-to-test/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T05:40:36.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-bridge-proof-gate.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.76
+    }
+  },
+  {
+    "uid": "news:us-banks-want-access-to-fed-funding-on-holidays-as-wall-street-prepares-for-longer-settlement-hours",
+    "id": "us-banks-want-access-to-fed-funding-on-holidays-as-wall-street-prepares-for-longer-settlement-hours",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d8",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d8"
+    ],
+    "title": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+    "aliases": [],
+    "slug": "us-banks-want-access-to-fed-funding-on-holidays-as-wall-street-prepares-for-longer-settlement-hours",
+    "canonicalUrl": "/news/us-banks-want-access-to-fed-funding-on-holidays-as-wall-street-prepares-for-longer-settlement-hours",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+      "link": "https://cryptoslate.com/feds-survey-finds-demand-for-a-holiday-cash-backstop/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T04:20:06.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/fed-holiday-discount-window.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.77
+    }
+  },
+  {
+    "uid": "news:the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch",
+    "id": "the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004d9",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004d9"
+    ],
+    "title": "The CFTC opens the door to Bitcoin reserves at US exchanges with a 20% catch",
+    "aliases": [],
+    "slug": "the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch",
+    "canonicalUrl": "/news/the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "The CFTC opens the door to Bitcoin reserves at US exchanges with a 20% catch",
+      "link": "https://cryptoslate.com/the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T02:50:52.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-operating-buffer-headroom.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.78
+    }
+  },
+  {
+    "uid": "news:xrps-shrinking-exchange-supply-may-be-telling-investors-the-wrong-story",
+    "id": "xrps-shrinking-exchange-supply-may-be-telling-investors-the-wrong-story",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004da",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004da"
+    ],
+    "title": "XRP’s shrinking exchange supply may be telling investors the wrong story",
+    "aliases": [],
+    "slug": "xrps-shrinking-exchange-supply-may-be-telling-investors-the-wrong-story",
+    "canonicalUrl": "/news/xrps-shrinking-exchange-supply-may-be-telling-investors-the-wrong-story",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "XRP’s shrinking exchange supply may be telling investors the wrong story",
+      "link": "https://cryptoslate.com/xrps-shrinking-exchange-supply-may-be-telling-investors-the-wrong-story/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-25T01:20:03.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/uphold-xrp-routing-junction.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.75
+    }
+  },
+  {
+    "uid": "news:bitcoin-faces-a-familiar-macro-threat-as-the-us-prepares-another-round-of-tariffs",
+    "id": "bitcoin-faces-a-familiar-macro-threat-as-the-us-prepares-another-round-of-tariffs",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004db",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004db"
+    ],
+    "title": "Bitcoin faces a familiar macro threat as the US prepares another round of tariffs",
+    "aliases": [],
+    "slug": "bitcoin-faces-a-familiar-macro-threat-as-the-us-prepares-another-round-of-tariffs",
+    "canonicalUrl": "/news/bitcoin-faces-a-familiar-macro-threat-as-the-us-prepares-another-round-of-tariffs",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin faces a familiar macro threat as the US prepares another round of tariffs",
+      "link": "https://cryptoslate.com/bitcoin-threatened-us-tariff-report-names-china-and-the-eu-as-official-rates-remain-unknown/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-24T23:50:36.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/us-tariff-empty-rateboard.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.81
+    }
+  },
+  {
+    "uid": "news:bitcoins-60-000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter",
+    "id": "bitcoins-60-000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b06c015adc8f93d4eb004dc",
+    "sourceIds": [
+      "6b06c015adc8f93d4eb004dc"
+    ],
+    "title": "Bitcoin’s $60,000 bear market is testing miners harder than the 2022 crypto winter",
+    "aliases": [],
+    "slug": "bitcoins-60-000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter",
+    "canonicalUrl": "/news/bitcoins-60-000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "DeFi",
+      "NFT",
+      "Web3"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin’s $60,000 bear market is testing miners harder than the 2022 crypto winter",
+      "link": "https://cryptoslate.com/bitcoins-60000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter/",
+      "source": "CryptoSlate",
+      "pubDate": "2026-11-24T22:40:42.000Z",
+      "thumbnail": "https://cryptoslate.com/wp-content/uploads/2026/11/bitcoin-mining-output-squeeze.webp",
+      "tags": [
+        "DeFi",
+        "NFT",
+        "Web3"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.79
+    }
+  },
+  {
+    "uid": "news:eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+    "id": "eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c66",
+    "sourceIds": [
+      "6b0714583d81849b988d1c66"
+    ],
+    "title": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
+    "aliases": [],
+    "slug": "eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+    "canonicalUrl": "/news/eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
+      "link": "https://www.coindesk.com/policy/2026/11/25/eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T16:02:31.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/1b8af97c895160d3ed27ac10e9be7535ee79e1d6-3673x2449.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-330-million",
+    "id": "ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-330-million",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c67",
+    "sourceIds": [
+      "6b0714583d81849b988d1c67"
+    ],
+    "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
+    "aliases": [],
+    "slug": "ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-330-million",
+    "canonicalUrl": "/news/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-330-million",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
+      "link": "https://www.coindesk.com/business/2026/11/25/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-usd330-million",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T16:02:07.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/3cce92a0af48494a2126025022b398babc564bcf-1920x1200.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.04
+    }
+  },
+  {
+    "uid": "news:crypto-long-short-bitcoin-investors-cant-keep-ignoring-japan",
+    "id": "crypto-long-short-bitcoin-investors-cant-keep-ignoring-japan",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c68",
+    "sourceIds": [
+      "6b0714583d81849b988d1c68"
+    ],
+    "title": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+    "aliases": [],
+    "slug": "crypto-long-short-bitcoin-investors-cant-keep-ignoring-japan",
+    "canonicalUrl": "/news/crypto-long-short-bitcoin-investors-cant-keep-ignoring-japan",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T15:59:44.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/63f02bbfdfe79d281e8667130b8ab1069247fdbf-1918x1080.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.95
+    }
+  },
+  {
+    "uid": "news:south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+    "id": "south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c69",
+    "sourceIds": [
+      "6b0714583d81849b988d1c69"
+    ],
+    "title": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
+    "aliases": [],
+    "slug": "south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+    "canonicalUrl": "/news/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
+      "link": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T14:47:17.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:feds-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+    "id": "feds-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c6a",
+    "sourceIds": [
+      "6b0714583d81849b988d1c6a"
+    ],
+    "title": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
+    "aliases": [],
+    "slug": "feds-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+    "canonicalUrl": "/news/feds-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T12:18:46.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/d63edc245e05db9f58c963f4d17fdcab9e457780-1600x900.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+    "id": "ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c6b",
+    "sourceIds": [
+      "6b0714583d81849b988d1c6b"
+    ],
+    "title": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
+    "aliases": [],
+    "slug": "ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+    "canonicalUrl": "/news/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
+      "link": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T11:57:50.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/97ad697324ea7a7ca2ac229eafb3c41aa7545557-1920x1080.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.95
+    }
+  },
+  {
+    "uid": "news:italys-unicredit-launches-six-year-bitcoin-certificate-with-gains-capped-at-65",
+    "id": "italys-unicredit-launches-six-year-bitcoin-certificate-with-gains-capped-at-65",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c6c",
+    "sourceIds": [
+      "6b0714583d81849b988d1c6c"
+    ],
+    "title": "Italy’s UniCredit launches six-year bitcoin certificate with gains capped at 65%",
+    "aliases": [],
+    "slug": "italys-unicredit-launches-six-year-bitcoin-certificate-with-gains-capped-at-65",
+    "canonicalUrl": "/news/italys-unicredit-launches-six-year-bitcoin-certificate-with-gains-capped-at-65",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Italy’s UniCredit launches six-year bitcoin certificate with gains capped at 65%",
+      "link": "https://www.coindesk.com/business/2026/11/25/italy-s-unicredit-debuts-six-year-bitcoin-certificate-with-100-capital-protection-and-65-cap",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T11:51:54.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/79aea0df5ae0b99db7ca8b161d341d2e3133e601-2650x1491.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.02
+    }
+  },
+  {
+    "uid": "news:golds-haven-status-has-lost-its-edge-over-bitcoin-and-the-feds-to-blame",
+    "id": "golds-haven-status-has-lost-its-edge-over-bitcoin-and-the-feds-to-blame",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c6d",
+    "sourceIds": [
+      "6b0714583d81849b988d1c6d"
+    ],
+    "title": "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame",
+    "aliases": [],
+    "slug": "golds-haven-status-has-lost-its-edge-over-bitcoin-and-the-feds-to-blame",
+    "canonicalUrl": "/news/golds-haven-status-has-lost-its-edge-over-bitcoin-and-the-feds-to-blame",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Bitcoin",
+      "Markets",
+      "DeFi"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame",
+      "link": "https://www.coindesk.com/markets/2026/11/25/bitcoin-hasn-t-paid-its-holders-for-the-risk-it-carries-and-now-gold-is-doing-the-same",
+      "source": "CoinDesk",
+      "pubDate": "2026-11-25T11:30:32.000Z",
+      "thumbnail": "https://cdn.sanity.io/images/s3y3vcno/production/65916bf10d18a7e70d226b05b88e12ef92aa478c-1600x900.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip",
+      "tags": [
+        "Bitcoin",
+        "Markets",
+        "DeFi"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.99
+    }
+  },
+  {
+    "uid": "news:ex-ftx-coo-calls-out-netflix-over-czs-asian-mafia-portrayal",
+    "id": "ex-ftx-coo-calls-out-netflix-over-czs-asian-mafia-portrayal",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c6e",
+    "sourceIds": [
+      "6b0714583d81849b988d1c6e"
+    ],
+    "title": "Ex-FTX COO calls out Netflix over CZ’s ‘Asian mafia’ portrayal",
+    "aliases": [],
+    "slug": "ex-ftx-coo-calls-out-netflix-over-czs-asian-mafia-portrayal",
+    "canonicalUrl": "/news/ex-ftx-coo-calls-out-netflix-over-czs-asian-mafia-portrayal",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Ex-FTX COO calls out Netflix over CZ’s ‘Asian mafia’ portrayal",
+      "link": "https://cointelegraph.com/news/ftx-coo-netflix-portrayal-binance-founder-racist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T14:21:36.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M89EG9XE1SFYT4R3QX10Q2ZA/hi-changpeng-zhao.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.92
+    }
+  },
+  {
+    "uid": "news:ukraine-passes-bill-to-legalize-crypto-and-tax-profits-at-23",
+    "id": "ukraine-passes-bill-to-legalize-crypto-and-tax-profits-at-23",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c6f",
+    "sourceIds": [
+      "6b0714583d81849b988d1c6f"
+    ],
+    "title": "Ukraine passes bill to legalize crypto and tax profits at 23%",
+    "aliases": [],
+    "slug": "ukraine-passes-bill-to-legalize-crypto-and-tax-profits-at-23",
+    "canonicalUrl": "/news/ukraine-passes-bill-to-legalize-crypto-and-tax-profits-at-23",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Ukraine passes bill to legalize crypto and tax profits at 23%",
+      "link": "https://cointelegraph.com/news/ukraine-passes-bill-crypto-regulation-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T13:02:09.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8992X91RDVP095WKH0ZV4TH/u11111.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.88
+    }
+  },
+  {
+    "uid": "news:japans-sbi-smfg-launch-solana-venture-for-stablecoins-tokenization",
+    "id": "japans-sbi-smfg-launch-solana-venture-for-stablecoins-tokenization",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c70",
+    "sourceIds": [
+      "6b0714583d81849b988d1c70"
+    ],
+    "title": "Japan’s SBI, SMFG launch Solana venture for stablecoins, tokenization",
+    "aliases": [],
+    "slug": "japans-sbi-smfg-launch-solana-venture-for-stablecoins-tokenization",
+    "canonicalUrl": "/news/japans-sbi-smfg-launch-solana-venture-for-stablecoins-tokenization",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Japan’s SBI, SMFG launch Solana venture for stablecoins, tokenization",
+      "link": "https://cointelegraph.com/news/sbi-smfg-solana-global-stablecoin-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T11:49:54.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M896PHE1PD4MWC6ATP71JDFZ/sol-jjapan.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.92
+    }
+  },
+  {
+    "uid": "news:hong-kong-launches-tokenized-debt-platform-with-24-hour-settlement",
+    "id": "hong-kong-launches-tokenized-debt-platform-with-24-hour-settlement",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c71",
+    "sourceIds": [
+      "6b0714583d81849b988d1c71"
+    ],
+    "title": "Hong Kong launches tokenized debt platform with 24-hour settlement",
+    "aliases": [],
+    "slug": "hong-kong-launches-tokenized-debt-platform-with-24-hour-settlement",
+    "canonicalUrl": "/news/hong-kong-launches-tokenized-debt-platform-with-24-hour-settlement",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Hong Kong launches tokenized debt platform with 24-hour settlement",
+      "link": "https://cointelegraph.com/news/hong-kong-central-bank-platform-tokenized-debt-securities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T11:31:10.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M489R6N7E1AB2YW1Y7Q9J3JB/hi-how-hong-kong-is-turning-tokenized-bonds-into-real-market-infrastructure-1.jpg",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.07
+    }
+  },
+  {
+    "uid": "news:bitcoin-etfs-near-5b-in-record-monthly-outflows-amid-ai-stock-rout",
+    "id": "bitcoin-etfs-near-5b-in-record-monthly-outflows-amid-ai-stock-rout",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c72",
+    "sourceIds": [
+      "6b0714583d81849b988d1c72"
+    ],
+    "title": "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+    "aliases": [],
+    "slug": "bitcoin-etfs-near-5b-in-record-monthly-outflows-amid-ai-stock-rout",
+    "canonicalUrl": "/news/bitcoin-etfs-near-5b-in-record-monthly-outflows-amid-ai-stock-rout",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-near-record-5-billion-monthly-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T11:12:26.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M892VEWZNVC10NYBA407X6BQ/111111111.png",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 11.93
+    }
+  },
+  {
+    "uid": "news:bitcoin-price-may-fall-below-53k-if-bear-market-history-repeats",
+    "id": "bitcoin-price-may-fall-below-53k-if-bear-market-history-repeats",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c73",
+    "sourceIds": [
+      "6b0714583d81849b988d1c73"
+    ],
+    "title": "Bitcoin price may fall below $53K if bear-market history repeats",
+    "aliases": [],
+    "slug": "bitcoin-price-may-fall-below-53k-if-bear-market-history-repeats",
+    "canonicalUrl": "/news/bitcoin-price-may-fall-below-53k-if-bear-market-history-repeats",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Altcoins",
+      "Blockchain",
+      "Regulation"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "Bitcoin price may fall below $53K if bear-market history repeats",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-bear-market-history-repeats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "Cointelegraph",
+      "pubDate": "2026-11-25T11:09:38.000Z",
+      "thumbnail": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M893T0SM6CVYNXZQE3SFECS5/hi-crypto-layoffs-mount-as-exchanges-continue-to-be-ravaged-by-the-prevailing-bear-market-bitcoin-1-960x640.webp",
+      "tags": [
+        "Altcoins",
+        "Blockchain",
+        "Regulation"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 12.1
+    }
+  },
+  {
+    "uid": "news:hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform",
+    "id": "hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform",
+    "type": "news",
+    "sourceType": "news",
+    "sourceId": "6b0714583d81849b988d1c74",
+    "sourceIds": [
+      "6b0714583d81849b988d1c74"
+    ],
+    "title": "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
+    "aliases": [],
+    "slug": "hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform",
+    "canonicalUrl": "/news/hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform",
+    "language": "en",
+    "visibility": "public",
+    "status": "published",
+    "difficulty": null,
+    "categoryId": null,
+    "tags": [
+      "Trading",
+      "Markets"
+    ],
+    "summary": "",
+    "seoTitle": null,
+    "seoDescription": null,
+    "data": {
+      "title": "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
+      "link": "https://www.newsbtc.com/news/hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform-2/",
+      "source": "NewsBTC",
+      "pubDate": "2026-11-25T12:31:10.000Z",
+      "thumbnail": "https://www.newsbtc.com/wp-content/uploads/2026/11/b41c1ff756224e89a81916b5df23ca9c-2-1-750x500.png",
+      "tags": [
+        "Trading",
+        "Markets"
+      ]
+    },
+    "reconciliation": {
+      "mergedRecords": 1,
+      "canonicalSelectionScore": 10.89
     }
   },
   {

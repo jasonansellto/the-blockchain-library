@@ -3,31 +3,31 @@
   "knowledgeReleaseVersion": "2.1.0",
   "compilerVersion": "2.0.1",
   "schemaVersion": "2.0",
-  "buildId": "009169243a7e7e09",
+  "buildId": "ad791dc0287241fb",
   "source": {
-    "exportDate": "2026-11-24T17:03:37.575Z",
+    "exportDate": "2026-11-25T17:01:12.792Z",
     "version": "1.0.0",
     "schemaVersion": "1.0"
   },
-  "generatedAt": "2026-11-24T17:03:37.575Z",
+  "generatedAt": "2026-11-25T17:01:12.792Z",
   "totals": {
-    "rawObjects": 10178,
-    "canonicalObjects": 10127,
-    "edges": 25942,
-    "searchableObjects": 10127
+    "rawObjects": 10230,
+    "canonicalObjects": 10179,
+    "edges": 25955,
+    "searchableObjects": 10179
   },
   "quality": {
-    "rawObjects": 10178,
-    "canonicalObjects": 10127,
+    "rawObjects": 10230,
+    "canonicalObjects": 10179,
     "exactDuplicateRowsRemoved": 0,
     "canonicalMergeGroups": 45,
     "canonicalMergeExcessRows": 51,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25942,
+    "totalEdges": 25955,
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 8003,
+    "missingSeoDescription": 8054,
     "missingTags": 1002,
     "uncategorized": 428
   },
@@ -40,27 +40,27 @@
   "publicFiles": {
     "manifest.json": {
       "path": "/knowledge/manifest.json",
-      "sha256": "c15df9df40f49cfe7c7635e1fe1e8812ecefa55a165ea1d3d6ee7106ba464fdd"
+      "sha256": "ed7613bdabe88925b109bc951a68503681ce4c7ebb708be2815a5247968b887b"
     },
     "catalog.json": {
       "path": "/knowledge/catalog.json",
-      "sha256": "f8075ab3fdfaae862f0555e8efab6c2715b4fe63712c742155f472edb935f7bf"
+      "sha256": "ec95a4ffaad03e577e0a6ac43e3ee3dbffff9c2470905b8d7003bef17a04f6b9"
     },
     "graph.json": {
       "path": "/knowledge/graph.json",
-      "sha256": "133e63adad6441a661f698aac82d863bfa720b94fdb8d8fab8a99874cdf3e498"
+      "sha256": "d5a2c6aee752205e017c275f1e9924bea45b29c680b7dbdc3ec6f59294d420da"
     },
     "related.json": {
       "path": "/knowledge/related.json",
-      "sha256": "c06ec600cb71fad9227ee52cf98d4a379b754f8faec4c048163a346fb123c949"
+      "sha256": "bfe9c6973145b6a222c805082038a296a5f311207c51fe287c623496a0a4755e"
     },
     "search-index.json": {
       "path": "/knowledge/search-index.json",
-      "sha256": "5a15df81aa10cb869cf3fc856cbd4f8113b40eef5340ac80db20c0fe1522531f"
+      "sha256": "6d51519363064e581df57f05927ce3386a299feba52919044eed6beb99f7205a"
     },
     "reconciliation.json": {
       "path": "/knowledge/reconciliation.json",
-      "sha256": "38a8bb2a82693b64994d29e3c2c56d8f0006710b6680439aa8cdc8bd1d40812e"
+      "sha256": "84197bdc1525750f1e5305d70341e5d2573e35c85c17ee5a70e1bcb00c421d0b"
     },
     "missing-concepts.json": {
       "path": "/knowledge/missing-concepts.json",
@@ -72,7 +72,7 @@
     },
     "source-map.json": {
       "path": "/knowledge/source-map.json",
-      "sha256": "4626a2308c99d91fd828aedfb6d17392e1923d8ac40f5af48aa62c8b4c041450"
+      "sha256": "eb1769f863683a3d4cc631e035d104a711bb748b518ce6eab2f5649fb2f44d99"
     }
   },
   "syncContract": {

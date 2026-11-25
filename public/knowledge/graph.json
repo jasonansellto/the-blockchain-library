@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "009169243a7e7e09",
+  "buildId": "ad791dc0287241fb",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -11648,6 +11648,14 @@
       "label": "ECB’s Tokenized Collateral Decision Makes Interoperability the Product",
       "canonicalUrl": "/topics/ecb-tokenized-collateral-interoperability-product",
       "categoryId": "6a4cfe7ce8ddbcb85df987d0",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "type": "topic",
+      "label": "Healthcare AI Configurations Shift Validation From Model to Workflow",
+      "canonicalUrl": "/topics/healthcare-ai-configurations-validate-workflow-not-model",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d3",
       "difficulty": "intermediate"
     },
     {
@@ -80819,6 +80827,414 @@
       "difficulty": null
     },
     {
+      "id": "news:utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+      "type": "news",
+      "label": "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there",
+      "canonicalUrl": "/news/utah-moves-to-drop-criminal-pursuit-of-kalshi-after-the-firm-halted-services-there",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:europol-follows-28-5m-crypto-trail-in-streaming-piracy-crackdown",
+      "type": "news",
+      "label": "Europol follows $28.5M crypto trail in streaming piracy crackdown",
+      "canonicalUrl": "/news/europol-follows-28-5m-crypto-trail-in-streaming-piracy-crackdown",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt",
+      "type": "news",
+      "label": "Utah moves to dismiss criminal charges against Kalshi after trading halt",
+      "canonicalUrl": "/news/utah-moves-to-dismiss-criminal-charges-against-kalshi-after-trading-halt",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-sell-off-driven-by-weak-demand-forced-liquidations-21shares",
+      "type": "news",
+      "label": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+      "canonicalUrl": "/news/bitcoin-sell-off-driven-by-weak-demand-forced-liquidations-21shares",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:coldcard-reveals-how-bitcoin-wallet-flaw-went-undetected-for-over-5-years",
+      "type": "news",
+      "label": "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+      "canonicalUrl": "/news/coldcard-reveals-how-bitcoin-wallet-flaw-went-undetected-for-over-5-years",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cftc-sets-new-prediction-market-rules-as-more-firms-seek-us-entry",
+      "type": "news",
+      "label": "CFTC sets new prediction market rules as more firms seek US entry",
+      "canonicalUrl": "/news/cftc-sets-new-prediction-market-rules-as-more-firms-seek-us-entry",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:blackrock-launches-tokenized-money-market-fund-accepting-stablecoins-in-hong-kong",
+      "type": "news",
+      "label": "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong",
+      "canonicalUrl": "/news/blackrock-launches-tokenized-money-market-fund-accepting-stablecoins-in-hong-kong",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-slides-amid-us-tariff-nerves-as-anthropic-falls-below-ipo-price",
+      "type": "news",
+      "label": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
+      "canonicalUrl": "/news/bitcoin-slides-amid-us-tariff-nerves-as-anthropic-falls-below-ipo-price",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:prop-firm-payouts-near-2-billion-10-best-prop-firms-in-2026",
+      "type": "news",
+      "label": "Prop Firm Payouts Near $2 Billion: 10 Best Prop Firms In 2026",
+      "canonicalUrl": "/news/prop-firm-payouts-near-2-billion-10-best-prop-firms-in-2026",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-traders-can-now-hedge-nvidia-anthropic-and-oil-bets-on-derive",
+      "type": "news",
+      "label": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+      "canonicalUrl": "/news/crypto-traders-can-now-hedge-nvidia-anthropic-and-oil-bets-on-derive",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:a-year-after-buying-bitcoin-czech-central-bank-wont-say-what-its-worth",
+      "type": "news",
+      "label": "A year after buying bitcoin, Czech central bank won't say what it's worth",
+      "canonicalUrl": "/news/a-year-after-buying-bitcoin-czech-central-bank-wont-say-what-its-worth",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-says-hes-willing-to-give-nvidias-huang-a-pardon-doesnt-think-he-needs-one",
+      "type": "news",
+      "label": "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
+      "canonicalUrl": "/news/trump-says-hes-willing-to-give-nvidias-huang-a-pardon-doesnt-think-he-needs-one",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:trump-willing-to-pardon-jensen-huang-says-it-wont-be-necessary",
+      "type": "news",
+      "label": "Trump willing to pardon Jensen Huang, says it won’t be necessary",
+      "canonicalUrl": "/news/trump-willing-to-pardon-jensen-huang-says-it-wont-be-necessary",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books",
+      "type": "news",
+      "label": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
+      "canonicalUrl": "/news/cleanspark-weighs-selling-more-bitcoin-than-it-mines-to-de-risk-books",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hackers-breach-cia-intelligence-network-in-latest-us-cyberattack",
+      "type": "news",
+      "label": "Hackers breach CIA intelligence network in latest US cyberattack",
+      "canonicalUrl": "/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation",
+      "type": "news",
+      "label": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
+      "canonicalUrl": "/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:eu-proposes-54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
+      "type": "news",
+      "label": "EU proposes $54.7 billion fund for AI, quantum startups alongside post-quantum security push",
+      "canonicalUrl": "/news/eu-proposes-54-7-billion-fund-for-ai-quantum-startups-alongside-post-quantum-security-push",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoin-slips-back-under-60-000-as-hype-leads-altcoins-lower",
+      "type": "news",
+      "label": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
+      "canonicalUrl": "/news/live-updates-bitcoin-slips-back-under-60-000-as-hype-leads-altcoins-lower",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+      "type": "news",
+      "label": "Solana developers move to stop validators finishing work on blocks that already lost",
+      "canonicalUrl": "/news/solana-developers-move-to-stop-validators-finishing-work-on-blocks-that-already-lost",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:just-10-accounts-drove-all-of-the-xrp-ledgers-trading-growth-last-quarter",
+      "type": "news",
+      "label": "Just 10 accounts drove all of the XRP Ledger's trading growth last quarter",
+      "canonicalUrl": "/news/just-10-accounts-drove-all-of-the-xrp-ledgers-trading-growth-last-quarter",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hype-drops-8-as-trump-bump-gives-way-to-40-slide-from-peak",
+      "type": "news",
+      "label": "HYPE drops 8% as Trump bump gives way to 40% slide from peak",
+      "canonicalUrl": "/news/hype-drops-8-as-trump-bump-gives-way-to-40-slide-from-peak",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:french-senate-rejects-100k-euro-crypto-wallet-disclosure-requirement",
+      "type": "news",
+      "label": "French Senate rejects 100K euro crypto wallet disclosure requirement",
+      "canonicalUrl": "/news/french-senate-rejects-100k-euro-crypto-wallet-disclosure-requirement",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:stablecoin-redemptions-hit-12b-in-30-days-echoing-2022-bear-market",
+      "type": "news",
+      "label": "Stablecoin redemptions hit $12B in 30 days, echoing 2022 bear market",
+      "canonicalUrl": "/news/stablecoin-redemptions-hit-12b-in-30-days-echoing-2022-bear-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:eu-seeks-up-to-55b-for-ai-and-quantum-computing-fund-report",
+      "type": "news",
+      "label": "EU seeks up to $55B for AI and quantum computing fund: Report",
+      "canonicalUrl": "/news/eu-seeks-up-to-55b-for-ai-and-quantum-computing-fund-report",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-koreas-crypto-bill-could-move-stablecoin-race-beyond-token-issuance",
+      "type": "news",
+      "label": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
+      "canonicalUrl": "/news/south-koreas-crypto-bill-could-move-stablecoin-race-beyond-token-issuance",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:solana-dex-velocity-halts-trading-over-bug-just-months-after-relaunch",
+      "type": "news",
+      "label": "Solana DEX Velocity halts trading over bug just months after relaunch",
+      "canonicalUrl": "/news/solana-dex-velocity-halts-trading-over-bug-just-months-after-relaunch",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-gained-191-institutional-holders-but-just-25-drove-all-the-growth",
+      "type": "news",
+      "label": "Bitcoin ETFs gained 191 institutional holders but just 25 drove all the growth",
+      "canonicalUrl": "/news/bitcoin-etfs-gained-191-institutional-holders-but-just-25-drove-all-the-growth",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:aaves-6-million-tokenized-bond-market-exposes-a-mismatch-between-defi-and-traditional-finance",
+      "type": "news",
+      "label": "Aave’s $6 million tokenized bond market exposes a mismatch between DeFi and traditional finance",
+      "canonicalUrl": "/news/aaves-6-million-tokenized-bond-market-exposes-a-mismatch-between-defi-and-traditional-finance",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:okxs-24-7-stock-trading-launch-saw-just-7-of-first-day-volume-come-from-customers",
+      "type": "news",
+      "label": "OKX’s 24/7 stock trading launch saw just 7% of first-day volume come from customers",
+      "canonicalUrl": "/news/okxs-24-7-stock-trading-launch-saw-just-7-of-first-day-volume-come-from-customers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem",
+      "type": "news",
+      "label": "Chainflip’s post-hack refunds leave liquidity providers facing a second financial problem",
+      "canonicalUrl": "/news/chainflips-post-hack-refunds-leave-liquidity-providers-facing-a-second-financial-problem",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:researchers-find-a-way-to-make-bitcoin-bridges-dramatically-cheaper-to-test",
+      "type": "news",
+      "label": "Researchers find a way to make Bitcoin bridges dramatically cheaper to test",
+      "canonicalUrl": "/news/researchers-find-a-way-to-make-bitcoin-bridges-dramatically-cheaper-to-test",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-banks-want-access-to-fed-funding-on-holidays-as-wall-street-prepares-for-longer-settlement-hours",
+      "type": "news",
+      "label": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+      "canonicalUrl": "/news/us-banks-want-access-to-fed-funding-on-holidays-as-wall-street-prepares-for-longer-settlement-hours",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch",
+      "type": "news",
+      "label": "The CFTC opens the door to Bitcoin reserves at US exchanges with a 20% catch",
+      "canonicalUrl": "/news/the-cftc-opens-the-door-to-bitcoin-reserves-at-us-exchanges-with-a-20-catch",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrps-shrinking-exchange-supply-may-be-telling-investors-the-wrong-story",
+      "type": "news",
+      "label": "XRP’s shrinking exchange supply may be telling investors the wrong story",
+      "canonicalUrl": "/news/xrps-shrinking-exchange-supply-may-be-telling-investors-the-wrong-story",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-faces-a-familiar-macro-threat-as-the-us-prepares-another-round-of-tariffs",
+      "type": "news",
+      "label": "Bitcoin faces a familiar macro threat as the US prepares another round of tariffs",
+      "canonicalUrl": "/news/bitcoin-faces-a-familiar-macro-threat-as-the-us-prepares-another-round-of-tariffs",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-60-000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter",
+      "type": "news",
+      "label": "Bitcoin’s $60,000 bear market is testing miners harder than the 2022 crypto winter",
+      "canonicalUrl": "/news/bitcoins-60-000-bear-market-is-testing-miners-harder-than-the-2022-crypto-winter",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+      "type": "news",
+      "label": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
+      "canonicalUrl": "/news/eu-bank-watchdog-seeks-european-commission-rules-for-crypto-firms-offering-defi-lending",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-330-million",
+      "type": "news",
+      "label": "Ukrainian lawmakers pass crypto tax and regulation bill expected to bring in $330 million",
+      "canonicalUrl": "/news/ukrainian-lawmakers-pass-crypto-tax-and-regulation-bill-expected-to-bring-in-330-million",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-long-short-bitcoin-investors-cant-keep-ignoring-japan",
+      "type": "news",
+      "label": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+      "canonicalUrl": "/news/crypto-long-short-bitcoin-investors-cant-keep-ignoring-japan",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+      "type": "news",
+      "label": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
+      "canonicalUrl": "/news/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:feds-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+      "type": "news",
+      "label": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
+      "canonicalUrl": "/news/feds-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+      "type": "news",
+      "label": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
+      "canonicalUrl": "/news/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:italys-unicredit-launches-six-year-bitcoin-certificate-with-gains-capped-at-65",
+      "type": "news",
+      "label": "Italy’s UniCredit launches six-year bitcoin certificate with gains capped at 65%",
+      "canonicalUrl": "/news/italys-unicredit-launches-six-year-bitcoin-certificate-with-gains-capped-at-65",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:golds-haven-status-has-lost-its-edge-over-bitcoin-and-the-feds-to-blame",
+      "type": "news",
+      "label": "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame",
+      "canonicalUrl": "/news/golds-haven-status-has-lost-its-edge-over-bitcoin-and-the-feds-to-blame",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ex-ftx-coo-calls-out-netflix-over-czs-asian-mafia-portrayal",
+      "type": "news",
+      "label": "Ex-FTX COO calls out Netflix over CZ’s ‘Asian mafia’ portrayal",
+      "canonicalUrl": "/news/ex-ftx-coo-calls-out-netflix-over-czs-asian-mafia-portrayal",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ukraine-passes-bill-to-legalize-crypto-and-tax-profits-at-23",
+      "type": "news",
+      "label": "Ukraine passes bill to legalize crypto and tax profits at 23%",
+      "canonicalUrl": "/news/ukraine-passes-bill-to-legalize-crypto-and-tax-profits-at-23",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:japans-sbi-smfg-launch-solana-venture-for-stablecoins-tokenization",
+      "type": "news",
+      "label": "Japan’s SBI, SMFG launch Solana venture for stablecoins, tokenization",
+      "canonicalUrl": "/news/japans-sbi-smfg-launch-solana-venture-for-stablecoins-tokenization",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hong-kong-launches-tokenized-debt-platform-with-24-hour-settlement",
+      "type": "news",
+      "label": "Hong Kong launches tokenized debt platform with 24-hour settlement",
+      "canonicalUrl": "/news/hong-kong-launches-tokenized-debt-platform-with-24-hour-settlement",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-etfs-near-5b-in-record-monthly-outflows-amid-ai-stock-rout",
+      "type": "news",
+      "label": "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+      "canonicalUrl": "/news/bitcoin-etfs-near-5b-in-record-monthly-outflows-amid-ai-stock-rout",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-may-fall-below-53k-if-bear-market-history-repeats",
+      "type": "news",
+      "label": "Bitcoin price may fall below $53K if bear-market history repeats",
+      "canonicalUrl": "/news/bitcoin-price-may-fall-below-53k-if-bear-market-history-repeats",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform",
+      "type": "news",
+      "label": "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
+      "canonicalUrl": "/news/hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -131575,6 +131991,62 @@
     {
       "from": "topic:ecb-tokenized-collateral-interoperability-product",
       "to": "research:blockchain-for-supply-chain-management-a-literature-review-and-open-challenges",
+      "type": "research",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:ai-auditors-right-to-publish-not-just-look",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:health-ai-appeal-path-accuracy-score",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "glossary:api",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
+      "category": "articles"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "research:blockchain-technology-in-healthcare-a-comprehensive-review-and-directions-for-future-research",
       "type": "research",
       "source": "base44",
       "strength": 1,
@@ -244897,6 +245369,42 @@
     {
       "from": "topic:ecb-tokenized-collateral-interoperability-product",
       "to": "research:blockchain-for-supply-chain-management-a-literature-review-and-open-challenges",
+      "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "glossary:api",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:ai-auditors-right-to-publish-not-just-look",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:canada-ai-vendor-privacy-guidance-architecture-checklist",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:health-ai-appeal-path-accuracy-score",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
+      "to": "research:blockchain-technology-in-healthcare-a-comprehensive-review-and-directions-for-future-research",
       "type": "related-research",
       "source": "embedded"
     },
