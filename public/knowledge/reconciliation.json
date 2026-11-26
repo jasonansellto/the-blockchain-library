@@ -1,5 +1,5 @@
 {
-  "buildId": "ad791dc0287241fb",
+  "buildId": "3e9480af54dede44",
   "sourceCounts": {
     "glossary": 734,
     "articles": 740,
@@ -11,7 +11,7 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 7900,
+    "news": 7960,
     "newsletters": 25
   },
   "canonicalCounts": {
@@ -25,21 +25,21 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 7868,
+    "news": 7927,
     "newsletters": 25
   },
   "quality": {
-    "rawObjects": 10230,
-    "canonicalObjects": 10179,
+    "rawObjects": 10290,
+    "canonicalObjects": 10238,
     "exactDuplicateRowsRemoved": 0,
-    "canonicalMergeGroups": 45,
-    "canonicalMergeExcessRows": 51,
+    "canonicalMergeGroups": 46,
+    "canonicalMergeExcessRows": 52,
     "duplicateCanonicalUids": 0,
     "totalEdges": 25955,
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 8054,
+    "missingSeoDescription": 8113,
     "missingTags": 1002,
     "uncategorized": 428
   },
@@ -585,6 +585,18 @@
       "sourceIds": [
         "6b04718224c12a164426a200",
         "6b0374425fc16ea815fbb6cf"
+      ],
+      "mergedRecords": 2,
+      "sourceTypes": [
+        "news"
+      ]
+    },
+    {
+      "uid": "news:us-inflation-rises-to-3-8-ahead-of-december-fed-meeting-clouding-crypto-outlook",
+      "title": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
+      "sourceIds": [
+        "6b08126f8aefac1fa52b8e6d",
+        "6b07689ee9c342c092bc4caf"
       ],
       "mergedRecords": 2,
       "sourceTypes": [
