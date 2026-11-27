@@ -1,8 +1,8 @@
 {
-  "buildId": "3e9480af54dede44",
+  "buildId": "e9cccf6c1e642bf2",
   "sourceCounts": {
     "glossary": 734,
-    "articles": 740,
+    "articles": 741,
     "books": 98,
     "research": 294,
     "learning-paths": 12,
@@ -11,12 +11,12 @@
     "rpc": 160,
     "authors": 1,
     "categories": 86,
-    "news": 7960,
+    "news": 8031,
     "newsletters": 25
   },
   "canonicalCounts": {
     "glossary": 717,
-    "articles": 740,
+    "articles": 741,
     "books": 98,
     "research": 294,
     "learning-paths": 12,
@@ -25,21 +25,21 @@
     "rpc": 160,
     "authors": 1,
     "categories": 85,
-    "news": 7927,
+    "news": 7997,
     "newsletters": 25
   },
   "quality": {
-    "rawObjects": 10290,
-    "canonicalObjects": 10238,
+    "rawObjects": 10362,
+    "canonicalObjects": 10309,
     "exactDuplicateRowsRemoved": 0,
-    "canonicalMergeGroups": 46,
-    "canonicalMergeExcessRows": 52,
+    "canonicalMergeGroups": 47,
+    "canonicalMergeExcessRows": 53,
     "duplicateCanonicalUids": 0,
-    "totalEdges": 25955,
+    "totalEdges": 25970,
     "unresolvedRelationships": 436,
     "uniqueMissingConcepts": 394,
     "selfEdgesSkipped": 21,
-    "missingSeoDescription": 8113,
+    "missingSeoDescription": 8183,
     "missingTags": 1002,
     "uncategorized": 428
   },
@@ -597,6 +597,18 @@
       "sourceIds": [
         "6b08126f8aefac1fa52b8e6d",
         "6b07689ee9c342c092bc4caf"
+      ],
+      "mergedRecords": 2,
+      "sourceTypes": [
+        "news"
+      ]
+    },
+    {
+      "uid": "news:mexc-launches-golden-gratitude-gala-with-a-10m-usdt-prize-pool-including-a-gold-bar-and-btc",
+      "title": "MEXC Launches Golden Gratitude Gala With a 10M USDT Prize Pool, Including a Gold Bar and BTC",
+      "sourceIds": [
+        "6b0963846429b1ef04002bf0",
+        "6b0963846429b1ef04002bef"
       ],
       "mergedRecords": 2,
       "sourceTypes": [

@@ -1,6 +1,6 @@
 {
   "version": "2.0.1",
-  "buildId": "3e9480af54dede44",
+  "buildId": "e9cccf6c1e642bf2",
   "nodes": [
     {
       "id": "glossary:blockchain",
@@ -11655,6 +11655,14 @@
       "type": "topic",
       "label": "Healthcare AI Configurations Shift Validation From Model to Workflow",
       "canonicalUrl": "/topics/healthcare-ai-configurations-validate-workflow-not-model",
+      "categoryId": "6a4cfe7ce8ddbcb85df987d3",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "type": "topic",
+      "label": "Canada’s AI Compute Fund Should Buy Portability, Not Dependence",
+      "canonicalUrl": "/topics/canada-ai-compute-fund-portability-not-dependence",
       "categoryId": "6a4cfe7ce8ddbcb85df987d3",
       "difficulty": "intermediate"
     },
@@ -81707,6 +81715,566 @@
       "difficulty": null
     },
     {
+      "id": "news:a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds",
+      "type": "news",
+      "label": "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds",
+      "canonicalUrl": "/news/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express",
+      "type": "news",
+      "label": "‘Very racist’ Netflix SBF series, BitMart’s $319M shortfall: Asia Express",
+      "canonicalUrl": "/news/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bnb-chain-details-new-layer-1-for-trading-private-finance-and-ai",
+      "type": "news",
+      "label": "BNB Chain details new layer-1 for trading, private finance and AI",
+      "canonicalUrl": "/news/bnb-chain-details-new-layer-1-for-trading-private-finance-and-ai",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-completes-withdrawal-recovery-four-weeks-after-6-3b-hack",
+      "type": "news",
+      "label": "Binance completes withdrawal recovery four weeks after $6.3B hack",
+      "canonicalUrl": "/news/binance-completes-withdrawal-recovery-four-weeks-after-6-3b-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:uk-is-getting-it-wrong-on-defi-regulation-says-coinbase",
+      "type": "news",
+      "label": "UK is ‘getting it wrong’ on DeFi regulation, says Coinbase",
+      "canonicalUrl": "/news/uk-is-getting-it-wrong-on-defi-regulation-says-coinbase",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:japan-weighs-tighter-oversight-of-defi-self-custodial-wallets",
+      "type": "news",
+      "label": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
+      "canonicalUrl": "/news/japan-weighs-tighter-oversight-of-defi-self-custodial-wallets",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:spain-moves-to-grant-financial-watchdog-power-to-freeze-crypto-accounts",
+      "type": "news",
+      "label": "Spain moves to grant financial watchdog power to freeze crypto accounts",
+      "canonicalUrl": "/news/spain-moves-to-grant-financial-watchdog-power-to-freeze-crypto-accounts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:crypto-on-notice-as-hawkish-fed-risks-december-meltdown",
+      "type": "news",
+      "label": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
+      "canonicalUrl": "/news/crypto-on-notice-as-hawkish-fed-risks-december-meltdown",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:spain-moves-to-give-authorities-power-to-freeze-crypto-accounts-without-a-court-order",
+      "type": "news",
+      "label": "Spain Moves to Give Authorities Power to Freeze Crypto Accounts Without a Court Order",
+      "canonicalUrl": "/news/spain-moves-to-give-authorities-power-to-freeze-crypto-accounts-without-a-court-order",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-strategic-bitcoin-reserve-bill-would-block-btc-sales-for-20-years",
+      "type": "news",
+      "label": "US Strategic Bitcoin Reserve Bill Would Block BTC Sales for 20 Years",
+      "canonicalUrl": "/news/us-strategic-bitcoin-reserve-bill-would-block-btc-sales-for-20-years",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:michael-saylors-net-worth-plunges-6-billion-the-cost-of-his-bitcoin-bet",
+      "type": "news",
+      "label": "Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet",
+      "canonicalUrl": "/news/michael-saylors-net-worth-plunges-6-billion-the-cost-of-his-bitcoin-bet",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:moneros-delisting-nightmare-continues-xmr-price-plunges-15",
+      "type": "news",
+      "label": "Monero’s Delisting Nightmare Continues: XMR Price Plunges 15%",
+      "canonicalUrl": "/news/moneros-delisting-nightmare-continues-xmr-price-plunges-15",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:pepe-whales-are-sitting-on-21-million-in-tokens-and-one-wallet-keeps-getting-bigger",
+      "type": "news",
+      "label": "PEPE Whales Are Sitting On $21 Million In Tokens, And One Wallet Keeps Getting Bigger",
+      "canonicalUrl": "/news/pepe-whales-are-sitting-on-21-million-in-tokens-and-one-wallet-keeps-getting-bigger",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:layerzero-locks-early-zro-deposits-behind-validators-users-cannot-choose",
+      "type": "news",
+      "label": "LayerZero locks early ZRO deposits behind validators users cannot choose",
+      "canonicalUrl": "/news/layerzero-locks-early-zro-deposits-behind-validators-users-cannot-choose",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:chainlink-jumps-10-as-its-wall-street-ambitions-gain-momentum-on-two-fronts",
+      "type": "news",
+      "label": "Chainlink jumps 10% as its Wall Street ambitions gain momentum on two fronts",
+      "canonicalUrl": "/news/chainlink-jumps-10-as-its-wall-street-ambitions-gain-momentum-on-two-fronts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-60-000-recovery-masks-a-growing-threat-that-could-push-its-price-as-low-as-29-000",
+      "type": "news",
+      "label": "Bitcoin’s $60,000 recovery masks a growing threat that could push its price as low as $29,000",
+      "canonicalUrl": "/news/bitcoins-60-000-recovery-masks-a-growing-threat-that-could-push-its-price-as-low-as-29-000",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:walmarts-black-friday-rollout-reveals-how-ai-agents-could-spend-money-without-controlling-your-wallet",
+      "type": "news",
+      "label": "Walmart’s Black Friday rollout reveals how AI agents could spend money without controlling your wallet",
+      "canonicalUrl": "/news/walmarts-black-friday-rollout-reveals-how-ai-agents-could-spend-money-without-controlling-your-wallet",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:openais-codex-helps-amateur-astronomer-uncover-two-possible-planets-nasas-data-had-missed",
+      "type": "news",
+      "label": "OpenAI’s Codex helps amateur astronomer uncover two possible planets NASA’s data had missed",
+      "canonicalUrl": "/news/openais-codex-helps-amateur-astronomer-uncover-two-possible-planets-nasas-data-had-missed",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-recovery-above-60-000-faces-a-threat-from-japan-while-wall-street-sleeps",
+      "type": "news",
+      "label": "Bitcoin’s recovery above $60,000 faces a threat from Japan while Wall Street sleeps",
+      "canonicalUrl": "/news/bitcoins-recovery-above-60-000-faces-a-threat-from-japan-while-wall-street-sleeps",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ai-agents-can-pass-every-accuracy-test-and-still-put-your-money-at-risk",
+      "type": "news",
+      "label": "AI agents can pass every accuracy test and still put your money at risk",
+      "canonicalUrl": "/news/ai-agents-can-pass-every-accuracy-test-and-still-put-your-money-at-risk",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:the-portfolio-risk-toobits-growth-chief-wants-ai-to-flag-before-a-trade",
+      "type": "news",
+      "label": "The portfolio risk Toobit’s growth chief wants AI to flag before a trade",
+      "canonicalUrl": "/news/the-portfolio-risk-toobits-growth-chief-wants-ai-to-flag-before-a-trade",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:us-government-could-be-barred-from-selling-its-strategic-bitcoin-holdings-for-20-years",
+      "type": "news",
+      "label": "US government could be barred from selling its strategic Bitcoin holdings for 20 years",
+      "canonicalUrl": "/news/us-government-could-be-barred-from-selling-its-strategic-bitcoin-holdings-for-20-years",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoins-recovery-hinges-on-a-us-economic-slowdown-without-a-recession",
+      "type": "news",
+      "label": "Bitcoin’s recovery hinges on a US economic slowdown without a recession",
+      "canonicalUrl": "/news/bitcoins-recovery-hinges-on-a-us-economic-slowdown-without-a-recession",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-says-customer-withdrawals-are-fully-restored-four-weeks-after-the-6-3-billion-hack",
+      "type": "news",
+      "label": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+      "canonicalUrl": "/news/binance-says-customer-withdrawals-are-fully-restored-four-weeks-after-the-6-3-billion-hack",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereums-much-awaited-glamsterdam-upgrade-cleared-for-december-test-heres-what-to-know",
+      "type": "news",
+      "label": "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know",
+      "canonicalUrl": "/news/ethereums-much-awaited-glamsterdam-upgrade-cleared-for-december-test-heres-what-to-know",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays",
+      "type": "news",
+      "label": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
+      "canonicalUrl": "/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ai-is-driving-a-flood-of-crypto-bug-reports-now-its-helping-sort-them",
+      "type": "news",
+      "label": "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
+      "canonicalUrl": "/news/ai-is-driving-a-flood-of-crypto-bug-reports-now-its-helping-sort-them",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:privacy-coins-face-diverging-fortunes-as-kucoin-moves-to-drop-monero",
+      "type": "news",
+      "label": "Privacy coins face diverging fortunes as KuCoin moves to drop Monero",
+      "canonicalUrl": "/news/privacy-coins-face-diverging-fortunes-as-kucoin-moves-to-drop-monero",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-price-below-1-can-a-25-million-options-expiry-change-the-market",
+      "type": "news",
+      "label": "XRP Price Below $1: Can a $25 Million Options Expiry Change the Market?",
+      "canonicalUrl": "/news/xrp-price-below-1-can-a-25-million-options-expiry-change-the-market",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereum-8217-s-co-founder-takes-on-crypto-8217-s-next-security-threat-who-is-vitalik-buterin",
+      "type": "news",
+      "label": "Ethereum&#8217;s Co-Founder Takes On Crypto&#8217;s Next Security Threat. Who Is Vitalik Buterin?",
+      "canonicalUrl": "/news/ethereum-8217-s-co-founder-takes-on-crypto-8217-s-next-security-threat-who-is-vitalik-buterin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:usdt-leads-borrowing-on-four-of-six-defi-protocols-examined-by-europes-banking-watchdog",
+      "type": "news",
+      "label": "USDT leads borrowing on four of six DeFi protocols examined by Europe’s banking watchdog",
+      "canonicalUrl": "/news/usdt-leads-borrowing-on-four-of-six-defi-protocols-examined-by-europes-banking-watchdog",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bought-nvidia-stock-during-the-2017-crypto-boom-you-could-qualify-for-a-290-million-settlement",
+      "type": "news",
+      "label": "Bought Nvidia stock during the 2017 crypto boom? You could qualify for a $290 million settlement",
+      "canonicalUrl": "/news/bought-nvidia-stock-during-the-2017-crypto-boom-you-could-qualify-for-a-290-million-settlement",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:morphos-largest-euro-stablecoin-vault-is-13-8-million-short-of-covering-its-biggest-depositors-exit",
+      "type": "news",
+      "label": "Morpho’s largest euro stablecoin vault is €13.8 million short of covering its biggest depositor’s exit",
+      "canonicalUrl": "/news/morphos-largest-euro-stablecoin-vault-is-13-8-million-short-of-covering-its-biggest-depositors-exit",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:xrp-sellers-could-lose-an-extra-3-146-on-a-large-trade-if-five-accounts-pull-their-buy-orders",
+      "type": "news",
+      "label": "XRP sellers could lose an extra $3,146 on a large trade if five accounts pull their buy orders",
+      "canonicalUrl": "/news/xrp-sellers-could-lose-an-extra-3-146-on-a-large-trade-if-five-accounts-pull-their-buy-orders",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:brazils-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+      "type": "news",
+      "label": "Brazil’s stock exchange teams up with major banks to launch real-pegged stablecoin",
+      "canonicalUrl": "/news/brazils-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
+      "type": "news",
+      "label": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
+      "canonicalUrl": "/news/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-tops-61-000-as-nasdaq-futures-extend-wednesdays-rebound",
+      "type": "news",
+      "label": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
+      "canonicalUrl": "/news/bitcoin-tops-61-000-as-nasdaq-futures-extend-wednesdays-rebound",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:monero-suffers-biggest-single-day-slide-in-over-5-months-heres-why",
+      "type": "news",
+      "label": "Monero suffers biggest single-day slide in over 5 months. Here’s why",
+      "canonicalUrl": "/news/monero-suffers-biggest-single-day-slide-in-over-5-months-heres-why",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ripples-lending-plan-moves-closer-to-tapping-xrp-ledgers-800-million-in-stablecoins",
+      "type": "news",
+      "label": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
+      "canonicalUrl": "/news/ripples-lending-plan-moves-closer-to-tapping-xrp-ledgers-800-million-in-stablecoins",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bluefin-to-shut-down-perps-refocus-on-spot-trading-and-tokenized-rwas",
+      "type": "news",
+      "label": "Bluefin to shut down perps, refocus on spot trading and tokenized RWAs",
+      "canonicalUrl": "/news/bluefin-to-shut-down-perps-refocus-on-spot-trading-and-tokenized-rwas",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:esma-to-overhaul-eus-mica-crypto-register-in-2027",
+      "type": "news",
+      "label": "ESMA to overhaul EU’s MiCA crypto register in 2027",
+      "canonicalUrl": "/news/esma-to-overhaul-eus-mica-crypto-register-in-2027",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:new-york-ag-secures-1-37b-court-judgment-against-novatech-founders",
+      "type": "news",
+      "label": "New York AG secures $1.37B court judgment against NovaTech founders",
+      "canonicalUrl": "/news/new-york-ag-secures-1-37b-court-judgment-against-novatech-founders",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:japans-crypto-security-group-taps-seal-to-speed-up-hack-response",
+      "type": "news",
+      "label": "Japan’s crypto security group taps SEAL to speed up hack response",
+      "canonicalUrl": "/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:dogecoin-price-down-nearly-25-in-november-here-8217-s-what-history-says-about-december",
+      "type": "news",
+      "label": "Dogecoin Price Down Nearly 25% in November: Here&#8217;s What History Says About December.",
+      "canonicalUrl": "/news/dogecoin-price-down-nearly-25-in-november-here-8217-s-what-history-says-about-december",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:mexc-launches-golden-gratitude-gala-with-a-10m-usdt-prize-pool-including-a-gold-bar-and-btc",
+      "type": "news",
+      "label": "MEXC Launches Golden Gratitude Gala With a 10M USDT Prize Pool, Including a Gold Bar and BTC",
+      "canonicalUrl": "/news/mexc-launches-golden-gratitude-gala-with-a-10m-usdt-prize-pool-including-a-gold-bar-and-btc",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:zcash-developers-race-to-secure-crypto-can-quantum-computing-break-bitcoin",
+      "type": "news",
+      "label": "Zcash Developers Race to Secure Crypto. Can Quantum Computing Break Bitcoin?",
+      "canonicalUrl": "/news/zcash-developers-race-to-secure-crypto-can-quantum-computing-break-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:switzerland-is-bringing-bitcoin-self-custody-into-a-global-crypto-tax-reporting-network",
+      "type": "news",
+      "label": "Switzerland is bringing Bitcoin self-custody into a global crypto tax reporting network",
+      "canonicalUrl": "/news/switzerland-is-bringing-bitcoin-self-custody-into-a-global-crypto-tax-reporting-network",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-8217-s-crash-fears-fade-ahead-of-7-5-billion-options-expiry-but-december-tells-a-different-story",
+      "type": "news",
+      "label": "Bitcoin&#8217;s crash fears fade ahead of $7.5 billion options expiry, but December tells a different story",
+      "canonicalUrl": "/news/bitcoin-8217-s-crash-fears-fade-ahead-of-7-5-billion-options-expiry-but-december-tells-a-different-story",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:ethereums-quantum-defense-plans-could-delay-a-major-upgrade-to-stop-transaction-censorship",
+      "type": "news",
+      "label": "Ethereum’s quantum defense plans could delay a major upgrade to stop transaction censorship",
+      "canonicalUrl": "/news/ethereums-quantum-defense-plans-could-delay-a-major-upgrade-to-stop-transaction-censorship",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+      "type": "news",
+      "label": "Kalshi turns to small businesses as legal battles threaten forecasts on sports",
+      "canonicalUrl": "/news/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-death-cross-is-coming-heres-what-happened-after-previous-13",
+      "type": "news",
+      "label": "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
+      "canonicalUrl": "/news/bitcoin-death-cross-is-coming-heres-what-happened-after-previous-13",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+      "type": "news",
+      "label": "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
+      "canonicalUrl": "/news/bitcoin-on-course-to-end-seven-week-losing-streak-while-trailing-stock-rebound",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:live-updates-bitcoins-thanksgiving-gains-prove-fleeting",
+      "type": "news",
+      "label": "Live updates: Bitcoin's Thanksgiving gains prove fleeting",
+      "canonicalUrl": "/news/live-updates-bitcoins-thanksgiving-gains-prove-fleeting",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
+      "type": "news",
+      "label": "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
+      "canonicalUrl": "/news/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
+      "type": "news",
+      "label": "Injective asks SEC to allow order books for tokenized stock trading",
+      "canonicalUrl": "/news/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-price-drops-below-59k-as-anthropic-joins-tech-stock-rebound",
+      "type": "news",
+      "label": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
+      "canonicalUrl": "/news/bitcoin-price-drops-below-59k-as-anthropic-joins-tech-stock-rebound",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:what-was-coinbase-worth-while-nasdaq-was-closed",
+      "type": "news",
+      "label": "What was Coinbase worth while Nasdaq was closed?",
+      "canonicalUrl": "/news/what-was-coinbase-worth-while-nasdaq-was-closed",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:binance-to-launch-tokenized-ipo-program-after-regulatory-approval-yi-he",
+      "type": "news",
+      "label": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
+      "canonicalUrl": "/news/binance-to-launch-tokenized-ipo-program-after-regulatory-approval-yi-he",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:brazils-stock-exchange-pushes-stablecoin-launch-back-to-2027",
+      "type": "news",
+      "label": "Brazil’s stock exchange pushes stablecoin launch back to 2027",
+      "canonicalUrl": "/news/brazils-stock-exchange-pushes-stablecoin-launch-back-to-2027",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:austria-supervised-crypto-firms-report-20-4b-euros-in-h1-trading-volume",
+      "type": "news",
+      "label": "Austria-supervised crypto firms report 20.4B euros in H1 trading volume",
+      "canonicalUrl": "/news/austria-supervised-crypto-firms-report-20-4b-euros-in-h1-trading-volume",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-supply-metric-hits-11-year-low-as-new-capitulation-signal-arrives",
+      "type": "news",
+      "label": "Bitcoin supply metric hits 11-year low as new ‘capitulation’ signal arrives",
+      "canonicalUrl": "/news/bitcoin-supply-metric-hits-11-year-low-as-new-capitulation-signal-arrives",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:hyperliquid-hype-surges-nearly-9-despite-120-million-in-whale-shorts",
+      "type": "news",
+      "label": "Hyperliquid (HYPE) Surges Nearly 9% Despite $120 Million In Whale Shorts",
+      "canonicalUrl": "/news/hyperliquid-hype-surges-nearly-9-despite-120-million-in-whale-shorts",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-whales-accumulate-7-4-billion-in-btc-breaking-a-nine-year-pattern",
+      "type": "news",
+      "label": "Bitcoin Whales Accumulate $7.4 Billion in BTC, Breaking a Nine Year Pattern",
+      "canonicalUrl": "/news/bitcoin-whales-accumulate-7-4-billion-in-btc-breaking-a-nine-year-pattern",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-dodged-one-risk-from-japan-and-now-faces-a-monday-reckoning",
+      "type": "news",
+      "label": "Bitcoin dodged one risk from Japan and now faces a Monday reckoning",
+      "canonicalUrl": "/news/bitcoin-dodged-one-risk-from-japan-and-now-faces-a-monday-reckoning",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:australia-passes-bill-that-would-let-people-sue-ai-chatbot-providers",
+      "type": "news",
+      "label": "Australia passes bill that would let people sue AI chatbot providers",
+      "canonicalUrl": "/news/australia-passes-bill-that-would-let-people-sue-ai-chatbot-providers",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bank-of-england-to-test-how-uk-finance-would-recover-from-an-ai-disruption",
+      "type": "news",
+      "label": "Bank of England to test how UK finance would recover from an AI disruption",
+      "canonicalUrl": "/news/bank-of-england-to-test-how-uk-finance-would-recover-from-an-ai-disruption",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-8217-s-turbulent-week-has-created-a-16-billion-opportunity-for-a-short-squeeze",
+      "type": "news",
+      "label": "Bitcoin&#8217;s turbulent week has created a $16 billion opportunity for a short squeeze",
+      "canonicalUrl": "/news/bitcoin-8217-s-turbulent-week-has-created-a-16-billion-opportunity-for-a-short-squeeze",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:japan-weighs-safeguards-for-bitcoin-holders-who-keep-their-own-keys",
+      "type": "news",
+      "label": "Japan weighs safeguards for Bitcoin holders who keep their own keys",
+      "canonicalUrl": "/news/japan-weighs-safeguards-for-bitcoin-holders-who-keep-their-own-keys",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bit-digital-borrowed-against-ethereum-to-fund-ai-and-now-its-crypto-treasury-is-paying-the-price",
+      "type": "news",
+      "label": "Bit Digital borrowed against Ethereum to fund AI, and now its crypto treasury is paying the price",
+      "canonicalUrl": "/news/bit-digital-borrowed-against-ethereum-to-fund-ai-and-now-its-crypto-treasury-is-paying-the-price",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
+      "id": "news:bitcoin-miners-are-shutting-down-machines-but-mining-just-got-even-harder",
+      "type": "news",
+      "label": "Bitcoin miners are shutting down machines, but mining just got even harder",
+      "canonicalUrl": "/news/bitcoin-miners-are-shutting-down-machines-but-mining-just-got-even-harder",
+      "categoryId": null,
+      "difficulty": null
+    },
+    {
       "id": "newsletter:issue-1-blockchain-foundations",
       "type": "newsletter",
       "label": "The Blockchain Library Weekly — Issue #1",
@@ -90688,6 +91256,14 @@
       "from": "topic:introducing-my-book-catalogue-a-central-hub-for-everything-ive-written",
       "to": "book:everything-token",
       "type": "book",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:introducing-my-book-catalogue-a-central-hub-for-everything-ive-written",
+      "to": "research:introducing-digital-trust-infrastructure",
+      "type": "research",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -102640,6 +103216,14 @@
       "from": "topic:gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
       "to": "glossary:web3-gaming",
       "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
+      "to": "research:a-review-of-dao-governance-recent-literature-and-emerging-trends",
+      "type": "research",
       "source": "base44",
       "strength": 1,
       "category": "articles"
@@ -132522,6 +133106,54 @@
       "type": "research",
       "source": "base44",
       "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:why-ai-is-accelerating-the-importance-of-infrastructure",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:what-comes-after-cloud-decentralized-compute-explained",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:ai-auditors-right-to-publish-not-just-look",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "type": "article",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "glossary:storage",
+      "type": "glossary",
+      "source": "base44",
+      "strength": 1,
+      "category": "articles"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "author:jason-ansell",
+      "type": "reference",
+      "source": "base44",
+      "strength": 0.5,
       "category": "articles"
     },
     {
@@ -214795,6 +215427,12 @@
       "source": "embedded"
     },
     {
+      "from": "topic:introducing-my-book-catalogue-a-central-hub-for-everything-ive-written",
+      "to": "research:introducing-digital-trust-infrastructure",
+      "type": "related-research",
+      "source": "embedded"
+    },
+    {
       "from": "topic:a-guide-swapping-tokens-on-raydium",
       "to": "glossary:price-impact",
       "type": "related-glossary",
@@ -223756,6 +224394,12 @@
       "from": "topic:gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
       "to": "book:the-metaverse",
       "type": "related-book",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:gaming-in-web3-how-play-to-earn-models-are-redefining-entertainment",
+      "to": "research:a-review-of-dao-governance-recent-literature-and-emerging-trends",
+      "type": "related-research",
       "source": "embedded"
     },
     {
@@ -245878,6 +246522,36 @@
       "from": "topic:healthcare-ai-configurations-validate-workflow-not-model",
       "to": "research:blockchain-technology-in-healthcare-a-comprehensive-review-and-directions-for-future-research",
       "type": "related-research",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "glossary:storage",
+      "type": "related-glossary",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:what-comes-after-cloud-decentralized-compute-explained",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:why-ai-is-accelerating-the-importance-of-infrastructure",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:bank-ai-risk-tiers-agency-not-intelligence",
+      "type": "related-article",
+      "source": "embedded"
+    },
+    {
+      "from": "topic:canada-ai-compute-fund-portability-not-dependence",
+      "to": "topic:ai-auditors-right-to-publish-not-just-look",
+      "type": "related-article",
       "source": "embedded"
     },
     {
